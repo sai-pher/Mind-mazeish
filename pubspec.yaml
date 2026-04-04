@@ -1,0 +1,36 @@
+name: mind_maze
+description: Mind Maze — medieval castle trivia game inspired by Microsoft Encarta.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  go_router: ^13.0.0
+  http: ^1.2.1
+  flutter_dotenv: ^5.1.0
+  webview_flutter: ^4.7.0
+  webview_flutter_android: ^3.16.0
+  google_fonts: ^6.2.1
+  lottie: ^3.1.0
+  flutter_animate: ^4.5.0
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.9
+  riverpod_generator: ^2.4.0
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/
