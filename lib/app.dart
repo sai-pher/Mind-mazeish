@@ -42,7 +42,7 @@ class MindMazeApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp.router(
-      title: 'Mind Maze',
+      title: 'Mind Mazeish',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkTheme,
       routerConfig: _router,

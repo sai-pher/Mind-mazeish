@@ -1,4 +1,4 @@
-# Mind Maze — Claude Code Context
+# Mind Mazeish — Claude Code Context
 
 ## Project overview
 Medieval castle trivia game for Android (Flutter). Players answer one trivia
