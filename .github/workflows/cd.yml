@@ -52,10 +52,6 @@ jobs:
           channel: stable
           cache: true
 
-      - name: Create .env
-        run: |
-          echo "ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}" > .env
-
       - name: Install dependencies
         run: flutter pub get
 
@@ -128,11 +124,8 @@ jobs:
           1. Download **${{ steps.apk.outputs.name }}** below
           2. On your Android device: **Settings → Apps → Install unknown apps**
           3. Open the downloaded APK to install
-          4. Add your \`ANTHROPIC_API_KEY\` is baked into the build if the
-             \`ANTHROPIC_API_KEY\` secret was set in the repository; otherwise
-             API calls will fail gracefully with an error card.
 
-          > Signed with the debug keystore — for testing only.
+          > Signed with the debug keystore — for testing only. No API key required.
           EOF
 
       # Creates or updates the rolling `latest-build` pre-release tag.
