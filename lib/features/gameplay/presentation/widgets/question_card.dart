@@ -4,7 +4,7 @@ import '../../../../core/theme/app_theme.dart';
 import '../../domain/models/question.dart';
 
 class QuestionCard extends StatelessWidget {
-  final Question question;
+  final QuizQuestion question;
   final VoidCallback onArticleTap;
 
   const QuestionCard({
@@ -23,7 +23,6 @@ class QuestionCard extends StatelessWidget {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Question text
             Expanded(
               child: Text(
                 question.question,
@@ -35,7 +34,6 @@ class QuestionCard extends StatelessWidget {
               ),
             ),
             const SizedBox(width: 10),
-            // Embedded Wikipedia icon button
             Tooltip(
               message: question.articleTitle,
               child: GestureDetector(
@@ -46,14 +44,10 @@ class QuestionCard extends StatelessWidget {
                     color: AppColors.torchAmber.withValues(alpha: 0.15),
                     borderRadius: BorderRadius.circular(8),
                     border: Border.all(
-                      color: AppColors.torchAmber.withValues(alpha: 0.45),
-                    ),
+                        color: AppColors.torchAmber.withValues(alpha: 0.45)),
                   ),
-                  child: const Icon(
-                    Icons.menu_book,
-                    size: 18,
-                    color: AppColors.torchAmber,
-                  ),
+                  child: const Icon(Icons.menu_book,
+                      size: 18, color: AppColors.torchAmber),
                 ),
               ),
             ),

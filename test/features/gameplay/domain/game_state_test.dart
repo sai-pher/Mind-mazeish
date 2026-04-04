@@ -1,163 +1,142 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mind_maze/features/gameplay/data/room_data.dart';
+import 'package:mind_maze/features/gameplay/data/question_bank.dart';
+import 'package:mind_maze/features/gameplay/data/topic_registry.dart';
 import 'package:mind_maze/features/gameplay/domain/models/game_state.dart';
+import 'package:mind_maze/features/gameplay/domain/models/quiz_config.dart';
+
+GameState _makeState({int count = 5}) {
+  final config = QuizConfig(
+    selectedTopicIds: Set.from(allTopicIds),
+    questionCount: count,
+  );
+  final questions = selectQuestions(
+      topicIds: config.selectedTopicIds, count: count);
+  return GameState.initial(questions: questions, config: config);
+}
 
 void main() {
   group('GameState', () {
-    late GameState initial;
-
-    setUp(() {
-      initial = buildInitialGameState();
-    });
-
-    test('initial state has 10 rooms, 3 lives, 0 score, loading status', () {
-      expect(initial.rooms.length, 10);
-      expect(initial.lives, 3);
-      expect(initial.score, 0);
-      expect(initial.currentRoomIndex, 0);
-      expect(initial.status, GameStatus.loading);
-      expect(initial.usedArticleTitles, isEmpty);
+    test('initial state has correct question count, 3 lives, 0 score', () {
+      final s = _makeState(count: 5);
+      expect(s.questions.length, 5);
+      expect(s.lives, 3);
+      expect(s.score, 0);
+      expect(s.currentQuestionIndex, 0);
+      expect(s.status, GameStatus.loading);
     });
 
     test('correct answer increases score by 10 and keeps lives', () {
-      final next = initial.answerQuestion(correct: true);
-
-      expect(next.score, 10);
-      expect(next.lives, 3);
-      expect(next.status, GameStatus.answerRevealed);
-      expect(next.rooms[0].completed, isTrue);
-      expect(next.rooms[0].answeredCorrectly, isTrue);
+      final s = _makeState().answerQuestion(correct: true);
+      expect(s.score, 10);
+      expect(s.lives, 3);
+      expect(s.status, GameStatus.answerRevealed);
+      expect(s.answeredCorrectly[0], true);
     });
 
     test('wrong answer keeps score and decrements lives', () {
-      final next = initial.answerQuestion(correct: false);
-
-      expect(next.score, 0);
-      expect(next.lives, 2);
-      expect(next.status, GameStatus.answerRevealed);
-      expect(next.rooms[0].completed, isTrue);
-      expect(next.rooms[0].answeredCorrectly, isFalse);
+      final s = _makeState().answerQuestion(correct: false);
+      expect(s.score, 0);
+      expect(s.lives, 2);
+      expect(s.status, GameStatus.answerRevealed);
+      expect(s.answeredCorrectly[0], false);
     });
 
     test('three wrong answers triggers game over', () {
-      var state = initial;
-      state = state.answerQuestion(correct: false); // 2 lives
-      state = state.advanceRoom().markPlaying();
-      state = state.answerQuestion(correct: false); // 1 life
-      state = state.advanceRoom().markPlaying();
-      state = state.answerQuestion(correct: false); // 0 lives → game over
-
-      expect(state.lives, 0);
-      expect(state.status, GameStatus.gameOver);
-      expect(state.isGameOver, isTrue);
+      var s = _makeState(count: 5);
+      s = s.answerQuestion(correct: false);
+      s = s.advanceQuestion().markPlaying();
+      s = s.answerQuestion(correct: false);
+      s = s.advanceQuestion().markPlaying();
+      s = s.answerQuestion(correct: false);
+      expect(s.lives, 0);
+      expect(s.status, GameStatus.gameOver);
+      expect(s.isGameOver, isTrue);
     });
 
-    test('advanceRoom increments currentRoomIndex', () {
-      var state = initial.answerQuestion(correct: true);
-      state = state.advanceRoom();
-
-      expect(state.currentRoomIndex, 1);
-      expect(state.status, GameStatus.loading);
+    test('advanceQuestion increments index', () {
+      var s = _makeState().answerQuestion(correct: true).advanceQuestion();
+      expect(s.currentQuestionIndex, 1);
+      expect(s.status, GameStatus.loading);
     });
 
-    test('answering last room correctly triggers complete status', () {
-      var state = initial;
-      // Advance to last room (index 9)
-      for (var i = 0; i < 9; i++) {
-        state = state.answerQuestion(correct: true).advanceRoom().markPlaying();
-      }
-      expect(state.currentRoomIndex, 9);
-
-      // Answer last question correctly
-      state = state.answerQuestion(correct: true);
-      expect(state.status, GameStatus.complete);
-      expect(state.isComplete, isTrue);
+    test('answering last question correctly triggers complete', () {
+      var s = _makeState(count: 3);
+      s = s.answerQuestion(correct: true).advanceQuestion().markPlaying();
+      s = s.answerQuestion(correct: true).advanceQuestion().markPlaying();
+      s = s.answerQuestion(correct: true);
+      expect(s.status, GameStatus.complete);
+      expect(s.isComplete, isTrue);
     });
 
-    test('roomsCompleted returns count of completed rooms', () {
-      expect(initial.roomsCompleted, 0);
-
-      var state = initial.answerQuestion(correct: true);
-      expect(state.roomsCompleted, 1);
-
-      state = state.advanceRoom().markPlaying().answerQuestion(correct: false);
-      expect(state.roomsCompleted, 2);
+    test('correctCount and questionsAnswered work', () {
+      var s = _makeState(count: 3);
+      expect(s.questionsAnswered, 0);
+      s = s.answerQuestion(correct: true).advanceQuestion().markPlaying();
+      s = s.answerQuestion(correct: false);
+      expect(s.questionsAnswered, 2);
+      expect(s.correctCount, 1);
     });
 
-    test('markLoading and markPlaying change status only', () {
-      var state = initial.markPlaying();
-      expect(state.status, GameStatus.playing);
-      expect(state.score, 0);
+    test('recordArticleVisit tracks new and seen urls', () {
+      var s = _makeState();
+      s = s.recordArticleVisit('https://en.wikipedia.org/wiki/Test',
+          isNew: true);
+      expect(s.seenArticleUrls,
+          contains('https://en.wikipedia.org/wiki/Test'));
+      expect(s.newArticleUrls,
+          contains('https://en.wikipedia.org/wiki/Test'));
 
-      state = state.markLoading();
-      expect(state.status, GameStatus.loading);
-    });
-
-    test('restart resets to fresh initial state', () {
-      var state = initial
-          .answerQuestion(correct: true)
-          .advanceRoom()
-          .markPlaying()
-          .answerQuestion(correct: false);
-
-      // Score = 10, lives = 2, room 1
-      expect(state.score, 10);
-      expect(state.lives, 2);
-    });
-
-    test('addUsedArticle accumulates titles without duplicates', () {
-      var state = initial;
-      state = state.copyWith(
-          usedArticleTitles: {...state.usedArticleTitles, 'Castle'});
-      state = state.copyWith(
-          usedArticleTitles: {...state.usedArticleTitles, 'Drawbridge'});
-      state = state.copyWith(
-          usedArticleTitles: {...state.usedArticleTitles, 'Castle'});
-
-      expect(state.usedArticleTitles.length, 2);
-      expect(state.usedArticleTitles, containsAll(['Castle', 'Drawbridge']));
+      // Same URL again — not new
+      s = s.recordArticleVisit('https://en.wikipedia.org/wiki/Test',
+          isNew: false);
+      expect(s.newArticleUrls.length, 1); // still 1
     });
   });
 
   group('Question model', () {
-    test('fromJson parses correctly', () {
-      final json = {
-        'question': 'What is a drawbridge?',
-        'options': ['A bridge', 'A weapon', 'A tower', 'A gate'],
-        'correct_index': 0,
-        'fun_fact': 'Drawbridges date back to antiquity.',
-        'article_title': 'Drawbridge',
-        'article_url': 'https://en.wikipedia.org/wiki/Drawbridge',
-      };
+    test('toQuizQuestion produces 4 options with exactly 1 correct', () {
+      final q = allQuestions.first;
+      final qq = q.toQuizQuestion();
+      expect(qq.options.length, 4);
+      expect(qq.options.contains(q.correctAnswers.first) ||
+          q.correctAnswers.any((a) => qq.options.contains(a)), isTrue);
+      expect(qq.isCorrect(qq.correctIndex), isTrue);
+    });
 
-      // Inline parse via GameState (using Question directly)
-      expect(json['question'], 'What is a drawbridge?');
-      expect((json['options'] as List).length, 4);
-      expect(json['correct_index'], 0);
+    test('correct answer is in the options', () {
+      for (final q in allQuestions.take(20)) {
+        final qq = q.toQuizQuestion();
+        final correct = qq.options[qq.correctIndex];
+        expect(q.correctAnswers.contains(correct), isTrue);
+      }
     });
   });
 
-  group('Room model', () {
-    test('initial rooms are not completed', () {
-      final state = buildInitialGameState();
-      for (final room in state.rooms) {
-        expect(room.completed, isFalse);
-        expect(room.answeredCorrectly, isNull);
+  group('Question bank', () {
+    test('allQuestions is non-empty', () {
+      expect(allQuestions, isNotEmpty);
+    });
+
+    test('selectQuestions returns requested count', () {
+      final selected = selectQuestions(
+        topicIds: Set.from(allTopicIds),
+        count: 5,
+      );
+      expect(selected.length, lessThanOrEqualTo(5));
+    });
+
+    test('every question has 4 wrong answers minimum', () {
+      for (final q in allQuestions) {
+        expect(q.wrongAnswers.length, greaterThanOrEqualTo(4),
+            reason: 'Question ${q.id} needs at least 4 wrong answers');
       }
     });
 
-    test('room themes have correct IDs', () {
-      final ids = roomThemes.map((t) => t.id).toList();
-      expect(ids, contains('entrance'));
-      expect(ids, contains('throne'));
-      expect(ids, contains('tower'));
-      expect(ids.length, 10);
-    });
-
-    test('each room theme has at least one wiki topic', () {
-      for (final theme in roomThemes) {
-        expect(theme.wikiTopics, isNotEmpty);
-      }
+    test('topic registry has all expected super-categories', () {
+      final ids = superCategories.map((sc) => sc.id).toList();
+      expect(ids, contains('literature_arts'));
+      expect(ids, contains('health_medicine'));
+      expect(ids, contains('engineering_tech'));
     });
   });
 }

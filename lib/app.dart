@@ -1,38 +1,34 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import 'core/theme/app_theme.dart';
 import 'features/start/presentation/screens/start_screen.dart';
+import 'features/start/presentation/screens/topic_picker_screen.dart';
 import 'features/gameplay/presentation/screens/gameplay_screen.dart';
 import 'features/article_viewer/presentation/screens/article_screen.dart';
 import 'features/results/presentation/screens/results_screen.dart';
+import 'features/notebook/presentation/screens/notebook_screen.dart';
 
 final _router = GoRouter(
   initialLocation: '/',
   routes: [
-    GoRoute(
-      path: '/',
-      builder: (context, state) => const StartScreen(),
-    ),
-    GoRoute(
-      path: '/game',
-      builder: (context, state) => const GameplayScreen(),
-    ),
+    GoRoute(path: '/', builder: (_, __) => const StartScreen()),
+    GoRoute(path: '/topics', builder: (_, __) => const TopicPickerScreen()),
+    GoRoute(path: '/game', builder: (_, __) => const GameplayScreen()),
     GoRoute(
       path: '/article',
-      builder: (context, state) {
+      builder: (_, state) {
         final extra = state.extra as Map<String, String>?;
         return ArticleScreen(
           url: extra?['url'] ?? '',
           title: extra?['title'] ?? 'Wikipedia',
+          topicId: extra?['topicId'],
         );
       },
     ),
-    GoRoute(
-      path: '/results',
-      builder: (context, state) => const ResultsScreen(),
-    ),
+    GoRoute(path: '/results', builder: (_, __) => const ResultsScreen()),
+    GoRoute(path: '/notebook', builder: (_, __) => const NotebookScreen()),
   ],
 );
 
