@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'core/theme/app_theme.dart';
+import 'features/start/presentation/screens/start_screen.dart';
 import 'features/gameplay/presentation/screens/gameplay_screen.dart';
 import 'features/article_viewer/presentation/screens/article_screen.dart';
 import 'features/results/presentation/screens/results_screen.dart';
@@ -12,6 +13,10 @@ final _router = GoRouter(
   routes: [
     GoRoute(
       path: '/',
+      builder: (context, state) => const StartScreen(),
+    ),
+    GoRoute(
+      path: '/game',
       builder: (context, state) => const GameplayScreen(),
     ),
     GoRoute(
