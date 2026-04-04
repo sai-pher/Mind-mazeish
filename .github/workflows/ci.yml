@@ -44,13 +44,6 @@ jobs:
           channel: stable
           cache: true
 
-      # .env must exist on disk — it is declared as a Flutter asset.
-      # For CI we write an empty placeholder; real API calls are not made
-      # during analyze or unit tests.
-      - name: Create .env placeholder
-        run: |
-          echo "ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}" > .env
-
       - name: Install dependencies
         run: flutter pub get
 

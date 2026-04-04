@@ -20,46 +20,41 @@ class QuestionCard extends StatelessWidget {
     return Card(
       child: Padding(
         padding: const EdgeInsets.all(16),
-        child: Column(
+        child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              question.question,
-              style: textTheme.bodyLarge?.copyWith(
-                fontWeight: FontWeight.w600,
-                fontSize: 16,
-                color: AppColors.textDark,
+            // Question text
+            Expanded(
+              child: Text(
+                question.question,
+                style: textTheme.bodyLarge?.copyWith(
+                  fontWeight: FontWeight.w600,
+                  fontSize: 16,
+                  color: AppColors.textDark,
+                ),
               ),
             ),
-            const SizedBox(height: 12),
-            GestureDetector(
-              onTap: onArticleTap,
-              child: Row(
-                children: [
-                  const Icon(
-                    Icons.menu_book,
-                    size: 15,
-                    color: AppColors.torchAmber,
-                  ),
-                  const SizedBox(width: 5),
-                  Expanded(
-                    child: Text(
-                      'Source: ${question.articleTitle}',
-                      style: textTheme.bodySmall?.copyWith(
-                        color: AppColors.torchAmber,
-                        decoration: TextDecoration.underline,
-                        decorationColor: AppColors.torchAmber,
-                        fontSize: 12,
-                      ),
-                      overflow: TextOverflow.ellipsis,
+            const SizedBox(width: 10),
+            // Embedded Wikipedia icon button
+            Tooltip(
+              message: question.articleTitle,
+              child: GestureDetector(
+                onTap: onArticleTap,
+                child: Container(
+                  padding: const EdgeInsets.all(7),
+                  decoration: BoxDecoration(
+                    color: AppColors.torchAmber.withValues(alpha: 0.15),
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(
+                      color: AppColors.torchAmber.withValues(alpha: 0.45),
                     ),
                   ),
-                  const Icon(
-                    Icons.open_in_new,
-                    size: 12,
+                  child: const Icon(
+                    Icons.menu_book,
+                    size: 18,
                     color: AppColors.torchAmber,
                   ),
-                ],
+                ),
               ),
             ),
           ],
@@ -80,16 +75,23 @@ class QuestionCardSkeleton extends StatelessWidget {
     return const Card(
       child: Padding(
         padding: EdgeInsets.all(16),
-        child: Column(
+        child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            _SkeletonLine(width: double.infinity, height: 14),
-            SizedBox(height: 8),
-            _SkeletonLine(width: double.infinity, height: 14),
-            SizedBox(height: 8),
-            _SkeletonLine(width: 200, height: 14),
-            SizedBox(height: 16),
-            _SkeletonLine(width: 160, height: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  _SkeletonLine(width: double.infinity, height: 14),
+                  SizedBox(height: 8),
+                  _SkeletonLine(width: double.infinity, height: 14),
+                  SizedBox(height: 8),
+                  _SkeletonLine(width: 200, height: 14),
+                ],
+              ),
+            ),
+            SizedBox(width: 10),
+            _SkeletonLine(width: 34, height: 34),
           ],
         ),
       ),

@@ -103,7 +103,6 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
   Widget build(BuildContext context) {
     final gameState = ref.watch(gameStateProvider);
     final questionAsync = ref.watch(questionProvider);
-    final mode = ref.watch(questionModeProvider);
     final room = gameState.currentRoom;
 
     return PopScope(
@@ -151,7 +150,6 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
           roomName: room.name,
           score: gameState.score,
           lives: gameState.lives,
-          mode: mode,
         ),
         body: Column(
         children: [
@@ -178,7 +176,7 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
                         children: [
                           QuestionCard(
                             question: question,
-                            onArticleTap: () => context.go(
+                            onArticleTap: () => context.push(
                               '/article',
                               extra: {
                                 'url': question.articleUrl,
@@ -227,7 +225,7 @@ class _RoomIllustration extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.30,
+      height: MediaQuery.of(context).size.height * 0.26,
       width: double.infinity,
       color: AppColors.stoneDark,
       child: Stack(
@@ -240,20 +238,19 @@ class _RoomIllustration extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(
-                _roomIcon(roomId),
-                size: 64,
-                color: AppColors.torchAmber.withValues(alpha: 0.7),
+              Text(
+                _roomEmoji(roomId),
+                style: const TextStyle(fontSize: 60),
               )
                   .animate(onPlay: (c) => c.repeat(reverse: true))
                   .custom(
                     duration: 3000.ms,
                     builder: (context, value, child) => Opacity(
-                      opacity: 0.6 + (value * 0.15),
+                      opacity: 0.75 + (value * 0.25),
                       child: child,
                     ),
                   ),
-              const SizedBox(height: 6),
+              const SizedBox(height: 4),
             ],
           ),
         ],
@@ -261,19 +258,19 @@ class _RoomIllustration extends StatelessWidget {
     );
   }
 
-  IconData _roomIcon(String id) {
+  String _roomEmoji(String id) {
     return switch (id) {
-      'entrance' => Icons.castle,
-      'throne' => Icons.chair,
-      'library' => Icons.library_books,
-      'dungeon' => Icons.lock,
-      'chapel' => Icons.church,
-      'armory' => Icons.shield,
-      'kitchen' => Icons.restaurant,
-      'observatory' => Icons.nights_stay,
-      'garden' => Icons.local_florist,
-      'tower' => Icons.location_city,
-      _ => Icons.castle,
+      'entrance'    => '🏰',
+      'throne'      => '👑',
+      'library'     => '📜',
+      'dungeon'     => '⛓️',
+      'chapel'      => '⛪',
+      'armory'      => '⚔️',
+      'kitchen'     => '🌶️',
+      'observatory' => '🔭',
+      'garden'      => '⚗️',
+      'tower'       => '🏹',
+      _             => '🏰',
     };
   }
 }

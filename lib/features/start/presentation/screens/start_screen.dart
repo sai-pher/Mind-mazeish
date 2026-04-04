@@ -55,11 +55,11 @@ class StartScreen extends StatelessWidget {
                         .slideY(begin: -0.2, end: 0, duration: 700.ms),
 
                     Text(
-                      'MAZE',
+                      'MAZEISH',
                       style: textTheme.displayLarge?.copyWith(
-                        fontSize: 52,
+                        fontSize: 42,
                         color: AppColors.torchGold,
-                        letterSpacing: 8,
+                        letterSpacing: 6,
                       ),
                       textAlign: TextAlign.center,
                     )
