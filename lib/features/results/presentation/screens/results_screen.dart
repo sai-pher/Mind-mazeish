@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
@@ -17,97 +18,277 @@ class ResultsScreen extends ConsumerWidget {
 
     final isGameOver = gameState.status == GameStatus.gameOver;
     final roomsCompleted = gameState.roomsCompleted;
+    final stars = _starCount(gameState.score, roomsCompleted);
 
     return Scaffold(
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(24),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                isGameOver ? 'Game Over' : 'Quest Complete!',
-                style: textTheme.displayMedium,
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 8),
-              Text(
-                isGameOver
-                    ? 'The dungeon has claimed you…'
-                    : 'You have conquered the castle!',
-                style: textTheme.headlineSmall?.copyWith(
-                  color: AppColors.textLight.withValues(alpha: 0.7),
-                ),
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 40),
-              _StatRow(label: 'Final Score', value: '${gameState.score}'),
-              const SizedBox(height: 12),
-              _StatRow(label: 'Rooms Explored', value: '$roomsCompleted / 10'),
-              const SizedBox(height: 12),
-              _StatRow(
-                  label: 'Lives Remaining', value: '${gameState.lives} / 3'),
-              const SizedBox(height: 48),
-              SizedBox(
-                width: double.infinity,
-                child: ElevatedButton(
-                  onPressed: () {
-                    ref.read(gameStateProvider.notifier).restart();
-                    ref.read(questionProvider.notifier).reset();
-                    context.go('/');
-                  },
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: AppColors.torchAmber,
-                    foregroundColor: AppColors.textDark,
-                    padding: const EdgeInsets.symmetric(vertical: 16),
-                  ),
-                  child: Text(
-                    'Enter the Castle Again',
-                    style: textTheme.labelLarge?.copyWith(
-                      color: AppColors.textDark,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _StatRow extends StatelessWidget {
-  final String label;
-  final String value;
-
-  const _StatRow({required this.label, required this.value});
-
-  @override
-  Widget build(BuildContext context) {
-    final textTheme = Theme.of(context).textTheme;
-
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
-      decoration: BoxDecoration(
-        color: AppColors.stone,
-        borderRadius: BorderRadius.circular(8),
-        border: Border.all(color: AppColors.stoneMid),
-      ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      body: Stack(
         children: [
-          Text(label, style: textTheme.labelLarge),
-          Text(
-            value,
-            style: textTheme.labelLarge?.copyWith(
-              color: AppColors.torchAmber,
-              fontWeight: FontWeight.bold,
+          // Background
+          Positioned.fill(
+            child: CustomPaint(
+              painter: _ResultsBackgroundPainter(isGameOver: isGameOver),
+            ),
+          ),
+
+          SafeArea(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 24),
+              child: Column(
+                children: [
+                  const SizedBox(height: 20),
+
+                  // Trophy / skull icon
+                  Icon(
+                    isGameOver ? Icons.sentiment_very_dissatisfied : Icons.emoji_events,
+                    size: 72,
+                    color: isGameOver
+                        ? AppColors.dangerRed
+                        : AppColors.torchGold,
+                  )
+                      .animate()
+                      .scale(
+                        begin: const Offset(0.4, 0.4),
+                        end: const Offset(1, 1),
+                        duration: 600.ms,
+                        curve: Curves.elasticOut,
+                      )
+                      .fadeIn(duration: 300.ms),
+
+                  const SizedBox(height: 16),
+
+                  // Headline
+                  Text(
+                    isGameOver ? 'Game Over' : 'Quest Complete!',
+                    style: textTheme.displayMedium,
+                    textAlign: TextAlign.center,
+                  )
+                      .animate()
+                      .fadeIn(duration: 500.ms, delay: 200.ms)
+                      .slideY(begin: -0.1, end: 0, duration: 400.ms),
+
+                  const SizedBox(height: 6),
+
+                  Text(
+                    isGameOver
+                        ? 'The dungeon has claimed you…'
+                        : 'You have mastered the castle!',
+                    style: textTheme.headlineSmall?.copyWith(
+                      color: AppColors.textLight.withValues(alpha: 0.65),
+                      fontSize: 14,
+                    ),
+                    textAlign: TextAlign.center,
+                  ).animate().fadeIn(duration: 400.ms, delay: 350.ms),
+
+                  const SizedBox(height: 24),
+
+                  // Star rating
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: List.generate(3, (i) {
+                      return Icon(
+                        i < stars ? Icons.star : Icons.star_border,
+                        color: AppColors.torchGold,
+                        size: 36,
+                      )
+                          .animate()
+                          .scale(
+                            begin: const Offset(0, 0),
+                            end: const Offset(1, 1),
+                            duration: 400.ms,
+                            delay: Duration(milliseconds: 500 + (i * 150)),
+                            curve: Curves.elasticOut,
+                          );
+                    }),
+                  ),
+
+                  const SizedBox(height: 28),
+
+                  // Divider
+                  Container(
+                    height: 1,
+                    color: AppColors.stoneMid,
+                  ).animate().fadeIn(duration: 300.ms, delay: 600.ms),
+
+                  const SizedBox(height: 20),
+
+                  // Stat rows
+                  ...[
+                    _StatRow(
+                      icon: Icons.military_tech,
+                      label: 'Final Score',
+                      value: '${gameState.score}',
+                      delay: 650,
+                    ),
+                    _StatRow(
+                      icon: Icons.explore,
+                      label: 'Rooms Explored',
+                      value: '$roomsCompleted / 10',
+                      delay: 750,
+                    ),
+                    _StatRow(
+                      icon: Icons.favorite,
+                      label: 'Lives Remaining',
+                      value: '${gameState.lives} / 3',
+                      delay: 850,
+                      valueColor: gameState.lives > 0
+                          ? AppColors.dangerRed
+                          : AppColors.stoneMid,
+                    ),
+                    _StatRow(
+                      icon: Icons.percent,
+                      label: 'Accuracy',
+                      value: _accuracy(gameState),
+                      delay: 950,
+                    ),
+                  ].expand((w) => [w, const SizedBox(height: 10)]).toList()
+                    ..removeLast(),
+
+                  const SizedBox(height: 32),
+
+                  // Restart button
+                  SizedBox(
+                    width: double.infinity,
+                    child: ElevatedButton(
+                      onPressed: () {
+                        ref.read(gameStateProvider.notifier).restart();
+                        ref.read(questionProvider.notifier).reset();
+                        context.go('/');
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: isGameOver
+                            ? AppColors.torchAmber
+                            : AppColors.torchGold,
+                        foregroundColor: AppColors.textDark,
+                        padding: const EdgeInsets.symmetric(vertical: 18),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(6),
+                        ),
+                      ),
+                      child: Text(
+                        'Enter the Castle Again',
+                        style: textTheme.displaySmall?.copyWith(
+                          color: AppColors.textDark,
+                          fontSize: 17,
+                        ),
+                      ),
+                    ),
+                  )
+                      .animate()
+                      .fadeIn(duration: 400.ms, delay: 1000.ms)
+                      .slideY(begin: 0.2, end: 0, duration: 400.ms),
+
+                  const SizedBox(height: 16),
+                ],
+              ),
             ),
           ),
         ],
       ),
     );
   }
+
+  int _starCount(int score, int roomsCompleted) {
+    if (roomsCompleted == 10 && score >= 80) return 3;
+    if (roomsCompleted >= 6 && score >= 40) return 2;
+    if (score >= 10) return 1;
+    return 0;
+  }
+
+  String _accuracy(GameState state) {
+    final completed = state.rooms.where((r) => r.completed).toList();
+    if (completed.isEmpty) return '—';
+    final correct = completed.where((r) => r.answeredCorrectly == true).length;
+    final pct = (correct / completed.length * 100).round();
+    return '$correct/${completed.length} ($pct%)';
+  }
+}
+
+class _StatRow extends StatelessWidget {
+  final IconData icon;
+  final String label;
+  final String value;
+  final int delay;
+  final Color? valueColor;
+
+  const _StatRow({
+    required this.icon,
+    required this.label,
+    required this.value,
+    required this.delay,
+    this.valueColor,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+      decoration: BoxDecoration(
+        color: AppColors.stone,
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: AppColors.stoneMid),
+      ),
+      child: Row(
+        children: [
+          Icon(icon, color: AppColors.torchAmber, size: 18),
+          const SizedBox(width: 10),
+          Expanded(child: Text(label, style: textTheme.labelLarge)),
+          Text(
+            value,
+            style: textTheme.labelLarge?.copyWith(
+              color: valueColor ?? AppColors.torchAmber,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ],
+      ),
+    )
+        .animate()
+        .fadeIn(duration: 300.ms, delay: Duration(milliseconds: delay))
+        .slideX(begin: 0.1, end: 0, duration: 300.ms);
+  }
+}
+
+class _ResultsBackgroundPainter extends CustomPainter {
+  final bool isGameOver;
+
+  const _ResultsBackgroundPainter({required this.isGameOver});
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    canvas.drawRect(
+      Offset.zero & size,
+      Paint()..color = AppColors.background,
+    );
+
+    final stonePaint = Paint()
+      ..color = AppColors.stone.withValues(alpha: 0.2)
+      ..style = PaintingStyle.fill;
+
+    // Subtle pillar lines at sides
+    canvas.drawRect(Rect.fromLTWH(0, 0, size.width * 0.06, size.height),
+        stonePaint);
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.94, 0, size.width * 0.06, size.height),
+        stonePaint);
+
+    // Ambient glow
+    final glowColor = isGameOver ? AppColors.dangerRed : AppColors.torchGold;
+    final glowPaint = Paint()
+      ..color = glowColor.withValues(alpha: 0.05)
+      ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 80);
+    canvas.drawCircle(
+        Offset(size.width / 2, size.height * 0.25), 180, glowPaint);
+
+    final amberPaint = Paint()
+      ..color = AppColors.torchAmber.withValues(alpha: 0.04)
+      ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 60);
+    canvas.drawCircle(Offset(0, size.height), 100, amberPaint);
+    canvas.drawCircle(Offset(size.width, size.height), 100, amberPaint);
+  }
+
+  @override
+  bool shouldRepaint(_ResultsBackgroundPainter old) =>
+      old.isGameOver != isGameOver;
 }

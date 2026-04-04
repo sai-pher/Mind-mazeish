@@ -105,13 +105,53 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
     final questionAsync = ref.watch(questionProvider);
     final room = gameState.currentRoom;
 
-    return Scaffold(
-      appBar: RoomHeader(
-        roomName: room.name,
-        score: gameState.score,
-        lives: gameState.lives,
-      ),
-      body: Column(
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, _) async {
+        if (didPop) return;
+        final leave = await showDialog<bool>(
+          context: context,
+          builder: (ctx) => AlertDialog(
+            backgroundColor: AppColors.stoneDark,
+            title: Text(
+              'Abandon the Quest?',
+              style: Theme.of(ctx).textTheme.headlineSmall?.copyWith(
+                    color: AppColors.torchAmber,
+                  ),
+            ),
+            content: Text(
+              'Your progress will be lost.',
+              style: Theme.of(ctx).textTheme.bodyMedium?.copyWith(
+                    color: AppColors.textLight,
+                  ),
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.of(ctx).pop(false),
+                child: const Text('Stay',
+                    style: TextStyle(color: AppColors.torchAmber)),
+              ),
+              TextButton(
+                onPressed: () => Navigator.of(ctx).pop(true),
+                child: const Text('Leave',
+                    style: TextStyle(color: AppColors.dangerRed)),
+              ),
+            ],
+          ),
+        );
+        if (leave == true && context.mounted) {
+          ref.read(gameStateProvider.notifier).restart();
+          ref.read(questionProvider.notifier).reset();
+          context.go('/');
+        }
+      },
+      child: Scaffold(
+        appBar: RoomHeader(
+          roomName: room.name,
+          score: gameState.score,
+          lives: gameState.lives,
+        ),
+        body: Column(
         children: [
           // Room illustration
           _RoomIllustration(roomId: room.id),
@@ -168,6 +208,7 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
           ),
         ],
       ),
+    ),
     );
   }
 }
