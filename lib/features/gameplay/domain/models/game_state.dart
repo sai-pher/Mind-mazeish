@@ -1,64 +1,89 @@
-import 'room.dart';
+import 'question.dart';
+import 'quiz_config.dart';
 
 enum GameStatus { idle, loading, playing, answerRevealed, gameOver, complete }
 
 class GameState {
-  final List<Room> rooms;
-  final int currentRoomIndex;
+  final List<QuizQuestion> questions;
+  final int currentQuestionIndex;
   final int score;
   final int lives;
   final GameStatus status;
-  final Set<String> usedArticleTitles;
+  final QuizConfig config;
+  final Set<String> seenArticleUrls;
+  final Set<String> newArticleUrls;
+  final List<bool?> answeredCorrectly;
 
   const GameState({
-    required this.rooms,
-    required this.currentRoomIndex,
+    required this.questions,
+    required this.currentQuestionIndex,
     required this.score,
     required this.lives,
     required this.status,
-    required this.usedArticleTitles,
+    required this.config,
+    required this.seenArticleUrls,
+    required this.newArticleUrls,
+    required this.answeredCorrectly,
   });
 
-  Room get currentRoom => rooms[currentRoomIndex];
+  factory GameState.initial({
+    required List<QuizQuestion> questions,
+    required QuizConfig config,
+  }) {
+    return GameState(
+      questions: questions,
+      currentQuestionIndex: 0,
+      score: 0,
+      lives: 3,
+      status: GameStatus.loading,
+      config: config,
+      seenArticleUrls: const {},
+      newArticleUrls: const {},
+      answeredCorrectly: List.filled(questions.length, null),
+    );
+  }
+
+  QuizQuestion get currentQuestion => questions[currentQuestionIndex];
   bool get isGameOver => lives <= 0 || status == GameStatus.gameOver;
   bool get isComplete =>
-      currentRoomIndex >= rooms.length || status == GameStatus.complete;
-  int get roomsCompleted => rooms.where((r) => r.completed).length;
+      currentQuestionIndex >= questions.length || status == GameStatus.complete;
+  int get questionsAnswered => answeredCorrectly.where((a) => a != null).length;
+  int get correctCount => answeredCorrectly.where((a) => a == true).length;
 
   GameState copyWith({
-    List<Room>? rooms,
-    int? currentRoomIndex,
+    List<QuizQuestion>? questions,
+    int? currentQuestionIndex,
     int? score,
     int? lives,
     GameStatus? status,
-    Set<String>? usedArticleTitles,
+    QuizConfig? config,
+    Set<String>? seenArticleUrls,
+    Set<String>? newArticleUrls,
+    List<bool?>? answeredCorrectly,
   }) {
     return GameState(
-      rooms: rooms ?? this.rooms,
-      currentRoomIndex: currentRoomIndex ?? this.currentRoomIndex,
+      questions: questions ?? this.questions,
+      currentQuestionIndex: currentQuestionIndex ?? this.currentQuestionIndex,
       score: score ?? this.score,
       lives: lives ?? this.lives,
       status: status ?? this.status,
-      usedArticleTitles: usedArticleTitles ?? this.usedArticleTitles,
+      config: config ?? this.config,
+      seenArticleUrls: seenArticleUrls ?? this.seenArticleUrls,
+      newArticleUrls: newArticleUrls ?? this.newArticleUrls,
+      answeredCorrectly: answeredCorrectly ?? this.answeredCorrectly,
     );
   }
 
   GameState answerQuestion({required bool correct}) {
-    final updatedRooms = List<Room>.from(rooms);
-    updatedRooms[currentRoomIndex] = updatedRooms[currentRoomIndex].copyWith(
-      completed: true,
-      answeredCorrectly: correct,
-    );
-
+    final updated = List<bool?>.from(answeredCorrectly);
+    updated[currentQuestionIndex] = correct;
     final newScore = correct ? score + 10 : score;
     final newLives = correct ? lives : lives - 1;
-
     final isNowGameOver = newLives <= 0;
     final isNowComplete =
-        !isNowGameOver && currentRoomIndex >= rooms.length - 1;
-
+        !isNowGameOver && currentQuestionIndex >= questions.length - 1;
     return copyWith(
-      rooms: updatedRooms,
+      answeredCorrectly: updated,
       score: newScore,
       lives: newLives,
       status: isNowGameOver
@@ -69,22 +94,20 @@ class GameState {
     );
   }
 
-  GameState advanceRoom() {
+  GameState advanceQuestion() {
     if (isGameOver || isComplete) return this;
-    final nextIndex = currentRoomIndex + 1;
-    if (nextIndex >= rooms.length) {
-      return copyWith(status: GameStatus.complete);
-    }
-    return copyWith(
-      currentRoomIndex: nextIndex,
-      status: GameStatus.loading,
-    );
+    final next = currentQuestionIndex + 1;
+    if (next >= questions.length) return copyWith(status: GameStatus.complete);
+    return copyWith(currentQuestionIndex: next, status: GameStatus.loading);
   }
 
   GameState markLoading() => copyWith(status: GameStatus.loading);
   GameState markPlaying() => copyWith(status: GameStatus.playing);
 
-  @override
-  String toString() =>
-      'GameState(room: $currentRoomIndex, score: $score, lives: $lives, status: $status)';
+  GameState recordArticleVisit(String url, {required bool isNew}) {
+    return copyWith(
+      seenArticleUrls: {...seenArticleUrls, url},
+      newArticleUrls: isNew ? {...newArticleUrls, url} : newArticleUrls,
+    );
+  }
 }

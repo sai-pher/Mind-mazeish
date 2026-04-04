@@ -1,38 +1,49 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import '../../data/room_data.dart';
+import '../../data/question_bank.dart';
 import '../../domain/models/game_state.dart';
+import '../../domain/models/quiz_config.dart';
 
-class GameStateNotifier extends Notifier<GameState> {
+class GameStateNotifier extends Notifier<GameState?> {
   @override
-  GameState build() => buildInitialGameState();
+  GameState? build() => null;
 
-  void answerQuestion({required bool correct}) {
-    state = state.answerQuestion(correct: correct);
+  void startGame(QuizConfig config) {
+    final questions = selectQuestions(
+      topicIds: config.selectedTopicIds,
+      count: config.questionCount,
+    );
+    state = GameState.initial(questions: questions, config: config);
   }
 
-  void advanceRoom() {
-    state = state.advanceRoom();
+  void answerQuestion({required bool correct}) {
+    if (state == null) return;
+    state = state!.answerQuestion(correct: correct);
+  }
+
+  void advanceQuestion() {
+    if (state == null) return;
+    state = state!.advanceQuestion();
   }
 
   void markLoading() {
-    state = state.markLoading();
+    if (state == null) return;
+    state = state!.markLoading();
   }
 
   void markPlaying() {
-    state = state.markPlaying();
+    if (state == null) return;
+    state = state!.markPlaying();
+  }
+
+  void recordArticleVisit(String url, {required bool isNew}) {
+    if (state == null) return;
+    state = state!.recordArticleVisit(url, isNew: isNew);
   }
 
   void restart() {
-    state = buildInitialGameState();
-  }
-
-  void addUsedArticle(String title) {
-    state = state.copyWith(
-      usedArticleTitles: {...state.usedArticleTitles, title},
-    );
+    state = null;
   }
 }
 
 final gameStateProvider =
-    NotifierProvider<GameStateNotifier, GameState>(GameStateNotifier.new);
+    NotifierProvider<GameStateNotifier, GameState?>(GameStateNotifier.new);
