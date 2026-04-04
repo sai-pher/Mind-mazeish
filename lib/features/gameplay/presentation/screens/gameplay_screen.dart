@@ -103,6 +103,7 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
   Widget build(BuildContext context) {
     final gameState = ref.watch(gameStateProvider);
     final questionAsync = ref.watch(questionProvider);
+    final mode = ref.watch(questionModeProvider);
     final room = gameState.currentRoom;
 
     return PopScope(
@@ -150,6 +151,7 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
           roomName: room.name,
           score: gameState.score,
           lives: gameState.lives,
+          mode: mode,
         ),
         body: Column(
         children: [
