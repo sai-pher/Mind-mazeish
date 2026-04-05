@@ -116,7 +116,21 @@ class StartScreen extends ConsumerWidget {
                               color: AppColors.torchAmber)),
                     ).animate().fadeIn(duration: 400.ms, delay: 800.ms),
 
-                    const SizedBox(height: 16),
+                    const SizedBox(height: 4),
+
+                    // Feedback button
+                    TextButton.icon(
+                      onPressed: () => context.push('/feedback'),
+                      icon: Icon(Icons.feedback_outlined,
+                          size: 18,
+                          color: AppColors.textLight.withValues(alpha: 0.55)),
+                      label: Text('Feedback',
+                          style: textTheme.labelMedium?.copyWith(
+                              color: AppColors.textLight
+                                  .withValues(alpha: 0.55))),
+                    ).animate().fadeIn(duration: 400.ms, delay: 900.ms),
+
+                    const SizedBox(height: 8),
                     _VersionBadge()
                         .animate()
                         .fadeIn(duration: 400.ms, delay: 1000.ms),
