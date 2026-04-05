@@ -1,0 +1,103 @@
+[
+  {
+    "id": "fl_001",
+    "question": "Which French author wrote \"Les Misérables\"?",
+    "correctAnswers": [
+      "Victor Hugo"
+    ],
+    "wrongAnswers": [
+      "Gustave Flaubert",
+      "Albert Camus",
+      "Émile Zola",
+      "Alexandre Dumas",
+      "Honoré de Balzac",
+      "Stendhal"
+    ],
+    "funFact": "Victor Hugo's Les Misérables contains one of the longest sentences in the French language — a single sentence of 823 words.",
+    "articleTitle": "Victor Hugo",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Victor_Hugo",
+    "topicId": "french_literature",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fl_002",
+    "question": "Albert Camus won the Nobel Prize in Literature in which year?",
+    "correctAnswers": [
+      "1957"
+    ],
+    "wrongAnswers": [
+      "1945",
+      "1952",
+      "1963",
+      "1969",
+      "1948",
+      "1960",
+      "1955"
+    ],
+    "funFact": "Camus, at 43, was the second-youngest laureate ever when he received the Nobel Prize in Literature.",
+    "articleTitle": "Albert Camus",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Albert_Camus",
+    "topicId": "french_literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fl_003",
+    "question": "Gustave Flaubert's 1857 novel \"Madame Bovary\" was initially prosecuted for what offence?",
+    "correctAnswers": [
+      "Immorality and offence against public morals"
+    ],
+    "wrongAnswers": [
+      "Blasphemy",
+      "Sedition against the state",
+      "Plagiarism",
+      "Libel against a living person",
+      "Copyright infringement"
+    ],
+    "funFact": "Flaubert was acquitted, and the trial's publicity made Madame Bovary a bestseller.",
+    "articleTitle": "Gustave Flaubert",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Madame_Bovary",
+    "topicId": "french_literature",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fl_004",
+    "question": "Simone de Beauvoir's 1949 work \"The Second Sex\" is foundational to which movement?",
+    "correctAnswers": [
+      "Feminist philosophy",
+      "Existentialist feminism"
+    ],
+    "wrongAnswers": [
+      "Structuralism",
+      "Surrealism",
+      "Absurdism",
+      "Marxist theory",
+      "Post-colonialism",
+      "Deconstruction"
+    ],
+    "funFact": "The Second Sex was put on the Catholic Church's Index of Forbidden Books upon publication.",
+    "articleTitle": "Simone de Beauvoir",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Simone_de_Beauvoir",
+    "topicId": "french_literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fl_005",
+    "question": "Which philosophical and literary movement, prominent in post-war France, was associated with Sartre and Camus?",
+    "correctAnswers": [
+      "Existentialism"
+    ],
+    "wrongAnswers": [
+      "Surrealism",
+      "Symbolism",
+      "Naturalism",
+      "Romanticism",
+      "Structuralism",
+      "Dadaism"
+    ],
+    "funFact": "Jean-Paul Sartre famously declined the Nobel Prize in Literature in 1964, the only person to voluntarily decline it.",
+    "articleTitle": "Existentialism",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Existentialism",
+    "topicId": "french_literature",
+    "difficulty": "easy"
+  }
+]

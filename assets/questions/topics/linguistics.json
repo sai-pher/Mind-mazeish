@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ling_001",
+    "question": "What branch of linguistics studies the sound systems of languages?",
+    "correctAnswers": [
+      "Phonology"
+    ],
+    "wrongAnswers": [
+      "Syntax",
+      "Morphology",
+      "Semantics",
+      "Pragmatics",
+      "Sociolinguistics",
+      "Lexicology"
+    ],
+    "funFact": "Human languages collectively use about 800 distinct phonemes, but any individual language uses only 11–100 of them.",
+    "articleTitle": "Phonology",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Phonology",
+    "topicId": "linguistics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ling_002",
+    "question": "The field of linguistics that studies the rules governing sentence structure is called what?",
+    "correctAnswers": [
+      "Syntax"
+    ],
+    "wrongAnswers": [
+      "Phonology",
+      "Semantics",
+      "Morphology",
+      "Pragmatics",
+      "Etymology",
+      "Lexicology"
+    ],
+    "funFact": "Noam Chomsky's theory of Universal Grammar proposes that all human languages share an innate structural framework in the brain.",
+    "articleTitle": "Syntax",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Syntax",
+    "topicId": "linguistics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ling_003",
+    "question": "The \"critical period hypothesis\" in linguistics suggests language is best acquired when?",
+    "correctAnswers": [
+      "In early childhood, before puberty"
+    ],
+    "wrongAnswers": [
+      "In adolescence",
+      "Between ages 10 and 15",
+      "Throughout life equally",
+      "In adulthood through formal study",
+      "Only in infancy (before age 2)"
+    ],
+    "funFact": "Studies of isolated children (like Genie, discovered in 1970) support the critical period hypothesis — she never fully acquired grammar despite later intervention.",
+    "articleTitle": "Language acquisition",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Language_acquisition#Critical_period_hypothesis",
+    "topicId": "linguistics",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ling_004",
+    "question": "How many living languages are estimated to exist in the world today?",
+    "correctAnswers": [
+      "Around 7,000"
+    ],
+    "wrongAnswers": [
+      "Around 1,000",
+      "Around 3,000",
+      "Around 15,000",
+      "Around 500",
+      "Around 10,000",
+      "Around 20,000"
+    ],
+    "funFact": "About 40% of the world's languages are endangered, with many having fewer than 1,000 speakers.",
+    "articleTitle": "Linguistics",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Linguistics",
+    "topicId": "linguistics",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ling_005",
+    "question": "The Sapir-Whorf hypothesis proposes that language structure affects what?",
+    "correctAnswers": [
+      "Thought and perception"
+    ],
+    "wrongAnswers": [
+      "Physical brain size",
+      "Mathematical ability",
+      "Social hierarchy",
+      "Genetic inheritance",
+      "Writing systems"
+    ],
+    "funFact": "The Hopi language reportedly has no tenses, which was once cited as evidence that Hopi speakers perceive time differently — though this claim has since been disputed.",
+    "articleTitle": "Linguistic relativity",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Linguistic_relativity",
+    "topicId": "linguistics",
+    "difficulty": "hard"
+  }
+]

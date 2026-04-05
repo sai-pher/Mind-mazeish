@@ -1,0 +1,98 @@
+[
+  {
+    "id": "wafrica_001",
+    "question": "The Mali Empire at its peak in the 14th century was known for being the world's largest source of which commodity?",
+    "correctAnswers": [
+      "Gold"
+    ],
+    "wrongAnswers": [
+      "Salt",
+      "Ivory",
+      "Copper",
+      "Iron",
+      "Spices",
+      "Diamonds"
+    ],
+    "funFact": "Mansa Musa I of Mali made a pilgrimage to Mecca in 1324 with so much gold that his generosity caused rampant inflation across Egypt and the Arab world for over a decade.",
+    "articleTitle": "Mali Empire",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Mali_Empire",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_002",
+    "question": "The city of Timbuktu, now in Mali, was historically renowned as a major centre of what?",
+    "correctAnswers": [
+      "Islamic scholarship and trade"
+    ],
+    "wrongAnswers": [
+      "Military conquest",
+      "Maritime trade",
+      "Metalworking",
+      "Textile production",
+      "Diamond mining"
+    ],
+    "funFact": "Timbuktu's Sankore University in the 15th–16th centuries had up to 25,000 students and housed hundreds of thousands of manuscripts, many of which are being digitised today.",
+    "articleTitle": "Timbuktu",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Timbuktu",
+    "topicId": "west_african_history",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wafrica_003",
+    "question": "The Songhai Empire, which replaced the Mali Empire in the 15th century, was eventually destroyed by invasion from which country?",
+    "correctAnswers": [
+      "Morocco"
+    ],
+    "wrongAnswers": [
+      "Portugal",
+      "Egypt",
+      "France",
+      "Ottoman Empire",
+      "Mali",
+      "Ashanti"
+    ],
+    "funFact": "The 1591 Moroccan invasion used firearms — a technology the Songhai army largely lacked. This battle is often cited as a turning point ending the great Sahelian empires.",
+    "articleTitle": "Songhai Empire",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Songhai_Empire",
+    "topicId": "west_african_history",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wafrica_004",
+    "question": "The Ashanti Empire in present-day Ghana was known for its highly organised governance centred on what sacred object?",
+    "correctAnswers": [
+      "The Golden Stool (Sika dwa)"
+    ],
+    "wrongAnswers": [
+      "The Golden Mask",
+      "The Silver Throne",
+      "The Royal Elephant Tusk",
+      "The Iron Sword"
+    ],
+    "funFact": "The Golden Stool was said to have descended from the sky and was believed to contain the soul of the Ashanti nation. The British demand to sit on it in 1900 triggered the War of the Golden Stool.",
+    "articleTitle": "Ashanti Empire",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Ashanti_Empire",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_005",
+    "question": "Approximately how many enslaved Africans were transported to the Americas during the Atlantic slave trade?",
+    "correctAnswers": [
+      "Around 12 million"
+    ],
+    "wrongAnswers": [
+      "Around 1 million",
+      "Around 5 million",
+      "Around 25 million",
+      "Around 8 million",
+      "Around 20 million"
+    ],
+    "funFact": "West Africa accounted for the majority of those enslaved — the trade lasted from roughly 1500 to 1900, though its peak was in the 18th century.",
+    "articleTitle": "Atlantic slave trade",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Atlantic_slave_trade",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  }
+]

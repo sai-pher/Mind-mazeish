@@ -1,0 +1,80 @@
+[
+  {
+    "id": "pharm_001",
+    "question": "What is the term for the study of how drugs interact with the body?",
+    "correctAnswers": [
+      "Pharmacology"
+    ],
+    "wrongAnswers": [
+      "Pharmacokinetics",
+      "Toxicology",
+      "Biochemistry",
+      "Physiology",
+      "Immunology",
+      "Pathology"
+    ],
+    "funFact": "The word \"pharmacology\" comes from the Greek \"pharmakon\" meaning \"drug\" or \"poison\" — the same root as \"pharmacy.\"",
+    "articleTitle": "Pharmacology",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Pharmacology",
+    "topicId": "pharmaceutical_drugs",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pharm_002",
+    "question": "Which pain-relieving drug, discovered through willow bark, became one of the world's most common medicines?",
+    "correctAnswers": [
+      "Aspirin (acetylsalicylic acid)"
+    ],
+    "wrongAnswers": [
+      "Paracetamol",
+      "Ibuprofen",
+      "Morphine",
+      "Codeine",
+      "Naproxen",
+      "Diclofenac"
+    ],
+    "funFact": "Aspirin is both an analgesic and an antiplatelet agent — it's prescribed in low doses to prevent heart attacks and strokes.",
+    "articleTitle": "Aspirin",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Aspirin",
+    "topicId": "pharmaceutical_drugs",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pharm_003",
+    "question": "What is the name of the process by which the body breaks down and eliminates drugs?",
+    "correctAnswers": [
+      "Drug metabolism",
+      "Pharmacokinetics"
+    ],
+    "wrongAnswers": [
+      "Drug synthesis",
+      "Pharmacodynamics",
+      "Drug absorption",
+      "Bioavailability",
+      "Drug efficacy"
+    ],
+    "funFact": "Most drug metabolism occurs in the liver via enzymes of the cytochrome P450 family — genetic variations in these enzymes can make the same dose vastly different in effect across individuals.",
+    "articleTitle": "Drug metabolism",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Drug_metabolism",
+    "topicId": "pharmaceutical_drugs",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pharm_004",
+    "question": "What is a \"double-blind\" clinical trial?",
+    "correctAnswers": [
+      "Neither the participants nor the researchers know who receives the active treatment"
+    ],
+    "wrongAnswers": [
+      "Only participants know their treatment group",
+      "Both eyes are covered during treatment",
+      "All participants receive the same treatment",
+      "Only one control group is used"
+    ],
+    "funFact": "Double-blind trials were pioneered in the mid-20th century. Before then, many treatments — including some truly ineffective ones — were believed to work simply due to the placebo effect.",
+    "articleTitle": "Blinded experiment",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Blinded_experiment",
+    "topicId": "pharmaceutical_drugs",
+    "difficulty": "medium"
+  }
+]

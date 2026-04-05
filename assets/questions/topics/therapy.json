@@ -1,0 +1,77 @@
+[
+  {
+    "id": "ther_001",
+    "question": "CBT stands for which type of psychotherapy?",
+    "correctAnswers": [
+      "Cognitive Behavioural Therapy"
+    ],
+    "wrongAnswers": [
+      "Cognitive Bias Treatment",
+      "Central Brain Therapy",
+      "Complete Behaviour Therapy",
+      "Controlled Breathing Technique"
+    ],
+    "funFact": "CBT was developed by Aaron Beck in the 1960s, who noticed that his depressed patients had spontaneous negative thoughts he called \"automatic thoughts.\"",
+    "articleTitle": "Cognitive behavioral therapy",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Cognitive_behavioral_therapy",
+    "topicId": "therapy",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ther_002",
+    "question": "DBT (Dialectical Behaviour Therapy) was originally developed by Marsha Linehan to treat which condition?",
+    "correctAnswers": [
+      "Borderline personality disorder"
+    ],
+    "wrongAnswers": [
+      "Schizophrenia",
+      "Major depressive disorder",
+      "PTSD",
+      "Bipolar disorder",
+      "Generalised anxiety disorder"
+    ],
+    "funFact": "Marsha Linehan later disclosed that she herself had been diagnosed with BPD — a revelation that significantly reduced stigma around the condition.",
+    "articleTitle": "Dialectical behavior therapy",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Dialectical_behavior_therapy",
+    "topicId": "therapy",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ther_003",
+    "question": "Sigmund Freud's psychoanalytic theory centred on what concept involving hidden mental processes?",
+    "correctAnswers": [
+      "The unconscious mind"
+    ],
+    "wrongAnswers": [
+      "Cognitive distortions",
+      "Neural plasticity",
+      "Conditioned reflexes",
+      "Schemata",
+      "Attachment theory"
+    ],
+    "funFact": "Freud believed the unconscious mind was like an iceberg — the conscious mind (the visible tip) is vastly smaller than the hidden unconscious below.",
+    "articleTitle": "Psychoanalysis",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Psychoanalysis",
+    "topicId": "therapy",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ther_004",
+    "question": "EMDR therapy uses bilateral stimulation (often eye movements) to treat which condition?",
+    "correctAnswers": [
+      "PTSD (Post-Traumatic Stress Disorder)"
+    ],
+    "wrongAnswers": [
+      "Obsessive-Compulsive Disorder",
+      "Bipolar disorder",
+      "Schizophrenia",
+      "Attention deficit disorder",
+      "Eating disorders"
+    ],
+    "funFact": "The World Health Organization recommends EMDR as an evidence-based treatment for PTSD in adults.",
+    "articleTitle": "Eye movement desensitization and reprocessing",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Eye_movement_desensitization_and_reprocessing",
+    "topicId": "therapy",
+    "difficulty": "medium"
+  }
+]

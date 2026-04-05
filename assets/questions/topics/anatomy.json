@@ -1,0 +1,83 @@
+[
+  {
+    "id": "anat_001",
+    "question": "How many bones does the adult human body contain?",
+    "correctAnswers": [
+      "206"
+    ],
+    "wrongAnswers": [
+      "180",
+      "230",
+      "300",
+      "150",
+      "250",
+      "196",
+      "212"
+    ],
+    "funFact": "Babies are born with around 270–300 bones. Many of these fuse together during childhood, resulting in the adult count of 206.",
+    "articleTitle": "Human skeleton",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Human_skeleton",
+    "topicId": "anatomy",
+    "difficulty": "easy"
+  },
+  {
+    "id": "anat_002",
+    "question": "Which is the largest organ in the human body?",
+    "correctAnswers": [
+      "The skin"
+    ],
+    "wrongAnswers": [
+      "The liver",
+      "The small intestine",
+      "The brain",
+      "The lungs",
+      "The stomach",
+      "The large intestine"
+    ],
+    "funFact": "The skin accounts for about 15% of body weight and, when spread flat, covers roughly 2 square metres in an average adult.",
+    "articleTitle": "Human skin",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Human_skin",
+    "topicId": "anatomy",
+    "difficulty": "easy"
+  },
+  {
+    "id": "anat_003",
+    "question": "The human heart has how many chambers?",
+    "correctAnswers": [
+      "4"
+    ],
+    "wrongAnswers": [
+      "2",
+      "3",
+      "6",
+      "5",
+      "8",
+      "1"
+    ],
+    "funFact": "The heart beats about 100,000 times per day, pumping roughly 7,500 litres of blood through approximately 96,000 km of blood vessels.",
+    "articleTitle": "Heart",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Heart#Chambers",
+    "topicId": "anatomy",
+    "difficulty": "easy"
+  },
+  {
+    "id": "anat_004",
+    "question": "Which part of the brain is primarily responsible for balance and coordination?",
+    "correctAnswers": [
+      "The cerebellum"
+    ],
+    "wrongAnswers": [
+      "The cerebrum",
+      "The brain stem",
+      "The thalamus",
+      "The hippocampus",
+      "The amygdala",
+      "The prefrontal cortex"
+    ],
+    "funFact": "Although the cerebellum accounts for only 10% of the brain's volume, it contains more than 50% of the total number of neurons.",
+    "articleTitle": "Cerebellum",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Cerebellum",
+    "topicId": "anatomy",
+    "difficulty": "medium"
+  }
+]

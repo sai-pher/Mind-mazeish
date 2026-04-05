@@ -1,0 +1,78 @@
+[
+  {
+    "id": "adhd_001",
+    "question": "What does ADHD stand for?",
+    "correctAnswers": [
+      "Attention Deficit Hyperactivity Disorder"
+    ],
+    "wrongAnswers": [
+      "Attention Deficit Hyperactive Disorder",
+      "Active Deficit Hyperactivity Disorder",
+      "Attention Disorder Hyperactivity Deficit",
+      "Attention Deficit Hypersensitivity Disorder"
+    ],
+    "funFact": "ADHD affects approximately 5–7% of children and 2–5% of adults worldwide, making it one of the most common neurodevelopmental conditions.",
+    "articleTitle": "Attention deficit hyperactivity disorder",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder",
+    "topicId": "adhd",
+    "difficulty": "easy"
+  },
+  {
+    "id": "adhd_002",
+    "question": "Methylphenidate, a common ADHD medication, is sold under which well-known brand name?",
+    "correctAnswers": [
+      "Ritalin"
+    ],
+    "wrongAnswers": [
+      "Adderall",
+      "Concerta",
+      "Strattera",
+      "Wellbutrin",
+      "Prozac",
+      "Vyvanse"
+    ],
+    "funFact": "Methylphenidate was first synthesised in 1944 and approved for medical use in 1955. Despite being a stimulant, it typically has a calming effect on people with ADHD.",
+    "articleTitle": "Methylphenidate",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Methylphenidate",
+    "topicId": "adhd",
+    "difficulty": "medium"
+  },
+  {
+    "id": "adhd_003",
+    "question": "ADHD is currently understood to involve differences in which brain-based functions?",
+    "correctAnswers": [
+      "Executive functions"
+    ],
+    "wrongAnswers": [
+      "Motor coordination only",
+      "Language processing",
+      "Visual processing",
+      "Long-term memory storage",
+      "Emotional recognition"
+    ],
+    "funFact": "Executive functions include working memory, impulse control, and planning — ADHD impacts these more than sustained attention per se.",
+    "articleTitle": "Executive functions",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Executive_functions",
+    "topicId": "adhd",
+    "difficulty": "medium"
+  },
+  {
+    "id": "adhd_004",
+    "question": "ADHD was previously known by what name in earlier editions of the DSM?",
+    "correctAnswers": [
+      "ADD (Attention Deficit Disorder)",
+      "Minimal Brain Dysfunction"
+    ],
+    "wrongAnswers": [
+      "Hyperkinetic Disorder",
+      "Childhood Hyperactivity",
+      "Attention Behaviour Disorder",
+      "Cognitive Deficit Syndrome"
+    ],
+    "funFact": "The first description of ADHD-like symptoms appeared in a German poem by Heinrich Hoffmann in 1845, featuring a character called \"Fidgety Philip.\"",
+    "articleTitle": "Attention deficit hyperactivity disorder",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder#History",
+    "topicId": "adhd",
+    "difficulty": "hard"
+  }
+]

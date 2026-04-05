@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tennis_001",
+    "question": "How many Grand Slam singles titles did Serena Williams win in her career?",
+    "correctAnswers": [
+      "23"
+    ],
+    "wrongAnswers": [
+      "18",
+      "20",
+      "15",
+      "25",
+      "22",
+      "17",
+      "30"
+    ],
+    "funFact": "Serena Williams won her 23rd Grand Slam title at the 2017 Australian Open while in the first trimester of pregnancy.",
+    "articleTitle": "Serena Williams",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_002",
+    "question": "Wimbledon uses which playing surface?",
+    "correctAnswers": [
+      "Grass"
+    ],
+    "wrongAnswers": [
+      "Clay",
+      "Hard court",
+      "Carpet",
+      "Artificial grass",
+      "Sand",
+      "Concrete"
+    ],
+    "funFact": "Wimbledon's courts use 100% perennial ryegrass, cut to precisely 8mm. The courts are reseeded every year after the championships.",
+    "articleTitle": "Wimbledon Championships",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Wimbledon_Championships#Courts",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_003",
+    "question": "What score is referred to as \"deuce\" in tennis?",
+    "correctAnswers": [
+      "40-40"
+    ],
+    "wrongAnswers": [
+      "30-30",
+      "15-15",
+      "0-0",
+      "30-40",
+      "15-40",
+      "Game point"
+    ],
+    "funFact": "The word \"deuce\" likely comes from the French \"à deux le jeu\" (to both the game), though the exact etymology is disputed.",
+    "articleTitle": "Tennis",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Tennis#Scoring",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_004",
+    "question": "Roger Federer won a record-equalling 20 Grand Slam singles titles before Djokovic and Nadal surpassed him. At which tournament did he win his first?",
+    "correctAnswers": [
+      "Wimbledon 2003"
+    ],
+    "wrongAnswers": [
+      "US Open 2001",
+      "French Open 2005",
+      "Australian Open 2004",
+      "Wimbledon 2001",
+      "US Open 2003"
+    ],
+    "funFact": "Federer spent a record 310 weeks as world number one over his career, a record later broken by Novak Djokovic.",
+    "articleTitle": "Roger Federer",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Roger_Federer",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_005",
+    "question": "Which annual tennis tournament is played on red clay in Paris?",
+    "correctAnswers": [
+      "Roland Garros (French Open)"
+    ],
+    "wrongAnswers": [
+      "Wimbledon",
+      "US Open",
+      "Australian Open",
+      "Cincinnati Masters",
+      "Rome Masters",
+      "Monte Carlo Masters"
+    ],
+    "funFact": "Roland Garros is named after a French aviator who was the first person to fly across the Mediterranean Sea.",
+    "articleTitle": "French Open",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/French_Open",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_006",
+    "question": "In what year did open tennis (allowing professionals alongside amateurs) begin?",
+    "correctAnswers": [
+      "1968"
+    ],
+    "wrongAnswers": [
+      "1960",
+      "1972",
+      "1945",
+      "1980",
+      "1955",
+      "1950"
+    ],
+    "funFact": "Before 1968, professionals were banned from Grand Slams. The \"Open Era\" transformed tennis into a fully professional sport.",
+    "articleTitle": "Open Era",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Open_Era",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  }
+]

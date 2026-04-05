@@ -1,0 +1,58 @@
+[
+  {
+    "id": "aut_001",
+    "question": "Autism is currently classified as a \"spectrum\" disorder. What does this mean?",
+    "correctAnswers": [
+      "It encompasses a wide range of presentations and support needs"
+    ],
+    "wrongAnswers": [
+      "It involves a colour perception difference",
+      "It varies only in severity of one trait",
+      "It is caused by a spectrum of genes",
+      "It affects people differently by age group"
+    ],
+    "funFact": "The term \"autism spectrum\" replaced earlier separate diagnoses like Asperger syndrome in the DSM-5 (2013) to better reflect the full range of presentations.",
+    "articleTitle": "Autism spectrum",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Autism_spectrum",
+    "topicId": "autism",
+    "difficulty": "easy"
+  },
+  {
+    "id": "aut_002",
+    "question": "Leo Kanner first formally described autism in his landmark 1943 paper. What institution was he at?",
+    "correctAnswers": [
+      "Johns Hopkins University"
+    ],
+    "wrongAnswers": [
+      "Harvard University",
+      "Yale University",
+      "Columbia University",
+      "University of Vienna",
+      "University of Chicago"
+    ],
+    "funFact": "Kanner's 1943 paper described 11 children with similar features — he coined the term \"early infantile autism,\" from the Greek \"autos\" meaning \"self.\"",
+    "articleTitle": "Leo Kanner",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Leo_Kanner",
+    "topicId": "autism",
+    "difficulty": "hard"
+  },
+  {
+    "id": "aut_003",
+    "question": "Current scientific consensus indicates that autism is caused primarily by what?",
+    "correctAnswers": [
+      "A combination of genetic and environmental factors"
+    ],
+    "wrongAnswers": [
+      "Childhood vaccines",
+      "Poor parenting",
+      "Birth trauma alone",
+      "Diet during pregnancy",
+      "Air pollution only"
+    ],
+    "funFact": "Studies of identical twins show a heritability of autism around 64–91%, making it one of the most heritable of all neurodevelopmental conditions.",
+    "articleTitle": "Causes of autism",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Causes_of_autism",
+    "topicId": "autism",
+    "difficulty": "easy"
+  }
+]

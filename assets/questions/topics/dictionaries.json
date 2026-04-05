@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dict_001",
+    "question": "The Oxford English Dictionary (OED) is considered the most authoritative dictionary of which language?",
+    "correctAnswers": [
+      "English"
+    ],
+    "wrongAnswers": [
+      "Latin",
+      "French",
+      "German",
+      "Spanish",
+      "Italian",
+      "Greek"
+    ],
+    "funFact": "The OED took 70 years to compile its first edition (1857–1928), and the full second edition contains over 600,000 word forms.",
+    "articleTitle": "Oxford English Dictionary",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Oxford_English_Dictionary",
+    "topicId": "dictionaries",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dict_002",
+    "question": "Samuel Johnson published his famous dictionary of the English language in which year?",
+    "correctAnswers": [
+      "1755"
+    ],
+    "wrongAnswers": [
+      "1725",
+      "1780",
+      "1700",
+      "1812",
+      "1600",
+      "1850"
+    ],
+    "funFact": "Johnson wrote his entire dictionary largely alone — most dictionaries of comparable scope are compiled by teams of dozens or hundreds of lexicographers.",
+    "articleTitle": "A Dictionary of the English Language",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/A_Dictionary_of_the_English_Language",
+    "topicId": "dictionaries",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dict_003",
+    "question": "What word describes a book that lists words and their synonyms?",
+    "correctAnswers": [
+      "Thesaurus"
+    ],
+    "wrongAnswers": [
+      "Lexicon",
+      "Glossary",
+      "Concordance",
+      "Almanac",
+      "Encyclopaedia",
+      "Index"
+    ],
+    "funFact": "The word \"thesaurus\" comes from Greek meaning \"treasury\" or \"storehouse\" — Peter Mark Roget published the first modern thesaurus in 1852.",
+    "articleTitle": "Thesaurus",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Thesaurus",
+    "topicId": "dictionaries",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dict_004",
+    "question": "What is the term for the scholarly study of the history and development of words?",
+    "correctAnswers": [
+      "Etymology"
+    ],
+    "wrongAnswers": [
+      "Lexicography",
+      "Phonology",
+      "Philology",
+      "Morphology",
+      "Semantics",
+      "Orthography"
+    ],
+    "funFact": "The English word \"nice\" originally meant \"foolish or stupid\" in the 13th century, then successively meant \"lascivious,\" \"extravagant,\" and \"precise\" before arriving at its modern meaning.",
+    "articleTitle": "Etymology",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Etymology",
+    "topicId": "dictionaries",
+    "difficulty": "medium"
+  }
+]

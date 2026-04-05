@@ -1,0 +1,61 @@
+[
+  {
+    "id": "perf_001",
+    "question": "What is the world's most expensive perfume ingredient, derived from the intestine of sperm whales?",
+    "correctAnswers": [
+      "Ambergris"
+    ],
+    "wrongAnswers": [
+      "Musk",
+      "Civet",
+      "Oud",
+      "Orris",
+      "Vetiver",
+      "Jasmine absolute"
+    ],
+    "funFact": "Ambergris floats on the ocean for years before washing ashore, where it was historically found by beachcombers and sold for enormous sums.",
+    "articleTitle": "Ambergris",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Ambergris",
+    "topicId": "perfumes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "perf_002",
+    "question": "The fragrance pyramid describes a perfume's notes in three layers. Which evaporates first?",
+    "correctAnswers": [
+      "Top notes"
+    ],
+    "wrongAnswers": [
+      "Base notes",
+      "Heart notes",
+      "Middle notes",
+      "All evaporate equally",
+      "Woody notes"
+    ],
+    "funFact": "Top notes (like citrus) are the first scent you detect but last only 15–30 minutes. Base notes (like sandalwood) emerge last and linger for hours.",
+    "articleTitle": "Fragrance pyramid",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Fragrance_pyramid",
+    "topicId": "perfumes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "perf_003",
+    "question": "Grasse, in southern France, is considered the world capital of which industry?",
+    "correctAnswers": [
+      "Perfume (fragrance)"
+    ],
+    "wrongAnswers": [
+      "Wine",
+      "Cheese",
+      "Silk",
+      "Lavender farming",
+      "Cosmetics",
+      "Fashion"
+    ],
+    "funFact": "Grasse has been the centre of the perfume industry since the 17th century. The city produces roughly two-thirds of France's natural aromas.",
+    "articleTitle": "Grasse",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Grasse",
+    "topicId": "perfumes",
+    "difficulty": "medium"
+  }
+]

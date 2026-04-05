@@ -1,0 +1,59 @@
+[
+  {
+    "id": "shoe_001",
+    "question": "The world's oldest leather shoe, found in Armenia, dates to approximately how many years ago?",
+    "correctAnswers": [
+      "5,500 years ago"
+    ],
+    "wrongAnswers": [
+      "2,000 years ago",
+      "10,000 years ago",
+      "3,000 years ago",
+      "1,000 years ago",
+      "8,000 years ago"
+    ],
+    "funFact": "The Armenian shoe, discovered in 2008, was stuffed with grass — perhaps as insulation or to keep its shape.",
+    "articleTitle": "Shoe",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Shoe#History",
+    "topicId": "footwear",
+    "difficulty": "hard"
+  },
+  {
+    "id": "shoe_002",
+    "question": "High heels were originally worn by whom in 10th-century Persia?",
+    "correctAnswers": [
+      "Male horse riders (cavalry soldiers)"
+    ],
+    "wrongAnswers": [
+      "Female royalty",
+      "Priests",
+      "Actors in theatres",
+      "Noblewomen in courts",
+      "Dancers"
+    ],
+    "funFact": "Persian heels helped keep feet in stirrups while riding. European nobility adopted them as a status symbol in the 17th century — at which point women adopted them too.",
+    "articleTitle": "High-heeled shoe",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/High-heeled_shoe#History",
+    "topicId": "footwear",
+    "difficulty": "medium"
+  },
+  {
+    "id": "shoe_003",
+    "question": "Nike takes its name from which ancient Greek deity?",
+    "correctAnswers": [
+      "Nike, goddess of victory"
+    ],
+    "wrongAnswers": [
+      "Hermes, messenger of the gods",
+      "Athena, goddess of wisdom",
+      "Ares, god of war",
+      "Apollo, god of the sun",
+      "Hephaestus, god of craftsmen"
+    ],
+    "funFact": "Nike, Inc. was founded in 1964 as \"Blue Ribbon Sports.\" The iconic Swoosh logo was designed by a Portland State University student for $35.",
+    "articleTitle": "Sneaker (footwear)",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Sneaker_(footwear)",
+    "topicId": "footwear",
+    "difficulty": "easy"
+  }
+]

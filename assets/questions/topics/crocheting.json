@@ -1,0 +1,61 @@
+[
+  {
+    "id": "croch_001",
+    "question": "Crochet uses which tool to create fabric by interlocking loops of yarn?",
+    "correctAnswers": [
+      "A crochet hook"
+    ],
+    "wrongAnswers": [
+      "Two needles",
+      "A loom",
+      "A shuttle",
+      "A bobbin",
+      "A spindle",
+      "A thimble"
+    ],
+    "funFact": "Unlike knitting (which uses two needles and keeps multiple loops active), crochet typically keeps only one live loop on the hook at a time.",
+    "articleTitle": "Crochet",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Crochet",
+    "topicId": "crocheting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "croch_002",
+    "question": "Amigurumi is a Japanese crochet (or knitting) technique for making what kind of items?",
+    "correctAnswers": [
+      "Small stuffed animals or characters"
+    ],
+    "wrongAnswers": [
+      "Blankets",
+      "Scarves",
+      "Doilies",
+      "Hats",
+      "Bags",
+      "Socks"
+    ],
+    "funFact": "The word \"amigurumi\" combines the Japanese words \"ami\" (knitted or crocheted) and \"nuigurumi\" (stuffed doll). The style became a global craft trend in the 2000s.",
+    "articleTitle": "Amigurumi",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Amigurumi",
+    "topicId": "crocheting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "croch_003",
+    "question": "What is the earliest documented evidence of crochet-like work?",
+    "correctAnswers": [
+      "19th century Europe (earliest records from the 1820s–1840s)"
+    ],
+    "wrongAnswers": [
+      "Ancient Egypt",
+      "Medieval China",
+      "17th century Netherlands",
+      "Viking-age Scandinavia",
+      "Ancient Rome"
+    ],
+    "funFact": "Some historians believe what was called \"shepherd's knitting\" in early texts actually referred to crochet — the technique's true origins remain debated.",
+    "articleTitle": "Crochet",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Crochet#History",
+    "topicId": "crocheting",
+    "difficulty": "hard"
+  }
+]

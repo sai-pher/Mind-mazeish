@@ -9,9 +9,10 @@ class GameStateNotifier extends Notifier<GameState?> {
   GameState? build() => null;
 
   Future<void> startGame(QuizConfig config) async {
-    final allQuestions = await ref.read(questionsProvider.future);
+    // Load only the selected topics — avoids pulling all 10K questions into RAM.
+    final pool = await loadQuestionsForTopics(config.selectedTopicIds);
     final questions = selectQuestionsFrom(
-      allQuestions,
+      pool,
       topicIds: config.selectedTopicIds,
       count: config.questionCount,
     );
