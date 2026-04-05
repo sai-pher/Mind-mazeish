@@ -61,5 +61,153 @@
     "articleUrl": "https://en.m.wikipedia.org/wiki/Paranormal_romance",
     "topicId": "lily_mayne",
     "difficulty": "medium"
+  },
+  {
+    "id": "lm_004",
+    "question": "What is the publishing model used by most indie romance authors, where the author retains full rights and uploads directly to retail platforms?",
+    "correctAnswers": [
+      "Self-publishing"
+    ],
+    "wrongAnswers": [
+      "Traditional publishing",
+      "Vanity publishing",
+      "Hybrid publishing",
+      "Academic publishing"
+    ],
+    "funFact": "Self-publishing platforms like Amazon KDP and Smashwords have allowed indie romance authors to reach global audiences without a literary agent or publishing house.",
+    "articleTitle": "Self-publishing",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Self-publishing",
+    "topicId": "lily_mayne",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lm_005",
+    "question": "Which Amazon subscription service is particularly important to indie romance authors' income, paying royalties based on pages read?",
+    "correctAnswers": [
+      "Kindle Unlimited"
+    ],
+    "wrongAnswers": [
+      "Audible Plus",
+      "Amazon First Reads",
+      "Prime Reading",
+      "Kindle Vella"
+    ],
+    "funFact": "Kindle Unlimited (KU) is a major revenue stream for indie romance authors; enrolling in KU requires exclusivity with Amazon, which has divided the indie publishing community.",
+    "articleTitle": "Self-publishing",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Self-publishing",
+    "topicId": "lily_mayne",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lm_006",
+    "question": "In MM romance and queer fiction, what term describes a romantic pairing where one partner is human and the other is a fantastical non-human creature?",
+    "correctAnswers": [
+      "Monster romance"
+    ],
+    "wrongAnswers": [
+      "Dark romance",
+      "Fated mates",
+      "Omegaverse",
+      "Reverse harem",
+      "Slow burn"
+    ],
+    "funFact": "Monster romance surged in popularity in the early 2020s, with indie authors like Lily Mayne helping pioneer queer monster romance as a distinct subgenre.",
+    "articleTitle": "Paranormal romance",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Paranormal_romance",
+    "topicId": "lily_mayne",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lm_007",
+    "question": "What trope, common in paranormal and fantasy romance, describes two characters who are cosmically destined to be together, often with a supernatural bond?",
+    "correctAnswers": [
+      "Fated mates"
+    ],
+    "wrongAnswers": [
+      "Enemies to lovers",
+      "Fake dating",
+      "Second chance romance",
+      "Grumpy/sunshine",
+      "Forced proximity"
+    ],
+    "funFact": "The fated mates trope has roots in folklore and mythology and remains one of the most searched-for tropes on romance reader communities like Goodreads and BookTok.",
+    "articleTitle": "Romance novel",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Romance_novel",
+    "topicId": "lily_mayne",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lm_008",
+    "question": "What subgenre sets a romance story in a speculative future society, often featuring oppressive governments or post-apocalyptic worlds, and has seen growth in queer fiction?",
+    "correctAnswers": [
+      "Dystopian romance"
+    ],
+    "wrongAnswers": [
+      "Steampunk romance",
+      "Cyberpunk romance",
+      "Space opera romance",
+      "Solarpunk romance",
+      "Biopunk romance"
+    ],
+    "funFact": "Queer dystopian fiction gained wide readership following the success of novels like 'The Handmaid's Tale', inspiring indie authors to explore LGBTQ+ identities within oppressive future worlds.",
+    "articleTitle": "Romance novel",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Romance_novel",
+    "topicId": "lily_mayne",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lm_009",
+    "question": "In romance publishing, what does the acronym 'HEA' stand for, representing the genre's core narrative expectation?",
+    "correctAnswers": [
+      "Happily Ever After"
+    ],
+    "wrongAnswers": [
+      "Heartbreaking Emotional Arc",
+      "Hero's Emotional Awakening",
+      "Happy Ending Always",
+      "Hopeful Ending Achieved"
+    ],
+    "funFact": "The Romance Writers of America defines a romance novel by two key elements: a central love story and an emotionally satisfying HEA or HFN (Happy For Now) ending.",
+    "articleTitle": "Romance novel",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Romance_novel",
+    "topicId": "lily_mayne",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lm_010",
+    "question": "What social media phenomenon, centred on TikTok's book community, dramatically accelerated the commercial success of indie and queer romance authors in the early 2020s?",
+    "correctAnswers": [
+      "BookTok"
+    ],
+    "wrongAnswers": [
+      "Bookstagram",
+      "BookTube",
+      "Bookworm Reddit",
+      "GoodreadsGate",
+      "LitTok"
+    ],
+    "funFact": "BookTok is credited with reviving sales of backlist titles and launching debut indie authors to bestseller status; by 2023 it had driven billions of views for romance and queer fiction content.",
+    "articleTitle": "Gay literature",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Gay_literature",
+    "topicId": "lily_mayne",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lm_011",
+    "question": "In the context of indie romance publishing, what is a 'series bible', and why is it especially important for authors writing long dark fantasy or monster romance series?",
+    "correctAnswers": [
+      "A reference document tracking world-building rules, character details, and continuity across books in a series"
+    ],
+    "wrongAnswers": [
+      "A contract between the author and a self-publishing platform",
+      "A marketing plan outlining how to launch each book in a series",
+      "A reader guide included at the back of each novel",
+      "A shared universe agreement between multiple indie authors"
+    ],
+    "funFact": "Long-running indie fantasy romance series can span ten or more books; a series bible helps authors maintain consistency in lore, magic systems, and character arcs across hundreds of thousands of words.",
+    "articleTitle": "Self-publishing",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Self-publishing",
+    "topicId": "lily_mayne",
+    "difficulty": "hard"
   }
 ]

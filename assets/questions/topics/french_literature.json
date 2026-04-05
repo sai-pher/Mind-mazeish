@@ -99,5 +99,145 @@
     "articleUrl": "https://en.m.wikipedia.org/wiki/Existentialism",
     "topicId": "french_literature",
     "difficulty": "easy"
+  },
+  {
+    "id": "fl_006",
+    "question": "Which Molière comedy centres on a miser so obsessed with his money that he drives away his own children?",
+    "correctAnswers": [
+      "The Miser (L'Avare)"
+    ],
+    "wrongAnswers": [
+      "Tartuffe",
+      "The Misanthrope",
+      "The Bourgeois Gentleman",
+      "The Imaginary Invalid",
+      "The Learned Ladies",
+      "Don Juan"
+    ],
+    "funFact": "Molière based The Miser on the ancient Roman comedy Aulularia by Plautus, yet set it in 17th-century Paris, making the greed feel timeless.",
+    "articleTitle": "The Miser (Molière)",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/The_Miser_(Moli%C3%A8re)",
+    "topicId": "french_literature",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fl_007",
+    "question": "Victor Hugo's 1831 novel set in medieval Paris and centred on the Cathedral of Notre-Dame is commonly known in English as what?",
+    "correctAnswers": [
+      "The Hunchback of Notre-Dame"
+    ],
+    "wrongAnswers": [
+      "Notre-Dame de Paris",
+      "The Bells of Paris",
+      "Quasimodo",
+      "The Cathedral",
+      "The Gargoyle of Paris",
+      "The Poet and the Cathedral"
+    ],
+    "funFact": "Hugo wrote the novel partly to draw public attention to the neglected state of Gothic architecture in France; the book's popularity directly inspired restoration work on the real Notre-Dame cathedral.",
+    "articleTitle": "The Hunchback of Notre-Dame",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+    "topicId": "french_literature",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fl_008",
+    "question": "Marcel Proust's seven-volume novel cycle \"In Search of Lost Time\" begins with which volume?",
+    "correctAnswers": [
+      "Swann's Way"
+    ],
+    "wrongAnswers": [
+      "Within a Budding Grove",
+      "The Guermantes Way",
+      "Time Regained",
+      "Sodom and Gomorrah",
+      "The Captive",
+      "The Fugitive"
+    ],
+    "funFact": "Swann's Way was initially rejected by several publishers, including Gallimard, so Proust paid for its publication himself in 1913 — Gallimard later signed him and published the rest of the cycle.",
+    "articleTitle": "Swann's Way",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Swann%27s_Way",
+    "topicId": "french_literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fl_009",
+    "question": "Émile Zola's 1898 open letter defending Alfred Dreyfus, published on the front page of a newspaper, is famous under what title?",
+    "correctAnswers": [
+      "J'Accuse…!"
+    ],
+    "wrongAnswers": [
+      "La Vérité",
+      "Le Manifeste",
+      "L'Humanité",
+      "Je Défends",
+      "La Justice",
+      "L'Affaire"
+    ],
+    "funFact": "Zola's letter was addressed directly to the French President and accused the army of anti-semitism and obstruction of justice; it resulted in Zola being convicted of libel and fleeing to England for nearly a year.",
+    "articleTitle": "J'accuse...!",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/J%27accuse...!",
+    "topicId": "french_literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fl_010",
+    "question": "The French literary movement known as the Nouveau Roman (New Novel) rejected traditional narrative conventions. Which author is most closely identified as its founder?",
+    "correctAnswers": [
+      "Alain Robbe-Grillet"
+    ],
+    "wrongAnswers": [
+      "Michel Butor",
+      "Nathalie Sarraute",
+      "Claude Simon",
+      "Marguerite Duras",
+      "Raymond Queneau",
+      "Georges Perec"
+    ],
+    "funFact": "Robbe-Grillet's 1957 manifesto \"For a New Novel\" argued that fiction should abandon psychology and plot in favour of precise, objective description of surfaces — an idea he called chosisme (thing-ism).",
+    "articleTitle": "French New Novel",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/French_New_Novel",
+    "topicId": "french_literature",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fl_011",
+    "question": "Stendhal's 1830 novel \"The Red and the Black\" takes its title from colours thought to represent what two career paths available to an ambitious young man in Restoration France?",
+    "correctAnswers": [
+      "The military and the Church"
+    ],
+    "wrongAnswers": [
+      "Politics and the law",
+      "Trade and academia",
+      "Nobility and the bourgeoisie",
+      "The Church and commerce",
+      "The army and the press",
+      "Revolution and monarchy"
+    ],
+    "funFact": "Stendhal based his protagonist Julien Sorel on a real criminal case he read about in a newspaper; he wrote the entire novel in just 52 days.",
+    "articleTitle": "The Red and the Black",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/The_Red_and_the_Black",
+    "topicId": "french_literature",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fl_012",
+    "question": "Which French Romantic poet, known for collections such as \"Les Fleurs du mal,\" was himself prosecuted for obscenity upon the work's 1857 publication?",
+    "correctAnswers": [
+      "Charles Baudelaire"
+    ],
+    "wrongAnswers": [
+      "Paul Verlaine",
+      "Arthur Rimbaud",
+      "Stéphane Mallarmé",
+      "Gérard de Nerval",
+      "Alfred de Musset",
+      "Alphonse de Lamartine"
+    ],
+    "funFact": "Six poems were ordered removed from Les Fleurs du mal after the trial; they were not legally published in France until 1949 — nearly a century after Baudelaire wrote them.",
+    "articleTitle": "Charles Baudelaire",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Charles_Baudelaire",
+    "topicId": "french_literature",
+    "difficulty": "hard"
   }
 ]
