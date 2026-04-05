@@ -79,7 +79,6 @@ class _GeneralFeedbackTabState extends State<_GeneralFeedbackTab> {
   final _titleCtrl = TextEditingController();
   final _bodyCtrl  = TextEditingController();
   bool _submitting = false;
-  bool _submitted  = false;
 
   @override
   void dispose() {
@@ -101,7 +100,7 @@ class _GeneralFeedbackTabState extends State<_GeneralFeedbackTab> {
       appVersion: widget.appVersion,
     );
     if (!mounted) return;
-    setState(() { _submitting = false; _submitted = ok; });
+    setState(() => _submitting = false);
     if (ok) {
       _titleCtrl.clear();
       _bodyCtrl.clear();
