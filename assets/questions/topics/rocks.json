@@ -1,0 +1,61 @@
+[
+  {
+    "id": "rock_001",
+    "question": "Which type of rock forms from cooled magma or lava?",
+    "correctAnswers": [
+      "Igneous rock"
+    ],
+    "wrongAnswers": [
+      "Sedimentary rock",
+      "Metamorphic rock",
+      "Silicate rock",
+      "Composite rock",
+      "Biogenic rock"
+    ],
+    "funFact": "The word \"igneous\" comes from the Latin \"ignis\" meaning fire. Granite and basalt are both igneous rocks — granite forms deep underground, basalt at the surface.",
+    "articleTitle": "Igneous rock",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Igneous_rock",
+    "topicId": "rocks",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_002",
+    "question": "The Mohs scale measures which property of minerals?",
+    "correctAnswers": [
+      "Hardness (scratch resistance)"
+    ],
+    "wrongAnswers": [
+      "Density",
+      "Colour",
+      "Transparency",
+      "Crystal structure",
+      "Lustre",
+      "Cleavage"
+    ],
+    "funFact": "Diamond is a 10 on the Mohs scale — the hardest known natural material. Talc is a 1 and can be scratched with a fingernail.",
+    "articleTitle": "Mohs scale",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Mohs_scale",
+    "topicId": "rocks",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_003",
+    "question": "Marble is a metamorphic rock formed from which original rock type?",
+    "correctAnswers": [
+      "Limestone"
+    ],
+    "wrongAnswers": [
+      "Granite",
+      "Sandstone",
+      "Basalt",
+      "Shale",
+      "Obsidian",
+      "Quartzite"
+    ],
+    "funFact": "Michelangelo's David was carved from a single block of Carrara marble from Tuscany, Italy — the same quarries used by ancient Romans.",
+    "articleTitle": "Marble",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Marble",
+    "topicId": "rocks",
+    "difficulty": "medium"
+  }
+]

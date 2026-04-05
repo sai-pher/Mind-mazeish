@@ -1,0 +1,81 @@
+[
+  {
+    "id": "country_001",
+    "question": "How many sovereign states are members of the United Nations?",
+    "correctAnswers": [
+      "193"
+    ],
+    "wrongAnswers": [
+      "172",
+      "210",
+      "180",
+      "165",
+      "220",
+      "195"
+    ],
+    "funFact": "The UN has 193 member states, but Kosovo, Taiwan, and Palestine are among territories whose statehood is disputed — they are not UN members.",
+    "articleTitle": "United Nations member states",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Member_states_of_the_United_Nations",
+    "topicId": "countries",
+    "difficulty": "medium"
+  },
+  {
+    "id": "country_002",
+    "question": "What is the world's largest country by land area?",
+    "correctAnswers": [
+      "Russia"
+    ],
+    "wrongAnswers": [
+      "Canada",
+      "China",
+      "United States",
+      "Brazil",
+      "Australia",
+      "India"
+    ],
+    "funFact": "Russia spans 11 time zones and covers 17.1 million km² — almost twice the size of the next largest country, Canada.",
+    "articleTitle": "Russia",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Russia",
+    "topicId": "countries",
+    "difficulty": "easy"
+  },
+  {
+    "id": "country_003",
+    "question": "Vatican City, the world's smallest country by area, is entirely within which city?",
+    "correctAnswers": [
+      "Rome, Italy"
+    ],
+    "wrongAnswers": [
+      "Paris, France",
+      "Geneva, Switzerland",
+      "Madrid, Spain",
+      "Vienna, Austria",
+      "Athens, Greece"
+    ],
+    "funFact": "Vatican City covers just 0.44 km² — roughly 44 times smaller than New York's Central Park.",
+    "articleTitle": "Vatican City",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Vatican_City",
+    "topicId": "countries",
+    "difficulty": "easy"
+  },
+  {
+    "id": "country_004",
+    "question": "Which is the most densely populated country in the world?",
+    "correctAnswers": [
+      "Monaco"
+    ],
+    "wrongAnswers": [
+      "Singapore",
+      "Bangladesh",
+      "Vatican City",
+      "Maldives",
+      "Bahrain",
+      "Malta"
+    ],
+    "funFact": "Monaco has about 26,000 people per km² — roughly ten times the density of Manhattan. It achieves this partly through land reclaimed from the sea.",
+    "articleTitle": "Monaco",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Monaco",
+    "topicId": "countries",
+    "difficulty": "medium"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "socks_001",
+    "question": "The oldest known socks, discovered in Egypt, date to approximately which century AD?",
+    "correctAnswers": [
+      "3rd–5th century AD"
+    ],
+    "wrongAnswers": [
+      "1st century AD",
+      "10th century BC",
+      "8th century AD",
+      "12th century AD",
+      "1st century BC"
+    ],
+    "funFact": "The Egyptian socks, found at Oxyrhynchus, were knitted using a split-toe design intended to be worn with sandals.",
+    "articleTitle": "Sock",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Sock#History",
+    "topicId": "socks",
+    "difficulty": "hard"
+  },
+  {
+    "id": "socks_002",
+    "question": "The first knitting machine capable of making stockings was invented by William Lee in which century?",
+    "correctAnswers": [
+      "16th century (1589)"
+    ],
+    "wrongAnswers": [
+      "14th century",
+      "17th century",
+      "18th century",
+      "15th century",
+      "19th century"
+    ],
+    "funFact": "Queen Elizabeth I reportedly refused to grant Lee a patent because she feared his machine would put hand knitters out of work.",
+    "articleTitle": "Knitting",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Knitting#History",
+    "topicId": "socks",
+    "difficulty": "medium"
+  }
+]

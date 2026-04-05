@@ -1,0 +1,60 @@
+[
+  {
+    "id": "chem_eng_001",
+    "question": "The Haber process, one of chemical engineering's most important achievements, synthesises which compound?",
+    "correctAnswers": [
+      "Ammonia (NH₃)"
+    ],
+    "wrongAnswers": [
+      "Methane",
+      "Ethylene",
+      "Sulphuric acid",
+      "Nitric acid",
+      "Hydrogen peroxide",
+      "Chlorine"
+    ],
+    "funFact": "The Haber process enabled mass production of synthetic fertilisers. It is estimated to be responsible for feeding about half the world's current population.",
+    "articleTitle": "Haber process",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Haber_process",
+    "topicId": "chemical_engineering",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chem_eng_002",
+    "question": "Distillation separates mixtures based on differences in what property?",
+    "correctAnswers": [
+      "Boiling point"
+    ],
+    "wrongAnswers": [
+      "Melting point",
+      "Density",
+      "Solubility",
+      "Molecular weight",
+      "Viscosity",
+      "Colour"
+    ],
+    "funFact": "Fractional distillation of crude oil at oil refineries separates petroleum into diesel, petrol, kerosene, and other products — all within a single tall distillation column.",
+    "articleTitle": "Distillation",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Distillation",
+    "topicId": "chemical_engineering",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chem_eng_003",
+    "question": "A catalyst speeds up a chemical reaction without being consumed. What effect does it have on the activation energy?",
+    "correctAnswers": [
+      "It lowers the activation energy"
+    ],
+    "wrongAnswers": [
+      "It raises the activation energy",
+      "It eliminates the need for activation energy",
+      "It has no effect on energy",
+      "It changes the products formed"
+    ],
+    "funFact": "Catalytic converters in car exhausts use platinum, palladium, and rhodium as catalysts to convert toxic CO and NOx into harmless CO₂ and N₂.",
+    "articleTitle": "Catalysis",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Catalysis",
+    "topicId": "chemical_engineering",
+    "difficulty": "medium"
+  }
+]

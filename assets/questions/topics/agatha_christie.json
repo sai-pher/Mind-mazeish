@@ -1,0 +1,106 @@
+[
+  {
+    "id": "ac_001",
+    "question": "How many novels did Agatha Christie publish in her lifetime?",
+    "correctAnswers": [
+      "66"
+    ],
+    "wrongAnswers": [
+      "33",
+      "48",
+      "82",
+      "55",
+      "100",
+      "25",
+      "71",
+      "44"
+    ],
+    "funFact": "Agatha Christie's works have sold over two billion copies, making her the best-selling fiction writer of all time after Shakespeare.",
+    "articleTitle": "Agatha Christie",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Agatha_Christie",
+    "topicId": "agatha_christie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ac_002",
+    "question": "What is the name of Agatha Christie's famous Belgian detective?",
+    "correctAnswers": [
+      "Hercule Poirot"
+    ],
+    "wrongAnswers": [
+      "Miss Marple",
+      "Tommy Beresford",
+      "Arthur Hastings",
+      "Ariadne Oliver",
+      "Superintendent Battle",
+      "Inspector Japp",
+      "Parker Pyne"
+    ],
+    "funFact": "Poirot is one of only two fictional characters to receive an obituary on the front page of The New York Times.",
+    "articleTitle": "Hercule Poirot",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Hercule_Poirot",
+    "topicId": "agatha_christie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ac_003",
+    "question": "In which year was Agatha Christie born?",
+    "correctAnswers": [
+      "1890"
+    ],
+    "wrongAnswers": [
+      "1880",
+      "1895",
+      "1900",
+      "1885",
+      "1875",
+      "1905",
+      "1870"
+    ],
+    "funFact": "Christie was born in Torquay, Devon, England, on 15 September 1890.",
+    "articleTitle": "Agatha Christie",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Agatha_Christie#Early_life",
+    "topicId": "agatha_christie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ac_004",
+    "question": "Which Agatha Christie novel holds the record as the longest-running play in the West End?",
+    "correctAnswers": [
+      "The Mousetrap"
+    ],
+    "wrongAnswers": [
+      "And Then There Were None",
+      "Witness for the Prosecution",
+      "Black Coffee",
+      "Verdict",
+      "Spider's Web",
+      "Ten Little Indians"
+    ],
+    "funFact": "The Mousetrap opened in London in 1952 and is still running today, making it the world's longest-running theatre production.",
+    "articleTitle": "The Mousetrap",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/The_Mousetrap",
+    "topicId": "agatha_christie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ac_005",
+    "question": "On which island does the plot of \"And Then There Were None\" take place?",
+    "correctAnswers": [
+      "Indian Island"
+    ],
+    "wrongAnswers": [
+      "Soldier Island",
+      "Devon Island",
+      "Smugglers' Island",
+      "Black Island",
+      "Murder Island",
+      "Storm Island"
+    ],
+    "funFact": "\"And Then There Were None\" is the best-selling mystery novel of all time, with over 100 million copies sold.",
+    "articleTitle": "And Then There Were None",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/And_Then_There_Were_None",
+    "topicId": "agatha_christie",
+    "difficulty": "medium"
+  }
+]

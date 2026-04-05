@@ -1,0 +1,62 @@
+[
+  {
+    "id": "candy_001",
+    "question": "Which country produces the most chocolate in the world?",
+    "correctAnswers": [
+      "Ivory Coast (Côte d'Ivoire)"
+    ],
+    "wrongAnswers": [
+      "Switzerland",
+      "Belgium",
+      "Germany",
+      "Ghana",
+      "Ecuador",
+      "Brazil"
+    ],
+    "funFact": "Ivory Coast produces about 40% of the world's cocoa supply, despite consuming very little of the chocolate made from it.",
+    "articleTitle": "Chocolate",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Chocolate#Production",
+    "topicId": "candy",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_002",
+    "question": "The gummy bear was invented in which country?",
+    "correctAnswers": [
+      "Germany"
+    ],
+    "wrongAnswers": [
+      "USA",
+      "Sweden",
+      "UK",
+      "Denmark",
+      "Austria",
+      "Switzerland"
+    ],
+    "funFact": "Hans Riegel of Haribo created the gummy bear in Bonn in 1922. The name HARIBO comes from Hans Riegel + Bonn.",
+    "articleTitle": "Gummy bear",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Gummy_bear",
+    "topicId": "candy",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_003",
+    "question": "What is the primary ingredient that makes hard candy hard?",
+    "correctAnswers": [
+      "Crystalline or amorphous sugar (sucrose)"
+    ],
+    "wrongAnswers": [
+      "Gelatin",
+      "Pectin",
+      "Corn syrup only",
+      "Starch",
+      "Glycerine",
+      "Wax"
+    ],
+    "funFact": "Hard candy is made by heating sugar solution above 150°C and then rapidly cooling it to prevent crystallisation, creating an amorphous glass-like solid.",
+    "articleTitle": "Hard candy",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Hard_candy",
+    "topicId": "candy",
+    "difficulty": "medium"
+  }
+]

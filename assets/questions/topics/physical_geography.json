@@ -1,0 +1,39 @@
+[
+  {
+    "id": "pgeo_001",
+    "question": "Plate tectonics theory explains that the Earth's crust is divided into how many major tectonic plates?",
+    "correctAnswers": [
+      "7 major plates"
+    ],
+    "wrongAnswers": [
+      "3 major plates",
+      "12 major plates",
+      "2 major plates",
+      "20 major plates",
+      "5 major plates"
+    ],
+    "funFact": "The Pacific Plate is the largest tectonic plate, covering about 103 million km² — almost the size of the entire Atlantic Ocean.",
+    "articleTitle": "Plate tectonics",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Plate_tectonics",
+    "topicId": "physical_geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_002",
+    "question": "A biome is defined as what?",
+    "correctAnswers": [
+      "A major ecological community defined by climate and vegetation"
+    ],
+    "wrongAnswers": [
+      "A type of animal kingdom",
+      "A layer of the atmosphere",
+      "A geographic administrative region",
+      "A watershed or drainage basin"
+    ],
+    "funFact": "The tropical rainforest biome covers only about 6% of Earth's land surface but contains over 50% of the world's plant and animal species.",
+    "articleTitle": "Biome",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Biome",
+    "topicId": "physical_geography",
+    "difficulty": "medium"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "id": "med_001",
+    "question": "What is the most widely prescribed class of drugs for treating bacterial infections?",
+    "correctAnswers": [
+      "Antibiotics"
+    ],
+    "wrongAnswers": [
+      "Antivirals",
+      "Antifungals",
+      "Analgesics",
+      "Corticosteroids",
+      "Antihistamines",
+      "Beta-blockers"
+    ],
+    "funFact": "Since Alexander Fleming discovered penicillin in 1928, antibiotics have saved an estimated 200 million lives.",
+    "articleTitle": "Antibiotic",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Antibiotic",
+    "topicId": "medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "med_002",
+    "question": "Which organ is responsible for filtering about 200 litres of blood per day in the human body?",
+    "correctAnswers": [
+      "The kidneys"
+    ],
+    "wrongAnswers": [
+      "The liver",
+      "The spleen",
+      "The heart",
+      "The lungs",
+      "The pancreas",
+      "The lymph nodes"
+    ],
+    "funFact": "Each kidney contains about one million tiny filtering units called nephrons. You can survive with just one healthy kidney.",
+    "articleTitle": "Kidney",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Kidney",
+    "topicId": "medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_003",
+    "question": "What is the term for a study that tracks a group of people over time to observe health outcomes?",
+    "correctAnswers": [
+      "Cohort study"
+    ],
+    "wrongAnswers": [
+      "Case-control study",
+      "Randomised controlled trial",
+      "Cross-sectional study",
+      "Meta-analysis",
+      "Systematic review"
+    ],
+    "funFact": "The Framingham Heart Study, started in 1948, is one of the longest-running cohort studies and first identified smoking as a major risk factor for heart disease.",
+    "articleTitle": "Cohort study",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Cohort_study",
+    "topicId": "medicine",
+    "difficulty": "hard"
+  }
+]

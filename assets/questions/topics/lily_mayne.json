@@ -1,0 +1,65 @@
+[
+  {
+    "id": "lm_001",
+    "question": "In which genre does contemporary author Lily Mayne primarily write?",
+    "correctAnswers": [
+      "MM romance"
+    ],
+    "wrongAnswers": [
+      "Crime thriller",
+      "Historical fiction",
+      "Science fiction",
+      "Literary fiction",
+      "Horror",
+      "Children's literature"
+    ],
+    "funFact": "MM romance (male/male romance) has grown significantly as a mainstream publishing category since the 2010s.",
+    "articleTitle": "Romance novel",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Romance_novel",
+    "topicId": "lily_mayne",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lm_002",
+    "question": "What term describes fiction written by and for the LGBTQ+ community, especially romantic pairings between men?",
+    "correctAnswers": [
+      "MM fiction",
+      "Gay romance",
+      "Queer romance"
+    ],
+    "wrongAnswers": [
+      "BL manga",
+      "Slash fiction",
+      "Dark romance",
+      "New Adult",
+      "Cozy mystery",
+      "Romantic suspense"
+    ],
+    "funFact": "The term \"MM\" in publishing refers to male/male romantic fiction and has become a mainstream commercial genre in the 2020s.",
+    "articleTitle": "Gay literature",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Gay_literature",
+    "topicId": "lily_mayne",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lm_003",
+    "question": "Which subgenre combining romance with fantastical or supernatural elements is popular in modern indie publishing?",
+    "correctAnswers": [
+      "Paranormal romance",
+      "Dark fantasy romance"
+    ],
+    "wrongAnswers": [
+      "Regency romance",
+      "Medical romance",
+      "Sports romance",
+      "Military romance",
+      "Clean romance",
+      "Inspirational romance"
+    ],
+    "funFact": "Indie (self-published) authors now account for over 30% of e-book sales in genre fiction, with romance being the largest category.",
+    "articleTitle": "Paranormal romance",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Paranormal_romance",
+    "topicId": "lily_mayne",
+    "difficulty": "medium"
+  }
+]

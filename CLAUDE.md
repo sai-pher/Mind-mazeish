@@ -18,7 +18,10 @@ questions drawn from a JSON asset. All questions live in
 ```
 assets/
 └── questions/
-    └── questions.json              ← ADD / EDIT QUESTIONS HERE (JSON array)
+    └── topics/
+        ├── coffee.json             ← one file per topicId — ADD / EDIT QUESTIONS HERE
+        ├── tennis.json
+        └── ...                     # 35 files total, one per topic
 lib/
 ├── core/theme/app_theme.dart        # AppColors + AppTheme (castle palette)
 ├── core/constants/app_constants.dart
