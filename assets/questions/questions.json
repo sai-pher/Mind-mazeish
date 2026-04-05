@@ -620,7 +620,9 @@
     ],
     "funFact": "Ernő Rubik originally called his invention the \"Magic Cube.\" It took him over a month to solve it himself after inventing it.",
     "topicId": "puzzles",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "articleTitle": "Rubik's Cube",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Rubik%27s_Cube"
   },
   {
     "id": "puzz_005",
@@ -639,7 +641,9 @@
     ],
     "funFact": "It took decades of mathematical and computational work to prove \"God's number\" is 20. The proof required the equivalent of 35 CPU-years of computing time.",
     "topicId": "puzzles",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "articleTitle": "Rubik's Cube",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Rubik%27s_Cube#Optimal_solutions"
   },
   {
     "id": "tennis_001",
