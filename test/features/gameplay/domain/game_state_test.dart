@@ -1,4 +1,3 @@
-import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mind_maze/features/gameplay/data/question_bank.dart';
 import 'package:mind_maze/features/gameplay/data/topic_registry.dart';
@@ -140,8 +139,8 @@ void main() {
 
   group('Question bank (JSON asset)', () {
     setUpAll(() async {
-      // Load the asset bundle so rootBundle works in tests.
-      ServicesBinding.instance.defaultBinaryMessenger
+      // Ensure the asset bundle is available in tests.
+      TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
           .setMockMessageHandler('flutter/assets', null);
     });
 
