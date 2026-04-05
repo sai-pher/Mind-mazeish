@@ -1,142 +1,124 @@
 # Skill: Generate New Questions for Mind Maze
 
-Use this skill to add new trivia questions to the game — either replacing
-existing ones or extending to new rooms. All questions live in one file:
-`lib/features/gameplay/data/seeded_questions.dart`.
+Use this skill to add new trivia questions to the game. All questions live in
+a single JSON asset file: `assets/questions/questions.json`.
 
 ---
 
 ## When to use this skill
 
-- Adding a second "season" of questions (rotate the map with new themes)
-- Replacing existing questions that feel too easy or too obscure
-- Expanding rooms with multiple difficulty tiers (future feature)
+- Adding questions for new topics
+- Expanding existing topics with more questions
+- Replacing questions that feel too easy or too obscure
 
 ---
 
 ## Question schema
 
-Each question maps to a `Question` object defined in
-`lib/features/gameplay/domain/models/question.dart`:
+Each question in `assets/questions/questions.json` is a JSON object:
 
-```dart
-class Question {
-  final String question;       // The trivia question text
-  final List<String> options;  // Exactly 4 answer choices
-  final int correctIndex;      // 0-based index of the correct option
-  final String funFact;        // 1–2 sentence educational payoff shown after answer
-  final String articleTitle;   // Wikipedia article title (used as link label)
-  final String articleUrl;     // Full mobile Wikipedia URL (en.m.wikipedia.org)
+```json
+{
+  "id": "unique_id_001",
+  "question": "The trivia question text?",
+  "correctAnswers": ["The correct answer"],
+  "wrongAnswers": ["Wrong 1", "Wrong 2", "Wrong 3", "Wrong 4"],
+  "funFact": "1–2 sentence educational payoff shown after the player answers.",
+  "articleTitle": "Wikipedia article title",
+  "articleUrl": "https://en.m.wikipedia.org/wiki/Article_Title",
+  "topicId": "topic_id_from_topic_registry",
+  "difficulty": "easy"
 }
 ```
 
-**Rules:**
-- `options` must have exactly **4 items**
-- `correctIndex` is always a valid index into `options` (0–3)
-- The correct answer should not always be index 0 — vary it
-- `funFact` must be genuinely interesting and distinct from the question text
-- `articleUrl` must use `https://en.m.wikipedia.org/wiki/...` (mobile Wikipedia)
-- Question text should be answerable without the article — the article is for enrichment
+**Field rules:**
+- `id` — unique, snake_case, e.g. `coffee_006`. Never reuse an ID.
+- `correctAnswers` — 1–3 correct answers (all are equally valid; the game picks one at random per round)
+- `wrongAnswers` — **minimum 4**, up to 10. The game always picks exactly 3 wrong answers per round.
+- `difficulty` — one of `"easy"`, `"medium"`, `"hard"`
+- `articleUrl` — must use `https://en.m.wikipedia.org/wiki/...` (mobile Wikipedia)
+- `topicId` — must match an existing ID in `lib/features/gameplay/data/topic_registry.dart`
 
 ---
 
-## Current rooms and themes
+## Adding new questions (existing topic)
 
-The game has 10 rooms. Each room has an `id` (the map key in `seeded_questions.dart`)
-and a human-readable `name`. Questions must match the room's historical theme.
-
-| Room ID      | Room Name         | Theme / Era                              | Wiki topics in room_data.dart                         |
-|--------------|-------------------|------------------------------------------|-------------------------------------------------------|
-| entrance     | Castle Gates      | Castle architecture, defences            | Castle, Drawbridge, Portcullis, Moat                  |
-| throne       | Throne Room       | Medieval royalty, power, ceremony        | Medieval kingship, Coronation, Feudalism, Magna Carta |
-| library      | Library           | Medieval knowledge, manuscripts, science | Scriptorium, Illuminated manuscript, Printing press   |
-| dungeon      | Dungeon           | Imprisonment, justice, torture           | Dungeon, Oubliette, Torture devices, Medieval law     |
-| chapel       | Chapel            | Religion, architecture, the Church       | Gothic architecture, Crusades, Pope, Flying buttress  |
-| armory       | Armoury           | Weapons, armour, knighthood              | Knight, Plate armour, Sword, Siege warfare            |
-| kitchen      | Great Kitchen     | Food, trade, daily castle life           | Medieval cuisine, Spice trade, Feast, Herb garden     |
-| observatory  | Observatory Tower | Astronomy, natural philosophy            | Copernicus, Astrolabe, Alchemy, Medieval cosmology    |
-| garden       | Castle Garden     | Herbalism, alchemy, medicine             | Alchemy, Herb, Plague, Apothecary                     |
-| tower        | Watch Tower       | Siege warfare, military engineering      | Trebuchet, Siege, Ballista, Castle walls              |
+1. Open `assets/questions/questions.json`
+2. Find the section for the topic you want (search for `"topicId": "your_topic"`)
+3. Append a new JSON object to the array
+4. Ensure the `id` is unique
 
 ---
 
-## Step-by-step: generating a new question set
+## Adding a new topic
 
-### Step 1 — Research the topic
+1. **Register the topic** in `lib/features/gameplay/data/topic_registry.dart`:
+   - Add a `Topic` entry under the appropriate `TopicCategory` / `SuperCategory`
+   - The `Topic.id` becomes the `topicId` used in question JSON
 
-For each room you want to update, pick a Wikipedia article that is:
-- Historically accurate and well-sourced
+2. **Add questions** to `assets/questions/questions.json` for that `topicId`
+
+No Dart code changes needed for the questions themselves — only the topic registry update and the JSON additions are required.
+
+---
+
+## Step-by-step: generating questions
+
+### Step 1 — Pick a topic and research it
+
+Find a Wikipedia article that is:
+- Genuinely interesting and well-sourced
 - Surprising or counter-intuitive (the best trivia)
-- Distinct from the current question (don't repeat drawbridge → coronation etc.)
 
-Good sources for medieval trivia:
-- https://en.wikipedia.org/wiki/History_of_medieval_warfare
-- https://en.wikipedia.org/wiki/Medieval_castle
-- https://en.wikipedia.org/wiki/Daily_life_in_medieval_England
+### Step 2 — Prompt Claude to draft questions
 
-### Step 2 — Prompt Claude to draft a question
-
-Paste this prompt into a Claude conversation, substituting `[TOPIC]` and `[ARTICLE_URL]`:
+Use this prompt, substituting `[TOPIC]` and `[ARTICLE_URL]`:
 
 ```
-You are writing trivia questions for "Mind Maze", a medieval castle quiz game.
+Write 3 trivia questions for the Mind Maze game about [TOPIC].
+Reference article: [ARTICLE_URL]
 
-Room theme: [ROOM_NAME] — focuses on [THEME_DESCRIPTION]
-Wikipedia article: [ARTICLE_URL]
+Rules:
+1. Each question must have 1 correct answer and at least 4 wrong answers
+2. Wrong answers must be plausible (same category, similar scope)
+3. Include a fun fact (1–2 sentences) distinct from the question text
+4. Keep question text under 150 characters; each answer under 80 characters
+5. Mix difficulties: one easy, one medium, one hard
 
-Write one trivia question following these rules:
-1. The question tests genuine historical knowledge about [TOPIC]
-2. It has exactly 4 answer options (labelled A–D)
-3. Exactly one option is correct
-4. The correct answer should be at a random index (not always A)
-5. Include a fun fact (1–2 sentences) that reveals something surprising — ideally a detail NOT in the question
-6. Keep question text under 120 characters; each option under 60 characters
-
-Output as valid Dart code in this exact format:
-  '[ROOM_ID]': Question(
-    question: '...',
-    options: [
-      '...',
-      '...',
-      '...',
-      '...',
-    ],
-    correctIndex: N,
-    funFact: '...',
-    articleTitle: '...',
-    articleUrl: 'https://en.m.wikipedia.org/wiki/...',
-  ),
+Output as a JSON array ready to paste into questions.json:
+[
+  {
+    "id": "[TOPIC_ID]_XXX",
+    "question": "...",
+    "correctAnswers": ["..."],
+    "wrongAnswers": ["...", "...", "...", "..."],
+    "funFact": "...",
+    "articleTitle": "...",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/...",
+    "topicId": "[TOPIC_ID]",
+    "difficulty": "easy|medium|hard"
+  }
+]
 ```
 
-### Step 3 — Validate the output
+### Step 3 — Validate before inserting
 
-Before pasting into the source file, verify:
-- [ ] `options` has exactly 4 strings
-- [ ] `correctIndex` matches the correct answer (count from 0)
-- [ ] `articleUrl` loads correctly in a browser
-- [ ] No escaped single quotes inside single-quoted Dart strings (use `\'` or switch to double quotes)
-- [ ] `funFact` does not just restate the question
+- [ ] `wrongAnswers` has at least 4 items
+- [ ] `id` is unique across the whole file
+- [ ] `topicId` matches a value in `topic_registry.dart`
+- [ ] `articleUrl` uses the mobile Wikipedia domain
+- [ ] `funFact` does not restate the question
 
-### Step 4 — Insert into seeded_questions.dart
+### Step 4 — Insert into questions.json
 
-Replace the existing entry for that room ID in
-`lib/features/gameplay/data/seeded_questions.dart`.
-
-The file structure is:
-```dart
-const Map<String, Question> seededQuestions = {
-  'entrance': Question( ... ),
-  'throne':   Question( ... ),
-  // ... one entry per room ID
-};
-```
-
-Replace only the `Question(...)` value for the room(s) you are updating.
-The map key (room ID) must stay the same.
+Paste the new objects into `assets/questions/questions.json`.
+The file is a flat JSON array — add entries anywhere; order does not matter.
 
 ### Step 5 — Run checks
 
 ```bash
+export PATH="$PATH:/opt/flutter/bin"
+git config --global --add safe.directory /opt/flutter
 flutter analyze --fatal-infos
 flutter test
 ```
@@ -145,53 +127,18 @@ Both must pass before committing.
 
 ---
 
-## Example: full replacement question (throne room)
+## Example question
 
-```dart
-  'throne': Question(
-    question: 'Which document, forced on King John in 1215, first limited English royal power?',
-    options: [
-      'Magna Carta',
-      'The Domesday Book',
-      'The Assize of Clarendon',
-      'The Provisions of Oxford',
-    ],
-    correctIndex: 0,
-    funFact:
-        'Magna Carta\'s most famous clause — habeas corpus — was not actually in the original 1215 version; it was added in later reissues.',
-    articleTitle: 'Magna Carta',
-    articleUrl: 'https://en.m.wikipedia.org/wiki/Magna_Carta',
-  ),
+```json
+{
+  "id": "coffee_006",
+  "question": "Which country invented the drip coffee maker?",
+  "correctAnswers": ["Germany"],
+  "wrongAnswers": ["France", "Italy", "United States", "Sweden", "Netherlands"],
+  "funFact": "Melitta Bentz, a German housewife, patented the first paper filter drip coffee maker in 1908 after poking holes in a tin can and using blotting paper from her son's schoolbook.",
+  "articleTitle": "Drip coffee maker",
+  "articleUrl": "https://en.m.wikipedia.org/wiki/Drip_coffee_maker",
+  "topicId": "coffee",
+  "difficulty": "medium"
+}
 ```
-
----
-
-## Adding a new room (future expansion)
-
-If you add new rooms to the game, you must update **both** files:
-
-1. `lib/features/gameplay/data/room_data.dart` — add a `RoomTheme` entry to the list
-2. `lib/features/gameplay/data/seeded_questions.dart` — add a matching map entry
-
-The room ID in both files must match exactly. Room order in `room_data.dart`
-determines the play order.
-
----
-
-## Reference files (in `.claude/resources/`)
-
-The following files were removed from the active codebase but are preserved
-as reference for anyone wanting to restore API-powered question generation:
-
-| File | Description |
-|------|-------------|
-| `wikipedia_service.dart` | Fetches a random Wikipedia article summary for a given topic via the Wikipedia REST API |
-| `claude_question_service.dart` | Calls the Anthropic Messages API to generate a `Question` from a Wikipedia excerpt |
-| `question_prompt_template.dart` | The system + user prompt sent to Claude — edit this to tune question style |
-
-To restore API mode, you would:
-1. Add `http: ^1.2.1` and `flutter_dotenv: ^5.1.0` back to `pubspec.yaml`
-2. Move the three files from `.claude/resources/` back to `lib/features/gameplay/data/`
-3. Add `ANTHROPIC_API_KEY=sk-ant-...` to a `.env` file (gitignored)
-4. Restore the `QuestionMode` enum in `question_provider.dart` and wire up
-   `WikipediaService` → `ClaudeQuestionService` → `questionProvider`

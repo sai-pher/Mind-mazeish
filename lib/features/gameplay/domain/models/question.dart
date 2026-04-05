@@ -1,6 +1,17 @@
 import 'dart:math';
 
-enum QuestionDifficulty { easy, medium, hard }
+enum QuestionDifficulty {
+  easy,
+  medium,
+  hard;
+
+  static QuestionDifficulty fromString(String value) {
+    return QuestionDifficulty.values.firstWhere(
+      (d) => d.name == value,
+      orElse: () => QuestionDifficulty.medium,
+    );
+  }
+}
 
 /// Source question stored in the question bank.
 /// One Question can hold 1–3 correct answers and 4–10 wrong answers.
@@ -27,6 +38,20 @@ class Question {
     required this.topicId,
     required this.difficulty,
   });
+
+  factory Question.fromJson(Map<String, dynamic> json) {
+    return Question(
+      id: json['id'] as String,
+      question: json['question'] as String,
+      correctAnswers: List<String>.from(json['correctAnswers'] as List),
+      wrongAnswers: List<String>.from(json['wrongAnswers'] as List),
+      funFact: json['funFact'] as String,
+      articleTitle: json['articleTitle'] as String,
+      articleUrl: json['articleUrl'] as String,
+      topicId: json['topicId'] as String,
+      difficulty: QuestionDifficulty.fromString(json['difficulty'] as String),
+    );
+  }
 
   /// Pick 1 correct answer + 3 wrong answers, shuffle, return a [QuizQuestion].
   QuizQuestion toQuizQuestion([Random? rng]) {

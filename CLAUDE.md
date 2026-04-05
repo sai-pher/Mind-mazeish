@@ -1,9 +1,9 @@
 # Mind Mazeish — Claude Code Context
 
 ## Project overview
-Medieval castle trivia game for Android (Flutter). Players answer one trivia
-question per room across 10 castle rooms. All questions are hardcoded in
-`lib/features/gameplay/data/seeded_questions.dart`.
+Medieval castle trivia game for Android (Flutter). Players answer trivia
+questions drawn from a JSON asset. All questions live in
+`assets/questions/questions.json`.
 
 ## Key facts for every session
 - **Target device**: Google Pixel 9 (Android 16, API 36), portrait only
@@ -11,25 +11,29 @@ question per room across 10 castle rooms. All questions are hardcoded in
 - **Flutter**: 3.27.4 stable
 - **State management**: Riverpod (`NotifierProvider`, `AsyncNotifierProvider`)
 - **Navigation**: GoRouter — routes: `/` start, `/game` gameplay, `/article` WebView, `/results`
-- **No external APIs at runtime** — questions are hardcoded; the article viewer
-  uses a WebView that the user opens voluntarily (requires internet)
+- **No external APIs at runtime** — questions are bundled as a JSON asset; the
+  article viewer uses a WebView that the user opens voluntarily (requires internet)
 
 ## Directory map
 ```
+assets/
+└── questions/
+    └── questions.json              ← ADD / EDIT QUESTIONS HERE (JSON array)
 lib/
 ├── core/theme/app_theme.dart        # AppColors + AppTheme (castle palette)
 ├── core/constants/app_constants.dart
 ├── features/
-│   ├── start/                       # StartScreen
+│   ├── start/                       # StartScreen, TopicPickerScreen
 │   ├── gameplay/
 │   │   ├── data/
-│   │   │   ├── seeded_questions.dart   ← ADD NEW QUESTIONS HERE
-│   │   │   └── room_data.dart          ← ADD NEW ROOMS HERE
+│   │   │   ├── question_repository.dart  # loads questions.json via rootBundle
+│   │   │   ├── question_bank.dart        # selectQuestionsFrom() pure function
+│   │   │   └── topic_registry.dart       ← ADD NEW TOPICS HERE
 │   │   ├── domain/models/           # Question, Room, GameState, WikiArticle
 │   │   └── presentation/
 │   │       ├── screens/gameplay_screen.dart
 │   │       ├── widgets/             # AnswerButton, QuestionCard, RoomHeader
-│   │       └── providers/           # gameStateProvider, questionProvider
+│   │       └── providers/           # gameStateProvider, questionsProvider
 │   ├── article_viewer/              # ArticleScreen (WebView)
 │   └── results/                     # ResultsScreen
 .claude/
