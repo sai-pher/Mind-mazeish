@@ -42,11 +42,11 @@ Each entry in a topic JSON file is:
 | `articleUrl` | Must use `https://en.m.wikipedia.org/wiki/...` (mobile Wikipedia) |
 | `topicId` | Must match the key in `topic_registry.dart` exactly |
 
-### Per-article output target
+### Per-topic output target
 
-For each Wikipedia article loaded into context, produce:
+Produce:
 - At least **1 question per difficulty level** (easy, medium, hard) = minimum 3
-- Up to **5 questions per difficulty level** = maximum 15 per article
+- Aim for a balanced spread across easy / medium / hard
 - Aim for variety: facts, dates, definitions, cause-and-effect, comparisons
 
 ---
@@ -61,7 +61,7 @@ SuperCategory  (e.g. Health & Medicine)
         └── Topic  (e.g. ADHD)  ← topicId used in JSON
 ```
 
-When handling **multiple topics**, group and sequence tasks by **TopicCategory** (Level 2) so that related articles are researched together before moving to the next category.
+When handling **multiple topics**, group and sequence tasks by **TopicCategory** (Level 2) so that related topics are handled together before moving to the next category.
 
 ---
 
@@ -71,51 +71,70 @@ When handling **multiple topics**, group and sequence tasks by **TopicCategory**
 
 Before starting, ask:
 1. Which topic(s) to work on? (or "all thin topics" / a super-category name)
-2. For each topic: how many Wikipedia articles to source? (default: 2 for existing topics, 4 for new topics)
-3. Any articles the user wants to include specifically?
+2. Target question count per topic? (default: **10** for existing topics, **30** for new topics)
+3. Any specific angles or subtopics the user wants covered?
 
 ### Step 1 — Determine work items
 
 For each topic in scope:
 1. Read `assets/questions/topics/{topicId}.json` (or note it doesn't exist yet)
-2. Note the current question count and the highest existing `id` suffix
-3. Calculate how many questions are still needed to reach the target (default target: **30**)
+2. Note the current question count and the **highest existing `id` suffix**
+3. Note the **existing IDs only** (not full question text) to avoid duplicates later
+4. Calculate how many questions are still needed to reach the target
 
 Group topics by their **TopicCategory** (Level 2). Process one TopicCategory at a time.
 
-### Step 2 — Research and generate (one sub-agent per article)
+### Step 2 — Optionally fetch article context
 
-For each article to process, spawn **one sub-agent** with this task:
+Try to get source material with the fetch helper:
 
-> "Fetch `{articleUrl}` via WebFetch. Read the full content. Then generate
-> between 3 and 15 trivia questions (at least 1 per difficulty: easy/medium/hard,
-> up to 5 per difficulty). All questions must be answerable from the article content.
-> Return a JSON array following the schema below. topicId = `{topicId}`.
-> Do not duplicate any of these existing questions: `{list_of_existing_questions}`."
+```bash
+python3 scripts/fetch_wiki.py "{Article Title}" --summary-only
+# or with specific sections:
+python3 scripts/fetch_wiki.py "{Article Title}" --sections "History" "Uses"
+```
 
-Wait for the sub-agent to complete before spawning the next one.
+- **Exit 0** → use the returned text as source material for questions
+- **Exit 2** → article not found; pick a different article title
+- **Exit 3** → network unavailable; skip the fetch and use built-in knowledge instead
 
-### Step 3 — Validate output
+The fetch is **optional** — for well-documented topics (history, science, literature)
+built-in knowledge is sufficient and avoids unnecessary token cost.
+Only bother fetching for niche or rapidly-evolving topics.
 
-Before writing, check each generated question:
-- [ ] `id` is unique (not already in the file)
-- [ ] `wrongAnswers` has ≥ 4 items
-- [ ] `difficulty` is `easy`, `medium`, or `hard`
-- [ ] `articleUrl` is the mobile Wikipedia URL fetched
-- [ ] `funFact` is distinct from the question text
+### Step 3 — Spawn one sub-agent per topic (not per article)
 
-Fix any violations inline (don't skip the question).
+For each topic, spawn **one sub-agent** with this task:
 
-### Step 4 — Write to file
+> "Generate {N} trivia questions for topicId `{topicId}` covering {brief description}.
+> Existing IDs to avoid duplicating: {comma-separated list of existing IDs, e.g. coffee_001, coffee_002}.
+> Next ID to start from: `{topicId}_{NNN}`.
+> Source material (if any): {text from fetch_wiki.py, or omit if network unavailable}.
+>
+> Write the questions **directly** to `assets/questions/topics/{topicId}.json` by
+> reading the existing file and rewriting it with the new questions appended.
+> Do NOT return the JSON in your reply — just confirm how many questions were written
+> and list the new IDs."
 
-Append the validated questions to `assets/questions/topics/{topicId}.json`.
-If the topic file doesn't exist yet, create it as a new JSON array `[...]`.
+**Wait for the sub-agent to complete before spawning the next one.**
 
-Also add the new `topicId` to `_allTopicIds` in `question_repository.dart`
-if it doesn't already appear there.
+### Step 4 — Verify
 
-For a **brand-new topic**, also add it to `topic_registry.dart` under the
-appropriate SuperCategory and TopicCategory (ask the user if unsure where it fits).
+After each sub-agent completes, run a quick sanity check:
+
+```bash
+python3 -c "
+import json, sys
+data = json.load(open('assets/questions/topics/{topicId}.json'))
+ids = [q['id'] for q in data]
+assert len(ids) == len(set(ids)), 'Duplicate IDs!'
+assert all(len(q['wrongAnswers']) >= 4 for q in data), 'Too few wrong answers!'
+assert all(q['difficulty'] in ('easy','medium','hard') for q in data), 'Bad difficulty!'
+print(f'OK — {len(data)} questions, IDs: {ids}')
+"
+```
+
+Fix any violations inline before moving on.
 
 ### Step 5 — Checkpoint commit
 
@@ -124,7 +143,7 @@ After completing each **TopicCategory group**, run:
 ```bash
 export PATH="$PATH:/opt/flutter/bin"
 git config --global --add safe.directory /opt/flutter
-git add assets/questions/topics/ lib/features/gameplay/data/
+git add assets/questions/topics/
 git commit -m "content: add questions for {category} topics ({topicId}, {topicId}, ...)"
 git push -u origin $(git branch --show-current)
 ```
@@ -133,32 +152,27 @@ Then continue to the next TopicCategory group.
 
 ---
 
-## Example: expanding a single existing topic
+## Token efficiency rules
 
-User: `/generate-questions coffee — 2 articles`
-
-1. Read `assets/questions/topics/coffee.json` → 5 existing questions, highest id `coffee_005`
-2. Target: 30 questions → need 25 more
-3. Source 2 articles: pick 2 Wikipedia URLs related to coffee not already covered
-4. Sub-agent 1 → fetch first article → generate 10–15 questions → validate → append
-5. Sub-agent 2 → fetch second article → generate 10–15 questions → validate → append
-6. Commit: `content: add questions for coffee (coffee topic)`
+1. **Sub-agents write to files directly** — never return large JSON blobs back to the main context
+2. **Pass IDs only** for duplicate-checking, not full question text
+3. **Skip fetch for well-known topics** — use built-in knowledge; fetch only for niche topics
+4. **One sub-agent per topic** (not per article) — reduces agent spawning overhead
+5. **Verify with a one-liner** — the bash python3 check above is cheaper than re-reading the file
 
 ---
 
-## Example: seeding a new topic
+## Example: expanding a single existing topic
 
-User: `/generate-questions jazz — new topic, 4 articles`
+User: `/generate-questions coffee`
 
-1. Check `assets/questions/topics/jazz.json` → doesn't exist
-2. Ask user: which TopicCategory should Jazz sit under? (e.g. Music & Arts → Music)
-3. Add `Topic(id: 'jazz', ...)` to `topic_registry.dart`
-4. Add `'jazz'` to `_allTopicIds` in `question_repository.dart`
-5. Source 4 Wikipedia articles on jazz history, instruments, artists, theory
-6. Process each article with one sub-agent sequentially
-7. Create `assets/questions/topics/jazz.json` with all generated questions
-8. Target: ≥ 30 questions before finishing
-9. Commit after all 4 articles done
+1. Read `assets/questions/topics/coffee.json` → 5 questions, highest id `coffee_005`
+2. Existing IDs: `coffee_001, coffee_002, coffee_003, coffee_004, coffee_005`
+3. Target 10 → need 5 more; start from `coffee_006`
+4. Try `python3 scripts/fetch_wiki.py "Coffee" --summary-only` — if exit 3, skip
+5. Sub-agent → generate 5 questions → write to file → confirm IDs written
+6. Verify with one-liner
+7. Commit: `content: add questions for beverages topics (coffee)`
 
 ---
 
@@ -168,14 +182,23 @@ User: `/generate-questions mental_health category`
 
 Topics in Mental Health: `therapy`, `adhd`, `autism`
 
-Process in sequence:
-1. All three topics → read current files → plan articles
-2. `therapy` → sub-agent per article → write → (continue within same category)
-3. `adhd` → sub-agent per article → write
-4. `autism` → sub-agent per article → write
-5. Commit: `content: expand mental_health questions (therapy, adhd, autism)`
+1. Read all three files → note current counts and existing IDs
+2. Sub-agent for `therapy` → writes to file → confirm
+3. Sub-agent for `adhd` → writes to file → confirm
+4. Sub-agent for `autism` → writes to file → confirm
+5. Verify all three with one-liners
+6. Commit: `content: expand mental_health questions (therapy, adhd, autism)`
 
-Then move on if there are more categories requested.
+---
+
+## Adding a brand-new topic
+
+1. Check `assets/questions/topics/{topicId}.json` → doesn't exist
+2. Ask user: which TopicCategory should it sit under?
+3. Add `Topic(id: '{topicId}', ...)` to `topic_registry.dart`
+4. Add `'{topicId}'` to `_allTopicIds` in `question_repository.dart`
+5. Sub-agent creates the file with ≥ 30 questions
+6. Commit after all done
 
 ---
 
