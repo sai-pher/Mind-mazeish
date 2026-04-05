@@ -92,13 +92,19 @@ Questions live in `assets/questions/topics/{topicId}.json`. Each file is a JSON 
 
 ### Wiring up the feedback PAT
 
-Before distributing a build, set the GitHub write-only PAT in:
+The feedback feature submits issues via a write-only GitHub PAT. The token is **never stored in source code** — it is injected at build time.
 
-```
-lib/features/feedback/data/github_issue_service.dart
-```
+1. Generate a fine-grained PAT:
+   - GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens
+   - Repository: `sai-pher/Mind-mazeish` only
+   - Permissions: **Issues → Read & Write** (nothing else)
 
-Replace `REPLACE_WITH_WRITE_ONLY_PAT` with a fine-grained PAT scoped to `Issues: write` on this repository only.
+2. Add it as a repository secret:
+   - Repo → Settings → Secrets and variables → Actions → New repository secret
+   - Name: `FEEDBACK_GITHUB_PAT`
+   - Value: the token you just created
+
+The CD workflow passes it to Flutter at build time via `--dart-define`. No source code changes needed.
 
 ---
 

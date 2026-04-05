@@ -63,11 +63,13 @@ jobs:
       - name: Build release APK
         env:
           BUILD_NUMBER: ${{ github.run_number }}
+          FEEDBACK_PAT: ${{ secrets.FEEDBACK_GITHUB_PAT }}
         run: |
           flutter build apk \
             --release \
             --build-number=$BUILD_NUMBER \
             --build-name=1.0.$BUILD_NUMBER \
+            --dart-define=FEEDBACK_GITHUB_PAT=$FEEDBACK_PAT \
             --obfuscate \
             --split-debug-info=build/debug-symbols
 
