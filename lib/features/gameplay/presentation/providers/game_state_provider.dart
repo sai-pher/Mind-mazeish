@@ -1,5 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../data/question_bank.dart';
+import '../../data/question_repository.dart';
 import '../../domain/models/game_state.dart';
 import '../../domain/models/quiz_config.dart';
 
@@ -7,8 +8,10 @@ class GameStateNotifier extends Notifier<GameState?> {
   @override
   GameState? build() => null;
 
-  void startGame(QuizConfig config) {
-    final questions = selectQuestions(
+  Future<void> startGame(QuizConfig config) async {
+    final allQuestions = await ref.read(questionsProvider.future);
+    final questions = selectQuestionsFrom(
+      allQuestions,
       topicIds: config.selectedTopicIds,
       count: config.questionCount,
     );

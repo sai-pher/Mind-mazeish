@@ -130,14 +130,14 @@ class StartScreen extends ConsumerWidget {
     );
   }
 
-  void _startQuickPlay(BuildContext context, WidgetRef ref) {
+  Future<void> _startQuickPlay(BuildContext context, WidgetRef ref) async {
     final config = QuizConfig(
       selectedTopicIds: Set.from(allTopicIds),
       questionCount: 10,
     );
     ref.read(quizConfigProvider.notifier).state = config;
-    ref.read(gameStateProvider.notifier).startGame(config);
-    context.go('/game');
+    await ref.read(gameStateProvider.notifier).startGame(config);
+    if (context.mounted) context.go('/game');
   }
 }
 

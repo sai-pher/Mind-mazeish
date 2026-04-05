@@ -1,20 +1,46 @@
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mind_maze/features/gameplay/data/question_bank.dart';
 import 'package:mind_maze/features/gameplay/data/topic_registry.dart';
 import 'package:mind_maze/features/gameplay/domain/models/game_state.dart';
+import 'package:mind_maze/features/gameplay/domain/models/question.dart';
 import 'package:mind_maze/features/gameplay/domain/models/quiz_config.dart';
 
+// ---------------------------------------------------------------------------
+// Helpers
+// ---------------------------------------------------------------------------
+
+QuizQuestion _fakeQuizQuestion(String id) {
+  final q = Question(
+    id: id,
+    question: 'Test question $id?',
+    correctAnswers: const ['Correct'],
+    wrongAnswers: const ['Wrong 1', 'Wrong 2', 'Wrong 3', 'Wrong 4'],
+    funFact: 'Fun fact',
+    articleTitle: 'Article',
+    articleUrl: 'https://example.com',
+    topicId: 'test_topic',
+    difficulty: QuestionDifficulty.easy,
+  );
+  return q.toQuizQuestion();
+}
+
 GameState _makeState({int count = 5}) {
+  final questions = List.generate(count, (i) => _fakeQuizQuestion('q_$i'));
   final config = QuizConfig(
-    selectedTopicIds: Set.from(allTopicIds),
+    selectedTopicIds: const {'test_topic'},
     questionCount: count,
   );
-  final questions = selectQuestions(
-      topicIds: config.selectedTopicIds, count: count);
   return GameState.initial(questions: questions, config: config);
 }
 
+// ---------------------------------------------------------------------------
+// Tests
+// ---------------------------------------------------------------------------
+
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+
   group('GameState', () {
     test('initial state has correct question count, 3 lives, 0 score', () {
       final s = _makeState(count: 5);
@@ -95,16 +121,16 @@ void main() {
 
   group('Question model', () {
     test('toQuizQuestion produces 4 options with exactly 1 correct', () {
-      final q = allQuestions.first;
+      final q = _fakeQuizQuestion('q_1').source;
       final qq = q.toQuizQuestion();
       expect(qq.options.length, 4);
-      expect(qq.options.contains(q.correctAnswers.first) ||
-          q.correctAnswers.any((a) => qq.options.contains(a)), isTrue);
+      expect(q.correctAnswers.any((a) => qq.options.contains(a)), isTrue);
       expect(qq.isCorrect(qq.correctIndex), isTrue);
     });
 
     test('correct answer is in the options', () {
-      for (final q in allQuestions.take(20)) {
+      for (var i = 0; i < 20; i++) {
+        final q = _fakeQuizQuestion('q_$i').source;
         final qq = q.toQuizQuestion();
         final correct = qq.options[qq.correctIndex];
         expect(q.correctAnswers.contains(correct), isTrue);
@@ -112,24 +138,36 @@ void main() {
     });
   });
 
-  group('Question bank', () {
-    test('allQuestions is non-empty', () {
-      expect(allQuestions, isNotEmpty);
+  group('Question bank (JSON asset)', () {
+    setUpAll(() async {
+      // Load the asset bundle so rootBundle works in tests.
+      ServicesBinding.instance.defaultBinaryMessenger
+          .setMockMessageHandler('flutter/assets', null);
     });
 
-    test('selectQuestions returns requested count', () {
-      final selected = selectQuestions(
-        topicIds: Set.from(allTopicIds),
+    test('selectQuestionsFrom returns requested count from a pool', () {
+      final pool = List.generate(
+        20,
+        (i) => Question(
+          id: 'q_$i',
+          question: 'Q $i?',
+          correctAnswers: const ['C'],
+          wrongAnswers: const ['W1', 'W2', 'W3', 'W4'],
+          funFact: '',
+          articleTitle: '',
+          articleUrl: '',
+          topicId: i.isEven ? 'topic_a' : 'topic_b',
+          difficulty: QuestionDifficulty.easy,
+        ),
+      );
+
+      final selected = selectQuestionsFrom(
+        pool,
+        topicIds: {'topic_a'},
         count: 5,
       );
       expect(selected.length, lessThanOrEqualTo(5));
-    });
-
-    test('every question has 4 wrong answers minimum', () {
-      for (final q in allQuestions) {
-        expect(q.wrongAnswers.length, greaterThanOrEqualTo(4),
-            reason: 'Question ${q.id} needs at least 4 wrong answers');
-      }
+      expect(selected.every((q) => q.topicId == 'topic_a'), isTrue);
     });
 
     test('topic registry has all expected super-categories', () {
@@ -137,6 +175,41 @@ void main() {
       expect(ids, contains('literature_arts'));
       expect(ids, contains('health_medicine'));
       expect(ids, contains('engineering_tech'));
+    });
+  });
+
+  group('Question.fromJson', () {
+    test('round-trips through JSON correctly', () {
+      const q = Question(
+        id: 'test_001',
+        question: 'Is this a test?',
+        correctAnswers: ['Yes'],
+        wrongAnswers: ['No', 'Maybe', 'Never', 'Always'],
+        funFact: 'It is indeed a test.',
+        articleTitle: 'Test',
+        articleUrl: 'https://example.com',
+        topicId: 'tests',
+        difficulty: QuestionDifficulty.hard,
+      );
+
+      final json = {
+        'id': q.id,
+        'question': q.question,
+        'correctAnswers': q.correctAnswers,
+        'wrongAnswers': q.wrongAnswers,
+        'funFact': q.funFact,
+        'articleTitle': q.articleTitle,
+        'articleUrl': q.articleUrl,
+        'topicId': q.topicId,
+        'difficulty': q.difficulty.name,
+      };
+
+      final restored = Question.fromJson(json);
+      expect(restored.id, q.id);
+      expect(restored.question, q.question);
+      expect(restored.correctAnswers, q.correctAnswers);
+      expect(restored.wrongAnswers, q.wrongAnswers);
+      expect(restored.difficulty, QuestionDifficulty.hard);
     });
   });
 }

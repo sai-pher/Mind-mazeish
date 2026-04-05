@@ -1,0 +1,2541 @@
+[
+  {
+    "id": "ac_001",
+    "question": "How many novels did Agatha Christie publish in her lifetime?",
+    "correctAnswers": [
+      "66"
+    ],
+    "wrongAnswers": [
+      "33",
+      "48",
+      "82",
+      "55",
+      "100",
+      "25",
+      "71",
+      "44"
+    ],
+    "funFact": "Agatha Christie's works have sold over two billion copies, making her the best-selling fiction writer of all time after Shakespeare.",
+    "articleTitle": "Agatha Christie",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Agatha_Christie",
+    "topicId": "agatha_christie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ac_002",
+    "question": "What is the name of Agatha Christie's famous Belgian detective?",
+    "correctAnswers": [
+      "Hercule Poirot"
+    ],
+    "wrongAnswers": [
+      "Miss Marple",
+      "Tommy Beresford",
+      "Arthur Hastings",
+      "Ariadne Oliver",
+      "Superintendent Battle",
+      "Inspector Japp",
+      "Parker Pyne"
+    ],
+    "funFact": "Poirot is one of only two fictional characters to receive an obituary on the front page of The New York Times.",
+    "articleTitle": "Hercule Poirot",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Hercule_Poirot",
+    "topicId": "agatha_christie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ac_003",
+    "question": "In which year was Agatha Christie born?",
+    "correctAnswers": [
+      "1890"
+    ],
+    "wrongAnswers": [
+      "1880",
+      "1895",
+      "1900",
+      "1885",
+      "1875",
+      "1905",
+      "1870"
+    ],
+    "funFact": "Christie was born in Torquay, Devon, England, on 15 September 1890.",
+    "articleTitle": "Agatha Christie",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Agatha_Christie#Early_life",
+    "topicId": "agatha_christie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ac_004",
+    "question": "Which Agatha Christie novel holds the record as the longest-running play in the West End?",
+    "correctAnswers": [
+      "The Mousetrap"
+    ],
+    "wrongAnswers": [
+      "And Then There Were None",
+      "Witness for the Prosecution",
+      "Black Coffee",
+      "Verdict",
+      "Spider's Web",
+      "Ten Little Indians"
+    ],
+    "funFact": "The Mousetrap opened in London in 1952 and is still running today, making it the world's longest-running theatre production.",
+    "articleTitle": "The Mousetrap",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/The_Mousetrap",
+    "topicId": "agatha_christie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ac_005",
+    "question": "On which island does the plot of \"And Then There Were None\" take place?",
+    "correctAnswers": [
+      "Indian Island"
+    ],
+    "wrongAnswers": [
+      "Soldier Island",
+      "Devon Island",
+      "Smugglers' Island",
+      "Black Island",
+      "Murder Island",
+      "Storm Island"
+    ],
+    "funFact": "\"And Then There Were None\" is the best-selling mystery novel of all time, with over 100 million copies sold.",
+    "articleTitle": "And Then There Were None",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/And_Then_There_Were_None",
+    "topicId": "agatha_christie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lm_001",
+    "question": "In which genre does contemporary author Lily Mayne primarily write?",
+    "correctAnswers": [
+      "MM romance"
+    ],
+    "wrongAnswers": [
+      "Crime thriller",
+      "Historical fiction",
+      "Science fiction",
+      "Literary fiction",
+      "Horror",
+      "Children's literature"
+    ],
+    "funFact": "MM romance (male/male romance) has grown significantly as a mainstream publishing category since the 2010s.",
+    "articleTitle": "Romance novel",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Romance_novel",
+    "topicId": "lily_mayne",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lm_002",
+    "question": "What term describes fiction written by and for the LGBTQ+ community, especially romantic pairings between men?",
+    "correctAnswers": [
+      "MM fiction",
+      "Gay romance",
+      "Queer romance"
+    ],
+    "wrongAnswers": [
+      "BL manga",
+      "Slash fiction",
+      "Dark romance",
+      "New Adult",
+      "Cozy mystery",
+      "Romantic suspense"
+    ],
+    "funFact": "The term \"MM\" in publishing refers to male/male romantic fiction and has become a mainstream commercial genre in the 2020s.",
+    "articleTitle": "Gay literature",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Gay_literature",
+    "topicId": "lily_mayne",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lm_003",
+    "question": "Which subgenre combining romance with fantastical or supernatural elements is popular in modern indie publishing?",
+    "correctAnswers": [
+      "Paranormal romance",
+      "Dark fantasy romance"
+    ],
+    "wrongAnswers": [
+      "Regency romance",
+      "Medical romance",
+      "Sports romance",
+      "Military romance",
+      "Clean romance",
+      "Inspirational romance"
+    ],
+    "funFact": "Indie (self-published) authors now account for over 30% of e-book sales in genre fiction, with romance being the largest category.",
+    "articleTitle": "Paranormal romance",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Paranormal_romance",
+    "topicId": "lily_mayne",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fl_001",
+    "question": "Which French author wrote \"Les Misérables\"?",
+    "correctAnswers": [
+      "Victor Hugo"
+    ],
+    "wrongAnswers": [
+      "Gustave Flaubert",
+      "Albert Camus",
+      "Émile Zola",
+      "Alexandre Dumas",
+      "Honoré de Balzac",
+      "Stendhal"
+    ],
+    "funFact": "Victor Hugo's Les Misérables contains one of the longest sentences in the French language — a single sentence of 823 words.",
+    "articleTitle": "Victor Hugo",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Victor_Hugo",
+    "topicId": "french_literature",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fl_002",
+    "question": "Albert Camus won the Nobel Prize in Literature in which year?",
+    "correctAnswers": [
+      "1957"
+    ],
+    "wrongAnswers": [
+      "1945",
+      "1952",
+      "1963",
+      "1969",
+      "1948",
+      "1960",
+      "1955"
+    ],
+    "funFact": "Camus, at 43, was the second-youngest laureate ever when he received the Nobel Prize in Literature.",
+    "articleTitle": "Albert Camus",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Albert_Camus",
+    "topicId": "french_literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fl_003",
+    "question": "Gustave Flaubert's 1857 novel \"Madame Bovary\" was initially prosecuted for what offence?",
+    "correctAnswers": [
+      "Immorality and offence against public morals"
+    ],
+    "wrongAnswers": [
+      "Blasphemy",
+      "Sedition against the state",
+      "Plagiarism",
+      "Libel against a living person",
+      "Copyright infringement"
+    ],
+    "funFact": "Flaubert was acquitted, and the trial's publicity made Madame Bovary a bestseller.",
+    "articleTitle": "Gustave Flaubert",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Madame_Bovary",
+    "topicId": "french_literature",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fl_004",
+    "question": "Simone de Beauvoir's 1949 work \"The Second Sex\" is foundational to which movement?",
+    "correctAnswers": [
+      "Feminist philosophy",
+      "Existentialist feminism"
+    ],
+    "wrongAnswers": [
+      "Structuralism",
+      "Surrealism",
+      "Absurdism",
+      "Marxist theory",
+      "Post-colonialism",
+      "Deconstruction"
+    ],
+    "funFact": "The Second Sex was put on the Catholic Church's Index of Forbidden Books upon publication.",
+    "articleTitle": "Simone de Beauvoir",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Simone_de_Beauvoir",
+    "topicId": "french_literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fl_005",
+    "question": "Which philosophical and literary movement, prominent in post-war France, was associated with Sartre and Camus?",
+    "correctAnswers": [
+      "Existentialism"
+    ],
+    "wrongAnswers": [
+      "Surrealism",
+      "Symbolism",
+      "Naturalism",
+      "Romanticism",
+      "Structuralism",
+      "Dadaism"
+    ],
+    "funFact": "Jean-Paul Sartre famously declined the Nobel Prize in Literature in 1964, the only person to voluntarily decline it.",
+    "articleTitle": "Existentialism",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Existentialism",
+    "topicId": "french_literature",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ling_001",
+    "question": "What branch of linguistics studies the sound systems of languages?",
+    "correctAnswers": [
+      "Phonology"
+    ],
+    "wrongAnswers": [
+      "Syntax",
+      "Morphology",
+      "Semantics",
+      "Pragmatics",
+      "Sociolinguistics",
+      "Lexicology"
+    ],
+    "funFact": "Human languages collectively use about 800 distinct phonemes, but any individual language uses only 11–100 of them.",
+    "articleTitle": "Phonology",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Phonology",
+    "topicId": "linguistics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ling_002",
+    "question": "The field of linguistics that studies the rules governing sentence structure is called what?",
+    "correctAnswers": [
+      "Syntax"
+    ],
+    "wrongAnswers": [
+      "Phonology",
+      "Semantics",
+      "Morphology",
+      "Pragmatics",
+      "Etymology",
+      "Lexicology"
+    ],
+    "funFact": "Noam Chomsky's theory of Universal Grammar proposes that all human languages share an innate structural framework in the brain.",
+    "articleTitle": "Syntax",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Syntax",
+    "topicId": "linguistics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ling_003",
+    "question": "The \"critical period hypothesis\" in linguistics suggests language is best acquired when?",
+    "correctAnswers": [
+      "In early childhood, before puberty"
+    ],
+    "wrongAnswers": [
+      "In adolescence",
+      "Between ages 10 and 15",
+      "Throughout life equally",
+      "In adulthood through formal study",
+      "Only in infancy (before age 2)"
+    ],
+    "funFact": "Studies of isolated children (like Genie, discovered in 1970) support the critical period hypothesis — she never fully acquired grammar despite later intervention.",
+    "articleTitle": "Language acquisition",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Language_acquisition#Critical_period_hypothesis",
+    "topicId": "linguistics",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ling_004",
+    "question": "How many living languages are estimated to exist in the world today?",
+    "correctAnswers": [
+      "Around 7,000"
+    ],
+    "wrongAnswers": [
+      "Around 1,000",
+      "Around 3,000",
+      "Around 15,000",
+      "Around 500",
+      "Around 10,000",
+      "Around 20,000"
+    ],
+    "funFact": "About 40% of the world's languages are endangered, with many having fewer than 1,000 speakers.",
+    "articleTitle": "Linguistics",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Linguistics",
+    "topicId": "linguistics",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ling_005",
+    "question": "The Sapir-Whorf hypothesis proposes that language structure affects what?",
+    "correctAnswers": [
+      "Thought and perception"
+    ],
+    "wrongAnswers": [
+      "Physical brain size",
+      "Mathematical ability",
+      "Social hierarchy",
+      "Genetic inheritance",
+      "Writing systems"
+    ],
+    "funFact": "The Hopi language reportedly has no tenses, which was once cited as evidence that Hopi speakers perceive time differently — though this claim has since been disputed.",
+    "articleTitle": "Linguistic relativity",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Linguistic_relativity",
+    "topicId": "linguistics",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dict_001",
+    "question": "The Oxford English Dictionary (OED) is considered the most authoritative dictionary of which language?",
+    "correctAnswers": [
+      "English"
+    ],
+    "wrongAnswers": [
+      "Latin",
+      "French",
+      "German",
+      "Spanish",
+      "Italian",
+      "Greek"
+    ],
+    "funFact": "The OED took 70 years to compile its first edition (1857–1928), and the full second edition contains over 600,000 word forms.",
+    "articleTitle": "Oxford English Dictionary",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Oxford_English_Dictionary",
+    "topicId": "dictionaries",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dict_002",
+    "question": "Samuel Johnson published his famous dictionary of the English language in which year?",
+    "correctAnswers": [
+      "1755"
+    ],
+    "wrongAnswers": [
+      "1725",
+      "1780",
+      "1700",
+      "1812",
+      "1600",
+      "1850"
+    ],
+    "funFact": "Johnson wrote his entire dictionary largely alone — most dictionaries of comparable scope are compiled by teams of dozens or hundreds of lexicographers.",
+    "articleTitle": "A Dictionary of the English Language",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/A_Dictionary_of_the_English_Language",
+    "topicId": "dictionaries",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dict_003",
+    "question": "What word describes a book that lists words and their synonyms?",
+    "correctAnswers": [
+      "Thesaurus"
+    ],
+    "wrongAnswers": [
+      "Lexicon",
+      "Glossary",
+      "Concordance",
+      "Almanac",
+      "Encyclopaedia",
+      "Index"
+    ],
+    "funFact": "The word \"thesaurus\" comes from Greek meaning \"treasury\" or \"storehouse\" — Peter Mark Roget published the first modern thesaurus in 1852.",
+    "articleTitle": "Thesaurus",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Thesaurus",
+    "topicId": "dictionaries",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dict_004",
+    "question": "What is the term for the scholarly study of the history and development of words?",
+    "correctAnswers": [
+      "Etymology"
+    ],
+    "wrongAnswers": [
+      "Lexicography",
+      "Phonology",
+      "Philology",
+      "Morphology",
+      "Semantics",
+      "Orthography"
+    ],
+    "funFact": "The English word \"nice\" originally meant \"foolish or stupid\" in the 13th century, then successively meant \"lascivious,\" \"extravagant,\" and \"precise\" before arriving at its modern meaning.",
+    "articleTitle": "Etymology",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Etymology",
+    "topicId": "dictionaries",
+    "difficulty": "medium"
+  },
+  {
+    "id": "theo_001",
+    "question": "What is the term for the branch of Christian theology that deals with the end of time?",
+    "correctAnswers": [
+      "Eschatology"
+    ],
+    "wrongAnswers": [
+      "Soteriology",
+      "Ecclesiology",
+      "Christology",
+      "Pneumatology",
+      "Theodicy",
+      "Hagiography"
+    ],
+    "funFact": "The word \"eschatology\" comes from the Greek \"eschatos\" meaning \"last\" — it covers beliefs about death, judgement, heaven, and hell.",
+    "articleTitle": "Eschatology",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Eschatology",
+    "topicId": "theology",
+    "difficulty": "hard"
+  },
+  {
+    "id": "theo_002",
+    "question": "The Five Pillars of Islam include prayer, fasting, charity, pilgrimage, and what fifth element?",
+    "correctAnswers": [
+      "Shahada (declaration of faith)"
+    ],
+    "wrongAnswers": [
+      "Jihad",
+      "Zakat",
+      "Hajj",
+      "Reading the Quran",
+      "Friday prayers",
+      "Ablution (wudu)"
+    ],
+    "funFact": "The Shahada — \"There is no god but God, and Muhammad is the messenger of God\" — is the foundation of Muslim faith and is whispered into a newborn's ear at birth.",
+    "articleTitle": "Five Pillars of Islam",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Five_Pillars_of_Islam",
+    "topicId": "theology",
+    "difficulty": "medium"
+  },
+  {
+    "id": "theo_003",
+    "question": "In Buddhism, what term describes the state of liberation from suffering and the cycle of rebirth?",
+    "correctAnswers": [
+      "Nirvana"
+    ],
+    "wrongAnswers": [
+      "Dharma",
+      "Karma",
+      "Samsara",
+      "Moksha",
+      "Bodhi",
+      "Mandala"
+    ],
+    "funFact": "The Buddha taught that nirvana is not a place but a state of mind characterised by the extinguishing of craving, aversion, and ignorance.",
+    "articleTitle": "Nirvana",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Nirvana",
+    "topicId": "theology",
+    "difficulty": "easy"
+  },
+  {
+    "id": "theo_004",
+    "question": "The Council of Nicaea in 325 AD produced which foundational Christian statement of belief?",
+    "correctAnswers": [
+      "The Nicene Creed"
+    ],
+    "wrongAnswers": [
+      "The Apostles' Creed",
+      "The Athanasian Creed",
+      "The Thirty-Nine Articles",
+      "The Westminster Confession",
+      "The Augsburg Confession"
+    ],
+    "funFact": "The Council of Nicaea was convened by Emperor Constantine I — the first Roman Emperor to convert to Christianity.",
+    "articleTitle": "First Council of Nicaea",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/First_Council_of_Nicaea",
+    "topicId": "theology",
+    "difficulty": "hard"
+  },
+  {
+    "id": "theo_005",
+    "question": "In Hinduism, what is the term for one's duty or moral law, which varies according to one's role in life?",
+    "correctAnswers": [
+      "Dharma"
+    ],
+    "wrongAnswers": [
+      "Karma",
+      "Moksha",
+      "Artha",
+      "Samsara",
+      "Ahimsa",
+      "Atman"
+    ],
+    "funFact": "The Bhagavad Gita, one of Hinduism's most important texts, is structured around a discussion of dharma between Prince Arjuna and the god Krishna.",
+    "articleTitle": "Dharma",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Dharma",
+    "topicId": "theology",
+    "difficulty": "medium"
+  },
+  {
+    "id": "puzz_001",
+    "question": "The first jigsaw puzzle was created circa 1760 by whom?",
+    "correctAnswers": [
+      "John Spilsbury"
+    ],
+    "wrongAnswers": [
+      "Samuel Johnson",
+      "James Watt",
+      "Charles Babbage",
+      "John Locke",
+      "Isaac Newton",
+      "Benjamin Franklin"
+    ],
+    "funFact": "The first jigsaw puzzles were made by gluing maps to flat pieces of wood and then cutting along the country borders — they were educational tools for children learning geography.",
+    "articleTitle": "Jigsaw puzzle",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Jigsaw_puzzle#History",
+    "topicId": "puzzles",
+    "difficulty": "hard"
+  },
+  {
+    "id": "puzz_002",
+    "question": "Sudoku, the number-placement puzzle, originated as a modern game in which country?",
+    "correctAnswers": [
+      "Japan"
+    ],
+    "wrongAnswers": [
+      "China",
+      "United States",
+      "Germany",
+      "France",
+      "South Korea",
+      "India"
+    ],
+    "funFact": "Despite the Japanese name, Sudoku was invented by Howard Garns, an American architect, in 1979 under the name \"Number Place.\"",
+    "articleTitle": "Sudoku",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Sudoku#History",
+    "topicId": "puzzles",
+    "difficulty": "easy"
+  },
+  {
+    "id": "puzz_003",
+    "question": "The first crossword puzzle was published in the New York World newspaper in which year?",
+    "correctAnswers": [
+      "1913"
+    ],
+    "wrongAnswers": [
+      "1900",
+      "1925",
+      "1895",
+      "1930",
+      "1888",
+      "1920"
+    ],
+    "funFact": "The inventor of the crossword, Arthur Wynne, called it a \"word-cross\" — the name was later accidentally transposed by a typesetter.",
+    "articleTitle": "Crossword",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Crossword#History",
+    "topicId": "puzzles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "puzz_004",
+    "question": "The Rubik's Cube was invented in 1974 by Ernő Rubik, a professor from which country?",
+    "correctAnswers": [
+      "Hungary"
+    ],
+    "wrongAnswers": [
+      "Austria",
+      "Czech Republic",
+      "Poland",
+      "Germany",
+      "Romania",
+      "Slovakia"
+    ],
+    "funFact": "Ernő Rubik originally called his invention the \"Magic Cube.\" It took him over a month to solve it himself after inventing it.",
+    "topicId": "puzzles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "puzz_005",
+    "question": "What is the minimum number of moves needed to solve any configuration of the Rubik's Cube (known as \"God's number\")?",
+    "correctAnswers": [
+      "20"
+    ],
+    "wrongAnswers": [
+      "17",
+      "26",
+      "30",
+      "15",
+      "22",
+      "35",
+      "42"
+    ],
+    "funFact": "It took decades of mathematical and computational work to prove \"God's number\" is 20. The proof required the equivalent of 35 CPU-years of computing time.",
+    "topicId": "puzzles",
+    "difficulty": "hard"
+  },
+  {
+    "id": "tennis_001",
+    "question": "How many Grand Slam singles titles did Serena Williams win in her career?",
+    "correctAnswers": [
+      "23"
+    ],
+    "wrongAnswers": [
+      "18",
+      "20",
+      "15",
+      "25",
+      "22",
+      "17",
+      "30"
+    ],
+    "funFact": "Serena Williams won her 23rd Grand Slam title at the 2017 Australian Open while in the first trimester of pregnancy.",
+    "articleTitle": "Serena Williams",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_002",
+    "question": "Wimbledon uses which playing surface?",
+    "correctAnswers": [
+      "Grass"
+    ],
+    "wrongAnswers": [
+      "Clay",
+      "Hard court",
+      "Carpet",
+      "Artificial grass",
+      "Sand",
+      "Concrete"
+    ],
+    "funFact": "Wimbledon's courts use 100% perennial ryegrass, cut to precisely 8mm. The courts are reseeded every year after the championships.",
+    "articleTitle": "Wimbledon Championships",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Wimbledon_Championships#Courts",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_003",
+    "question": "What score is referred to as \"deuce\" in tennis?",
+    "correctAnswers": [
+      "40-40"
+    ],
+    "wrongAnswers": [
+      "30-30",
+      "15-15",
+      "0-0",
+      "30-40",
+      "15-40",
+      "Game point"
+    ],
+    "funFact": "The word \"deuce\" likely comes from the French \"à deux le jeu\" (to both the game), though the exact etymology is disputed.",
+    "articleTitle": "Tennis",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Tennis#Scoring",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_004",
+    "question": "Roger Federer won a record-equalling 20 Grand Slam singles titles before Djokovic and Nadal surpassed him. At which tournament did he win his first?",
+    "correctAnswers": [
+      "Wimbledon 2003"
+    ],
+    "wrongAnswers": [
+      "US Open 2001",
+      "French Open 2005",
+      "Australian Open 2004",
+      "Wimbledon 2001",
+      "US Open 2003"
+    ],
+    "funFact": "Federer spent a record 310 weeks as world number one over his career, a record later broken by Novak Djokovic.",
+    "articleTitle": "Roger Federer",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Roger_Federer",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_005",
+    "question": "Which annual tennis tournament is played on red clay in Paris?",
+    "correctAnswers": [
+      "Roland Garros (French Open)"
+    ],
+    "wrongAnswers": [
+      "Wimbledon",
+      "US Open",
+      "Australian Open",
+      "Cincinnati Masters",
+      "Rome Masters",
+      "Monte Carlo Masters"
+    ],
+    "funFact": "Roland Garros is named after a French aviator who was the first person to fly across the Mediterranean Sea.",
+    "articleTitle": "French Open",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/French_Open",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_006",
+    "question": "In what year did open tennis (allowing professionals alongside amateurs) begin?",
+    "correctAnswers": [
+      "1968"
+    ],
+    "wrongAnswers": [
+      "1960",
+      "1972",
+      "1945",
+      "1980",
+      "1955",
+      "1950"
+    ],
+    "funFact": "Before 1968, professionals were banned from Grand Slams. The \"Open Era\" transformed tennis into a fully professional sport.",
+    "articleTitle": "Open Era",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Open_Era",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_001",
+    "question": "What is the most widely prescribed class of drugs for treating bacterial infections?",
+    "correctAnswers": [
+      "Antibiotics"
+    ],
+    "wrongAnswers": [
+      "Antivirals",
+      "Antifungals",
+      "Analgesics",
+      "Corticosteroids",
+      "Antihistamines",
+      "Beta-blockers"
+    ],
+    "funFact": "Since Alexander Fleming discovered penicillin in 1928, antibiotics have saved an estimated 200 million lives.",
+    "articleTitle": "Antibiotic",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Antibiotic",
+    "topicId": "medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "med_002",
+    "question": "Which organ is responsible for filtering about 200 litres of blood per day in the human body?",
+    "correctAnswers": [
+      "The kidneys"
+    ],
+    "wrongAnswers": [
+      "The liver",
+      "The spleen",
+      "The heart",
+      "The lungs",
+      "The pancreas",
+      "The lymph nodes"
+    ],
+    "funFact": "Each kidney contains about one million tiny filtering units called nephrons. You can survive with just one healthy kidney.",
+    "articleTitle": "Kidney",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Kidney",
+    "topicId": "medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_003",
+    "question": "What is the term for a study that tracks a group of people over time to observe health outcomes?",
+    "correctAnswers": [
+      "Cohort study"
+    ],
+    "wrongAnswers": [
+      "Case-control study",
+      "Randomised controlled trial",
+      "Cross-sectional study",
+      "Meta-analysis",
+      "Systematic review"
+    ],
+    "funFact": "The Framingham Heart Study, started in 1948, is one of the longest-running cohort studies and first identified smoking as a major risk factor for heart disease.",
+    "articleTitle": "Cohort study",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Cohort_study",
+    "topicId": "medicine",
+    "difficulty": "hard"
+  },
+  {
+    "id": "anat_001",
+    "question": "How many bones does the adult human body contain?",
+    "correctAnswers": [
+      "206"
+    ],
+    "wrongAnswers": [
+      "180",
+      "230",
+      "300",
+      "150",
+      "250",
+      "196",
+      "212"
+    ],
+    "funFact": "Babies are born with around 270–300 bones. Many of these fuse together during childhood, resulting in the adult count of 206.",
+    "articleTitle": "Human skeleton",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Human_skeleton",
+    "topicId": "anatomy",
+    "difficulty": "easy"
+  },
+  {
+    "id": "anat_002",
+    "question": "Which is the largest organ in the human body?",
+    "correctAnswers": [
+      "The skin"
+    ],
+    "wrongAnswers": [
+      "The liver",
+      "The small intestine",
+      "The brain",
+      "The lungs",
+      "The stomach",
+      "The large intestine"
+    ],
+    "funFact": "The skin accounts for about 15% of body weight and, when spread flat, covers roughly 2 square metres in an average adult.",
+    "articleTitle": "Human skin",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Human_skin",
+    "topicId": "anatomy",
+    "difficulty": "easy"
+  },
+  {
+    "id": "anat_003",
+    "question": "The human heart has how many chambers?",
+    "correctAnswers": [
+      "4"
+    ],
+    "wrongAnswers": [
+      "2",
+      "3",
+      "6",
+      "5",
+      "8",
+      "1"
+    ],
+    "funFact": "The heart beats about 100,000 times per day, pumping roughly 7,500 litres of blood through approximately 96,000 km of blood vessels.",
+    "articleTitle": "Heart",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Heart#Chambers",
+    "topicId": "anatomy",
+    "difficulty": "easy"
+  },
+  {
+    "id": "anat_004",
+    "question": "Which part of the brain is primarily responsible for balance and coordination?",
+    "correctAnswers": [
+      "The cerebellum"
+    ],
+    "wrongAnswers": [
+      "The cerebrum",
+      "The brain stem",
+      "The thalamus",
+      "The hippocampus",
+      "The amygdala",
+      "The prefrontal cortex"
+    ],
+    "funFact": "Although the cerebellum accounts for only 10% of the brain's volume, it contains more than 50% of the total number of neurons.",
+    "articleTitle": "Cerebellum",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Cerebellum",
+    "topicId": "anatomy",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ther_001",
+    "question": "CBT stands for which type of psychotherapy?",
+    "correctAnswers": [
+      "Cognitive Behavioural Therapy"
+    ],
+    "wrongAnswers": [
+      "Cognitive Bias Treatment",
+      "Central Brain Therapy",
+      "Complete Behaviour Therapy",
+      "Controlled Breathing Technique"
+    ],
+    "funFact": "CBT was developed by Aaron Beck in the 1960s, who noticed that his depressed patients had spontaneous negative thoughts he called \"automatic thoughts.\"",
+    "articleTitle": "Cognitive behavioral therapy",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Cognitive_behavioral_therapy",
+    "topicId": "therapy",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ther_002",
+    "question": "DBT (Dialectical Behaviour Therapy) was originally developed by Marsha Linehan to treat which condition?",
+    "correctAnswers": [
+      "Borderline personality disorder"
+    ],
+    "wrongAnswers": [
+      "Schizophrenia",
+      "Major depressive disorder",
+      "PTSD",
+      "Bipolar disorder",
+      "Generalised anxiety disorder"
+    ],
+    "funFact": "Marsha Linehan later disclosed that she herself had been diagnosed with BPD — a revelation that significantly reduced stigma around the condition.",
+    "articleTitle": "Dialectical behavior therapy",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Dialectical_behavior_therapy",
+    "topicId": "therapy",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ther_003",
+    "question": "Sigmund Freud's psychoanalytic theory centred on what concept involving hidden mental processes?",
+    "correctAnswers": [
+      "The unconscious mind"
+    ],
+    "wrongAnswers": [
+      "Cognitive distortions",
+      "Neural plasticity",
+      "Conditioned reflexes",
+      "Schemata",
+      "Attachment theory"
+    ],
+    "funFact": "Freud believed the unconscious mind was like an iceberg — the conscious mind (the visible tip) is vastly smaller than the hidden unconscious below.",
+    "articleTitle": "Psychoanalysis",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Psychoanalysis",
+    "topicId": "therapy",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ther_004",
+    "question": "EMDR therapy uses bilateral stimulation (often eye movements) to treat which condition?",
+    "correctAnswers": [
+      "PTSD (Post-Traumatic Stress Disorder)"
+    ],
+    "wrongAnswers": [
+      "Obsessive-Compulsive Disorder",
+      "Bipolar disorder",
+      "Schizophrenia",
+      "Attention deficit disorder",
+      "Eating disorders"
+    ],
+    "funFact": "The World Health Organization recommends EMDR as an evidence-based treatment for PTSD in adults.",
+    "articleTitle": "Eye movement desensitization and reprocessing",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Eye_movement_desensitization_and_reprocessing",
+    "topicId": "therapy",
+    "difficulty": "medium"
+  },
+  {
+    "id": "adhd_001",
+    "question": "What does ADHD stand for?",
+    "correctAnswers": [
+      "Attention Deficit Hyperactivity Disorder"
+    ],
+    "wrongAnswers": [
+      "Attention Deficit Hyperactive Disorder",
+      "Active Deficit Hyperactivity Disorder",
+      "Attention Disorder Hyperactivity Deficit",
+      "Attention Deficit Hypersensitivity Disorder"
+    ],
+    "funFact": "ADHD affects approximately 5–7% of children and 2–5% of adults worldwide, making it one of the most common neurodevelopmental conditions.",
+    "articleTitle": "Attention deficit hyperactivity disorder",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder",
+    "topicId": "adhd",
+    "difficulty": "easy"
+  },
+  {
+    "id": "adhd_002",
+    "question": "Methylphenidate, a common ADHD medication, is sold under which well-known brand name?",
+    "correctAnswers": [
+      "Ritalin"
+    ],
+    "wrongAnswers": [
+      "Adderall",
+      "Concerta",
+      "Strattera",
+      "Wellbutrin",
+      "Prozac",
+      "Vyvanse"
+    ],
+    "funFact": "Methylphenidate was first synthesised in 1944 and approved for medical use in 1955. Despite being a stimulant, it typically has a calming effect on people with ADHD.",
+    "articleTitle": "Methylphenidate",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Methylphenidate",
+    "topicId": "adhd",
+    "difficulty": "medium"
+  },
+  {
+    "id": "adhd_003",
+    "question": "ADHD is currently understood to involve differences in which brain-based functions?",
+    "correctAnswers": [
+      "Executive functions"
+    ],
+    "wrongAnswers": [
+      "Motor coordination only",
+      "Language processing",
+      "Visual processing",
+      "Long-term memory storage",
+      "Emotional recognition"
+    ],
+    "funFact": "Executive functions include working memory, impulse control, and planning — ADHD impacts these more than sustained attention per se.",
+    "articleTitle": "Executive functions",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Executive_functions",
+    "topicId": "adhd",
+    "difficulty": "medium"
+  },
+  {
+    "id": "adhd_004",
+    "question": "ADHD was previously known by what name in earlier editions of the DSM?",
+    "correctAnswers": [
+      "ADD (Attention Deficit Disorder)",
+      "Minimal Brain Dysfunction"
+    ],
+    "wrongAnswers": [
+      "Hyperkinetic Disorder",
+      "Childhood Hyperactivity",
+      "Attention Behaviour Disorder",
+      "Cognitive Deficit Syndrome"
+    ],
+    "funFact": "The first description of ADHD-like symptoms appeared in a German poem by Heinrich Hoffmann in 1845, featuring a character called \"Fidgety Philip.\"",
+    "articleTitle": "Attention deficit hyperactivity disorder",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder#History",
+    "topicId": "adhd",
+    "difficulty": "hard"
+  },
+  {
+    "id": "aut_001",
+    "question": "Autism is currently classified as a \"spectrum\" disorder. What does this mean?",
+    "correctAnswers": [
+      "It encompasses a wide range of presentations and support needs"
+    ],
+    "wrongAnswers": [
+      "It involves a colour perception difference",
+      "It varies only in severity of one trait",
+      "It is caused by a spectrum of genes",
+      "It affects people differently by age group"
+    ],
+    "funFact": "The term \"autism spectrum\" replaced earlier separate diagnoses like Asperger syndrome in the DSM-5 (2013) to better reflect the full range of presentations.",
+    "articleTitle": "Autism spectrum",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Autism_spectrum",
+    "topicId": "autism",
+    "difficulty": "easy"
+  },
+  {
+    "id": "aut_002",
+    "question": "Leo Kanner first formally described autism in his landmark 1943 paper. What institution was he at?",
+    "correctAnswers": [
+      "Johns Hopkins University"
+    ],
+    "wrongAnswers": [
+      "Harvard University",
+      "Yale University",
+      "Columbia University",
+      "University of Vienna",
+      "University of Chicago"
+    ],
+    "funFact": "Kanner's 1943 paper described 11 children with similar features — he coined the term \"early infantile autism,\" from the Greek \"autos\" meaning \"self.\"",
+    "articleTitle": "Leo Kanner",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Leo_Kanner",
+    "topicId": "autism",
+    "difficulty": "hard"
+  },
+  {
+    "id": "aut_003",
+    "question": "Current scientific consensus indicates that autism is caused primarily by what?",
+    "correctAnswers": [
+      "A combination of genetic and environmental factors"
+    ],
+    "wrongAnswers": [
+      "Childhood vaccines",
+      "Poor parenting",
+      "Birth trauma alone",
+      "Diet during pregnancy",
+      "Air pollution only"
+    ],
+    "funFact": "Studies of identical twins show a heritability of autism around 64–91%, making it one of the most heritable of all neurodevelopmental conditions.",
+    "articleTitle": "Causes of autism",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Causes_of_autism",
+    "topicId": "autism",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pharm_001",
+    "question": "What is the term for the study of how drugs interact with the body?",
+    "correctAnswers": [
+      "Pharmacology"
+    ],
+    "wrongAnswers": [
+      "Pharmacokinetics",
+      "Toxicology",
+      "Biochemistry",
+      "Physiology",
+      "Immunology",
+      "Pathology"
+    ],
+    "funFact": "The word \"pharmacology\" comes from the Greek \"pharmakon\" meaning \"drug\" or \"poison\" — the same root as \"pharmacy.\"",
+    "articleTitle": "Pharmacology",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Pharmacology",
+    "topicId": "pharmaceutical_drugs",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pharm_002",
+    "question": "Which pain-relieving drug, discovered through willow bark, became one of the world's most common medicines?",
+    "correctAnswers": [
+      "Aspirin (acetylsalicylic acid)"
+    ],
+    "wrongAnswers": [
+      "Paracetamol",
+      "Ibuprofen",
+      "Morphine",
+      "Codeine",
+      "Naproxen",
+      "Diclofenac"
+    ],
+    "funFact": "Aspirin is both an analgesic and an antiplatelet agent — it's prescribed in low doses to prevent heart attacks and strokes.",
+    "articleTitle": "Aspirin",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Aspirin",
+    "topicId": "pharmaceutical_drugs",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pharm_003",
+    "question": "What is the name of the process by which the body breaks down and eliminates drugs?",
+    "correctAnswers": [
+      "Drug metabolism",
+      "Pharmacokinetics"
+    ],
+    "wrongAnswers": [
+      "Drug synthesis",
+      "Pharmacodynamics",
+      "Drug absorption",
+      "Bioavailability",
+      "Drug efficacy"
+    ],
+    "funFact": "Most drug metabolism occurs in the liver via enzymes of the cytochrome P450 family — genetic variations in these enzymes can make the same dose vastly different in effect across individuals.",
+    "articleTitle": "Drug metabolism",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Drug_metabolism",
+    "topicId": "pharmaceutical_drugs",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pharm_004",
+    "question": "What is a \"double-blind\" clinical trial?",
+    "correctAnswers": [
+      "Neither the participants nor the researchers know who receives the active treatment"
+    ],
+    "wrongAnswers": [
+      "Only participants know their treatment group",
+      "Both eyes are covered during treatment",
+      "All participants receive the same treatment",
+      "Only one control group is used"
+    ],
+    "funFact": "Double-blind trials were pioneered in the mid-20th century. Before then, many treatments — including some truly ineffective ones — were believed to work simply due to the placebo effect.",
+    "articleTitle": "Blinded experiment",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Blinded_experiment",
+    "topicId": "pharmaceutical_drugs",
+    "difficulty": "medium"
+  },
+  {
+    "id": "rec_001",
+    "question": "Cannabis is classified by its primary psychoactive compound. What is that compound?",
+    "correctAnswers": [
+      "THC (tetrahydrocannabinol)"
+    ],
+    "wrongAnswers": [
+      "CBD (cannabidiol)",
+      "DMT",
+      "Psilocybin",
+      "Mescaline",
+      "MDMA",
+      "LSD"
+    ],
+    "funFact": "Cannabis has been used by humans for at least 2,500 years — charred seeds found in a burial site in Romania date to around 500 BC.",
+    "articleTitle": "Cannabis (drug)",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Cannabis_(drug)",
+    "topicId": "recreational_drugs",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rec_002",
+    "question": "MDMA was first synthesised in 1912 for what intended purpose?",
+    "correctAnswers": [
+      "As a potential medication (haemostatic agent)"
+    ],
+    "wrongAnswers": [
+      "As a recreational drug",
+      "As a military truth serum",
+      "As an anaesthetic",
+      "As an antidepressant",
+      "As a diet pill"
+    ],
+    "funFact": "MDMA was not widely known or used until the 1970s–80s. It was legal in the US until 1985 and was used in psychotherapy before being scheduled.",
+    "articleTitle": "MDMA",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/MDMA#History",
+    "topicId": "recreational_drugs",
+    "difficulty": "hard"
+  },
+  {
+    "id": "rec_003",
+    "question": "LSD was first synthesised in 1938 by Albert Hofmann while working at which company?",
+    "correctAnswers": [
+      "Sandoz Laboratories"
+    ],
+    "wrongAnswers": [
+      "Bayer",
+      "Pfizer",
+      "Merck",
+      "Roche",
+      "Novartis",
+      "BASF"
+    ],
+    "funFact": "Hofmann accidentally discovered LSD's psychedelic effects in 1943 when he inadvertently absorbed a small amount through his fingertips.",
+    "articleTitle": "Lysergic acid diethylamide",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Lysergic_acid_diethylamide#History",
+    "topicId": "recreational_drugs",
+    "difficulty": "hard"
+  },
+  {
+    "id": "rec_004",
+    "question": "Caffeine is the world's most widely consumed psychoactive substance. It primarily works by blocking receptors for which neurotransmitter?",
+    "correctAnswers": [
+      "Adenosine"
+    ],
+    "wrongAnswers": [
+      "Dopamine",
+      "Serotonin",
+      "GABA",
+      "Acetylcholine",
+      "Norepinephrine",
+      "Glutamate"
+    ],
+    "funFact": "Caffeine is naturally present in over 60 plant species. It evolved as a natural pesticide, paralyzing and killing insects that eat the plants.",
+    "articleTitle": "Caffeine",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Caffeine#Mechanism_of_action",
+    "topicId": "recreational_drugs",
+    "difficulty": "medium"
+  },
+  {
+    "id": "coffee_001",
+    "question": "Coffee is believed to have been first discovered in which country?",
+    "correctAnswers": [
+      "Ethiopia"
+    ],
+    "wrongAnswers": [
+      "Yemen",
+      "Brazil",
+      "Colombia",
+      "Turkey",
+      "Indonesia",
+      "India"
+    ],
+    "funFact": "Legend has it that a 9th-century Ethiopian goat herder named Kaldi noticed his goats became energetic after eating coffee berries.",
+    "articleTitle": "History of coffee",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/History_of_coffee",
+    "topicId": "coffee",
+    "difficulty": "easy"
+  },
+  {
+    "id": "coffee_002",
+    "question": "Which country is currently the world's largest producer of coffee?",
+    "correctAnswers": [
+      "Brazil"
+    ],
+    "wrongAnswers": [
+      "Vietnam",
+      "Colombia",
+      "Indonesia",
+      "Ethiopia",
+      "Honduras",
+      "India"
+    ],
+    "funFact": "Brazil has been the world's largest coffee producer for over 150 years, accounting for about one-third of global output.",
+    "articleTitle": "Coffee production",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Coffee_production",
+    "topicId": "coffee",
+    "difficulty": "easy"
+  },
+  {
+    "id": "coffee_003",
+    "question": "Arabica and Robusta are the two main species of coffee. Which is higher in caffeine?",
+    "correctAnswers": [
+      "Robusta"
+    ],
+    "wrongAnswers": [
+      "Arabica",
+      "They are equal",
+      "Liberica",
+      "Excelsa",
+      "Maragogipe"
+    ],
+    "funFact": "Robusta contains almost twice the caffeine of Arabica — caffeine is a natural pesticide, so Robusta's higher caffeine makes it more resistant to insects.",
+    "articleTitle": "Coffea",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Coffea",
+    "topicId": "coffee",
+    "difficulty": "medium"
+  },
+  {
+    "id": "coffee_004",
+    "question": "Coffee contains which primary psychoactive compound responsible for its stimulating effect?",
+    "correctAnswers": [
+      "Caffeine"
+    ],
+    "wrongAnswers": [
+      "Theobromine",
+      "Theophylline",
+      "Tannin",
+      "Chlorogenic acid",
+      "Trigonelline",
+      "Adenosine"
+    ],
+    "funFact": "A typical 240ml cup of brewed coffee contains 70–140 mg of caffeine. The LD50 (lethal dose for 50% of people) would require roughly 70–100 cups consumed rapidly.",
+    "articleTitle": "Caffeine",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Caffeine",
+    "topicId": "coffee",
+    "difficulty": "easy"
+  },
+  {
+    "id": "coffee_005",
+    "question": "The \"Bean Belt\" refers to the geographic zone between which two latitudes where most coffee is grown?",
+    "correctAnswers": [
+      "Between the Tropics of Cancer and Capricorn"
+    ],
+    "wrongAnswers": [
+      "Between 40°N and 40°S",
+      "Between 60°N and 60°S",
+      "Only along the equator",
+      "Between 10°N and 10°S"
+    ],
+    "funFact": "Coffee plants require very specific conditions — altitude, temperature, rainfall, and soil type — making the Bean Belt the only viable growing zone on Earth.",
+    "articleTitle": "Coffee production in Ethiopia",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Coffee_production_in_Ethiopia",
+    "topicId": "coffee",
+    "difficulty": "medium"
+  },
+  {
+    "id": "brew_001",
+    "question": "Espresso is made by forcing pressurised hot water through finely ground coffee. What is the standard pressure used?",
+    "correctAnswers": [
+      "9 bar (atmospheres)"
+    ],
+    "wrongAnswers": [
+      "3 bar",
+      "15 bar",
+      "1 bar",
+      "20 bar",
+      "6 bar",
+      "30 bar"
+    ],
+    "funFact": "The 9-bar standard for espresso was set by scientific research in Italy in the 1940s — it produces the optimal balance of flavour compounds and crema.",
+    "articleTitle": "Espresso",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Espresso#Pressure",
+    "topicId": "coffee_brewing",
+    "difficulty": "hard"
+  },
+  {
+    "id": "brew_002",
+    "question": "The French press brewing method was patented in which country?",
+    "correctAnswers": [
+      "France"
+    ],
+    "wrongAnswers": [
+      "Italy",
+      "Germany",
+      "Switzerland",
+      "United Kingdom",
+      "Austria",
+      "United States"
+    ],
+    "funFact": "Despite the name, the modern French press as we know it was actually patented by Italian designer Attilio Calimani in 1929.",
+    "articleTitle": "French press",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/French_press#History",
+    "topicId": "coffee_brewing",
+    "difficulty": "medium"
+  },
+  {
+    "id": "brew_003",
+    "question": "Cold brew coffee is made by steeping coffee grounds in cold water for how long?",
+    "correctAnswers": [
+      "12–24 hours"
+    ],
+    "wrongAnswers": [
+      "1–2 hours",
+      "5 minutes",
+      "48–72 hours",
+      "30 minutes",
+      "3–4 hours",
+      "1 week"
+    ],
+    "funFact": "Cold brew contains up to 70% less acidity than hot-brewed coffee, making it easier on the stomach.",
+    "articleTitle": "Cold brew coffee",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Cold_brew_coffee",
+    "topicId": "coffee_brewing",
+    "difficulty": "medium"
+  },
+  {
+    "id": "brew_004",
+    "question": "The AeroPress was invented in 2004 by which American inventor?",
+    "correctAnswers": [
+      "Alan Adler"
+    ],
+    "wrongAnswers": [
+      "James Dyson",
+      "Elon Musk",
+      "Howard Schultz",
+      "Alfred Peet",
+      "Ernest Illy"
+    ],
+    "funFact": "Alan Adler also invented the Aerobie flying ring, one of the world's longest-flying thrown objects. He invented the AeroPress to brew a single cup quickly.",
+    "articleTitle": "AeroPress",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/AeroPress",
+    "topicId": "coffee_brewing",
+    "difficulty": "hard"
+  },
+  {
+    "id": "candy_001",
+    "question": "Which country produces the most chocolate in the world?",
+    "correctAnswers": [
+      "Ivory Coast (Côte d'Ivoire)"
+    ],
+    "wrongAnswers": [
+      "Switzerland",
+      "Belgium",
+      "Germany",
+      "Ghana",
+      "Ecuador",
+      "Brazil"
+    ],
+    "funFact": "Ivory Coast produces about 40% of the world's cocoa supply, despite consuming very little of the chocolate made from it.",
+    "articleTitle": "Chocolate",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Chocolate#Production",
+    "topicId": "candy",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_002",
+    "question": "The gummy bear was invented in which country?",
+    "correctAnswers": [
+      "Germany"
+    ],
+    "wrongAnswers": [
+      "USA",
+      "Sweden",
+      "UK",
+      "Denmark",
+      "Austria",
+      "Switzerland"
+    ],
+    "funFact": "Hans Riegel of Haribo created the gummy bear in Bonn in 1922. The name HARIBO comes from Hans Riegel + Bonn.",
+    "articleTitle": "Gummy bear",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Gummy_bear",
+    "topicId": "candy",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_003",
+    "question": "What is the primary ingredient that makes hard candy hard?",
+    "correctAnswers": [
+      "Crystalline or amorphous sugar (sucrose)"
+    ],
+    "wrongAnswers": [
+      "Gelatin",
+      "Pectin",
+      "Corn syrup only",
+      "Starch",
+      "Glycerine",
+      "Wax"
+    ],
+    "funFact": "Hard candy is made by heating sugar solution above 150°C and then rapidly cooling it to prevent crystallisation, creating an amorphous glass-like solid.",
+    "articleTitle": "Hard candy",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Hard_candy",
+    "topicId": "candy",
+    "difficulty": "medium"
+  },
+  {
+    "id": "croch_001",
+    "question": "Crochet uses which tool to create fabric by interlocking loops of yarn?",
+    "correctAnswers": [
+      "A crochet hook"
+    ],
+    "wrongAnswers": [
+      "Two needles",
+      "A loom",
+      "A shuttle",
+      "A bobbin",
+      "A spindle",
+      "A thimble"
+    ],
+    "funFact": "Unlike knitting (which uses two needles and keeps multiple loops active), crochet typically keeps only one live loop on the hook at a time.",
+    "articleTitle": "Crochet",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Crochet",
+    "topicId": "crocheting",
+    "difficulty": "easy"
+  },
+  {
+    "id": "croch_002",
+    "question": "Amigurumi is a Japanese crochet (or knitting) technique for making what kind of items?",
+    "correctAnswers": [
+      "Small stuffed animals or characters"
+    ],
+    "wrongAnswers": [
+      "Blankets",
+      "Scarves",
+      "Doilies",
+      "Hats",
+      "Bags",
+      "Socks"
+    ],
+    "funFact": "The word \"amigurumi\" combines the Japanese words \"ami\" (knitted or crocheted) and \"nuigurumi\" (stuffed doll). The style became a global craft trend in the 2000s.",
+    "articleTitle": "Amigurumi",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Amigurumi",
+    "topicId": "crocheting",
+    "difficulty": "medium"
+  },
+  {
+    "id": "croch_003",
+    "question": "What is the earliest documented evidence of crochet-like work?",
+    "correctAnswers": [
+      "19th century Europe (earliest records from the 1820s–1840s)"
+    ],
+    "wrongAnswers": [
+      "Ancient Egypt",
+      "Medieval China",
+      "17th century Netherlands",
+      "Viking-age Scandinavia",
+      "Ancient Rome"
+    ],
+    "funFact": "Some historians believe what was called \"shepherd's knitting\" in early texts actually referred to crochet — the technique's true origins remain debated.",
+    "articleTitle": "Crochet",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Crochet#History",
+    "topicId": "crocheting",
+    "difficulty": "hard"
+  },
+  {
+    "id": "socks_001",
+    "question": "The oldest known socks, discovered in Egypt, date to approximately which century AD?",
+    "correctAnswers": [
+      "3rd–5th century AD"
+    ],
+    "wrongAnswers": [
+      "1st century AD",
+      "10th century BC",
+      "8th century AD",
+      "12th century AD",
+      "1st century BC"
+    ],
+    "funFact": "The Egyptian socks, found at Oxyrhynchus, were knitted using a split-toe design intended to be worn with sandals.",
+    "articleTitle": "Sock",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Sock#History",
+    "topicId": "socks",
+    "difficulty": "hard"
+  },
+  {
+    "id": "socks_002",
+    "question": "The first knitting machine capable of making stockings was invented by William Lee in which century?",
+    "correctAnswers": [
+      "16th century (1589)"
+    ],
+    "wrongAnswers": [
+      "14th century",
+      "17th century",
+      "18th century",
+      "15th century",
+      "19th century"
+    ],
+    "funFact": "Queen Elizabeth I reportedly refused to grant Lee a patent because she feared his machine would put hand knitters out of work.",
+    "articleTitle": "Knitting",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Knitting#History",
+    "topicId": "socks",
+    "difficulty": "medium"
+  },
+  {
+    "id": "shoe_001",
+    "question": "The world's oldest leather shoe, found in Armenia, dates to approximately how many years ago?",
+    "correctAnswers": [
+      "5,500 years ago"
+    ],
+    "wrongAnswers": [
+      "2,000 years ago",
+      "10,000 years ago",
+      "3,000 years ago",
+      "1,000 years ago",
+      "8,000 years ago"
+    ],
+    "funFact": "The Armenian shoe, discovered in 2008, was stuffed with grass — perhaps as insulation or to keep its shape.",
+    "articleTitle": "Shoe",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Shoe#History",
+    "topicId": "footwear",
+    "difficulty": "hard"
+  },
+  {
+    "id": "shoe_002",
+    "question": "High heels were originally worn by whom in 10th-century Persia?",
+    "correctAnswers": [
+      "Male horse riders (cavalry soldiers)"
+    ],
+    "wrongAnswers": [
+      "Female royalty",
+      "Priests",
+      "Actors in theatres",
+      "Noblewomen in courts",
+      "Dancers"
+    ],
+    "funFact": "Persian heels helped keep feet in stirrups while riding. European nobility adopted them as a status symbol in the 17th century — at which point women adopted them too.",
+    "articleTitle": "High-heeled shoe",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/High-heeled_shoe#History",
+    "topicId": "footwear",
+    "difficulty": "medium"
+  },
+  {
+    "id": "shoe_003",
+    "question": "Nike takes its name from which ancient Greek deity?",
+    "correctAnswers": [
+      "Nike, goddess of victory"
+    ],
+    "wrongAnswers": [
+      "Hermes, messenger of the gods",
+      "Athena, goddess of wisdom",
+      "Ares, god of war",
+      "Apollo, god of the sun",
+      "Hephaestus, god of craftsmen"
+    ],
+    "funFact": "Nike, Inc. was founded in 1964 as \"Blue Ribbon Sports.\" The iconic Swoosh logo was designed by a Portland State University student for $35.",
+    "articleTitle": "Sneaker (footwear)",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Sneaker_(footwear)",
+    "topicId": "footwear",
+    "difficulty": "easy"
+  },
+  {
+    "id": "perf_001",
+    "question": "What is the world's most expensive perfume ingredient, derived from the intestine of sperm whales?",
+    "correctAnswers": [
+      "Ambergris"
+    ],
+    "wrongAnswers": [
+      "Musk",
+      "Civet",
+      "Oud",
+      "Orris",
+      "Vetiver",
+      "Jasmine absolute"
+    ],
+    "funFact": "Ambergris floats on the ocean for years before washing ashore, where it was historically found by beachcombers and sold for enormous sums.",
+    "articleTitle": "Ambergris",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Ambergris",
+    "topicId": "perfumes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "perf_002",
+    "question": "The fragrance pyramid describes a perfume's notes in three layers. Which evaporates first?",
+    "correctAnswers": [
+      "Top notes"
+    ],
+    "wrongAnswers": [
+      "Base notes",
+      "Heart notes",
+      "Middle notes",
+      "All evaporate equally",
+      "Woody notes"
+    ],
+    "funFact": "Top notes (like citrus) are the first scent you detect but last only 15–30 minutes. Base notes (like sandalwood) emerge last and linger for hours.",
+    "articleTitle": "Fragrance pyramid",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Fragrance_pyramid",
+    "topicId": "perfumes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "perf_003",
+    "question": "Grasse, in southern France, is considered the world capital of which industry?",
+    "correctAnswers": [
+      "Perfume (fragrance)"
+    ],
+    "wrongAnswers": [
+      "Wine",
+      "Cheese",
+      "Silk",
+      "Lavender farming",
+      "Cosmetics",
+      "Fashion"
+    ],
+    "funFact": "Grasse has been the centre of the perfume industry since the 17th century. The city produces roughly two-thirds of France's natural aromas.",
+    "articleTitle": "Grasse",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Grasse",
+    "topicId": "perfumes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mech_001",
+    "question": "Which law states that the pressure and volume of a gas are inversely proportional at constant temperature?",
+    "correctAnswers": [
+      "Boyle's Law"
+    ],
+    "wrongAnswers": [
+      "Charles's Law",
+      "Newton's Second Law",
+      "Bernoulli's Principle",
+      "Hooke's Law",
+      "Gay-Lussac's Law"
+    ],
+    "funFact": "Robert Boyle published this law in 1662, but it was also independently discovered by French physicist Edme Mariotte — hence it's called Mariotte's Law in continental Europe.",
+    "articleTitle": "Boyle's law",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Boyle%27s_law",
+    "topicId": "mechanical_engineering",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mech_002",
+    "question": "The six classical simple machines include lever, wheel, pulley, inclined plane, wedge, and which sixth?",
+    "correctAnswers": [
+      "Screw"
+    ],
+    "wrongAnswers": [
+      "Gear",
+      "Spring",
+      "Ramp",
+      "Axle",
+      "Crank",
+      "Cam"
+    ],
+    "funFact": "The Archimedean screw, invented c. 250 BC, is one of the earliest known applications of the screw simple machine — it's still used today to lift water for irrigation.",
+    "articleTitle": "Simple machine",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Simple_machine",
+    "topicId": "mechanical_engineering",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mech_003",
+    "question": "Bernoulli's principle explains why aircraft wings generate lift. What does it state?",
+    "correctAnswers": [
+      "Where fluid velocity is higher, pressure is lower"
+    ],
+    "wrongAnswers": [
+      "Faster fluids exert more pressure",
+      "Pressure is proportional to temperature",
+      "Lift equals weight in level flight",
+      "Drag increases with speed"
+    ],
+    "funFact": "Bernoulli's principle is why a curve ball curves in baseball — the spinning ball creates faster airflow on one side, generating a pressure difference.",
+    "articleTitle": "Bernoulli's principle",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Bernoulli%27s_principle",
+    "topicId": "mechanical_engineering",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chem_eng_001",
+    "question": "The Haber process, one of chemical engineering's most important achievements, synthesises which compound?",
+    "correctAnswers": [
+      "Ammonia (NH₃)"
+    ],
+    "wrongAnswers": [
+      "Methane",
+      "Ethylene",
+      "Sulphuric acid",
+      "Nitric acid",
+      "Hydrogen peroxide",
+      "Chlorine"
+    ],
+    "funFact": "The Haber process enabled mass production of synthetic fertilisers. It is estimated to be responsible for feeding about half the world's current population.",
+    "articleTitle": "Haber process",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Haber_process",
+    "topicId": "chemical_engineering",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chem_eng_002",
+    "question": "Distillation separates mixtures based on differences in what property?",
+    "correctAnswers": [
+      "Boiling point"
+    ],
+    "wrongAnswers": [
+      "Melting point",
+      "Density",
+      "Solubility",
+      "Molecular weight",
+      "Viscosity",
+      "Colour"
+    ],
+    "funFact": "Fractional distillation of crude oil at oil refineries separates petroleum into diesel, petrol, kerosene, and other products — all within a single tall distillation column.",
+    "articleTitle": "Distillation",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Distillation",
+    "topicId": "chemical_engineering",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chem_eng_003",
+    "question": "A catalyst speeds up a chemical reaction without being consumed. What effect does it have on the activation energy?",
+    "correctAnswers": [
+      "It lowers the activation energy"
+    ],
+    "wrongAnswers": [
+      "It raises the activation energy",
+      "It eliminates the need for activation energy",
+      "It has no effect on energy",
+      "It changes the products formed"
+    ],
+    "funFact": "Catalytic converters in car exhausts use platinum, palladium, and rhodium as catalysts to convert toxic CO and NOx into harmless CO₂ and N₂.",
+    "articleTitle": "Catalysis",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Catalysis",
+    "topicId": "chemical_engineering",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bridge_001",
+    "question": "The Golden Gate Bridge connects San Francisco to which county?",
+    "correctAnswers": [
+      "Marin County"
+    ],
+    "wrongAnswers": [
+      "San Mateo County",
+      "Sonoma County",
+      "Alameda County",
+      "Contra Costa County",
+      "Napa County"
+    ],
+    "funFact": "The Golden Gate Bridge's iconic \"International Orange\" colour was chosen for visibility in fog — it was originally proposed to be painted black with yellow stripes.",
+    "articleTitle": "Golden Gate Bridge",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Golden_Gate_Bridge",
+    "topicId": "bridges",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bridge_002",
+    "question": "A suspension bridge carries its load primarily through what structural elements?",
+    "correctAnswers": [
+      "Cables hung between towers"
+    ],
+    "wrongAnswers": [
+      "Arches beneath the deck",
+      "Trusses above the deck",
+      "Concrete piers",
+      "Steel box girders",
+      "Cantilever arms"
+    ],
+    "funFact": "The Akashi Kaikyō Bridge in Japan has the world's longest central suspension span at 1,991 metres — it withstood a magnitude 7.2 earthquake in 1995 during construction.",
+    "articleTitle": "Suspension bridge",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Suspension_bridge",
+    "topicId": "bridges",
+    "difficulty": "easy"
+  },
+  {
+    "id": "bridge_003",
+    "question": "An arch bridge transfers its load primarily in what direction?",
+    "correctAnswers": [
+      "Horizontally into the abutments at each end"
+    ],
+    "wrongAnswers": [
+      "Vertically through central piers",
+      "Through tension cables",
+      "Through the deck alone",
+      "Through suspension hangers"
+    ],
+    "funFact": "The Romans mastered the semicircular arch around 100 BC and used it to build bridges that are still standing 2,000 years later.",
+    "articleTitle": "Arch bridge",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Arch_bridge",
+    "topicId": "bridges",
+    "difficulty": "medium"
+  },
+  {
+    "id": "plast_001",
+    "question": "What was the first fully synthetic plastic, invented by Leo Baekeland in 1907?",
+    "correctAnswers": [
+      "Bakelite"
+    ],
+    "wrongAnswers": [
+      "Nylon",
+      "PVC",
+      "Polythene",
+      "Perspex (acrylic)",
+      "Polystyrene",
+      "Celluloid"
+    ],
+    "funFact": "Bakelite was marketed as \"the material of a thousand uses.\" Unlike earlier plastics, it did not soften when heated — making it ideal for electrical insulators.",
+    "articleTitle": "Bakelite",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Bakelite",
+    "topicId": "plastics",
+    "difficulty": "medium"
+  },
+  {
+    "id": "plast_002",
+    "question": "Polyethylene (PE) is the world's most widely produced plastic. What common product is it used to make?",
+    "correctAnswers": [
+      "Plastic bags and bottles"
+    ],
+    "wrongAnswers": [
+      "Car bumpers",
+      "Nylon ropes",
+      "Rubber gloves",
+      "Styrofoam cups",
+      "Perspex windows"
+    ],
+    "funFact": "Polyethylene was accidentally discovered twice: first in 1898 by German chemist Hans von Pechmann, and again in 1933 by ICI researchers working under high pressure.",
+    "articleTitle": "Polyethylene",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Polyethylene",
+    "topicId": "plastics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "plast_003",
+    "question": "Plastic pollution in the ocean primarily breaks down into what small particles?",
+    "correctAnswers": [
+      "Microplastics"
+    ],
+    "wrongAnswers": [
+      "Nanofibres",
+      "Macroplastics",
+      "Polymer dust",
+      "Chemical leachate",
+      "Cellulose fibres"
+    ],
+    "funFact": "Microplastics have been found in the deepest ocean trenches, on the summit of Everest, in human blood, and in the placentas of unborn babies.",
+    "articleTitle": "Plastic pollution",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Plastic_pollution",
+    "topicId": "plastics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "handheld_001",
+    "question": "In which year was the first iPhone released by Apple?",
+    "correctAnswers": [
+      "2007"
+    ],
+    "wrongAnswers": [
+      "2005",
+      "2009",
+      "2003",
+      "2010",
+      "2001",
+      "2006"
+    ],
+    "funFact": "Steve Jobs introduced the original iPhone as \"a widescreen iPod with touch controls, a revolutionary mobile phone, and a breakthrough internet device\" — three devices in one.",
+    "articleTitle": "IPhone",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/IPhone",
+    "topicId": "handheld_devices",
+    "difficulty": "easy"
+  },
+  {
+    "id": "handheld_002",
+    "question": "Which company produced the first commercially available smartphone?",
+    "correctAnswers": [
+      "IBM (the Simon Personal Communicator, 1994)"
+    ],
+    "wrongAnswers": [
+      "Nokia",
+      "Motorola",
+      "Apple",
+      "BlackBerry",
+      "Ericsson"
+    ],
+    "funFact": "The IBM Simon had a touchscreen, email, calendar, address book, and apps — in 1994. It cost $899 (about $1,800 in today's money) and weighed 510g.",
+    "articleTitle": "Smartphone",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Smartphone#History",
+    "topicId": "handheld_devices",
+    "difficulty": "hard"
+  },
+  {
+    "id": "handheld_003",
+    "question": "The e-reader format gained mass-market success with which Amazon device, launched in 2007?",
+    "correctAnswers": [
+      "Kindle"
+    ],
+    "wrongAnswers": [
+      "Nook",
+      "Kobo",
+      "iPad",
+      "Sony Reader",
+      "iBook",
+      "Paperwhite"
+    ],
+    "funFact": "The first Kindle sold out within 5.5 hours of its launch on 19 November 2007 and remained out of stock for five months.",
+    "articleTitle": "Amazon Kindle",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Amazon_Kindle",
+    "topicId": "handheld_devices",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_001",
+    "question": "Which type of rock forms from cooled magma or lava?",
+    "correctAnswers": [
+      "Igneous rock"
+    ],
+    "wrongAnswers": [
+      "Sedimentary rock",
+      "Metamorphic rock",
+      "Silicate rock",
+      "Composite rock",
+      "Biogenic rock"
+    ],
+    "funFact": "The word \"igneous\" comes from the Latin \"ignis\" meaning fire. Granite and basalt are both igneous rocks — granite forms deep underground, basalt at the surface.",
+    "articleTitle": "Igneous rock",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Igneous_rock",
+    "topicId": "rocks",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_002",
+    "question": "The Mohs scale measures which property of minerals?",
+    "correctAnswers": [
+      "Hardness (scratch resistance)"
+    ],
+    "wrongAnswers": [
+      "Density",
+      "Colour",
+      "Transparency",
+      "Crystal structure",
+      "Lustre",
+      "Cleavage"
+    ],
+    "funFact": "Diamond is a 10 on the Mohs scale — the hardest known natural material. Talc is a 1 and can be scratched with a fingernail.",
+    "articleTitle": "Mohs scale",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Mohs_scale",
+    "topicId": "rocks",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_003",
+    "question": "Marble is a metamorphic rock formed from which original rock type?",
+    "correctAnswers": [
+      "Limestone"
+    ],
+    "wrongAnswers": [
+      "Granite",
+      "Sandstone",
+      "Basalt",
+      "Shale",
+      "Obsidian",
+      "Quartzite"
+    ],
+    "funFact": "Michelangelo's David was carved from a single block of Carrara marble from Tuscany, Italy — the same quarries used by ancient Romans.",
+    "articleTitle": "Marble",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Marble",
+    "topicId": "rocks",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_001",
+    "question": "Plate tectonics theory explains that the Earth's crust is divided into how many major tectonic plates?",
+    "correctAnswers": [
+      "7 major plates"
+    ],
+    "wrongAnswers": [
+      "3 major plates",
+      "12 major plates",
+      "2 major plates",
+      "20 major plates",
+      "5 major plates"
+    ],
+    "funFact": "The Pacific Plate is the largest tectonic plate, covering about 103 million km² — almost the size of the entire Atlantic Ocean.",
+    "articleTitle": "Plate tectonics",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Plate_tectonics",
+    "topicId": "physical_geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_002",
+    "question": "A biome is defined as what?",
+    "correctAnswers": [
+      "A major ecological community defined by climate and vegetation"
+    ],
+    "wrongAnswers": [
+      "A type of animal kingdom",
+      "A layer of the atmosphere",
+      "A geographic administrative region",
+      "A watershed or drainage basin"
+    ],
+    "funFact": "The tropical rainforest biome covers only about 6% of Earth's land surface but contains over 50% of the world's plant and animal species.",
+    "articleTitle": "Biome",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Biome",
+    "topicId": "physical_geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": "water_001",
+    "question": "What percentage of Earth's water is saltwater?",
+    "correctAnswers": [
+      "About 97%"
+    ],
+    "wrongAnswers": [
+      "About 50%",
+      "About 70%",
+      "About 80%",
+      "About 30%",
+      "About 10%"
+    ],
+    "funFact": "Of the remaining 3% fresh water, about 69% is locked in glaciers and ice caps, leaving less than 1% of all Earth's water as accessible liquid fresh water.",
+    "articleTitle": "Ocean",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Ocean",
+    "topicId": "water_bodies",
+    "difficulty": "easy"
+  },
+  {
+    "id": "water_002",
+    "question": "What is the world's largest freshwater lake by surface area?",
+    "correctAnswers": [
+      "Lake Superior"
+    ],
+    "wrongAnswers": [
+      "Lake Victoria",
+      "Lake Baikal",
+      "Caspian Sea",
+      "Lake Michigan",
+      "Lake Huron",
+      "Lake Tanganyika"
+    ],
+    "funFact": "Lake Superior holds about 10% of the world's liquid surface fresh water. Its surface area is larger than the combined area of the UK and Ireland.",
+    "articleTitle": "Lake Superior",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Lake_Superior",
+    "topicId": "water_bodies",
+    "difficulty": "medium"
+  },
+  {
+    "id": "water_003",
+    "question": "Which is the longest river in the world?",
+    "correctAnswers": [
+      "The Nile"
+    ],
+    "wrongAnswers": [
+      "The Amazon",
+      "The Yangtze",
+      "The Mississippi",
+      "The Congo",
+      "The Yenisei",
+      "The Ob"
+    ],
+    "funFact": "The Amazon vs Nile debate continues among geographers — the Amazon carries far more water (20% of all river water draining to oceans), but the Nile is slightly longer.",
+    "articleTitle": "Nile",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Nile",
+    "topicId": "water_bodies",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dsea_001",
+    "question": "The Mariana Trench is the deepest point on Earth. How deep is the deepest point (Challenger Deep)?",
+    "correctAnswers": [
+      "About 11,000 metres (36,000 feet)"
+    ],
+    "wrongAnswers": [
+      "About 5,000 metres",
+      "About 8,000 metres",
+      "About 15,000 metres",
+      "About 3,000 metres",
+      "About 20,000 metres"
+    ],
+    "funFact": "If Mount Everest were placed at the bottom of the Mariana Trench, its peak would still be over a mile below the ocean surface.",
+    "articleTitle": "Mariana Trench",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Mariana_Trench",
+    "topicId": "deep_sea",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dsea_002",
+    "question": "What is bioluminescence, commonly seen in deep-sea creatures?",
+    "correctAnswers": [
+      "The production of light by living organisms through chemical reactions"
+    ],
+    "wrongAnswers": [
+      "Reflection of sunlight by scales",
+      "Fluorescence under UV light",
+      "Electrical discharge from cells",
+      "Heat radiation from metabolism"
+    ],
+    "funFact": "Over 75% of deep-sea animals are bioluminescent. In the deep ocean (below 200m), it is the only natural light source.",
+    "articleTitle": "Bioluminescence",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Bioluminescence",
+    "topicId": "deep_sea",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dsea_003",
+    "question": "Hydrothermal vents on the ocean floor support life despite the absence of what?",
+    "correctAnswers": [
+      "Sunlight (photosynthesis)"
+    ],
+    "wrongAnswers": [
+      "Water",
+      "Oxygen (completely)",
+      "Heat",
+      "Chemical nutrients",
+      "Pressure"
+    ],
+    "funFact": "Hydrothermal vent ecosystems run on chemosynthesis, not photosynthesis — bacteria convert hydrogen sulphide into energy. This discovery in 1977 transformed our understanding of where life can exist.",
+    "articleTitle": "Hydrothermal vent",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Hydrothermal_vent",
+    "topicId": "deep_sea",
+    "difficulty": "medium"
+  },
+  {
+    "id": "hgeo_001",
+    "question": "What percentage of the world's population now lives in urban areas?",
+    "correctAnswers": [
+      "More than 55%"
+    ],
+    "wrongAnswers": [
+      "About 30%",
+      "About 80%",
+      "About 45%",
+      "About 20%",
+      "About 90%"
+    ],
+    "funFact": "For the first time in human history, more than half the world's population moved to cities in 2007. By 2050, that figure is projected to reach 68%.",
+    "articleTitle": "Urbanization",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Urbanization",
+    "topicId": "human_geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": "hgeo_002",
+    "question": "The demographic transition model describes a pattern where birth and death rates change as countries develop. What happens to both rates in the final stage?",
+    "correctAnswers": [
+      "Both become low"
+    ],
+    "wrongAnswers": [
+      "Both become high",
+      "Birth rate rises, death rate falls",
+      "Death rate rises, birth rate falls",
+      "Both fluctuate unpredictably"
+    ],
+    "funFact": "Japan is a textbook example of late-stage demographic transition — very low birth and death rates, an aging population, and population decline without immigration.",
+    "articleTitle": "Demographic transition",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Demographic_transition",
+    "topicId": "human_geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": "hgeo_003",
+    "question": "A \"primate city\" in urban geography is best described as what?",
+    "correctAnswers": [
+      "A city that is disproportionately large compared to the second city in the same country"
+    ],
+    "wrongAnswers": [
+      "The first city ever founded in a country",
+      "A city that dominates global finance",
+      "The most densely populated city",
+      "A capital city with political dominance"
+    ],
+    "funFact": "Bangkok is the world's most extreme primate city — it's roughly 40 times larger than Thailand's second city, Nonthaburi.",
+    "articleTitle": "Primate city",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Primate_city",
+    "topicId": "human_geography",
+    "difficulty": "hard"
+  },
+  {
+    "id": "country_001",
+    "question": "How many sovereign states are members of the United Nations?",
+    "correctAnswers": [
+      "193"
+    ],
+    "wrongAnswers": [
+      "172",
+      "210",
+      "180",
+      "165",
+      "220",
+      "195"
+    ],
+    "funFact": "The UN has 193 member states, but Kosovo, Taiwan, and Palestine are among territories whose statehood is disputed — they are not UN members.",
+    "articleTitle": "United Nations member states",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Member_states_of_the_United_Nations",
+    "topicId": "countries",
+    "difficulty": "medium"
+  },
+  {
+    "id": "country_002",
+    "question": "What is the world's largest country by land area?",
+    "correctAnswers": [
+      "Russia"
+    ],
+    "wrongAnswers": [
+      "Canada",
+      "China",
+      "United States",
+      "Brazil",
+      "Australia",
+      "India"
+    ],
+    "funFact": "Russia spans 11 time zones and covers 17.1 million km² — almost twice the size of the next largest country, Canada.",
+    "articleTitle": "Russia",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Russia",
+    "topicId": "countries",
+    "difficulty": "easy"
+  },
+  {
+    "id": "country_003",
+    "question": "Vatican City, the world's smallest country by area, is entirely within which city?",
+    "correctAnswers": [
+      "Rome, Italy"
+    ],
+    "wrongAnswers": [
+      "Paris, France",
+      "Geneva, Switzerland",
+      "Madrid, Spain",
+      "Vienna, Austria",
+      "Athens, Greece"
+    ],
+    "funFact": "Vatican City covers just 0.44 km² — roughly 44 times smaller than New York's Central Park.",
+    "articleTitle": "Vatican City",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Vatican_City",
+    "topicId": "countries",
+    "difficulty": "easy"
+  },
+  {
+    "id": "country_004",
+    "question": "Which is the most densely populated country in the world?",
+    "correctAnswers": [
+      "Monaco"
+    ],
+    "wrongAnswers": [
+      "Singapore",
+      "Bangladesh",
+      "Vatican City",
+      "Maldives",
+      "Bahrain",
+      "Malta"
+    ],
+    "funFact": "Monaco has about 26,000 people per km² — roughly ten times the density of Manhattan. It achieves this partly through land reclaimed from the sea.",
+    "articleTitle": "Monaco",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Monaco",
+    "topicId": "countries",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_001",
+    "question": "The Mali Empire at its peak in the 14th century was known for being the world's largest source of which commodity?",
+    "correctAnswers": [
+      "Gold"
+    ],
+    "wrongAnswers": [
+      "Salt",
+      "Ivory",
+      "Copper",
+      "Iron",
+      "Spices",
+      "Diamonds"
+    ],
+    "funFact": "Mansa Musa I of Mali made a pilgrimage to Mecca in 1324 with so much gold that his generosity caused rampant inflation across Egypt and the Arab world for over a decade.",
+    "articleTitle": "Mali Empire",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Mali_Empire",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_002",
+    "question": "The city of Timbuktu, now in Mali, was historically renowned as a major centre of what?",
+    "correctAnswers": [
+      "Islamic scholarship and trade"
+    ],
+    "wrongAnswers": [
+      "Military conquest",
+      "Maritime trade",
+      "Metalworking",
+      "Textile production",
+      "Diamond mining"
+    ],
+    "funFact": "Timbuktu's Sankore University in the 15th–16th centuries had up to 25,000 students and housed hundreds of thousands of manuscripts, many of which are being digitised today.",
+    "articleTitle": "Timbuktu",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Timbuktu",
+    "topicId": "west_african_history",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wafrica_003",
+    "question": "The Songhai Empire, which replaced the Mali Empire in the 15th century, was eventually destroyed by invasion from which country?",
+    "correctAnswers": [
+      "Morocco"
+    ],
+    "wrongAnswers": [
+      "Portugal",
+      "Egypt",
+      "France",
+      "Ottoman Empire",
+      "Mali",
+      "Ashanti"
+    ],
+    "funFact": "The 1591 Moroccan invasion used firearms — a technology the Songhai army largely lacked. This battle is often cited as a turning point ending the great Sahelian empires.",
+    "articleTitle": "Songhai Empire",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Songhai_Empire",
+    "topicId": "west_african_history",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wafrica_004",
+    "question": "The Ashanti Empire in present-day Ghana was known for its highly organised governance centred on what sacred object?",
+    "correctAnswers": [
+      "The Golden Stool (Sika dwa)"
+    ],
+    "wrongAnswers": [
+      "The Golden Mask",
+      "The Silver Throne",
+      "The Royal Elephant Tusk",
+      "The Iron Sword"
+    ],
+    "funFact": "The Golden Stool was said to have descended from the sky and was believed to contain the soul of the Ashanti nation. The British demand to sit on it in 1900 triggered the War of the Golden Stool.",
+    "articleTitle": "Ashanti Empire",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Ashanti_Empire",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_005",
+    "question": "Approximately how many enslaved Africans were transported to the Americas during the Atlantic slave trade?",
+    "correctAnswers": [
+      "Around 12 million"
+    ],
+    "wrongAnswers": [
+      "Around 1 million",
+      "Around 5 million",
+      "Around 25 million",
+      "Around 8 million",
+      "Around 20 million"
+    ],
+    "funFact": "West Africa accounted for the majority of those enslaved — the trade lasted from roughly 1500 to 1900, though its peak was in the 18th century.",
+    "articleTitle": "Atlantic slave trade",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Atlantic_slave_trade",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_hist_001",
+    "question": "What was the primary defensive purpose of a castle's drawbridge?",
+    "correctAnswers": [
+      "To control entry by raising it against attackers"
+    ],
+    "wrongAnswers": [
+      "To channel river water into the moat",
+      "To provide a platform for archers",
+      "To display the lord's coat of arms",
+      "To store supplies during sieges"
+    ],
+    "funFact": "Medieval drawbridges used sophisticated counterweight systems — the same engineering principle used in modern bascule bridges like Tower Bridge in London.",
+    "articleTitle": "Drawbridge",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Drawbridge",
+    "topicId": "medieval_history",
+    "difficulty": "easy"
+  },
+  {
+    "id": "med_hist_002",
+    "question": "Magna Carta, signed in 1215, was forced upon which English king?",
+    "correctAnswers": [
+      "King John"
+    ],
+    "wrongAnswers": [
+      "King Richard I",
+      "King Henry II",
+      "King Edward I",
+      "King Henry III",
+      "King William II"
+    ],
+    "funFact": "Originally, Magna Carta was annulled by Pope Innocent III just 10 weeks after signing. It was only later reissues that gave it lasting constitutional significance.",
+    "articleTitle": "Magna Carta",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Magna_Carta",
+    "topicId": "medieval_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_hist_003",
+    "question": "The Black Death (1347–1353) killed roughly what fraction of Europe's population?",
+    "correctAnswers": [
+      "About one third"
+    ],
+    "wrongAnswers": [
+      "About one tenth",
+      "About half",
+      "About two thirds",
+      "About one fifth",
+      "About a quarter"
+    ],
+    "funFact": "Some regions of Europe lost 60–70% of their population. Paradoxically, the Black Death contributed to the end of serfdom — surviving peasants could demand higher wages.",
+    "articleTitle": "Black Death",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Black_Death",
+    "topicId": "medieval_history",
+    "difficulty": "easy"
+  },
+  {
+    "id": "med_hist_004",
+    "question": "Which medieval siege weapon used a counterweight to hurl projectiles?",
+    "correctAnswers": [
+      "The trebuchet"
+    ],
+    "wrongAnswers": [
+      "The ballista",
+      "The mangonel",
+      "The onager",
+      "The catapult",
+      "The scorpio"
+    ],
+    "funFact": "The trebuchet was so effective that some historians credit it with ending the era of castle warfare — no wall could withstand sustained bombardment.",
+    "articleTitle": "Trebuchet",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Trebuchet",
+    "topicId": "medieval_history",
+    "difficulty": "easy"
+  },
+  {
+    "id": "med_hist_005",
+    "question": "The Crusades were a series of religious wars sanctioned by the Latin Church. How many numbered Crusades are traditionally recognised?",
+    "correctAnswers": [
+      "9"
+    ],
+    "wrongAnswers": [
+      "4",
+      "7",
+      "12",
+      "3",
+      "6",
+      "15"
+    ],
+    "funFact": "The Children's Crusade of 1212 — in which thousands of young people set out to reclaim the Holy Land — likely never reached the Holy Land at all and ended in tragedy.",
+    "articleTitle": "Crusades",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Crusades",
+    "topicId": "medieval_history",
+    "difficulty": "medium"
+  }
+]

@@ -4,7 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../../core/theme/app_theme.dart';
-import '../../../gameplay/data/question_bank.dart';
+import '../../../gameplay/data/question_repository.dart';
 import '../../../gameplay/data/topic_registry.dart';
 import '../../../gameplay/domain/models/quiz_config.dart';
 import '../../../gameplay/domain/models/topic.dart';
@@ -32,8 +32,12 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
 
   bool get _canStart => _selected.isNotEmpty;
 
-  int get _availableQuestions =>
-      allQuestions.where((q) => _selected.contains(q.topicId)).length;
+  int get _availableQuestions {
+    return ref.watch(questionsProvider).maybeWhen(
+      data: (qs) => qs.where((q) => _selected.contains(q.topicId)).length,
+      orElse: () => 0,
+    );
+  }
 
   void _toggleTopic(String id) {
     setState(() {
@@ -72,14 +76,14 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
   void _selectAll() => setState(() => _selected = Set.from(allTopicIds));
   void _clearAll() => setState(() => _selected.clear());
 
-  void _startGame() {
+  Future<void> _startGame() async {
     final config = QuizConfig(
       selectedTopicIds: Set.from(_selected),
       questionCount: _questionCount,
     );
     ref.read(quizConfigProvider.notifier).state = config;
-    ref.read(gameStateProvider.notifier).startGame(config);
-    context.go('/game');
+    await ref.read(gameStateProvider.notifier).startGame(config);
+    if (mounted) context.go('/game');
   }
 
   @override
