@@ -1,13 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-/// Write-only GitHub PAT scoped to `issues: write` on this repo only.
-/// Rotate this token if it is ever exposed publicly.
-///
-/// To generate: GitHub → Settings → Developer settings →
-/// Personal access tokens (fine-grained) → New token
-/// Permissions: Issues → Read & Write   (repository: sai-pher/Mind-mazeish)
-const _kGithubToken = 'REPLACE_WITH_WRITE_ONLY_PAT';
+/// Injected at build time via --dart-define=FEEDBACK_GITHUB_PAT=<token>
+/// Never hard-code the token here. See README → "Wiring up the feedback PAT".
+const _kGithubToken = String.fromEnvironment('FEEDBACK_GITHUB_PAT');
 const _kRepoOwner   = 'sai-pher';
 const _kRepoName    = 'Mind-mazeish';
 
