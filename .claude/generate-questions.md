@@ -84,32 +84,55 @@ For each topic in scope:
 
 Group topics by their **TopicCategory** (Level 2). Process one TopicCategory at a time.
 
-### Step 2 — Optionally fetch article context
-
-Try to get source material with the fetch helper:
+### Step 1.5 — Search for relevant Wikipedia pages
 
 ```bash
-python3 scripts/fetch_wiki.py "{Article Title}" --summary-only
-# or with specific sections:
-python3 scripts/fetch_wiki.py "{Article Title}" --sections "History" "Uses"
+python3 scripts/search_wiki.py "{topic name}" --results 5
 ```
 
-- **Exit 0** → use the returned text as source material for questions
-- **Exit 2** → article not found; pick a different article title
-- **Exit 3** → network unavailable; skip the fetch and use built-in knowledge instead
+- **Exit 0 with results** → select 2–3 most relevant articles by summary/categories; skip any disambiguation pages
+- **Exit 0 with `[]`** → fall back to a canonical title guess (e.g. `"Coffee"` for topicId `coffee`), proceed to Step 2
+- **Exit 3** → network unavailable; skip Steps 1.5 and 2 entirely; set built-in knowledge flag and proceed to Step 3
 
-The fetch is **optional** — for well-documented topics (history, science, literature)
-built-in knowledge is sufficient and avoids unnecessary token cost.
-Only bother fetching for niche or rapidly-evolving topics.
+### Step 2 — Fetch article text (mandatory when network is available)
+
+For each article title selected in Step 1.5, run:
+
+```bash
+python3 scripts/fetch_wiki.py "{title}" --summary-only
+# or with specific sections:
+python3 scripts/fetch_wiki.py "{title}" --sections "History" "Uses"
+```
+
+Concatenate all outputs with a `---` divider as source material for Step 3.
+
+- **Exit 0** → use the returned text as source material
+- **Exit 2** → article not found; try the next candidate from Step 1.5; if all fail, treat as exit 3
+- **Exit 3** → network unavailable; set built-in knowledge flag and proceed to Step 3
 
 ### Step 3 — Spawn one sub-agent per topic (not per article)
 
 For each topic, spawn **one sub-agent** with this task:
 
+**When source material is available:**
 > "Generate {N} trivia questions for topicId `{topicId}` covering {brief description}.
 > Existing IDs to avoid duplicating: {comma-separated list of existing IDs, e.g. coffee_001, coffee_002}.
 > Next ID to start from: `{topicId}_{NNN}`.
-> Source material (if any): {text from fetch_wiki.py, or omit if network unavailable}.
+> Source material: {concatenated fetch output}.
+> Generate questions directly grounded in this text.
+>
+> Write the questions **directly** to `assets/questions/topics/{topicId}.json` by
+> reading the existing file and rewriting it with the new questions appended.
+> Do NOT return the JSON in your reply — just confirm how many questions were written
+> and list the new IDs."
+
+**When network was unreachable (built-in knowledge flag set):**
+> "Generate {N} trivia questions for topicId `{topicId}` covering {brief description}.
+> Existing IDs to avoid duplicating: {comma-separated list}.
+> Next ID to start from: `{topicId}_{NNN}`.
+> Network was unreachable — use built-in knowledge. Set `articleTitle: ""` and
+> `articleUrl: ""`. End each `funFact` with the sentence:
+> `"(Based on general knowledge — no Wikipedia source was available.)"`
 >
 > Write the questions **directly** to `assets/questions/topics/{topicId}.json` by
 > reading the existing file and rewriting it with the new questions appended.
@@ -117,6 +140,31 @@ For each topic, spawn **one sub-agent** with this task:
 > and list the new IDs."
 
 **Wait for the sub-agent to complete before spawning the next one.**
+
+### Step 3.5 — Update the topic sources manifest
+
+After the sub-agent confirms which IDs were written, update
+`assets/questions/sources/{topicId}.json`:
+
+1. Read the file if it exists, or start with `[]`
+2. For each article fetched in Step 2, find its entry in the array by `title`
+   (or append a new entry if not present)
+3. Merge the new question IDs into that entry's `questionIds` list (no duplicates)
+4. Write the updated array back to the file
+
+**Entry structure:**
+```json
+{
+  "title": "Coffee",
+  "url": "https://en.m.wikipedia.org/wiki/Coffee",
+  "summary": "Coffee is a beverage prepared from roasted coffee beans [...]",
+  "categories": ["Coffee", "Beverages", "Stimulants"],
+  "questionIds": ["coffee_001", "coffee_002", "coffee_006"]
+}
+```
+
+- Use the `title`, `url`, `summary`, and `categories` values from `search_wiki.py`'s output
+- Skip this step if the built-in knowledge flag is set (no article was fetched)
 
 ### Step 4 — Verify
 
@@ -143,7 +191,7 @@ After completing each **TopicCategory group**, run:
 ```bash
 export PATH="$PATH:/opt/flutter/bin"
 git config --global --add safe.directory /opt/flutter
-git add assets/questions/topics/
+git add assets/questions/topics/ assets/questions/sources/
 git commit -m "content: add questions for {category} topics ({topicId}, {topicId}, ...)"
 git push -u origin $(git branch --show-current)
 ```
@@ -156,7 +204,7 @@ Then continue to the next TopicCategory group.
 
 1. **Sub-agents write to files directly** — never return large JSON blobs back to the main context
 2. **Pass IDs only** for duplicate-checking, not full question text
-3. **Skip fetch for well-known topics** — use built-in knowledge; fetch only for niche topics
+3. **Always search then fetch** — run `search_wiki.py` first, then `fetch_wiki.py` for the top 2–3 results; only fall back to built-in knowledge when both return exit code 3
 4. **One sub-agent per topic** (not per article) — reduces agent spawning overhead
 5. **Verify with a one-liner** — the bash python3 check above is cheaper than re-reading the file
 
@@ -169,10 +217,14 @@ User: `/generate-questions coffee`
 1. Read `assets/questions/topics/coffee.json` → 5 questions, highest id `coffee_005`
 2. Existing IDs: `coffee_001, coffee_002, coffee_003, coffee_004, coffee_005`
 3. Target 10 → need 5 more; start from `coffee_006`
-4. Try `python3 scripts/fetch_wiki.py "Coffee" --summary-only` — if exit 3, skip
-5. Sub-agent → generate 5 questions → write to file → confirm IDs written
-6. Verify with one-liner
-7. Commit: `content: add questions for beverages topics (coffee)`
+4. Search: `python3 scripts/search_wiki.py "coffee" --results 5`
+   → selects "Coffee" and "Coffee preparation"
+5. Fetch: `python3 scripts/fetch_wiki.py "Coffee" --summary-only` (exit 0)
+   `python3 scripts/fetch_wiki.py "Coffee preparation" --summary-only` (exit 0)
+6. Sub-agent → generate 5 questions grounded in fetch output → write to file → confirm IDs
+7. Update `assets/questions/sources/coffee.json` with new entries and question IDs
+8. Verify with one-liner
+9. Commit: `content: add questions for beverages topics (coffee)`
 
 ---
 
@@ -183,11 +235,10 @@ User: `/generate-questions mental_health category`
 Topics in Mental Health: `therapy`, `adhd`, `autism`
 
 1. Read all three files → note current counts and existing IDs
-2. Sub-agent for `therapy` → writes to file → confirm
-3. Sub-agent for `adhd` → writes to file → confirm
-4. Sub-agent for `autism` → writes to file → confirm
-5. Verify all three with one-liners
-6. Commit: `content: expand mental_health questions (therapy, adhd, autism)`
+2. Search + fetch for `therapy` → sub-agent writes → update sources manifest → verify
+3. Search + fetch for `adhd` → sub-agent writes → update sources manifest → verify
+4. Search + fetch for `autism` → sub-agent writes → update sources manifest → verify
+5. Commit: `content: expand mental_health questions (therapy, adhd, autism)`
 
 ---
 

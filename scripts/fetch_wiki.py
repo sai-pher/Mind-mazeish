@@ -36,7 +36,7 @@ def fetch(title: str, sections: list[str] | None, summary_only: bool, max_chars:
 
     try:
         wiki = wikipediaapi.Wikipedia(
-            user_agent="mind-mazeish-trivia/1.0 (educational game; contact via GitHub)",
+            user_agent="mind-mazeish-trivia/1.0 (https://github.com/sai-pher)",
             language="en",
         )
         page = wiki.page(title)
