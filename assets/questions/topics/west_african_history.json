@@ -94,5 +94,385 @@
     "articleUrl": "https://en.m.wikipedia.org/wiki/Atlantic_slave_trade",
     "topicId": "west_african_history",
     "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_006",
+    "question": "Which leader of Ghana became the first prime minister of a sub-Saharan African country to lead his nation to independence from colonial rule in 1957?",
+    "correctAnswers": [
+      "Kwame Nkrumah"
+    ],
+    "wrongAnswers": [
+      "Jomo Kenyatta",
+      "Julius Nyerere",
+      "Sékou Touré",
+      "Léopold Sédar Senghor",
+      "Nnamdi Azikiwe"
+    ],
+    "funFact": "Nkrumah declared 'Ghana is free forever!' at midnight on 6 March 1957, inspiring independence movements across the entire continent. He later coined the phrase 'Africa must unite.'",
+    "articleTitle": "Kwame Nkrumah",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Kwame_Nkrumah",
+    "topicId": "west_african_history",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wafrica_007",
+    "question": "The ancient Ghana Empire, which preceded the Mali Empire, was not located in present-day Ghana. Where was it actually situated?",
+    "correctAnswers": [
+      "Southeastern Mauritania and western Mali"
+    ],
+    "wrongAnswers": [
+      "Northern Nigeria and southern Niger",
+      "Central Ghana and Côte d'Ivoire",
+      "Senegal and The Gambia",
+      "Guinea and Sierra Leone",
+      "Southern Mali and northern Burkina Faso"
+    ],
+    "funFact": "Modern Ghana took its name from the ancient empire as a symbol of pride and heritage, even though the two share no geographic overlap. The ancient Ghana Empire's capital was Koumbi Saleh.",
+    "articleTitle": "Ghana Empire",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Ghana_Empire",
+    "topicId": "west_african_history",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wafrica_008",
+    "question": "The trans-Saharan trade routes linked West Africa to North Africa and the Mediterranean. Which pair of commodities defined this trade above all others?",
+    "correctAnswers": [
+      "Gold and salt"
+    ],
+    "wrongAnswers": [
+      "Ivory and copper",
+      "Spices and silk",
+      "Cotton and iron",
+      "Slaves and grain",
+      "Diamonds and timber"
+    ],
+    "funFact": "Salt from the Saharan mines of Taghaza was so scarce in West Africa that it was traded pound-for-pound with gold at certain times — making it one of history's most valuable commodities.",
+    "articleTitle": "Trans-Saharan trade",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Trans-Saharan_trade",
+    "topicId": "west_african_history",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wafrica_009",
+    "question": "The Benin Kingdom, famed for its sophisticated bronze castings, was located in which present-day country?",
+    "correctAnswers": [
+      "Nigeria"
+    ],
+    "wrongAnswers": [
+      "Benin",
+      "Ghana",
+      "Togo",
+      "Cameroon",
+      "Côte d'Ivoire"
+    ],
+    "funFact": "The Benin Bronzes — hundreds of metal plaques and sculptures — were looted by British forces in 1897 and ended up in museums worldwide. Nigeria has been campaigning for their return for decades.",
+    "articleTitle": "Kingdom of Benin",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Kingdom_of_Benin",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_010",
+    "question": "Which conference held in 1884–1885 saw European powers formally divide Africa among themselves without African representation?",
+    "correctAnswers": [
+      "The Berlin Conference"
+    ],
+    "wrongAnswers": [
+      "The Treaty of Versailles",
+      "The Congress of Vienna",
+      "The Brussels Conference",
+      "The Paris Peace Conference",
+      "The Geneva Convention"
+    ],
+    "funFact": "At the Berlin Conference, 14 European nations drew borders across Africa with little regard for existing ethnic, linguistic, or cultural boundaries — a legacy that continues to shape African politics today.",
+    "articleTitle": "Berlin Conference",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Berlin_Conference",
+    "topicId": "west_african_history",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wafrica_011",
+    "question": "The Oyo Empire, one of the largest pre-colonial states in West Africa, rose to prominence in what is now which country?",
+    "correctAnswers": [
+      "Nigeria"
+    ],
+    "wrongAnswers": [
+      "Ghana",
+      "Benin",
+      "Togo",
+      "Niger",
+      "Cameroon"
+    ],
+    "funFact": "The Oyo Empire's military power rested on its exceptional cavalry, an advantage in the open savannah. At its height in the 18th century it controlled much of present-day Nigeria and Benin.",
+    "articleTitle": "Oyo Empire",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Oyo_Empire",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_012",
+    "question": "Sundiata Keita is celebrated as the founder of which West African empire, according to the famous oral epic bearing his name?",
+    "correctAnswers": [
+      "The Mali Empire"
+    ],
+    "wrongAnswers": [
+      "The Songhai Empire",
+      "The Ghana Empire",
+      "The Kanem-Bornu Empire",
+      "The Wolof Empire",
+      "The Oyo Empire"
+    ],
+    "funFact": "The Epic of Sundiata, preserved by griots (oral historians) for centuries, recounts how the sickly prince Sundiata overcame disability and exile to defeat the sorcerer king Sumanguru Kante and found the Mali Empire around 1235.",
+    "articleTitle": "Sundiata Keita",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Sundiata_Keita",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_013",
+    "question": "The Kanem-Bornu Empire, one of the longest-lasting African states, was centred around which major body of water?",
+    "correctAnswers": [
+      "Lake Chad"
+    ],
+    "wrongAnswers": [
+      "Lake Volta",
+      "Lake Niger",
+      "The Niger River delta",
+      "Lake Turkana",
+      "The Senegal River"
+    ],
+    "funFact": "Kanem-Bornu endured for nearly a thousand years (c. 700–1900 CE), outlasting the Mali and Songhai empires. Its rulers converted to Islam early, making it a significant centre of Islamic culture in the central Sudan region.",
+    "articleTitle": "Kanem-Bornu Empire",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Kanem-Bornu_Empire",
+    "topicId": "west_african_history",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wafrica_014",
+    "question": "Which Malian emperor made a legendary pilgrimage to Mecca in 1324, reportedly accompanied by a caravan of tens of thousands of people and vast quantities of gold?",
+    "correctAnswers": [
+      "Mansa Musa"
+    ],
+    "wrongAnswers": [
+      "Sundiata Keita",
+      "Askia Muhammad",
+      "Sunni Ali",
+      "Kankan Musa",
+      "Abu Bakr II"
+    ],
+    "funFact": "Mansa Musa's pilgrimage put Mali on the map quite literally — European cartographers depicted him on the 1375 Catalan Atlas, seated on a throne and holding a golden orb, as the wealthiest man on Earth.",
+    "articleTitle": "Mansa Musa",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Mansa_Musa",
+    "topicId": "west_african_history",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wafrica_015",
+    "question": "The Wolof Empire was a major political power in the region of present-day Senegal and The Gambia. What was its capital city called?",
+    "correctAnswers": [
+      "Linguère"
+    ],
+    "wrongAnswers": [
+      "Dakar",
+      "Saint-Louis",
+      "Kaolack",
+      "Banjul",
+      "Thiès"
+    ],
+    "funFact": "The Wolof Empire fragmented into several smaller states by the 15th century but its language and culture remained dominant — today Wolof is spoken as a first or second language by the vast majority of Senegalese people.",
+    "articleTitle": "Wolof Empire",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Wolof_Empire",
+    "topicId": "west_african_history",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wafrica_016",
+    "question": "Which West African freedom fighter led resistance against French colonialism in Guinea in the 19th century and is now considered the nation's greatest hero?",
+    "correctAnswers": [
+      "Samori Touré"
+    ],
+    "wrongAnswers": [
+      "El Hadj Umar Tall",
+      "Lat Dior",
+      "Behanzin",
+      "Ahmadu Tall",
+      "Tippu Tip"
+    ],
+    "funFact": "Samori Touré built a sophisticated state and army that resisted French conquest for nearly two decades (1882–1898). When finally captured, he is said to have refused to bow before his captors.",
+    "articleTitle": "Samori Touré",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Samori_Tour%C3%A9",
+    "topicId": "west_african_history",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wafrica_017",
+    "question": "Islam first began spreading into West Africa primarily through which route and group of people?",
+    "correctAnswers": [
+      "Trans-Saharan trade routes and Berber Muslim merchants"
+    ],
+    "wrongAnswers": [
+      "Atlantic sea routes and Portuguese missionaries",
+      "The Nile Valley and Egyptian scholars",
+      "East African coastal cities and Arab sailors",
+      "Ethiopian missionaries crossing the Sahel",
+      "Ottoman military campaigns from North Africa"
+    ],
+    "funFact": "By the 11th century, the rulers of the Ghana Empire were already interacting with Muslim traders and scholars, and within a few centuries Islam had become the official religion of successive West African empires.",
+    "articleTitle": "Islam in West Africa",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Islam_in_West_Africa",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_018",
+    "question": "In 1960, the year often called the 'Year of Africa', approximately how many African countries gained independence?",
+    "correctAnswers": [
+      "17"
+    ],
+    "wrongAnswers": [
+      "5",
+      "8",
+      "12",
+      "22",
+      "30"
+    ],
+    "funFact": "1960 saw a wave of independence across the continent, with countries like Nigeria, Senegal, Mali, Côte d'Ivoire, Cameroon, and the Democratic Republic of Congo all becoming independent within a single calendar year.",
+    "articleTitle": "Year of Africa",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Year_of_Africa",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_019",
+    "question": "The Fulani jihad of the early 19th century in what is now northern Nigeria led to the founding of which large Islamic state?",
+    "correctAnswers": [
+      "The Sokoto Caliphate"
+    ],
+    "wrongAnswers": [
+      "The Bornu Empire",
+      "The Oyo Caliphate",
+      "The Hausa Confederation",
+      "The Benin Sultanate",
+      "The Nupe Kingdom"
+    ],
+    "funFact": "Led by Usman dan Fodio from 1804, the Sokoto Caliphate became one of the largest states in Africa. At its peak it included over 30 emirates and a population of tens of millions.",
+    "articleTitle": "Sokoto Caliphate",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Sokoto_Caliphate",
+    "topicId": "west_african_history",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wafrica_020",
+    "question": "The Dahomey Kingdom, known for its elite female soldiers called the Agojie, was located in present-day which country?",
+    "correctAnswers": [
+      "Benin"
+    ],
+    "wrongAnswers": [
+      "Nigeria",
+      "Ghana",
+      "Togo",
+      "Côte d'Ivoire",
+      "Senegal"
+    ],
+    "funFact": "The Agojie — also called the Dahomey Amazons — were a formidable all-female military regiment that served as the personal bodyguard of the king and fought in major wars. They inspired the Dora Milaje in the film Black Panther.",
+    "articleTitle": "Dahomey Amazons",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Dahomey_Amazons",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_021",
+    "question": "Which city served as the capital of the Songhai Empire during its golden age under Sunni Ali and Askia Muhammad in the 15th and 16th centuries?",
+    "correctAnswers": [
+      "Gao"
+    ],
+    "wrongAnswers": [
+      "Timbuktu",
+      "Djenné",
+      "Agadez",
+      "Koumbi Saleh",
+      "Kumasi"
+    ],
+    "funFact": "Gao sits on the eastern bend of the Niger River and remains inhabited today as a city in Mali. Its great mosque, though rebuilt many times, traces its origins back to the Songhai imperial era.",
+    "articleTitle": "Gao",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Gao",
+    "topicId": "west_african_history",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wafrica_022",
+    "question": "The Great Mosque of Djenné in Mali, a UNESCO World Heritage Site, is considered the world's largest building made from which material?",
+    "correctAnswers": [
+      "Mud brick (adobe)"
+    ],
+    "wrongAnswers": [
+      "Limestone",
+      "Sandstone",
+      "Fired clay brick",
+      "Granite",
+      "Wood"
+    ],
+    "funFact": "The mosque requires an annual community replastering festival called the Crepissage, where thousands of townspeople work together to maintain its iconic earthen walls — a tradition that has continued for centuries.",
+    "articleTitle": "Great Mosque of Djenné",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9",
+    "topicId": "west_african_history",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wafrica_023",
+    "question": "Griots (also called jelis or gewels) are an important institution in West African societies. What is their primary traditional role?",
+    "correctAnswers": [
+      "Oral historians, storytellers, and keepers of cultural memory"
+    ],
+    "wrongAnswers": [
+      "Religious priests and spiritual healers",
+      "Military commanders and warriors",
+      "Tax collectors for the king",
+      "Ambassadors and trade negotiators",
+      "Agricultural advisors and land managers"
+    ],
+    "funFact": "Griots preserve genealogies, epic poems, and historical accounts through performance and music, passing knowledge down through family lineages. Without them, much of West Africa's pre-colonial history would have been lost entirely.",
+    "articleTitle": "Griot",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Griot",
+    "topicId": "west_african_history",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wafrica_024",
+    "question": "Which Nigerian nationalist and statesman became the first President of an independent Nigeria in 1963?",
+    "correctAnswers": [
+      "Nnamdi Azikiwe"
+    ],
+    "wrongAnswers": [
+      "Obafemi Awolowo",
+      "Ahmadu Bello",
+      "Abubakar Tafawa Balewa",
+      "Yakubu Gowon",
+      "Kwame Nkrumah"
+    ],
+    "funFact": "Nnamdi Azikiwe, known as 'Zik of Africa,' was a pioneering pan-Africanist who used journalism as a tool to mobilise support for Nigerian independence. He became Governor-General in 1960 and President when Nigeria became a republic in 1963.",
+    "articleTitle": "Nnamdi Azikiwe",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Nnamdi_Azikiwe",
+    "topicId": "west_african_history",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wafrica_025",
+    "question": "The Niger River, the principal river of West Africa, flows through how many countries before emptying into the Atlantic Ocean?",
+    "correctAnswers": [
+      "Five"
+    ],
+    "wrongAnswers": [
+      "Two",
+      "Three",
+      "Four",
+      "Seven",
+      "Nine"
+    ],
+    "funFact": "The Niger flows through Guinea, Mali, Niger, Benin, and Nigeria — a 4,180 km journey. Its inner delta in Mali creates a vast floodplain that has supported agriculture and trade for millennia and was the lifeblood of the great Sahelian empires.",
+    "articleTitle": "Niger River",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Niger_River",
+    "topicId": "west_african_history",
+    "difficulty": "easy"
   }
 ]
