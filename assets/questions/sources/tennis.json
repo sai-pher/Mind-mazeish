@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Women's tennis",
+    "url": "https://en.m.wikipedia.org/wiki/Women's_tennis",
+    "summary": "Women's tennis is one of the most popular female sports. It is one of the few in which women command success and popularity that equal those of their male counterparts.",
+    "categories": ["History of tennis"],
+    "questionIds": ["tennis_019", "tennis_024", "tennis_036"]
+  },
+  {
+    "title": "Women's Tennis Association",
+    "url": "https://en.m.wikipedia.org/wiki/Women's_Tennis_Association",
+    "summary": "The Women's Tennis Association (WTA) is the principal organizing body of women's professional tennis, governing the WTA Tour worldwide.",
+    "categories": ["Women's tennis organizations"],
+    "questionIds": ["tennis_007", "tennis_012", "tennis_033"]
+  },
+  {
+    "title": "Serena Williams",
+    "url": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "summary": "Serena Williams is an American professional tennis player widely considered the greatest female tennis player of all time, with 23 Grand Slam singles titles.",
+    "categories": ["Women's tennis", "Grand Slam champions"],
+    "questionIds": ["tennis_009", "tennis_013", "tennis_016", "tennis_020", "tennis_025", "tennis_029", "tennis_034"]
+  },
+  {
+    "title": "Steffi Graf",
+    "url": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "summary": "Steffi Graf is a German former professional tennis player who won 22 Grand Slam singles titles and is the only player to achieve the Golden Slam.",
+    "categories": ["Women's tennis", "Grand Slam champions"],
+    "questionIds": ["tennis_008", "tennis_011", "tennis_017", "tennis_021", "tennis_023", "tennis_026", "tennis_030", "tennis_032"]
+  },
+  {
+    "title": "Martina Navratilova",
+    "url": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "summary": "Martina Navratilova is a Czech-American former professional tennis player, widely regarded as one of the greatest tennis players of all time, with 18 Grand Slam singles titles.",
+    "categories": ["Women's tennis", "Grand Slam champions"],
+    "questionIds": ["tennis_010", "tennis_014", "tennis_018", "tennis_022", "tennis_027", "tennis_028", "tennis_031", "tennis_035"]
+  }
+]

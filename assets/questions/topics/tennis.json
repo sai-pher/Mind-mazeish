@@ -118,5 +118,545 @@
     "articleUrl": "https://en.m.wikipedia.org/wiki/Open_Era",
     "topicId": "tennis",
     "difficulty": "medium"
+  },
+  {
+    "id": "tennis_007",
+    "question": "Who founded the Women's Tennis Association (WTA) in June 1973?",
+    "correctAnswers": [
+      "Billie Jean King"
+    ],
+    "wrongAnswers": [
+      "Martina Navratilova",
+      "Chris Evert",
+      "Margaret Court",
+      "Virginia Wade"
+    ],
+    "funFact": "Billie Jean King founded the WTA alongside eight other players known as the \"Original 9\", who signed $1 contracts to launch the first Virginia Slims circuit.",
+    "articleTitle": "Women's Tennis Association",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_Tennis_Association",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_008",
+    "question": "How many weeks was Steffi Graf ranked world No. 1, a record that still stands?",
+    "correctAnswers": [
+      "377 weeks"
+    ],
+    "wrongAnswers": [
+      "319 weeks",
+      "332 weeks",
+      "421 weeks",
+      "290 weeks"
+    ],
+    "funFact": "Graf's 377 weeks at No. 1 surpasses all other players in tennis history, male or female. She finished year-end No. 1 a record eight times.",
+    "articleTitle": "Steffi Graf",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_009",
+    "question": "Serena Williams won her first Grand Slam singles title at which tournament?",
+    "correctAnswers": [
+      "1999 US Open"
+    ],
+    "wrongAnswers": [
+      "1999 Wimbledon",
+      "2002 French Open",
+      "2003 Australian Open",
+      "2001 Australian Open"
+    ],
+    "funFact": "Serena Williams turned professional in 1995, and claimed her breakthrough Grand Slam title at the 1999 US Open aged just 17, defeating Martina Hingis in the final.",
+    "articleTitle": "Serena Williams",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_010",
+    "question": "Martina Navratilova holds the all-time record for women's Wimbledon singles titles. How many did she win?",
+    "correctAnswers": [
+      "9"
+    ],
+    "wrongAnswers": [
+      "7",
+      "8",
+      "6",
+      "10"
+    ],
+    "funFact": "Navratilova reached the Wimbledon singles final 12 times in total, winning nine of them. She won a run of six consecutive titles from 1982 to 1987.",
+    "articleTitle": "Martina Navratilova",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_011",
+    "question": "Steffi Graf is the only tennis player — male or female — to have achieved the \"Golden Slam\". What does this mean?",
+    "correctAnswers": [
+      "Winning all four Grand Slams and the Olympic gold medal in the same calendar year"
+    ],
+    "wrongAnswers": [
+      "Winning all four Grand Slams in a single calendar year",
+      "Winning 20 or more Grand Slam titles",
+      "Winning each Grand Slam at least once and reaching world No. 1",
+      "Winning a Grand Slam and the WTA Finals in the same year"
+    ],
+    "funFact": "Graf achieved the Golden Slam in 1988, winning the Australian Open, French Open, Wimbledon, US Open, and the Olympic gold medal at Seoul — all in the same year.",
+    "articleTitle": "Steffi Graf",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_012",
+    "question": "The inaugural Virginia Slims tournament in 1970 — which paved the way for the WTA — was won by which player?",
+    "correctAnswers": [
+      "Rosie Casals"
+    ],
+    "wrongAnswers": [
+      "Billie Jean King",
+      "Chris Evert",
+      "Virginia Wade",
+      "Margaret Court"
+    ],
+    "funFact": "The Virginia Slims tournament, held on 23 September 1970 at the Houston Racquet Club, was the first major step toward an independent women's professional circuit.",
+    "articleTitle": "Women's Tennis Association",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_Tennis_Association",
+    "topicId": "tennis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "tennis_013",
+    "question": "Serena Williams is the only player to accomplish a career Golden Slam in both singles and doubles. How many Grand Slam singles titles did she win in the Open Era, the most of any player?",
+    "correctAnswers": [
+      "23"
+    ],
+    "wrongAnswers": [
+      "22",
+      "18",
+      "20",
+      "21"
+    ],
+    "funFact": "Serena's 23 Open Era Grand Slam singles titles surpass Steffi Graf's 22. Her 2017 Australian Open title is especially remarkable as she was pregnant at the time.",
+    "articleTitle": "Serena Williams",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_014",
+    "question": "How many weeks was Martina Navratilova ranked world No. 1 in women's singles?",
+    "correctAnswers": [
+      "332 weeks"
+    ],
+    "wrongAnswers": [
+      "377 weeks",
+      "319 weeks",
+      "290 weeks",
+      "410 weeks"
+    ],
+    "funFact": "Navratilova's 332 weeks at world No. 1 is second only to Steffi Graf's record 377 weeks. She was year-end No. 1 seven times across her career.",
+    "articleTitle": "Martina Navratilova",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_015",
+    "question": "Where are the WTA's corporate headquarters located?",
+    "correctAnswers": [
+      "St. Petersburg, Florida"
+    ],
+    "wrongAnswers": [
+      "New York City",
+      "London",
+      "Paris",
+      "Lausanne"
+    ],
+    "funFact": "The WTA has its corporate headquarters in St. Petersburg, Florida, with European offices in London and Asia-Pacific offices in Beijing.",
+    "articleTitle": "Women's Tennis Association",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_Tennis_Association",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_016",
+    "question": "What was the name of Serena Williams's dominant stretch from the 2002 French Open to the 2003 Australian Open, when she held all four Grand Slam titles simultaneously?",
+    "correctAnswers": [
+      "The Serena Slam"
+    ],
+    "wrongAnswers": [
+      "The Williams Wave",
+      "The Grand Sweep",
+      "The Open Slam",
+      "The Golden Hold"
+    ],
+    "funFact": "During the \"Serena Slam\", Serena won four consecutive Grand Slams — each time defeating her sister Venus Williams in the final.",
+    "articleTitle": "Serena Williams",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_017",
+    "question": "Steffi Graf won how many Grand Slam singles titles in her career, the second-most in the Open Era?",
+    "correctAnswers": [
+      "22"
+    ],
+    "wrongAnswers": [
+      "18",
+      "20",
+      "24",
+      "16"
+    ],
+    "funFact": "Graf's 22 Grand Slam singles titles include at least four titles at each of the four majors — a feat no other player, male or female, has achieved.",
+    "articleTitle": "Steffi Graf",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_018",
+    "question": "Martina Navratilova recorded an extraordinary win percentage in 1983. What was her record for the season?",
+    "correctAnswers": [
+      "86 wins and 1 loss"
+    ],
+    "wrongAnswers": [
+      "74 wins and 0 losses",
+      "80 wins and 3 losses",
+      "90 wins and 2 losses",
+      "70 wins and 1 loss"
+    ],
+    "funFact": "Navratilova's 1983 season win percentage of 98.9% (86–1) is the best professional season winning percentage in tennis history.",
+    "articleTitle": "Martina Navratilova",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "topicId": "tennis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "tennis_019",
+    "question": "Women's tennis made its Olympic debut at which Games?",
+    "correctAnswers": [
+      "1900 Paris Olympics"
+    ],
+    "wrongAnswers": [
+      "1908 London Olympics",
+      "1896 Athens Olympics",
+      "1920 Antwerp Olympics",
+      "1924 Paris Olympics"
+    ],
+    "funFact": "Women's tennis was first included at the 1900 Paris Olympics, though women's doubles was not added until the 1920 Antwerp Games.",
+    "articleTitle": "Women's tennis",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_tennis",
+    "topicId": "tennis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "tennis_020",
+    "question": "Serena Williams was ranked world No. 1 for 319 weeks during her career. Where does this rank all-time in women's tennis?",
+    "correctAnswers": [
+      "Third-most of all time"
+    ],
+    "wrongAnswers": [
+      "Most of all time",
+      "Second-most of all time",
+      "Fourth-most of all time",
+      "Fifth-most of all time"
+    ],
+    "funFact": "Steffi Graf leads with 377 weeks at No. 1, Navratilova is second with 332 weeks, and Serena Williams is third with 319 weeks — all three are Open Era legends.",
+    "articleTitle": "Serena Williams",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_021",
+    "question": "Who was Steffi Graf's iconic on-court rival whose dominance she ended to become world No. 1?",
+    "correctAnswers": [
+      "Martina Navratilova"
+    ],
+    "wrongAnswers": [
+      "Chris Evert",
+      "Monica Seles",
+      "Arantxa Sánchez Vicario",
+      "Gabriela Sabatini"
+    ],
+    "funFact": "Graf won her first major at the 1987 French Open, signalling the end of the Navratilova–Evert era and the start of her own decade-long dominance of women's tennis.",
+    "articleTitle": "Steffi Graf",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_022",
+    "question": "How many Open Era Grand Slam titles did Martina Navratilova win in total (singles, doubles, and mixed doubles)?",
+    "correctAnswers": [
+      "49"
+    ],
+    "wrongAnswers": [
+      "39",
+      "31",
+      "18",
+      "56"
+    ],
+    "funFact": "Navratilova's 49 Open Era major titles break down as 18 singles, a record 31 women's doubles, and a record 10 mixed doubles titles.",
+    "articleTitle": "Martina Navratilova",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_023",
+    "question": "At what age did Steffi Graf become the youngest player to appear in the main draw of a Grand Slam?",
+    "correctAnswers": [
+      "13"
+    ],
+    "wrongAnswers": [
+      "14",
+      "15",
+      "16",
+      "12"
+    ],
+    "funFact": "Graf made her Grand Slam debut at the 1983 French Open aged just 13, becoming the youngest player ever to appear in a major main draw at that time.",
+    "articleTitle": "Steffi Graf",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_024",
+    "question": "One of the earliest superstars of women's tennis launched the first professional women's tour in North America in 1926–27. Who was she?",
+    "correctAnswers": [
+      "Suzanne Lenglen"
+    ],
+    "wrongAnswers": [
+      "Helen Wills",
+      "Billie Jean King",
+      "Alice Marble",
+      "Maureen Connolly"
+    ],
+    "funFact": "Suzanne Lenglen won six Wimbledon titles and then turned professional to lead the first women's pro tour, revolutionising women's tennis and making it a spectator sport.",
+    "articleTitle": "Women's tennis",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_tennis",
+    "topicId": "tennis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "tennis_025",
+    "question": "Serena Williams won the Laureus World Sports Award for Sportswoman of the Year a record four times. Which years did she win it?",
+    "correctAnswers": [
+      "2003, 2010, 2016, 2018"
+    ],
+    "wrongAnswers": [
+      "2002, 2008, 2013, 2016",
+      "2004, 2010, 2015, 2017",
+      "2003, 2009, 2015, 2018",
+      "2005, 2010, 2014, 2019"
+    ],
+    "funFact": "Serena's four Laureus Sportswoman of the Year awards are more than any other athlete in the award's history, reflecting her sustained dominance over two decades.",
+    "articleTitle": "Serena Williams",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "topicId": "tennis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "tennis_026",
+    "question": "Which Grand Slam did Steffi Graf win first, launching her era of dominance?",
+    "correctAnswers": [
+      "1987 French Open"
+    ],
+    "wrongAnswers": [
+      "1987 Wimbledon",
+      "1988 Australian Open",
+      "1986 US Open",
+      "1988 Wimbledon"
+    ],
+    "funFact": "Graf's first Grand Slam title came at Roland Garros in 1987, defeating Navratilova. The following year she swept all four majors and the Olympics for the Golden Slam.",
+    "articleTitle": "Steffi Graf",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_027",
+    "question": "How many WTA singles titles did Martina Navratilova win across her career — an Open Era record?",
+    "correctAnswers": [
+      "167"
+    ],
+    "wrongAnswers": [
+      "107",
+      "73",
+      "144",
+      "189"
+    ],
+    "funFact": "Navratilova's 167 singles titles and 177 doubles titles are both Open Era records. Her serve-and-volley style was revolutionary and set the standard for athletic fitness in tennis.",
+    "articleTitle": "Martina Navratilova",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "topicId": "tennis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "tennis_028",
+    "question": "Which country's national championship did Martina Navratilova win in 1972, at just 15 years old?",
+    "correctAnswers": [
+      "Czechoslovakia"
+    ],
+    "wrongAnswers": [
+      "United States",
+      "Austria",
+      "Hungary",
+      "Poland"
+    ],
+    "funFact": "Born in Prague, Navratilova won the Czechoslovak national championship aged 15 before defecting to the United States in 1975 to pursue her professional career.",
+    "articleTitle": "Martina Navratilova",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_029",
+    "question": "Serena Williams's sister Venus also competed at the highest level. What did Serena and Venus share in common during the 2002–2003 \"Serena Slam\"?",
+    "correctAnswers": [
+      "Venus was the runner-up in all four Grand Slam finals that Serena won"
+    ],
+    "wrongAnswers": [
+      "They won women's doubles together at all four Grand Slams",
+      "They reached the semi-finals together at each Grand Slam",
+      "They were both ranked No. 1 simultaneously",
+      "Venus won the mixed doubles at the same Grand Slams"
+    ],
+    "funFact": "During Serena's dominant 2002–2003 Slam run, every one of those four finals was an all-Williams affair, with Venus finishing as runner-up each time.",
+    "articleTitle": "Serena Williams",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_030",
+    "question": "How many WTA singles titles did Steffi Graf win across her career?",
+    "correctAnswers": [
+      "107"
+    ],
+    "wrongAnswers": [
+      "73",
+      "167",
+      "89",
+      "120"
+    ],
+    "funFact": "Graf's 107 singles titles include 22 Grand Slam titles and are the third-highest total in the Open Era behind Navratilova's 167 and Evert's 157.",
+    "articleTitle": "Steffi Graf",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_031",
+    "question": "Navratilova is famous for her serve-and-volley playing style. Which coach worked with her from 1981 to 1983 and helped refine her tactics?",
+    "correctAnswers": [
+      "Renée Richards"
+    ],
+    "wrongAnswers": [
+      "Mike Estep",
+      "Craig Kardon",
+      "Nick Bollettieri",
+      "George Parma"
+    ],
+    "funFact": "Renée Richards, a pioneering transgender woman and former tennis professional, coached Navratilova and is credited with sharpening the tactical awareness that helped Martina dominate the early 1980s.",
+    "articleTitle": "Martina Navratilova",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "topicId": "tennis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "tennis_032",
+    "question": "Which nickname was given to Steffi Graf based on her signature shot?",
+    "correctAnswers": [
+      "Fräulein Forehand"
+    ],
+    "wrongAnswers": [
+      "The Baseline Queen",
+      "The German Express",
+      "Golden Arm",
+      "Iron Fist"
+    ],
+    "funFact": "Graf's devastating inside-out forehand earned her the nickname \"Fräulein Forehand\". Her unique swing generated exceptional pace and won countless crucial points.",
+    "articleTitle": "Steffi Graf",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "topicId": "tennis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "tennis_033",
+    "question": "The WTA was founded with nine founding players known as the \"Original 9\". Which of the following was NOT one of them?",
+    "correctAnswers": [
+      "Chris Evert"
+    ],
+    "wrongAnswers": [
+      "Billie Jean King",
+      "Rosie Casals",
+      "Nancy Richey",
+      "Judy Dalton"
+    ],
+    "funFact": "The Original 9 — including Billie Jean King, Rosie Casals, and Nancy Richey — each signed $1 contracts to launch the WTA circuit. Chris Evert, though a contemporary, was not among the original nine.",
+    "articleTitle": "Women's Tennis Association",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_Tennis_Association",
+    "topicId": "tennis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "tennis_034",
+    "question": "Serena Williams was born on September 26, 1981, in which city?",
+    "correctAnswers": [
+      "Saginaw, Michigan"
+    ],
+    "wrongAnswers": [
+      "Compton, California",
+      "West Palm Beach, Florida",
+      "Chicago, Illinois",
+      "Detroit, Michigan"
+    ],
+    "funFact": "Although Serena was born in Saginaw, Michigan, her family moved to Compton, California, where she and Venus honed their tennis on public courts under the coaching of their father Richard.",
+    "articleTitle": "Serena Williams",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "topicId": "tennis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "tennis_035",
+    "question": "Martina Navratilova holds the women's record for the longest all-surface winning streak in professional tennis. How many consecutive match wins did she record?",
+    "correctAnswers": [
+      "74"
+    ],
+    "wrongAnswers": [
+      "56",
+      "86",
+      "66",
+      "50"
+    ],
+    "funFact": "Navratilova's 74-match all-surface winning streak is a professional record for women. She also won six consecutive Grand Slam singles titles across 1983 and 1984.",
+    "articleTitle": "Martina Navratilova",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "topicId": "tennis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "tennis_036",
+    "question": "Which women's tennis player is widely considered the first superstar of the sport, winning six Wimbledon titles before turning professional in the 1920s?",
+    "correctAnswers": [
+      "Suzanne Lenglen"
+    ],
+    "wrongAnswers": [
+      "Helen Wills",
+      "Alice Marble",
+      "Maureen Connolly",
+      "Margaret Smith"
+    ],
+    "funFact": "French player Suzanne Lenglen dominated the 1920s and drew massive crowds to Wimbledon. Her professional tour of North America in 1926–27 was the first women's pro tennis tour in history.",
+    "articleTitle": "Women's tennis",
+    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_tennis",
+    "topicId": "tennis",
+    "difficulty": "easy"
   }
 ]
