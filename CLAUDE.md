@@ -40,11 +40,14 @@ lib/
 │   ├── article_viewer/              # ArticleScreen (WebView)
 │   └── results/                     # ResultsScreen
 .claude/
-├── generate-questions.md            # /generate-questions skill
-└── resources/                       # Reference implementations (not compiled)
-    ├── wikipedia_service.dart
-    ├── claude_question_service.dart
-    └── question_prompt_template.dart
+└── generate-questions/              # /generate-questions skill (Agent Skills spec)
+    ├── SKILL.md                     # skill entry point
+    ├── scripts/
+    │   ├── search_wiki.py           # Wikipedia search
+    │   ├── fetch_wiki.py            # Wikipedia article fetch
+    │   └── requirements.txt         # pip install -r to set up
+    └── references/
+        └── examples.md              # workflow examples + new-topic guide
 ```
 
 ## Running checks
@@ -57,7 +60,9 @@ flutter test --reporter expanded
 ```
 
 ## Available skills
-- `/generate-questions` — generate new trivia questions and add them to the game
+- `generate-questions` — generate new trivia questions and add them to the game
+  - Invoke with the `Skill` tool: `skill: "generate-questions"`
+  - Skill root: `.claude/generate-questions/SKILL.md`
 
 ## Colour palette (AppColors)
 | Token | Hex | Usage |

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """
 Fetch a Wikipedia article (or specific sections) as plain text.
 
