@@ -8,7 +8,7 @@ questions drawn from a JSON asset. All questions live in
 ## Key facts for every session
 - **Target device**: Google Pixel 9 (Android 16, API 36), portrait only
 - **Min SDK**: 26 (Android 8.0)
-- **Flutter**: 3.27.4 stable
+- **Flutter**: 3.41.6 stable
 - **State management**: Riverpod (`NotifierProvider`, `AsyncNotifierProvider`)
 - **Navigation**: GoRouter — routes: `/` start, `/game` gameplay, `/article` WebView, `/results`
 - **No external APIs at runtime** — questions are bundled as a JSON asset; the
