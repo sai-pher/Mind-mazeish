@@ -260,19 +260,25 @@ class _ContentRequestTabState extends State<_ContentRequestTab> {
         children: [
           Text('Request type', style: tt.labelLarge?.copyWith(color: AppColors.textLight)),
           const SizedBox(height: 10),
-          ...ContentRequestType.values.map((t) => RadioListTile<ContentRequestType>(
-            value: t,
+          RadioGroup<ContentRequestType>(
             groupValue: _type,
             onChanged: (v) => setState(() {
               _type = v!;
               _selectedTopicId = null;
             }),
-            title: Text(t.label,
-                style: const TextStyle(color: AppColors.textLight)),
-            activeColor: AppColors.torchAmber,
-            contentPadding: EdgeInsets.zero,
-            dense: true,
-          )),
+            child: Column(
+              children: ContentRequestType.values
+                  .map((t) => RadioListTile<ContentRequestType>(
+                        value: t,
+                        title: Text(t.label,
+                            style: const TextStyle(color: AppColors.textLight)),
+                        activeColor: AppColors.torchAmber,
+                        contentPadding: EdgeInsets.zero,
+                        dense: true,
+                      ))
+                  .toList(),
+            ),
+          ),
           const SizedBox(height: 16),
 
           if (_type == ContentRequestType.newTopic) ...[

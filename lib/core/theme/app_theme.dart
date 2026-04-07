@@ -64,7 +64,7 @@ class AppTheme {
         color: AppColors.torchAmber,
         linearTrackColor: AppColors.stoneDark,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: AppColors.parchment,
         elevation: 4,
         shape: RoundedRectangleBorder(
