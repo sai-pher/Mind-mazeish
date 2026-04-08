@@ -254,8 +254,8 @@ void main() {
 
   group('QuizConfig', () {
     test('copyWith replaces specified fields', () {
-      final cfg = QuizConfig(
-        selectedTopicIds: const {'a', 'b'},
+      const cfg = QuizConfig(
+        selectedTopicIds: {'a', 'b'},
         questionCount: 5,
       );
       final updated = cfg.copyWith(questionCount: 10);
@@ -270,15 +270,15 @@ void main() {
 
   group('Topic hierarchy', () {
     test('SuperCategory.allTopics and allTopicIds aggregate leaf topics', () {
-      final topic1 = Topic(id: 't1', name: 'Topic 1', categoryId: 'cat1', emoji: '🎯');
-      final topic2 = Topic(id: 't2', name: 'Topic 2', categoryId: 'cat1', emoji: '🎮');
-      final cat = TopicCategory(
+      const topic1 = Topic(id: 't1', name: 'Topic 1', categoryId: 'cat1', emoji: '🎯');
+      const topic2 = Topic(id: 't2', name: 'Topic 2', categoryId: 'cat1', emoji: '🎮');
+      const cat = TopicCategory(
         id: 'cat1',
         name: 'Cat 1',
         superCategoryId: 'sc1',
         topics: [topic1, topic2],
       );
-      final sc = SuperCategory(
+      const sc = SuperCategory(
         id: 'sc1',
         name: 'Super 1',
         emoji: '🌟',
@@ -289,8 +289,8 @@ void main() {
     });
 
     test('TopicCategory.topicIds returns topic ids', () {
-      final topic = Topic(id: 'tx', name: 'TX', categoryId: 'cx', emoji: '❓');
-      final cat = TopicCategory(
+      const topic = Topic(id: 'tx', name: 'TX', categoryId: 'cx', emoji: '❓');
+      const cat = TopicCategory(
         id: 'cx',
         name: 'CX',
         superCategoryId: 'sx',
