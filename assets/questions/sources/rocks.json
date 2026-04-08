@@ -1,0 +1,497 @@
+[
+  {
+    "id": "src_coal",
+    "title": "Coal",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_008"
+    ]
+  },
+  {
+    "id": "src_corundum",
+    "title": "Corundum",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_013"
+    ]
+  },
+  {
+    "id": "src_diamond",
+    "title": "Diamond",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_028"
+    ]
+  },
+  {
+    "id": "src_effusive_eruption",
+    "title": "Effusive Eruption",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_027"
+    ]
+  },
+  {
+    "id": "src_emerald",
+    "title": "Emerald",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_016"
+    ]
+  },
+  {
+    "id": "src_erosion",
+    "title": "Erosion",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_025"
+    ]
+  },
+  {
+    "id": "src_feldspar",
+    "title": "Feldspar",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_004"
+    ]
+  },
+  {
+    "id": "src_giants_causeway",
+    "title": "Giants Causeway",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_007"
+    ]
+  },
+  {
+    "id": "src_gneiss",
+    "title": "Gneiss",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_024"
+    ]
+  },
+  {
+    "id": "src_grand_canyon",
+    "title": "Grand Canyon",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_019"
+    ]
+  },
+  {
+    "id": "src_granite",
+    "title": "Granite",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_010"
+    ]
+  },
+  {
+    "id": "src_igneous_rock",
+    "title": "Igneous Rock",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_001"
+    ]
+  },
+  {
+    "id": "src_law_of_superposition",
+    "title": "Law Of Superposition",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_017"
+    ]
+  },
+  {
+    "id": "src_limestone",
+    "title": "Limestone",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_023"
+    ]
+  },
+  {
+    "id": "src_magma",
+    "title": "Magma",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_029"
+    ]
+  },
+  {
+    "id": "src_marble",
+    "title": "Marble",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_003"
+    ]
+  },
+  {
+    "id": "src_metamorphic_rock",
+    "title": "Metamorphic Rock",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_006"
+    ]
+  },
+  {
+    "id": "src_mica",
+    "title": "Mica",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_022"
+    ]
+  },
+  {
+    "id": "src_mineral",
+    "title": "Mineral",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_026"
+    ]
+  },
+  {
+    "id": "src_mohs_scale",
+    "title": "Mohs Scale",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_002"
+    ]
+  },
+  {
+    "id": "src_obsidian",
+    "title": "Obsidian",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_014"
+    ]
+  },
+  {
+    "id": "src_olivine",
+    "title": "Olivine",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_033"
+    ]
+  },
+  {
+    "id": "src_pahoehoe",
+    "title": "Pahoehoe",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_011"
+    ]
+  },
+  {
+    "id": "src_pangaea",
+    "title": "Pangaea",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_012"
+    ]
+  },
+  {
+    "id": "src_pumice",
+    "title": "Pumice",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_005"
+    ]
+  },
+  {
+    "id": "src_pyrite",
+    "title": "Pyrite",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_020"
+    ]
+  },
+  {
+    "id": "src_quartzite",
+    "title": "Quartzite",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_021"
+    ]
+  },
+  {
+    "id": "src_rock_cycle",
+    "title": "Rock Cycle",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_009"
+    ]
+  },
+  {
+    "id": "src_schist",
+    "title": "Schist",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_030"
+    ]
+  },
+  {
+    "id": "src_sedimentary_rock",
+    "title": "Sedimentary Rock",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_032"
+    ]
+  },
+  {
+    "id": "src_shale",
+    "title": "Shale",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_018"
+    ]
+  },
+  {
+    "id": "src_subduction",
+    "title": "Subduction",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_015"
+    ]
+  },
+  {
+    "id": "src_uraniumlead_dating",
+    "title": "Uraniumlead Dating",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "rocks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rock_031"
+    ]
+  }
+]

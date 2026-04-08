@@ -14,9 +14,10 @@
       "Diamonds"
     ],
     "funFact": "Mansa Musa I of Mali made a pilgrimage to Mecca in 1324 with so much gold that his generosity caused rampant inflation across Egypt and the Arab world for over a decade.",
-    "articleTitle": "Mali Empire",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Mali_Empire",
+    "sourceId": "src_mali_empire",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -33,9 +34,10 @@
       "Diamond mining"
     ],
     "funFact": "Timbuktu's Sankore University in the 15th–16th centuries had up to 25,000 students and housed hundreds of thousands of manuscripts, many of which are being digitised today.",
-    "articleTitle": "Timbuktu",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Timbuktu",
+    "sourceId": "src_timbuktu",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -53,9 +55,10 @@
       "Ashanti"
     ],
     "funFact": "The 1591 Moroccan invasion used firearms — a technology the Songhai army largely lacked. This battle is often cited as a turning point ending the great Sahelian empires.",
-    "articleTitle": "Songhai Empire",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Songhai_Empire",
+    "sourceId": "src_songhai_empire",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "hard"
   },
   {
@@ -71,9 +74,10 @@
       "The Iron Sword"
     ],
     "funFact": "The Golden Stool was said to have descended from the sky and was believed to contain the soul of the Ashanti nation. The British demand to sit on it in 1900 triggered the War of the Golden Stool.",
-    "articleTitle": "Ashanti Empire",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Ashanti_Empire",
+    "sourceId": "src_ashanti_empire",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -90,9 +94,10 @@
       "Around 20 million"
     ],
     "funFact": "West Africa accounted for the majority of those enslaved — the trade lasted from roughly 1500 to 1900, though its peak was in the 18th century.",
-    "articleTitle": "Atlantic slave trade",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Atlantic_slave_trade",
+    "sourceId": "src_atlantic_slave_trade",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -109,9 +114,10 @@
       "Nnamdi Azikiwe"
     ],
     "funFact": "Nkrumah declared 'Ghana is free forever!' at midnight on 6 March 1957, inspiring independence movements across the entire continent. He later coined the phrase 'Africa must unite.'",
-    "articleTitle": "Kwame Nkrumah",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Kwame_Nkrumah",
+    "sourceId": "src_kwame_nkrumah",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -128,9 +134,10 @@
       "Southern Mali and northern Burkina Faso"
     ],
     "funFact": "Modern Ghana took its name from the ancient empire as a symbol of pride and heritage, even though the two share no geographic overlap. The ancient Ghana Empire's capital was Koumbi Saleh.",
-    "articleTitle": "Ghana Empire",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Ghana_Empire",
+    "sourceId": "src_ghana_empire",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "hard"
   },
   {
@@ -147,9 +154,10 @@
       "Diamonds and timber"
     ],
     "funFact": "Salt from the Saharan mines of Taghaza was so scarce in West Africa that it was traded pound-for-pound with gold at certain times — making it one of history's most valuable commodities.",
-    "articleTitle": "Trans-Saharan trade",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Trans-Saharan_trade",
+    "sourceId": "src_transsaharan_trade",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -166,9 +174,10 @@
       "Côte d'Ivoire"
     ],
     "funFact": "The Benin Bronzes — hundreds of metal plaques and sculptures — were looted by British forces in 1897 and ended up in museums worldwide. Nigeria has been campaigning for their return for decades.",
-    "articleTitle": "Kingdom of Benin",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Kingdom_of_Benin",
+    "sourceId": "src_kingdom_of_benin",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -185,9 +194,10 @@
       "The Geneva Convention"
     ],
     "funFact": "At the Berlin Conference, 14 European nations drew borders across Africa with little regard for existing ethnic, linguistic, or cultural boundaries — a legacy that continues to shape African politics today.",
-    "articleTitle": "Berlin Conference",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Berlin_Conference",
+    "sourceId": "src_berlin_conference",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -204,9 +214,10 @@
       "Cameroon"
     ],
     "funFact": "The Oyo Empire's military power rested on its exceptional cavalry, an advantage in the open savannah. At its height in the 18th century it controlled much of present-day Nigeria and Benin.",
-    "articleTitle": "Oyo Empire",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Oyo_Empire",
+    "sourceId": "src_oyo_empire",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -223,9 +234,10 @@
       "The Oyo Empire"
     ],
     "funFact": "The Epic of Sundiata, preserved by griots (oral historians) for centuries, recounts how the sickly prince Sundiata overcame disability and exile to defeat the sorcerer king Sumanguru Kante and found the Mali Empire around 1235.",
-    "articleTitle": "Sundiata Keita",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Sundiata_Keita",
+    "sourceId": "src_sundiata_keita",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -242,9 +254,10 @@
       "The Senegal River"
     ],
     "funFact": "Kanem-Bornu endured for nearly a thousand years (c. 700–1900 CE), outlasting the Mali and Songhai empires. Its rulers converted to Islam early, making it a significant centre of Islamic culture in the central Sudan region.",
-    "articleTitle": "Kanem-Bornu Empire",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Kanem-Bornu_Empire",
+    "sourceId": "src_kanembornu_empire",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "hard"
   },
   {
@@ -261,9 +274,10 @@
       "Abu Bakr II"
     ],
     "funFact": "Mansa Musa's pilgrimage put Mali on the map quite literally — European cartographers depicted him on the 1375 Catalan Atlas, seated on a throne and holding a golden orb, as the wealthiest man on Earth.",
-    "articleTitle": "Mansa Musa",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Mansa_Musa",
+    "sourceId": "src_mansa_musa",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -280,9 +294,10 @@
       "Thiès"
     ],
     "funFact": "The Wolof Empire fragmented into several smaller states by the 15th century but its language and culture remained dominant — today Wolof is spoken as a first or second language by the vast majority of Senegalese people.",
-    "articleTitle": "Wolof Empire",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Wolof_Empire",
+    "sourceId": "src_wolof_empire",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "hard"
   },
   {
@@ -299,9 +314,10 @@
       "Tippu Tip"
     ],
     "funFact": "Samori Touré built a sophisticated state and army that resisted French conquest for nearly two decades (1882–1898). When finally captured, he is said to have refused to bow before his captors.",
-    "articleTitle": "Samori Touré",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Samori_Tour%C3%A9",
+    "sourceId": "src_samori_tour",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "hard"
   },
   {
@@ -318,9 +334,10 @@
       "Ottoman military campaigns from North Africa"
     ],
     "funFact": "By the 11th century, the rulers of the Ghana Empire were already interacting with Muslim traders and scholars, and within a few centuries Islam had become the official religion of successive West African empires.",
-    "articleTitle": "Islam in West Africa",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Islam_in_West_Africa",
+    "sourceId": "src_islam_in_west_africa",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -337,9 +354,10 @@
       "30"
     ],
     "funFact": "1960 saw a wave of independence across the continent, with countries like Nigeria, Senegal, Mali, Côte d'Ivoire, Cameroon, and the Democratic Republic of Congo all becoming independent within a single calendar year.",
-    "articleTitle": "Year of Africa",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Year_of_Africa",
+    "sourceId": "src_year_of_africa",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -356,9 +374,10 @@
       "The Nupe Kingdom"
     ],
     "funFact": "Led by Usman dan Fodio from 1804, the Sokoto Caliphate became one of the largest states in Africa. At its peak it included over 30 emirates and a population of tens of millions.",
-    "articleTitle": "Sokoto Caliphate",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Sokoto_Caliphate",
+    "sourceId": "src_sokoto_caliphate",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "hard"
   },
   {
@@ -375,9 +394,10 @@
       "Senegal"
     ],
     "funFact": "The Agojie — also called the Dahomey Amazons — were a formidable all-female military regiment that served as the personal bodyguard of the king and fought in major wars. They inspired the Dora Milaje in the film Black Panther.",
-    "articleTitle": "Dahomey Amazons",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Dahomey_Amazons",
+    "sourceId": "src_dahomey_amazons",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -394,9 +414,10 @@
       "Kumasi"
     ],
     "funFact": "Gao sits on the eastern bend of the Niger River and remains inhabited today as a city in Mali. Its great mosque, though rebuilt many times, traces its origins back to the Songhai imperial era.",
-    "articleTitle": "Gao",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Gao",
+    "sourceId": "src_gao",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "hard"
   },
   {
@@ -413,9 +434,10 @@
       "Wood"
     ],
     "funFact": "The mosque requires an annual community replastering festival called the Crepissage, where thousands of townspeople work together to maintain its iconic earthen walls — a tradition that has continued for centuries.",
-    "articleTitle": "Great Mosque of Djenné",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9",
+    "sourceId": "src_great_mosque_of_djenn",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -432,9 +454,10 @@
       "Agricultural advisors and land managers"
     ],
     "funFact": "Griots preserve genealogies, epic poems, and historical accounts through performance and music, passing knowledge down through family lineages. Without them, much of West Africa's pre-colonial history would have been lost entirely.",
-    "articleTitle": "Griot",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Griot",
+    "sourceId": "src_griot",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -451,9 +474,10 @@
       "Kwame Nkrumah"
     ],
     "funFact": "Nnamdi Azikiwe, known as 'Zik of Africa,' was a pioneering pan-Africanist who used journalism as a tool to mobilise support for Nigerian independence. He became Governor-General in 1960 and President when Nigeria became a republic in 1963.",
-    "articleTitle": "Nnamdi Azikiwe",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Nnamdi_Azikiwe",
+    "sourceId": "src_nnamdi_azikiwe",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -470,9 +494,10 @@
       "Nine"
     ],
     "funFact": "The Niger flows through Guinea, Mali, Niger, Benin, and Nigeria — a 4,180 km journey. Its inner delta in Mali creates a vast floodplain that has supported agriculture and trade for millennia and was the lifeblood of the great Sahelian empires.",
-    "articleTitle": "Niger River",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Niger_River",
+    "sourceId": "src_niger_river",
     "topicId": "west_african_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   }
 ]

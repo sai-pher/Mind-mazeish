@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_bakelite",
+    "title": "Bakelite",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "plastics"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "plast_001"
+    ]
+  },
+  {
+    "id": "src_plastic_pollution",
+    "title": "Plastic Pollution",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "plastics"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "plast_003"
+    ]
+  },
+  {
+    "id": "src_polyethylene",
+    "title": "Polyethylene",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "plastics"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "plast_002"
+    ]
+  }
+]

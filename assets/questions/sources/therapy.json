@@ -1,0 +1,62 @@
+[
+  {
+    "id": "src_cognitive_behavioral_therapy",
+    "title": "Cognitive Behavioral Therapy",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "therapy"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ther_001"
+    ]
+  },
+  {
+    "id": "src_dialectical_behavior_therapy",
+    "title": "Dialectical Behavior Therapy",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "therapy"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ther_002"
+    ]
+  },
+  {
+    "id": "src_eye_movement_desensitization_and_reprocessing",
+    "title": "Eye Movement Desensitization And Reprocessing",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "therapy"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ther_004"
+    ]
+  },
+  {
+    "id": "src_psychoanalysis",
+    "title": "Psychoanalysis",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "therapy"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ther_003"
+    ]
+  }
+]

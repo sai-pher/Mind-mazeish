@@ -51,4 +51,29 @@ jobs:
         run: flutter analyze --fatal-infos
 
       - name: Test
-        run: flutter test --reporter expanded
+        run: flutter test --coverage --reporter expanded
+
+      - name: Install lcov
+        run: sudo apt-get install -y lcov
+
+      - name: Check coverage thresholds
+        run: |
+          # Domain logic ≥ 80%, question_bank.dart ≥ 90%
+          lcov --summary coverage/lcov.info 2>&1 | tee /tmp/coverage_summary.txt
+          DOMAIN_COV=$(lcov --extract coverage/lcov.info '*/domain/*' -o /tmp/domain.info --quiet 2>/dev/null && \
+            lcov --summary /tmp/domain.info 2>&1 | grep -oP '\d+\.\d+(?=%)' | head -1 || echo "0")
+          BANK_COV=$(lcov --extract coverage/lcov.info '*/question_bank.dart' -o /tmp/bank.info --quiet 2>/dev/null && \
+            lcov --summary /tmp/bank.info 2>&1 | grep -oP '\d+\.\d+(?=%)' | head -1 || echo "0")
+          echo "Domain coverage: ${DOMAIN_COV}%  (threshold: 80%)"
+          echo "question_bank.dart coverage: ${BANK_COV}%  (threshold: 90%)"
+          python3 -c "
+          domain = float('${DOMAIN_COV}' or 0)
+          bank = float('${BANK_COV}' or 0)
+          errors = []
+          if domain < 80: errors.append(f'Domain coverage {domain}% < 80%')
+          if bank < 90: errors.append(f'question_bank.dart coverage {bank}% < 90%')
+          if errors:
+              for e in errors: print('FAIL:', e)
+              raise SystemExit(1)
+          print('Coverage thresholds met.')
+          "

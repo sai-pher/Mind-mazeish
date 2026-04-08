@@ -13,9 +13,10 @@
       "8,000 years ago"
     ],
     "funFact": "The Armenian shoe, discovered in 2008, was stuffed with grass — perhaps as insulation or to keep its shape.",
-    "articleTitle": "Shoe",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Shoe#History",
+    "sourceId": "src_shoe",
     "topicId": "footwear",
+    "topicCategoryId": "style",
+    "superCategoryId": "fashion_crafts",
     "difficulty": "hard"
   },
   {
@@ -32,9 +33,10 @@
       "Dancers"
     ],
     "funFact": "Persian heels helped keep feet in stirrups while riding. European nobility adopted them as a status symbol in the 17th century — at which point women adopted them too.",
-    "articleTitle": "High-heeled shoe",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/High-heeled_shoe#History",
+    "sourceId": "src_highheeled_shoe",
     "topicId": "footwear",
+    "topicCategoryId": "style",
+    "superCategoryId": "fashion_crafts",
     "difficulty": "medium"
   },
   {
@@ -51,9 +53,10 @@
       "Hephaestus, god of craftsmen"
     ],
     "funFact": "Nike, Inc. was founded in 1964 as \"Blue Ribbon Sports.\" The iconic Swoosh logo was designed by a Portland State University student for $35.",
-    "articleTitle": "Sneaker (footwear)",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Sneaker_(footwear)",
+    "sourceId": "src_sneaker_footwear",
     "topicId": "footwear",
+    "topicCategoryId": "style",
+    "superCategoryId": "fashion_crafts",
     "difficulty": "easy"
   }
 ]

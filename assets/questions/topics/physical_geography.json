@@ -13,9 +13,10 @@
       "5 major plates"
     ],
     "funFact": "The Pacific Plate is the largest tectonic plate, covering about 103 million km² — almost the size of the entire Atlantic Ocean.",
-    "articleTitle": "Plate tectonics",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Plate_tectonics",
+    "sourceId": "src_plate_tectonics",
     "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -31,9 +32,10 @@
       "A watershed or drainage basin"
     ],
     "funFact": "The tropical rainforest biome covers only about 6% of Earth's land surface but contains over 50% of the world's plant and animal species.",
-    "articleTitle": "Biome",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Biome",
+    "sourceId": "src_biome",
     "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   }
 ]

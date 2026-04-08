@@ -15,9 +15,10 @@
       "30"
     ],
     "funFact": "Serena Williams won her 23rd Grand Slam title at the 2017 Australian Open while in the first trimester of pregnancy.",
-    "articleTitle": "Serena Williams",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "sourceId": "src_serena_williams",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "easy"
   },
   {
@@ -35,9 +36,10 @@
       "Concrete"
     ],
     "funFact": "Wimbledon's courts use 100% perennial ryegrass, cut to precisely 8mm. The courts are reseeded every year after the championships.",
-    "articleTitle": "Wimbledon Championships",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Wimbledon_Championships#Courts",
+    "sourceId": "src_wimbledon_championships",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "easy"
   },
   {
@@ -55,9 +57,10 @@
       "Game point"
     ],
     "funFact": "The word \"deuce\" likely comes from the French \"à deux le jeu\" (to both the game), though the exact etymology is disputed.",
-    "articleTitle": "Tennis",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Tennis#Scoring",
+    "sourceId": "src_tennis",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "easy"
   },
   {
@@ -74,9 +77,10 @@
       "US Open 2003"
     ],
     "funFact": "Federer spent a record 310 weeks as world number one over his career, a record later broken by Novak Djokovic.",
-    "articleTitle": "Roger Federer",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Roger_Federer",
+    "sourceId": "src_roger_federer",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -94,9 +98,10 @@
       "Monte Carlo Masters"
     ],
     "funFact": "Roland Garros is named after a French aviator who was the first person to fly across the Mediterranean Sea.",
-    "articleTitle": "French Open",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/French_Open",
+    "sourceId": "src_french_open",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "easy"
   },
   {
@@ -114,9 +119,10 @@
       "1950"
     ],
     "funFact": "Before 1968, professionals were banned from Grand Slams. The \"Open Era\" transformed tennis into a fully professional sport.",
-    "articleTitle": "Open Era",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Open_Era",
+    "sourceId": "src_open_era",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -132,9 +138,10 @@
       "Virginia Wade"
     ],
     "funFact": "Billie Jean King founded the WTA alongside eight other players known as the \"Original 9\", who signed $1 contracts to launch the first Virginia Slims circuit.",
-    "articleTitle": "Women's Tennis Association",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_Tennis_Association",
+    "sourceId": "src_womens_tennis_association",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "easy"
   },
   {
@@ -150,9 +157,10 @@
       "290 weeks"
     ],
     "funFact": "Graf's 377 weeks at No. 1 surpasses all other players in tennis history, male or female. She finished year-end No. 1 a record eight times.",
-    "articleTitle": "Steffi Graf",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "sourceId": "src_steffi_graf",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -168,9 +176,10 @@
       "2001 Australian Open"
     ],
     "funFact": "Serena Williams turned professional in 1995, and claimed her breakthrough Grand Slam title at the 1999 US Open aged just 17, defeating Martina Hingis in the final.",
-    "articleTitle": "Serena Williams",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "sourceId": "src_serena_williams",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "easy"
   },
   {
@@ -186,9 +195,10 @@
       "10"
     ],
     "funFact": "Navratilova reached the Wimbledon singles final 12 times in total, winning nine of them. She won a run of six consecutive titles from 1982 to 1987.",
-    "articleTitle": "Martina Navratilova",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "sourceId": "src_martina_navratilova",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -204,9 +214,10 @@
       "Winning a Grand Slam and the WTA Finals in the same year"
     ],
     "funFact": "Graf achieved the Golden Slam in 1988, winning the Australian Open, French Open, Wimbledon, US Open, and the Olympic gold medal at Seoul — all in the same year.",
-    "articleTitle": "Steffi Graf",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "sourceId": "src_steffi_graf",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "easy"
   },
   {
@@ -222,9 +233,10 @@
       "Margaret Court"
     ],
     "funFact": "The Virginia Slims tournament, held on 23 September 1970 at the Houston Racquet Club, was the first major step toward an independent women's professional circuit.",
-    "articleTitle": "Women's Tennis Association",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_Tennis_Association",
+    "sourceId": "src_womens_tennis_association",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "hard"
   },
   {
@@ -240,9 +252,10 @@
       "21"
     ],
     "funFact": "Serena's 23 Open Era Grand Slam singles titles surpass Steffi Graf's 22. Her 2017 Australian Open title is especially remarkable as she was pregnant at the time.",
-    "articleTitle": "Serena Williams",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "sourceId": "src_serena_williams",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "easy"
   },
   {
@@ -258,9 +271,10 @@
       "410 weeks"
     ],
     "funFact": "Navratilova's 332 weeks at world No. 1 is second only to Steffi Graf's record 377 weeks. She was year-end No. 1 seven times across her career.",
-    "articleTitle": "Martina Navratilova",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "sourceId": "src_martina_navratilova",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -276,9 +290,10 @@
       "Lausanne"
     ],
     "funFact": "The WTA has its corporate headquarters in St. Petersburg, Florida, with European offices in London and Asia-Pacific offices in Beijing.",
-    "articleTitle": "Women's Tennis Association",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_Tennis_Association",
+    "sourceId": "src_womens_tennis_association",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -294,9 +309,10 @@
       "The Golden Hold"
     ],
     "funFact": "During the \"Serena Slam\", Serena won four consecutive Grand Slams — each time defeating her sister Venus Williams in the final.",
-    "articleTitle": "Serena Williams",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "sourceId": "src_serena_williams",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -312,9 +328,10 @@
       "16"
     ],
     "funFact": "Graf's 22 Grand Slam singles titles include at least four titles at each of the four majors — a feat no other player, male or female, has achieved.",
-    "articleTitle": "Steffi Graf",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "sourceId": "src_steffi_graf",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -330,9 +347,10 @@
       "70 wins and 1 loss"
     ],
     "funFact": "Navratilova's 1983 season win percentage of 98.9% (86–1) is the best professional season winning percentage in tennis history.",
-    "articleTitle": "Martina Navratilova",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "sourceId": "src_martina_navratilova",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "hard"
   },
   {
@@ -348,9 +366,10 @@
       "1924 Paris Olympics"
     ],
     "funFact": "Women's tennis was first included at the 1900 Paris Olympics, though women's doubles was not added until the 1920 Antwerp Games.",
-    "articleTitle": "Women's tennis",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_tennis",
+    "sourceId": "src_womens_tennis",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "hard"
   },
   {
@@ -366,9 +385,10 @@
       "Fifth-most of all time"
     ],
     "funFact": "Steffi Graf leads with 377 weeks at No. 1, Navratilova is second with 332 weeks, and Serena Williams is third with 319 weeks — all three are Open Era legends.",
-    "articleTitle": "Serena Williams",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "sourceId": "src_serena_williams",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -384,9 +404,10 @@
       "Gabriela Sabatini"
     ],
     "funFact": "Graf won her first major at the 1987 French Open, signalling the end of the Navratilova–Evert era and the start of her own decade-long dominance of women's tennis.",
-    "articleTitle": "Steffi Graf",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "sourceId": "src_steffi_graf",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -402,9 +423,10 @@
       "56"
     ],
     "funFact": "Navratilova's 49 Open Era major titles break down as 18 singles, a record 31 women's doubles, and a record 10 mixed doubles titles.",
-    "articleTitle": "Martina Navratilova",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "sourceId": "src_martina_navratilova",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -420,9 +442,10 @@
       "12"
     ],
     "funFact": "Graf made her Grand Slam debut at the 1983 French Open aged just 13, becoming the youngest player ever to appear in a major main draw at that time.",
-    "articleTitle": "Steffi Graf",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "sourceId": "src_steffi_graf",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -438,9 +461,10 @@
       "Maureen Connolly"
     ],
     "funFact": "Suzanne Lenglen won six Wimbledon titles and then turned professional to lead the first women's pro tour, revolutionising women's tennis and making it a spectator sport.",
-    "articleTitle": "Women's tennis",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_tennis",
+    "sourceId": "src_womens_tennis",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "hard"
   },
   {
@@ -456,9 +480,10 @@
       "2005, 2010, 2014, 2019"
     ],
     "funFact": "Serena's four Laureus Sportswoman of the Year awards are more than any other athlete in the award's history, reflecting her sustained dominance over two decades.",
-    "articleTitle": "Serena Williams",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "sourceId": "src_serena_williams",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "hard"
   },
   {
@@ -474,9 +499,10 @@
       "1988 Wimbledon"
     ],
     "funFact": "Graf's first Grand Slam title came at Roland Garros in 1987, defeating Navratilova. The following year she swept all four majors and the Olympics for the Golden Slam.",
-    "articleTitle": "Steffi Graf",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "sourceId": "src_steffi_graf",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -492,9 +518,10 @@
       "189"
     ],
     "funFact": "Navratilova's 167 singles titles and 177 doubles titles are both Open Era records. Her serve-and-volley style was revolutionary and set the standard for athletic fitness in tennis.",
-    "articleTitle": "Martina Navratilova",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "sourceId": "src_martina_navratilova",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "hard"
   },
   {
@@ -510,9 +537,10 @@
       "Poland"
     ],
     "funFact": "Born in Prague, Navratilova won the Czechoslovak national championship aged 15 before defecting to the United States in 1975 to pursue her professional career.",
-    "articleTitle": "Martina Navratilova",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "sourceId": "src_martina_navratilova",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -528,9 +556,10 @@
       "Venus won the mixed doubles at the same Grand Slams"
     ],
     "funFact": "During Serena's dominant 2002–2003 Slam run, every one of those four finals was an all-Williams affair, with Venus finishing as runner-up each time.",
-    "articleTitle": "Serena Williams",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "sourceId": "src_serena_williams",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -546,9 +575,10 @@
       "120"
     ],
     "funFact": "Graf's 107 singles titles include 22 Grand Slam titles and are the third-highest total in the Open Era behind Navratilova's 167 and Evert's 157.",
-    "articleTitle": "Steffi Graf",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "sourceId": "src_steffi_graf",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "easy"
   },
   {
@@ -564,9 +594,10 @@
       "George Parma"
     ],
     "funFact": "Renée Richards, a pioneering transgender woman and former tennis professional, coached Navratilova and is credited with sharpening the tactical awareness that helped Martina dominate the early 1980s.",
-    "articleTitle": "Martina Navratilova",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "sourceId": "src_martina_navratilova",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "hard"
   },
   {
@@ -582,9 +613,10 @@
       "Iron Fist"
     ],
     "funFact": "Graf's devastating inside-out forehand earned her the nickname \"Fräulein Forehand\". Her unique swing generated exceptional pace and won countless crucial points.",
-    "articleTitle": "Steffi Graf",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Steffi_Graf",
+    "sourceId": "src_steffi_graf",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "easy"
   },
   {
@@ -600,9 +632,10 @@
       "Judy Dalton"
     ],
     "funFact": "The Original 9 — including Billie Jean King, Rosie Casals, and Nancy Richey — each signed $1 contracts to launch the WTA circuit. Chris Evert, though a contemporary, was not among the original nine.",
-    "articleTitle": "Women's Tennis Association",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_Tennis_Association",
+    "sourceId": "src_womens_tennis_association",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "hard"
   },
   {
@@ -618,9 +651,10 @@
       "Detroit, Michigan"
     ],
     "funFact": "Although Serena was born in Saginaw, Michigan, her family moved to Compton, California, where she and Venus honed their tennis on public courts under the coaching of their father Richard.",
-    "articleTitle": "Serena Williams",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Serena_Williams",
+    "sourceId": "src_serena_williams",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "medium"
   },
   {
@@ -636,9 +670,10 @@
       "50"
     ],
     "funFact": "Navratilova's 74-match all-surface winning streak is a professional record for women. She also won six consecutive Grand Slam singles titles across 1983 and 1984.",
-    "articleTitle": "Martina Navratilova",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Martina_Navratilova",
+    "sourceId": "src_martina_navratilova",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "hard"
   },
   {
@@ -654,9 +689,10 @@
       "Margaret Smith"
     ],
     "funFact": "French player Suzanne Lenglen dominated the 1920s and drew massive crowds to Wimbledon. Her professional tour of North America in 1926–27 was the first women's pro tennis tour in history.",
-    "articleTitle": "Women's tennis",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Women%27s_tennis",
+    "sourceId": "src_womens_tennis",
     "topicId": "tennis",
+    "topicCategoryId": "sport",
+    "superCategoryId": "sports_recreation",
     "difficulty": "easy"
   }
 ]

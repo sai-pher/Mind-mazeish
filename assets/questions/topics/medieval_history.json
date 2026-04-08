@@ -12,9 +12,10 @@
       "To store supplies during sieges"
     ],
     "funFact": "Medieval drawbridges used sophisticated counterweight systems — the same engineering principle used in modern bascule bridges like Tower Bridge in London.",
-    "articleTitle": "Drawbridge",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Drawbridge",
+    "sourceId": "src_drawbridge",
     "topicId": "medieval_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -31,9 +32,10 @@
       "King William II"
     ],
     "funFact": "Originally, Magna Carta was annulled by Pope Innocent III just 10 weeks after signing. It was only later reissues that gave it lasting constitutional significance.",
-    "articleTitle": "Magna Carta",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Magna_Carta",
+    "sourceId": "src_magna_carta",
     "topicId": "medieval_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -50,9 +52,10 @@
       "About a quarter"
     ],
     "funFact": "Some regions of Europe lost 60–70% of their population. Paradoxically, the Black Death contributed to the end of serfdom — surviving peasants could demand higher wages.",
-    "articleTitle": "Black Death",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Black_Death",
+    "sourceId": "src_black_death",
     "topicId": "medieval_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -69,9 +72,10 @@
       "The scorpio"
     ],
     "funFact": "The trebuchet was so effective that some historians credit it with ending the era of castle warfare — no wall could withstand sustained bombardment.",
-    "articleTitle": "Trebuchet",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Trebuchet",
+    "sourceId": "src_trebuchet",
     "topicId": "medieval_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -89,9 +93,10 @@
       "15"
     ],
     "funFact": "The Children's Crusade of 1212 — in which thousands of young people set out to reclaim the Holy Land — likely never reached the Holy Land at all and ended in tragedy.",
-    "articleTitle": "Crusades",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Crusades",
+    "sourceId": "src_crusades",
     "topicId": "medieval_history",
+    "topicCategoryId": "history",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   }
 ]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_autism_spectrum",
+    "title": "Autism Spectrum",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "autism"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "aut_001"
+    ]
+  },
+  {
+    "id": "src_causes_of_autism",
+    "title": "Causes Of Autism",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "autism"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "aut_003"
+    ]
+  },
+  {
+    "id": "src_leo_kanner",
+    "title": "Leo Kanner",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "autism"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "aut_002"
+    ]
+  }
+]

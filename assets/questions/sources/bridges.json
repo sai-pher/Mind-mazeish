@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_arch_bridge",
+    "title": "Arch Bridge",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "bridges"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "bridge_003"
+    ]
+  },
+  {
+    "id": "src_golden_gate_bridge",
+    "title": "Golden Gate Bridge",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "bridges"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "bridge_001"
+    ]
+  },
+  {
+    "id": "src_suspension_bridge",
+    "title": "Suspension Bridge",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "bridges"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "bridge_002"
+    ]
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "src_abo_blood_group_system",
+    "title": "Abo Blood Group System",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_009"
+    ]
+  },
+  {
+    "id": "src_antibiotic",
+    "title": "Antibiotic",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_001"
+    ]
+  },
+  {
+    "id": "src_appendectomy",
+    "title": "Appendectomy",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_006"
+    ]
+  },
+  {
+    "id": "src_blinded_experiment",
+    "title": "Blinded Experiment",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_010"
+    ]
+  },
+  {
+    "id": "src_botulism",
+    "title": "Botulism",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_011"
+    ]
+  },
+  {
+    "id": "src_cohort_study",
+    "title": "Cohort Study",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_003"
+    ]
+  },
+  {
+    "id": "src_coronary_artery_bypass_surgery",
+    "title": "Coronary Artery Bypass Surgery",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_005"
+    ]
+  },
+  {
+    "id": "src_joseph_lister",
+    "title": "Joseph Lister",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_007"
+    ]
+  },
+  {
+    "id": "src_kidney",
+    "title": "Kidney",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_002"
+    ]
+  },
+  {
+    "id": "src_smallpox_vaccine",
+    "title": "Smallpox Vaccine",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_004"
+    ]
+  },
+  {
+    "id": "src_xray",
+    "title": "Xray",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_008"
+    ]
+  }
+]

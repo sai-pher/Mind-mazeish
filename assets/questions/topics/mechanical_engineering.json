@@ -13,9 +13,10 @@
       "Gay-Lussac's Law"
     ],
     "funFact": "Robert Boyle published this law in 1662, but it was also independently discovered by French physicist Edme Mariotte — hence it's called Mariotte's Law in continental Europe.",
-    "articleTitle": "Boyle's law",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Boyle%27s_law",
+    "sourceId": "src_boyles_law",
     "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
     "difficulty": "medium"
   },
   {
@@ -33,9 +34,10 @@
       "Cam"
     ],
     "funFact": "The Archimedean screw, invented c. 250 BC, is one of the earliest known applications of the screw simple machine — it's still used today to lift water for irrigation.",
-    "articleTitle": "Simple machine",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Simple_machine",
+    "sourceId": "src_simple_machine",
     "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
     "difficulty": "medium"
   },
   {
@@ -51,9 +53,10 @@
       "Drag increases with speed"
     ],
     "funFact": "Bernoulli's principle is why a curve ball curves in baseball — the spinning ball creates faster airflow on one side, generating a pressure difference.",
-    "articleTitle": "Bernoulli's principle",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Bernoulli%27s_principle",
+    "sourceId": "src_bernoullis_principle",
     "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
     "difficulty": "medium"
   }
 ]

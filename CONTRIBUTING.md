@@ -1,0 +1,55 @@
+# Contributing to Mind Mazeish
+
+## Branch naming
+
+| Type | Pattern | Example |
+|------|---------|---------|
+| Bug fix | `fix/issue-{N}-{slug}` | `fix/issue-12-crash-on-results` |
+| Feature / UI / Improvement | `feat/issue-{N}-{slug}` | `feat/issue-7-dark-mode-toggle` |
+| Content (questions/topics) | `content/issue-{N}-{slug}` | `content/issue-3-add-jazz-topic` |
+| Chore / infra | `chore/{slug}` | `chore/upgrade-flutter-3-41` |
+
+Slugs: lowercase, hyphens, max 5 words. Always reference the issue number if one exists.
+
+## Commit message format
+
+```
+{type}: {short description} (#{issue})
+```
+
+Types: `fix`, `feat`, `improvement`, `content`, `chore`, `ci`, `docs`, `test`
+
+Examples:
+- `fix: resolve crash on results screen (#12)`
+- `content: add 30 jazz music questions (#3)`
+- `chore: upgrade Flutter to 3.41.6`
+
+One subject line (≤72 chars). No body unless change is non-obvious.
+
+## Pull requests
+
+- Title mirrors the commit message format
+- Body must include `Closes #{N}` if resolving an issue
+- All PRs require green CI (analyze + test) before merge
+- Scope: one issue per PR; no bundled unrelated changes
+- Target branch: `main`
+
+## Code standards
+
+- **State management**: Riverpod (`NotifierProvider`, `AsyncNotifierProvider`) — no setState outside local widget state
+- **Navigation**: GoRouter — no `Navigator.push` directly
+- **Colours**: `AppColors` constants only — no inline hex values
+- **No new packages** without discussion — keep pub.dev dependency count low
+- `flutter analyze --fatal-infos` must pass (zero infos, warnings, errors)
+
+## Testing
+
+See `TESTING.md` for coverage requirements. All new features require widget tests. All bug fixes require a regression test.
+
+## AI agent contributions
+
+Agents follow the same standards. Agent-authored PRs include the structured resolution comment on the linked issue before the PR is opened. See `.claude/skills/` for available agent skills.
+
+## Questions
+
+Open a GitHub issue with label `feedback` or `enhancement`.

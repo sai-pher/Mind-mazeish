@@ -12,9 +12,10 @@
       "It affects people differently by age group"
     ],
     "funFact": "The term \"autism spectrum\" replaced earlier separate diagnoses like Asperger syndrome in the DSM-5 (2013) to better reflect the full range of presentations.",
-    "articleTitle": "Autism spectrum",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Autism_spectrum",
+    "sourceId": "src_autism_spectrum",
     "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
     "difficulty": "easy"
   },
   {
@@ -31,9 +32,10 @@
       "University of Chicago"
     ],
     "funFact": "Kanner's 1943 paper described 11 children with similar features — he coined the term \"early infantile autism,\" from the Greek \"autos\" meaning \"self.\"",
-    "articleTitle": "Leo Kanner",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Leo_Kanner",
+    "sourceId": "src_leo_kanner",
     "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
     "difficulty": "hard"
   },
   {
@@ -50,9 +52,10 @@
       "Air pollution only"
     ],
     "funFact": "Studies of identical twins show a heritability of autism around 64–91%, making it one of the most heritable of all neurodevelopmental conditions.",
-    "articleTitle": "Causes of autism",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Causes_of_autism",
+    "sourceId": "src_causes_of_autism",
     "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
     "difficulty": "easy"
   }
 ]

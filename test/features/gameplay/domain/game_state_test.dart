@@ -16,9 +16,12 @@ QuizQuestion _fakeQuizQuestion(String id) {
     correctAnswers: const ['Correct'],
     wrongAnswers: const ['Wrong 1', 'Wrong 2', 'Wrong 3', 'Wrong 4'],
     funFact: 'Fun fact',
+    sourceId: '',
     articleTitle: 'Article',
     articleUrl: 'https://example.com',
     topicId: 'test_topic',
+    topicCategoryId: '',
+    superCategoryId: '',
     difficulty: QuestionDifficulty.easy,
   );
   return q.toQuizQuestion();
@@ -153,9 +156,12 @@ void main() {
           correctAnswers: const ['C'],
           wrongAnswers: const ['W1', 'W2', 'W3', 'W4'],
           funFact: '',
+          sourceId: '',
           articleTitle: '',
           articleUrl: '',
           topicId: i.isEven ? 'topic_a' : 'topic_b',
+          topicCategoryId: '',
+          superCategoryId: '',
           difficulty: QuestionDifficulty.easy,
         ),
       );
@@ -185,9 +191,12 @@ void main() {
         correctAnswers: ['Yes'],
         wrongAnswers: ['No', 'Maybe', 'Never', 'Always'],
         funFact: 'It is indeed a test.',
+        sourceId: '',
         articleTitle: 'Test',
         articleUrl: 'https://example.com',
         topicId: 'tests',
+        topicCategoryId: '',
+        superCategoryId: '',
         difficulty: QuestionDifficulty.hard,
       );
 
@@ -197,9 +206,12 @@ void main() {
         'correctAnswers': q.correctAnswers,
         'wrongAnswers': q.wrongAnswers,
         'funFact': q.funFact,
+        'sourceId': q.sourceId,
         'articleTitle': q.articleTitle,
         'articleUrl': q.articleUrl,
         'topicId': q.topicId,
+        'topicCategoryId': q.topicCategoryId,
+        'superCategoryId': q.superCategoryId,
         'difficulty': q.difficulty.name,
       };
 

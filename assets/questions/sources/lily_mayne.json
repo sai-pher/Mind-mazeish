@@ -1,0 +1,69 @@
+[
+  {
+    "id": "src_gay_literature",
+    "title": "Gay Literature",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "lily_mayne"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "lm_002",
+      "lm_010"
+    ]
+  },
+  {
+    "id": "src_paranormal_romance",
+    "title": "Paranormal Romance",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "lily_mayne"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "lm_003",
+      "lm_006"
+    ]
+  },
+  {
+    "id": "src_romance_novel",
+    "title": "Romance Novel",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "lily_mayne"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "lm_001",
+      "lm_007",
+      "lm_008",
+      "lm_009"
+    ]
+  },
+  {
+    "id": "src_selfpublishing",
+    "title": "Selfpublishing",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "lily_mayne"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "lm_004",
+      "lm_005",
+      "lm_011"
+    ]
+  }
+]

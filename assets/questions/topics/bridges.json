@@ -13,9 +13,10 @@
       "Napa County"
     ],
     "funFact": "The Golden Gate Bridge's iconic \"International Orange\" colour was chosen for visibility in fog — it was originally proposed to be painted black with yellow stripes.",
-    "articleTitle": "Golden Gate Bridge",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Golden_Gate_Bridge",
+    "sourceId": "src_golden_gate_bridge",
     "topicId": "bridges",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
     "difficulty": "medium"
   },
   {
@@ -32,9 +33,10 @@
       "Cantilever arms"
     ],
     "funFact": "The Akashi Kaikyō Bridge in Japan has the world's longest central suspension span at 1,991 metres — it withstood a magnitude 7.2 earthquake in 1995 during construction.",
-    "articleTitle": "Suspension bridge",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Suspension_bridge",
+    "sourceId": "src_suspension_bridge",
     "topicId": "bridges",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
     "difficulty": "easy"
   },
   {
@@ -50,9 +52,10 @@
       "Through suspension hangers"
     ],
     "funFact": "The Romans mastered the semicircular arch around 100 BC and used it to build bridges that are still standing 2,000 years later.",
-    "articleTitle": "Arch bridge",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Arch_bridge",
+    "sourceId": "src_arch_bridge",
     "topicId": "bridges",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
     "difficulty": "medium"
   }
 ]

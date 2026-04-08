@@ -14,9 +14,10 @@
       "Children's literature"
     ],
     "funFact": "MM romance (male/male romance) has grown significantly as a mainstream publishing category since the 2010s.",
-    "articleTitle": "Romance novel",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Romance_novel",
+    "sourceId": "src_romance_novel",
     "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "easy"
   },
   {
@@ -36,9 +37,10 @@
       "Romantic suspense"
     ],
     "funFact": "The term \"MM\" in publishing refers to male/male romantic fiction and has become a mainstream commercial genre in the 2020s.",
-    "articleTitle": "Gay literature",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Gay_literature",
+    "sourceId": "src_gay_literature",
     "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
@@ -57,9 +59,10 @@
       "Inspirational romance"
     ],
     "funFact": "Indie (self-published) authors now account for over 30% of e-book sales in genre fiction, with romance being the largest category.",
-    "articleTitle": "Paranormal romance",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Paranormal_romance",
+    "sourceId": "src_paranormal_romance",
     "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
@@ -75,9 +78,10 @@
       "Academic publishing"
     ],
     "funFact": "Self-publishing platforms like Amazon KDP and Smashwords have allowed indie romance authors to reach global audiences without a literary agent or publishing house.",
-    "articleTitle": "Self-publishing",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Self-publishing",
+    "sourceId": "src_selfpublishing",
     "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "easy"
   },
   {
@@ -93,9 +97,10 @@
       "Kindle Vella"
     ],
     "funFact": "Kindle Unlimited (KU) is a major revenue stream for indie romance authors; enrolling in KU requires exclusivity with Amazon, which has divided the indie publishing community.",
-    "articleTitle": "Self-publishing",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Self-publishing",
+    "sourceId": "src_selfpublishing",
     "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "easy"
   },
   {
@@ -112,9 +117,10 @@
       "Slow burn"
     ],
     "funFact": "Monster romance surged in popularity in the early 2020s, with indie authors like Lily Mayne helping pioneer queer monster romance as a distinct subgenre.",
-    "articleTitle": "Paranormal romance",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Paranormal_romance",
+    "sourceId": "src_paranormal_romance",
     "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
@@ -131,9 +137,10 @@
       "Forced proximity"
     ],
     "funFact": "The fated mates trope has roots in folklore and mythology and remains one of the most searched-for tropes on romance reader communities like Goodreads and BookTok.",
-    "articleTitle": "Romance novel",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Romance_novel",
+    "sourceId": "src_romance_novel",
     "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
@@ -150,9 +157,10 @@
       "Biopunk romance"
     ],
     "funFact": "Queer dystopian fiction gained wide readership following the success of novels like 'The Handmaid's Tale', inspiring indie authors to explore LGBTQ+ identities within oppressive future worlds.",
-    "articleTitle": "Romance novel",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Romance_novel",
+    "sourceId": "src_romance_novel",
     "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
@@ -168,9 +176,10 @@
       "Hopeful Ending Achieved"
     ],
     "funFact": "The Romance Writers of America defines a romance novel by two key elements: a central love story and an emotionally satisfying HEA or HFN (Happy For Now) ending.",
-    "articleTitle": "Romance novel",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Romance_novel",
+    "sourceId": "src_romance_novel",
     "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "hard"
   },
   {
@@ -187,9 +196,10 @@
       "LitTok"
     ],
     "funFact": "BookTok is credited with reviving sales of backlist titles and launching debut indie authors to bestseller status; by 2023 it had driven billions of views for romance and queer fiction content.",
-    "articleTitle": "Gay literature",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Gay_literature",
+    "sourceId": "src_gay_literature",
     "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "hard"
   },
   {
@@ -205,9 +215,10 @@
       "A shared universe agreement between multiple indie authors"
     ],
     "funFact": "Long-running indie fantasy romance series can span ten or more books; a series bible helps authors maintain consistency in lore, magic systems, and character arcs across hundreds of thousands of words.",
-    "articleTitle": "Self-publishing",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Self-publishing",
+    "sourceId": "src_selfpublishing",
     "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "hard"
   }
 ]

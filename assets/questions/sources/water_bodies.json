@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_lake_superior",
+    "title": "Lake Superior",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "water_bodies"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "water_002"
+    ]
+  },
+  {
+    "id": "src_nile",
+    "title": "Nile",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "water_bodies"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "water_003"
+    ]
+  },
+  {
+    "id": "src_ocean",
+    "title": "Ocean",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "water_bodies"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "water_001"
+    ]
+  }
+]

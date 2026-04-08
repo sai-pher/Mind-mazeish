@@ -60,9 +60,34 @@ flutter test --reporter expanded
 ```
 
 ## Available skills
-- `generate-questions` — generate new trivia questions and add them to the game
-  - Invoke with the `Skill` tool: `skill: "generate-questions"`
-  - Skill root: `.claude/generate-questions/SKILL.md`
+
+### Question management
+- `generate-questions` — generate new trivia questions and append to a topic JSON file
+  - Invoke: `skill: "generate-questions"`
+- `audit-questions` — full health report: difficulty spread, thin topics, validation errors
+  - Invoke: `skill: "audit-questions"`
+- `add-topic` — add a brand-new topic (registry, JSON files, 30 starter questions)
+  - Invoke: `skill: "add-topic"`
+- `relearn` — extract/verify facts from Wikipedia into sources files
+  - Invoke: `skill: "relearn"`
+- `research-rabbit` — discover related Wikipedia sources; group into book sets
+  - Invoke: `skill: "research-rabbit"`
+
+### Issue management
+- `triage-issue` — classify a GitHub issue and post initial understanding comment
+  - Invoke: `skill: "triage-issue"`
+- `investigate-issue` — trace root cause of a bug; post investigation comment
+  - Invoke: `skill: "investigate-issue"`
+- `fix-bug` — apply minimal fix, add regression test, open PR
+  - Invoke: `skill: "fix-bug"`
+- `implement-feature` — implement scoped feature/UI/improvement, open PR
+  - Invoke: `skill: "implement-feature"`
+- `resolve-issue` — post resolution comment, update labels, close or mark awaiting-merge
+  - Invoke: `skill: "resolve-issue"`
+
+### Planning
+- `plan-task` — research and plan a new initiative in `ai/tasks/`
+  - Invoke: `skill: "plan-task"`
 
 ## Colour palette (AppColors)
 | Token | Hex | Usage |

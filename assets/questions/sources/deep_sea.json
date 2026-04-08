@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_bioluminescence",
+    "title": "Bioluminescence",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "dsea_002"
+    ]
+  },
+  {
+    "id": "src_hydrothermal_vent",
+    "title": "Hydrothermal Vent",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "dsea_003"
+    ]
+  },
+  {
+    "id": "src_mariana_trench",
+    "title": "Mariana Trench",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "dsea_001"
+    ]
+  }
+]

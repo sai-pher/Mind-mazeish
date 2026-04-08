@@ -1,0 +1,62 @@
+[
+  {
+    "id": "src_a_dictionary_of_the_english_language",
+    "title": "A Dictionary Of The English Language",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "dictionaries"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "dict_002"
+    ]
+  },
+  {
+    "id": "src_etymology",
+    "title": "Etymology",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "dictionaries"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "dict_004"
+    ]
+  },
+  {
+    "id": "src_oxford_english_dictionary",
+    "title": "Oxford English Dictionary",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "dictionaries"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "dict_001"
+    ]
+  },
+  {
+    "id": "src_thesaurus",
+    "title": "Thesaurus",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "dictionaries"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "dict_003"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "src_black_death",
+    "title": "Black Death",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medieval_history"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_hist_003"
+    ]
+  },
+  {
+    "id": "src_crusades",
+    "title": "Crusades",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medieval_history"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_hist_005"
+    ]
+  },
+  {
+    "id": "src_drawbridge",
+    "title": "Drawbridge",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medieval_history"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_hist_001"
+    ]
+  },
+  {
+    "id": "src_magna_carta",
+    "title": "Magna Carta",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medieval_history"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_hist_002"
+    ]
+  },
+  {
+    "id": "src_trebuchet",
+    "title": "Trebuchet",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medieval_history"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_hist_004"
+    ]
+  }
+]

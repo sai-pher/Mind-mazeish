@@ -12,9 +12,10 @@
       "Attention Deficit Hypersensitivity Disorder"
     ],
     "funFact": "ADHD affects approximately 5–7% of children and 2–5% of adults worldwide, making it one of the most common neurodevelopmental conditions.",
-    "articleTitle": "Attention deficit hyperactivity disorder",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder",
+    "sourceId": "src_attention_deficit_hyperactivity_disorder",
     "topicId": "adhd",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
     "difficulty": "easy"
   },
   {
@@ -32,9 +33,10 @@
       "Vyvanse"
     ],
     "funFact": "Methylphenidate was first synthesised in 1944 and approved for medical use in 1955. Despite being a stimulant, it typically has a calming effect on people with ADHD.",
-    "articleTitle": "Methylphenidate",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Methylphenidate",
+    "sourceId": "src_methylphenidate",
     "topicId": "adhd",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
     "difficulty": "medium"
   },
   {
@@ -51,9 +53,10 @@
       "Emotional recognition"
     ],
     "funFact": "Executive functions include working memory, impulse control, and planning — ADHD impacts these more than sustained attention per se.",
-    "articleTitle": "Executive functions",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Executive_functions",
+    "sourceId": "src_executive_functions",
     "topicId": "adhd",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
     "difficulty": "medium"
   },
   {
@@ -70,9 +73,10 @@
       "Cognitive Deficit Syndrome"
     ],
     "funFact": "The first description of ADHD-like symptoms appeared in a German poem by Heinrich Hoffmann in 1845, featuring a character called \"Fidgety Philip.\"",
-    "articleTitle": "Attention deficit hyperactivity disorder",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder#History",
+    "sourceId": "src_attention_deficit_hyperactivity_disorder",
     "topicId": "adhd",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
     "difficulty": "hard"
   }
 ]

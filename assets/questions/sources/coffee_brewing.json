@@ -1,0 +1,62 @@
+[
+  {
+    "id": "src_aeropress",
+    "title": "Aeropress",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee_brewing"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "brew_004"
+    ]
+  },
+  {
+    "id": "src_cold_brew_coffee",
+    "title": "Cold Brew Coffee",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee_brewing"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "brew_003"
+    ]
+  },
+  {
+    "id": "src_espresso",
+    "title": "Espresso",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee_brewing"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "brew_001"
+    ]
+  },
+  {
+    "id": "src_french_press",
+    "title": "French Press",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee_brewing"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "brew_002"
+    ]
+  }
+]

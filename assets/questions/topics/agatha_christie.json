@@ -16,9 +16,10 @@
       "44"
     ],
     "funFact": "Agatha Christie's works have sold over two billion copies, making her the best-selling fiction writer of all time after Shakespeare.",
-    "articleTitle": "Agatha Christie",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Agatha_Christie",
+    "sourceId": "src_agatha_christie",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "easy"
   },
   {
@@ -37,9 +38,10 @@
       "Parker Pyne"
     ],
     "funFact": "Poirot is one of only two fictional characters to receive an obituary on the front page of The New York Times.",
-    "articleTitle": "Hercule Poirot",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Hercule_Poirot",
+    "sourceId": "src_hercule_poirot",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "easy"
   },
   {
@@ -58,9 +60,10 @@
       "1870"
     ],
     "funFact": "Christie was born in Torquay, Devon, England, on 15 September 1890.",
-    "articleTitle": "Agatha Christie",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Agatha_Christie#Early_life",
+    "sourceId": "src_agatha_christie",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "easy"
   },
   {
@@ -78,9 +81,10 @@
       "Ten Little Indians"
     ],
     "funFact": "The Mousetrap opened in London in 1952 and is still running today, making it the world's longest-running theatre production.",
-    "articleTitle": "The Mousetrap",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/The_Mousetrap",
+    "sourceId": "src_the_mousetrap",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
@@ -98,97 +102,162 @@
       "Storm Island"
     ],
     "funFact": "\"And Then There Were None\" is the best-selling mystery novel of all time, with over 100 million copies sold.",
-    "articleTitle": "And Then There Were None",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/And_Then_There_Were_None",
+    "sourceId": "src_and_then_there_were_none",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
     "id": "ac_006",
     "question": "What is Miss Marple's first name?",
-    "correctAnswers": ["Jane"],
-    "wrongAnswers": ["Margaret", "Dorothy", "Agatha", "Helen"],
+    "correctAnswers": [
+      "Jane"
+    ],
+    "wrongAnswers": [
+      "Margaret",
+      "Dorothy",
+      "Agatha",
+      "Helen"
+    ],
     "funFact": "Miss Marple's full name is Jane Marple. Christie rarely used the first name in the stories, preferring to keep her as the familiar 'Miss Marple', which contributed to her air of genteel mystery.",
-    "articleTitle": "Miss Marple",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Miss_Marple",
+    "sourceId": "src_miss_marple",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "easy"
   },
   {
     "id": "ac_007",
     "question": "In which English village does Miss Marple live?",
-    "correctAnswers": ["St. Mary Mead"],
-    "wrongAnswers": ["Little Pidding", "Chipping Norton", "Nether Wallop", "Much Benham"],
+    "correctAnswers": [
+      "St. Mary Mead"
+    ],
+    "wrongAnswers": [
+      "Little Pidding",
+      "Chipping Norton",
+      "Nether Wallop",
+      "Much Benham"
+    ],
     "funFact": "St. Mary Mead is a fictional village in the south of England. Christie used the quiet setting to great irony — the seemingly peaceful village is repeatedly touched by murder, giving Miss Marple ample practice in reading human nature.",
-    "articleTitle": "Miss Marple",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Miss_Marple",
+    "sourceId": "src_miss_marple",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "easy"
   },
   {
     "id": "ac_008",
     "question": "In which short story did Miss Marple make her first appearance?",
-    "correctAnswers": ["The Tuesday Night Club"],
-    "wrongAnswers": ["The Murder at the Vicarage", "A Caribbean Mystery", "The Body in the Library", "Sleeping Murder"],
+    "correctAnswers": [
+      "The Tuesday Night Club"
+    ],
+    "wrongAnswers": [
+      "The Murder at the Vicarage",
+      "A Caribbean Mystery",
+      "The Body in the Library",
+      "Sleeping Murder"
+    ],
     "funFact": "'The Tuesday Night Club' was first published in the Royal Magazine in December 1927. It introduced Miss Marple as part of a group of friends who challenge each other to solve real crimes from memory — and she invariably wins.",
-    "articleTitle": "Miss Marple",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Miss_Marple",
+    "sourceId": "src_miss_marple",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
     "id": "ac_009",
     "question": "How many full-length novels feature Miss Marple as the central detective?",
-    "correctAnswers": ["12"],
-    "wrongAnswers": ["8", "10", "15", "20"],
+    "correctAnswers": [
+      "12"
+    ],
+    "wrongAnswers": [
+      "8",
+      "10",
+      "15",
+      "20"
+    ],
     "funFact": "Christie wrote 12 Miss Marple novels in total, from 'The Murder at the Vicarage' (1930) to 'Sleeping Murder', which was written during World War II but published posthumously in 1976.",
-    "articleTitle": "Miss Marple",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Miss_Marple",
+    "sourceId": "src_miss_marple",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
     "id": "ac_010",
     "question": "Which actress was personally chosen by Agatha Christie herself to play Miss Marple on television?",
-    "correctAnswers": ["Joan Hickson"],
-    "wrongAnswers": ["Margaret Rutherford", "Angela Lansbury", "Helen Hayes", "Geraldine McEwan"],
+    "correctAnswers": [
+      "Joan Hickson"
+    ],
+    "wrongAnswers": [
+      "Margaret Rutherford",
+      "Angela Lansbury",
+      "Helen Hayes",
+      "Geraldine McEwan"
+    ],
     "funFact": "Joan Hickson was personally chosen by Agatha Christie after Christie saw Hickson in a 1946 stage play. Christie wrote her a note saying she hoped Hickson would one day play Miss Marple — a wish fulfilled nearly 40 years later.",
-    "articleTitle": "Miss Marple",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Miss_Marple",
+    "sourceId": "src_miss_marple",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
     "id": "ac_011",
     "question": "Which Miss Marple novel was written during World War II but only published after Agatha Christie's death?",
-    "correctAnswers": ["Sleeping Murder"],
-    "wrongAnswers": ["A Caribbean Mystery", "At Bertram's Hotel", "Nemesis", "The Mirror Crack'd from Side to Side"],
+    "correctAnswers": [
+      "Sleeping Murder"
+    ],
+    "wrongAnswers": [
+      "A Caribbean Mystery",
+      "At Bertram's Hotel",
+      "Nemesis",
+      "The Mirror Crack'd from Side to Side"
+    ],
     "funFact": "Christie wrote both 'Sleeping Murder' and 'Curtain' (Poirot's last case) during the Blitz as a precaution, sealing them away in a bank vault. 'Sleeping Murder' was released in 1976 as a farewell gift to readers.",
-    "articleTitle": "Miss Marple",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Miss_Marple",
+    "sourceId": "src_miss_marple",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "hard"
   },
   {
     "id": "ac_012",
     "question": "Miss Marple's method of solving crimes relies on comparing suspects to people she has known in which setting?",
-    "correctAnswers": ["Her village of St. Mary Mead"],
-    "wrongAnswers": ["Her years working as a nurse", "Her time spent travelling abroad", "Her extensive reading of detective fiction", "Her work as a magistrate"],
+    "correctAnswers": [
+      "Her village of St. Mary Mead"
+    ],
+    "wrongAnswers": [
+      "Her years working as a nurse",
+      "Her time spent travelling abroad",
+      "Her extensive reading of detective fiction",
+      "Her work as a magistrate"
+    ],
     "funFact": "Christie gave Miss Marple the insight that human nature is universal — a dishonest butcher's boy in a village is essentially the same type as a murderer in a country house. This 'village parallel' method makes her appear dotty while being razor sharp.",
-    "articleTitle": "Miss Marple",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Miss_Marple",
+    "sourceId": "src_miss_marple",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "hard"
   },
   {
     "id": "ac_013",
     "question": "In which 1930 novel did Miss Marple make her first full-length book appearance?",
-    "correctAnswers": ["The Murder at the Vicarage"],
-    "wrongAnswers": ["The Mysterious Affair at Styles", "Murder on the Orient Express", "The ABC Murders", "Death on the Nile"],
+    "correctAnswers": [
+      "The Murder at the Vicarage"
+    ],
+    "wrongAnswers": [
+      "The Mysterious Affair at Styles",
+      "Murder on the Orient Express",
+      "The ABC Murders",
+      "Death on the Nile"
+    ],
     "funFact": "'The Murder at the Vicarage' is narrated by the local vicar, Reverend Leonard Clement, giving an outsider's perspective on Miss Marple's seemingly harmless but relentlessly perceptive investigations into village life.",
-    "articleTitle": "Miss Marple",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Miss_Marple",
+    "sourceId": "src_miss_marple",
     "topicId": "agatha_christie",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
     "difficulty": "hard"
   }
 ]

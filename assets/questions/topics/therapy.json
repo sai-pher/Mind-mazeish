@@ -12,9 +12,10 @@
       "Controlled Breathing Technique"
     ],
     "funFact": "CBT was developed by Aaron Beck in the 1960s, who noticed that his depressed patients had spontaneous negative thoughts he called \"automatic thoughts.\"",
-    "articleTitle": "Cognitive behavioral therapy",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Cognitive_behavioral_therapy",
+    "sourceId": "src_cognitive_behavioral_therapy",
     "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
     "difficulty": "easy"
   },
   {
@@ -31,9 +32,10 @@
       "Generalised anxiety disorder"
     ],
     "funFact": "Marsha Linehan later disclosed that she herself had been diagnosed with BPD — a revelation that significantly reduced stigma around the condition.",
-    "articleTitle": "Dialectical behavior therapy",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Dialectical_behavior_therapy",
+    "sourceId": "src_dialectical_behavior_therapy",
     "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
     "difficulty": "medium"
   },
   {
@@ -50,9 +52,10 @@
       "Attachment theory"
     ],
     "funFact": "Freud believed the unconscious mind was like an iceberg — the conscious mind (the visible tip) is vastly smaller than the hidden unconscious below.",
-    "articleTitle": "Psychoanalysis",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Psychoanalysis",
+    "sourceId": "src_psychoanalysis",
     "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
     "difficulty": "easy"
   },
   {
@@ -69,9 +72,10 @@
       "Eating disorders"
     ],
     "funFact": "The World Health Organization recommends EMDR as an evidence-based treatment for PTSD in adults.",
-    "articleTitle": "Eye movement desensitization and reprocessing",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Eye_movement_desensitization_and_reprocessing",
+    "sourceId": "src_eye_movement_desensitization_and_reprocessing",
     "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
     "difficulty": "medium"
   }
 ]

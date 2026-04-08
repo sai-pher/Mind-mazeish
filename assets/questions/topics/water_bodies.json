@@ -13,9 +13,10 @@
       "About 10%"
     ],
     "funFact": "Of the remaining 3% fresh water, about 69% is locked in glaciers and ice caps, leaving less than 1% of all Earth's water as accessible liquid fresh water.",
-    "articleTitle": "Ocean",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Ocean",
+    "sourceId": "src_ocean",
     "topicId": "water_bodies",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -33,9 +34,10 @@
       "Lake Tanganyika"
     ],
     "funFact": "Lake Superior holds about 10% of the world's liquid surface fresh water. Its surface area is larger than the combined area of the UK and Ireland.",
-    "articleTitle": "Lake Superior",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Lake_Superior",
+    "sourceId": "src_lake_superior",
     "topicId": "water_bodies",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -53,9 +55,10 @@
       "The Ob"
     ],
     "funFact": "The Amazon vs Nile debate continues among geographers — the Amazon carries far more water (20% of all river water draining to oceans), but the Nile is slightly longer.",
-    "articleTitle": "Nile",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Nile",
+    "sourceId": "src_nile",
     "topicId": "water_bodies",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   }
 ]

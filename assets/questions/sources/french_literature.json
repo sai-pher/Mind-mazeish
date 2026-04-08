@@ -1,0 +1,182 @@
+[
+  {
+    "id": "src_albert_camus",
+    "title": "Albert Camus",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "fl_002"
+    ]
+  },
+  {
+    "id": "src_charles_baudelaire",
+    "title": "Charles Baudelaire",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "fl_012"
+    ]
+  },
+  {
+    "id": "src_existentialism",
+    "title": "Existentialism",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "fl_005"
+    ]
+  },
+  {
+    "id": "src_french_new_novel",
+    "title": "French New Novel",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "fl_010"
+    ]
+  },
+  {
+    "id": "src_gustave_flaubert",
+    "title": "Gustave Flaubert",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "fl_003"
+    ]
+  },
+  {
+    "id": "src_jaccuse",
+    "title": "Jaccuse",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "fl_009"
+    ]
+  },
+  {
+    "id": "src_simone_de_beauvoir",
+    "title": "Simone De Beauvoir",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "fl_004"
+    ]
+  },
+  {
+    "id": "src_swanns_way",
+    "title": "Swanns Way",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "fl_008"
+    ]
+  },
+  {
+    "id": "src_the_hunchback_of_notredame",
+    "title": "The Hunchback Of Notredame",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "fl_007"
+    ]
+  },
+  {
+    "id": "src_the_miser_molire",
+    "title": "The Miser Molire",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "fl_006"
+    ]
+  },
+  {
+    "id": "src_the_red_and_the_black",
+    "title": "The Red And The Black",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "fl_011"
+    ]
+  },
+  {
+    "id": "src_victor_hugo",
+    "title": "Victor Hugo",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "fl_001"
+    ]
+  }
+]

@@ -14,9 +14,10 @@
       "2006"
     ],
     "funFact": "Steve Jobs introduced the original iPhone as \"a widescreen iPod with touch controls, a revolutionary mobile phone, and a breakthrough internet device\" — three devices in one.",
-    "articleTitle": "IPhone",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/IPhone",
+    "sourceId": "src_iphone",
     "topicId": "handheld_devices",
+    "topicCategoryId": "devices",
+    "superCategoryId": "engineering_tech",
     "difficulty": "easy"
   },
   {
@@ -33,9 +34,10 @@
       "Ericsson"
     ],
     "funFact": "The IBM Simon had a touchscreen, email, calendar, address book, and apps — in 1994. It cost $899 (about $1,800 in today's money) and weighed 510g.",
-    "articleTitle": "Smartphone",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Smartphone#History",
+    "sourceId": "src_smartphone",
     "topicId": "handheld_devices",
+    "topicCategoryId": "devices",
+    "superCategoryId": "engineering_tech",
     "difficulty": "hard"
   },
   {
@@ -53,9 +55,10 @@
       "Paperwhite"
     ],
     "funFact": "The first Kindle sold out within 5.5 hours of its launch on 19 November 2007 and remained out of stock for five months.",
-    "articleTitle": "Amazon Kindle",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Amazon_Kindle",
+    "sourceId": "src_amazon_kindle",
     "topicId": "handheld_devices",
+    "topicCategoryId": "devices",
+    "superCategoryId": "engineering_tech",
     "difficulty": "easy"
   }
 ]

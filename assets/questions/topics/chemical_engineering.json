@@ -14,9 +14,10 @@
       "Chlorine"
     ],
     "funFact": "The Haber process enabled mass production of synthetic fertilisers. It is estimated to be responsible for feeding about half the world's current population.",
-    "articleTitle": "Haber process",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Haber_process",
+    "sourceId": "src_haber_process",
     "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
     "difficulty": "medium"
   },
   {
@@ -34,9 +35,10 @@
       "Colour"
     ],
     "funFact": "Fractional distillation of crude oil at oil refineries separates petroleum into diesel, petrol, kerosene, and other products — all within a single tall distillation column.",
-    "articleTitle": "Distillation",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Distillation",
+    "sourceId": "src_distillation",
     "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
     "difficulty": "easy"
   },
   {
@@ -52,9 +54,10 @@
       "It changes the products formed"
     ],
     "funFact": "Catalytic converters in car exhausts use platinum, palladium, and rhodium as catalysts to convert toxic CO and NOx into harmless CO₂ and N₂.",
-    "articleTitle": "Catalysis",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Catalysis",
+    "sourceId": "src_catalysis",
     "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
     "difficulty": "medium"
   }
 ]

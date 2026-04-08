@@ -1,0 +1,63 @@
+[
+  {
+    "id": "src_crossword",
+    "title": "Crossword",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "puzzles"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "puzz_003"
+    ]
+  },
+  {
+    "id": "src_jigsaw_puzzle",
+    "title": "Jigsaw Puzzle",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "puzzles"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "puzz_001"
+    ]
+  },
+  {
+    "id": "src_rubiks_cube",
+    "title": "Rubiks Cube",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "puzzles"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "puzz_004",
+      "puzz_005"
+    ]
+  },
+  {
+    "id": "src_sudoku",
+    "title": "Sudoku",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "puzzles"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "puzz_002"
+    ]
+  }
+]

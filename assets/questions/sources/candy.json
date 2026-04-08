@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_chocolate",
+    "title": "Chocolate",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "candy"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "candy_001"
+    ]
+  },
+  {
+    "id": "src_gummy_bear",
+    "title": "Gummy Bear",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "candy"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "candy_002"
+    ]
+  },
+  {
+    "id": "src_hard_candy",
+    "title": "Hard Candy",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "candy"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "candy_003"
+    ]
+  }
+]
