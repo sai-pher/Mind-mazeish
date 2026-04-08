@@ -14,9 +14,10 @@
       "Stendhal"
     ],
     "funFact": "Victor Hugo's Les Misérables contains one of the longest sentences in the French language — a single sentence of 823 words.",
-    "articleTitle": "Victor Hugo",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Victor_Hugo",
+    "sourceId": "src_victor_hugo",
     "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
     "difficulty": "easy"
   },
   {
@@ -35,9 +36,10 @@
       "1955"
     ],
     "funFact": "Camus, at 43, was the second-youngest laureate ever when he received the Nobel Prize in Literature.",
-    "articleTitle": "Albert Camus",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Albert_Camus",
+    "sourceId": "src_albert_camus",
     "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
@@ -54,9 +56,10 @@
       "Copyright infringement"
     ],
     "funFact": "Flaubert was acquitted, and the trial's publicity made Madame Bovary a bestseller.",
-    "articleTitle": "Gustave Flaubert",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Madame_Bovary",
+    "sourceId": "src_gustave_flaubert",
     "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
     "difficulty": "hard"
   },
   {
@@ -75,9 +78,10 @@
       "Deconstruction"
     ],
     "funFact": "The Second Sex was put on the Catholic Church's Index of Forbidden Books upon publication.",
-    "articleTitle": "Simone de Beauvoir",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Simone_de_Beauvoir",
+    "sourceId": "src_simone_de_beauvoir",
     "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
@@ -95,9 +99,10 @@
       "Dadaism"
     ],
     "funFact": "Jean-Paul Sartre famously declined the Nobel Prize in Literature in 1964, the only person to voluntarily decline it.",
-    "articleTitle": "Existentialism",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Existentialism",
+    "sourceId": "src_existentialism",
     "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
     "difficulty": "easy"
   },
   {
@@ -115,9 +120,10 @@
       "Don Juan"
     ],
     "funFact": "Molière based The Miser on the ancient Roman comedy Aulularia by Plautus, yet set it in 17th-century Paris, making the greed feel timeless.",
-    "articleTitle": "The Miser (Molière)",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/The_Miser_(Moli%C3%A8re)",
+    "sourceId": "src_the_miser_molire",
     "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
     "difficulty": "easy"
   },
   {
@@ -135,9 +141,10 @@
       "The Poet and the Cathedral"
     ],
     "funFact": "Hugo wrote the novel partly to draw public attention to the neglected state of Gothic architecture in France; the book's popularity directly inspired restoration work on the real Notre-Dame cathedral.",
-    "articleTitle": "The Hunchback of Notre-Dame",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+    "sourceId": "src_the_hunchback_of_notredame",
     "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
     "difficulty": "easy"
   },
   {
@@ -155,9 +162,10 @@
       "The Fugitive"
     ],
     "funFact": "Swann's Way was initially rejected by several publishers, including Gallimard, so Proust paid for its publication himself in 1913 — Gallimard later signed him and published the rest of the cycle.",
-    "articleTitle": "Swann's Way",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Swann%27s_Way",
+    "sourceId": "src_swanns_way",
     "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
@@ -175,9 +183,10 @@
       "L'Affaire"
     ],
     "funFact": "Zola's letter was addressed directly to the French President and accused the army of anti-semitism and obstruction of justice; it resulted in Zola being convicted of libel and fleeing to England for nearly a year.",
-    "articleTitle": "J'accuse...!",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/J%27accuse...!",
+    "sourceId": "src_jaccuse",
     "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
     "difficulty": "medium"
   },
   {
@@ -195,9 +204,10 @@
       "Georges Perec"
     ],
     "funFact": "Robbe-Grillet's 1957 manifesto \"For a New Novel\" argued that fiction should abandon psychology and plot in favour of precise, objective description of surfaces — an idea he called chosisme (thing-ism).",
-    "articleTitle": "French New Novel",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/French_New_Novel",
+    "sourceId": "src_french_new_novel",
     "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
     "difficulty": "hard"
   },
   {
@@ -215,9 +225,10 @@
       "Revolution and monarchy"
     ],
     "funFact": "Stendhal based his protagonist Julien Sorel on a real criminal case he read about in a newspaper; he wrote the entire novel in just 52 days.",
-    "articleTitle": "The Red and the Black",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/The_Red_and_the_Black",
+    "sourceId": "src_the_red_and_the_black",
     "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
     "difficulty": "hard"
   },
   {
@@ -235,9 +246,10 @@
       "Alphonse de Lamartine"
     ],
     "funFact": "Six poems were ordered removed from Les Fleurs du mal after the trial; they were not legally published in France until 1949 — nearly a century after Baudelaire wrote them.",
-    "articleTitle": "Charles Baudelaire",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Charles_Baudelaire",
+    "sourceId": "src_charles_baudelaire",
     "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
     "difficulty": "hard"
   }
 ]

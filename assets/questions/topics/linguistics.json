@@ -14,9 +14,10 @@
       "Lexicology"
     ],
     "funFact": "Human languages collectively use about 800 distinct phonemes, but any individual language uses only 11–100 of them.",
-    "articleTitle": "Phonology",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Phonology",
+    "sourceId": "src_phonology",
     "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
     "difficulty": "easy"
   },
   {
@@ -34,9 +35,10 @@
       "Lexicology"
     ],
     "funFact": "Noam Chomsky's theory of Universal Grammar proposes that all human languages share an innate structural framework in the brain.",
-    "articleTitle": "Syntax",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Syntax",
+    "sourceId": "src_syntax",
     "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
     "difficulty": "easy"
   },
   {
@@ -53,9 +55,10 @@
       "Only in infancy (before age 2)"
     ],
     "funFact": "Studies of isolated children (like Genie, discovered in 1970) support the critical period hypothesis — she never fully acquired grammar despite later intervention.",
-    "articleTitle": "Language acquisition",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Language_acquisition#Critical_period_hypothesis",
+    "sourceId": "src_language_acquisition",
     "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
     "difficulty": "medium"
   },
   {
@@ -73,9 +76,10 @@
       "Around 20,000"
     ],
     "funFact": "About 40% of the world's languages are endangered, with many having fewer than 1,000 speakers.",
-    "articleTitle": "Linguistics",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Linguistics",
+    "sourceId": "src_linguistics",
     "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
     "difficulty": "medium"
   },
   {
@@ -92,9 +96,10 @@
       "Writing systems"
     ],
     "funFact": "The Hopi language reportedly has no tenses, which was once cited as evidence that Hopi speakers perceive time differently — though this claim has since been disputed.",
-    "articleTitle": "Linguistic relativity",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Linguistic_relativity",
+    "sourceId": "src_linguistic_relativity",
     "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
     "difficulty": "hard"
   }
 ]

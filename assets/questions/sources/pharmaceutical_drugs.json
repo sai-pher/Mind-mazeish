@@ -1,0 +1,62 @@
+[
+  {
+    "id": "src_aspirin",
+    "title": "Aspirin",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "pharmaceutical_drugs"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "pharm_002"
+    ]
+  },
+  {
+    "id": "src_blinded_experiment",
+    "title": "Blinded Experiment",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "pharmaceutical_drugs"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "pharm_004"
+    ]
+  },
+  {
+    "id": "src_drug_metabolism",
+    "title": "Drug Metabolism",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "pharmaceutical_drugs"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "pharm_003"
+    ]
+  },
+  {
+    "id": "src_pharmacology",
+    "title": "Pharmacology",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "pharmaceutical_drugs"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "pharm_001"
+    ]
+  }
+]

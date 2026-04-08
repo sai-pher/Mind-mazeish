@@ -1,0 +1,77 @@
+[
+  {
+    "id": "src_language_acquisition",
+    "title": "Language Acquisition",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "linguistics"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ling_003"
+    ]
+  },
+  {
+    "id": "src_linguistic_relativity",
+    "title": "Linguistic Relativity",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "linguistics"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ling_005"
+    ]
+  },
+  {
+    "id": "src_linguistics",
+    "title": "Linguistics",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "linguistics"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ling_004"
+    ]
+  },
+  {
+    "id": "src_phonology",
+    "title": "Phonology",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "linguistics"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ling_001"
+    ]
+  },
+  {
+    "id": "src_syntax",
+    "title": "Syntax",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "linguistics"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ling_002"
+    ]
+  }
+]

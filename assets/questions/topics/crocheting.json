@@ -14,9 +14,10 @@
       "A thimble"
     ],
     "funFact": "Unlike knitting (which uses two needles and keeps multiple loops active), crochet typically keeps only one live loop on the hook at a time.",
-    "articleTitle": "Crochet",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Crochet",
+    "sourceId": "src_crochet",
     "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
     "difficulty": "easy"
   },
   {
@@ -34,9 +35,10 @@
       "Socks"
     ],
     "funFact": "The word \"amigurumi\" combines the Japanese words \"ami\" (knitted or crocheted) and \"nuigurumi\" (stuffed doll). The style became a global craft trend in the 2000s.",
-    "articleTitle": "Amigurumi",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Amigurumi",
+    "sourceId": "src_amigurumi",
     "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
     "difficulty": "medium"
   },
   {
@@ -53,9 +55,10 @@
       "Ancient Rome"
     ],
     "funFact": "Some historians believe what was called \"shepherd's knitting\" in early texts actually referred to crochet — the technique's true origins remain debated.",
-    "articleTitle": "Crochet",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Crochet#History",
+    "sourceId": "src_crochet",
     "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
     "difficulty": "hard"
   }
 ]

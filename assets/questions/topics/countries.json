@@ -14,9 +14,10 @@
       "195"
     ],
     "funFact": "The UN has 193 member states, but Kosovo, Taiwan, and Palestine are among territories whose statehood is disputed — they are not UN members.",
-    "articleTitle": "United Nations member states",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Member_states_of_the_United_Nations",
+    "sourceId": "src_united_nations_member_states",
     "topicId": "countries",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -34,9 +35,10 @@
       "India"
     ],
     "funFact": "Russia spans 11 time zones and covers 17.1 million km² — almost twice the size of the next largest country, Canada.",
-    "articleTitle": "Russia",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Russia",
+    "sourceId": "src_russia",
     "topicId": "countries",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -53,9 +55,10 @@
       "Athens, Greece"
     ],
     "funFact": "Vatican City covers just 0.44 km² — roughly 44 times smaller than New York's Central Park.",
-    "articleTitle": "Vatican City",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Vatican_City",
+    "sourceId": "src_vatican_city",
     "topicId": "countries",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -73,9 +76,10 @@
       "Malta"
     ],
     "funFact": "Monaco has about 26,000 people per km² — roughly ten times the density of Manhattan. It achieves this partly through land reclaimed from the sea.",
-    "articleTitle": "Monaco",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Monaco",
+    "sourceId": "src_monaco",
     "topicId": "countries",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   }
 ]

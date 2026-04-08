@@ -14,9 +14,10 @@
       "Greek"
     ],
     "funFact": "The OED took 70 years to compile its first edition (1857–1928), and the full second edition contains over 600,000 word forms.",
-    "articleTitle": "Oxford English Dictionary",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Oxford_English_Dictionary",
+    "sourceId": "src_oxford_english_dictionary",
     "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
     "difficulty": "easy"
   },
   {
@@ -34,9 +35,10 @@
       "1850"
     ],
     "funFact": "Johnson wrote his entire dictionary largely alone — most dictionaries of comparable scope are compiled by teams of dozens or hundreds of lexicographers.",
-    "articleTitle": "A Dictionary of the English Language",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/A_Dictionary_of_the_English_Language",
+    "sourceId": "src_a_dictionary_of_the_english_language",
     "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
     "difficulty": "medium"
   },
   {
@@ -54,9 +56,10 @@
       "Index"
     ],
     "funFact": "The word \"thesaurus\" comes from Greek meaning \"treasury\" or \"storehouse\" — Peter Mark Roget published the first modern thesaurus in 1852.",
-    "articleTitle": "Thesaurus",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Thesaurus",
+    "sourceId": "src_thesaurus",
     "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
     "difficulty": "easy"
   },
   {
@@ -74,9 +77,10 @@
       "Orthography"
     ],
     "funFact": "The English word \"nice\" originally meant \"foolish or stupid\" in the 13th century, then successively meant \"lascivious,\" \"extravagant,\" and \"precise\" before arriving at its modern meaning.",
-    "articleTitle": "Etymology",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Etymology",
+    "sourceId": "src_etymology",
     "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
     "difficulty": "medium"
   }
 ]

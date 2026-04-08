@@ -14,9 +14,10 @@
       "India"
     ],
     "funFact": "Legend has it that a 9th-century Ethiopian goat herder named Kaldi noticed his goats became energetic after eating coffee berries.",
-    "articleTitle": "History of coffee",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/History_of_coffee",
+    "sourceId": "src_history_of_coffee",
     "topicId": "coffee",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
     "difficulty": "easy"
   },
   {
@@ -34,9 +35,10 @@
       "India"
     ],
     "funFact": "Brazil has been the world's largest coffee producer for over 150 years, accounting for about one-third of global output.",
-    "articleTitle": "Coffee production",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Coffee_production",
+    "sourceId": "src_coffee_production",
     "topicId": "coffee",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
     "difficulty": "easy"
   },
   {
@@ -53,9 +55,10 @@
       "Maragogipe"
     ],
     "funFact": "Robusta contains almost twice the caffeine of Arabica — caffeine is a natural pesticide, so Robusta's higher caffeine makes it more resistant to insects.",
-    "articleTitle": "Coffea",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Coffea",
+    "sourceId": "src_coffea",
     "topicId": "coffee",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
     "difficulty": "medium"
   },
   {
@@ -73,9 +76,10 @@
       "Adenosine"
     ],
     "funFact": "A typical 240ml cup of brewed coffee contains 70–140 mg of caffeine. The LD50 (lethal dose for 50% of people) would require roughly 70–100 cups consumed rapidly.",
-    "articleTitle": "Caffeine",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Caffeine",
+    "sourceId": "src_caffeine",
     "topicId": "coffee",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
     "difficulty": "easy"
   },
   {
@@ -91,9 +95,10 @@
       "Between 10°N and 10°S"
     ],
     "funFact": "Coffee plants require very specific conditions — altitude, temperature, rainfall, and soil type — making the Bean Belt the only viable growing zone on Earth.",
-    "articleTitle": "Coffee production in Ethiopia",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Coffee_production_in_Ethiopia",
+    "sourceId": "src_coffee_production_in_ethiopia",
     "topicId": "coffee",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
     "difficulty": "medium"
   }
 ]

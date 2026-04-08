@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_ambergris",
+    "title": "Ambergris",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "perfumes"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "perf_001"
+    ]
+  },
+  {
+    "id": "src_fragrance_pyramid",
+    "title": "Fragrance Pyramid",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "perfumes"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "perf_002"
+    ]
+  },
+  {
+    "id": "src_grasse",
+    "title": "Grasse",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "perfumes"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "perf_003"
+    ]
+  }
+]

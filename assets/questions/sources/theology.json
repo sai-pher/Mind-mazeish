@@ -1,0 +1,77 @@
+[
+  {
+    "id": "src_dharma",
+    "title": "Dharma",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "theology"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "theo_005"
+    ]
+  },
+  {
+    "id": "src_eschatology",
+    "title": "Eschatology",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "theology"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "theo_001"
+    ]
+  },
+  {
+    "id": "src_first_council_of_nicaea",
+    "title": "First Council Of Nicaea",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "theology"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "theo_004"
+    ]
+  },
+  {
+    "id": "src_five_pillars_of_islam",
+    "title": "Five Pillars Of Islam",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "theology"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "theo_002"
+    ]
+  },
+  {
+    "id": "src_nirvana",
+    "title": "Nirvana",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "theology"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "theo_003"
+    ]
+  }
+]

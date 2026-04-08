@@ -1,0 +1,110 @@
+[
+  {
+    "id": "src_argyle",
+    "title": "Argyle",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "socks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "socks_009"
+    ]
+  },
+  {
+    "id": "src_cashmere_wool",
+    "title": "Cashmere Wool",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "socks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "socks_004"
+    ]
+  },
+  {
+    "id": "src_compression_stockings",
+    "title": "Compression Stockings",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "socks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "socks_005"
+    ]
+  },
+  {
+    "id": "src_hosiery",
+    "title": "Hosiery",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "socks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "socks_006"
+    ]
+  },
+  {
+    "id": "src_knitting",
+    "title": "Knitting",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "socks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "socks_002"
+    ]
+  },
+  {
+    "id": "src_sock",
+    "title": "Sock",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "socks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "socks_001",
+      "socks_003",
+      "socks_007",
+      "socks_010"
+    ]
+  },
+  {
+    "id": "src_tabi",
+    "title": "Tabi",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "socks"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "socks_008"
+    ]
+  }
+]

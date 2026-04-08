@@ -13,9 +13,10 @@
       "About 90%"
     ],
     "funFact": "For the first time in human history, more than half the world's population moved to cities in 2007. By 2050, that figure is projected to reach 68%.",
-    "articleTitle": "Urbanization",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Urbanization",
+    "sourceId": "src_urbanization",
     "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
     "difficulty": "easy"
   },
   {
@@ -31,9 +32,10 @@
       "Both fluctuate unpredictably"
     ],
     "funFact": "Japan is a textbook example of late-stage demographic transition — very low birth and death rates, an aging population, and population decline without immigration.",
-    "articleTitle": "Demographic transition",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Demographic_transition",
+    "sourceId": "src_demographic_transition",
     "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
     "difficulty": "medium"
   },
   {
@@ -49,9 +51,10 @@
       "A capital city with political dominance"
     ],
     "funFact": "Bangkok is the world's most extreme primate city — it's roughly 40 times larger than Thailand's second city, Nonthaburi.",
-    "articleTitle": "Primate city",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Primate_city",
+    "sourceId": "src_primate_city",
     "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
     "difficulty": "hard"
   }
 ]

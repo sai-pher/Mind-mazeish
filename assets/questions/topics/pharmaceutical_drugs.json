@@ -14,9 +14,10 @@
       "Pathology"
     ],
     "funFact": "The word \"pharmacology\" comes from the Greek \"pharmakon\" meaning \"drug\" or \"poison\" — the same root as \"pharmacy.\"",
-    "articleTitle": "Pharmacology",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Pharmacology",
+    "sourceId": "src_pharmacology",
     "topicId": "pharmaceutical_drugs",
+    "topicCategoryId": "pharmacology",
+    "superCategoryId": "health_medicine",
     "difficulty": "easy"
   },
   {
@@ -34,9 +35,10 @@
       "Diclofenac"
     ],
     "funFact": "Aspirin is both an analgesic and an antiplatelet agent — it's prescribed in low doses to prevent heart attacks and strokes.",
-    "articleTitle": "Aspirin",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Aspirin",
+    "sourceId": "src_aspirin",
     "topicId": "pharmaceutical_drugs",
+    "topicCategoryId": "pharmacology",
+    "superCategoryId": "health_medicine",
     "difficulty": "easy"
   },
   {
@@ -54,9 +56,10 @@
       "Drug efficacy"
     ],
     "funFact": "Most drug metabolism occurs in the liver via enzymes of the cytochrome P450 family — genetic variations in these enzymes can make the same dose vastly different in effect across individuals.",
-    "articleTitle": "Drug metabolism",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Drug_metabolism",
+    "sourceId": "src_drug_metabolism",
     "topicId": "pharmaceutical_drugs",
+    "topicCategoryId": "pharmacology",
+    "superCategoryId": "health_medicine",
     "difficulty": "medium"
   },
   {
@@ -72,9 +75,10 @@
       "Only one control group is used"
     ],
     "funFact": "Double-blind trials were pioneered in the mid-20th century. Before then, many treatments — including some truly ineffective ones — were believed to work simply due to the placebo effect.",
-    "articleTitle": "Blinded experiment",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Blinded_experiment",
+    "sourceId": "src_blinded_experiment",
     "topicId": "pharmaceutical_drugs",
+    "topicCategoryId": "pharmacology",
+    "superCategoryId": "health_medicine",
     "difficulty": "medium"
   }
 ]

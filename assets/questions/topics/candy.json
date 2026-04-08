@@ -14,9 +14,10 @@
       "Brazil"
     ],
     "funFact": "Ivory Coast produces about 40% of the world's cocoa supply, despite consuming very little of the chocolate made from it.",
-    "articleTitle": "Chocolate",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Chocolate#Production",
+    "sourceId": "src_chocolate",
     "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
     "difficulty": "medium"
   },
   {
@@ -34,9 +35,10 @@
       "Switzerland"
     ],
     "funFact": "Hans Riegel of Haribo created the gummy bear in Bonn in 1922. The name HARIBO comes from Hans Riegel + Bonn.",
-    "articleTitle": "Gummy bear",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Gummy_bear",
+    "sourceId": "src_gummy_bear",
     "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
     "difficulty": "medium"
   },
   {
@@ -54,9 +56,10 @@
       "Wax"
     ],
     "funFact": "Hard candy is made by heating sugar solution above 150°C and then rapidly cooling it to prevent crystallisation, creating an amorphous glass-like solid.",
-    "articleTitle": "Hard candy",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Hard_candy",
+    "sourceId": "src_hard_candy",
     "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
     "difficulty": "medium"
   }
 ]

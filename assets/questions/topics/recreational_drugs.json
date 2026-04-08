@@ -14,9 +14,10 @@
       "LSD"
     ],
     "funFact": "Cannabis has been used by humans for at least 2,500 years — charred seeds found in a burial site in Romania date to around 500 BC.",
-    "articleTitle": "Cannabis (drug)",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Cannabis_(drug)",
+    "sourceId": "src_cannabis_drug",
     "topicId": "recreational_drugs",
+    "topicCategoryId": "pharmacology",
+    "superCategoryId": "health_medicine",
     "difficulty": "easy"
   },
   {
@@ -33,9 +34,10 @@
       "As a diet pill"
     ],
     "funFact": "MDMA was not widely known or used until the 1970s–80s. It was legal in the US until 1985 and was used in psychotherapy before being scheduled.",
-    "articleTitle": "MDMA",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/MDMA#History",
+    "sourceId": "src_mdma",
     "topicId": "recreational_drugs",
+    "topicCategoryId": "pharmacology",
+    "superCategoryId": "health_medicine",
     "difficulty": "hard"
   },
   {
@@ -53,9 +55,10 @@
       "BASF"
     ],
     "funFact": "Hofmann accidentally discovered LSD's psychedelic effects in 1943 when he inadvertently absorbed a small amount through his fingertips.",
-    "articleTitle": "Lysergic acid diethylamide",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Lysergic_acid_diethylamide#History",
+    "sourceId": "src_lysergic_acid_diethylamide",
     "topicId": "recreational_drugs",
+    "topicCategoryId": "pharmacology",
+    "superCategoryId": "health_medicine",
     "difficulty": "hard"
   },
   {
@@ -73,9 +76,10 @@
       "Glutamate"
     ],
     "funFact": "Caffeine is naturally present in over 60 plant species. It evolved as a natural pesticide, paralyzing and killing insects that eat the plants.",
-    "articleTitle": "Caffeine",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Caffeine#Mechanism_of_action",
+    "sourceId": "src_caffeine",
     "topicId": "recreational_drugs",
+    "topicCategoryId": "pharmacology",
+    "superCategoryId": "health_medicine",
     "difficulty": "medium"
   }
 ]

@@ -14,9 +14,10 @@
       "30 bar"
     ],
     "funFact": "The 9-bar standard for espresso was set by scientific research in Italy in the 1940s — it produces the optimal balance of flavour compounds and crema.",
-    "articleTitle": "Espresso",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Espresso#Pressure",
+    "sourceId": "src_espresso",
     "topicId": "coffee_brewing",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
     "difficulty": "hard"
   },
   {
@@ -34,9 +35,10 @@
       "United States"
     ],
     "funFact": "Despite the name, the modern French press as we know it was actually patented by Italian designer Attilio Calimani in 1929.",
-    "articleTitle": "French press",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/French_press#History",
+    "sourceId": "src_french_press",
     "topicId": "coffee_brewing",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
     "difficulty": "medium"
   },
   {
@@ -54,9 +56,10 @@
       "1 week"
     ],
     "funFact": "Cold brew contains up to 70% less acidity than hot-brewed coffee, making it easier on the stomach.",
-    "articleTitle": "Cold brew coffee",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Cold_brew_coffee",
+    "sourceId": "src_cold_brew_coffee",
     "topicId": "coffee_brewing",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
     "difficulty": "medium"
   },
   {
@@ -73,9 +76,10 @@
       "Ernest Illy"
     ],
     "funFact": "Alan Adler also invented the Aerobie flying ring, one of the world's longest-flying thrown objects. He invented the AeroPress to brew a single cup quickly.",
-    "articleTitle": "AeroPress",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/AeroPress",
+    "sourceId": "src_aeropress",
     "topicId": "coffee_brewing",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
     "difficulty": "hard"
   }
 ]

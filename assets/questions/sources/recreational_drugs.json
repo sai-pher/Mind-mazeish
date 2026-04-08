@@ -1,0 +1,62 @@
+[
+  {
+    "id": "src_caffeine",
+    "title": "Caffeine",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "recreational_drugs"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rec_004"
+    ]
+  },
+  {
+    "id": "src_cannabis_drug",
+    "title": "Cannabis Drug",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "recreational_drugs"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rec_001"
+    ]
+  },
+  {
+    "id": "src_lysergic_acid_diethylamide",
+    "title": "Lysergic Acid Diethylamide",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "recreational_drugs"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rec_003"
+    ]
+  },
+  {
+    "id": "src_mdma",
+    "title": "Mdma",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "recreational_drugs"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "rec_002"
+    ]
+  }
+]

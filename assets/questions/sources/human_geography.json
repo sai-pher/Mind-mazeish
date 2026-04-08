@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_demographic_transition",
+    "title": "Demographic Transition",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "human_geography"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "hgeo_002"
+    ]
+  },
+  {
+    "id": "src_primate_city",
+    "title": "Primate City",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "human_geography"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "hgeo_003"
+    ]
+  },
+  {
+    "id": "src_urbanization",
+    "title": "Urbanization",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "human_geography"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "hgeo_001"
+    ]
+  }
+]

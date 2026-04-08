@@ -13,9 +13,10 @@
       "About 20,000 metres"
     ],
     "funFact": "If Mount Everest were placed at the bottom of the Mariana Trench, its peak would still be over a mile below the ocean surface.",
-    "articleTitle": "Mariana Trench",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Mariana_Trench",
+    "sourceId": "src_mariana_trench",
     "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -31,9 +32,10 @@
       "Heat radiation from metabolism"
     ],
     "funFact": "Over 75% of deep-sea animals are bioluminescent. In the deep ocean (below 200m), it is the only natural light source.",
-    "articleTitle": "Bioluminescence",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Bioluminescence",
+    "sourceId": "src_bioluminescence",
     "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -50,9 +52,10 @@
       "Pressure"
     ],
     "funFact": "Hydrothermal vent ecosystems run on chemosynthesis, not photosynthesis — bacteria convert hydrogen sulphide into energy. This discovery in 1977 transformed our understanding of where life can exist.",
-    "articleTitle": "Hydrothermal vent",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Hydrothermal_vent",
+    "sourceId": "src_hydrothermal_vent",
     "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   }
 ]

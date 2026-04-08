@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_amazon_kindle",
+    "title": "Amazon Kindle",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "handheld_devices"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "handheld_003"
+    ]
+  },
+  {
+    "id": "src_iphone",
+    "title": "Iphone",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "handheld_devices"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "handheld_001"
+    ]
+  },
+  {
+    "id": "src_smartphone",
+    "title": "Smartphone",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "handheld_devices"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "handheld_002"
+    ]
+  }
+]

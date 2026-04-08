@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_highheeled_shoe",
+    "title": "Highheeled Shoe",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "footwear"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "shoe_002"
+    ]
+  },
+  {
+    "id": "src_shoe",
+    "title": "Shoe",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "footwear"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "shoe_001"
+    ]
+  },
+  {
+    "id": "src_sneaker_footwear",
+    "title": "Sneaker Footwear",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "footwear"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "shoe_003"
+    ]
+  }
+]

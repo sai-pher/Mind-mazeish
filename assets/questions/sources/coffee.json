@@ -1,0 +1,77 @@
+[
+  {
+    "id": "src_caffeine",
+    "title": "Caffeine",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "coffee_004"
+    ]
+  },
+  {
+    "id": "src_coffea",
+    "title": "Coffea",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "coffee_003"
+    ]
+  },
+  {
+    "id": "src_coffee_production",
+    "title": "Coffee Production",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "coffee_002"
+    ]
+  },
+  {
+    "id": "src_coffee_production_in_ethiopia",
+    "title": "Coffee Production In Ethiopia",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "coffee_005"
+    ]
+  },
+  {
+    "id": "src_history_of_coffee",
+    "title": "History Of Coffee",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "coffee_001"
+    ]
+  }
+]

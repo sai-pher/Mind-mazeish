@@ -1,0 +1,635 @@
+{
+  "superCategories": [
+    {
+      "id": "literature_arts",
+      "name": "Literature & Arts",
+      "categories": [
+        {
+          "id": "authors",
+          "name": "Authors",
+          "topics": [
+            {
+              "id": "agatha_christie",
+              "name": "Agatha Christie",
+              "emoji": "🔍"
+            },
+            {
+              "id": "lily_mayne",
+              "name": "Lily Mayne",
+              "emoji": "📖"
+            }
+          ]
+        },
+        {
+          "id": "world_literature",
+          "name": "World Literature",
+          "topics": [
+            {
+              "id": "french_literature",
+              "name": "French Literature",
+              "emoji": "🗼"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health_medicine",
+      "name": "Health & Medicine",
+      "categories": [
+        {
+          "id": "clinical",
+          "name": "Clinical",
+          "topics": [
+            {
+              "id": "medicine",
+              "name": "Medicine",
+              "emoji": "⚕️"
+            },
+            {
+              "id": "anatomy",
+              "name": "Anatomy",
+              "emoji": "🫀"
+            }
+          ]
+        },
+        {
+          "id": "mental_health",
+          "name": "Mental Health",
+          "topics": [
+            {
+              "id": "therapy",
+              "name": "Therapy",
+              "emoji": "🧠"
+            },
+            {
+              "id": "adhd",
+              "name": "ADHD",
+              "emoji": "⚡"
+            },
+            {
+              "id": "autism",
+              "name": "Autism",
+              "emoji": "🌈"
+            }
+          ]
+        },
+        {
+          "id": "pharmacology",
+          "name": "Pharmacology",
+          "topics": [
+            {
+              "id": "pharmaceutical_drugs",
+              "name": "Pharmaceutical Drugs",
+              "emoji": "💊"
+            },
+            {
+              "id": "recreational_drugs",
+              "name": "Recreational Drugs",
+              "emoji": "🌿"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food_drink",
+      "name": "Food & Drink",
+      "categories": [
+        {
+          "id": "beverages",
+          "name": "Beverages",
+          "topics": [
+            {
+              "id": "coffee",
+              "name": "Coffee",
+              "emoji": "☕"
+            },
+            {
+              "id": "coffee_brewing",
+              "name": "Coffee Brewing",
+              "emoji": "🫖"
+            }
+          ]
+        },
+        {
+          "id": "confectionery",
+          "name": "Confectionery",
+          "topics": [
+            {
+              "id": "candy",
+              "name": "Candy",
+              "emoji": "🍬"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering_tech",
+      "name": "Engineering & Technology",
+      "categories": [
+        {
+          "id": "engineering",
+          "name": "Engineering",
+          "topics": [
+            {
+              "id": "mechanical_engineering",
+              "name": "Mechanical Engineering",
+              "emoji": "⚙️"
+            },
+            {
+              "id": "chemical_engineering",
+              "name": "Chemical Engineering",
+              "emoji": "⚗️"
+            },
+            {
+              "id": "bridges",
+              "name": "Bridges",
+              "emoji": "🌉"
+            }
+          ]
+        },
+        {
+          "id": "materials",
+          "name": "Materials",
+          "topics": [
+            {
+              "id": "plastics",
+              "name": "Plastics",
+              "emoji": "♻️"
+            }
+          ]
+        },
+        {
+          "id": "devices",
+          "name": "Devices",
+          "topics": [
+            {
+              "id": "handheld_devices",
+              "name": "Handheld Devices",
+              "emoji": "📱"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "earth_environment",
+      "name": "Earth & Environment",
+      "categories": [
+        {
+          "id": "geology",
+          "name": "Geology",
+          "topics": [
+            {
+              "id": "rocks",
+              "name": "Rocks & Geology",
+              "emoji": "🪨"
+            }
+          ]
+        },
+        {
+          "id": "physical_world",
+          "name": "Physical World",
+          "topics": [
+            {
+              "id": "physical_geography",
+              "name": "Physical Geography",
+              "emoji": "🗺️"
+            },
+            {
+              "id": "water_bodies",
+              "name": "Water Bodies",
+              "emoji": "🌊"
+            },
+            {
+              "id": "deep_sea",
+              "name": "Deep Sea",
+              "emoji": "🦑"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_society",
+      "name": "World & Society",
+      "categories": [
+        {
+          "id": "geography_society",
+          "name": "Geography",
+          "topics": [
+            {
+              "id": "human_geography",
+              "name": "Human Geography",
+              "emoji": "🏙️"
+            },
+            {
+              "id": "countries",
+              "name": "Countries",
+              "emoji": "🗾"
+            }
+          ]
+        },
+        {
+          "id": "history",
+          "name": "History",
+          "topics": [
+            {
+              "id": "west_african_history",
+              "name": "West African History",
+              "emoji": "🌍"
+            },
+            {
+              "id": "medieval_history",
+              "name": "Medieval History",
+              "emoji": "🏰"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "language_culture",
+      "name": "Language & Culture",
+      "categories": [
+        {
+          "id": "language",
+          "name": "Language",
+          "topics": [
+            {
+              "id": "linguistics",
+              "name": "Linguistics",
+              "emoji": "🗣️"
+            },
+            {
+              "id": "dictionaries",
+              "name": "Dictionaries",
+              "emoji": "📕"
+            }
+          ]
+        },
+        {
+          "id": "belief",
+          "name": "Theology & Belief",
+          "topics": [
+            {
+              "id": "theology",
+              "name": "Theology",
+              "emoji": "✨"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion_crafts",
+      "name": "Fashion & Crafts",
+      "categories": [
+        {
+          "id": "textiles",
+          "name": "Textiles",
+          "topics": [
+            {
+              "id": "crocheting",
+              "name": "Crocheting",
+              "emoji": "🧶"
+            },
+            {
+              "id": "socks",
+              "name": "Socks",
+              "emoji": "🧦"
+            }
+          ]
+        },
+        {
+          "id": "style",
+          "name": "Style & Beauty",
+          "topics": [
+            {
+              "id": "footwear",
+              "name": "Footwear",
+              "emoji": "👟"
+            },
+            {
+              "id": "perfumes",
+              "name": "Perfumes",
+              "emoji": "🌸"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports_recreation",
+      "name": "Sports & Recreation",
+      "categories": [
+        {
+          "id": "sport",
+          "name": "Sport",
+          "topics": [
+            {
+              "id": "tennis",
+              "name": "Tennis",
+              "emoji": "🎾"
+            }
+          ]
+        },
+        {
+          "id": "games_puzzles",
+          "name": "Games & Puzzles",
+          "topics": [
+            {
+              "id": "puzzles",
+              "name": "Puzzles",
+              "emoji": "🧩"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "topicMap": {
+    "agatha_christie": {
+      "superCategoryId": "literature_arts",
+      "superCategoryName": "Literature & Arts",
+      "topicCategoryId": "authors",
+      "topicCategoryName": "Authors",
+      "name": "Agatha Christie",
+      "emoji": "🔍"
+    },
+    "lily_mayne": {
+      "superCategoryId": "literature_arts",
+      "superCategoryName": "Literature & Arts",
+      "topicCategoryId": "authors",
+      "topicCategoryName": "Authors",
+      "name": "Lily Mayne",
+      "emoji": "📖"
+    },
+    "french_literature": {
+      "superCategoryId": "literature_arts",
+      "superCategoryName": "Literature & Arts",
+      "topicCategoryId": "world_literature",
+      "topicCategoryName": "World Literature",
+      "name": "French Literature",
+      "emoji": "🗼"
+    },
+    "medicine": {
+      "superCategoryId": "health_medicine",
+      "superCategoryName": "Health & Medicine",
+      "topicCategoryId": "clinical",
+      "topicCategoryName": "Clinical",
+      "name": "Medicine",
+      "emoji": "⚕️"
+    },
+    "anatomy": {
+      "superCategoryId": "health_medicine",
+      "superCategoryName": "Health & Medicine",
+      "topicCategoryId": "clinical",
+      "topicCategoryName": "Clinical",
+      "name": "Anatomy",
+      "emoji": "🫀"
+    },
+    "therapy": {
+      "superCategoryId": "health_medicine",
+      "superCategoryName": "Health & Medicine",
+      "topicCategoryId": "mental_health",
+      "topicCategoryName": "Mental Health",
+      "name": "Therapy",
+      "emoji": "🧠"
+    },
+    "adhd": {
+      "superCategoryId": "health_medicine",
+      "superCategoryName": "Health & Medicine",
+      "topicCategoryId": "mental_health",
+      "topicCategoryName": "Mental Health",
+      "name": "ADHD",
+      "emoji": "⚡"
+    },
+    "autism": {
+      "superCategoryId": "health_medicine",
+      "superCategoryName": "Health & Medicine",
+      "topicCategoryId": "mental_health",
+      "topicCategoryName": "Mental Health",
+      "name": "Autism",
+      "emoji": "🌈"
+    },
+    "pharmaceutical_drugs": {
+      "superCategoryId": "health_medicine",
+      "superCategoryName": "Health & Medicine",
+      "topicCategoryId": "pharmacology",
+      "topicCategoryName": "Pharmacology",
+      "name": "Pharmaceutical Drugs",
+      "emoji": "💊"
+    },
+    "recreational_drugs": {
+      "superCategoryId": "health_medicine",
+      "superCategoryName": "Health & Medicine",
+      "topicCategoryId": "pharmacology",
+      "topicCategoryName": "Pharmacology",
+      "name": "Recreational Drugs",
+      "emoji": "🌿"
+    },
+    "coffee": {
+      "superCategoryId": "food_drink",
+      "superCategoryName": "Food & Drink",
+      "topicCategoryId": "beverages",
+      "topicCategoryName": "Beverages",
+      "name": "Coffee",
+      "emoji": "☕"
+    },
+    "coffee_brewing": {
+      "superCategoryId": "food_drink",
+      "superCategoryName": "Food & Drink",
+      "topicCategoryId": "beverages",
+      "topicCategoryName": "Beverages",
+      "name": "Coffee Brewing",
+      "emoji": "🫖"
+    },
+    "candy": {
+      "superCategoryId": "food_drink",
+      "superCategoryName": "Food & Drink",
+      "topicCategoryId": "confectionery",
+      "topicCategoryName": "Confectionery",
+      "name": "Candy",
+      "emoji": "🍬"
+    },
+    "mechanical_engineering": {
+      "superCategoryId": "engineering_tech",
+      "superCategoryName": "Engineering & Technology",
+      "topicCategoryId": "engineering",
+      "topicCategoryName": "Engineering",
+      "name": "Mechanical Engineering",
+      "emoji": "⚙️"
+    },
+    "chemical_engineering": {
+      "superCategoryId": "engineering_tech",
+      "superCategoryName": "Engineering & Technology",
+      "topicCategoryId": "engineering",
+      "topicCategoryName": "Engineering",
+      "name": "Chemical Engineering",
+      "emoji": "⚗️"
+    },
+    "bridges": {
+      "superCategoryId": "engineering_tech",
+      "superCategoryName": "Engineering & Technology",
+      "topicCategoryId": "engineering",
+      "topicCategoryName": "Engineering",
+      "name": "Bridges",
+      "emoji": "🌉"
+    },
+    "plastics": {
+      "superCategoryId": "engineering_tech",
+      "superCategoryName": "Engineering & Technology",
+      "topicCategoryId": "materials",
+      "topicCategoryName": "Materials",
+      "name": "Plastics",
+      "emoji": "♻️"
+    },
+    "handheld_devices": {
+      "superCategoryId": "engineering_tech",
+      "superCategoryName": "Engineering & Technology",
+      "topicCategoryId": "devices",
+      "topicCategoryName": "Devices",
+      "name": "Handheld Devices",
+      "emoji": "📱"
+    },
+    "rocks": {
+      "superCategoryId": "earth_environment",
+      "superCategoryName": "Earth & Environment",
+      "topicCategoryId": "geology",
+      "topicCategoryName": "Geology",
+      "name": "Rocks & Geology",
+      "emoji": "🪨"
+    },
+    "physical_geography": {
+      "superCategoryId": "earth_environment",
+      "superCategoryName": "Earth & Environment",
+      "topicCategoryId": "physical_world",
+      "topicCategoryName": "Physical World",
+      "name": "Physical Geography",
+      "emoji": "🗺️"
+    },
+    "water_bodies": {
+      "superCategoryId": "earth_environment",
+      "superCategoryName": "Earth & Environment",
+      "topicCategoryId": "physical_world",
+      "topicCategoryName": "Physical World",
+      "name": "Water Bodies",
+      "emoji": "🌊"
+    },
+    "deep_sea": {
+      "superCategoryId": "earth_environment",
+      "superCategoryName": "Earth & Environment",
+      "topicCategoryId": "physical_world",
+      "topicCategoryName": "Physical World",
+      "name": "Deep Sea",
+      "emoji": "🦑"
+    },
+    "human_geography": {
+      "superCategoryId": "world_society",
+      "superCategoryName": "World & Society",
+      "topicCategoryId": "geography_society",
+      "topicCategoryName": "Geography",
+      "name": "Human Geography",
+      "emoji": "🏙️"
+    },
+    "countries": {
+      "superCategoryId": "world_society",
+      "superCategoryName": "World & Society",
+      "topicCategoryId": "geography_society",
+      "topicCategoryName": "Geography",
+      "name": "Countries",
+      "emoji": "🗾"
+    },
+    "west_african_history": {
+      "superCategoryId": "world_society",
+      "superCategoryName": "World & Society",
+      "topicCategoryId": "history",
+      "topicCategoryName": "History",
+      "name": "West African History",
+      "emoji": "🌍"
+    },
+    "medieval_history": {
+      "superCategoryId": "world_society",
+      "superCategoryName": "World & Society",
+      "topicCategoryId": "history",
+      "topicCategoryName": "History",
+      "name": "Medieval History",
+      "emoji": "🏰"
+    },
+    "linguistics": {
+      "superCategoryId": "language_culture",
+      "superCategoryName": "Language & Culture",
+      "topicCategoryId": "language",
+      "topicCategoryName": "Language",
+      "name": "Linguistics",
+      "emoji": "🗣️"
+    },
+    "dictionaries": {
+      "superCategoryId": "language_culture",
+      "superCategoryName": "Language & Culture",
+      "topicCategoryId": "language",
+      "topicCategoryName": "Language",
+      "name": "Dictionaries",
+      "emoji": "📕"
+    },
+    "theology": {
+      "superCategoryId": "language_culture",
+      "superCategoryName": "Language & Culture",
+      "topicCategoryId": "belief",
+      "topicCategoryName": "Theology & Belief",
+      "name": "Theology",
+      "emoji": "✨"
+    },
+    "crocheting": {
+      "superCategoryId": "fashion_crafts",
+      "superCategoryName": "Fashion & Crafts",
+      "topicCategoryId": "textiles",
+      "topicCategoryName": "Textiles",
+      "name": "Crocheting",
+      "emoji": "🧶"
+    },
+    "socks": {
+      "superCategoryId": "fashion_crafts",
+      "superCategoryName": "Fashion & Crafts",
+      "topicCategoryId": "textiles",
+      "topicCategoryName": "Textiles",
+      "name": "Socks",
+      "emoji": "🧦"
+    },
+    "footwear": {
+      "superCategoryId": "fashion_crafts",
+      "superCategoryName": "Fashion & Crafts",
+      "topicCategoryId": "style",
+      "topicCategoryName": "Style & Beauty",
+      "name": "Footwear",
+      "emoji": "👟"
+    },
+    "perfumes": {
+      "superCategoryId": "fashion_crafts",
+      "superCategoryName": "Fashion & Crafts",
+      "topicCategoryId": "style",
+      "topicCategoryName": "Style & Beauty",
+      "name": "Perfumes",
+      "emoji": "🌸"
+    },
+    "tennis": {
+      "superCategoryId": "sports_recreation",
+      "superCategoryName": "Sports & Recreation",
+      "topicCategoryId": "sport",
+      "topicCategoryName": "Sport",
+      "name": "Tennis",
+      "emoji": "🎾"
+    },
+    "puzzles": {
+      "superCategoryId": "sports_recreation",
+      "superCategoryName": "Sports & Recreation",
+      "topicCategoryId": "games_puzzles",
+      "topicCategoryName": "Games & Puzzles",
+      "name": "Puzzles",
+      "emoji": "🧩"
+    }
+  }
+}

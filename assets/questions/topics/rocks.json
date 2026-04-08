@@ -13,9 +13,10 @@
       "Biogenic rock"
     ],
     "funFact": "The word \"igneous\" comes from the Latin \"ignis\" meaning fire. Granite and basalt are both igneous rocks — granite forms deep underground, basalt at the surface.",
-    "articleTitle": "Igneous rock",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Igneous_rock",
+    "sourceId": "src_igneous_rock",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -33,9 +34,10 @@
       "Cleavage"
     ],
     "funFact": "Diamond is a 10 on the Mohs scale — the hardest known natural material. Talc is a 1 and can be scratched with a fingernail.",
-    "articleTitle": "Mohs scale",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Mohs_scale",
+    "sourceId": "src_mohs_scale",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -53,9 +55,10 @@
       "Quartzite"
     ],
     "funFact": "Michelangelo's David was carved from a single block of Carrara marble from Tuscany, Italy — the same quarries used by ancient Romans.",
-    "articleTitle": "Marble",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Marble",
+    "sourceId": "src_marble",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -72,9 +75,10 @@
       "Pyroxene"
     ],
     "funFact": "Feldspars make up about 60% of Earth's continental crust. The name comes from German, meaning \"field\" and \"spar\" — farmers in Sweden kept finding these crystals when ploughing fields.",
-    "articleTitle": "Feldspar",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Feldspar",
+    "sourceId": "src_feldspar",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -91,9 +95,10 @@
       "Tuff"
     ],
     "funFact": "Pumice forms when frothy, gas-rich lava cools so rapidly that bubbles are frozen in place. After the 1883 Krakatoa eruption, huge pumice rafts floated across the Indian Ocean for months.",
-    "articleTitle": "Pumice",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Pumice",
+    "sourceId": "src_pumice",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -111,9 +116,10 @@
       "Wind and water deposition"
     ],
     "funFact": "Metamorphic rocks can form deep within mountain belts where pressures reach thousands of times atmospheric pressure. The word \"metamorphic\" comes from the Greek for \"change of form\".",
-    "articleTitle": "Metamorphic rock",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Metamorphic_rock",
+    "sourceId": "src_metamorphic_rock",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -130,9 +136,10 @@
       "Rhyolite"
     ],
     "funFact": "The roughly 40,000 interlocking basalt columns formed around 50–60 million years ago as lava cooled and contracted. The hexagonal shapes arise naturally from the same cracking pattern seen in dried mud.",
-    "articleTitle": "Giant's Causeway",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Giant%27s_Causeway",
+    "sourceId": "src_giants_causeway",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -150,9 +157,10 @@
       "Chert"
     ],
     "funFact": "Coal forms from the compressed remains of plants that died in swampy forests hundreds of millions of years ago. Most coal deposits date to the Carboniferous Period, aptly named for its carbon-rich rocks.",
-    "articleTitle": "Coal",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Coal",
+    "sourceId": "src_coal",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -169,9 +177,10 @@
       "The crustal cycle"
     ],
     "funFact": "Scottish geologist James Hutton first described the rock cycle in the late 18th century. He famously concluded that Earth's history showed \"no vestige of a beginning, no prospect of an end.\"",
-    "articleTitle": "Rock cycle",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Rock_cycle",
+    "sourceId": "src_rock_cycle",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -188,9 +197,10 @@
       "Olivine"
     ],
     "funFact": "Granite's characteristic speckled appearance comes from three minerals: feldspar (pink or white), quartz (glassy grey), and mica (shiny flakes). Its hardness and durability have made it a favourite building stone for millennia.",
-    "articleTitle": "Granite",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Granite",
+    "sourceId": "src_granite",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -207,9 +217,10 @@
       "Andesitic lava"
     ],
     "funFact": "Pahoehoe (pronounced pah-HOY-hoy) and a'a are Hawaiian words used worldwide by geologists. Pahoehoe's smooth skin forms because the outer crust cools and solidifies while molten lava continues to flow beneath.",
-    "articleTitle": "Pahoehoe",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Pahoehoe",
+    "sourceId": "src_pahoehoe",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "hard"
   },
   {
@@ -226,9 +237,10 @@
       "Columbia"
     ],
     "funFact": "Alfred Wegener proposed the existence of Pangaea in 1912, though his theory of continental drift was widely ridiculed at the time. The evidence he cited — matching coastlines, identical fossils on separated continents — is now textbook geology.",
-    "articleTitle": "Pangaea",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Pangaea",
+    "sourceId": "src_pangaea",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -245,9 +257,10 @@
       "Zircon"
     ],
     "funFact": "Both sapphires and rubies are varieties of corundum (aluminium oxide) — the colour difference is purely chemical. Sapphires get their blue from titanium and iron impurities, while rubies get their red from chromium.",
-    "articleTitle": "Corundum",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Corundum",
+    "sourceId": "src_corundum",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "hard"
   },
   {
@@ -264,9 +277,10 @@
       "Lightning striking sand"
     ],
     "funFact": "Because obsidian fractures along extremely sharp conchoidal edges, prehistoric peoples used it to make cutting tools and blades. Modern surgeons have experimented with obsidian scalpels — they can be sharper than surgical steel.",
-    "articleTitle": "Obsidian",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Obsidian",
+    "sourceId": "src_obsidian",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -283,9 +297,10 @@
       "Hot spot"
     ],
     "funFact": "Subduction zones are responsible for Earth's most powerful earthquakes and explosive volcanoes. The subducting oceanic plate carries water into the mantle, which lowers the melting point of rock and generates magma.",
-    "articleTitle": "Subduction",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Subduction",
+    "sourceId": "src_subduction",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -302,9 +317,10 @@
       "Tourmaline"
     ],
     "funFact": "Emeralds are among the rarest gemstones on Earth. The Muzo mine in Colombia has produced some of the world's finest emeralds for over 500 years, and fine Colombian emeralds can be worth more per carat than diamonds.",
-    "articleTitle": "Emerald",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Emerald",
+    "sourceId": "src_emerald",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -322,9 +338,10 @@
       "Intrusion"
     ],
     "funFact": "The Principle of Superposition, established by Nicolaus Steno in 1669, states that in undisturbed rock sequences the oldest layers are at the bottom. It forms the foundation of stratigraphy — the reading of Earth history from rock layers.",
-    "articleTitle": "Law of superposition",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Law_of_superposition",
+    "sourceId": "src_law_of_superposition",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "hard"
   },
   {
@@ -341,9 +358,10 @@
       "Conglomerate"
     ],
     "funFact": "Shale makes up about 70% of all sedimentary rocks. It is also the source rock for most of the world's oil and natural gas — hydrocarbons generated in shale can migrate into porous reservoir rocks above.",
-    "articleTitle": "Shale",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Shale",
+    "sourceId": "src_shale",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -361,9 +379,10 @@
       "1 billion years"
     ],
     "funFact": "The oldest exposed rocks in the Grand Canyon — the Vishnu Basement Rocks — are approximately 1.8 billion years old. The canyon itself was carved by the Colorado River over the last 5–6 million years.",
-    "articleTitle": "Grand Canyon",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Grand_Canyon",
+    "sourceId": "src_grand_canyon",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "hard"
   },
   {
@@ -381,9 +400,10 @@
       "Zinc sulphide"
     ],
     "funFact": "Pyrite (FeS₂) fooled many prospectors during gold rushes because of its golden metallic lustre. Unlike gold, pyrite is brittle, tarnishes, and produces sparks when struck — it was used in early firearms to ignite gunpowder.",
-    "articleTitle": "Pyrite",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Pyrite",
+    "sourceId": "src_pyrite",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "hard"
   },
   {
@@ -400,9 +420,10 @@
       "Mudstone"
     ],
     "funFact": "When sandstone is buried and heated, the quartz grains recrystallise and fuse so tightly that the rock becomes harder than the original sand grains. Quartzite is one of the most resistant rocks and often forms ridge lines in mountainous terrain.",
-    "articleTitle": "Quartzite",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Quartzite",
+    "sourceId": "src_quartzite",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -419,9 +440,10 @@
       "Chlorite"
     ],
     "funFact": "Mica's perfect basal cleavage allows it to be split into transparent sheets as thin as a few micrometres. Before glass became widely available, muscovite mica was used as window panes — the Muscovy glass trade gave muscovite its name.",
-    "articleTitle": "Mica",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Mica",
+    "sourceId": "src_mica",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -438,9 +460,10 @@
       "Gypsum"
     ],
     "funFact": "Much of the world's limestone formed from the accumulated shells and skeletons of marine organisms. The White Cliffs of Dover are made of a soft limestone called chalk, composed almost entirely of microscopic marine algae called coccolithophores.",
-    "articleTitle": "Limestone",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Limestone",
+    "sourceId": "src_limestone",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -457,9 +480,10 @@
       "Hornfels"
     ],
     "funFact": "Gneiss (pronounced \"nice\") forms at high temperatures and pressures deep in mountain roots. The Acasta Gneiss in Canada is among Earth's oldest known surface rocks, dated to about 4.03 billion years old.",
-    "articleTitle": "Gneiss",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Gneiss",
+    "sourceId": "src_gneiss",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "medium"
   },
   {
@@ -476,9 +500,10 @@
       "Lithification"
     ],
     "funFact": "Erosion and weathering are related but distinct: weathering breaks rock down in place, while erosion involves the transport of that material. Together they have carved landmarks from the Grand Canyon to the Himalayas over millions of years.",
-    "articleTitle": "Erosion",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Erosion",
+    "sourceId": "src_erosion",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -495,9 +520,10 @@
       "Element"
     ],
     "funFact": "There are over 5,900 recognised mineral species, but only about 200 are common. Rocks themselves are aggregates of one or more minerals — granite, for example, is a mixture of quartz, feldspar, and mica.",
-    "articleTitle": "Mineral",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Mineral",
+    "sourceId": "src_mineral",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -514,9 +540,10 @@
       "Surtseyan eruption"
     ],
     "funFact": "Hawaiian-style effusive eruptions produce low-viscosity basaltic lava that can travel kilometres from a vent. The Big Island of Hawaii is entirely constructed from such eruptions and is still growing today.",
-    "articleTitle": "Effusive eruption",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Effusive_eruption",
+    "sourceId": "src_effusive_eruption",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "hard"
   },
   {
@@ -533,9 +560,10 @@
       "Garnet"
     ],
     "funFact": "Diamond rates 10 on the Mohs scale, but hardness measures scratch resistance, not toughness. A diamond can actually be shattered by a sharp blow. It forms under extreme pressure more than 150 km deep in Earth's mantle.",
-    "articleTitle": "Diamond",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Diamond",
+    "sourceId": "src_diamond",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -552,9 +580,10 @@
       "Tephra"
     ],
     "funFact": "Magma becomes lava only after it reaches the surface — the same material has two different names depending on whether it is underground or above ground. The distinction matters because different cooling rates produce very different rock textures.",
-    "articleTitle": "Magma",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Magma",
+    "sourceId": "src_magma",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -572,9 +601,10 @@
       "Vesicular (bubble-filled) texture"
     ],
     "funFact": "Schist's foliated texture is produced when platy minerals such as mica align perpendicular to the direction of compressive stress during metamorphism. Large mica crystals give schist its characteristic glittery appearance.",
-    "articleTitle": "Schist",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Schist",
+    "sourceId": "src_schist",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "hard"
   },
   {
@@ -591,9 +621,10 @@
       "Thorium-232 / Lead-208"
     ],
     "funFact": "Uranium-lead dating can reliably date rocks up to 4.5 billion years old — nearly as old as Earth itself. Zircon crystals are especially prized for this method because they incorporate uranium when they form but reject lead, providing a precise radiometric clock.",
-    "articleTitle": "Uranium-lead dating",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Uranium-lead_dating",
+    "sourceId": "src_uraniumlead_dating",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "hard"
   },
   {
@@ -610,9 +641,10 @@
       "Intrusive rock"
     ],
     "funFact": "Sedimentary rocks cover about 75% of Earth's land surface, even though they make up only about 8% of the crust by volume. They are the primary record of Earth's past environments and are the only rock type that contains fossils.",
-    "articleTitle": "Sedimentary rock",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Sedimentary_rock",
+    "sourceId": "src_sedimentary_rock",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "easy"
   },
   {
@@ -629,9 +661,10 @@
       "Serpentine"
     ],
     "funFact": "Olivine is one of the most abundant minerals in Earth's interior, forming much of the upper mantle. The gemstone variety of olivine — called peridot — has been mined for over 3,500 years and was once called the \"gem of the sun\" by ancient Egyptians.",
-    "articleTitle": "Olivine",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Olivine",
+    "sourceId": "src_olivine",
     "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
     "difficulty": "hard"
   }
 ]

@@ -14,9 +14,10 @@
       "Celluloid"
     ],
     "funFact": "Bakelite was marketed as \"the material of a thousand uses.\" Unlike earlier plastics, it did not soften when heated — making it ideal for electrical insulators.",
-    "articleTitle": "Bakelite",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Bakelite",
+    "sourceId": "src_bakelite",
     "topicId": "plastics",
+    "topicCategoryId": "materials",
+    "superCategoryId": "engineering_tech",
     "difficulty": "medium"
   },
   {
@@ -33,9 +34,10 @@
       "Perspex windows"
     ],
     "funFact": "Polyethylene was accidentally discovered twice: first in 1898 by German chemist Hans von Pechmann, and again in 1933 by ICI researchers working under high pressure.",
-    "articleTitle": "Polyethylene",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Polyethylene",
+    "sourceId": "src_polyethylene",
     "topicId": "plastics",
+    "topicCategoryId": "materials",
+    "superCategoryId": "engineering_tech",
     "difficulty": "easy"
   },
   {
@@ -52,9 +54,10 @@
       "Cellulose fibres"
     ],
     "funFact": "Microplastics have been found in the deepest ocean trenches, on the summit of Everest, in human blood, and in the placentas of unborn babies.",
-    "articleTitle": "Plastic pollution",
-    "articleUrl": "https://en.m.wikipedia.org/wiki/Plastic_pollution",
+    "sourceId": "src_plastic_pollution",
     "topicId": "plastics",
+    "topicCategoryId": "materials",
+    "superCategoryId": "engineering_tech",
     "difficulty": "easy"
   }
 ]

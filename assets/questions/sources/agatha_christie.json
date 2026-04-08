@@ -1,0 +1,85 @@
+[
+  {
+    "id": "src_agatha_christie",
+    "title": "Agatha Christie",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "agatha_christie"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ac_001",
+      "ac_003"
+    ]
+  },
+  {
+    "id": "src_and_then_there_were_none",
+    "title": "And Then There Were None",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "agatha_christie"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ac_005"
+    ]
+  },
+  {
+    "id": "src_hercule_poirot",
+    "title": "Hercule Poirot",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "agatha_christie"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ac_002"
+    ]
+  },
+  {
+    "id": "src_miss_marple",
+    "title": "Miss Marple",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "agatha_christie"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ac_006",
+      "ac_007",
+      "ac_008",
+      "ac_009",
+      "ac_010",
+      "ac_011",
+      "ac_012",
+      "ac_013"
+    ]
+  },
+  {
+    "id": "src_the_mousetrap",
+    "title": "The Mousetrap",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "agatha_christie"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "ac_004"
+    ]
+  }
+]
