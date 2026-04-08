@@ -3,6 +3,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:package_info_plus/package_info_plus.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../core/theme/app_theme.dart';
 import '../../../../services/update_service.dart';
@@ -219,7 +220,10 @@ class _VersionBadgeState extends ConsumerState<_VersionBadge> {
           ElevatedButton(
             onPressed: () {
               Navigator.of(context).pop();
-              // URL opened via update service — requires url_launcher on device
+              launchUrl(
+                Uri.parse(info.releaseUrl),
+                mode: LaunchMode.externalApplication,
+              );
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: AppColors.torchGold,
