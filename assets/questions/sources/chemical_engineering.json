@@ -2,14 +2,57 @@
   {
     "id": "src_catalysis",
     "title": "Catalysis",
-    "url": "",
-    "summary": "",
+    "url": "https://en.wikipedia.org/wiki/Catalysis",
+    "summary": "Catalysis is the increase in rate of a chemical reaction due to a catalyst that is not consumed by the reaction. About 90% of all commercially produced chemicals involve catalysts at some stage.",
     "categories": [],
     "topicIds": [
       "chemical_engineering"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_catalysis_001",
+        "text": "Catalysis is the increase in rate of a chemical reaction due to a catalyst; catalysts are not consumed by the reaction.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_catalysis_002",
+        "text": "Approximately 90% of all commercially produced chemical products involve catalysts at some stage in their manufacture.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_catalysis_003",
+        "text": "In 2005, catalytic processes generated about $900 billion in products worldwide.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_catalysis_004",
+        "text": "The concept of catalysis was invented by chemist Elizabeth Fulhame and described in a 1794 book based on her work in oxidation–reduction reactions.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_catalysis_005",
+        "text": "Catalysis is classified as homogeneous (catalyst and reactants in the same phase) or heterogeneous (catalyst and reactants in different phases).",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_catalysis_006",
+        "text": "Enzymes and other biocatalysts are often considered a third category of catalysis, distinct from homogeneous and heterogeneous.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_catalysis_007",
+        "text": "The term 'catalyst' is derived from Greek καταλύειν meaning 'to annul', 'to untie', or 'to pick up'.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
     "questionIds": [
       "chem_eng_003"
     ]
@@ -17,14 +60,51 @@
   {
     "id": "src_distillation",
     "title": "Distillation",
-    "url": "",
-    "summary": "",
+    "url": "https://en.wikipedia.org/wiki/Distillation",
+    "summary": "Distillation separates component substances of a liquid mixture by selective boiling and condensation. It accounts for approximately 25% of all industrial energy use.",
     "categories": [],
     "topicIds": [
       "chemical_engineering"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_distillation_001",
+        "text": "Distillation is the process of separating component substances of a liquid mixture by selective boiling of the mixture and condensation of the vapors.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_distillation_002",
+        "text": "Distillation accounts for approximately 25% of all industrial energy use due to its reliance on energy-intensive phase changes.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_distillation_003",
+        "text": "Distillation can operate over a wide range of pressures from 0.14 bar to nearly 21 bar.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_distillation_004",
+        "text": "Dry distillation (thermolysis/pyrolysis) is the heating of solid materials to produce gases that condense into fluid or solid products.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_distillation_005",
+        "text": "Idealized models of distillation are governed by Raoult's law (vapor pressure of solutions) and Dalton's law (sum of partial pressures).",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_distillation_006",
+        "text": "In batch distillation, compounds are collected sequentially from most volatile to least volatile, with bottoms removed at the end.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
     "questionIds": [
       "chem_eng_002"
     ]
@@ -32,14 +112,57 @@
   {
     "id": "src_haber_process",
     "title": "Haber Process",
-    "url": "",
-    "summary": "",
+    "url": "https://en.wikipedia.org/wiki/Haber_process",
+    "summary": "The Haber process (or Haber–Bosch process) converts atmospheric nitrogen to ammonia using hydrogen and an iron catalyst. It is the main industrial procedure for ammonia production.",
     "categories": [],
     "topicIds": [
       "chemical_engineering"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_haber_process_001",
+        "text": "The Haber process converts atmospheric nitrogen (N₂) to ammonia (NH₃) by reaction with hydrogen (H₂) using finely divided iron metal as a catalyst.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_haber_process_002",
+        "text": "Haber and assistant Robert Le Rossignol demonstrated the process in summer 1909, producing ammonia from air at about 125 mL per hour.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_haber_process_003",
+        "text": "The process was purchased by German chemical company BASF; Carl Bosch scaled it to industrial production by 1910.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_haber_process_004",
+        "text": "Fritz Haber received the Nobel Prize in 1918; Carl Bosch received the Nobel Prize in 1931 for their work on the process.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_haber_process_005",
+        "text": "Ammonia production via the Haber process accounts for 1–2% of global energy consumption and 3% of global carbon emissions.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_haber_process_006",
+        "text": "Atmospheric nitrogen comprises approximately 78% of the air but is exceptionally stable and does not readily react with other chemicals.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_haber_process_007",
+        "text": "In 2012, 72% of global ammonia was produced from natural gas using the steam reforming process.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
     "questionIds": [
       "chem_eng_001"
     ]

@@ -2,14 +2,63 @@
   {
     "id": "src_chocolate",
     "title": "Chocolate",
-    "url": "",
-    "summary": "",
+    "url": "https://en.wikipedia.org/wiki/Chocolate",
+    "summary": "Chocolate is made from cacao tree seeds with origins in Mesoamerica. The Mayans and Aztecs considered cacao a gift from the gods; Spanish conquistadors introduced it to Europe in the 16th century.",
     "categories": [],
     "topicIds": [
       "candy"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_chocolate_001",
+        "text": "Chocolate is made from roasted and ground cocoa beans — the processed seeds of the cacao tree (Theobroma cacao).",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_chocolate_002",
+        "text": "Evidence for domestication of the cacao tree exists as early as 5300 BP in South America, by the Mayo-Chinchipe culture in present-day southeast Ecuador.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_chocolate_003",
+        "text": "The word 'chocolate' is a Spanish loanword, first recorded in English in 1604 and in Spanish in 1579.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_chocolate_004",
+        "text": "Spanish conquistador Hernán Cortés may have been the first European to encounter chocolate, observing it at the court of Moctezuma II in 1520.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_chocolate_005",
+        "text": "White chocolate is made with cocoa butter but without cocoa solids.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_chocolate_006",
+        "text": "Cacao was considered a gift from the gods by the Mayans and the Aztecs, and the cocoa bean was used as currency across civilizations.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_chocolate_007",
+        "text": "The first official recording of a shipment of chocolate to Europe was 1585.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_chocolate_008",
+        "text": "Chocolate in Mesoamerica was a bitter drink flavored with vanilla, earflower, and chili, capped with dark brown foam created by pouring between containers from a height.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
     "questionIds": [
       "candy_001"
     ]
@@ -17,14 +66,57 @@
   {
     "id": "src_gummy_bear",
     "title": "Gummy Bear",
-    "url": "",
-    "summary": "",
+    "url": "https://en.wikipedia.org/wiki/Gummy_bear",
+    "summary": "Gummy bears are small fruit gum candies invented in Germany by Hans Riegel Sr. of Haribo in 1922. Traditional recipe uses sugar, glucose syrup, starch, flavoring, food coloring, citric acid, and gelatin.",
     "categories": [],
     "topicIds": [
       "candy"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_gummy_bear_001",
+        "text": "Gummy bears were invented in Germany by Hans Riegel Sr. of Haribo in 1922, inspired by trained bears seen at European street festivals.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_gummy_bear_002",
+        "text": "Hans Riegel Sr. started the Haribo company in 1920 in Bonn, Germany.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_gummy_bear_003",
+        "text": "The original gummy bear was called the Dancing Bear (Tanzbär); the current Gold-Bear (Goldbär) form was introduced in 1967.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_gummy_bear_004",
+        "text": "Traditional gummy bears are made from sugar, glucose syrup, starch, flavoring, food coloring, citric acid, and gelatin.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_gummy_bear_005",
+        "text": "Gummy bear production uses a specialized machine called a starch mogul, which stamps the bear image into powdered starch molds.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_gummy_bear_006",
+        "text": "The name 'gummy' comes from gum arabic, the original base ingredient used to produce the candies.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_gummy_bear_007",
+        "text": "In the United States, Haribo gummy bears are sold in five flavors: raspberry (red), orange (orange), strawberry (green), pineapple (colorless), and lemon (yellow).",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
     "questionIds": [
       "candy_002"
     ]
@@ -32,14 +124,57 @@
   {
     "id": "src_hard_candy",
     "title": "Hard Candy",
-    "url": "",
-    "summary": "",
+    "url": "https://en.wikipedia.org/wiki/Hard_candy",
+    "summary": "Hard candy (or boiled sweet) is prepared from sugar-based syrups heated to 160°C, resulting in a non-crystalline, amorphous product that is nearly 100% sugar by weight.",
     "categories": [],
     "topicIds": [
       "candy"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_hard_candy_001",
+        "text": "Hard candy is prepared from sugar-based syrups heated to a temperature of 160°C (320°F).",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_hard_candy_002",
+        "text": "Most hard candy is nearly 100% sugar by weight with negligible water content in the final product.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_hard_candy_003",
+        "text": "Hard candies are non-crystalline, amorphous candies containing about 98% or more solid sugar.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_hard_candy_004",
+        "text": "Japanese hard candies are known as bekkō ame (鼈甲飴), meaning 'tortoiseshell candy'.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_hard_candy_005",
+        "text": "Hard candies are historically associated with cough drops; apothecaries used sugar candy to make prescriptions more palatable.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_hard_candy_006",
+        "text": "Hard candy varieties include candy cane, lollipops, rock, aniseed twists, and bêtises de Cambrai.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_hard_candy_007",
+        "text": "Sugar-free hard candies use isomalt as a sugar substitute, often sweetened further with aspartame, sucralose, saccharin, or xylitol.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
     "questionIds": [
       "candy_003"
     ]
