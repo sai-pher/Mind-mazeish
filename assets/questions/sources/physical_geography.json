@@ -2,14 +2,57 @@
   {
     "id": "src_biome",
     "title": "Biome",
-    "url": "",
-    "summary": "",
+    "url": "https://en.wikipedia.org/wiki/Biome",
+    "summary": "A biome is a distinct geographical region with specific climate, vegetation, animal life, and an ecosystem, formed in response to its physical environment and regional climate.",
     "categories": [],
     "topicIds": [
       "physical_geography"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_biome_001",
+        "text": "A biome is a distinct geographical region with specific climate, vegetation, animal life, and an ecosystem.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_biome_002",
+        "text": "The International Biological Program (1964–74) popularized the concept of biome.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_biome_003",
+        "text": "In 1935, Tansley added climatic and soil aspects to the biome concept, calling the broader unit an ecosystem.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_biome_004",
+        "text": "Due to anthropogenic climate change, between 22% and 54% of global land area may experience climates corresponding to different biomes.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_biome_005",
+        "text": "3.6% of land area will experience completely new or unusual climates under projected climate change.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_biome_006",
+        "text": "Average temperatures have risen more than twice the usual amount in arctic and mountainous biomes, making them the most vulnerable to climate change.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_biome_007",
+        "text": "Woody plant encroachment can change grass savanna into shrub savanna — an example of a biome shift.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
     "questionIds": [
       "pgeo_002"
     ]
@@ -17,14 +60,57 @@
   {
     "id": "src_plate_tectonics",
     "title": "Plate Tectonics",
-    "url": "",
-    "summary": "",
+    "url": "https://en.wikipedia.org/wiki/Plate_tectonics",
+    "summary": "Plate tectonics is the scientific theory that Earth's lithosphere comprises large tectonic plates slowly moving since 3–4 billion years ago, causing earthquakes, volcanoes, and mountain-building.",
     "categories": [],
     "topicIds": [
       "physical_geography"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_plate_tectonics_001",
+        "text": "Plate tectonics theory holds that Earth's lithosphere comprises 7–8 major plates that have been slowly moving since 3–4 billion years ago.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_plate_tectonics_002",
+        "text": "Plate tectonics was accepted by geoscientists after seafloor spreading was validated in the mid- to late 1960s.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_plate_tectonics_003",
+        "text": "The relative movement of tectonic plates typically ranges from zero to 10 cm annually.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_plate_tectonics_004",
+        "text": "The three types of plate boundaries are convergent, divergent, and transform.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_plate_tectonics_005",
+        "text": "The Mid-Atlantic Ridge spreads at 10–40 mm/year (about as fast as fingernails grow); the Nazca plate moves about 160 mm/year (about as fast as hair grows).",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_plate_tectonics_006",
+        "text": "Dissipation of heat from the mantle via convection is the original source of energy driving plate tectonics.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_plate_tectonics_007",
+        "text": "The lithosphere is cooler and more rigid; the asthenosphere beneath it is hotter and flows more easily.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
     "questionIds": [
       "pgeo_001"
     ]

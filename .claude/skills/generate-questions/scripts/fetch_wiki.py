@@ -8,8 +8,11 @@ Usage:
     python3 scripts/fetch_wiki.py "Coffee" --sections "History" "Chemistry"
     python3 scripts/fetch_wiki.py "Coffee" --summary-only
     python3 scripts/fetch_wiki.py "Coffee" --max-chars 3000
+    python3 scripts/fetch_wiki.py "Coffee" --url-only
 
 Output: plain text, ≤ max-chars (default 4000), suitable for trivia generation.
+The canonical Wikipedia URL is always printed to stderr as "URL: <url>".
+Use --url-only to print just the URL to stdout and exit.
 Exit code 0 on success, 2 if article not found, 3 if network unavailable.
 
 When exit code 3 is returned, fall back to built-in knowledge for question generation.
@@ -28,7 +31,8 @@ def _truncate(text: str, limit: int) -> str:
     return text[:limit].rsplit(" ", 1)[0] + " [...]"
 
 
-def fetch(title: str, sections: list[str] | None, summary_only: bool, max_chars: int) -> str:
+def fetch(title: str, sections: list[str] | None, summary_only: bool, max_chars: int,
+          url_only: bool = False) -> str:
     try:
         import wikipediaapi
     except ImportError:
@@ -49,6 +53,11 @@ def fetch(title: str, sections: list[str] | None, summary_only: bool, max_chars:
     except Exception as e:
         print(f"NETWORK_UNAVAILABLE: {e}", file=sys.stderr)
         sys.exit(3)
+
+    print(f"URL: {page.fullurl}", file=sys.stderr)
+
+    if url_only:
+        return page.fullurl
 
     parts: list[str] = []
 
@@ -94,9 +103,11 @@ def main() -> None:
                         help="Return only the intro/summary paragraph")
     parser.add_argument("--max-chars", type=int, default=CHAR_LIMIT_DEFAULT,
                         help=f"Hard cap on output length (default: {CHAR_LIMIT_DEFAULT})")
+    parser.add_argument("--url-only", action="store_true",
+                        help="Print just the canonical Wikipedia URL to stdout and exit")
     args = parser.parse_args()
 
-    print(fetch(args.title, args.sections, args.summary_only, args.max_chars))
+    print(fetch(args.title, args.sections, args.summary_only, args.max_chars, args.url_only))
 
 
 if __name__ == "__main__":

@@ -2,14 +2,57 @@
   {
     "id": "src_arch_bridge",
     "title": "Arch Bridge",
-    "url": "",
-    "summary": "",
+    "url": "https://en.wikipedia.org/wiki/Arch_bridge",
+    "summary": "Arch bridges transfer weight as horizontal thrust restrained by abutments and vertical loads on supports. Romans were the first to fully realize their potential; the world's largest is the Chaotianmen Bridge.",
     "categories": [],
     "topicIds": [
       "bridges"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_arch_bridge_001",
+        "text": "Arch bridges work by transferring weight partially as horizontal thrust restrained by abutments and partially as vertical loads on arch supports.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_arch_bridge_002",
+        "text": "The possibly oldest surviving arch bridge is the Mycenaean Arkadiko Bridge in Greece, dating to about 1300 BC — still used by local inhabitants.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_arch_bridge_003",
+        "text": "Roman arch bridges were usually semicircular, though some were segmental (less than a semicircle), which allowed greater flood water throughput.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_arch_bridge_004",
+        "text": "The world's largest arch bridge is the Chaotianmen Bridge over the Yangtze River in Chongqing, China, with a span of 552 m (1,811 ft), opened April 29, 2009.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_arch_bridge_005",
+        "text": "Scholar Vittorio Galliazzo's survey found 931 Roman bridges, mostly of stone, across as many as 26 countries.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_arch_bridge_006",
+        "text": "The Solkan Bridge over the Soča River in Slovenia (completed 1905) is the longest railroad stone arch bridge, with a span of 220 metres.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_arch_bridge_007",
+        "text": "Most modern arch bridges are made from reinforced concrete.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
     "questionIds": [
       "bridge_003"
     ]
@@ -17,14 +60,57 @@
   {
     "id": "src_golden_gate_bridge",
     "title": "Golden Gate Bridge",
-    "url": "",
-    "summary": "",
+    "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+    "summary": "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate strait in San Francisco. It opened May 27, 1937, and is recognized as one of the Wonders of the Modern World.",
     "categories": [],
     "topicIds": [
       "bridges"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_golden_gate_bridge_001",
+        "text": "The Golden Gate Bridge opened to the public on May 27, 1937.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_golden_gate_bridge_002",
+        "text": "Joseph Strauss served as chief engineer, with significant contributions from Leon Moisseiff, Irving Morrow, and Charles Ellis.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_golden_gate_bridge_003",
+        "text": "The bridge's main span is 4,200 feet (1,280 m); it held the record for longest suspension bridge main span until 1964.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_golden_gate_bridge_004",
+        "text": "The bridge's towers stand 746 feet (227 m) above water — the world's tallest on a suspension bridge until 1993 when surpassed by Mexico's Mezcala Bridge.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_golden_gate_bridge_005",
+        "text": "The bridge's color is officially 'international orange,' selected by consulting architect Irving Morrow to complement natural surroundings and enhance fog visibility.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_golden_gate_bridge_006",
+        "text": "Each main cable is made of 27,572 individual strands of wire; the total wire length used in both main cables is estimated at 80,000 miles.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_golden_gate_bridge_007",
+        "text": "The Golden Gate Bridge is recognized by the American Society of Civil Engineers as one of the Wonders of the Modern World.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
     "questionIds": [
       "bridge_001"
     ]
@@ -32,14 +118,57 @@
   {
     "id": "src_suspension_bridge",
     "title": "Suspension Bridge",
-    "url": "",
-    "summary": "",
+    "url": "https://en.wikipedia.org/wiki/Suspension_bridge",
+    "summary": "A suspension bridge has its deck hung below suspension cables on vertical suspenders. The first modern examples were built in the early 19th century. Three forces act on any bridge: dead load, live load, and dynamic load.",
     "categories": [],
     "topicIds": [
       "bridges"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_suspension_bridge_001",
+        "text": "In a suspension bridge, the deck is hung below suspension cables on vertical suspenders called hangers.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_suspension_bridge_002",
+        "text": "The first modern suspension bridges were built in the early 19th century.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_suspension_bridge_003",
+        "text": "Three kinds of forces act on any bridge: dead load (the bridge's own weight), live load (traffic and weather), and dynamic load (earthquakes, sudden gusts).",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_suspension_bridge_004",
+        "text": "Union Bridge (England/Scotland, 1820) was the oldest suspension bridge still carrying road traffic, with a 137 m main span.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_suspension_bridge_005",
+        "text": "Roebling's Delaware Aqueduct (USA, 1847) is the oldest wire suspension bridge still in service in the United States.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_suspension_bridge_006",
+        "text": "The suspension cables must be anchored at each end of the bridge since any load on the bridge is transformed into tension in the main cables.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_suspension_bridge_007",
+        "text": "The original Tacoma Narrows Bridge took only 19 months to construct; the Akashi Kaikyo Bridge took close to a decade.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
     "questionIds": [
       "bridge_002"
     ]
