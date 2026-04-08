@@ -4,6 +4,7 @@ import 'package:mind_maze/features/gameplay/data/topic_registry.dart';
 import 'package:mind_maze/features/gameplay/domain/models/game_state.dart';
 import 'package:mind_maze/features/gameplay/domain/models/question.dart';
 import 'package:mind_maze/features/gameplay/domain/models/quiz_config.dart';
+import 'package:mind_maze/features/gameplay/domain/models/topic.dart';
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -119,6 +120,18 @@ void main() {
           isNew: false);
       expect(s.newArticleUrls.length, 1); // still 1
     });
+
+    test('currentQuestion returns question at current index', () {
+      final s = _makeState(count: 3);
+      expect(s.currentQuestion, s.questions[0]);
+    });
+
+    test('markLoading sets status to loading', () {
+      var s = _makeState().answerQuestion(correct: true);
+      expect(s.status, GameStatus.answerRevealed);
+      s = s.markLoading();
+      expect(s.status, GameStatus.loading);
+    });
   });
 
   group('Question model', () {
@@ -180,6 +193,110 @@ void main() {
       expect(ids, contains('literature_arts'));
       expect(ids, contains('health_medicine'));
       expect(ids, contains('engineering_tech'));
+    });
+  });
+
+  group('QuestionDifficulty', () {
+    test('fromString falls back to medium for unknown value', () {
+      expect(QuestionDifficulty.fromString('unknown'), QuestionDifficulty.medium);
+      expect(QuestionDifficulty.fromString('easy'), QuestionDifficulty.easy);
+      expect(QuestionDifficulty.fromString('hard'), QuestionDifficulty.hard);
+    });
+  });
+
+  group('Question.withSource', () {
+    test('returns copy with updated articleTitle and articleUrl', () {
+      const q = Question(
+        id: 'ws_001',
+        question: 'Test?',
+        correctAnswers: ['Yes'],
+        wrongAnswers: ['No', 'Maybe', 'Never', 'Always'],
+        funFact: 'Fact.',
+        sourceId: 'src_1',
+        articleTitle: '',
+        articleUrl: '',
+        topicId: 'tests',
+        difficulty: QuestionDifficulty.easy,
+      );
+      final updated = q.withSource(title: 'New Title', url: 'https://wiki.org/New');
+      expect(updated.articleTitle, 'New Title');
+      expect(updated.articleUrl, 'https://wiki.org/New');
+      expect(updated.id, q.id);
+      expect(updated.sourceId, q.sourceId);
+    });
+  });
+
+  group('QuizQuestion getters', () {
+    test('delegates all getters to source question', () {
+      const q = Question(
+        id: 'gq_001',
+        question: 'Getter test?',
+        correctAnswers: ['Yes'],
+        wrongAnswers: ['No', 'Maybe', 'Never', 'Always'],
+        funFact: 'Getter fact.',
+        sourceId: '',
+        articleTitle: 'Getter Article',
+        articleUrl: 'https://example.com/getter',
+        topicId: 'getter_topic',
+        topicCategoryId: 'cat',
+        superCategoryId: 'super',
+        difficulty: QuestionDifficulty.hard,
+      );
+      final qq = q.toQuizQuestion();
+      expect(qq.question, q.question);
+      expect(qq.funFact, q.funFact);
+      expect(qq.articleTitle, 'Getter Article');
+      expect(qq.articleUrl, 'https://example.com/getter');
+      expect(qq.topicId, 'getter_topic');
+      expect(qq.difficulty, QuestionDifficulty.hard);
+    });
+  });
+
+  group('QuizConfig', () {
+    test('copyWith replaces specified fields', () {
+      final cfg = QuizConfig(
+        selectedTopicIds: const {'a', 'b'},
+        questionCount: 5,
+      );
+      final updated = cfg.copyWith(questionCount: 10);
+      expect(updated.questionCount, 10);
+      expect(updated.selectedTopicIds, {'a', 'b'});
+
+      final updated2 = cfg.copyWith(selectedTopicIds: {'c'});
+      expect(updated2.selectedTopicIds, {'c'});
+      expect(updated2.questionCount, 5);
+    });
+  });
+
+  group('Topic hierarchy', () {
+    test('SuperCategory.allTopics and allTopicIds aggregate leaf topics', () {
+      final topic1 = Topic(id: 't1', name: 'Topic 1', categoryId: 'cat1', emoji: '🎯');
+      final topic2 = Topic(id: 't2', name: 'Topic 2', categoryId: 'cat1', emoji: '🎮');
+      final cat = TopicCategory(
+        id: 'cat1',
+        name: 'Cat 1',
+        superCategoryId: 'sc1',
+        topics: [topic1, topic2],
+      );
+      final sc = SuperCategory(
+        id: 'sc1',
+        name: 'Super 1',
+        emoji: '🌟',
+        categories: [cat],
+      );
+      expect(sc.allTopics, [topic1, topic2]);
+      expect(sc.allTopicIds, ['t1', 't2']);
+    });
+
+    test('TopicCategory.topicIds returns topic ids', () {
+      final topic = Topic(id: 'tx', name: 'TX', categoryId: 'cx', emoji: '❓');
+      final cat = TopicCategory(
+        id: 'cx',
+        name: 'CX',
+        superCategoryId: 'sx',
+        topics: [topic],
+      );
+      expect(cat.topicIds, ['tx']);
     });
   });
 
