@@ -67,7 +67,110 @@
       "physical_geography"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_physical_geography_001",
+        "text": "Physical geography is also known as physiography and is one of the three main branches of geography, alongside human geography and technical geography.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_002",
+        "text": "Physical geography deals with processes and patterns in the natural environment including the atmosphere, hydrosphere, biosphere, and geosphere.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_003",
+        "text": "Geomorphology studies the surface of the Earth and the processes by which it is shaped, and early geomorphology studies form the foundation of pedology, one of the two main branches of soil science.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_004",
+        "text": "Biogeography emerged as a field of study through the work of Alfred Russel Wallace and can be divided into five sub-fields: island biogeography, paleobiogeography, phylogeography, zoogeography, and phytogeography.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_005",
+        "text": "Glaciology groups ice sheets as continental glaciers and mountain glaciers as alpine glaciers, and founded a sub-discipline including snow hydrology and glacial geology.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_006",
+        "text": "Palaeogeography uses fossils and paleomagnetism from the stratigraphic record to determine the distribution of the continents through geologic time, supporting theories such as the Wilson cycle.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_007",
+        "text": "Quaternary science focuses on the Quaternary period, which encompasses the last 2.6 million years, studying the last ice age, the recent interstadial, and the Holocene.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_008",
+        "text": "Landscape ecology was largely founded by the German geographer Carl Troll and addresses how spatial variation in the landscape affects ecological processes such as the distribution and flow of energy and materials.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_009",
+        "text": "Until the late nineteenth century and the birth of human geography (anthropogeography), geography was almost exclusively a natural science focused on the study of location and descriptive gazetteer of places.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_010",
+        "text": "Martín Fernández de Enciso's 'Summa de Geografía' from the early sixteenth century was the first work to indicate the New World.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_011",
+        "text": "Mikhail Lomonosov is considered the patriarch of Russian geography; he founded glaciology, and in 1755 initiated the founding of Moscow University where he promoted geography studies.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_012",
+        "text": "Vasily Dokuchaev introduced the geographical concept of soil as distinct from a simple geological stratum, founding pedology as a geographic area of study.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_013",
+        "text": "Wladimir Köppen's main contribution to climatology was climate classification, and he also contributed to paleogeography through 'The climates of the geological past', considered the founding work of paleoclimatology.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_014",
+        "text": "William Morris Davis revolutionized physical geography by developing the cycle of erosion theory, which describes landscapes progressing through youth (V-shaped valleys), maturity (wider valleys), and senescence (winding rivers, isolated hills) stages before reaching a 'peneplain'.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_015",
+        "text": "The European colonial expansion during the Industrial Revolution fostered the creation of geography departments in colonial-power universities and the founding of national geographical societies — a process Horacio Capel called the institutionalization of geography.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_016",
+        "text": "Climatology is scientifically defined as the study of weather conditions averaged over a long period of time, examining micro (local) and macro (global) climates and both natural and anthropogenic influences on them.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_physical_geography_017",
+        "text": "Unlike human geographers, physical geographers tend to publish in interdisciplinary journals rather than predominantly in geography journals; key journals include Earth Surface Processes and Landforms and Natural Hazards and Earth System Sciences.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
     "questionIds": [
       "pgeo_003",
       "pgeo_004",

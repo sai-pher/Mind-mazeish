@@ -9,7 +9,128 @@
       "candy"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_candy_001",
+        "text": "The word 'candy' entered English from the Old French 'çucre candi' (sugar candy), which has roots in the Arabic 'qandi', Persian 'qand', and Sanskrit 'khanda' — all words for sugar.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_002",
+        "text": "Sugarcane is indigenous to tropical South and Southeast Asia; ancient Indians boiled sugarcane juice into pieces called khanda, an early form of sugar candy.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_003",
+        "text": "Before sugar was readily available, candy was based on honey, which was used in Ancient China, the Middle East, Egypt, Greece and the Roman Empire to coat fruits and flowers to preserve them.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_004",
+        "text": "Before the Industrial Revolution, candy was often considered a form of medicine, used to calm the digestive system or soothe a sore throat.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_005",
+        "text": "In the Middle Ages, a candy called 'chamber spice' was made with cloves, ginger, aniseed, juniper berries, almonds and pine kernels dipped in melted sugar.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_006",
+        "text": "The first candy came to America during the early 18th century from Britain and France; even the simplest form — rock candy — was considered a luxury.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_007",
+        "text": "In 1847, the invention of the candy press (also called a 'toy machine') made it possible to produce multiple shapes and sizes of candy at once.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_008",
+        "text": "In 1851, confectioners began using a revolving steam pan to assist in boiling sugar, eliminating the need to continuously stir and distributing heat more evenly.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_009",
+        "text": "Early industrial-era manufacturers produced bright candy colors using hazardous substances: green from chromium(III) oxide and copper acetate, red from lead oxide and mercury sulfide, yellow from lead chromate, and white from chalk or arsenic trioxide.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_010",
+        "text": "By 1906, research into candy additives and food industry exposés led to the passage of the Pure Food and Drug Act, the first federal US law to regulate food and drugs including candy.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_011",
+        "text": "Sugar candies can be classified as noncrystalline (hard candies, caramels, toffees, nougats) or crystalline (fondant, fudge), based on microscopic crystal structure rather than visible appearance.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_012",
+        "text": "When sugar syrup is heated to 171°C (340°F) or higher, sucrose molecules break down into simpler sugars, creating an amber-colored substance known as caramel.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_013",
+        "text": "Candy recipes cannot be copyrighted or patented effectively, so the industry relies significantly on trade secret protection; seemingly minor differences in machinery, temperature, or timing cause noticeable differences in the final product.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_014",
+        "text": "Foil and cellophane were imported to the US from France by DuPont in 1925; prior to 1914, candy was commonly sold unwrapped from street carts where it was exposed to dirt and insects.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_015",
+        "text": "Because of its high sugar concentration, bacteria are not usually able to grow in candy, giving it a longer shelf life than many other foods; hard candy may last indefinitely in good storage conditions.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_016",
+        "text": "Global sales of candies were estimated at approximately US$118 billion in 2012; in the US, $2 is spent on chocolate for every $1 spent on non-chocolate candy.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_017",
+        "text": "A 1959 Swedish dental health campaign started the tradition of 'lördagsgodis' (Saturday candy), encouraging people to limit candy to once a week; as a result, Sweden has become the world's largest per-capita candy consumer since at least 2009.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_018",
+        "text": "The link between candy and dental caries was formally identified through the Vipeholm experiments, in which intellectually disabled people were fed large amounts of candy; the experiments are today considered to have violated multiple principles of medical ethics.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_019",
+        "text": "Penny candy became the first material good that children in America spent their own money on, driving a child-focused candy market that grew dramatically after the 1830s industrial revolution in candy-making.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_candy_020",
+        "text": "Some candies, including marshmallows and gummy bears, contain gelatin derived from animal collagen, making them unsuitable for vegans and many vegetarians; alternatives include agar, pectin, starch and gum arabic.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
     "questionIds": [
       "candy_004",
       "candy_005",

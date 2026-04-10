@@ -9,7 +9,116 @@
       "autism"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_autism_001",
+        "text": "Autism is also known as autism spectrum disorder (ASD) and is classified as a neurodevelopmental disorder.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_002",
+        "text": "The World Health Organization estimates that about 1 in 100 children were diagnosed with autism between 2012 and 2021.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_003",
+        "text": "Autism diagnoses have risen since the 1990s, largely because of broader diagnostic criteria, greater awareness, and wider access to assessment.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_004",
+        "text": "Autism is a spectrum disorder, meaning presentations vary and support needs range from minimal to the person being non-speaking or needing 24-hour care.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_005",
+        "text": "Features of autism are present from early childhood and the condition typically persists throughout life.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_006",
+        "text": "The exact causes of autism are unknown, with genetics likely being the largest contributing factor.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_007",
+        "text": "There is no cure for autism; from the perspective of neurodiversity, curing or otherwise treating autism may not be an appropriate goal.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_008",
+        "text": "About 85% of autistic people need support with independent living in adulthood.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_009",
+        "text": "Among children diagnosed with autism before age 6, about 9 in 10 continue to meet diagnostic criteria one year later.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_010",
+        "text": "Mortality among autistic people is approximately twice that of the general population, particularly among those with co-occurring neurologic or psychiatric conditions.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_011",
+        "text": "Research indicates that autistic people are significantly more likely to be LGBTQ than the general population.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_012",
+        "text": "Autistic adults are more likely to be unemployed and have greater mental health service needs than the general population.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_013",
+        "text": "Factors associated with a higher likelihood of independent living in adulthood include developing spoken language before age six, having an IQ above 50, and possessing marketable skills.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_014",
+        "text": "Repetitive behaviors in autism, also called stimming, are restricted or repetitive patterns of interests, activities, or behaviors.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_015",
+        "text": "Environmental activist Greta Thunberg has spoken favorably about her autism diagnosis, saying autism can be a source of life purpose as well as the basis of careers, hobbies, and friendships.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_016",
+        "text": "Bill Gates, entrepreneur and co-founder of Microsoft, has written that if he were growing up today, he probably would be diagnosed on the autism spectrum.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_017",
+        "text": "Most professionals believe that race, ethnicity, and socioeconomic background have limited effect on the occurrence of autism.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_autism_018",
+        "text": "Autism-related events include World Autism Awareness Day, Autism Sunday, Autistic Pride Day, and Autreat.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
     "questionIds": [
       "aut_004",
       "aut_005",

@@ -119,7 +119,110 @@
       "mechanical_engineering"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_mechanical_engineering_001",
+        "text": "Mechanical engineering is one of the oldest and broadest of the engineering branches.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_002",
+        "text": "Mechanical engineering emerged as a field during the Industrial Revolution in Europe in the 18th century.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_003",
+        "text": "The six classic simple machines were known in the ancient Near East; the wedge and inclined plane (ramp) were known since prehistoric times.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_004",
+        "text": "The lever mechanism first appeared around 5,000 years ago in the Near East, where it was used in a simple balance scale.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_005",
+        "text": "The shadoof, the first crane machine, appeared in Mesopotamia circa 3000 BC; it used a lever to lift water.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_006",
+        "text": "The earliest evidence of pulleys dates back to Mesopotamia in the early 2nd millennium BC.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_007",
+        "text": "The Saqiyah water-wheel was developed in the Kingdom of Kush during the 4th century BC and relied on animal power.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_008",
+        "text": "Core areas of mechanical engineering include mechanics, dynamics, thermodynamics, materials science, design, structural analysis, and electricity.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_009",
+        "text": "Mechanical engineers use tools such as computer-aided design (CAD), computer-aided manufacturing (CAM), and computer-aided engineering (CAE).",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_010",
+        "text": "In the United States, most undergraduate mechanical engineering programs are accredited by the Accreditation Board for Engineering and Technology (ABET).",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_011",
+        "text": "Mechanical engineering programs typically take four to five years of study and can result in a Bachelor of Engineering (B.Eng.), Bachelor of Science (B.Sc.), or Bachelor of Technology (B.Tech.) degree.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_012",
+        "text": "In Spain, Portugal, and most of South America the formal degree title is 'Mechanical Engineer' and coursework spans five to six years.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_013",
+        "text": "In Italy, becoming a qualified engineer requires passing a state exam after completing five years of mechanical engineering coursework.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_014",
+        "text": "Mechanical engineers research, design, develop, build, and test mechanical and thermal devices, including tools, engines, and machines.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_015",
+        "text": "Mechanical engineering combines engineering physics and mathematics principles with materials science to design, analyze, manufacture, and maintain mechanical systems.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_016",
+        "text": "Mesopotamian civilization is credited by several sources with the invention of the wheel, though some recent sources suggest independent invention in both Mesopotamia and Eastern Europe.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mechanical_engineering_017",
+        "text": "Mechanical engineers design and analyze manufacturing plants, industrial equipment, heating and cooling systems, transport systems, motor vehicles, aircraft, watercraft, robotics, and medical devices.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
     "questionIds": [
       "mech_004",
       "mech_005",

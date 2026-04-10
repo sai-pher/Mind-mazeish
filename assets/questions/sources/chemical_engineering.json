@@ -67,7 +67,110 @@
       "chemical_engineering"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_chemical_engineering_001",
+        "text": "Chemical engineering is an engineering field that deals with the study of the operation and design of chemical plants as well as methods of improving production.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_002",
+        "text": "Chemical engineers develop economical commercial processes to convert raw materials into useful products such as medicine, petrochemicals, and plastics.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_003",
+        "text": "Chemical engineering uses principles of chemistry, physics, mathematics, biology, and economics to efficiently use, produce, design, transport and transform energy and materials.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_004",
+        "text": "A 1996 article cites James F. Donnelly for mentioning an 1839 reference to chemical engineering in relation to the production of sulfuric acid.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_005",
+        "text": "George E. Davis, an English consultant, is credited with coining the term 'chemical engineering'.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_006",
+        "text": "George E. Davis tried to found a Society of Chemical Engineering, but instead it was named the Society of Chemical Industry (1881), with Davis as its first secretary.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_007",
+        "text": "The term 'chemical engineering', describing the use of mechanical equipment in the chemical industry, became common vocabulary in England after 1850.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_008",
+        "text": "By 1910, the profession of 'chemical engineer' was already in common use in both Britain and the United States.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_009",
+        "text": "The History of Science in United States: An Encyclopedia puts the use of the term 'chemical engineering' around 1890.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_010",
+        "text": "Chemical engineers are involved in safety and hazard assessments, process design and analysis, modeling, control engineering, chemical reaction engineering, and nuclear engineering.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_011",
+        "text": "Chemical engineers typically hold a degree in Chemical Engineering or Process Engineering.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_012",
+        "text": "Chemical engineers work at scales ranging from nanotechnology and nanomaterials in the laboratory to large-scale industrial processes converting raw materials and energy into useful forms.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_013",
+        "text": "Chemical engineering project engineers use their knowledge to select optimal production methods and plant equipment in order to minimize costs and maximize safety and profitability.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_014",
+        "text": "Chemical engineers may work in industry or university research, designing and performing experiments by scaling up theoretical chemical reactions for better and safer production methods.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_015",
+        "text": "According to the U.S. Bureau of Labor Statistics, the occupational outlook for chemical engineers between 2024 and 2034 was projected at 3% growth.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_016",
+        "text": "Chemical engineers are involved in biological engineering in addition to traditional chemistry and manufacturing disciplines.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_chemical_engineering_017",
+        "text": "After plant construction, chemical engineering project managers may be involved in equipment upgrades, troubleshooting, and daily operations in either full-time or consulting roles.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
     "questionIds": [
       "chem_eng_004",
       "chem_eng_005",
