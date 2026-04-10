@@ -57,5 +57,235 @@
     "topicCategoryId": "mental_health",
     "superCategoryId": "health_medicine",
     "difficulty": "easy"
+  },
+  {
+    "id": "aut_004",
+    "question": "Which edition of the DSM merged Asperger syndrome, PDD-NOS, and childhood disintegrative disorder into a single \"autism spectrum disorder\" diagnosis?",
+    "correctAnswers": [
+      "DSM-5"
+    ],
+    "wrongAnswers": [
+      "DSM-III",
+      "DSM-IV",
+      "DSM-III-R",
+      "DSM-5-TR",
+      "ICD-10",
+      "ICD-11",
+      "DSM-II",
+      "DSM-I"
+    ],
+    "funFact": "The DSM-5, published in 2013, collapsed several previously separate diagnoses into autism spectrum disorder (ASD), reflecting growing evidence that they exist on a single continuum rather than as distinct conditions.",
+    "sourceId": "src_autism",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "aut_005",
+    "question": "The World Health Organization estimates that approximately how many children worldwide are diagnosed with autism?",
+    "correctAnswers": [
+      "1 in 100"
+    ],
+    "wrongAnswers": [
+      "1 in 10",
+      "1 in 50",
+      "1 in 200",
+      "1 in 500",
+      "1 in 1000",
+      "1 in 36",
+      "1 in 300",
+      "1 in 150"
+    ],
+    "funFact": "The WHO estimates about 1 in 100 children were diagnosed with autism between 2012 and 2021, and notes the trend is increasing — largely due to broader diagnostic criteria and greater awareness rather than a true rise in prevalence.",
+    "sourceId": "src_autism",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "aut_006",
+    "question": "Which term, adopted by many autistic people and advocates, views autism as a natural variation in human neurology rather than a disorder to be cured?",
+    "correctAnswers": [
+      "Neurodiversity"
+    ],
+    "wrongAnswers": [
+      "Neuroplasticity",
+      "Cognitive flexibility",
+      "Spectrum theory",
+      "Developmental variance",
+      "Psychosocial adaptation",
+      "Behavioural modelling",
+      "Neurotypicality",
+      "Cognitive divergence"
+    ],
+    "funFact": "The neurodiversity movement, which gained momentum from the late 1990s, argues that neurological differences like autism are a form of human diversity to be respected rather than deficits to be eliminated.",
+    "sourceId": "src_autism",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "aut_007",
+    "question": "In autism research and community discussions, what does the abbreviation \"ABA\" stand for?",
+    "correctAnswers": [
+      "Applied Behaviour Analysis"
+    ],
+    "wrongAnswers": [
+      "Autism Behavioural Assessment",
+      "Adaptive Behavioural Adjustment",
+      "Applied Brain Activity",
+      "Autistic Behavioural Awareness",
+      "Applied Biological Analysis",
+      "Attention-Based Alignment",
+      "Autism-Based Advocacy",
+      "Adaptive Baseline Assessment"
+    ],
+    "funFact": "ABA is a therapy based on learning theory that aims to increase helpful behaviours and decrease harmful ones. Its use is controversial within the autistic community; many autistic advocates argue historic intensive ABA caused harm by suppressing natural autistic traits.",
+    "sourceId": "src_autism",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "aut_008",
+    "question": "Which co-occurring condition is most commonly diagnosed alongside autism?",
+    "correctAnswers": [
+      "ADHD"
+    ],
+    "wrongAnswers": [
+      "Schizophrenia",
+      "Bipolar disorder",
+      "Borderline personality disorder",
+      "Obsessive-compulsive disorder",
+      "Tourette syndrome",
+      "Dyslexia",
+      "Depression",
+      "Epilepsy"
+    ],
+    "funFact": "ADHD co-occurs in roughly 30–80% of autistic individuals. The two conditions share overlapping features — such as executive function differences and attention variability — but are distinct neurodevelopmental profiles.",
+    "sourceId": "src_autism",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "aut_009",
+    "question": "What is \"stimming\" in the context of autism?",
+    "correctAnswers": [
+      "Repetitive self-stimulatory behaviour used to regulate sensory input or emotions"
+    ],
+    "wrongAnswers": [
+      "A type of speech therapy technique",
+      "An aggressive outburst triggered by sensory overload",
+      "A diagnostic test for sensory processing differences",
+      "A form of echolalia involving repeated phrases",
+      "A reward-based reinforcement strategy",
+      "A visual tracking exercise",
+      "An executive function training method",
+      "A sleep-regulation technique"
+    ],
+    "funFact": "Stimming — short for self-stimulatory behaviour — includes hand-flapping, rocking, spinning, or vocalising. Many autistic people describe stimming as essential for self-regulation and emotional expression, and advocates argue it should not be suppressed.",
+    "sourceId": "src_autism",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "aut_010",
+    "question": "Hans Asperger described a group of children with similar traits to Kanner's autism in 1944. In which city did he conduct this work?",
+    "correctAnswers": [
+      "Vienna"
+    ],
+    "wrongAnswers": [
+      "Berlin",
+      "Munich",
+      "Zurich",
+      "Salzburg",
+      "Budapest",
+      "Prague",
+      "Hamburg",
+      "Frankfurt"
+    ],
+    "funFact": "Working at the University of Vienna Children's Hospital, Hans Asperger described children with social difficulties and intense focused interests in a 1944 paper. His work remained largely unknown outside German-speaking countries until Lorna Wing translated and popularised it in 1981.",
+    "sourceId": "src_autism",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard"
+  },
+  {
+    "id": "aut_011",
+    "question": "Which sensory processing difference is commonly reported by autistic people and is now recognised in the DSM-5 diagnostic criteria?",
+    "correctAnswers": [
+      "Hyper- or hypo-reactivity to sensory input"
+    ],
+    "wrongAnswers": [
+      "Complete absence of pain sensation",
+      "Permanent synesthesia",
+      "Inability to detect temperature changes",
+      "Enhanced proprioception only",
+      "Selective anosmia",
+      "Exclusive auditory hypersensitivity",
+      "Visual field narrowing",
+      "Tactile insensitivity in extremities"
+    ],
+    "funFact": "The DSM-5 added sensory processing differences to its autism diagnostic criteria in 2013 — a major update from DSM-IV, reflecting research showing that unusual sensory responses (such as distress at certain textures or sounds) are a core feature for many autistic people.",
+    "sourceId": "src_autism",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "aut_012",
+    "question": "Autistic activist and climate campaigner Greta Thunberg has described her autism diagnosis as a superpower. In which country was she born?",
+    "correctAnswers": [
+      "Sweden"
+    ],
+    "wrongAnswers": [
+      "Norway",
+      "Denmark",
+      "Finland",
+      "Germany",
+      "Netherlands",
+      "Canada",
+      "United Kingdom",
+      "Iceland"
+    ],
+    "funFact": "Greta Thunberg, born in Stockholm, Sweden in 2003, was diagnosed with autism spectrum disorder, OCD, and selective mutism as a child. She has spoken openly about how autism allows her to focus deeply and see problems without social filters — calling it her \"superpower.\"",
+    "sourceId": "src_autism",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "aut_013",
+    "question": "Which discredited theory, promoted by Andrew Wakefield in a now-retracted 1998 paper, falsely linked autism to childhood vaccination?",
+    "correctAnswers": [
+      "The MMR vaccine causes autism"
+    ],
+    "wrongAnswers": [
+      "The DTP vaccine triggers neurodegeneration",
+      "Flu vaccines impair brain development",
+      "Aluminium adjuvants cause sensory disorders",
+      "Vaccine preservatives disrupt synaptic growth",
+      "Herd immunity suppresses genetic diversity",
+      "Polio vaccines alter gut microbiome",
+      "Hepatitis B vaccines cause developmental regression",
+      "Varicella vaccines trigger autoimmune encephalitis"
+    ],
+    "funFact": "Andrew Wakefield's 1998 Lancet paper falsely claimed a link between the MMR (measles, mumps, rubella) vaccine and autism. It was fully retracted in 2010 after investigations revealed data fabrication; Wakefield lost his medical licence. The vaccine-autism myth has nonetheless persisted and contributed to dangerous declines in vaccination rates.",
+    "sourceId": "src_autism",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
   }
 ]
