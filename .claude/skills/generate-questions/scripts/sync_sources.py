@@ -17,7 +17,11 @@ Usage:
 import argparse
 import json
 import sys
+import urllib.parse
+import urllib.request
 from pathlib import Path
+
+USER_AGENT = "mind-mazeish-trivia/1.0 (https://github.com/sai-pher)"
 
 TOPICS_DIR = Path('assets/questions/topics')
 SOURCES_DIR = Path('assets/questions/sources')
@@ -34,11 +38,35 @@ def reorder(d, field_order):
     return {**ordered, **extras}
 
 
+def _lookup_wikipedia_url(title: str) -> str:
+    """Return the mobile Wikipedia URL for *title*, or '' on any error."""
+    try:
+        api = (
+            "https://en.wikipedia.org/w/api.php"
+            "?action=query&prop=info&inprop=url&format=json&titles="
+            + urllib.parse.quote(title)
+        )
+        req = urllib.request.Request(api, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            data = json.loads(resp.read())
+        pages = data.get("query", {}).get("pages", {})
+        page = next(iter(pages.values()), {})
+        full_url = page.get("fullurl", "")
+        return full_url.replace(
+            "https://en.wikipedia.org/",
+            "https://en.m.wikipedia.org/",
+        )
+    except Exception:
+        return ""
+
+
 def make_stub(source_id, topic_id):
+    title = source_id.removeprefix('src_').replace('_', ' ').title()
+    url = _lookup_wikipedia_url(title)
     return reorder({
         'id': source_id,
-        'title': source_id.removeprefix('src_').replace('_', ' ').title(),
-        'url': '',
+        'title': title,
+        'url': url,
         'summary': '',
         'categories': [],
         'topicIds': [topic_id],
