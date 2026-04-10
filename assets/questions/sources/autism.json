@@ -1,5 +1,29 @@
 [
   {
+    "id": "src_autism",
+    "title": "Autism",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "autism"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "aut_004",
+      "aut_005",
+      "aut_006",
+      "aut_007",
+      "aut_008",
+      "aut_009",
+      "aut_010",
+      "aut_011",
+      "aut_012",
+      "aut_013"
+    ]
+  },
+  {
     "id": "src_autism_spectrum",
     "title": "Autism Spectrum",
     "url": "https://en.m.wikipedia.org/wiki/Autism",

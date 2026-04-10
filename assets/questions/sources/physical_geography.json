@@ -58,6 +58,30 @@
     ]
   },
   {
+    "id": "src_physical_geography",
+    "title": "Physical Geography",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "physical_geography"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "pgeo_003",
+      "pgeo_004",
+      "pgeo_005",
+      "pgeo_006",
+      "pgeo_007",
+      "pgeo_008",
+      "pgeo_009",
+      "pgeo_010",
+      "pgeo_011",
+      "pgeo_012"
+    ]
+  },
+  {
     "id": "src_plate_tectonics",
     "title": "Plate Tectonics",
     "url": "https://en.wikipedia.org/wiki/Plate_tectonics",

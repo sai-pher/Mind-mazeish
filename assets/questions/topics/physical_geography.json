@@ -37,5 +37,243 @@
     "topicCategoryId": "physical_world",
     "superCategoryId": "earth_environment",
     "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_003",
+    "question": "Which branch of physical geography studies the processes that shape Earth's surface landforms?",
+    "correctAnswers": [
+      "Geomorphology"
+    ],
+    "wrongAnswers": [
+      "Hydrology",
+      "Climatology",
+      "Biogeography",
+      "Oceanography",
+      "Pedology",
+      "Glaciology",
+      "Limnology",
+      "Meteorology",
+      "Volcanology"
+    ],
+    "funFact": "Geomorphology investigates everything from the Grand Canyon carved by river erosion to sand dunes sculpted by wind, seeking to understand both past and future landscape changes.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_004",
+    "question": "The hydrological cycle describes the continuous movement of water through which of Earth's spheres?",
+    "correctAnswers": [
+      "Atmosphere, hydrosphere, and lithosphere"
+    ],
+    "wrongAnswers": [
+      "Biosphere and thermosphere only",
+      "Mesosphere and stratosphere only",
+      "Lithosphere and magnetosphere only",
+      "Ionosphere and exosphere only",
+      "Thermosphere and cryosphere only",
+      "Troposphere and magnetosphere only",
+      "Biosphere and ionosphere only",
+      "Exosphere and geosphere only"
+    ],
+    "funFact": "The hydrological cycle moves about 577,000 km³ of water each year through evaporation, condensation, and precipitation — enough to fill Lake Superior roughly 1,200 times.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_005",
+    "question": "What term describes the study of Earth's ice masses, including glaciers and ice sheets?",
+    "correctAnswers": [
+      "Glaciology"
+    ],
+    "wrongAnswers": [
+      "Cryonics",
+      "Hydrology",
+      "Limnology",
+      "Periglaciology",
+      "Pedology",
+      "Geomorphology",
+      "Paleoclimatology",
+      "Hypsometry",
+      "Nival geography"
+    ],
+    "funFact": "About 69% of Earth's fresh water is locked in glaciers and ice sheets. The Antarctic Ice Sheet alone holds roughly 26.5 million km³ of ice — enough to raise global sea levels by about 58 metres if fully melted.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_006",
+    "question": "Which of Earth's four major spheres encompasses all living organisms and their interactions with the environment?",
+    "correctAnswers": [
+      "Biosphere"
+    ],
+    "wrongAnswers": [
+      "Hydrosphere",
+      "Lithosphere",
+      "Atmosphere",
+      "Cryosphere",
+      "Pedosphere",
+      "Magnetosphere",
+      "Thermosphere",
+      "Ionosphere",
+      "Geosphere"
+    ],
+    "funFact": "The biosphere extends from the deepest ocean trenches (about 11 km below sea level) to high in the atmosphere (up to roughly 12 km above sea level), making it a thin but extraordinarily complex layer of life.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_007",
+    "question": "The Amazon River Basin is the world's largest drainage basin by area. Approximately how large is it?",
+    "correctAnswers": [
+      "About 7 million km²"
+    ],
+    "wrongAnswers": [
+      "About 2 million km²",
+      "About 4 million km²",
+      "About 10 million km²",
+      "About 15 million km²",
+      "About 1 million km²",
+      "About 20 million km²",
+      "About 12 million km²",
+      "About 500,000 km²"
+    ],
+    "funFact": "The Amazon Basin covers roughly 40% of South America and discharges about 20% of all fresh water that flows into the world's oceans — more than the next seven largest rivers combined.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_008",
+    "question": "In climatology, what name is given to the boundary zone between two different air masses?",
+    "correctAnswers": [
+      "Front"
+    ],
+    "wrongAnswers": [
+      "Tropopause",
+      "Isohyet",
+      "Isotherm",
+      "Intertropical Convergence Zone",
+      "Thermocline",
+      "Halocline",
+      "Jet stream",
+      "Orographic barrier",
+      "Pressure gradient"
+    ],
+    "funFact": "Weather fronts are named after military battle fronts — the term was coined by Norwegian meteorologists during World War I who pictured cold and warm air masses as opposing armies clashing along a battleline.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_009",
+    "question": "Which ocean current is the largest by volume transport, moving roughly 150 times the combined flow of all the world's rivers?",
+    "correctAnswers": [
+      "Antarctic Circumpolar Current"
+    ],
+    "wrongAnswers": [
+      "Gulf Stream",
+      "Kuroshio Current",
+      "Humboldt Current",
+      "Labrador Current",
+      "Agulhas Current",
+      "California Current",
+      "North Atlantic Drift",
+      "Benguela Current",
+      "East Australian Current"
+    ],
+    "funFact": "The Antarctic Circumpolar Current flows uninterrupted around Antarctica because there is no land mass blocking it at those latitudes — it plays a crucial role in global ocean circulation and climate regulation.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_010",
+    "question": "What concept in geomorphology, proposed by James Hutton, holds that Earth's geological features were formed by slow, uniform processes acting over vast time spans?",
+    "correctAnswers": [
+      "Uniformitarianism"
+    ],
+    "wrongAnswers": [
+      "Catastrophism",
+      "Actualism",
+      "Gradualism",
+      "Plate tectonics",
+      "Isostasy",
+      "Punctuated equilibrium",
+      "Neptunism",
+      "Plutonism",
+      "Biostratigraphy"
+    ],
+    "funFact": "Hutton's famous phrase 'no vestige of a beginning, no prospect of an end' captured the uniformitarian idea that Earth's processes were continuous and immeasurably old — a radical concept in the 18th century when many believed the Earth was only a few thousand years old.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_011",
+    "question": "Which branch of physical geography examines the geographical distribution of plant and animal species?",
+    "correctAnswers": [
+      "Biogeography"
+    ],
+    "wrongAnswers": [
+      "Ecology",
+      "Pedology",
+      "Limnology",
+      "Climatology",
+      "Hydrology",
+      "Geomorphology",
+      "Palaeontology",
+      "Zoology",
+      "Phytogeography"
+    ],
+    "funFact": "Charles Darwin's observations during the Beagle voyage — noticing how similar species varied across the Galapagos Islands — helped lay the foundation for biogeography as a scientific discipline.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_012",
+    "question": "The Mariana Trench in the Pacific Ocean is the deepest known point on Earth. Approximately how deep is the Challenger Deep, its lowest point?",
+    "correctAnswers": [
+      "About 11,000 metres"
+    ],
+    "wrongAnswers": [
+      "About 5,000 metres",
+      "About 7,500 metres",
+      "About 15,000 metres",
+      "About 8,000 metres",
+      "About 20,000 metres",
+      "About 3,000 metres",
+      "About 6,000 metres",
+      "About 13,000 metres",
+      "About 9,000 metres"
+    ],
+    "funFact": "If Mount Everest were placed at the bottom of the Challenger Deep, its peak would still be more than 2 km underwater. The immense pressure at that depth is about 1,086 times the atmospheric pressure at sea level.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
   }
 ]
