@@ -110,6 +110,30 @@
     ]
   },
   {
+    "id": "src_mechanical_engineering",
+    "title": "Mechanical Engineering",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "mechanical_engineering"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "mech_004",
+      "mech_005",
+      "mech_006",
+      "mech_007",
+      "mech_008",
+      "mech_009",
+      "mech_010",
+      "mech_011",
+      "mech_012",
+      "mech_013"
+    ]
+  },
+  {
     "id": "src_simple_machine",
     "title": "Simple Machine",
     "url": "https://en.wikipedia.org/wiki/Simple_machine",

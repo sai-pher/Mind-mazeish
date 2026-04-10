@@ -58,6 +58,30 @@
     ]
   },
   {
+    "id": "src_chemical_engineering",
+    "title": "Chemical Engineering",
+    "url": "",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "chemical_engineering"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "chem_eng_004",
+      "chem_eng_005",
+      "chem_eng_006",
+      "chem_eng_007",
+      "chem_eng_008",
+      "chem_eng_009",
+      "chem_eng_010",
+      "chem_eng_011",
+      "chem_eng_012",
+      "chem_eng_013"
+    ]
+  },
+  {
     "id": "src_distillation",
     "title": "Distillation",
     "url": "https://en.wikipedia.org/wiki/Distillation",

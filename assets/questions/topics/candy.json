@@ -61,5 +61,235 @@
     "topicCategoryId": "confectionery",
     "superCategoryId": "food_drink",
     "difficulty": "medium"
+  },
+  {
+    "id": "candy_004",
+    "question": "Before sugar was widely available, what sweetener was used to make the earliest forms of candy?",
+    "correctAnswers": [
+      "Honey"
+    ],
+    "wrongAnswers": [
+      "Maple syrup",
+      "Molasses",
+      "Date paste",
+      "Agave nectar",
+      "Treacle",
+      "Grape juice",
+      "Barley malt",
+      "Cane juice"
+    ],
+    "funFact": "Ancient civilisations including China, Egypt, Greece, and Rome used honey to coat fruits and flowers both to preserve them and to create early forms of confectionery.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "easy"
+  },
+  {
+    "id": "candy_005",
+    "question": "From which language did the English word 'candy' most directly enter the language?",
+    "correctAnswers": [
+      "Old French"
+    ],
+    "wrongAnswers": [
+      "Latin",
+      "Arabic",
+      "Persian",
+      "Spanish",
+      "Italian",
+      "Sanskrit",
+      "Dutch",
+      "Portuguese"
+    ],
+    "funFact": "The word 'candy' entered English from Old French 'çucre candi' (sugar candy), which itself traces back through Arabic 'qandi' and Persian 'qand' all the way to Sanskrit 'khanda', all meaning sugar.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "hard"
+  },
+  {
+    "id": "candy_006",
+    "question": "During the Middle Ages, candy was commonly believed to serve what purpose beyond being a sweet treat?",
+    "correctAnswers": [
+      "A form of medicine"
+    ],
+    "wrongAnswers": [
+      "A currency for trade",
+      "A preservative for meat",
+      "A religious offering",
+      "A dye for fabric",
+      "A perfume ingredient",
+      "A writing ink base",
+      "A wound dressing",
+      "A ritual incense"
+    ],
+    "funFact": "Before the Industrial Revolution, candy was often regarded as medicine — used to calm the digestive system or soothe a sore throat. It appeared only on the tables of the very wealthy.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_007",
+    "question": "What process is used to make lemon drops and stick candy by cooking sugar under reduced pressure?",
+    "correctAnswers": [
+      "Vacuum cooking"
+    ],
+    "wrongAnswers": [
+      "Open-fire pulling",
+      "Pan work coating",
+      "Gum work moulding",
+      "Cold-press extrusion",
+      "Crystalline seeding",
+      "Steam injection",
+      "Centrifugal spinning",
+      "Freeze crystallisation"
+    ],
+    "funFact": "Vacuum cooking allows sugar syrup to reach the correct concentration at a lower temperature than normal boiling, producing the glassy, brittle texture characteristic of hard-boiled sweets like lemon drops.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "hard"
+  },
+  {
+    "id": "candy_008",
+    "question": "Which candy-making technique involves coating nuts or jelly beans with sugar in revolving copper kettles?",
+    "correctAnswers": [
+      "Pan work"
+    ],
+    "wrongAnswers": [
+      "Vacuum cooking",
+      "Open-fire pulling",
+      "Gum work moulding",
+      "Tempering",
+      "Enrobing",
+      "Conching",
+      "Extrusion",
+      "Freeze-panning"
+    ],
+    "funFact": "Pan work is one of the oldest confectionery techniques still in wide use. The revolving copper drum tumbles centres while hot sugar syrup is ladled over them, building up smooth sugar shells layer by layer.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "hard"
+  },
+  {
+    "id": "candy_009",
+    "question": "Which of the following is classified as a noncrystalline candy?",
+    "correctAnswers": [
+      "Nougat",
+      "Caramel",
+      "Toffee"
+    ],
+    "wrongAnswers": [
+      "Fudge",
+      "Rock candy",
+      "Fondant",
+      "Marzipan",
+      "Praline",
+      "Peanut brittle"
+    ],
+    "funFact": "Candy scientists classify sweets by crystal structure, not appearance. Noncrystalline candies like toffee and nougat are homogeneous throughout, while crystalline types like fudge and fondant contain microscopic sugar crystals that give them their smooth, creamy texture.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "hard"
+  },
+  {
+    "id": "candy_010",
+    "question": "What is the key difference between caramel and toffee?",
+    "correctAnswers": [
+      "Toffee is cooked to a higher temperature than caramel"
+    ],
+    "wrongAnswers": [
+      "Caramel always contains cream; toffee never does",
+      "Toffee uses brown sugar; caramel uses white sugar only",
+      "Caramel is hard; toffee is always soft",
+      "Toffee is boiled in water; caramel is dry-cooked",
+      "Caramel is American; toffee is strictly British",
+      "Toffee contains gelatin; caramel does not",
+      "Caramel is cooked to the hard-crack stage; toffee stops at soft-ball",
+      "They are identical — just different regional names"
+    ],
+    "funFact": "Both caramel and toffee are made from sugar and butter, but toffee is taken to a higher temperature (hard-crack stage, around 149–154°C) while caramel is pulled off the heat earlier, giving toffee its characteristic snap and hardness.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_011",
+    "question": "Which famous American candy bar, introduced in 1923, is named after a horse belonging to the Mars family?",
+    "correctAnswers": [
+      "Milky Way"
+    ],
+    "wrongAnswers": [
+      "Snickers",
+      "Butterfinger",
+      "Baby Ruth",
+      "3 Musketeers",
+      "Mounds",
+      "Almond Joy",
+      "Pay Day",
+      "Zero"
+    ],
+    "funFact": "Frank Mars introduced the Milky Way bar in 1923. The name is often said to be inspired by a malted milk drink, but family accounts also cite the Mars family's horse named Milky Way. Snickers, introduced in 1930, was named after another Mars family horse.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_012",
+    "question": "What plant is the original, traditional source of marshmallow confectionery?",
+    "correctAnswers": [
+      "Marsh mallow plant (Althaea officinalis)"
+    ],
+    "wrongAnswers": [
+      "Sugar beet",
+      "Liquorice root",
+      "Gum arabic tree",
+      "Tapioca plant",
+      "Carrageenan seaweed",
+      "Chicory root",
+      "Sweet potato",
+      "Arrowroot"
+    ],
+    "funFact": "Ancient Egyptians made a sweet treat from the sap of the marsh mallow plant (Althaea officinalis) mixed with honey and nuts. Modern marshmallows no longer use the plant — they are made with gelatin and sugar — but the name stuck.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_013",
+    "question": "Sugarcane is indigenous to which region of the world?",
+    "correctAnswers": [
+      "Tropical South and Southeast Asia"
+    ],
+    "wrongAnswers": [
+      "Sub-Saharan Africa",
+      "Central America",
+      "The Caribbean",
+      "The Mediterranean",
+      "Northern India only",
+      "South America",
+      "East Africa",
+      "Southern China"
+    ],
+    "funFact": "Sugarcane originated in tropical South and Southeast Asia. Ancient Indians boiled cane juice into solid pieces called 'khanda' — the root word for candy. Persian and Greek travellers later encountered it and marvelled at 'reeds that produce honey without bees'.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
   }
 ]

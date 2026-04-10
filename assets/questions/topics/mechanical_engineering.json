@@ -58,5 +58,238 @@
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
     "difficulty": "medium"
+  },
+  {
+    "id": "mech_004",
+    "question": "Which engineering discipline studies the relationship between heat and work, and governs steam engines and refrigerators?",
+    "correctAnswers": [
+      "Thermodynamics"
+    ],
+    "wrongAnswers": [
+      "Fluid mechanics",
+      "Structural analysis",
+      "Kinematics",
+      "Tribology",
+      "Metallurgy",
+      "Acoustics",
+      "Mechatronics",
+      "Statics"
+    ],
+    "funFact": "The word 'thermodynamics' comes from the Greek words for heat (therme) and power (dynamis). The field was largely developed to improve the efficiency of early steam engines during the Industrial Revolution.",
+    "sourceId": "src_mechanical_engineering",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mech_005",
+    "question": "Hooke's Law states that the force needed to extend or compress a spring is proportional to which quantity?",
+    "correctAnswers": [
+      "The displacement (extension or compression) of the spring"
+    ],
+    "wrongAnswers": [
+      "The mass attached to the spring",
+      "The square of the velocity of the spring",
+      "The temperature of the spring material",
+      "The cross-sectional area of the spring wire",
+      "The natural frequency of the spring",
+      "The potential energy stored in the spring",
+      "The number of coils in the spring"
+    ],
+    "funFact": "Robert Hooke published his law in 1678 as an anagram: 'ceiiinosssttuv', which unscrambled reads 'ut tensio, sic vis' (Latin for 'as the extension, so the force'). He did this to secure priority without revealing the discovery.",
+    "sourceId": "src_mechanical_engineering",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mech_006",
+    "question": "Which Scottish engineer is widely credited with improving the steam engine in the 18th century, making it the powerhouse of the Industrial Revolution?",
+    "correctAnswers": [
+      "James Watt"
+    ],
+    "wrongAnswers": [
+      "George Stephenson",
+      "Richard Trevithick",
+      "Thomas Newcomen",
+      "Isambard Kingdom Brunel",
+      "John Smeaton",
+      "Robert Stephenson",
+      "Matthew Boulton",
+      "Eli Whitney"
+    ],
+    "funFact": "James Watt didn't invent the steam engine — Thomas Newcomen built an earlier version in 1712. Watt's key innovation was a separate condenser that dramatically improved efficiency. The unit of power, the 'watt', is named in his honour.",
+    "sourceId": "src_mechanical_engineering",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mech_007",
+    "question": "In mechanics of materials, what term describes the internal force per unit area that develops within a material resisting an applied load?",
+    "correctAnswers": [
+      "Stress"
+    ],
+    "wrongAnswers": [
+      "Strain",
+      "Stiffness",
+      "Modulus",
+      "Torque",
+      "Shear flow",
+      "Moment of inertia",
+      "Deflection",
+      "Fatigue limit"
+    ],
+    "funFact": "Stress and strain are often confused: stress is force per unit area (measured in Pascals), while strain is the dimensionless ratio of deformation to original length. Young's Modulus links the two for elastic materials.",
+    "sourceId": "src_mechanical_engineering",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mech_008",
+    "question": "Which mechanism converts rotary motion into linear motion, and is fundamental to internal combustion engines and steam engines?",
+    "correctAnswers": [
+      "Crank and slider mechanism",
+      "Crank-slider mechanism"
+    ],
+    "wrongAnswers": [
+      "Rack and pinion",
+      "Worm gear",
+      "Cam and follower",
+      "Geneva mechanism",
+      "Scotch yoke",
+      "Bell crank",
+      "Toggle mechanism",
+      "Four-bar linkage"
+    ],
+    "funFact": "The crank-slider mechanism was used in early sawmills in medieval times, long before steam engines. Modern car engines use multiple crank-sliders — each piston-connecting rod-crankshaft assembly is one instance of this ancient mechanism.",
+    "sourceId": "src_mechanical_engineering",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mech_009",
+    "question": "Computer-Aided Design (CAD) revolutionised mechanical engineering. Which company released AutoCAD, one of the first commercial CAD packages, in 1982?",
+    "correctAnswers": [
+      "Autodesk"
+    ],
+    "wrongAnswers": [
+      "Dassault Systèmes",
+      "PTC",
+      "Siemens",
+      "IBM",
+      "Hewlett-Packard",
+      "Parametric Technology Corporation",
+      "Unigraphics",
+      "ANSYS"
+    ],
+    "funFact": "Before CAD, engineers drafted designs by hand on large drawing boards using T-squares, compasses, and pencils. AutoCAD's 1982 release ran on microcomputers — a radical idea when most CAD software required expensive minicomputers.",
+    "sourceId": "src_mechanical_engineering",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mech_010",
+    "question": "In fluid mechanics, what dimensionless number is used to predict whether flow in a pipe will be laminar or turbulent?",
+    "correctAnswers": [
+      "Reynolds number"
+    ],
+    "wrongAnswers": [
+      "Mach number",
+      "Froude number",
+      "Strouhal number",
+      "Prandtl number",
+      "Nusselt number",
+      "Weber number",
+      "Euler number",
+      "Grashof number"
+    ],
+    "funFact": "Osborne Reynolds discovered in 1883 that flow transitions from smooth (laminar) to chaotic (turbulent) at a critical value of the ratio of inertial to viscous forces — now called the Reynolds number. Below ~2300 in a pipe is laminar; above ~4000 is turbulent.",
+    "sourceId": "src_mechanical_engineering",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mech_011",
+    "question": "Which manufacturing process, developed in the late 20th century, builds three-dimensional objects by depositing successive layers of material based on a digital model?",
+    "correctAnswers": [
+      "Additive manufacturing",
+      "3D printing"
+    ],
+    "wrongAnswers": [
+      "CNC milling",
+      "Die casting",
+      "Injection moulding",
+      "Extrusion",
+      "Forging",
+      "Sintering",
+      "Electroforming",
+      "Stamping"
+    ],
+    "funFact": "Chuck Hull invented stereolithography (the first 3D printing method) in 1983 and patented it in 1986. Originally used only for rapid prototyping, additive manufacturing now produces aerospace components, medical implants, and even human tissue scaffolds.",
+    "sourceId": "src_mechanical_engineering",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mech_012",
+    "question": "HVAC stands for Heating, Ventilation, and Air Conditioning. Which thermodynamic cycle underpins most mechanical vapour-compression refrigeration and air-conditioning systems?",
+    "correctAnswers": [
+      "Vapour-compression refrigeration cycle",
+      "Refrigeration cycle"
+    ],
+    "wrongAnswers": [
+      "Carnot cycle",
+      "Rankine cycle",
+      "Brayton cycle",
+      "Otto cycle",
+      "Diesel cycle",
+      "Stirling cycle",
+      "Ericsson cycle",
+      "Atkinson cycle"
+    ],
+    "funFact": "The vapour-compression cycle relies on a refrigerant that alternately evaporates (absorbing heat) and condenses (releasing heat). Early refrigerants like ammonia and sulfur dioxide were toxic; modern systems use HFCs or the newer HFOs, which have lower global-warming potential.",
+    "sourceId": "src_mechanical_engineering",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mech_013",
+    "question": "In robotics and machine design, what term describes the range of possible positions and orientations a robot's end-effector can reach?",
+    "correctAnswers": [
+      "Workspace",
+      "Work envelope"
+    ],
+    "wrongAnswers": [
+      "Degrees of freedom",
+      "Kinematic chain",
+      "Payload capacity",
+      "Repeatability",
+      "Reach radius",
+      "Jacobian matrix",
+      "Joint space",
+      "Singularity"
+    ],
+    "funFact": "A robot's workspace is not always a simple sphere — it depends on the number and type of joints. Industrial six-axis robots have complex, doughnut-shaped workspaces with an unreachable zone directly below the base, which engineers must account for when programming paths.",
+    "sourceId": "src_mechanical_engineering",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "hard"
   }
 ]

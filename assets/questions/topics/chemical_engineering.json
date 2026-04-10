@@ -59,5 +59,242 @@
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
     "difficulty": "medium"
+  },
+  {
+    "id": "chem_eng_004",
+    "question": "What term describes the fundamental building-block operations — such as heat exchange, distillation, and filtration — that chemical engineers use to design industrial processes?",
+    "correctAnswers": [
+      "Unit operations"
+    ],
+    "wrongAnswers": [
+      "Process modules",
+      "Reaction stages",
+      "Mass transfer steps",
+      "Batch sequences",
+      "Thermodynamic cycles",
+      "Flow regimes",
+      "Transport mechanisms",
+      "Process units"
+    ],
+    "funFact": "The concept of 'unit operations' was formalised by Arthur D. Little of MIT in 1915, transforming chemical engineering from an art into a systematic science by breaking down any chemical plant into a set of identifiable, teachable steps.",
+    "sourceId": "src_chemical_engineering",
+    "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chem_eng_005",
+    "question": "In fluid mechanics and chemical engineering, the dimensionless Reynolds number predicts whether flow in a pipe will be laminar or turbulent. Flow is generally considered fully turbulent above approximately which value?",
+    "correctAnswers": [
+      "4000"
+    ],
+    "wrongAnswers": [
+      "100",
+      "500",
+      "2300",
+      "10 000",
+      "50 000",
+      "1 000 000",
+      "750",
+      "8500",
+      "15 000"
+    ],
+    "funFact": "The Reynolds number was named after Osborne Reynolds, who demonstrated in 1883 with a famous dye-injection experiment that flow transitions from smooth laminar streams to chaotic turbulent eddies at a predictable threshold.",
+    "sourceId": "src_chemical_engineering",
+    "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "hard"
+  },
+  {
+    "id": "chem_eng_006",
+    "question": "Thermal cracking and catalytic cracking are both used in oil refining to break large hydrocarbon molecules into smaller, more valuable ones. Which product is the primary target of fluid catalytic cracking (FCC)?",
+    "correctAnswers": [
+      "Petrol (gasoline)"
+    ],
+    "wrongAnswers": [
+      "Lubricating oil",
+      "Bitumen",
+      "Paraffin wax",
+      "Natural gas",
+      "Hydrogen",
+      "Kerosene",
+      "Heavy fuel oil",
+      "Naphtha",
+      "Diesel"
+    ],
+    "funFact": "Fluid catalytic cracking was commercialised in 1942 and remains one of the most economically important chemical engineering processes in the world, processing millions of barrels of crude oil every day to meet global demand for vehicle fuel.",
+    "sourceId": "src_chemical_engineering",
+    "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chem_eng_007",
+    "question": "Which English consultant is credited with coining the term 'chemical engineering' and attempting to found a Society of Chemical Engineering in the late 19th century?",
+    "correctAnswers": [
+      "George E. Davis"
+    ],
+    "wrongAnswers": [
+      "Arthur D. Little",
+      "William Rankine",
+      "James Watt",
+      "Robert Boyle",
+      "John Dalton",
+      "Michael Faraday",
+      "Humphry Davy",
+      "William Perkin",
+      "Carl Bosch"
+    ],
+    "funFact": "George E. Davis delivered twelve lectures on chemical engineering in Manchester in 1887 and later published them as a handbook. Although his proposed Society of Chemical Engineering became the Society of Chemical Industry instead, his lectures laid the groundwork for the discipline.",
+    "sourceId": "src_chemical_engineering",
+    "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "hard"
+  },
+  {
+    "id": "chem_eng_008",
+    "question": "In chemical reactor design, a plug flow reactor (PFR) and a continuous stirred-tank reactor (CSTR) represent two ideal extremes. Which reactor type assumes perfect mixing so that the composition inside is uniform and identical to the outlet stream?",
+    "correctAnswers": [
+      "CSTR (continuous stirred-tank reactor)"
+    ],
+    "wrongAnswers": [
+      "PFR (plug flow reactor)",
+      "Batch reactor",
+      "Semi-batch reactor",
+      "Packed bed reactor",
+      "Fluidised bed reactor",
+      "Bubble column reactor",
+      "Trickle bed reactor",
+      "Membrane reactor"
+    ],
+    "funFact": "Real industrial reactors often fall between the two ideals. Engineers use the residence time distribution (RTD) — measured by injecting a tracer pulse — to characterise how closely a real reactor approaches ideal CSTR or PFR behaviour.",
+    "sourceId": "src_chemical_engineering",
+    "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "hard"
+  },
+  {
+    "id": "chem_eng_009",
+    "question": "What is the name of the iterative process chemical engineers use to scale a reaction or process from laboratory bench scale up to a full industrial plant, often involving intermediate pilot plant trials?",
+    "correctAnswers": [
+      "Scale-up"
+    ],
+    "wrongAnswers": [
+      "Process integration",
+      "Pinch analysis",
+      "HAZOP",
+      "Commissioning",
+      "Debottlenecking",
+      "Retrofitting",
+      "Benchmarking",
+      "Optimisation",
+      "Proof of concept"
+    ],
+    "funFact": "Scale-up is notoriously difficult because many physical phenomena — heat transfer rates, mixing efficiency, pressure drops — do not scale linearly. A process that works perfectly in a 1-litre flask can fail catastrophically in a 10 000-litre vessel if scale-up is not managed carefully.",
+    "sourceId": "src_chemical_engineering",
+    "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chem_eng_010",
+    "question": "Absorption is a separation process in which a gas is contacted with a liquid solvent to remove one or more components. In natural gas processing, which toxic acid gas is most commonly removed by absorption into an amine solvent?",
+    "correctAnswers": [
+      "Hydrogen sulphide (H₂S)",
+      "Carbon dioxide (CO₂)"
+    ],
+    "wrongAnswers": [
+      "Methane",
+      "Nitrogen",
+      "Oxygen",
+      "Argon",
+      "Ethane",
+      "Propane",
+      "Steam (water vapour)",
+      "Helium"
+    ],
+    "funFact": "Amine gas treating — also called 'sweetening' — is used on thousands of industrial sites worldwide. The amine solvent (commonly MEA or DEA) selectively absorbs H₂S and CO₂, and is then regenerated by heating in a stripper column, releasing the acid gases for further processing or disposal.",
+    "sourceId": "src_chemical_engineering",
+    "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chem_eng_011",
+    "question": "Which safety analysis technique, widely used in chemical engineering, systematically examines deviations from design intent using guide words such as 'more', 'less', 'no', and 'reverse'?",
+    "correctAnswers": [
+      "HAZOP (Hazard and Operability Study)"
+    ],
+    "wrongAnswers": [
+      "FMEA (Failure Mode and Effects Analysis)",
+      "Fault tree analysis",
+      "Event tree analysis",
+      "What-if analysis",
+      "Layer of protection analysis (LOPA)",
+      "Risk matrix assessment",
+      "FMECA",
+      "Root cause analysis",
+      "Bow-tie analysis"
+    ],
+    "funFact": "HAZOP was developed by ICI (Imperial Chemical Industries) in the 1960s following several serious industrial accidents. It is now mandated by law in many countries before a new chemical plant can receive an operating licence.",
+    "sourceId": "src_chemical_engineering",
+    "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chem_eng_012",
+    "question": "Polymerisation is the chemical process of joining small monomer molecules into large polymer chains. Which industrial process produces polyethylene — one of the world's most produced plastics — from ethylene?",
+    "correctAnswers": [
+      "Ziegler-Natta polymerisation",
+      "Free-radical polymerisation"
+    ],
+    "wrongAnswers": [
+      "Steam reforming",
+      "Hydrocracking",
+      "Esterification",
+      "Saponification",
+      "Fermentation",
+      "Hydrogenation",
+      "Oxidative coupling",
+      "Dehydration"
+    ],
+    "funFact": "Karl Ziegler and Giulio Natta won the 1963 Nobel Prize in Chemistry for discovering organometallic catalysts that allow controlled polymerisation of ethylene and propylene at low pressure and temperature, replacing the original high-pressure radical process and enabling tailor-made plastics.",
+    "sourceId": "src_chemical_engineering",
+    "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "hard"
+  },
+  {
+    "id": "chem_eng_013",
+    "question": "Pinch analysis is a methodology for minimising energy consumption in chemical processes. What does the 'pinch point' represent?",
+    "correctAnswers": [
+      "The temperature at which the minimum driving force between hot and cold streams occurs"
+    ],
+    "wrongAnswers": [
+      "The pressure drop across a heat exchanger",
+      "The boiling point of the process fluid",
+      "The minimum flow rate needed to avoid pump cavitation",
+      "The maximum allowable reactor temperature",
+      "The point of minimum reflux ratio in a distillation column",
+      "The dew point of a gas mixture",
+      "The critical temperature of a supercritical fluid",
+      "The flash point of a flammable liquid"
+    ],
+    "funFact": "Pinch analysis, developed by Bodo Linnhoff in the 1970s, has saved the chemical industry billions of pounds in energy costs. By mapping hot and cold process streams on a composite curve diagram, engineers can design heat exchanger networks that recover the maximum possible heat before resorting to external utilities.",
+    "sourceId": "src_chemical_engineering",
+    "topicId": "chemical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "hard"
   }
 ]
