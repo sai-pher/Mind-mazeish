@@ -60,10 +60,18 @@ jobs:
         run: flutter test --reporter expanded
 
       # Build number = CI run number (monotonically increasing = Android update-in-place)
+      - name: Decode keystore
+        run: |
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/upload-keystore.jks
+
       - name: Build release APK
         env:
           BUILD_NUMBER: ${{ github.run_number }}
           FEEDBACK_PAT: ${{ secrets.FEEDBACK_GITHUB_PAT }}
+          KEYSTORE_PATH: ${{ github.workspace }}/android/upload-keystore.jks
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
           flutter build apk \
             --release \
@@ -123,7 +131,7 @@ jobs:
           2. On your device: **Settings → Apps → Install unknown apps**
           3. Open the APK to install (or update if you have an older version)
 
-          > Signed with the debug keystore — for testing only. No API key required.
+          > Signed with the release keystore. No API key required.
           EOF
 
       # Tag each release with a proper version (e.g. v1.0.42)
