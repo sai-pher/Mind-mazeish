@@ -96,6 +96,11 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
           onPressed: () => context.pop(),
         ),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.bar_chart, color: AppColors.stoneMid),
+            tooltip: 'Question Bank Stats',
+            onPressed: () => context.push('/stats'),
+          ),
           TextButton(
             onPressed: _selectAll,
             child: const Text('All',

@@ -10,6 +10,7 @@ import 'features/article_viewer/presentation/screens/article_screen.dart';
 import 'features/results/presentation/screens/results_screen.dart';
 import 'features/notebook/presentation/screens/notebook_screen.dart';
 import 'features/feedback/presentation/screens/feedback_screen.dart';
+import 'features/start/presentation/screens/question_stats_screen.dart';
 
 final _router = GoRouter(
   initialLocation: '/',
@@ -31,6 +32,7 @@ final _router = GoRouter(
     GoRoute(path: '/results', builder: (_, __) => const ResultsScreen()),
     GoRoute(path: '/notebook', builder: (_, __) => const NotebookScreen()),
     GoRoute(path: '/feedback', builder: (_, __) => const FeedbackScreen()),
+    GoRoute(path: '/stats', builder: (_, __) => const QuestionStatsScreen()),
   ],
 );
 
