@@ -2,7 +2,7 @@
   {
     "id": "src_aortic_valve",
     "title": "Aortic Valve",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Aortic_valve",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -17,7 +17,7 @@
   {
     "id": "src_artery",
     "title": "Artery",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Artery",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -32,7 +32,7 @@
   {
     "id": "src_cerebellum",
     "title": "Cerebellum",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Cerebellum",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -47,7 +47,7 @@
   {
     "id": "src_collagen",
     "title": "Collagen",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Collagen",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -62,7 +62,7 @@
   {
     "id": "src_femur",
     "title": "Femur",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Femur",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -77,7 +77,7 @@
   {
     "id": "src_heart",
     "title": "Heart",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Heart",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -91,8 +91,8 @@
   },
   {
     "id": "src_human_skeleton",
-    "title": "Human Skeleton",
-    "url": "",
+    "title": "Human skeleton",
+    "url": "https://en.m.wikipedia.org/wiki/Human_skeleton",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -106,8 +106,8 @@
   },
   {
     "id": "src_human_skin",
-    "title": "Human Skin",
-    "url": "",
+    "title": "Human skin",
+    "url": "https://en.m.wikipedia.org/wiki/Human_skin",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -122,7 +122,7 @@
   {
     "id": "src_nephron",
     "title": "Nephron",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Nephron",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -137,7 +137,7 @@
   {
     "id": "src_neuron",
     "title": "Neuron",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Neuron",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -152,7 +152,7 @@
   {
     "id": "src_pancreas",
     "title": "Pancreas",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Pancreas",
     "summary": "",
     "categories": [],
     "topicIds": [

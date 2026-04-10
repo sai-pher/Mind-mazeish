@@ -1,8 +1,8 @@
 [
   {
     "id": "src_abo_blood_group_system",
-    "title": "Abo Blood Group System",
-    "url": "",
+    "title": "ABO blood group system",
+    "url": "https://en.m.wikipedia.org/wiki/ABO_blood_group_system",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -17,7 +17,7 @@
   {
     "id": "src_antibiotic",
     "title": "Antibiotic",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Antibiotic",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -32,7 +32,7 @@
   {
     "id": "src_appendectomy",
     "title": "Appendectomy",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Appendectomy",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -46,8 +46,8 @@
   },
   {
     "id": "src_blinded_experiment",
-    "title": "Blinded Experiment",
-    "url": "",
+    "title": "Blinded experiment",
+    "url": "https://en.m.wikipedia.org/wiki/Blinded_experiment",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -62,7 +62,7 @@
   {
     "id": "src_botulism",
     "title": "Botulism",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Botulism",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -76,8 +76,8 @@
   },
   {
     "id": "src_cohort_study",
-    "title": "Cohort Study",
-    "url": "",
+    "title": "Cohort study",
+    "url": "https://en.m.wikipedia.org/wiki/Cohort_study",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -91,8 +91,8 @@
   },
   {
     "id": "src_coronary_artery_bypass_surgery",
-    "title": "Coronary Artery Bypass Surgery",
-    "url": "",
+    "title": "Coronary artery bypass surgery",
+    "url": "https://en.m.wikipedia.org/wiki/Coronary_artery_bypass_surgery",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -107,7 +107,7 @@
   {
     "id": "src_joseph_lister",
     "title": "Joseph Lister",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Joseph_Lister",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -122,7 +122,7 @@
   {
     "id": "src_kidney",
     "title": "Kidney",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Kidney",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -136,8 +136,8 @@
   },
   {
     "id": "src_smallpox_vaccine",
-    "title": "Smallpox Vaccine",
-    "url": "",
+    "title": "Smallpox vaccine",
+    "url": "https://en.m.wikipedia.org/wiki/Smallpox_vaccine",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -152,7 +152,7 @@
   {
     "id": "src_xray",
     "title": "Xray",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/X-ray",
     "summary": "",
     "categories": [],
     "topicIds": [

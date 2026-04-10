@@ -2,7 +2,7 @@
   {
     "id": "src_albert_camus",
     "title": "Albert Camus",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Albert_Camus",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -17,7 +17,7 @@
   {
     "id": "src_charles_baudelaire",
     "title": "Charles Baudelaire",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Charles_Baudelaire",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -32,7 +32,7 @@
   {
     "id": "src_existentialism",
     "title": "Existentialism",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Existentialism",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -46,8 +46,8 @@
   },
   {
     "id": "src_french_new_novel",
-    "title": "French New Novel",
-    "url": "",
+    "title": "Nouveau roman",
+    "url": "https://en.m.wikipedia.org/wiki/Nouveau_roman",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -62,7 +62,7 @@
   {
     "id": "src_gustave_flaubert",
     "title": "Gustave Flaubert",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Gustave_Flaubert",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -77,7 +77,7 @@
   {
     "id": "src_jaccuse",
     "title": "Jaccuse",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/J%27Accuse...!",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -92,7 +92,7 @@
   {
     "id": "src_simone_de_beauvoir",
     "title": "Simone De Beauvoir",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Simone_de_Beauvoir",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -107,7 +107,7 @@
   {
     "id": "src_swanns_way",
     "title": "Swanns Way",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/In_Search_of_Lost_Time",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -121,8 +121,8 @@
   },
   {
     "id": "src_the_hunchback_of_notredame",
-    "title": "The Hunchback Of Notredame",
-    "url": "",
+    "title": "The Hunchback of Notre-Dame",
+    "url": "https://en.m.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -136,8 +136,8 @@
   },
   {
     "id": "src_the_miser_molire",
-    "title": "The Miser Molire",
-    "url": "",
+    "title": "The Miser",
+    "url": "https://en.m.wikipedia.org/wiki/The_Miser",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -151,8 +151,8 @@
   },
   {
     "id": "src_the_red_and_the_black",
-    "title": "The Red And The Black",
-    "url": "",
+    "title": "The Red and the Black",
+    "url": "https://en.m.wikipedia.org/wiki/The_Red_and_the_Black",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -167,7 +167,7 @@
   {
     "id": "src_victor_hugo",
     "title": "Victor Hugo",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Victor_Hugo",
     "summary": "",
     "categories": [],
     "topicIds": [

@@ -2,7 +2,7 @@
   {
     "id": "src_crossword",
     "title": "Crossword",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Crossword",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -17,7 +17,7 @@
   {
     "id": "src_jigsaw_puzzle",
     "title": "Jigsaw Puzzle",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Jigsaw_Puzzle",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -32,7 +32,7 @@
   {
     "id": "src_rubiks_cube",
     "title": "Rubiks Cube",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Rubik%27s_Cube",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -48,7 +48,7 @@
   {
     "id": "src_sudoku",
     "title": "Sudoku",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Sudoku",
     "summary": "",
     "categories": [],
     "topicIds": [

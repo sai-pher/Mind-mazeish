@@ -86,7 +86,6 @@ void main() {
                 '${missing.length} source entries have empty url fields. '
                 'Run the generate-questions workflow to populate them.');
       },
-      skip: 'pending data backfill — issue #27',
     );
   });
 

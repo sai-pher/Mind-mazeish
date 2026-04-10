@@ -1,8 +1,8 @@
 [
   {
     "id": "src_a_dictionary_of_the_english_language",
-    "title": "A Dictionary Of The English Language",
-    "url": "",
+    "title": "A Dictionary of the English Language",
+    "url": "https://en.m.wikipedia.org/wiki/A_Dictionary_of_the_English_Language",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -17,7 +17,7 @@
   {
     "id": "src_etymology",
     "title": "Etymology",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Etymology",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -32,7 +32,7 @@
   {
     "id": "src_oxford_english_dictionary",
     "title": "Oxford English Dictionary",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Oxford_English_Dictionary",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -47,7 +47,7 @@
   {
     "id": "src_thesaurus",
     "title": "Thesaurus",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Thesaurus",
     "summary": "",
     "categories": [],
     "topicIds": [

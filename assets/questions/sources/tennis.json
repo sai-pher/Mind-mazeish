@@ -2,7 +2,7 @@
   {
     "id": "src_french_open",
     "title": "French Open",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/French_Open",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -42,7 +42,7 @@
   {
     "id": "src_open_era",
     "title": "Open Era",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/History_of_tennis",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -57,7 +57,7 @@
   {
     "id": "src_roger_federer",
     "title": "Roger Federer",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Roger_Federer",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -122,7 +122,7 @@
   {
     "id": "src_tennis",
     "title": "Tennis",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Tennis",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -137,7 +137,7 @@
   {
     "id": "src_wimbledon_championships",
     "title": "Wimbledon Championships",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Wimbledon_Championships",
     "summary": "",
     "categories": [],
     "topicIds": [

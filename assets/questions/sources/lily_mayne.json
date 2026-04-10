@@ -1,8 +1,8 @@
 [
   {
     "id": "src_gay_literature",
-    "title": "Gay Literature",
-    "url": "",
+    "title": "LGBTQ literature",
+    "url": "https://en.m.wikipedia.org/wiki/LGBTQ_literature",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -18,7 +18,7 @@
   {
     "id": "src_paranormal_romance",
     "title": "Paranormal Romance",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Paranormal_romance",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -33,8 +33,8 @@
   },
   {
     "id": "src_romance_novel",
-    "title": "Romance Novel",
-    "url": "",
+    "title": "Romance novel",
+    "url": "https://en.m.wikipedia.org/wiki/Romance_novel",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -51,8 +51,8 @@
   },
   {
     "id": "src_selfpublishing",
-    "title": "Selfpublishing",
-    "url": "",
+    "title": "Self-publishing",
+    "url": "https://en.m.wikipedia.org/wiki/Self-publishing",
     "summary": "",
     "categories": [],
     "topicIds": [

@@ -2,7 +2,7 @@
   {
     "id": "src_lake_superior",
     "title": "Lake Superior",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Lake_Superior",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -17,7 +17,7 @@
   {
     "id": "src_nile",
     "title": "Nile",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Nile",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -32,7 +32,7 @@
   {
     "id": "src_ocean",
     "title": "Ocean",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Ocean",
     "summary": "",
     "categories": [],
     "topicIds": [

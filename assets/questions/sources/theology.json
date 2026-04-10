@@ -2,7 +2,7 @@
   {
     "id": "src_dharma",
     "title": "Dharma",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Dharma",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -17,7 +17,7 @@
   {
     "id": "src_eschatology",
     "title": "Eschatology",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Eschatology",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -32,7 +32,7 @@
   {
     "id": "src_first_council_of_nicaea",
     "title": "First Council Of Nicaea",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/First_Council_of_Nicaea",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -46,8 +46,8 @@
   },
   {
     "id": "src_five_pillars_of_islam",
-    "title": "Five Pillars Of Islam",
-    "url": "",
+    "title": "Five Pillars of Islam",
+    "url": "https://en.m.wikipedia.org/wiki/Five_Pillars_of_Islam",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -62,7 +62,7 @@
   {
     "id": "src_nirvana",
     "title": "Nirvana",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Nirvana",
     "summary": "",
     "categories": [],
     "topicIds": [
