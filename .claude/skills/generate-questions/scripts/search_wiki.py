@@ -84,7 +84,10 @@ def search(query: str, n: int) -> list[dict]:
             if _is_disambiguation(page.title, summary, cats):
                 continue
 
-            url = "https://en.m.wikipedia.org/wiki/" + page.title.replace(" ", "_")
+            url = page.fullurl.replace(
+                "https://en.wikipedia.org/",
+                "https://en.m.wikipedia.org/",
+            )
             results.append({
                 "title": page.title,
                 "summary": summary,

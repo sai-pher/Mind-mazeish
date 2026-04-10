@@ -25,13 +25,20 @@ class ArticleScreen extends ConsumerStatefulWidget {
 }
 
 class _ArticleScreenState extends ConsumerState<ArticleScreen> {
-  late final WebViewController _controller;
+  WebViewController? _controller;
   bool _isLoading = true;
   bool _saved = false;
+
+  static bool _isValidUrl(String url) {
+    final uri = Uri.tryParse(url);
+    return uri != null && (uri.scheme == 'https' || uri.scheme == 'http');
+  }
 
   @override
   void initState() {
     super.initState();
+    if (!_isValidUrl(widget.url)) return;
+
     _controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..setNavigationDelegate(
@@ -80,13 +87,43 @@ class _ArticleScreenState extends ConsumerState<ArticleScreen> {
           onPressed: () => context.pop(),
         ),
       ),
-      body: Stack(
-        children: [
-          WebViewWidget(controller: _controller),
-          if (_isLoading)
-            const Center(
-              child: CircularProgressIndicator(color: AppColors.torchAmber),
+      body: _controller == null
+          ? const _NoArticlePlaceholder()
+          : Stack(
+              children: [
+                WebViewWidget(controller: _controller!),
+                if (_isLoading)
+                  const Center(
+                    child:
+                        CircularProgressIndicator(color: AppColors.torchAmber),
+                  ),
+              ],
             ),
+    );
+  }
+}
+
+class _NoArticlePlaceholder extends StatelessWidget {
+  const _NoArticlePlaceholder();
+
+  @override
+  Widget build(BuildContext context) {
+    return const Center(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(Icons.menu_book_outlined, size: 48, color: AppColors.torchAmber),
+          SizedBox(height: 16),
+          Text(
+            'No article available',
+            style: TextStyle(color: AppColors.textLight, fontSize: 16),
+          ),
+          SizedBox(height: 8),
+          Text(
+            'This question has no linked Wikipedia article yet.',
+            style: TextStyle(color: AppColors.textLight, fontSize: 13),
+            textAlign: TextAlign.center,
+          ),
         ],
       ),
     );

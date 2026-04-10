@@ -2,7 +2,7 @@
   {
     "id": "src_ambergris",
     "title": "Ambergris",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Ambergris",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -16,8 +16,8 @@
   },
   {
     "id": "src_fragrance_pyramid",
-    "title": "Fragrance Pyramid",
-    "url": "",
+    "title": "Perfume",
+    "url": "https://en.m.wikipedia.org/wiki/Perfume",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -32,7 +32,7 @@
   {
     "id": "src_grasse",
     "title": "Grasse",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Grasse",
     "summary": "",
     "categories": [],
     "topicIds": [

@@ -2,7 +2,7 @@
   {
     "id": "src_aeropress",
     "title": "Aeropress",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/AeroPress",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -16,8 +16,8 @@
   },
   {
     "id": "src_cold_brew_coffee",
-    "title": "Cold Brew Coffee",
-    "url": "",
+    "title": "Cold brew coffee",
+    "url": "https://en.m.wikipedia.org/wiki/Cold_brew_coffee",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -32,7 +32,7 @@
   {
     "id": "src_espresso",
     "title": "Espresso",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Espresso",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -47,7 +47,7 @@
   {
     "id": "src_french_press",
     "title": "French Press",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/French_press",
     "summary": "",
     "categories": [],
     "topicIds": [

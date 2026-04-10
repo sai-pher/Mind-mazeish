@@ -2,7 +2,7 @@
   {
     "id": "src_autism_spectrum",
     "title": "Autism Spectrum",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Autism",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -16,8 +16,8 @@
   },
   {
     "id": "src_causes_of_autism",
-    "title": "Causes Of Autism",
-    "url": "",
+    "title": "Causes of autism",
+    "url": "https://en.m.wikipedia.org/wiki/Causes_of_autism",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -32,7 +32,7 @@
   {
     "id": "src_leo_kanner",
     "title": "Leo Kanner",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Leo_Kanner",
     "summary": "",
     "categories": [],
     "topicIds": [

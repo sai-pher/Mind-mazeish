@@ -5,7 +5,7 @@ import '../../domain/models/question.dart';
 
 class QuestionCard extends StatelessWidget {
   final QuizQuestion question;
-  final VoidCallback onArticleTap;
+  final VoidCallback? onArticleTap;
 
   const QuestionCard({
     super.key,
@@ -33,24 +33,26 @@ class QuestionCard extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(width: 10),
-            Tooltip(
-              message: question.articleTitle,
-              child: GestureDetector(
-                onTap: onArticleTap,
-                child: Container(
-                  padding: const EdgeInsets.all(7),
-                  decoration: BoxDecoration(
-                    color: AppColors.torchAmber.withValues(alpha: 0.15),
-                    borderRadius: BorderRadius.circular(8),
-                    border: Border.all(
-                        color: AppColors.torchAmber.withValues(alpha: 0.45)),
+            if (onArticleTap != null) ...[
+              const SizedBox(width: 10),
+              Tooltip(
+                message: question.articleTitle,
+                child: GestureDetector(
+                  onTap: onArticleTap,
+                  child: Container(
+                    padding: const EdgeInsets.all(7),
+                    decoration: BoxDecoration(
+                      color: AppColors.torchAmber.withValues(alpha: 0.15),
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(
+                          color: AppColors.torchAmber.withValues(alpha: 0.45)),
+                    ),
+                    child: const Icon(Icons.menu_book,
+                        size: 18, color: AppColors.torchAmber),
                   ),
-                  child: const Icon(Icons.menu_book,
-                      size: 18, color: AppColors.torchAmber),
                 ),
               ),
-            ),
+            ],
           ],
         ),
       ),

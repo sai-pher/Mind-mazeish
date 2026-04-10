@@ -2,7 +2,7 @@
   {
     "id": "src_amazon_kindle",
     "title": "Amazon Kindle",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Amazon_Kindle",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -17,7 +17,7 @@
   {
     "id": "src_iphone",
     "title": "Iphone",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/IPhone",
     "summary": "",
     "categories": [],
     "topicIds": [
@@ -32,7 +32,7 @@
   {
     "id": "src_smartphone",
     "title": "Smartphone",
-    "url": "",
+    "url": "https://en.m.wikipedia.org/wiki/Smartphone",
     "summary": "",
     "categories": [],
     "topicIds": [
