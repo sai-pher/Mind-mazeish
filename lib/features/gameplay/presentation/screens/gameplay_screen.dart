@@ -150,11 +150,13 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
                     else ...[
                       QuestionCard(
                         question: question,
-                        onArticleTap: () => context.push('/article', extra: {
-                          'url': question.articleUrl,
-                          'title': question.articleTitle,
-                          'topicId': question.topicId,
-                        }),
+                        onArticleTap: question.articleUrl.isEmpty
+                            ? null
+                            : () => context.push('/article', extra: {
+                                  'url': question.articleUrl,
+                                  'title': question.articleTitle,
+                                  'topicId': question.topicId,
+                                }),
                       ),
                       const SizedBox(height: 14),
                       _AnswerGrid(
