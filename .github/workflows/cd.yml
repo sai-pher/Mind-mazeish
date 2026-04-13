@@ -137,7 +137,7 @@ jobs:
       # Tag each release with a proper version (e.g. v1.0.42)
       # Also maintains the rolling latest-build tag for in-app update checks.
       - name: Publish GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ steps.apk.outputs.version }}
           name: "Mind Mazeish ${{ steps.apk.outputs.version }}"
@@ -147,7 +147,7 @@ jobs:
           files: ${{ steps.apk.outputs.path }}
 
       - name: Update rolling latest-build tag
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: latest-build
           name: "Latest Build"
