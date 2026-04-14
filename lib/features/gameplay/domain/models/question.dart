@@ -1,5 +1,9 @@
 import 'dart:math';
 
+import 'package:flutter/material.dart';
+
+import '../../../../core/theme/app_theme.dart';
+
 enum QuestionDifficulty {
   easy,
   medium,
@@ -113,4 +117,12 @@ class QuizQuestion {
   String get articleUrl => source.articleUrl;
   String get topicId => source.topicId;
   QuestionDifficulty get difficulty => source.difficulty;
+
+  /// Visual representation of this question's difficulty.
+  ({String emoji, Color color, String label}) get difficultyDisplay =>
+      switch (difficulty) {
+        QuestionDifficulty.easy   => (emoji: '🕯️', color: AppColors.torchGold,  label: 'Easy'),
+        QuestionDifficulty.medium => (emoji: '🔥', color: AppColors.torchAmber, label: 'Medium'),
+        QuestionDifficulty.hard   => (emoji: '⚔️', color: AppColors.dangerRed,  label: 'Hard'),
+      };
 }
