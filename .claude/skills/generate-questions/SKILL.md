@@ -1,10 +1,10 @@
 ---
 name: generate-questions
-description: Generate trivia questions for the Mind Mazeish castle game and append them to per-topic JSON files in assets/questions/topics/. Use when expanding an existing topic, adding questions to a specific topicId, seeding a brand-new topic (target ≥ 30 questions), or bulk-updating multiple topics at once. Fetches Wikipedia source material via bundled scripts. Falls back to built-in knowledge when network is unavailable.
-compatibility: Requires Python 3.9+ with Wikipedia-API<0.10.0 installed (pip install -r .claude/skills/generate-questions/scripts/requirements.txt). Internet access recommended for Wikipedia sourcing.
+description: Generate trivia questions for the Mind Mazeish castle game and append them to per-topic JSON files in assets/questions/topics/. Use when expanding an existing topic, adding questions to a specific topicId, seeding a brand-new topic (target ≥ 30 questions), or bulk-updating multiple topics at once. Requires Wikipedia source material — aborts if network is unavailable.
+compatibility: Requires Python 3.9+ with Wikipedia-API<0.10.0 installed (pip install -r .claude/skills/generate-questions/scripts/requirements.txt). Internet access required.
 metadata:
   author: ariwoode
-  version: "1.3"
+  version: "1.4"
 ---
 
 # generate-questions
@@ -37,7 +37,7 @@ Generates trivia questions and appends them to `assets/questions/topics/{topicId
 | `correctAnswers` | 1–3 equally-valid items (see difficulty criteria below) |
 | `wrongAnswers` | **target 8–12**, min 4, max 20 — plausible (same category / era / scale) |
 | `difficulty` | `easy` / `medium` / `hard` — aim for balanced spread |
-| `sourceId` | `src_{slugify(articleTitle)}` — empty string only if no source used |
+| `sourceId` | `src_{slugify(articleTitle)}` — **must be a valid, non-empty source id** |
 | `topicCategoryId` | From `registry.json` for this topic |
 | `superCategoryId` | From `registry.json` for this topic |
 | `topicId` | Must match key in `topic_registry.dart` exactly |
@@ -75,7 +75,7 @@ python3 .claude/skills/generate-questions/scripts/search_wiki.py "{topic name}" 
 ```
 - **Exit 0, results** → select 2–3 most relevant articles; skip disambiguation pages
 - **Exit 0, `[]`** → guess canonical title (e.g. `"Coffee"` for topicId `coffee`)
-- **Exit 3** → network unavailable; set `network_down = true`; skip Steps 1.5 & 2
+- **Exit 3** → **network unavailable — abort entirely. Do not generate any questions. Inform the user and stop.**
 
 **After a successful search** — immediately persist all results:
 ```bash
@@ -86,7 +86,7 @@ This upserts stubs into `assets/questions/sources/{topicId}.json` without overwr
 
 ### Step 3 — Spawn one sub-agent per topic
 
-**Network available:**
+**Wikipedia mode (default):**
 > Generate {N} trivia questions for topicId `{topicId}` (topicCategoryId: `{tcId}`, superCategoryId: `{scId}`).
 > Covering {brief description}.
 > Existing IDs to avoid: {comma-separated list}.
@@ -103,24 +103,17 @@ This upserts stubs into `assets/questions/sources/{topicId}.json` without overwr
 > ```
 > The first command prints the article text (use it for question generation) and writes `/tmp/wiki_article.txt`.
 > The second command saves it to the sources file; it skips the write if `articleText` is already set.
-> If `fetch_wiki.py` exits 2 or 3: skip both commands; use built-in knowledge; set `sourceId` to `""`;
-> append `"(Based on general knowledge — no Wikipedia source was available.)"` to funFact.
+> **If `fetch_wiki.py` exits 2 or 3: do not generate any questions for this article. Skip it and
+> continue with remaining articles. If ALL articles fail, abort and report the failure — do not write
+> any questions.**
 >
-> Derive `sourceId` = `src_{slugify(articleTitle)}` for each fetched article.
+> Every question **must** derive from a fetched article. Set `sourceId` = `src_{slugify(articleTitle)}`.
+> Never set `sourceId` to `""` or use built-in knowledge as a source.
 > Set `topicCategoryId` = `{tcId}`, `superCategoryId` = `{scId}` on every question.
 > Target 8–12 wrongAnswers per question.
 >
 > Append new questions to `assets/questions/topics/{topicId}.json` (read first, then append).
-> Reply: new IDs written + which article each came from (or "general knowledge").
-
-**Network down:**
-> Generate {N} questions for topicId `{topicId}` (topicCategoryId: `{tcId}`, superCategoryId: `{scId}`).
-> Existing IDs to avoid: {comma-separated list}. Start from `{topicId}_{NNN}`.
-> Network unavailable — use built-in knowledge only. Set `sourceId` to `""`.
-> Append `"(Based on general knowledge — no Wikipedia source was available.)"` to each funFact.
-> Set `topicCategoryId` = `{tcId}`, `superCategoryId` = `{scId}` on every question.
-> Target 8–12 wrongAnswers per question.
-> Append to `assets/questions/topics/{topicId}.json`. Reply: new IDs written.
+> Reply: new IDs written + which article each came from.
 
 **Facts mode** (user selected facts from existing sources):
 > Generate {N} questions for topicId `{topicId}` using the facts in `assets/questions/sources/{topicId}.json`.
@@ -154,10 +147,10 @@ git push -u origin $(git branch --show-current)
 
 ### Step 6 — Report
 ```
-| Topic  | Added | Sources                                         |
-|--------|-------|-------------------------------------------------|
-| coffee |   5   | src_coffee (3 q), src_coffee_brewing (2 q)      |
-| tennis |   5   | src_serena_williams (4 q), general knowledge (1)|
+| Topic  | Added | Sources                                              |
+|--------|-------|------------------------------------------------------|
+| coffee |   5   | src_coffee (3 q), src_coffee_brewing (2 q)           |
+| tennis |   5   | src_tennis (3 q), src_serena_williams (2 q)          |
 ```
 
 ---
