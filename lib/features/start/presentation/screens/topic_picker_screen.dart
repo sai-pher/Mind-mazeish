@@ -21,6 +21,7 @@ class TopicPickerScreen extends ConsumerStatefulWidget {
 class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
   late Set<String> _selected;
   int _questionCount = 10;
+  GameMode _gameMode = GameMode.standard;
 
   @override
   void initState() {
@@ -28,9 +29,12 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
     final config = ref.read(quizConfigProvider);
     _selected = Set.from(config.selectedTopicIds);
     _questionCount = config.questionCount;
+    _gameMode = config.gameMode;
   }
 
-  bool get _canStart => _selected.isNotEmpty;
+  bool get _canStart =>
+      _selected.isNotEmpty &&
+      (_gameMode == GameMode.endless ? _availableQuestions > 0 : true);
 
   int get _availableQuestions {
     return ref.watch(questionsProvider).maybeWhen(
@@ -80,6 +84,7 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
     final config = QuizConfig(
       selectedTopicIds: Set.from(_selected),
       questionCount: _questionCount,
+      gameMode: _gameMode,
     );
     ref.read(quizConfigProvider.notifier).state = config;
     await ref.read(gameStateProvider.notifier).startGame(config);
@@ -134,8 +139,10 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
           _BottomBar(
             questionCount: _questionCount,
             availableQuestions: _availableQuestions,
+            gameMode: _gameMode,
             canStart: _canStart,
             onCountChanged: (c) => setState(() => _questionCount = c),
+            onModeChanged: (m) => setState(() => _gameMode = m),
             onStart: _startGame,
           ),
         ],
@@ -350,22 +357,36 @@ class _CategoryTile extends StatelessWidget {
 class _BottomBar extends StatelessWidget {
   final int questionCount;
   final int availableQuestions;
+  final GameMode gameMode;
   final bool canStart;
   final void Function(int) onCountChanged;
+  final void Function(GameMode) onModeChanged;
   final VoidCallback onStart;
 
   const _BottomBar({
     required this.questionCount,
     required this.availableQuestions,
+    required this.gameMode,
     required this.canStart,
     required this.onCountChanged,
+    required this.onModeChanged,
     required this.onStart,
   });
 
   @override
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
-    final tooFew = availableQuestions < questionCount;
+    final isEndless = gameMode == GameMode.endless;
+    final tooFew = !isEndless && availableQuestions < questionCount;
+
+    String buttonLabel;
+    if (!canStart) {
+      buttonLabel = 'Select at least one topic';
+    } else if (isEndless) {
+      buttonLabel = 'Start — all $availableQuestions questions';
+    } else {
+      buttonLabel = 'Start — $questionCount questions';
+    }
 
     return Container(
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 24),
@@ -376,63 +397,81 @@ class _BottomBar extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+          // Mode toggle
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('Questions: ',
-                  style: textTheme.labelMedium
-                      ?.copyWith(color: AppColors.textLight)),
+              _ModeChip(
+                label: 'Standard',
+                active: !isEndless,
+                onTap: () => onModeChanged(GameMode.standard),
+              ),
               const SizedBox(width: 8),
-              ...[5, 10, 20].map((n) {
-                final active = n == questionCount;
-                return Padding(
-                  padding: const EdgeInsets.only(right: 6),
-                  child: GestureDetector(
-                    onTap: () => onCountChanged(n),
-                    child: Container(
-                      width: 44,
-                      height: 36,
-                      alignment: Alignment.center,
-                      decoration: BoxDecoration(
-                        color: active
-                            ? AppColors.torchAmber
-                            : AppColors.stone,
-                        borderRadius: BorderRadius.circular(6),
-                        border: Border.all(
-                            color: active
-                                ? AppColors.torchAmber
-                                : AppColors.stoneMid),
-                      ),
-                      child: Text(
-                        '$n',
-                        style: TextStyle(
-                          color: active
-                              ? AppColors.textDark
-                              : AppColors.textLight,
-                          fontWeight: FontWeight.bold,
+              _ModeChip(
+                label: '∞ Endless',
+                active: isEndless,
+                onTap: () => onModeChanged(GameMode.endless),
+              ),
+            ],
+          ),
+          const SizedBox(height: 10),
+
+          // Question count (hidden in endless mode)
+          if (!isEndless)
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('Questions: ',
+                    style: textTheme.labelMedium
+                        ?.copyWith(color: AppColors.textLight)),
+                const SizedBox(width: 8),
+                ...[5, 10, 20].map((n) {
+                  final active = n == questionCount;
+                  return Padding(
+                    padding: const EdgeInsets.only(right: 6),
+                    child: GestureDetector(
+                      onTap: () => onCountChanged(n),
+                      child: Container(
+                        width: 44,
+                        height: 36,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: active ? AppColors.torchAmber : AppColors.stone,
+                          borderRadius: BorderRadius.circular(6),
+                          border: Border.all(
+                            color:
+                                active ? AppColors.torchAmber : AppColors.stoneMid,
+                          ),
+                        ),
+                        child: Text(
+                          '$n',
+                          style: TextStyle(
+                            color:
+                                active ? AppColors.textDark : AppColors.textLight,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                );
-              }),
-            ],
-          ),
+                  );
+                }),
+              ],
+            ),
+
           if (tooFew && canStart)
             Padding(
               padding: const EdgeInsets.only(top: 6),
               child: Text(
                 'Only $availableQuestions questions in selected topics.',
-                style: textTheme.bodySmall
-                    ?.copyWith(color: AppColors.dangerRed),
+                style:
+                    textTheme.bodySmall?.copyWith(color: AppColors.dangerRed),
               ),
             ),
           const SizedBox(height: 12),
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed:
-                  canStart && !tooFew ? onStart : null,
+              onPressed: canStart && !tooFew ? onStart : null,
               style: ElevatedButton.styleFrom(
                 backgroundColor: AppColors.torchAmber,
                 foregroundColor: AppColors.textDark,
@@ -441,15 +480,53 @@ class _BottomBar extends StatelessWidget {
                     borderRadius: BorderRadius.circular(6)),
               ),
               child: Text(
-                canStart
-                    ? 'Start — $questionCount questions'
-                    : 'Select at least one topic',
+                buttonLabel,
                 style: textTheme.labelLarge
                     ?.copyWith(color: AppColors.textDark),
               ),
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _ModeChip extends StatelessWidget {
+  final String label;
+  final bool active;
+  final VoidCallback onTap;
+
+  const _ModeChip({
+    required this.label,
+    required this.active,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        decoration: BoxDecoration(
+          color: active
+              ? AppColors.torchAmber.withValues(alpha: 0.2)
+              : AppColors.stoneDark,
+          borderRadius: BorderRadius.circular(20),
+          border: Border.all(
+            color: active ? AppColors.torchAmber : AppColors.stoneMid,
+            width: 1.5,
+          ),
+        ),
+        child: Text(
+          label,
+          style: TextStyle(
+            color: active ? AppColors.torchAmber : AppColors.stoneMid,
+            fontWeight: active ? FontWeight.w700 : FontWeight.normal,
+            fontSize: 13,
+          ),
+        ),
       ),
     );
   }
