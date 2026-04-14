@@ -9,7 +9,188 @@
       "therapy"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_cognitive_behavioral_therapy_001",
+        "text": "Cognitive behavioral therapy (CBT) combines principles from both cognitive psychology and behaviorism.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_002",
+        "text": "CBT has philosophical precursors in ancient Stoicism.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_003",
+        "text": "CBT developed in three distinct waves throughout the 20th century.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_004",
+        "text": "The first wave of CBT development consisted of behaviorism in the 1920s and behavioral therapy in the 1950s–1960s.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_005",
+        "text": "Cognitive therapy was developed by psychoanalyst Aaron Beck in the 1950s.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_006",
+        "text": "The third wave of CBT in the 1980s–1990s drew significantly from Buddhist principles, especially mindfulness and acceptance.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_007",
+        "text": "Over time, CBT became an umbrella term for all cognitive-based psychotherapies.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_008",
+        "text": "CBT is described as both 'problem-focused' and 'action-oriented' in its therapeutic approach.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_009",
+        "text": "Mainstream CBT assumes that changing maladaptive thinking leads to change in behavior and affect.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_010",
+        "text": "Recent variants of CBT emphasize changing one's relationship to maladaptive thinking rather than changing the thinking itself.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_011",
+        "text": "CBT techniques are often adapted for self-help applications outside of clinical settings.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_012",
+        "text": "CBT is used in both individual and group therapy settings.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_013",
+        "text": "Some CBT treatments are manualized — meaning they follow a specific written protocol for individual disorders.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_014",
+        "text": "CBT has been shown effective for treating body dysmorphic disorder in adults.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_015",
+        "text": "CBT alone has been found as effective as psychoactive medications for treating less severe forms of depression.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_016",
+        "text": "Research suggests CBT is most effective when combined with medication for major depressive disorder.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_017",
+        "text": "CBT is effective as part of treatment after spinal cord injuries.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_018",
+        "text": "CBT has been used to treat trichotillomania (compulsive hair-pulling) in children and adolescents.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_019",
+        "text": "CBT is an effective treatment for tic disorders in children and adolescents.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_020",
+        "text": "In 2008, the UK's National Health Service announced it would train more therapists in CBT at government expense.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_021",
+        "text": "The UK NHS initiative to expand CBT access was called Improving Access to Psychological Therapies (IAPT).",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_022",
+        "text": "The UK's NICE recommended CBT as the mainstay treatment for non-severe depression, with medication only if CBT failed.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_023",
+        "text": "Psychotherapist Andrew Samuels criticized CBT's NHS dominance as 'a coup' and 'a power play' over mental health funding.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_024",
+        "text": "The UK Council for Psychotherapy criticized IAPT policies in 2012 for limiting therapies to 'a watered-down version of CBT' delivered by lightly trained staff.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_025",
+        "text": "Imaginal exposure therapy is a CBT intervention that combines both cognitive and behavioral approaches.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_026",
+        "text": "CBT has been shown effective for treating fibromyalgia-related depression and anxiety.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_027",
+        "text": "CBT techniques include self-instructions such as distraction, imagery, and motivational self-talk.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_028",
+        "text": "CBT is an effective part of treatment plans for psychosis and schizophrenia in adults.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_029",
+        "text": "CBT has been used to treat obsessive-compulsive disorder (OCD) in children and adolescents.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cognitive_behavioral_therapy_030",
+        "text": "CBT is effective for treating post-traumatic stress disorder (PTSD) in children and adolescents.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
     "questionIds": [
       "ther_001"
     ]

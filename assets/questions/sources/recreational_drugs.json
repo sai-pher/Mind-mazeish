@@ -24,7 +24,146 @@
       "recreational_drugs"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_cannabis_drug_001",
+        "text": "Cannabis contains 483 known compounds, including at least 65 cannabinoids beyond THC.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_002",
+        "text": "Tetrahydrocannabinol (THC) is the main psychoactive component of cannabis.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_003",
+        "text": "When cannabis is eaten rather than smoked, effects can take up to 90 minutes to onset because the drug must be digested and absorbed.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_004",
+        "text": "The effects of cannabis last for two to six hours depending on the amount used.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_005",
+        "text": "At high doses, cannabis can cause hallucinations and delusions, including ideas of reference.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_006",
+        "text": "Cannabis is native to Central or South Asia.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_007",
+        "text": "The ancient Greeks called cannabis 'κάνναβις' and may have learned of its use by observing Scythian funerals.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_008",
+        "text": "In Akkadian, cannabis was known as 'qunubu'.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_009",
+        "text": "The Hebrew word for cannabis, 'qaneh bosem', was adopted from the Akkadian.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_010",
+        "text": "The Latin word 'cannabis' evolved through Proto-Germanic into the modern English word 'hemp'.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_011",
+        "text": "CBD is a 5-HT1A receptor agonist, placing it in the same receptor class as certain anti-anxiety compounds.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_012",
+        "text": "The commonly held belief that sativa strains are stimulating and indica strains are sedating is disputed by researchers.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_013",
+        "text": "A 2015 review found high CBD-to-THC cannabis strains were associated with lower risk of developing psychosis and better cognitive function.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_014",
+        "text": "High CBD-to-THC strains were also associated with a later age of onset of psychosis compared to low CBD-to-THC strains.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_015",
+        "text": "The origins of the word 'cannabis' are linked to a Scythian word.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_016",
+        "text": "Almost two-thirds of poly-drug users in the 2009–2010 Scottish Crime and Justice Survey used cannabis.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_017",
+        "text": "Cannabis research is complicated by the fact that many cannabis smokers also smoke tobacco, making it difficult to isolate the health effects of each.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_018",
+        "text": "The gateway hypothesis proposes that cannabis use increases the probability of trying harder drugs.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_019",
+        "text": "A Pew Research Center poll found political opposition to marijuana was significantly linked to concerns about health effects and children's access.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_020",
+        "text": "Cannabis produces an increase in appetite as one of its known physical effects.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_021",
+        "text": "Cannabis can impair short-term memory, balance, and fine psychomotor control.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_022",
+        "text": "When smoked, the onset of cannabis effects is felt within minutes.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_cannabis_drug_023",
+        "text": "Cannabis has been used as an entheogenic drug in various traditional medicines for centuries.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
     "questionIds": [
       "rec_001"
     ]

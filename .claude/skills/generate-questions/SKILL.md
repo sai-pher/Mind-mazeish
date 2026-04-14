@@ -4,7 +4,7 @@ description: Generate trivia questions for the Mind Mazeish castle game and appe
 compatibility: Requires Python 3.9+ with Wikipedia-API<0.10.0 installed (pip install -r .claude/skills/generate-questions/scripts/requirements.txt). Internet access recommended for Wikipedia sourcing.
 metadata:
   author: ariwoode
-  version: "1.2"
+  version: "1.3"
 ---
 
 # generate-questions
@@ -69,13 +69,20 @@ Generates trivia questions and appends them to `assets/questions/topics/{topicId
 ### Step 1 — Determine work items
 For each topic: read `assets/questions/topics/{topicId}.json`, note current count, highest id suffix, and existing IDs (for dedup). Read `registry.json` for `topicCategoryId`/`superCategoryId`. Group topics by TopicCategory; process one category at a time.
 
-### Step 1.5 — Search Wikipedia
+### Step 1.5 — Search Wikipedia and save source stubs
 ```bash
 python3 .claude/skills/generate-questions/scripts/search_wiki.py "{topic name}" --results 5
 ```
 - **Exit 0, results** → select 2–3 most relevant articles; skip disambiguation pages
 - **Exit 0, `[]`** → guess canonical title (e.g. `"Coffee"` for topicId `coffee`)
 - **Exit 3** → network unavailable; set `network_down = true`; skip Steps 1.5 & 2
+
+**After a successful search** — immediately persist all results:
+```bash
+python3 .claude/skills/generate-questions/scripts/search_wiki.py "{topic name}" --results 5 \
+  | python3 .claude/skills/generate-questions/scripts/save_sources.py --topic {topicId}
+```
+This upserts stubs into `assets/questions/sources/{topicId}.json` without overwriting existing values. Source stubs exist on disk before sub-agents run, even if generation is later interrupted.
 
 ### Step 3 — Spawn one sub-agent per topic
 
@@ -85,8 +92,18 @@ python3 .claude/skills/generate-questions/scripts/search_wiki.py "{topic name}" 
 > Existing IDs to avoid: {comma-separated list}.
 > Start from: `{topicId}_{NNN}`.
 >
-> Fetch each article with `python3 .claude/skills/generate-questions/scripts/fetch_wiki.py "{title}"` (no `--summary-only`).
-> If a fetch exits 2 or 3: skip it; use built-in knowledge; set `sourceId` to `""`;
+> For each article title to fetch:
+>
+> **A. Fetch article text (and save it):**
+> ```
+> python3 .claude/skills/generate-questions/scripts/fetch_wiki.py "{title}" \
+>   | tee /tmp/wiki_article.txt
+> python3 .claude/skills/generate-questions/scripts/save_sources.py \
+>   --topic {topicId} --source-id src_{slugify(title)} --article-text < /tmp/wiki_article.txt
+> ```
+> The first command prints the article text (use it for question generation) and writes `/tmp/wiki_article.txt`.
+> The second command saves it to the sources file; it skips the write if `articleText` is already set.
+> If `fetch_wiki.py` exits 2 or 3: skip both commands; use built-in knowledge; set `sourceId` to `""`;
 > append `"(Based on general knowledge — no Wikipedia source was available.)"` to funFact.
 >
 > Derive `sourceId` = `src_{slugify(articleTitle)}` for each fetched article.
@@ -112,7 +129,7 @@ python3 .claude/skills/generate-questions/scripts/search_wiki.py "{topic name}" 
 > Existing IDs to avoid: {list}. Start from `{topicId}_{NNN}`.
 > Append to `assets/questions/topics/{topicId}.json`. Reply: new IDs written.
 
-Wait for each sub-agent to complete before spawning the next.
+Spawn one sub-agent per topic, in sequence — wait for each to complete before spawning the next. No parallel agents.
 
 ### Step 3.5 — Sync sources
 ```bash

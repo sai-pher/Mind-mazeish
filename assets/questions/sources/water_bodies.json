@@ -39,7 +39,188 @@
       "water_bodies"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_ocean_001",
+        "text": "The ocean covers approximately 70.8% of Earth's surface.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_002",
+        "text": "The ocean contains 97% of Earth's water.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_003",
+        "text": "The Pacific Ocean is the largest ocean by area.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_004",
+        "text": "The five oceans in descending order by area are: Pacific, Atlantic, Indian, Antarctic/Southern, and Arctic.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_005",
+        "text": "Life within the ocean evolved 3 billion years prior to life on land.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_006",
+        "text": "The ocean still supplies approximately half of Earth's atmospheric oxygen.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_007",
+        "text": "The ocean originated photosynthesis on Earth.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_008",
+        "text": "Seawater covers about 361,000,000 km² of Earth's surface.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_009",
+        "text": "Point Nemo is the ocean's furthest pole of inaccessibility, located in the South Pacific Ocean.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_010",
+        "text": "Point Nemo is roughly 2,688 km from the nearest land.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_011",
+        "text": "The region around Point Nemo is known as the 'spacecraft cemetery' of the South Pacific Ocean.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_012",
+        "text": "Point Nemo is located at coordinates 48°52.6′S 123°23.6′W.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_013",
+        "text": "In Earth's early history, the ocean is thought to have possibly covered Earth completely.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_014",
+        "text": "Earth's surface can be divided into land and water hemispheres due to the ocean's uneven distribution.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_015",
+        "text": "Comb jellies, Brachiopods, and Echinoderms are animal groups found only in marine environments.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_016",
+        "text": "Cetaceans — whales, dolphins, and porpoises — primarily live in the ocean.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_017",
+        "text": "Seabirds spend most of their lifetime on water, going on land only for breeding.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_018",
+        "text": "Seven species of turtles are sea turtles.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_019",
+        "text": "Containerization greatly boosted the efficiency and reduced the cost of shipping products by sea.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_020",
+        "text": "Containerization was a major factor in the rise of globalization and exponential increases in international trade in the mid-to-late 20th century.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_021",
+        "text": "Ocean scientists split the ocean into both vertical and horizontal zones based on physical and biological conditions.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_022",
+        "text": "The ocean acts as a huge reservoir of heat for Earth's energy budget.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_023",
+        "text": "The ocean is a primary component of Earth's carbon cycle and water cycle.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_024",
+        "text": "Most animal phyla have species that inhabit the ocean.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_025",
+        "text": "Both the depth and distance from shore strongly influence the biodiversity of ocean regions.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_026",
+        "text": "In 2021, 43 expert scientists published the first scientific framework for ocean protection.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_027",
+        "text": "Marine protected areas (MPAs) are one of the key measures used for ocean protection.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_028",
+        "text": "Offshore drilling and deep sea mining are classified as extractive industries using the ocean.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_029",
+        "text": "The ocean forms the basis for climate and weather patterns worldwide.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_ocean_030",
+        "text": "Desalination of ocean water is used as a method of freshwater production.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
     "questionIds": [
       "water_001"
     ]

@@ -2,11 +2,15 @@
 """
 sync_sources.py — Rebuild questionIds in all sources files from actual question data.
 
+Only `questionIds` is modified on existing entries — all other fields (url, summary,
+categories, facts, etc.) are preserved exactly. Source metadata should be populated
+by the generate-questions workflow at fetch time; this script is the fallback.
+
 For each topic:
   1. Build {sourceId: [questionIds]} index from questions with a non-empty sourceId
   2. Load existing sources file (or start with [])
   3. For each sourceId in index: find matching source entry by id, update questionIds (sorted),
-     or create a stub entry
+     or create a stub entry (auto-fetching the Wikipedia URL)
   4. Orphaned entries (in sources but not referenced by any question): warn, keep unless --remove-orphans
   5. Write sorted by title
 

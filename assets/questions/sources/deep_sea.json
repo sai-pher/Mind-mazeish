@@ -39,7 +39,188 @@
       "deep_sea"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_mariana_trench_001",
+        "text": "The Mariana Trench is crescent-shaped and measures about 2,550 km in length and 69 km in width.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_002",
+        "text": "The deepest point of the Mariana Trench is more than 2 km farther from sea level than the peak of Mount Everest.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_003",
+        "text": "At the bottom of the Mariana Trench, the water pressure reaches approximately 1,086 bar (15,750 psi).",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_004",
+        "text": "The pressure at the bottom of the Mariana Trench is approximately 1,072 times the standard atmospheric pressure at sea level.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_005",
+        "text": "The temperature at the bottom of the Mariana Trench is between 1 and 4 °C (34 to 39 °F).",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_006",
+        "text": "In 2009, the Mariana Trench was established as a US National Monument called the Mariana Trench Marine National Monument.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_007",
+        "text": "Single-celled organisms called monothalamea have been found in the Mariana Trench at a record depth of 10.6 km below the sea surface.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_008",
+        "text": "The Mariana Trench is named after the Mariana Islands, which were named in honor of Spanish Queen Mariana of Austria.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_009",
+        "text": "The crustal material at the western edge of the Pacific plate at the Mariana Trench is up to 170 million years old, making it some of the oldest oceanic crust on Earth.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_010",
+        "text": "The Mariana Islands were formed by volcanic activity caused by water trapped in minerals of the subducted Pacific plate.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_011",
+        "text": "The Mariana Trench was first sounded during the Challenger expedition in 1875 using a weighted rope.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_012",
+        "text": "The first sounding of the Mariana Trench in 1875 recorded a depth of 4,475 fathoms (8,184 metres).",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_013",
+        "text": "In 1899, USS Nero, a converted collier, recorded a depth of 5,269 fathoms in the Mariana Trench.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_014",
+        "text": "In 1951, Challenger II surveyed the Mariana Trench using echo sounding and identified the deepest part, naming it Challenger Deep.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_015",
+        "text": "In 1957, the Soviet vessel Vityaz reported a depth of 11,034 m at a location dubbed the Mariana Hollow.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_016",
+        "text": "The maximum known depth of the Mariana Trench is 10,984 ± 25 metres at a valley called the Challenger Deep.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_017",
+        "text": "The Challenger Deep is located at the southern end of a small slot-shaped valley in the floor of the Mariana Trench.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_018",
+        "text": "A 1960 expedition to the Mariana Trench claimed to observe a flatfish about 30 cm long at the bottom, though many biologists now think it was a sea cucumber.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_019",
+        "text": "In July 2011, giant single-celled foraminiferans larger than 10 cm were observed in the Mariana Trench.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_020",
+        "text": "In December 2014, a new species of snailfish was discovered in the Mariana Trench at a depth of 8,145 m.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_021",
+        "text": "The Mariana Trench has been proposed as a site for nuclear waste disposal due to tectonic plate subduction at the site.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_022",
+        "text": "Ocean dumping of nuclear waste is prohibited by international law, preventing use of the Mariana Trench for disposal.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_023",
+        "text": "The Mariana Trench National Monument protects 246,610 square kilometres of submerged lands and waters.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_024",
+        "text": "The Challenger Deep, the deepest part of the Mariana Trench, lies just outside the boundaries of the Mariana Trench Marine National Monument.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_025",
+        "text": "The Mariana Trench forms the boundary between the Pacific plate and the smaller Mariana plate.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_026",
+        "text": "The Pacific plate is subducted beneath the Mariana plate on the western side of the trench.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_027",
+        "text": "Plate subduction zones at the Mariana Trench are associated with very large megathrust earthquakes.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_028",
+        "text": "The bottom of the Mariana Trench is described as covered in diatomaceous ooze.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_029",
+        "text": "Monothalamea found in the Mariana Trench are notable for their extreme abundance on the seafloor and their role as hosts for other organisms.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_mariana_trench_030",
+        "text": "The Mariana Trench is located about 200 kilometres east of the Mariana Islands in the western Pacific Ocean.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
     "questionIds": [
       "dsea_001"
     ]

@@ -84,7 +84,188 @@
       "socks"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_sock_001",
+        "text": "The modern English word 'sock' is derived from the Old English word 'socc', meaning 'light slipper'",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_002",
+        "text": "The Latin word 'soccus' described a light, low-heeled shoe worn by Roman comic actors",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_003",
+        "text": "The foot can produce over 0.25 US pints (0.12 L) of perspiration per day, making it one of the heaviest sweat producers in the body",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_004",
+        "text": "In ancient times, socks were made from leather or matted animal hair",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_005",
+        "text": "Machine-knit socks were first produced in the late 16th century",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_006",
+        "text": "Because socks were time-consuming to manufacture in preindustrial times, they were long used only by the rich",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_007",
+        "text": "The poor historically wore footwraps — simple cloths wrapped around the feet — instead of socks",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_008",
+        "text": "Footwraps remained in use in Eastern European armies until the end of the 20th century",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_009",
+        "text": "According to the Greek poet Hesiod, Ancient Greeks in the 8th century BC wore socks called 'piloi', made from matted animal hair",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_010",
+        "text": "Around the 2nd century AD, Romans began sewing fabrics together to make fitted socks called 'udones'",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_011",
+        "text": "By the 5th century AD, socks called 'puttees' were worn by holy people in Europe to symbolize purity",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_012",
+        "text": "During the Middle Ages, socks became tight, brightly colored cloth coverings for the lower leg",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_013",
+        "text": "Medieval socks had no elastic band, so garters were placed over stockings to prevent them from falling down",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_014",
+        "text": "Fort Payne, Alabama is regarded as the 'sock capital of the world'",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_015",
+        "text": "Nearly half of all socks manufactured in the early 21st century were made in Fort Payne, Alabama",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_016",
+        "text": "The Fort Payne sock industry employed about 7,000 workers at its peak around the year 2000",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_017",
+        "text": "The township of Datang in Zhuji, Zhejiang Province, China is known as 'Sock City'",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_018",
+        "text": "Datang currently produces 8 billion pairs of socks each year",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_019",
+        "text": "Datang, China has surpassed Fort Payne, Alabama as the top global sock producer",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_020",
+        "text": "Liner socks are worn underneath another sock specifically to prevent blisters",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_021",
+        "text": "The odor of smelly socks is a mixture of ammonia, fatty acids (particularly isovaleric acid), and lactic acid",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_022",
+        "text": "Odorous socks are a strong attractant for mosquitoes and have been used to help control their behavior",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_023",
+        "text": "The smell associated with smelly socks also naturally occurs in dairy products, cheeses, sausages, and fish sauce",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_024",
+        "text": "Smelly sock odor appearing in building air treatment systems is known as 'dirty socks syndrome'",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_025",
+        "text": "Knee-high and thigh-high socks were widely worn by both boys and girls during the late 19th and early 20th centuries",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_026",
+        "text": "Socks can be made from silk, bamboo, linen, cashmere, or mohair for added softness",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_027",
+        "text": "Merino wool retains its shape better when blended with other materials",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_028",
+        "text": "No-show and low-cut socks are designed to create the appearance of bare feet when wearing shoes",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_029",
+        "text": "Colored socks are used in sports uniforms to help distinguish teams when only players' legs are visible",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_sock_030",
+        "text": "Fort Payne still contributes roughly a quarter of global sock output despite losing the top position to Datang",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
     "questionIds": [
       "socks_001",
       "socks_003",

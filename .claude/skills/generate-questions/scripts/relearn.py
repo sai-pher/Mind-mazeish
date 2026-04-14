@@ -171,7 +171,7 @@ def process_topic(topic_id: str, source_title: str) -> bool:
             break
 
     if target is None:
-        print(f"    ✗ source '{source_title}' not found in {sources_file}", file=sys.stderr)
+        pr/int(f"    ✗ source '{source_title}' not found in {sources_file}", file=sys.stderr)
         return False
 
     existing_facts: list[dict] = target.get("facts", [])
