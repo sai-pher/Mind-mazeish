@@ -85,8 +85,6 @@ class AnswerButton extends StatelessWidget {
                 child: Text(
                   text,
                   style: textTheme.labelMedium?.copyWith(fontSize: 13),
-                  maxLines: 3,
-                  overflow: TextOverflow.ellipsis,
                 ),
               ),
               if (state == AnswerState.correct)
