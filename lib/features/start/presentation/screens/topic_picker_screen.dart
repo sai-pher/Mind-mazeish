@@ -86,7 +86,7 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
       questionCount: _questionCount,
       gameMode: _gameMode,
     );
-    ref.read(quizConfigProvider.notifier).state = config;
+    ref.read(quizConfigProvider.notifier).setConfig(config);
     await ref.read(gameStateProvider.notifier).startGame(config);
     if (mounted) context.go('/game');
   }
