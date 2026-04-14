@@ -151,7 +151,7 @@ class StartScreen extends ConsumerWidget {
       selectedTopicIds: Set.from(allTopicIds),
       questionCount: 10,
     );
-    ref.read(quizConfigProvider.notifier).state = config;
+    ref.read(quizConfigProvider.notifier).setConfig(config);
     await ref.read(gameStateProvider.notifier).startGame(config);
     if (context.mounted) context.go('/game');
   }
