@@ -97,6 +97,7 @@ const _allTopicIds = {
   'recreational_drugs',
   'rocks',
   'socks',
+  'software_architecture',
   'tennis',
   'theology',
   'therapy',

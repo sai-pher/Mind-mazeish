@@ -54,7 +54,80 @@
       "pharmaceutical_drugs"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_pharmacology_001",
+        "text": "The word 'pharmacology' derives from the Greek word 'pharmakon', meaning 'drug' or 'poison'.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_pharmacology_002",
+        "text": "The Greek word 'pharmakon' is related to 'pharmakos', which referred to the ritualistic sacrifice or exile of a human scapegoat in Ancient Greek religion.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_pharmacology_003",
+        "text": "Pharmacokinetics is defined as what the body does to a drug, while pharmacodynamics is what the drug does to the body.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_pharmacology_004",
+        "text": "The modern term 'pharmacon' is broader than 'drug' because it includes endogenous substances and biologically active substances not used as drugs.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_pharmacology_005",
+        "text": "Early pharmacology focused primarily on herbalism and plant extracts, with medicines compiled in books called pharmacopoeias.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_pharmacology_006",
+        "text": "Crude drugs have been used since prehistory, but their active pharmaceutical ingredients (APIs) are not purified and the substance is adulterated with other materials.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_pharmacology_007",
+        "text": "The origins of clinical pharmacology date back to the Middle Ages, linked in part to Avicenna's 'The Canon of Medicine'.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_pharmacology_008",
+        "text": "Pharmacological substances known as entheogens have historically been used for spiritual and religious purposes.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_pharmacology_009",
+        "text": "In the 17th century, the English physician Nicholas Culpeper translated and used pharmacological texts, detailing plants and the conditions they could treat.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_pharmacology_010",
+        "text": "Traditional medicine practices such as traditional Chinese, Mongolian, Tibetan, and Korean medicine are considered culture-specific, and much has since been regarded as pseudoscience.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_pharmacology_011",
+        "text": "Pharmacon includes pharmacological agonists and antagonists, as well as enzyme inhibitors such as monoamine oxidase inhibitors.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_pharmacology_012",
+        "text": "The suffix '-logia' in pharmacology comes from the Greek word meaning 'study of' or 'knowledge of', the same root used in the etymology of 'pharmacy'.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
     "questionIds": [
       "pharm_001"
     ]

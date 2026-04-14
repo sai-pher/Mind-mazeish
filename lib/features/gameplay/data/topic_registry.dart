@@ -97,9 +97,10 @@ const List<SuperCategory> superCategories = [
         name: 'Engineering',
         superCategoryId: 'engineering_tech',
         topics: [
-          Topic(id: 'mechanical_engineering', name: 'Mechanical Engineering', categoryId: 'engineering', emoji: '⚙️'),
-          Topic(id: 'chemical_engineering', name: 'Chemical Engineering', categoryId: 'engineering', emoji: '⚗️'),
           Topic(id: 'bridges', name: 'Bridges', categoryId: 'engineering', emoji: '🌉'),
+          Topic(id: 'chemical_engineering', name: 'Chemical Engineering', categoryId: 'engineering', emoji: '⚗️'),
+          Topic(id: 'mechanical_engineering', name: 'Mechanical Engineering', categoryId: 'engineering', emoji: '⚙️'),
+          Topic(id: 'software_architecture', name: 'Software Architecture', categoryId: 'engineering', emoji: '🏗️'),
         ],
       ),
       TopicCategory(

@@ -111,7 +111,7 @@ def main():
     n_tc = sum(len(sc['categories']) for sc in super_categories)
     n_topics = len(topic_map)
 
-    assert n_topics == 35, f'Expected 35 topics, got {n_topics}'
+    assert n_topics == 36, f'Expected 36 topics, got {n_topics}'
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     result = {'superCategories': super_categories, 'topicMap': topic_map}

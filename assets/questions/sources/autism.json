@@ -9,9 +9,170 @@
       "autism"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_autism_spectrum_001",
+        "text": "The World Health Organization estimates that about 1 in 100 children were diagnosed with autism between 2012 and 2021.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_002",
+        "text": "Autism diagnoses have risen since the 1990s, largely due to broader diagnostic criteria, greater awareness, and wider access to assessment.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_003",
+        "text": "Autism is classified as a neurodevelopmental disorder.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_004",
+        "text": "Approximately 85% of autistic people need support with independent living in adulthood.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_005",
+        "text": "Mortality among autistic people is approximately twice that of the general population.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_006",
+        "text": "Among children diagnosed with autism before age 6, about 9 in 10 continue to meet diagnostic criteria one year later.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_007",
+        "text": "Developing spoken language before age six is associated with a higher likelihood of independent living in adulthood for autistic people.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_008",
+        "text": "Having an IQ above 50 is associated with a higher likelihood of independent living in adulthood for autistic people.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_009",
+        "text": "Autistic people are significantly more likely to identify as LGBTQ than the general population.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_010",
+        "text": "Autistic people are significantly more likely to be non-theistic or non-religious than the general population.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_011",
+        "text": "There is no cure for autism.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_012",
+        "text": "Genetics is considered likely the largest contributing factor to autism.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_013",
+        "text": "Autism is increasingly thought to have distinct, often co-occurring causes for its core aspects rather than a single cause.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_014",
+        "text": "Autistic adults are more likely to be unemployed than the general population.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_015",
+        "text": "Autistic adults have greater mental health service needs than the general population.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_016",
+        "text": "Some researchers argue that the perception of lessened autistic features over time is due to masking — hiding autistic traits to avoid stigma.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_017",
+        "text": "Autism support needs range from minimal to requiring 24-hour care, reflecting the spectrum nature of the condition.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_018",
+        "text": "Most professionals believe that race, ethnicity, and socioeconomic background have limited effect on the occurrence of autism.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_019",
+        "text": "Restricted and repetitive behaviors are among the most stable core diagnostic symptoms of autism over time.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_020",
+        "text": "Prenatal and perinatal history are among the factors identified as potential contributors to autism.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_021",
+        "text": "The neurodiversity movement supports interventions aimed at enhancing functional communication rather than altering core autistic features.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_022",
+        "text": "Autism was long presumed to have a single cause at the genetic, cognitive, and neural levels, but this view has been revised.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_023",
+        "text": "Signs of autism are in most cases first observable in infancy or early childhood and remain throughout life.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_024",
+        "text": "Autistic people may be significantly disabled in some respects but average or superior in others.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_autism_spectrum_025",
+        "text": "The term 'stimming' refers to restricted or repetitive patterns of behavior commonly associated with autism.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      }
+    ],
     "questionIds": [
-      "aut_001"
+      "aut_001",
+      "aut_004",
+      "aut_005",
+      "aut_006",
+      "aut_007",
+      "aut_008",
+      "aut_009",
+      "aut_010",
+      "aut_011",
+      "aut_012",
+      "aut_013"
     ]
   },
   {

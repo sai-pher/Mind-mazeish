@@ -134,9 +134,9 @@
           "name": "Engineering",
           "topics": [
             {
-              "id": "mechanical_engineering",
-              "name": "Mechanical Engineering",
-              "emoji": "⚙️"
+              "id": "bridges",
+              "name": "Bridges",
+              "emoji": "🌉"
             },
             {
               "id": "chemical_engineering",
@@ -144,9 +144,14 @@
               "emoji": "⚗️"
             },
             {
-              "id": "bridges",
-              "name": "Bridges",
-              "emoji": "🌉"
+              "id": "mechanical_engineering",
+              "name": "Mechanical Engineering",
+              "emoji": "⚙️"
+            },
+            {
+              "id": "software_architecture",
+              "name": "Software Architecture",
+              "emoji": "🏗️"
             }
           ]
         },
@@ -455,13 +460,13 @@
       "name": "Candy",
       "emoji": "🍬"
     },
-    "mechanical_engineering": {
+    "bridges": {
       "superCategoryId": "engineering_tech",
       "superCategoryName": "Engineering & Technology",
       "topicCategoryId": "engineering",
       "topicCategoryName": "Engineering",
-      "name": "Mechanical Engineering",
-      "emoji": "⚙️"
+      "name": "Bridges",
+      "emoji": "🌉"
     },
     "chemical_engineering": {
       "superCategoryId": "engineering_tech",
@@ -471,13 +476,21 @@
       "name": "Chemical Engineering",
       "emoji": "⚗️"
     },
-    "bridges": {
+    "mechanical_engineering": {
       "superCategoryId": "engineering_tech",
       "superCategoryName": "Engineering & Technology",
       "topicCategoryId": "engineering",
       "topicCategoryName": "Engineering",
-      "name": "Bridges",
-      "emoji": "🌉"
+      "name": "Mechanical Engineering",
+      "emoji": "⚙️"
+    },
+    "software_architecture": {
+      "superCategoryId": "engineering_tech",
+      "superCategoryName": "Engineering & Technology",
+      "topicCategoryId": "engineering",
+      "topicCategoryName": "Engineering",
+      "name": "Software Architecture",
+      "emoji": "🏗️"
     },
     "plastics": {
       "superCategoryId": "engineering_tech",

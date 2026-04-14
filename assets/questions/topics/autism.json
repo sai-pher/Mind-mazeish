@@ -57,5 +57,223 @@
     "topicCategoryId": "mental_health",
     "superCategoryId": "health_medicine",
     "difficulty": "easy"
+  },
+  {
+    "id": "aut_004",
+    "question": "According to the World Health Organization, roughly how many children were diagnosed with autism between 2012 and 2021?",
+    "correctAnswers": [
+      "1 in 100"
+    ],
+    "wrongAnswers": [
+      "1 in 50",
+      "1 in 500",
+      "1 in 1000",
+      "1 in 200",
+      "1 in 36",
+      "1 in 10",
+      "1 in 75"
+    ],
+    "funFact": "The WHO estimate of 1 in 100 is a global average — rates vary widely by country and diagnostic practice, with some national surveys reporting higher figures.",
+    "sourceId": "src_autism_spectrum",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "aut_005",
+    "question": "What is the main reason autism diagnoses have increased since the 1990s?",
+    "correctAnswers": [
+      "Broader diagnostic criteria and greater awareness",
+      "Wider access to assessment"
+    ],
+    "wrongAnswers": [
+      "A genuine rise in autism prevalence",
+      "Increased vaccine use",
+      "Changes in diet across populations",
+      "Higher rates of premature birth",
+      "Reclassification of intellectual disability",
+      "Improved genetic screening"
+    ],
+    "funFact": "The DSM-5 in 2013 merged several separate diagnoses — including Asperger syndrome and PDD-NOS — into a single autism spectrum disorder, broadening the diagnostic umbrella.",
+    "sourceId": "src_autism_spectrum",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "aut_006",
+    "question": "What broad category of disorder is autism classified as?",
+    "correctAnswers": [
+      "Neurodevelopmental disorder"
+    ],
+    "wrongAnswers": [
+      "Mood disorder",
+      "Personality disorder",
+      "Psychotic disorder",
+      "Anxiety disorder",
+      "Dissociative disorder",
+      "Intellectual disability",
+      "Sensory processing disorder"
+    ],
+    "funFact": "Autism shares the neurodevelopmental category with conditions like ADHD, dyslexia, and Tourette syndrome — all involve differences in how the brain develops from early life.",
+    "sourceId": "src_autism_spectrum",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "aut_007",
+    "question": "Roughly what proportion of autistic adults require some support with independent living?",
+    "correctAnswers": [
+      "About 85%"
+    ],
+    "wrongAnswers": [
+      "About 25%",
+      "About 40%",
+      "About 60%",
+      "About 50%",
+      "About 95%",
+      "About 70%",
+      "About 30%"
+    ],
+    "funFact": "Support needs vary hugely — some autistic adults need only occasional help, while others require round-the-clock care. The spectrum's breadth makes averages imprecise.",
+    "sourceId": "src_autism_spectrum",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "aut_008",
+    "question": "Which of the following factors is associated with a higher likelihood of independent living in autistic adults?",
+    "correctAnswers": [
+      "Developing spoken language before age six",
+      "Having an IQ above 50"
+    ],
+    "wrongAnswers": [
+      "Being male",
+      "Receiving an early diagnosis",
+      "Having a sibling without autism",
+      "Living in an urban area",
+      "Being right-handed",
+      "Having no co-occurring conditions"
+    ],
+    "funFact": "Language development before age six is one of the strongest predictors of long-term outcomes for autistic people, highlighting the value of early communication support.",
+    "sourceId": "src_autism_spectrum",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "aut_009",
+    "question": "Compared to the general population, autistic people are significantly more likely to identify as which of these?",
+    "correctAnswers": [
+      "LGBTQ",
+      "Non-religious or non-theistic"
+    ],
+    "wrongAnswers": [
+      "Conservative politically",
+      "Right-handed",
+      "Introverted only",
+      "First-born children",
+      "Single children",
+      "Highly religious"
+    ],
+    "funFact": "Multiple large studies have found higher rates of gender diversity and non-heterosexual identities among autistic people, though the reasons are still actively researched.",
+    "sourceId": "src_autism_spectrum",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "aut_010",
+    "question": "What term describes the practice of hiding autistic traits to avoid social stigma, sometimes explaining an apparent reduction in symptoms over time?",
+    "correctAnswers": [
+      "Masking"
+    ],
+    "wrongAnswers": [
+      "Regression",
+      "Compensation",
+      "Suppression",
+      "Camouflaging",
+      "Mirroring",
+      "Shadowing",
+      "Blending"
+    ],
+    "funFact": "Masking is more commonly reported in autistic women and girls, which is one reason females are often diagnosed later in life than males.",
+    "sourceId": "src_autism_spectrum",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "aut_011",
+    "question": "Among the core diagnostic symptoms of autism, which are considered the most stable over time?",
+    "correctAnswers": [
+      "Restricted and repetitive behaviors"
+    ],
+    "wrongAnswers": [
+      "Social communication difficulties",
+      "Sensory sensitivities",
+      "Language delays",
+      "Intellectual impairment",
+      "Emotional dysregulation",
+      "Attention deficits",
+      "Sleep disturbances"
+    ],
+    "funFact": "While social difficulties can improve with support and development, restricted and repetitive behaviors tend to persist throughout a person's life and are a cornerstone of diagnosis.",
+    "sourceId": "src_autism_spectrum",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard"
+  },
+  {
+    "id": "aut_012",
+    "question": "What does the neurodiversity movement specifically advocate for when it comes to autism interventions?",
+    "correctAnswers": [
+      "Enhancing functional communication rather than altering core autistic features"
+    ],
+    "wrongAnswers": [
+      "Eliminating autism through gene editing",
+      "Developing a pharmaceutical cure",
+      "Suppressing stimming behaviors entirely",
+      "Normalising autistic people through intensive behavioral training",
+      "Reducing autistic people's need for support",
+      "Restricting diagnosis to the most severely affected individuals"
+    ],
+    "funFact": "The neurodiversity movement frames autism as a natural variation in human cognition rather than a disorder to be cured, advocating for acceptance and accommodation instead.",
+    "sourceId": "src_autism_spectrum",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard"
+  },
+  {
+    "id": "aut_013",
+    "question": "How does current scientific thinking view the underlying causes of autism's core aspects?",
+    "correctAnswers": [
+      "As distinct, often co-occurring causes rather than a single unified cause"
+    ],
+    "wrongAnswers": [
+      "As stemming from a single genetic mutation",
+      "As arising entirely from prenatal environment",
+      "As caused by a single brain region abnormality",
+      "As the result of one neurotransmitter imbalance",
+      "As caused exclusively by immune system dysfunction",
+      "As stemming from a single cognitive deficit"
+    ],
+    "funFact": "Earlier models sought a single 'broken mechanism' — such as a deficit in theory of mind — but evidence now points to multiple interacting biological and cognitive pathways.",
+    "sourceId": "src_autism_spectrum",
+    "topicId": "autism",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard"
   }
 ]

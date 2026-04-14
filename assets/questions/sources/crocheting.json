@@ -24,7 +24,182 @@
       "crocheting"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_crochet_001",
+        "text": "The word crochet is derived from the French word crochet, a diminutive of croche, meaning 'hook', which itself comes from the Germanic word croc.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_002",
+        "text": "In crochet, each stitch is completed before the next one begins, unlike knitting which keeps many stitches open at a time.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_003",
+        "text": "Tunisian crochet and Broomstick lace are variant forms of crochet that keep multiple stitches open at a time, similar to knitting.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_004",
+        "text": "Knitted textiles survive from as early as the 11th century CE, but the first substantive evidence of crocheted fabric only emerges in Europe during the 19th century.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_005",
+        "text": "Much early work previously identified as crochet was actually made by nålebinding, a different looped yarn technique.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_006",
+        "text": "One theory holds that crochet originated in Arabia and spread along trade routes to Tibet and then Spain.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_007",
+        "text": "A second theory places the origin of crochet in South America, where it was used as adornment in a tribe's puberty ritual.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_008",
+        "text": "A third theory credits China with early crochet, citing examples of dolls worked entirely in the technique.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_009",
+        "text": "The first known published instructions for crochet appeared in the Dutch magazine Penélopé in 1823.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_010",
+        "text": "The 1823 Penélopé magazine included a color plate showing five styles of purse, three of which were intended to be crocheted with silk thread.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_011",
+        "text": "The first crochet stitch described in the 1823 Penélopé publication was called 'simple open crochet' (crochet simple ajour), a mesh of chain-stitch arches.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_012",
+        "text": "In 17th-century French lace-making, the term crochetage designated a stitch used to join separate pieces of lace.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_013",
+        "text": "In 1567, the tailor of Mary, Queen of Scots supplied her with silk thread specifically for crochet.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_014",
+        "text": "Crochet lace work was introduced in Ireland during the Great Irish Famine (1845–1849) as a form of famine relief.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_015",
+        "text": "During the Great Irish Famine, men, women, and children all joined cooperatives to crochet products as an alternative means of earning income.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_016",
+        "text": "Mademoiselle Riego de la Branchardiere is generally credited with the invention of Irish Crochet, publishing the first book of patterns in 1846.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_017",
+        "text": "Irish crochet lace was popular in Europe and America and was made in quantity until World War I.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_018",
+        "text": "In the Edwardian era, peaking between 1910 and 1920, crocheted laces became even more elaborate in texture and complicated stitching than in the Victorian era.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_019",
+        "text": "After World War I, far fewer crochet patterns were published, and most were simplified versions of earlier designs.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_020",
+        "text": "After World War II, from the late 1940s until the early 1960s, there was a resurgence in crochet interest in the United States, focused on colorful doilies and potholders.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_021",
+        "text": "Granny squares — a motif worked in the round incorporating bright colors — were popularized in the late 1960s and early 1970s.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_022",
+        "text": "Crochet remained primarily a homemaker's art until the late 1960s and early 1970s, when a new generation revived and popularized it.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_023",
+        "text": "Crochet hooks can be made from aluminum, steel, metal, wood, bamboo, or bone.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_024",
+        "text": "Crochet hook types include in-line, tapered, and ergonomic designs.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_025",
+        "text": "Crochet machines are still in the process of being developed, meaning crochet is typically still made entirely by hand.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_026",
+        "text": "Sustainable crochet can use materials such as bamboo, hemp, cotton, linen, and wool as eco-friendly yarn alternatives.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_027",
+        "text": "Because crochet is hand-made rather than mechanized, it is considered part of the slow fashion movement.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_028",
+        "text": "The slow fashion movement's objective is to promote respect for people, animals, and the environment in clothing manufacturing.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_crochet_029",
+        "text": "Strong Victorian colors in crochet disappeared in the 1890s, replaced by white or pale threads in the Edwardian era, except for fancy purses which were crocheted in brightly colored silk.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
     "questionIds": [
       "croch_001",
       "croch_003"
