@@ -43,11 +43,29 @@ For AI-driven workflows, add a `PostToolUse` hook that reminds the agent to upda
   "hooks": {
     "PostToolUse": [
       {
-        "matcher": "Bash",
+        "matcher": "Bash(git push:*)",
         "hooks": [
           {
             "type": "command",
-            "command": "bash -c 'if echo \"$CLAUDE_TOOL_INPUT\" | grep -q \"git commit\"; then git diff --cached --name-only 2>/dev/null | grep -q release_notes.md || echo \"REMINDER: release_notes.md not staged — run /release-notes to update it\"; fi'"
+            "command": "git diff origin/main...HEAD --name-only 2>/dev/null | grep -q release_notes.md || echo 'REMINDER: release_notes.md not updated — run /release-notes before this push reaches a PR'"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash(gh pr:*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git diff origin/main...HEAD --name-only 2>/dev/null | grep -q release_notes.md || echo 'REMINDER: release_notes.md not updated — run /release-notes to draft the notes for this PR'"
+          }
+        ]
+      },
+      {
+        "matcher": "Skill(commit-commands:commit-push-pr)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git diff origin/main...HEAD --name-only 2>/dev/null | grep -q release_notes.md || echo 'REMINDER: release_notes.md not updated — run /release-notes before opening the PR'"
           }
         ]
       }
@@ -56,7 +74,7 @@ For AI-driven workflows, add a `PostToolUse` hook that reminds the agent to upda
 }
 ```
 
-This runs silently and outputs a reminder to the Claude context — not a blocking check.
+Triggers only on `git push`, `gh pr *`, or the `commit-push-pr` skill — not on every commit. Outputs a reminder into the Claude context (non-blocking).
 
 ---
 

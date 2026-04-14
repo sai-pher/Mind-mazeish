@@ -52,7 +52,7 @@ Issue #46 requests a full overhaul of the update UX. Currently, the in-app updat
 ### F — Hooks: Pre-push quality gate
 - `.githooks/pre-push`: runs `flutter analyze` + `flutter test`
 - Set `core.hooksPath = .githooks` (documented in CONTRIBUTING.md)
-- Claude `PostToolUse` hook: reminds agent when committing without updating release notes
+- Claude `PostToolUse` hook: reminds agent if `release_notes.md` not updated, fires on `Bash(git push:*)`, `Bash(gh pr:*)`, `Skill(commit-commands:commit-push-pr)` only
 - See: `proposal/03-hooks-and-skill.md`
 
 ### G — Skill: `/release-notes`
