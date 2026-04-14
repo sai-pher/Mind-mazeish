@@ -15,7 +15,7 @@ dependencies:
   go_router: ^17.2.0
   webview_flutter: ^4.7.0
   webview_flutter_android: ^4.11.0
-  google_fonts: ^6.2.1
+  google_fonts: ^8.0.2
   lottie: ^3.3.3
   flutter_animate: ^4.5.0
   shared_preferences: ^2.5.5
