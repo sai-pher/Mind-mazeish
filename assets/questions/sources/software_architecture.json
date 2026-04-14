@@ -1,0 +1,137 @@
+[
+  {
+    "id": "src_architectural_pattern",
+    "title": "Architectural pattern",
+    "url": "https://en.m.wikipedia.org/wiki/Architectural_pattern",
+    "summary": "Software architecture pattern is a reusable, proven solution to a specific, recurring problem focused on architectural design challenges, which can be applied within various architectural styles.",
+    "categories": [
+      "Category:Architectural pattern (computer science)",
+      "Category:Articles with short description",
+      "Category:Short description is different from Wikidata",
+      "Category:Software design patterns"
+    ],
+    "topicIds": [
+      "software_architecture"
+    ],
+    "articleText": "== Summary ==\nSoftware architecture pattern is a reusable, proven solution to a specific, recurring problem focused on architectural design challenges, which can be applied within various architectural styles.\n\n== Examples ==\nSome examples of architectural patterns:\n\nPublish–subscribe pattern\nMessage broker\n\n== See also ==\nCommon layers in an information system logical architecture\nEnterprise architecture\nLayer (object-oriented design)\nProcess Driven Messaging Service\n\n== References ==\n\n\n== Bibliography ==\nAvgeriou, Paris; Zdun, Uwe (2005). \"Architectural patterns revisited:a pattern language\" (PDF). 10th European Conference on Pattern Languages of Programs (EuroPlop 2005), Irsee, Germany, July. UVK Verlagsgesellschaft. pp. 1–39. CiteSeerX 10.1.1.141.7444. ISBN 9783879408054.\nBuschmann F.; Meunier R.; Rohnert H.; Sommerlad P.; Stal M. (1996). Pattern-Oriented Software Architecture: A System of Patterns. Wiley. ISBN 9781118725269.\nBass L.; Clements P.; Kazman R. (2003). Software Architecture in Practice. Addison-Wesley. ISBN 9780321154958.",
+    "facts": [],
+    "questionIds": [
+      "software_architecture_009",
+      "software_architecture_030"
+    ]
+  },
+  {
+    "id": "src_software_architecture",
+    "title": "Software architecture",
+    "url": "https://en.m.wikipedia.org/wiki/Software_architecture",
+    "summary": "Software architecture is the set of structures needed to reason about a software system and the discipline of creating such structures and systems. Each structure comprises software elements, relations among them, and properties of both elements and relations.\nThe architecture of a software system [...]",
+    "categories": [
+      "Category:All articles lacking reliable references",
+      "Category:Articles lacking reliable references from November 2023",
+      "Category:Articles with short description",
+      "Category:Commons category link from Wikidata",
+      "Category:Short description matches Wikidata"
+    ],
+    "topicIds": [
+      "software_architecture"
+    ],
+    "articleText": "== Summary ==\nSoftware architecture is the set of structures needed to reason about a software system and the discipline of creating such structures and systems. Each structure comprises software elements, relations among them, and properties of both elements and relations.\nThe architecture of a software system is a metaphor, analogous to the architecture of a building. It functions as the blueprints for the system and the development project, which project management can later use to extrapolate the tasks necessary to be executed by the teams and people involved.\nSoftware architecture is about making fundamental structural choices that are costly to change once implemented. Software architecture choices include specific structural options from possibilities in the design of the software. There are two fundamental laws in software architecture:\n\nEverything is a trade-off\n\"Why is more important than how\"\n\"Architectural Kata\" is a teamwork which can be used to produce an architectural solution that fits the needs.  Each team extracts and prioritizes architectural characteristics (aka non functional requirements) then models the components accordingly. The team can use C4 Model which is a flexible [...]\n\n== Scope ==\nOpinions vary as to the scope of software architectures:\n\nMacroscopic system structure: this refers to architecture as a higher-level abstraction of a software system that consists of a collection of computational components together with connectors that describe the interaction between these components.\nThe important stuff—whatever that is: this refers to the fact that software architects should concern themselves with those decisions that have high impact on the system and its stakeholders.\nThat which is fundamental to understanding a system in its environment\nThings that people perceive as hard to change: since designing the architecture takes place at the beginning of a software system's lifecycle, the architect should focus on decisions that \"have to\" be right the first time. Following this line of thought, architectural design issues may become non-architectural once their irreversibility can be overcome.\nA set of architectural design decisions: software architecture should not be considered merely a set of models or structures, but should include the decisions that lead to these particular structures, and the rationale behind them. This insight has led to substantial [...]\n\n== Software architecture style vs. software architecture pattern ==\nSoftware Architecture Pattern refers to a reusable, proven solution to a recurring problem at the system level, addressing concerns related to the overall structure, component interactions, and quality attributes of the system. Software architecture patterns operate at a higher level of abstraction than software design patterns, solving broader system-level challenges. While these patterns typically affect system-level concerns, the distinction between architectural patterns and architectural styles can sometimes be blurry. Examples include Circuit Breaker.\nSoftware Architecture Style refers to a high-level structural organization that defines the overall system organization, specifying how components are organized, how they interact, and the constraints on those interactions. Architecture styles typically include a vocabulary of component and connector types, as well as semantic models for interpreting the system's properties. These styles represent the most coarse-grained level of system organization. Examples include Layered Architecture, Microservices, and Event-Driven Architecture.\n\n== Anti-patterns ==\nThe following architectural anti-patterns can arise when architects make decisions. These anti-patterns often follow a progressive sequence, where resolving one may lead to the emergence of another.\n\nAn architect may delay or avoid making architectural decisions due to the fear of choosing incorrectly. To address this, ongoing and close collaboration with the development [...]",
+    "facts": [],
+    "questionIds": [
+      "software_architecture_001",
+      "software_architecture_002",
+      "software_architecture_003",
+      "software_architecture_004",
+      "software_architecture_005",
+      "software_architecture_006",
+      "software_architecture_007",
+      "software_architecture_008",
+      "software_architecture_010",
+      "software_architecture_025"
+    ]
+  },
+  {
+    "id": "src_software_architecture_analysis_method",
+    "title": "Software architecture analysis method",
+    "url": "https://en.m.wikipedia.org/wiki/Software_architecture_analysis_method",
+    "summary": "Software architecture analysis method (SAAM) is a method used in software architecture to evaluate a system architecture. It was the first documented software architecture analysis method, and was developed in the mid 1990s to analyze a system for modifiability, but it is useful for testing any [...]",
+    "categories": [
+      "Category:All articles lacking in-text citations",
+      "Category:All articles needing additional references",
+      "Category:All stub articles",
+      "Category:Articles lacking in-text citations from April 2022",
+      "Category:Articles needing additional references from March 2024"
+    ],
+    "topicIds": [
+      "software_architecture"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_software_architecture_description",
+    "title": "Software architecture description",
+    "url": "https://en.m.wikipedia.org/wiki/Software_architecture_description",
+    "summary": "Software architecture description is the set of practices for expressing, communicating and analysing software architectures (also called architectural rendering), and the result of applying such practices through a work product expressing a software architecture (ISO/IEC/IEEE 42010).\nArchitecture [...]",
+    "categories": [
+      "Category:All articles with unsourced statements",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from August 2019",
+      "Category:Short description matches Wikidata",
+      "Category:Software architecture"
+    ],
+    "topicIds": [
+      "software_architecture"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_software_architecture_recovery",
+    "title": "Software architecture recovery",
+    "url": "https://en.m.wikipedia.org/wiki/Software_architecture_recovery",
+    "summary": "Software architecture recovery is a set of methods for the extraction of architectural information from lower level representations of a software system, such as source code. The abstraction process to generate architectural elements frequently involves clustering source code entities (such as [...]",
+    "categories": [
+      "Category:All articles with unsourced statements",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from October 2025",
+      "Category:Data recovery",
+      "Category:Short description matches Wikidata"
+    ],
+    "topicIds": [
+      "software_architecture"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_software_design_pattern",
+    "title": "Software design pattern",
+    "url": "https://en.m.wikipedia.org/wiki/Software_design_pattern",
+    "summary": "A software design pattern describes a  reusable solution to a commonly needed behavior in software. A design pattern is not a rigid structure to be  copied directly into source code. Rather, it is a description of and a template for solving a particular type of problem that can be used in many [...]",
+    "categories": [
+      "Category:All articles with unsourced statements",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from August 2014",
+      "Category:Articles with unsourced statements from January 2025",
+      "Category:Short description is different from Wikidata"
+    ],
+    "topicIds": [
+      "software_architecture"
+    ],
+    "articleText": "== Summary ==\nA software design pattern describes a  reusable solution to a commonly needed behavior in software. A design pattern is not a rigid structure to be  copied directly into source code. Rather, it is a description of and a template for solving a particular type of problem that can be used in many different contexts, including different programming languages and computing platforms. Design patterns can be viewed as formalized best practices that the programmer may use to solve common problems when designing software.\nObject-oriented design patterns typically show relationships and interactions between classes or objects, without specifying the final application classes or objects that are involved. Patterns that imply mutable state may be unsuited for functional programming languages. Some patterns can be rendered unnecessary in languages that have built-in support for solving the problem they are trying to solve, and object-oriented patterns are not necessarily suitable for non-object-oriented languages.\n\n== History ==\nPatterns originated as an architectural concept by Christopher Alexander as early as 1977 in A Pattern Language (cf. his article, \"The Pattern of Streets,\" JOURNAL OF THE AIP, September, 1966, Vol. 32, No. 5, pp. 273–278). In 1987, Kent Beck and Ward Cunningham began experimenting with the idea of applying patterns to programming – specifically pattern languages – and presented their results at the OOPSLA conference that year. In the following years, Beck, Cunningham and others followed up on this work.\nDesign patterns gained popularity in computer science after the book Design Patterns: Elements of Reusable Object-Oriented Software was published in 1994  by the so-called \"Gang of Four\" (Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides), which is frequently abbreviated as \"GoF\". That same year, the first Pattern Languages of Programming Conference was held, and the following year the Portland Pattern Repository was set up for documentation of design patterns. \nAlthough design patterns have been applied practically for a long time, formalization of the concept of design patterns languished for several years.\n\n== Practice ==\nDesign patterns can speed up the development process by providing proven development paradigms. Effective software design requires considering issues that may not become apparent until later in the implementation. Freshly written code can often have hidden, subtle issues that take time to be detected – issues that sometimes can cause major problems down the road. Reusing design patterns can help to prevent such issues, and enhance code readability for those familiar with the patterns.\nSoftware design techniques are difficult to apply to a broader range of problems. Design patterns provide general solutions, documented in a format that does not require specifics tied to a particular problem.\nIn 1996, Christopher Alexander was invited to give a Keynote Speech to the 1996 OOPSLA Convention.  Here he reflected on how his work on Patterns in Architecture had developed and his hopes for how the Software Design community could help Architecture extend Patterns to create living structures that use generative schemes that are more like computer code.\n\n== Motif ==\nA pattern describes a design motif, a.k.a. prototypical micro-architecture, as a set of program constituents (e.g., classes, methods...) and their relationships. A developer adapts the motif to their codebase to solve the problem described by the pattern. The resulting code has structure and organization similar to the chosen motif.\n\n== Domain-specific patterns ==\nEfforts have also been made to codify design patterns in particular domains, including the use of existing design patterns as well as domain-specific design patterns. Examples include user interface design patterns, information visualization, secure design, \"secure usability\", Web design  and business model design.\nThe annual Pattern Languages of Programming [...]",
+    "facts": [],
+    "questionIds": [
+      "software_architecture_011",
+      "software_architecture_012",
+      "software_architecture_013",
+      "software_architecture_014",
+      "software_architecture_022",
+      "software_architecture_023",
+      "software_architecture_024"
+    ]
+  }
+]
