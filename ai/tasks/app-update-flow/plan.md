@@ -58,13 +58,15 @@ Issue #46 requests a full overhaul of the update UX. Currently, the in-app updat
 ### G — Skill: `/release-notes`
 - New `.claude/skills/release-notes/SKILL.md`
 - Reads PR/branch diff, classifies commits into Features/Fixes/Content/Other
-- Writes `## Unreleased` block in `release_notes.md`
+- **Skip logic**: compares existing `## Unreleased` bullets against significant changes; skips write if all covered
+- Merges new bullets into existing content — never erases prior entries
 - See: `proposal/03-hooks-and-skill.md`
 
 ### H — Docs: CONTRIBUTING.md + CLAUDE.md
 - Add release notes requirement section to CONTRIBUTING.md
 - Document `.githooks` setup in CONTRIBUTING.md
 - Add `/release-notes` skill entry to CLAUDE.md
+- **CLAUDE.md enforcement rule**: "Before creating or updating a PR, always run `skill: release-notes`" — skill is idempotent (safe to run multiple times)
 
 ---
 
