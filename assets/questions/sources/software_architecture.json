@@ -65,9 +65,14 @@
     "topicIds": [
       "software_architecture"
     ],
-    "articleText": null,
+    "articleText": "== Summary ==\nSoftware architecture analysis method (SAAM) is a method used in software architecture to evaluate a system architecture. It was the first documented software architecture analysis method, and was developed in the mid 1990s to analyze a system for modifiability, but it is useful for testing any non-functional aspect.\nSAAM was a precursor to the architecture tradeoff analysis method.\n\n== See also ==\nARID\nArchitectural analytics\n\n== References ==\nRick Kazman; Gregory Abowd; Len Bass; Paul Clements. \"The Influence of System Properties on Software Assurance and Project Management\". Retrieved 2006-10-22.",
     "facts": [],
-    "questionIds": []
+    "questionIds": [
+      "software_architecture_031",
+      "software_architecture_032",
+      "software_architecture_033",
+      "software_architecture_034"
+    ]
   },
   {
     "id": "src_software_architecture_description",
@@ -84,9 +89,14 @@
     "topicIds": [
       "software_architecture"
     ],
-    "articleText": null,
+    "articleText": "== Summary ==\nSoftware architecture description is the set of practices for expressing, communicating and analysing software architectures (also called architectural rendering), and the result of applying such practices through a work product expressing a software architecture (ISO/IEC/IEEE 42010).\nArchitecture descriptions (ADs) are also sometimes referred to as architecture representations, architecture specifications\nor  software architecture documentation.\n\n== Concepts ==\nArchitecture description defines the practices, techniques and types of representations used by software architects to record a software architecture. Architecture description is largely a modeling activity (Software architectural model).\nArchitecture models can take various forms, including text, informal drawings, diagrams or other formalisms (modeling language).\nAn architecture description will often employ several different model kinds to effectively address a variety of audiences, the stakeholders (such as end users, system owners, software developers, system engineers, program managers) and a variety of architectural concerns (such as functionality, safety, delivery, reliability, scalability).\nOften, the models of an architecture description are organized into multiple views of the architecture such that \"each [view] addresses specific concerns of interest to different stakeholders of the system\". \nAn architecture viewpoint is a way of looking at a system (RM ODP). Each view in an architecture description should have a viewpoint documenting the concerns and stakeholders it is addressed to, and the model kinds, notations and modeling conventions it utilizes (ISO/IEC/IEEE [...]\n\n== History ==\nThe earliest architecture descriptions used informal pictures and diagrams and associated text. Informal descriptions remain the most widely used representations in industry.\nInfluences on architecture description came from the areas of Software Engineering (such as data abstraction and programming in the large) and from system design (such as SARA).\nWork on programming in the large, such as module interconnection languages (MILs) focused on the expression of the large-scale properties of software: modules (including programs, libraries, subroutines and subsystems) and module-relationships (dependencies and interconnections between modules). This work influenced both architectural thinking about programming languages (e.g., Ada), and design and architecture notations (such as Buhr diagrams and use case maps and codified in architectural features of UML: packages, subsystems, dependences) and much of the work on architecture description languages. In addition to MILs, under the influence of mature work in the areas of Requirements and Design within Software Engineering, various kinds of models were \"lifted\" from software engineering and design to be applied to the description of [...]\n\n== Mechanisms for architecture description ==\nThere are several common mechanisms used for architecture description. These mechanisms facilitate reuse of successful styles of description so that they may be applied to many systems:\n\narchitecture viewpoints\narchitecture description languages\narchitecture frameworks\n\n== Uses of architecture descriptions ==\nArchitecture descriptions serve a variety of purposes including (ISO/IEC/IEEE 42010):\n\nto guide system construction and maintenance\nto aid system planning, costing and evolution\nto serve as a medium for analysis, evaluation or comparison of architectures\nto facilitate communication among system stakeholders regarding the architecture and the system\nto document architectural knowledge beyond the scope of individual projects (such as software product lines and product families, and reference architectures)\nto capture reusable architectural idioms (such as architectural styles and patterns)\n\n== References ==\n\n\n== See also ==\nArchitecture description language\nArchitecture framework\nSeparation of concerns (Core concern and Concern [...]",
     "facts": [],
-    "questionIds": []
+    "questionIds": [
+      "software_architecture_035",
+      "software_architecture_036",
+      "software_architecture_037",
+      "software_architecture_038"
+    ]
   },
   {
     "id": "src_software_architecture_recovery",
@@ -103,9 +113,12 @@
     "topicIds": [
       "software_architecture"
     ],
-    "articleText": null,
+    "articleText": "== Summary ==\nSoftware architecture recovery is a set of methods for the extraction of architectural information from lower level representations of a software system, such as source code. The abstraction process to generate architectural elements frequently involves clustering source code entities (such as files, classes, functions etc.) into subsystems according to a set of criteria that can be application dependent or not.\n\n== Motivation ==\nArchitecture recovery from legacy systems is motivated by the fact that these systems do not often have an architectural documentation, and when they do, this documentation is many times out of synchronization with the implemented system.\nSoftware architecture recovery may be required as part of software retrofits.\n\n== Approaches ==\nMost approaches to software architecture recovery has been exploring the static analysis of systems. When considering object-oriented software, which employs a lot of polymorphism and dynamic binding mechanisms, dynamic analysis becomes an essential technique to comprehend the system behavior, object interactions, and hence to reconstruct its architecture.\nIn this work, the criteria used to determine how source code entities should be clustered in architectural elements are mainly based on the dynamic analysis of the system, taking into account the occurrences of interaction patterns and types (classes and interfaces) in use-case realizations.\n\n== See also ==\nReverse engineering\nSoftware archaeology\nSystem appreciation\n\n\n== References ==",
     "facts": [],
-    "questionIds": []
+    "questionIds": [
+      "software_architecture_039",
+      "software_architecture_040"
+    ]
   },
   {
     "id": "src_software_design_pattern",

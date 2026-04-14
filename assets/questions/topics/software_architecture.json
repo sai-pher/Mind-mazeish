@@ -2,7 +2,9 @@
   {
     "id": "software_architecture_001",
     "question": "What is software architecture primarily concerned with?",
-    "correctAnswers": ["The fundamental structural choices of a software system"],
+    "correctAnswers": [
+      "The fundamental structural choices of a software system"
+    ],
     "wrongAnswers": [
       "Writing efficient algorithms",
       "Choosing programming languages",
@@ -23,7 +25,10 @@
   {
     "id": "software_architecture_002",
     "question": "What are the two fundamental laws of software architecture?",
-    "correctAnswers": ["Everything is a trade-off", "Why is more important than how"],
+    "correctAnswers": [
+      "Everything is a trade-off",
+      "Why is more important than how"
+    ],
     "wrongAnswers": [
       "Performance beats readability",
       "Code first, design later",
@@ -44,7 +49,9 @@
   {
     "id": "software_architecture_003",
     "question": "Which architectural style organises a system into independently deployable services, each responsible for a distinct business capability?",
-    "correctAnswers": ["Microservices"],
+    "correctAnswers": [
+      "Microservices"
+    ],
     "wrongAnswers": [
       "Monolithic architecture",
       "Layered architecture",
@@ -65,7 +72,9 @@
   {
     "id": "software_architecture_004",
     "question": "In software architecture, what term describes a high-level structural organisation that defines how components are arranged and how they interact?",
-    "correctAnswers": ["Architectural style"],
+    "correctAnswers": [
+      "Architectural style"
+    ],
     "wrongAnswers": [
       "Design pattern",
       "Architectural pattern",
@@ -86,7 +95,9 @@
   {
     "id": "software_architecture_005",
     "question": "What is an architectural anti-pattern?",
-    "correctAnswers": ["A poor or counterproductive architectural decision that commonly recurs"],
+    "correctAnswers": [
+      "A poor or counterproductive architectural decision that commonly recurs"
+    ],
     "wrongAnswers": [
       "A design pattern that only applies to legacy systems",
       "A pattern used exclusively in distributed systems",
@@ -107,7 +118,9 @@
   {
     "id": "software_architecture_006",
     "question": "What is the C4 Model used for in software architecture?",
-    "correctAnswers": ["Visualising and communicating software architecture at multiple levels of detail"],
+    "correctAnswers": [
+      "Visualising and communicating software architecture at multiple levels of detail"
+    ],
     "wrongAnswers": [
       "Measuring code complexity across four metrics",
       "A four-step process for refactoring legacy systems",
@@ -128,7 +141,9 @@
   {
     "id": "software_architecture_007",
     "question": "What is an 'Architectural Kata'?",
-    "correctAnswers": ["A team exercise to produce an architectural solution that fits given requirements"],
+    "correctAnswers": [
+      "A team exercise to produce an architectural solution that fits given requirements"
+    ],
     "wrongAnswers": [
       "A formal notation for documenting architecture decisions",
       "A Japanese method for optimising software performance",
@@ -149,7 +164,9 @@
   {
     "id": "software_architecture_008",
     "question": "Which architectural example is cited as an architectural pattern (rather than a style)?",
-    "correctAnswers": ["Circuit Breaker"],
+    "correctAnswers": [
+      "Circuit Breaker"
+    ],
     "wrongAnswers": [
       "Layered Architecture",
       "Microservices",
@@ -170,7 +187,9 @@
   {
     "id": "software_architecture_009",
     "question": "Which architectural pattern involves components communicating through a central message broker?",
-    "correctAnswers": ["Publish-subscribe pattern"],
+    "correctAnswers": [
+      "Publish-subscribe pattern"
+    ],
     "wrongAnswers": [
       "Request-response pattern",
       "Polling pattern",
@@ -191,7 +210,9 @@
   {
     "id": "software_architecture_010",
     "question": "What distinguishes a software architecture pattern from a software architecture style?",
-    "correctAnswers": ["A pattern solves a specific recurring problem; a style defines the overall system organisation"],
+    "correctAnswers": [
+      "A pattern solves a specific recurring problem; a style defines the overall system organisation"
+    ],
     "wrongAnswers": [
       "Patterns are language-specific; styles are language-agnostic",
       "Styles solve specific problems; patterns define overall organisation",
@@ -212,7 +233,9 @@
   {
     "id": "software_architecture_011",
     "question": "Who first introduced the concept of patterns as an architectural idea, later adapted for software?",
-    "correctAnswers": ["Christopher Alexander"],
+    "correctAnswers": [
+      "Christopher Alexander"
+    ],
     "wrongAnswers": [
       "Erich Gamma",
       "Ward Cunningham",
@@ -233,7 +256,9 @@
   {
     "id": "software_architecture_012",
     "question": "What is the informal name for the four authors of the landmark 1994 book 'Design Patterns: Elements of Reusable Object-Oriented Software'?",
-    "correctAnswers": ["Gang of Four"],
+    "correctAnswers": [
+      "Gang of Four"
+    ],
     "wrongAnswers": [
       "The Four Horsemen",
       "The Magnificent Four",
@@ -254,7 +279,9 @@
   {
     "id": "software_architecture_013",
     "question": "In what year was 'Design Patterns: Elements of Reusable Object-Oriented Software' first published?",
-    "correctAnswers": ["1994"],
+    "correctAnswers": [
+      "1994"
+    ],
     "wrongAnswers": [
       "1987",
       "1991",
@@ -275,7 +302,9 @@
   {
     "id": "software_architecture_014",
     "question": "At which conference did Kent Beck and Ward Cunningham present their early work on applying patterns to programming in 1987?",
-    "correctAnswers": ["OOPSLA"],
+    "correctAnswers": [
+      "OOPSLA"
+    ],
     "wrongAnswers": [
       "ICSE",
       "IEEE INFOCOM",
@@ -296,7 +325,9 @@
   {
     "id": "software_architecture_015",
     "question": "What does 'coupling' refer to in software design?",
-    "correctAnswers": ["The degree of interdependence between software modules"],
+    "correctAnswers": [
+      "The degree of interdependence between software modules"
+    ],
     "wrongAnswers": [
       "The number of methods in a class",
       "The speed at which modules communicate",
@@ -317,7 +348,9 @@
   {
     "id": "software_architecture_016",
     "question": "What does 'cohesion' measure in the context of software modules?",
-    "correctAnswers": ["How closely related and focused the responsibilities of a single module are"],
+    "correctAnswers": [
+      "How closely related and focused the responsibilities of a single module are"
+    ],
     "wrongAnswers": [
       "How tightly a module is connected to other modules",
       "The number of classes within a module",
@@ -338,7 +371,9 @@
   {
     "id": "software_architecture_017",
     "question": "Which of the following best describes the 'separation of concerns' principle?",
-    "correctAnswers": ["Dividing a system so that each section addresses a distinct, well-defined aspect"],
+    "correctAnswers": [
+      "Dividing a system so that each section addresses a distinct, well-defined aspect"
+    ],
     "wrongAnswers": [
       "Splitting a codebase across multiple repositories",
       "Assigning different teams to different programming languages",
@@ -359,7 +394,9 @@
   {
     "id": "software_architecture_018",
     "question": "In the MVC architectural pattern, what does the 'Controller' do?",
-    "correctAnswers": ["Handles user input and updates the Model or View accordingly"],
+    "correctAnswers": [
+      "Handles user input and updates the Model or View accordingly"
+    ],
     "wrongAnswers": [
       "Stores and manages application data",
       "Renders the visual presentation to the user",
@@ -380,7 +417,9 @@
   {
     "id": "software_architecture_019",
     "question": "Which architectural style processes data through a sequence of independent processing steps connected by channels?",
-    "correctAnswers": ["Pipe-and-filter architecture"],
+    "correctAnswers": [
+      "Pipe-and-filter architecture"
+    ],
     "wrongAnswers": [
       "Layered architecture",
       "Event-driven architecture",
@@ -401,7 +440,9 @@
   {
     "id": "software_architecture_020",
     "question": "What does 'scalability' mean in the context of software systems?",
-    "correctAnswers": ["The ability of a system to handle increased load by adding resources"],
+    "correctAnswers": [
+      "The ability of a system to handle increased load by adding resources"
+    ],
     "wrongAnswers": [
       "The ease with which new features can be added to the codebase",
       "The number of programming languages a system supports",
@@ -422,7 +463,9 @@
   {
     "id": "software_architecture_021",
     "question": "What is the SOLID acronym's 'S' principle in object-oriented design?",
-    "correctAnswers": ["Single Responsibility Principle"],
+    "correctAnswers": [
+      "Single Responsibility Principle"
+    ],
     "wrongAnswers": [
       "Separation of Concerns Principle",
       "Substitution Strategy Principle",
@@ -443,7 +486,9 @@
   {
     "id": "software_architecture_022",
     "question": "Which design pattern ensures only one instance of a class exists throughout the application?",
-    "correctAnswers": ["Singleton"],
+    "correctAnswers": [
+      "Singleton"
+    ],
     "wrongAnswers": [
       "Factory",
       "Prototype",
@@ -464,7 +509,9 @@
   {
     "id": "software_architecture_023",
     "question": "What are the three broad categories into which the Gang of Four classified their 23 design patterns?",
-    "correctAnswers": ["Creational, Structural, Behavioural"],
+    "correctAnswers": [
+      "Creational, Structural, Behavioural"
+    ],
     "wrongAnswers": [
       "Architectural, Tactical, Operational",
       "Input, Processing, Output",
@@ -485,7 +532,9 @@
   {
     "id": "software_architecture_024",
     "question": "What is the Observer design pattern used for?",
-    "correctAnswers": ["Allowing objects to be notified automatically when the state of another object changes"],
+    "correctAnswers": [
+      "Allowing objects to be notified automatically when the state of another object changes"
+    ],
     "wrongAnswers": [
       "Restricting direct access to an object's internal state",
       "Creating families of related objects without specifying concrete classes",
@@ -506,7 +555,9 @@
   {
     "id": "software_architecture_025",
     "question": "What does 'event-driven architecture' mean?",
-    "correctAnswers": ["A design where components communicate by producing and consuming events asynchronously"],
+    "correctAnswers": [
+      "A design where components communicate by producing and consuming events asynchronously"
+    ],
     "wrongAnswers": [
       "An architecture where all logic is triggered by database record changes only",
       "A pattern where a single event handler processes all system requests",
@@ -527,7 +578,9 @@
   {
     "id": "software_architecture_026",
     "question": "What does the Dependency Inversion Principle state?",
-    "correctAnswers": ["High-level modules should not depend on low-level modules; both should depend on abstractions"],
+    "correctAnswers": [
+      "High-level modules should not depend on low-level modules; both should depend on abstractions"
+    ],
     "wrongAnswers": [
       "All dependencies should be injected through constructors",
       "Low-level modules should control the flow of high-level modules",
@@ -548,7 +601,9 @@
   {
     "id": "software_architecture_027",
     "question": "In the context of distributed systems, what does CAP theorem state a system can only guarantee two of?",
-    "correctAnswers": ["Consistency, Availability, Partition tolerance"],
+    "correctAnswers": [
+      "Consistency, Availability, Partition tolerance"
+    ],
     "wrongAnswers": [
       "Concurrency, Atomicity, Performance",
       "Correctness, Availability, Predictability",
@@ -569,7 +624,9 @@
   {
     "id": "software_architecture_028",
     "question": "What architectural pattern is characterised by a central 'hub' component that coordinates communication between loosely-coupled 'spoke' services?",
-    "correctAnswers": ["Hub-and-spoke architecture"],
+    "correctAnswers": [
+      "Hub-and-spoke architecture"
+    ],
     "wrongAnswers": [
       "Mesh architecture",
       "Pipe-and-filter architecture",
@@ -590,7 +647,9 @@
   {
     "id": "software_architecture_029",
     "question": "Which of the following accurately describes the Strangler Fig pattern?",
-    "correctAnswers": ["Incrementally replacing a legacy system by routing new functionality to a new system while the old one still runs"],
+    "correctAnswers": [
+      "Incrementally replacing a legacy system by routing new functionality to a new system while the old one still runs"
+    ],
     "wrongAnswers": [
       "Compressing a monolith into a single deployable container",
       "Splitting a monolith into microservices in a single large migration",
@@ -611,7 +670,9 @@
   {
     "id": "software_architecture_030",
     "question": "Which book, authored by Frank Buschmann and colleagues in 1996, is a foundational reference for architectural patterns and introduced the acronym POSA?",
-    "correctAnswers": ["Pattern-Oriented Software Architecture: A System of Patterns"],
+    "correctAnswers": [
+      "Pattern-Oriented Software Architecture: A System of Patterns"
+    ],
     "wrongAnswers": [
       "Design Patterns: Elements of Reusable Object-Oriented Software",
       "The Pragmatic Programmer",
@@ -624,6 +685,246 @@
     ],
     "funFact": "The POSA series (Pattern-Oriented Software Architecture), starting with Buschmann et al.'s 1996 volume, catalogued patterns at the architectural level — broader than the GoF's design patterns — and became a foundational reference for enterprise and systems architects.",
     "sourceId": "src_architectural_pattern",
+    "topicId": "software_architecture",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "hard"
+  },
+  {
+    "id": "software_architecture_031",
+    "question": "What does the acronym SAAM stand for in software architecture evaluation?",
+    "correctAnswers": [
+      "Software Architecture Analysis Method"
+    ],
+    "wrongAnswers": [
+      "System Attribute Assessment Model",
+      "Software Assurance Analysis Mechanism",
+      "Scalable Architecture Audit Method",
+      "Structural Analysis and Abstraction Model",
+      "Service Architecture Alignment Methodology",
+      "Software Agility Assessment Model",
+      "Semantic Architecture Analysis Method",
+      "System Architecture Appraisal Mechanism",
+      "Structured Application Analysis Method"
+    ],
+    "funFact": "SAAM (Software Architecture Analysis Method) was the first formally documented method for evaluating software architectures, developed in the mid-1990s at the Software Engineering Institute. It was designed primarily to assess modifiability but proved applicable to any non-functional quality attribute.",
+    "sourceId": "src_software_architecture_analysis_method",
+    "topicId": "software_architecture",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "software_architecture_032",
+    "question": "SAAM was a direct precursor to which later, more comprehensive architecture evaluation method?",
+    "correctAnswers": [
+      "Architecture Tradeoff Analysis Method",
+      "ATAM"
+    ],
+    "wrongAnswers": [
+      "Active Design Reviews",
+      "Architecture Review and Communication",
+      "Scenario-Based Architecture Reengineering",
+      "Architecture-Level Modifiability Analysis",
+      "Cost Benefit Analysis Method",
+      "Quality Attribute Workshop",
+      "Architectural Risk Analysis",
+      "Software Architecture Review Board method",
+      "Lightweight Architecture Evaluation"
+    ],
+    "funFact": "SAAM's success as the first documented architecture analysis method led directly to the development of the Architecture Tradeoff Analysis Method (ATAM), which extended SAAM by explicitly addressing the tradeoffs between competing quality attributes and involving more structured stakeholder engagement.",
+    "sourceId": "src_software_architecture_analysis_method",
+    "topicId": "software_architecture",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "hard"
+  },
+  {
+    "id": "software_architecture_033",
+    "question": "Although SAAM was originally designed to evaluate a specific quality attribute, it proved useful for assessing any non-functional aspect. Which quality attribute was its original focus?",
+    "correctAnswers": [
+      "Modifiability"
+    ],
+    "wrongAnswers": [
+      "Performance",
+      "Security",
+      "Availability",
+      "Scalability",
+      "Testability",
+      "Interoperability",
+      "Reliability",
+      "Portability",
+      "Usability"
+    ],
+    "funFact": "SAAM was originally conceived as a tool for evaluating how easily a system's architecture could be changed — its modifiability. Architects apply it by defining change scenarios and mapping them onto architectural components to pinpoint how many components each scenario would touch.",
+    "sourceId": "src_software_architecture_analysis_method",
+    "topicId": "software_architecture",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "software_architecture_034",
+    "question": "In which decade was SAAM (Software Architecture Analysis Method) developed?",
+    "correctAnswers": [
+      "1990s"
+    ],
+    "wrongAnswers": [
+      "1970s",
+      "1980s",
+      "2000s",
+      "2010s",
+      "1960s",
+      "2020s"
+    ],
+    "funFact": "SAAM emerged in the mid-1990s, a period when the software architecture discipline itself was being formalised. Its publication helped establish architecture evaluation as a legitimate and repeatable engineering practice rather than purely ad-hoc expert review.",
+    "sourceId": "src_software_architecture_analysis_method",
+    "topicId": "software_architecture",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "easy"
+  },
+  {
+    "id": "software_architecture_035",
+    "question": "Which ISO/IEC/IEEE standard specifically governs the practice and terminology of software architecture description?",
+    "correctAnswers": [
+      "ISO/IEC/IEEE 42010"
+    ],
+    "wrongAnswers": [
+      "ISO/IEC 25010",
+      "IEEE 1471",
+      "ISO/IEC 12207",
+      "IEEE 830",
+      "ISO/IEC 9126",
+      "IEEE 1016",
+      "ISO/IEC 15288",
+      "IEEE 42020",
+      "ISO/IEC 27001"
+    ],
+    "funFact": "ISO/IEC/IEEE 42010 replaced the earlier IEEE 1471:2000 standard and broadened its scope from software-intensive systems to any complex system. It codifies key concepts such as architecture viewpoints, views, and model kinds as the vocabulary for communicating architectural decisions.",
+    "sourceId": "src_software_architecture_description",
+    "topicId": "software_architecture",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "hard"
+  },
+  {
+    "id": "software_architecture_036",
+    "question": "In architecture description, what is the term for the concept that defines a way of looking at a system, documenting which stakeholder concerns and model kinds it addresses?",
+    "correctAnswers": [
+      "Architecture viewpoint"
+    ],
+    "wrongAnswers": [
+      "Architecture view",
+      "Architecture perspective",
+      "Architecture lens",
+      "Architecture concern",
+      "Architecture dimension",
+      "Architecture frame",
+      "Architecture model",
+      "Architecture aspect",
+      "Architecture slice"
+    ],
+    "funFact": "A viewpoint is the specification — the template — that defines rules for constructing and interpreting a particular type of view. A view is the resulting artefact. The distinction, formalised in ISO/IEC/IEEE 42010, helps architects ensure that each audience (end users, developers, operators) gets an appropriate representation of the system.",
+    "sourceId": "src_software_architecture_description",
+    "topicId": "software_architecture",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "software_architecture_037",
+    "question": "ISO/IEC/IEEE 42010 identifies three common mechanisms used to facilitate reuse and standardisation in architecture description. Which of the following is one of those three mechanisms?",
+    "correctAnswers": [
+      "Architecture description language",
+      "Architecture viewpoints",
+      "Architecture frameworks"
+    ],
+    "wrongAnswers": [
+      "UML class diagrams",
+      "Architecture decision records",
+      "Deployment pipelines",
+      "Architecture fitness functions",
+      "Module interconnection languages",
+      "Component interface contracts",
+      "Service mesh specifications"
+    ],
+    "funFact": "ISO/IEC/IEEE 42010 names architecture viewpoints, architecture description languages (ADLs), and architecture frameworks as the three key mechanisms for describing architectures consistently across projects. Frameworks like TOGAF and the Zachman Framework are well-known examples of the third mechanism.",
+    "sourceId": "src_software_architecture_description",
+    "topicId": "software_architecture",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "hard"
+  },
+  {
+    "id": "software_architecture_038",
+    "question": "According to ISO/IEC/IEEE 42010, which of the following is a recognised purpose of an architecture description?",
+    "correctAnswers": [
+      "To guide system construction and maintenance",
+      "To serve as a medium for analysis and comparison of architectures",
+      "To capture reusable architectural idioms such as styles and patterns"
+    ],
+    "wrongAnswers": [
+      "To replace source code as the authoritative system artefact",
+      "To enforce a single unified view for all stakeholders",
+      "To substitute for formal requirements specifications",
+      "To act as the primary legal contract with clients",
+      "To automate deployment of system components",
+      "To define the user interface design for all screens",
+      "To specify the test cases for each system module",
+      "To document the budget and timeline for the project"
+    ],
+    "funFact": "ISO/IEC/IEEE 42010 lists several purposes for architecture descriptions, ranging from practical construction guidance to knowledge preservation across product lines. Notably, a single description can simultaneously serve development teams, programme managers, and auditors — each reading through their relevant viewpoints.",
+    "sourceId": "src_software_architecture_description",
+    "topicId": "software_architecture",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "software_architecture_039",
+    "question": "Software architecture recovery extracts architectural information from which type of system representation?",
+    "correctAnswers": [
+      "Source code",
+      "Lower-level representations such as source code"
+    ],
+    "wrongAnswers": [
+      "Formal specification documents",
+      "UML design diagrams",
+      "Architecture Decision Records",
+      "Configuration management metadata",
+      "User acceptance test suites",
+      "Network topology maps",
+      "High-level architecture blueprints",
+      "Requirements traceability matrices",
+      "Deployment manifests"
+    ],
+    "funFact": "Architecture recovery is especially valuable for legacy systems that were built without formal architectural documentation, or where that documentation has drifted out of sync with the actual implementation. By mining source code, architects can reconstruct a working model of what the system actually does — not what it was intended to do.",
+    "sourceId": "src_software_architecture_recovery",
+    "topicId": "software_architecture",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "software_architecture_040",
+    "question": "When recovering the architecture of object-oriented software that uses polymorphism and dynamic binding, which analysis technique becomes essential beyond static analysis?",
+    "correctAnswers": [
+      "Dynamic analysis"
+    ],
+    "wrongAnswers": [
+      "Formal verification",
+      "Abstract interpretation",
+      "Symbolic execution",
+      "Mutation testing",
+      "Dependency injection analysis",
+      "Lexical analysis",
+      "Bytecode decompilation",
+      "Call-graph pruning",
+      "Dataflow analysis"
+    ],
+    "funFact": "Static analysis alone cannot resolve polymorphic dispatch, as the concrete type of an object is only known at runtime. Dynamic analysis — executing the system and observing object interactions — fills this gap, enabling architecture recovery tools to accurately reconstruct subsystem boundaries and interaction patterns in heavily polymorphic codebases.",
+    "sourceId": "src_software_architecture_recovery",
     "topicId": "software_architecture",
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
