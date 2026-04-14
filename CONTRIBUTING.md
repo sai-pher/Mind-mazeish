@@ -26,11 +26,20 @@ Examples:
 
 One subject line (≤72 chars). No body unless change is non-obvious.
 
+## Release notes
+
+Every PR to `main` must include an update to `release_notes.md`.
+
+- Add your changes under `## Unreleased` using the Features / Fixes / Content / Other sections.
+- Focus on **user-facing** changes. Summarise internal/CI changes briefly under "Other".
+- Run `/release-notes` (Claude skill) to auto-generate a draft from the current branch diff.
+- The CI `Check Release Notes` action will fail if `release_notes.md` is not modified in the PR.
+
 ## Pull requests
 
 - Title mirrors the commit message format
 - Body must include `Closes #{N}` if resolving an issue
-- All PRs require green CI (analyze + test) before merge
+- All PRs require green CI (analyze + test + check-release-notes) before merge
 - Scope: one issue per PR; no bundled unrelated changes
 - Target branch: `main`
 
@@ -46,9 +55,21 @@ One subject line (≤72 chars). No body unless change is non-obvious.
 
 See `TESTING.md` for coverage requirements. All new features require widget tests. All bug fixes require a regression test.
 
+## Git hooks
+
+This repo ships hooks in `.githooks/`. Enable them once after cloning:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+The `pre-push` hook runs `flutter analyze --fatal-infos` and `flutter test` before every push. Fix any failures before retrying.
+
 ## AI agent contributions
 
 Agents follow the same standards. Agent-authored PRs include the structured resolution comment on the linked issue before the PR is opened. See `.claude/skills/` for available agent skills.
+
+Before creating or updating a PR, agents always run the `/release-notes` skill to sync `release_notes.md` with the branch changes.
 
 ## Questions
 

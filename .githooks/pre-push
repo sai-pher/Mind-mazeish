@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -e
+
+export PATH="$PATH:/opt/flutter/bin"
+
+echo "Running flutter analyze..."
+flutter analyze --fatal-infos
+
+echo "Running flutter test..."
+flutter test --reporter compact
+
+echo "Pre-push checks passed."

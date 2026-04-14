@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -182,8 +183,17 @@ class _VersionBadgeState extends ConsumerState<_VersionBadge> {
       _version = info.version;
       _buildNumber = int.tryParse(info.buildNumber) ?? 0;
     });
+    _autoCheckUpdate();
   }
 
+  /// Silently checks for updates on app open — shows dialog only if available.
+  Future<void> _autoCheckUpdate() async {
+    final info = await UpdateService.check(_buildNumber);
+    if (!mounted || info == null || !info.updateAvailable) return;
+    _showUpdateDialog(info);
+  }
+
+  /// Manual tap path — also shows snackbar when up to date or on error.
   Future<void> _checkUpdates() async {
     final info = await UpdateService.check(_buildNumber);
     if (!mounted) return;
@@ -195,21 +205,44 @@ class _VersionBadgeState extends ConsumerState<_VersionBadge> {
       _showSnack('You\'re on the latest version ($_version).');
       return;
     }
+    _showUpdateDialog(info);
+  }
+
+  void _showUpdateDialog(UpdateInfo info) {
+    final textTheme = Theme.of(context).textTheme;
     showDialog<void>(
       context: context,
       builder: (_) => AlertDialog(
         backgroundColor: AppColors.stoneDark,
-        title: Text('Update Available',
-            style: Theme.of(context)
-                .textTheme
-                .displaySmall
-                ?.copyWith(color: AppColors.torchGold)),
-        content: Text(
-          'Version ${info.latestVersion} is available.\n\n${info.releaseNotes}',
-          style: Theme.of(context)
-              .textTheme
-              .bodySmall
-              ?.copyWith(color: AppColors.textLight),
+        title: Text(
+          'Update Available — ${info.latestVersion}',
+          style: textTheme.displaySmall?.copyWith(color: AppColors.torchGold),
+        ),
+        content: SizedBox(
+          width: double.maxFinite,
+          child: SingleChildScrollView(
+            child: MarkdownBody(
+              data: info.releaseNotes.isNotEmpty
+                  ? info.releaseNotes
+                  : 'A new version is available.',
+              styleSheet: MarkdownStyleSheet(
+                p: textTheme.bodySmall?.copyWith(color: AppColors.textLight),
+                h2: textTheme.labelLarge
+                    ?.copyWith(color: AppColors.torchGold, fontSize: 14),
+                h3: textTheme.labelMedium
+                    ?.copyWith(color: AppColors.torchAmber),
+                listBullet:
+                    textTheme.bodySmall?.copyWith(color: AppColors.textLight),
+                code: const TextStyle(
+                  color: AppColors.torchAmber,
+                  fontFamily: 'monospace',
+                  fontSize: 11,
+                ),
+                blockquote:
+                    textTheme.bodySmall?.copyWith(color: AppColors.textLight),
+              ),
+            ),
+          ),
         ),
         actions: [
           TextButton(
@@ -221,7 +254,7 @@ class _VersionBadgeState extends ConsumerState<_VersionBadge> {
             onPressed: () {
               Navigator.of(context).pop();
               launchUrl(
-                Uri.parse(info.releaseUrl),
+                Uri.parse(info.downloadUrl),
                 mode: LaunchMode.externalApplication,
               );
             },

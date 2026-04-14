@@ -1,0 +1,33 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash(git push:*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git diff origin/main...HEAD --name-only 2>/dev/null | grep -q release_notes.md || echo 'REMINDER: release_notes.md not updated — run /release-notes before this push reaches a PR'"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash(gh pr:*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git diff origin/main...HEAD --name-only 2>/dev/null | grep -q release_notes.md || echo 'REMINDER: release_notes.md not updated — run /release-notes to draft the notes for this PR'"
+          }
+        ]
+      },
+      {
+        "matcher": "Skill(commit-commands:commit-push-pr)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git diff origin/main...HEAD --name-only 2>/dev/null | grep -q release_notes.md || echo 'REMINDER: release_notes.md not updated — run /release-notes before opening the PR'"
+          }
+        ]
+      }
+    ]
+  }
+}
