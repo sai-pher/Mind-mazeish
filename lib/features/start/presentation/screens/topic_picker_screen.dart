@@ -22,6 +22,7 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
   late Set<String> _selected;
   int _questionCount = 10;
   GameMode _gameMode = GameMode.standard;
+  int _difficultyBias = 3;
 
   @override
   void initState() {
@@ -30,6 +31,7 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
     _selected = Set.from(config.selectedTopicIds);
     _questionCount = config.questionCount;
     _gameMode = config.gameMode;
+    _difficultyBias = config.difficultyBias;
   }
 
   bool get _canStart =>
@@ -85,6 +87,7 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
       selectedTopicIds: Set.from(_selected),
       questionCount: _questionCount,
       gameMode: _gameMode,
+      difficultyBias: _difficultyBias,
     );
     ref.read(quizConfigProvider.notifier).setConfig(config);
     await ref.read(gameStateProvider.notifier).startGame(config);
@@ -160,9 +163,11 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
             questionCount: _questionCount,
             availableQuestions: _availableQuestions,
             gameMode: _gameMode,
+            difficultyBias: _difficultyBias,
             canStart: _canStart,
             onCountChanged: (c) => setState(() => _questionCount = c),
             onModeChanged: (m) => setState(() => _gameMode = m),
+            onDifficultyChanged: (b) => setState(() => _difficultyBias = b),
             onStart: _startGame,
           ),
         ],
@@ -378,18 +383,22 @@ class _BottomBar extends StatelessWidget {
   final int questionCount;
   final int availableQuestions;
   final GameMode gameMode;
+  final int difficultyBias;
   final bool canStart;
   final void Function(int) onCountChanged;
   final void Function(GameMode) onModeChanged;
+  final void Function(int) onDifficultyChanged;
   final VoidCallback onStart;
 
   const _BottomBar({
     required this.questionCount,
     required this.availableQuestions,
     required this.gameMode,
+    required this.difficultyBias,
     required this.canStart,
     required this.onCountChanged,
     required this.onModeChanged,
+    required this.onDifficultyChanged,
     required this.onStart,
   });
 
@@ -487,6 +496,49 @@ class _BottomBar extends StatelessWidget {
                     textTheme.bodySmall?.copyWith(color: AppColors.dangerRed),
               ),
             ),
+          const SizedBox(height: 10),
+
+          // Difficulty bias selector
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Text('🕯️', style: TextStyle(fontSize: 14)),
+              const SizedBox(width: 6),
+              ...List.generate(5, (i) {
+                final value = i + 1;
+                final active = value == difficultyBias;
+                final chipColor = _biasColor(value);
+                return Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 3),
+                  child: GestureDetector(
+                    onTap: () => onDifficultyChanged(value),
+                    child: Container(
+                      width: 36,
+                      height: 36,
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: active ? chipColor : AppColors.stone,
+                        borderRadius: BorderRadius.circular(6),
+                        border: Border.all(
+                          color: active ? chipColor : AppColors.stoneMid,
+                        ),
+                      ),
+                      child: Text(
+                        '$value',
+                        style: TextStyle(
+                          color: active ? Colors.white : AppColors.textLight,
+                          fontWeight: active ? FontWeight.bold : FontWeight.normal,
+                          fontSize: 14,
+                        ),
+                      ),
+                    ),
+                  ),
+                );
+              }),
+              const SizedBox(width: 6),
+              const Text('⚔️', style: TextStyle(fontSize: 14)),
+            ],
+          ),
           const SizedBox(height: 12),
           SizedBox(
             width: double.infinity,
@@ -511,6 +563,12 @@ class _BottomBar extends StatelessWidget {
     );
   }
 }
+
+Color _biasColor(int bias) => switch (bias) {
+  1 || 2 => AppColors.torchGold,
+  4 || 5 => AppColors.dangerRed,
+  _       => AppColors.torchAmber,
+};
 
 class _ModeChip extends StatelessWidget {
   final String label;

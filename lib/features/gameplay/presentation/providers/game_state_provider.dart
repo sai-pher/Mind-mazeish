@@ -19,6 +19,7 @@ class GameStateNotifier extends Notifier<GameState?> {
       pool,
       topicIds: config.selectedTopicIds,
       count: count,
+      difficultyBias: config.difficultyBias,
     );
     state = GameState.initial(questions: questions, config: config);
   }
