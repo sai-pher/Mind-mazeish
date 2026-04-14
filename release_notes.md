@@ -6,6 +6,9 @@
 - Auto-check for app updates on launch — update dialog appears automatically when a new version is available
 - In-app update dialog now renders release notes as formatted markdown with full scrollable content
 - Download button now triggers a direct APK download instead of opening the browser release page
+- Fair multi-topic question selection — round-robin interleaving ensures every selected topic has equal representation regardless of pool size (#44)
+- Difficulty bias selector (1–5) on the topic picker — tune your game from easy-skewed to hard-skewed before starting (#44)
+- Visual difficulty badge on each question card: 🕯️ Easy · 🔥 Medium · ⚔️ Hard (#44)
 
 ### Fixes
 - (none)
