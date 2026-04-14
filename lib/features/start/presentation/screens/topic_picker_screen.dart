@@ -102,19 +102,39 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
         ),
         actions: [
           IconButton(
-            icon: const Icon(Icons.bar_chart, color: AppColors.stoneMid),
+            icon: const Icon(Icons.bar_chart, color: AppColors.textLight),
             tooltip: 'Question Bank Stats',
             onPressed: () => context.push('/stats'),
           ),
           TextButton(
             onPressed: _selectAll,
-            child: const Text('All',
-                style: TextStyle(color: AppColors.torchAmber)),
+            style: TextButton.styleFrom(
+              minimumSize: Size.zero,
+              padding: const EdgeInsets.symmetric(horizontal: 8),
+            ),
+            child: Text(
+              'All',
+              style: TextStyle(
+                color: allTopicIds.every(_selected.contains)
+                    ? AppColors.torchAmber
+                    : AppColors.stoneMid,
+              ),
+            ),
           ),
           TextButton(
             onPressed: _clearAll,
-            child: const Text('None',
-                style: TextStyle(color: AppColors.stoneMid)),
+            style: TextButton.styleFrom(
+              minimumSize: Size.zero,
+              padding: const EdgeInsets.symmetric(horizontal: 8),
+            ),
+            child: Text(
+              'None',
+              style: TextStyle(
+                color: _selected.isEmpty
+                    ? AppColors.torchAmber
+                    : AppColors.stoneMid,
+              ),
+            ),
           ),
         ],
       ),
