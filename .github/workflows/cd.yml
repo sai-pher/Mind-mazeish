@@ -5,11 +5,6 @@ on:
     branches:
       - main
   workflow_dispatch:
-    inputs:
-      release_notes:
-        description: 'Optional release notes'
-        required: false
-        default: ''
 
 concurrency:
   group: cd-main
@@ -106,33 +101,26 @@ jobs:
         env:
           BUILD_NUMBER: ${{ github.run_number }}
         run: |
-          PREV_TAG=$(git tag --sort=-creatordate | grep '^v' | head -1 || echo "")
-          if [ -n "$PREV_TAG" ]; then
-            LOG=$(git log "${PREV_TAG}..HEAD" --oneline --no-decorate | head -20)
-          else
-            LOG=$(git log HEAD --oneline --no-decorate | head -20)
-          fi
-          MANUAL_NOTES="${{ github.event.inputs.release_notes }}"
-          cat <<EOF > release_body.md
-          ## Mind Mazeish — v1.0.${BUILD_NUMBER}
-
-          **Commit:** \`${{ github.sha }}\`
-          **Built:** $(date -u '+%Y-%m-%d %H:%M UTC')
-
-          $( [ -n "$MANUAL_NOTES" ] && echo -e "### Notes\n${MANUAL_NOTES}\n" )
-          ### Changes since last release
-          \`\`\`
-          ${LOG}
-          \`\`\`
-
-          ---
-          ### Installation
-          1. Download **${{ steps.apk.outputs.name }}** below
-          2. On your device: **Settings → Apps → Install unknown apps**
-          3. Open the APK to install (or update if you have an older version)
-
-          > Signed with the release keystore. No API key required.
-          EOF
+          python3 - <<'PYEOF'
+          import re, os
+          with open('release_notes.md') as f:
+              content = f.read()
+          m = re.search(r'## Unreleased\n(.*?)(?=\n## |\Z)', content, re.DOTALL)
+          notes = m.group(1).strip() if m else ''
+          version = f"1.0.{os.environ['BUILD_NUMBER']}"
+          body = (
+              f"## Mind Mazeish — v{version}\n\n"
+              f"{notes}\n\n"
+              f"---\n"
+              f"### Installation\n"
+              f"1. Download the APK below\n"
+              f"2. On your device: **Settings → Apps → Install unknown apps**\n"
+              f"3. Open the APK to install (or update if you have an older version)\n\n"
+              f"> Signed with the release keystore. No API key required."
+          )
+          with open('release_body.md', 'w') as f:
+              f.write(body)
+          PYEOF
 
       # Tag each release with a proper version (e.g. v1.0.42)
       # Also maintains the rolling latest-build tag for in-app update checks.

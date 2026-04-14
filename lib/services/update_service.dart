@@ -4,12 +4,14 @@ import 'package:http/http.dart' as http;
 class UpdateInfo {
   final String latestVersion;
   final String releaseUrl;
+  final String downloadUrl;
   final String releaseNotes;
   final bool updateAvailable;
 
   const UpdateInfo({
     required this.latestVersion,
     required this.releaseUrl,
+    required this.downloadUrl,
     required this.releaseNotes,
     required this.updateAvailable,
   });
@@ -34,6 +36,16 @@ class UpdateService {
       final htmlUrl = json['html_url'] as String? ?? '';
       final body = json['body'] as String? ?? '';
 
+      // Find the direct APK download URL from the release assets.
+      final assets =
+          (json['assets'] as List?)?.cast<Map<String, dynamic>>() ?? [];
+      final apkAsset = assets.firstWhere(
+        (a) => (a['name'] as String? ?? '').endsWith('.apk'),
+        orElse: () => {},
+      );
+      final downloadUrl =
+          apkAsset['browser_download_url'] as String? ?? htmlUrl;
+
       // Tag format: v1.0.42 — extract the build number (last segment)
       final parts = tagName.replaceAll('v', '').split('.');
       final remoteBuild = int.tryParse(parts.last) ?? 0;
@@ -41,7 +53,8 @@ class UpdateService {
       return UpdateInfo(
         latestVersion: tagName,
         releaseUrl: htmlUrl,
-        releaseNotes: body.length > 300 ? '${body.substring(0, 300)}…' : body,
+        downloadUrl: downloadUrl,
+        releaseNotes: body,
         updateAvailable: remoteBuild > currentBuildNumber,
       );
     } catch (_) {

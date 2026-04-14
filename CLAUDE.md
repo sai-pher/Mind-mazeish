@@ -89,6 +89,23 @@ flutter test --reporter expanded
 - `plan-task` — research and plan a new initiative in `ai/tasks/`
   - Invoke: `skill: "plan-task"`
 
+### Release workflow
+- `release-notes` — sync `## Unreleased` in `release_notes.md` with current branch/PR changes; skips if notes already cover all significant changes
+  - Invoke: `skill: "release-notes"`
+  - **Required before creating or updating any PR** — run it, then stage and commit any changes before opening the PR
+
+## Release notes rule
+
+Before creating or updating a PR, always run the release-notes skill:
+
+```
+skill: "release-notes"
+```
+
+The skill compares existing `## Unreleased` bullets against significant changes on the branch. If the notes are already in sync it skips writing — safe to run multiple times. If it writes changes, stage and commit `release_notes.md` before opening/updating the PR.
+
+The CI `check-release-notes` action will fail the PR if `release_notes.md` was not modified anywhere in the branch diff.
+
 ## Colour palette (AppColors)
 | Token | Hex | Usage |
 |-------|-----|-------|
