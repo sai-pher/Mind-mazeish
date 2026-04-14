@@ -39,9 +39,140 @@
       "linguistics"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_linguistics_001",
+        "text": "Linguistics is divided into six main areas of analysis: syntax, semantics, morphology, phonetics, phonology, and pragmatics.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_002",
+        "text": "Pragmatics is the study of how the context of use contributes to meaning in language.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_003",
+        "text": "Phonology studies the abstract sound system of a particular language, not the physical sounds themselves.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_004",
+        "text": "Biolinguistics is the subdiscipline that studies the biological variables and evolution of language.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_005",
+        "text": "Psycholinguistics studies the psychological factors involved in human language.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_006",
+        "text": "A Saussurean linguistic sign is any particular pairing of meaning and form.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_007",
+        "text": "The earliest known formal description of a language is attributed to the 6th-century BC Indian grammarian Pāṇini.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_008",
+        "text": "Pāṇini composed a formal description of the Sanskrit language in a work called the Aṣṭādhyāyī.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_009",
+        "text": "Modern-day theories on grammar still employ many of the principles laid down by Pāṇini over 2,500 years ago.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_010",
+        "text": "Modern linguistics is primarily descriptive, not prescriptive — linguists describe language without judging it as 'good' or 'bad'.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_011",
+        "text": "Prescriptivism in linguistics is the attempt to promote particular linguistic usages over others, often favoring a specific dialect.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_012",
+        "text": "An extreme form of prescriptivism is found among censors, who attempt to eraderate words and structures they consider destructive to society.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_013",
+        "text": "Applied linguistics uses findings from language science for practical purposes such as improving language education and literacy.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_014",
+        "text": "Mathematical linguistics applies mathematics to model linguistic phenomena and solve language-related problems.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_015",
+        "text": "The morphology of the word 'tenth' contains two forms: a number ('ten') and an ordinality marker ('th').",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_016",
+        "text": "Sign languages have their own phonetics — not speech sounds, but equivalent hand and face movements.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_017",
+        "text": "Linguistic imperialism refers to speakers of one language attempting to exert influence over speakers of other languages or dialects.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_018",
+        "text": "Prescriptivism can be legitimately used in language instruction, such as ELT, to introduce grammatical rules to second-language learners.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_019",
+        "text": "Establishing a linguistic standard through prescriptivism can aid communication across large geographical areas.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_linguistics_020",
+        "text": "Linguistics encompasses both theoretical branches (understanding universal language nature) and applied branches (practical language use).",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      }
+    ],
     "questionIds": [
-      "ling_004"
+      "ling_004",
+      "ling_006",
+      "ling_007",
+      "ling_008",
+      "ling_009",
+      "ling_010",
+      "ling_011",
+      "ling_012",
+      "ling_013",
+      "ling_014",
+      "ling_015"
     ]
   },
   {

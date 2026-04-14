@@ -39,9 +39,176 @@
       "dictionaries"
     ],
     "articleText": null,
-    "facts": [],
+    "facts": [
+      {
+        "id": "fact_oxford_english_dictionary_001",
+        "text": "The Oxford English Dictionary is published by Oxford University Press, a publishing house of the University of Oxford.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_002",
+        "text": "Work on the Oxford English Dictionary began in 1857, but publication did not commence until 1884.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_003",
+        "text": "The OED was originally published incrementally in unbound fascicles (instalments) rather than complete volumes.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_004",
+        "text": "The original title of the OED was 'A New English Dictionary on Historical Principles; Founded Mainly on the Materials Collected by The Philological Society.'",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_005",
+        "text": "The title 'The Oxford English Dictionary' was first used unofficially on the covers of the series in 1895.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_006",
+        "text": "In 1928, the full OED was republished in 10 bound volumes.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_007",
+        "text": "In 1933, the OED was reprinted as 12 volumes with a one-volume supplement.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_008",
+        "text": "As of January 2026, the OED contained 520,779 entries and 3,927,862 quotations.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_009",
+        "text": "The second edition of the OED (1989) was printed in 20 volumes comprising 21,730 pages.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_010",
+        "text": "The longest entry in OED2 was for the verb 'set', requiring 60,000 words to describe approximately 580 senses.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_011",
+        "text": "The record for longest OED entry was broken by the verb 'make' in 2000, then 'put' in 2007, then 'run' in 2011 with 645 senses.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_012",
+        "text": "The OED is neither the world's largest nor the earliest exhaustive dictionary of a language.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_013",
+        "text": "The Grimm brothers' dictionary of the German language, Deutsches Wörterbuch, spans 33 volumes and was begun in 1838 but not completed until 1961.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_014",
+        "text": "The first great dictionary devoted to a modern European language was the Vocabolario degli Accademici della Crusca, covering Italian, published in 1612.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_015",
+        "text": "The first edition of the Dictionnaire de l'Académie française dates from 1694.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_016",
+        "text": "The OED presents word senses in historical order, with the earliest recorded sense listed first.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_017",
+        "text": "The Shorter Oxford English Dictionary, started in 1902 and completed in 1933, omits words obsolete before 1700 except those used by Shakespeare, Milton, Spenser, and the King James Bible.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_018",
+        "text": "The Concise Oxford Dictionary was edited by Francis George Fowler and Henry Watson Fowler and published in 1911, before the main OED was completed.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_019",
+        "text": "OUP policy for the OED prefers the spelling '-ize' over '-ise' for etymological reasons, tracing back to the Greek suffix '-izein'.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_020",
+        "text": "Tim Bray, co-creator of XML (Extensible Markup Language), credits the OED as the developing inspiration of that markup language.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_021",
+        "text": "British Prime Minister Stanley Baldwin described the OED as a 'national treasure'.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_022",
+        "text": "The OED has been criticized since the 1960s for being British-centred.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_023",
+        "text": "The OED3 revision began entries in sequence starting from the letter M.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_024",
+        "text": "As of January 2026, the OED contained 888,251 meanings and 821,712 thesaurus entries.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_025",
+        "text": "The OED's format of using large groups of short quotations from a wide selection of authors influenced later lexicographical works worldwide.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_oxford_english_dictionary_026",
+        "text": "The Pocket Oxford Dictionary was originally conceived by F. G. Fowler and H. W. Fowler to be compressed, compact, and concise.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      }
+    ],
     "questionIds": [
-      "dict_001"
+      "dict_001",
+      "dict_005",
+      "dict_006",
+      "dict_007",
+      "dict_008",
+      "dict_009",
+      "dict_010",
+      "dict_011",
+      "dict_012",
+      "dict_013",
+      "dict_014"
     ]
   },
   {
