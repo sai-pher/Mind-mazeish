@@ -17,6 +17,10 @@
     "facts": [],
     "questionIds": [
       "software_architecture_009",
+      "software_architecture_018",
+      "software_architecture_019",
+      "software_architecture_028",
+      "software_architecture_029",
       "software_architecture_030"
     ]
   },
@@ -47,7 +51,12 @@
       "software_architecture_007",
       "software_architecture_008",
       "software_architecture_010",
-      "software_architecture_025"
+      "software_architecture_015",
+      "software_architecture_016",
+      "software_architecture_017",
+      "software_architecture_020",
+      "software_architecture_025",
+      "software_architecture_027"
     ]
   },
   {
@@ -142,9 +151,11 @@
       "software_architecture_012",
       "software_architecture_013",
       "software_architecture_014",
+      "software_architecture_021",
       "software_architecture_022",
       "software_architecture_023",
-      "software_architecture_024"
+      "software_architecture_024",
+      "software_architecture_026"
     ]
   }
 ]

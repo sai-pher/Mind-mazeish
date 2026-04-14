@@ -339,7 +339,7 @@
       "The number of layers in a layered architecture"
     ],
     "funFact": "Low coupling is a core software design goal — highly coupled modules are hard to change independently, making systems brittle. The opposite of coupling is cohesion, which measures how focused a module's responsibilities are.",
-    "sourceId": "",
+    "sourceId": "src_software_architecture",
     "topicId": "software_architecture",
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
@@ -362,7 +362,7 @@
       "How frequently a module is called at runtime"
     ],
     "funFact": "High cohesion and low coupling together form a guiding principle of good software design — a highly cohesive module does one thing well, making it easier to understand, test, and maintain.",
-    "sourceId": "",
+    "sourceId": "src_software_architecture",
     "topicId": "software_architecture",
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
@@ -385,7 +385,7 @@
       "Versioning APIs independently from implementations"
     ],
     "funFact": "Separation of concerns, coined by Edsger Dijkstra in 1974, underpins many architectural patterns — from MVC (separating data, logic, and presentation) to microservices (separating business capabilities).",
-    "sourceId": "",
+    "sourceId": "src_software_architecture",
     "topicId": "software_architecture",
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
@@ -408,7 +408,7 @@
       "Caches frequently accessed data"
     ],
     "funFact": "MVC (Model-View-Controller) was one of the earliest architectural patterns for user interfaces, introduced by Trygve Reenskaug in 1978 while working on Smalltalk. Its influence can still be seen in modern web frameworks like Rails and Django.",
-    "sourceId": "",
+    "sourceId": "src_architectural_pattern",
     "topicId": "software_architecture",
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
@@ -431,7 +431,7 @@
       "Client-server architecture"
     ],
     "funFact": "Pipe-and-filter architecture is famously used in Unix command-line tools, where each program reads from stdin and writes to stdout, forming chains like `cat file | sort | uniq | wc -l`.",
-    "sourceId": "",
+    "sourceId": "src_architectural_pattern",
     "topicId": "software_architecture",
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
@@ -454,7 +454,7 @@
       "The support for multiple database providers"
     ],
     "funFact": "Scalability is often divided into vertical scaling (adding more power to existing machines) and horizontal scaling (adding more machines) — cloud-native architectures are designed specifically to scale horizontally.",
-    "sourceId": "",
+    "sourceId": "src_software_architecture",
     "topicId": "software_architecture",
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
@@ -477,7 +477,7 @@
       "Shared Object Principle"
     ],
     "funFact": "The SOLID principles, coined by Robert C. Martin ('Uncle Bob'), guide object-oriented software design. The Single Responsibility Principle states that a class should have only one reason to change, improving maintainability.",
-    "sourceId": "",
+    "sourceId": "src_software_design_pattern",
     "topicId": "software_architecture",
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
@@ -592,7 +592,7 @@
       "Runtime dependencies should be preferred over compile-time ones"
     ],
     "funFact": "Dependency Inversion (the 'D' in SOLID) is the foundation for dependency injection frameworks. By depending on abstractions, high-level business logic remains insulated from changes in low-level infrastructure details.",
-    "sourceId": "",
+    "sourceId": "src_software_design_pattern",
     "topicId": "software_architecture",
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
@@ -615,7 +615,7 @@
       "Concurrency, Availability, Persistence"
     ],
     "funFact": "CAP theorem, formally proven by Eric Brewer in 2000, has profound implications for distributed database design — it explains why systems like DynamoDB favour availability over strict consistency, while systems like HBase favour consistency.",
-    "sourceId": "",
+    "sourceId": "src_software_architecture",
     "topicId": "software_architecture",
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
@@ -638,7 +638,7 @@
       "Saga pattern"
     ],
     "funFact": "Hub-and-spoke (also called ESB — Enterprise Service Bus — in its enterprise form) centralises integration logic, but this can create a bottleneck. Modern microservices architectures often prefer decentralised choreography over centralised orchestration for this reason.",
-    "sourceId": "",
+    "sourceId": "src_architectural_pattern",
     "topicId": "software_architecture",
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
@@ -661,7 +661,7 @@
       "Forking the codebase and maintaining both versions indefinitely"
     ],
     "funFact": "The Strangler Fig pattern, coined by Martin Fowler, is named after the strangler fig tree that grows around a host tree, eventually replacing it. It is a safe migration strategy that reduces the risk of a big-bang legacy system replacement.",
-    "sourceId": "",
+    "sourceId": "src_architectural_pattern",
     "topicId": "software_architecture",
     "topicCategoryId": "engineering",
     "superCategoryId": "engineering_tech",
