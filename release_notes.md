@@ -14,7 +14,11 @@
 - (none)
 
 ### Content
-- (none)
+- Added 86 questions for Deep Sea (Physical World) with 10 new Wikipedia sources
+- Added 35 questions for Physical Geography (Physical World)
+- Added questions for Candy (confectionery) and Crocheting (textiles)
+- Added 40 questions for Therapy (mental health) covering DBT, EMDR, and psychoanalysis
+- Added 100 questions for Lily Mayne (literature & arts)
 
 ### Other
 - Added `flutter_markdown` package for in-app markdown rendering
