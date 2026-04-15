@@ -6,12 +6,13 @@ Usage:
     python3 .claude/skills/generate-questions/scripts/relearn.py [topicId ...]
 
     If no topic IDs are given, processes ALL topics in TOPICS list.
-    If topic IDs are given, processes only those topics.
+    If topic IDs are given, processes those topics — any topic with a sources
+    file in assets/questions/sources/ is accepted, not just those in TOPICS.
 
-Each topic entry maps a topicId → primary source title to fetch.
-Facts are appended to the matching source entry's `facts` array and written
-back to assets/questions/sources/{topicId}.json without reading the whole
-file into another tool's context.
+For each topic, ALL source entries in its sources file are processed.
+Facts are appended to each source entry's `facts` array and written back
+to assets/questions/sources/{topicId}.json after each source so partial
+progress is preserved if the script is interrupted.
 """
 
 from __future__ import annotations
@@ -28,42 +29,44 @@ from pathlib import Path
 
 SOURCES_DIR = Path("assets/questions/sources")
 TODAY = datetime.date.today().isoformat()
-MAX_WIKI_CHARS = 6000
+MAX_WIKI_CHARS = 20000
 MAX_FACTS_PER_SOURCE = 30
 
-# (topicId, primary_source_title)
-TOPICS: list[tuple[str, str]] = [
-    ("coffee",                "History of coffee"),
-    ("coffee_brewing",        "Espresso"),
-    ("deep_sea",              "Mariana Trench"),
-    ("crocheting",            "Crochet"),
-    ("water_bodies",          "Ocean"),
-    ("socks",                 "Sock"),
-    ("adhd",                  "Attention Deficit Hyperactivity Disorder"),
-    ("therapy",               "Cognitive Behavioral Therapy"),
-    ("pharmaceutical_drugs",  "Pharmacology"),
-    ("recreational_drugs",    "Cannabis (drug)"),
-    ("medicine",              "Antibiotic"),
-    ("countries",             "United Nations Member States"),
-    ("dictionaries",          "Oxford English Dictionary"),
-    ("linguistics",           "Linguistics"),
-    ("theology",              "Five Pillars of Islam"),
-    ("medieval_history",      "Magna Carta"),
-    ("footwear",              "Shoe"),
-    ("perfumes",              "Perfume"),
-    ("plastics",              "Plastic pollution"),
-    ("handheld_devices",      "Smartphone"),
-    ("human_geography",       "Urbanization"),
-    ("tennis",                "Tennis"),
-    ("puzzles",               "Rubiks Cube"),
-    ("west_african_history",  "Mali Empire"),
-    ("french_literature",     "Albert Camus"),
-    ("lily_mayne",            "Romance novel"),
-    ("rocks",                 "Rock Cycle"),
-    ("agatha_christie",       "Agatha Christie"),
-    ("anatomy",               "Human skeleton"),
-    ("autism",                "Autism Spectrum"),
-    ("bridges",               "Suspension Bridge"),
+# Default topics to process when no topic IDs are given on the command line.
+# Any topic with a sources file can be passed as an argument regardless of
+# whether it appears in this list.
+TOPICS: list[str] = [
+    "coffee",
+    "coffee_brewing",
+    "deep_sea",
+    "crocheting",
+    "water_bodies",
+    "socks",
+    "adhd",
+    "therapy",
+    "pharmaceutical_drugs",
+    "recreational_drugs",
+    "medicine",
+    "countries",
+    "dictionaries",
+    "linguistics",
+    "theology",
+    "medieval_history",
+    "footwear",
+    "perfumes",
+    "plastics",
+    "handheld_devices",
+    "human_geography",
+    "tennis",
+    "puzzles",
+    "west_african_history",
+    "french_literature",
+    "lily_mayne",
+    "rocks",
+    "agatha_christie",
+    "anatomy",
+    "autism",
+    "bridges",
 ]
 
 EXTRACT_PROMPT_TEMPLATE = """\
@@ -155,69 +158,79 @@ def next_fact_num(existing_facts: list[dict]) -> int:
     return (max(nums) + 1) if nums else (len(existing_facts) + 1)
 
 
-def process_topic(topic_id: str, source_title: str) -> bool:
+def process_topic(topic_id: str, only_sources: set[str] | None = None, max_facts: int = MAX_FACTS_PER_SOURCE) -> bool:
+    """Process every source entry in a topic's sources file.
+
+    Skips entries that already have max_facts or more facts.
+    Writes the file back after each successful extraction so partial
+    progress is preserved if the script is interrupted.
+
+    Returns True if at least one source was processed without error.
+    """
     sources_file = SOURCES_DIR / f"{topic_id}.json"
     if not sources_file.exists():
-        print(f"    ✗ {sources_file} not found", file=sys.stderr)
+        print(f"  ✗ {sources_file} not found", file=sys.stderr)
         return False
 
     sources: list[dict] = json.loads(sources_file.read_text(encoding="utf-8"))
+    any_success = False
 
-    # Find the target source entry (case-insensitive title match)
-    target: dict | None = None
     for src in sources:
-        if src.get("title", "").lower() == source_title.lower():
-            target = src
-            break
+        source_id = src.get("id", "")
+        title     = src.get("title", "").strip()
 
-    if target is None:
-        pr/int(f"    ✗ source '{source_title}' not found in {sources_file}", file=sys.stderr)
-        return False
+        if only_sources and source_id not in only_sources:
+            continue
 
-    existing_facts: list[dict] = target.get("facts", [])
-    existing_count = len(existing_facts)
+        if not title:
+            print(f"  ✗ {source_id}: no title — skipping", file=sys.stderr)
+            continue
 
-    if existing_count >= MAX_FACTS_PER_SOURCE:
-        print(f"    ✓ already {existing_count} facts — skipping")
-        return True
+        existing_facts: list[dict] = src.get("facts", [])
+        existing_count = len(existing_facts)
 
-    want = MAX_FACTS_PER_SOURCE - existing_count
+        if existing_count >= max_facts:
+            print(f"  ✓ {source_id}: already {existing_count} facts — skipping")
+            any_success = True
+            continue
 
-    # Fetch article
-    article_text = fetch_article(source_title)
-    if not article_text:
-        return False
+        want = max_facts - existing_count
+        print(f"  → {source_id}  ({title})")
 
-    # Extract facts
-    new_fact_texts = extract_facts_via_claude(article_text, max_facts=want)
-    if not new_fact_texts:
-        print(f"    ✗ no facts extracted", file=sys.stderr)
-        return False
+        article_text = fetch_article(title)
+        if not article_text:
+            continue
 
-    # Cap to what we want
-    new_fact_texts = new_fact_texts[:want]
+        new_fact_texts = extract_facts_via_claude(article_text, max_facts=want)
+        if not new_fact_texts:
+            print(f"    ✗ no facts extracted", file=sys.stderr)
+            continue
 
-    slug      = slug_from_source_id(target["id"])
-    start_num = next_fact_num(existing_facts)
+        new_fact_texts = new_fact_texts[:want]
+        slug      = slug_from_source_id(source_id)
+        start_num = next_fact_num(existing_facts)
 
-    new_facts = [
-        {
-            "id":         f"fact_{slug}_{start_num + i:03d}",
-            "text":       text,
-            "verified":   True,
-            "verifiedAt": TODAY,
-        }
-        for i, text in enumerate(new_fact_texts)
-    ]
+        new_facts = [
+            {
+                "id":         f"fact_{slug}_{start_num + i:03d}",
+                "text":       text,
+                "verified":   True,
+                "verifiedAt": TODAY,
+            }
+            for i, text in enumerate(new_fact_texts)
+        ]
 
-    target["facts"] = existing_facts + new_facts
+        src["facts"] = existing_facts + new_facts
 
-    sources_file.write_text(
-        json.dumps(sources, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
-    print(f"    ✓ wrote {len(new_facts)} new facts (total: {len(target['facts'])})")
-    return True
+        # Write after each source so progress survives interruption
+        sources_file.write_text(
+            json.dumps(sources, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        print(f"    ✓ wrote {len(new_facts)} new facts (total: {len(src['facts'])})")
+        any_success = True
+
+    return any_success
 
 
 # ──────────────────────────────────────────────
@@ -225,19 +238,55 @@ def process_topic(topic_id: str, source_title: str) -> bool:
 # ──────────────────────────────────────────────
 
 def main() -> None:
-    # Filter to requested topics if args given
-    requested = set(sys.argv[1:])
-    work = [(t, s) for t, s in TOPICS if not requested or t in requested]
+    import argparse
 
-    if not work:
-        print(f"No matching topics for: {requested}", file=sys.stderr)
+    parser = argparse.ArgumentParser(
+        description="Fetch Wikipedia articles and extract facts into source JSON files.",
+        epilog=(
+            "Examples:\n"
+            "  %(prog)s                                         # all default topics\n"
+            "  %(prog)s french_literature                       # all sources in topic\n"
+            "  %(prog)s french_literature --sources src_albert_camus src_victor_hugo\n"
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    parser.add_argument(
+        "topics",
+        nargs="*",
+        help="Topic IDs to process (default: all topics in TOPICS list)",
+    )
+    parser.add_argument(
+        "--sources", "-s",
+        nargs="+",
+        metavar="SOURCE_ID",
+        help="Process only these source IDs within the specified topic(s)",
+    )
+    parser.add_argument(
+        "--count", "-n",
+        type=int,
+        default=MAX_FACTS_PER_SOURCE,
+        metavar="N",
+        help=f"Target number of facts per source (default: {MAX_FACTS_PER_SOURCE})",
+    )
+    args = parser.parse_args()
+
+    work = args.topics if args.topics else TOPICS
+    only_sources = set(args.sources) if args.sources else None
+
+    # Validate: every requested topic must have a sources file
+    missing = [t for t in work if not (SOURCES_DIR / f"{t}.json").exists()]
+    if missing:
+        print(f"No sources file found for: {', '.join(missing)}", file=sys.stderr)
+        print(f"Expected: {SOURCES_DIR}/{{topicId}}.json", file=sys.stderr)
         sys.exit(1)
 
-    print(f"Relearn: {len(work)} topic(s)\n")
+    scope = f" (sources: {', '.join(sorted(only_sources))})" if only_sources else ""
+    print(f"Relearn: {len(work)} topic(s){scope}\n")
+
     success = 0
-    for topic_id, source_title in work:
-        print(f"→ {topic_id}  ({source_title})")
-        ok = process_topic(topic_id, source_title)
+    for topic_id in work:
+        print(f"→ {topic_id}")
+        ok = process_topic(topic_id, only_sources=only_sources, max_facts=args.count)
         if ok:
             success += 1
 

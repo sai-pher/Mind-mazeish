@@ -4,7 +4,7 @@
 
 User: `/generate-questions coffee`
 
-1. Read `assets/questions/topics/coffee.json` → 5 questions, highest id `coffee_005`
+1. Run `topic_stats.py --topic coffee` → `{"count": 5, "nextId": "coffee_006", "existingIds": [...]}`
 2. Existing IDs: `coffee_001 … coffee_005`; need 5 more; start from `coffee_006`
 3. Search: `python3 scripts/search_wiki.py "coffee" --results 5`
    → selects "Coffee" and "Coffee preparation"
@@ -25,7 +25,7 @@ User: `/generate-questions mental_health category`
 
 Topics in Mental Health: `therapy`, `adhd`, `autism`
 
-1. Read all three files → note counts and existing IDs
+1. Run `topic_stats.py` for each of the three topics → note counts and existing IDs
 2. Search `therapy` → sub-agent fetches + writes → update sources → verify
 3. Search `adhd` → sub-agent fetches + writes → update sources → verify
 4. Search `autism` → sub-agent fetches + writes → update sources → verify
@@ -47,7 +47,7 @@ Topics in Mental Health: `therapy`, `adhd`, `autism`
 
 ## Notes
 - **Never remove existing questions** — only append
-- **No duplicate IDs** — always read the file first to find the current max suffix
+- **No duplicate IDs** — use `topic_stats.py` to find the current max suffix; `append_questions.py` also rejects duplicates as a safety net
 - **Mobile Wikipedia URLs only** — `https://en.m.wikipedia.org/wiki/...`
 - **One sub-agent at a time** — wait for completion before spawning the next
 - **Commit after each TopicCategory** — prevents token-limit loss

@@ -67,7 +67,11 @@ Generates trivia questions and appends them to `assets/questions/topics/{topicId
 4. Any specific angles or subtopics to cover?
 
 ### Step 1 — Determine work items
-For each topic: read `assets/questions/topics/{topicId}.json`, note current count, highest id suffix, and existing IDs (for dedup). Read `registry.json` for `topicCategoryId`/`superCategoryId`. Group topics by TopicCategory; process one category at a time.
+For each topic, get metadata without reading the full file:
+```bash
+python3 .claude/skills/generate-questions/scripts/topic_stats.py --topic {topicId}
+```
+This outputs `count`, `nextId`, and `existingIds` — use these for starting ID and dedup. Read `registry.json` for `topicCategoryId`/`superCategoryId`. Group topics by TopicCategory; process one category at a time.
 
 ### Step 1.5 — Search Wikipedia and save source stubs
 ```bash
@@ -84,7 +88,11 @@ python3 .claude/skills/generate-questions/scripts/search_wiki.py "{topic name}" 
 ```
 This upserts stubs into `assets/questions/sources/{topicId}.json` without overwriting existing values. Source stubs exist on disk before sub-agents run, even if generation is later interrupted.
 
-### Step 3 — Spawn one sub-agent per topic
+### Step 3 — Spawn sub-agents per topic
+
+**Batching rule:** spawn one sub-agent per topic. If the topic has more than 5 source articles to process, split them into batches of ≤5 and run each batch as a separate sequential sub-agent. Pass the next starting ID from the previous batch's output as the starting ID for the next batch.
+
+**Within each sub-agent — process articles one at a time, not all at once.** Fetch an article, generate its questions, append them immediately, then move to the next article. This keeps only one article's text live in working context at any moment.
 
 **Wikipedia mode (default):**
 > Generate {N} trivia questions for topicId `{topicId}` (topicCategoryId: `{tcId}`, superCategoryId: `{scId}`).
@@ -92,37 +100,54 @@ This upserts stubs into `assets/questions/sources/{topicId}.json` without overwr
 > Existing IDs to avoid: {comma-separated list}.
 > Start from: `{topicId}_{NNN}`.
 >
-> For each article title to fetch:
+> **Process each article in sequence — fetch, generate, append, then move on:**
 >
-> **A. Fetch article text (and save it):**
-> ```
+> For article "{title}":
+> ```bash
 > python3 .claude/skills/generate-questions/scripts/fetch_wiki.py "{title}" \
->   | tee /tmp/wiki_article.txt
+>   | tee /tmp/wiki_{slug}.txt
 > python3 .claude/skills/generate-questions/scripts/save_sources.py \
->   --topic {topicId} --source-id src_{slugify(title)} --article-text < /tmp/wiki_article.txt
+>   --topic {topicId} --source-id src_{slug} --article-text < /tmp/wiki_{slug}.txt
 > ```
-> The first command prints the article text (use it for question generation) and writes `/tmp/wiki_article.txt`.
-> The second command saves it to the sources file; it skips the write if `articleText` is already set.
-> **If `fetch_wiki.py` exits 2 or 3: do not generate any questions for this article. Skip it and
-> continue with remaining articles. If ALL articles fail, abort and report the failure — do not write
-> any questions.**
+> Generate {n_per_article} questions from the article text above.
+> Write them to `/tmp/{topicId}_{slug}_questions.json`, then append immediately:
+> ```bash
+> python3 .claude/skills/generate-questions/scripts/append_questions.py \
+>   --topic {topicId} < /tmp/{topicId}_{slug}_questions.json
+> ```
+> Then proceed to the next article. Do not hold all articles in memory before generating.
 >
-> Every question **must** derive from a fetched article. Set `sourceId` = `src_{slugify(articleTitle)}`.
+> **If `fetch_wiki.py` exits 2 or 3:** skip that article, continue with the rest.
+> **If ALL articles fail:** abort and report — do not write any questions.
+>
+> Every question **must** derive from its fetched article. Set `sourceId` = `src_{slug}`.
 > Never set `sourceId` to `""` or use built-in knowledge as a source.
 > Set `topicCategoryId` = `{tcId}`, `superCategoryId` = `{scId}` on every question.
 > Target 8–12 wrongAnswers per question.
->
-> Append new questions to `assets/questions/topics/{topicId}.json` (read first, then append).
+> Do NOT read `assets/questions/topics/{topicId}.json` directly.
 > Reply: new IDs written + which article each came from.
 
+**Targeted fetching (use when article is large or only partially relevant):**
+- `--sections "History" "Techniques"` — fetch only named sections instead of all content
+- `--summary-only` — fetch just the intro paragraph (~1200 chars); sufficient for 2–3 questions on peripheral topics
+
 **Facts mode** (user selected facts from existing sources):
-> Generate {N} questions for topicId `{topicId}` using the facts in `assets/questions/sources/{topicId}.json`.
+> Generate {N} questions for topicId `{topicId}` using the facts from this command (strips large articleText):
+> ```bash
+> jq '[.[] | del(.articleText)]' assets/questions/sources/{topicId}.json
+> ```
 > For each fact used: set `sourceId` to the fact's source `id`.
 > Set `topicCategoryId` = `{tcId}`, `superCategoryId` = `{scId}`.
 > Existing IDs to avoid: {list}. Start from `{topicId}_{NNN}`.
-> Append to `assets/questions/topics/{topicId}.json`. Reply: new IDs written.
+> Write all new questions as a JSON array to `/tmp/{topicId}_new_questions.json`, then append:
+> ```bash
+> python3 .claude/skills/generate-questions/scripts/append_questions.py \
+>   --topic {topicId} < /tmp/{topicId}_new_questions.json
+> ```
+> Do NOT read `assets/questions/topics/{topicId}.json` directly.
+> Reply: new IDs written.
 
-Spawn one sub-agent per topic, in sequence — wait for each to complete before spawning the next. No parallel agents.
+Spawn one sub-agent per topic (or batch), in sequence — wait for each to complete before spawning the next. No parallel agents.
 
 ### Step 3.5 — Sync sources
 ```bash
@@ -156,11 +181,14 @@ git push -u origin $(git branch --show-current)
 ---
 
 ## Token efficiency rules
-1. Sub-agents write to files directly — never return large JSON blobs to main context
-2. Pass IDs only for dedup, not full question text
-3. Sub-agents fetch full article text — main agent only runs `search_wiki.py`
-4. One sub-agent per topic, not per article
-5. Verify with validate_questions.py (not re-reading the full file)
+1. **Stats only:** use `topic_stats.py` — never read the full topic JSON
+2. **Append, don't rewrite:** sub-agents pipe generated questions to `append_questions.py` — never read the topic file
+3. **Process article-by-article:** fetch → generate → append → next article. Never accumulate all articles before generating
+4. **Batch at 5:** >5 source articles → multiple sub-agents of ≤5 sources each, passing the next starting ID between them
+5. **Targeted fetching:** use `--sections` or `--summary-only` on `fetch_wiki.py` for large or peripheral articles
+6. **Facts mode when available:** pre-extracted facts (`jq '[.[] | del(.articleText)]'`) are far more compact than fetching full article text; prefer facts mode for topics with ≥20 facts in sources
+7. **Main agent stays light:** main agent only runs `search_wiki.py` and `save_sources.py` — all Wikipedia fetching happens inside sub-agents
+8. **Verify without reading:** use `validate_questions.py`, not re-reading the full file
 
 ---
 

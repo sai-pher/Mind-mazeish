@@ -220,5 +220,2026 @@
     "topicCategoryId": "authors",
     "superCategoryId": "literature_arts",
     "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_001",
+    "question": "What is another common term used for LGBTQ literature?",
+    "correctAnswers": [
+      "Queer literature"
+    ],
+    "wrongAnswers": [
+      "Alternative literature",
+      "Speculative literature",
+      "Sapphic fiction",
+      "Underground literature",
+      "Counter-culture literature",
+      "Marginal literature",
+      "Experimental literature",
+      "Diverse literature"
+    ],
+    "funFact": "LGBTQ literature, sometimes called queer literature, encompasses works with LGBTQ themes, characters, or authors across all forms of writing.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_002",
+    "question": "Which poet's work is considered the fundamental text of lesbian literature?",
+    "correctAnswers": [
+      "Sappho of Lesbos"
+    ],
+    "wrongAnswers": [
+      "Emily Dickinson",
+      "Adrienne Rich",
+      "Anne Sexton",
+      "Edna St. Vincent Millay",
+      "Vita Sackville-West",
+      "Sylvia Plath",
+      "H.D.",
+      "Amy Lowell"
+    ],
+    "funFact": "Sappho of Lesbos is regarded as the foundational voice of lesbian literature, writing about women's daily lives, relationships, rituals, and the beauty of women.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_003",
+    "question": "Japan has distinct LGBTQ literary subgenres including Boys Love and which other genre featuring relationships between women?",
+    "correctAnswers": [
+      "Yuri"
+    ],
+    "wrongAnswers": [
+      "Danmei",
+      "Tongzhi",
+      "Josei",
+      "Shoujo",
+      "Manhwa",
+      "Shojo-ai",
+      "Seinen"
+    ],
+    "funFact": "Japan has developed distinct LGBTQ literary subgenres including Boys Love (BL), Gay Manga, and Yuri — each with dedicated readerships and publishing traditions.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_004",
+    "question": "What is the name of China's distinct LGBTQ literary tradition?",
+    "correctAnswers": [
+      "Danmei"
+    ],
+    "wrongAnswers": [
+      "Tongzhi",
+      "Boys Love",
+      "Yuri",
+      "Slash fiction",
+      "Josei",
+      "Wuxia",
+      "Xianxia",
+      "Qilin fiction"
+    ],
+    "funFact": "China's LGBTQ literary tradition is called Danmei, which has gained a massive international following especially through online fiction platforms.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_005",
+    "question": "What is Taiwan's LGBTQ literary tradition called?",
+    "correctAnswers": [
+      "Tongzhi literature"
+    ],
+    "wrongAnswers": [
+      "Danmei",
+      "Boys Love",
+      "Yuri",
+      "Queer fiction",
+      "Sapphic literature",
+      "Rainbow literature",
+      "Homoerotic poetry"
+    ],
+    "funFact": "Taiwan has its own LGBTQ literary tradition called Tongzhi literature, reflecting Taiwan's relatively progressive stance on LGBTQ rights in Asia.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_006",
+    "question": "Which subgenre of LGBTQ literature features fictional romantic or sexual relationships between same-sex characters, often derived from existing media fandoms?",
+    "correctAnswers": [
+      "Slash fiction"
+    ],
+    "wrongAnswers": [
+      "Gay pulp fiction",
+      "Boys Love",
+      "Danmei",
+      "Homoerotic poetry",
+      "Tongzhi literature",
+      "Sapphic literature"
+    ],
+    "funFact": "Slash fiction is a recognized subgenre within LGBTQ literature, typically written by fans who imagine romantic or sexual relationships between same-sex characters from popular media.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_007",
+    "question": "Which Victorian poet published 'Anactoria' and 'Sapphics' in 1866, poems dealing explicitly with lesbian content?",
+    "correctAnswers": [
+      "Algernon Charles Swinburne"
+    ],
+    "wrongAnswers": [
+      "Alfred Lord Tennyson",
+      "Gerard Manley Hopkins",
+      "Robert Browning",
+      "Matthew Arnold",
+      "Walter Pater",
+      "Oscar Wilde",
+      "Charles Baudelaire"
+    ],
+    "funFact": "In 1866, Algernon Charles Swinburne published 'Poems and Ballads,' which contained 'Anactoria' and 'Sapphics' — bold explorations of lesbian desire that scandalized Victorian society.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_008",
+    "question": "Samuel Taylor Coleridge's unfinished narrative poem 'Christabel' has been interpreted by scholars as having what kind of implications?",
+    "correctAnswers": [
+      "Lesbian implications"
+    ],
+    "wrongAnswers": [
+      "Anti-religious implications",
+      "Political revolutionary implications",
+      "Racial commentary",
+      "Feminist implications",
+      "Gothic horror implications",
+      "Satanic implications",
+      "Nationalist implications"
+    ],
+    "funFact": "Coleridge published his unfinished narrative poem 'Christabel' at the beginning of the 19th century, and scholars have long interpreted the intense female relationship at its core as having lesbian subtext.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_009",
+    "question": "Henry James's 1886 novel 'The Bostonians' portrayed what kind of relationship, considered an early form of lesbian pairing?",
+    "correctAnswers": [
+      "A Boston marriage"
+    ],
+    "wrongAnswers": [
+      "A lavender marriage",
+      "A romantic friendship",
+      "A femme-femme pairing",
+      "A sapphic union",
+      "A companionate marriage",
+      "A celibate partnership",
+      "A spinster bond"
+    ],
+    "funFact": "Henry James portrayed a Boston marriage in 'The Bostonians' (1886) — a term for two women living together independently of men, often interpreted as an early representation of lesbian relationships in literature.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_010",
+    "question": "What notable award specifically recognizes works of lesbian fiction?",
+    "correctAnswers": [
+      "The Lambda Literary Award for Lesbian Fiction"
+    ],
+    "wrongAnswers": [
+      "The Stonewall Book Award",
+      "The Rainbow Book Award",
+      "The Sapphic Literary Prize",
+      "The Violet Prize",
+      "The GLAAD Media Award for Fiction",
+      "The Bisexual Book Award",
+      "The Queer Fiction Prize"
+    ],
+    "funFact": "The Lambda Literary Awards (known as the Lammys) are among the most prestigious honors in LGBTQ publishing, with dedicated categories including one specifically for lesbian fiction.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_011",
+    "question": "What term is broader than 'lesbian literature' and encompasses works featuring love between women regardless of how characters identify?",
+    "correctAnswers": [
+      "Sapphic literature"
+    ],
+    "wrongAnswers": [
+      "Queer women's fiction",
+      "Femme fiction",
+      "Wlw literature",
+      "Dyke fiction",
+      "Romantic women's fiction",
+      "Gender-variant fiction",
+      "Lesbian romance"
+    ],
+    "funFact": "Sapphic literature is a broader term than lesbian literature — it encompasses any work featuring love between women, regardless of whether the characters explicitly identify as lesbian.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_012",
+    "question": "Marian Halcombe in Wilkie Collins's 1859 novel 'The Woman in White' is notable in LGBTQ literary history for what reason?",
+    "correctAnswers": [
+      "Scholars have interpreted her as having lesbian potential"
+    ],
+    "wrongAnswers": [
+      "She was the first explicitly lesbian character in Victorian fiction",
+      "She was modeled on a real-life lesbian author",
+      "She represented trans identity to modern readers",
+      "She was the only female narrator in the novel",
+      "She was written by a lesbian author"
+    ],
+    "funFact": "Marian Halcombe in Wilkie Collins's 'The Woman in White' (1859) has fascinated scholars, many of whom read her intense emotional connections and gender-nonconforming traits as having lesbian potential.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_013",
+    "question": "From the 1980s onward, how has LGBTQ romance as a genre trended in terms of acceptance and sales?",
+    "correctAnswers": [
+      "It has met with increasing acceptance and sales"
+    ],
+    "wrongAnswers": [
+      "It declined sharply after a brief peak",
+      "It remained a niche market with flat sales",
+      "It was banned in many major markets",
+      "It moved almost entirely underground",
+      "It became dominated by academic presses"
+    ],
+    "funFact": "LGBTQ romance has seen steadily growing acceptance and sales since the 1980s, a trend that accelerated dramatically with the rise of digital publishing and online reading communities.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_014",
+    "question": "Historically, what umbrella term was used to cover both gay male and lesbian literature?",
+    "correctAnswers": [
+      "Gay literature"
+    ],
+    "wrongAnswers": [
+      "Queer literature",
+      "LGBTQ literature",
+      "Rainbow literature",
+      "Homoerotic literature",
+      "Alternative literature",
+      "Underground literature"
+    ],
+    "funFact": "Before more specific terminology became widespread, the term 'gay literature' was commonly used as an umbrella covering both gay male and lesbian literary works.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_015",
+    "question": "Which of these is NOT one of the five named subtypes of LGBTQ literature?",
+    "correctAnswers": [
+      "Asexual literature"
+    ],
+    "wrongAnswers": [
+      "Lesbian literature",
+      "Gay literature",
+      "Bisexual literature",
+      "Transgender literature",
+      "Intersex literature"
+    ],
+    "funFact": "The recognized subtypes of LGBTQ literature include lesbian, gay, bisexual, transgender, and intersex literature — each addressing the distinct experiences and voices within those communities.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_016",
+    "question": "What specific poetic subgenres exist within LGBTQ literature?",
+    "correctAnswers": [
+      "Homoerotic poetry and trans poetry"
+    ],
+    "wrongAnswers": [
+      "Sapphic haiku and queer sonnets",
+      "Lesbian ballads and gay epics",
+      "Romantic verse and identity odes",
+      "Queer spoken word and confessional verse",
+      "Gender theory poetry and protest verse"
+    ],
+    "funFact": "Homoerotic poetry and trans poetry are both recognized subgenres within LGBTQ literature, reflecting the diversity of queer voices across poetic traditions.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_017",
+    "question": "Historically, where has contemporary lesbian literature found its publishing home?",
+    "correctAnswers": [
+      "Small, exclusively lesbian presses and online fandoms"
+    ],
+    "wrongAnswers": [
+      "Major commercial publishing houses",
+      "University presses",
+      "Government-funded literary journals",
+      "National public libraries",
+      "Large feminist bookstores"
+    ],
+    "funFact": "Contemporary lesbian literature has historically found its home in small, dedicated lesbian presses and online fan communities — spaces that nurtured LGBTQ voices before mainstream publishing took notice.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_018",
+    "question": "Gay pulp fiction and lesbian pulp fiction are subgenres of which broader literary category?",
+    "correctAnswers": [
+      "LGBTQ literature"
+    ],
+    "wrongAnswers": [
+      "Speculative fiction",
+      "Erotic literature",
+      "Genre fiction",
+      "Underground literature",
+      "Mainstream popular fiction"
+    ],
+    "funFact": "Gay pulp fiction and lesbian pulp fiction emerged primarily in mid-20th century America, often sold discreetly, and are now recognized as important subgenres of LGBTQ literary history.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_019",
+    "question": "What two genres is LGBTQ literature a subset of?",
+    "correctAnswers": [
+      "Literature and LGBTQ media"
+    ],
+    "wrongAnswers": [
+      "Genre fiction and academic writing",
+      "Popular fiction and cultural studies",
+      "Romance and speculative fiction",
+      "Mainstream fiction and queer theory",
+      "Feminist literature and minority fiction"
+    ],
+    "funFact": "LGBTQ literature sits at the intersection of mainstream literary tradition and the broader category of LGBTQ media, which also includes film, television, music, and more.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_020",
+    "question": "As of 2020, how have mainstream publishers responded to LGBTQ romance?",
+    "correctAnswers": [
+      "They are expanding their LGBTQ offerings and inviting more diverse authorship"
+    ],
+    "wrongAnswers": [
+      "They have largely avoided LGBTQ romance",
+      "They have restricted LGBTQ romance to specialty imprints only",
+      "They have withdrawn from the market due to controversy",
+      "They have focused only on LGBTQ young adult fiction",
+      "They have outsourced LGBTQ romance to small presses"
+    ],
+    "funFact": "As of 2020, mainstream publishers and booksellers have been actively expanding their LGBTQ romance offerings and seeking out more diverse authors, reflecting growing market demand.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_021",
+    "question": "LGBTQ themes in comics and LGBTQ-themed speculative fiction are recognized as part of which broader literary tradition?",
+    "correctAnswers": [
+      "LGBTQ literature"
+    ],
+    "wrongAnswers": [
+      "Science fiction",
+      "Fantasy literature",
+      "Graphic novel tradition",
+      "Genre fiction broadly",
+      "Queer theory texts"
+    ],
+    "funFact": "LGBTQ-themed speculative fiction and LGBTQ themes in comics have both been recognized as distinct subgenres within the broader LGBTQ literary tradition, reflecting queer voices across all storytelling forms.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_022",
+    "question": "Gay teen fiction is a recognized subgenre within which broader literary tradition?",
+    "correctAnswers": [
+      "LGBTQ literature"
+    ],
+    "wrongAnswers": [
+      "Young adult fiction",
+      "Coming-of-age fiction",
+      "Middle grade fiction",
+      "New adult fiction",
+      "Literary fiction"
+    ],
+    "funFact": "Gay teen fiction is a recognized subgenre within LGBTQ literature, giving young queer readers stories that reflect their own experiences of identity, first love, and coming out.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_023",
+    "question": "Paranormal romance is a subgenre of which two broader genres?",
+    "correctAnswers": [
+      "Romantic fiction and speculative fiction"
+    ],
+    "wrongAnswers": [
+      "Horror and science fiction",
+      "Fantasy and literary fiction",
+      "Urban fantasy and erotica",
+      "Mystery and thriller",
+      "Gothic fiction and fairy tales"
+    ],
+    "funFact": "Paranormal romance occupies a unique space, blending the emotional focus of romantic fiction with the world-building and fantastical elements of speculative fiction.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_024",
+    "question": "Which turn-of-the-21st-century technologies most recently revived and spurred the growth of paranormal romance?",
+    "correctAnswers": [
+      "The internet and electronic publishing"
+    ],
+    "wrongAnswers": [
+      "Print-on-demand technology",
+      "E-reader devices like Kindle",
+      "Social media platforms",
+      "Digital audiobooks",
+      "Streaming services"
+    ],
+    "funFact": "Paranormal romance's most recent boom was driven by the internet and electronic publishing, which dramatically lowered barriers to both writing and distributing the genre.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_025",
+    "question": "Between 2002 and 2004, by how much did the number of paranormal romances published in the United States grow?",
+    "correctAnswers": [
+      "It doubled to 170 per year"
+    ],
+    "wrongAnswers": [
+      "It tripled to 250 per year",
+      "It grew by 50% to 130 per year",
+      "It quadrupled to 340 per year",
+      "It increased by 25% to 100 per year",
+      "It grew tenfold to 850 per year"
+    ],
+    "funFact": "The early 2000s were a turning point for paranormal romance — between 2002 and 2004, U.S. publication numbers doubled to 170 titles per year, signaling a genre explosion.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_026",
+    "question": "Which of these authors is NOT typically listed as a specialist in paranormal romance?",
+    "correctAnswers": [
+      "Nora Roberts"
+    ],
+    "wrongAnswers": [
+      "Nalini Singh",
+      "Christine Feehan",
+      "Kelley Armstrong",
+      "Stephenie Meyer",
+      "Kresley Cole"
+    ],
+    "funFact": "Nalini Singh, Christine Feehan, Kelley Armstrong, Kresley Cole, and Stephenie Meyer are among the leading names in paranormal romance — a genre that helped transform fiction publishing in the 2000s.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_027",
+    "question": "How many copies can a popular paranormal romance title sell?",
+    "correctAnswers": [
+      "Over 500,000 copies"
+    ],
+    "wrongAnswers": [
+      "Over 100,000 copies",
+      "Over 250,000 copies",
+      "Over 1 million copies guaranteed",
+      "Rarely more than 50,000 copies",
+      "Exactly 750,000 copies on average"
+    ],
+    "funFact": "The paranormal romance market is commercially significant — a popular title in the genre can sell over 500,000 copies, rivaling mainstream literary bestsellers.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_028",
+    "question": "What three genres does paranormal romance draw its beyond-scientific-explanation elements from?",
+    "correctAnswers": [
+      "Fantasy, science fiction, and horror"
+    ],
+    "wrongAnswers": [
+      "Mystery, thriller, and adventure",
+      "Mythology, folklore, and legend",
+      "History, philosophy, and religion",
+      "Literary fiction, drama, and poetry",
+      "Comedy, satire, and surrealism"
+    ],
+    "funFact": "Paranormal romance draws from fantasy, science fiction, and horror to create stories where love flourishes alongside vampires, shapeshifters, psychic powers, and other supernatural phenomena.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_029",
+    "question": "What is the defining characteristic of a paranormal romance set entirely in the past?",
+    "correctAnswers": [
+      "It is structured much like a historical romance novel"
+    ],
+    "wrongAnswers": [
+      "It focuses only on time travel",
+      "It lacks supernatural elements",
+      "It is set in a fictional historical era",
+      "It is told through historical documents"
+    ],
+    "funFact": "Some paranormal romances are set entirely in the past and structured like historical romances — blending period detail with supernatural elements like vampires, witches, or fae.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_030",
+    "question": "Which subgenre closely related to paranormal romance involves supernatural beings living in contemporary city settings?",
+    "correctAnswers": [
+      "Urban fantasy"
+    ],
+    "wrongAnswers": [
+      "Dark fantasy",
+      "Cozy mystery",
+      "Gothic fiction",
+      "Dystopian fiction",
+      "Steampunk"
+    ],
+    "funFact": "Urban fantasy — placing supernatural beings in contemporary city settings — is closely related to paranormal romance, and many novels blend both genres by centering a romantic subplot within an urban fantasy world.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_031",
+    "question": "Which of these is a common trope in paranormal romance involving a romantic relationship between a human and a supernatural entity?",
+    "correctAnswers": [
+      "Humans and vampires",
+      "Humans and shapeshifters",
+      "Humans and ghosts"
+    ],
+    "wrongAnswers": [
+      "Humans and time travelers from the future",
+      "Humans and sentient robots",
+      "Humans and parallel universe versions of themselves",
+      "Humans and animated objects"
+    ],
+    "funFact": "Paranormal romance commonly features romantic relationships between humans and vampires, shapeshifters, ghosts, and other fantastical entities — each pairing bringing unique tensions and complications.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_032",
+    "question": "What psychic abilities might a paranormal romance character possess?",
+    "correctAnswers": [
+      "Telekinesis or telepathy"
+    ],
+    "wrongAnswers": [
+      "Flight and super strength",
+      "Time manipulation and clairvoyance",
+      "Immortality and shapeshifting",
+      "Elemental control and healing",
+      "Mind control and invisibility"
+    ],
+    "funFact": "Beyond vampires and werewolves, paranormal romance also features characters with psychic powers such as telekinesis (moving objects with the mind) or telepathy (reading thoughts).",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_033",
+    "question": "Time travel, futuristic, and extraterrestrial romances all fall under which umbrella genre?",
+    "correctAnswers": [
+      "Paranormal romance"
+    ],
+    "wrongAnswers": [
+      "Science fiction romance",
+      "Speculative romance",
+      "Fantasy romance",
+      "Contemporary romance",
+      "Historical romance"
+    ],
+    "funFact": "The paranormal romance umbrella is surprisingly broad — it includes not just supernatural stories but also time travel, futuristic settings, and extraterrestrial romances.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_034",
+    "question": "What related subgenre is listed alongside paranormal romance in literary classifications, featuring romantic or sexual relationships with monsters?",
+    "correctAnswers": [
+      "Monster erotica"
+    ],
+    "wrongAnswers": [
+      "Dark romance",
+      "Creature fiction",
+      "Horror romance",
+      "Gothic erotica",
+      "Beast romance",
+      "Supernatural erotica"
+    ],
+    "funFact": "Monster erotica is a subgenre closely related to paranormal romance, pushing the bounds of the 'monstrous love interest' trope into explicitly erotic territory.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_035",
+    "question": "What is paranormal romance often described as in terms of its growth within the romance genre?",
+    "correctAnswers": [
+      "One of the fastest-growing trends"
+    ],
+    "wrongAnswers": [
+      "A declining niche market",
+      "A stagnant subgenre",
+      "A narrowly academic interest",
+      "A regionally specific market",
+      "A genre in steep decline since 2010"
+    ],
+    "funFact": "Paranormal romance has been described as one of the fastest-growing trends in the romance genre, fueled by digital publishing and the massive success of series like Twilight.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_036",
+    "question": "Many paranormal romance novels blend contemporary life with supernatural beings — which subgenre does this overlap with most closely?",
+    "correctAnswers": [
+      "Urban fantasy"
+    ],
+    "wrongAnswers": [
+      "Gothic fiction",
+      "Dark fantasy",
+      "Cozy mystery",
+      "Contemporary romance",
+      "Magical realism"
+    ],
+    "funFact": "The overlap between paranormal romance and urban fantasy is significant — both blend the real contemporary world with supernatural beings, though paranormal romance keeps the love story central.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_037",
+    "question": "Paranormal romance novels often blend their fantastic themes with elements of which two other genres?",
+    "correctAnswers": [
+      "Suspense and mystery"
+    ],
+    "wrongAnswers": [
+      "Comedy and drama",
+      "Adventure and action",
+      "Literary fiction and memoir",
+      "Horror and thriller",
+      "History and biography"
+    ],
+    "funFact": "Many paranormal romance novels are enriched with suspense and mystery — giving readers not just a love story but a plot-driven thriller unfolding in a supernatural world.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_038",
+    "question": "What is the spectrum range of paranormal romance as a genre?",
+    "correctAnswers": [
+      "From traditional romances with a paranormal setting to stories with a science fiction or fantasy-based plot with a romantic subplot"
+    ],
+    "wrongAnswers": [
+      "Only stories set in medieval supernatural worlds",
+      "Only vampire and werewolf stories",
+      "Only stories with a happily ever after ending",
+      "Only time travel narratives with romance"
+    ],
+    "funFact": "Paranormal romance is a spectrum — at one end are romances that simply add a supernatural twist, at the other are fully realized science fiction or fantasy worlds where romance is one thread of a larger tapestry.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_039",
+    "question": "What is the central requirement of a romance novel according to its genre definition?",
+    "correctAnswers": [
+      "A romantic love story between two people with an emotionally satisfying or optimistic ending"
+    ],
+    "wrongAnswers": [
+      "A happy marriage at the conclusion",
+      "A love triangle resolved in the protagonist's favour",
+      "A story of unrequited love finally fulfilled",
+      "Two protagonists who meet by chance and overcome obstacles"
+    ],
+    "funFact": "The core definition of a romance novel is deceptively simple: a love story between two people that ends on an emotionally satisfying or optimistic note — the HEA (happily ever after) or HFN (happy for now).",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_040",
+    "question": "Which early novel, published in 1740, is considered a key precursor to the modern romance novel?",
+    "correctAnswers": [
+      "Pamela, or Virtue Rewarded by Samuel Richardson"
+    ],
+    "wrongAnswers": [
+      "Pride and Prejudice by Jane Austen",
+      "Clarissa by Samuel Richardson",
+      "Tom Jones by Henry Fielding",
+      "Moll Flanders by Daniel Defoe",
+      "Sense and Sensibility by Jane Austen"
+    ],
+    "funFact": "Samuel Richardson's 'Pamela, or Virtue Rewarded' (1740), an epistolary novel about a servant girl's emotional life and virtue, is widely considered a foundational text in the development of the romance novel.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_041",
+    "question": "Who is the British author considered a foundational figure in historical romance, inspired by Jane Austen?",
+    "correctAnswers": [
+      "Georgette Heyer"
+    ],
+    "wrongAnswers": [
+      "Barbara Cartland",
+      "Mary Balogh",
+      "Johanna Lindsey",
+      "Amanda Quick",
+      "Fern Michaels",
+      "Jude Deveraux"
+    ],
+    "funFact": "Georgette Heyer, inspired by Jane Austen, almost single-handedly invented the Regency romance subgenre in the 20th century — her work remains beloved and widely imitated today.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_042",
+    "question": "According to the Romance Writers of America, what must the ending of a romance novel be?",
+    "correctAnswers": [
+      "Emotionally satisfying and optimistic"
+    ],
+    "wrongAnswers": [
+      "A marriage or engagement",
+      "Resolved without any tragedy",
+      "Hopeful but open-ended",
+      "Concluded with a reconciliation",
+      "Ending with a reunion after long separation"
+    ],
+    "funFact": "The Romance Writers of America's definition requires that a romance novel must have 'an emotionally satisfying and optimistic ending' — which allows for both traditional 'happily ever afters' and 'happy for now' conclusions.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_043",
+    "question": "Which Nobel laureate received critical praise for the romance novel 'Love in the Time of Cholera'?",
+    "correctAnswers": [
+      "Gabriel García Márquez"
+    ],
+    "wrongAnswers": [
+      "Mario Vargas Llosa",
+      "Pablo Neruda",
+      "Jorge Luis Borges",
+      "Isabel Allende",
+      "Julio Cortázar",
+      "Carlos Fuentes"
+    ],
+    "funFact": "Gabriel García Márquez's 'Love in the Time of Cholera' — a sweeping story of decades-long devotion — received critical praise as a romance novel worthy of its Nobel laureate author.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_044",
+    "question": "Which of these is a common romance novel trope?",
+    "correctAnswers": [
+      "Enemies to lovers",
+      "Second chance romance",
+      "Forced proximity"
+    ],
+    "wrongAnswers": [
+      "The chosen one prophecy",
+      "The heist gone wrong",
+      "The murder mystery",
+      "The found family quest",
+      "The coming-of-age journey"
+    ],
+    "funFact": "Enemies to lovers, second chance, and forced proximity are among the most beloved romance tropes — each creating built-in tension that makes readers root passionately for the couple.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_045",
+    "question": "According to a 2017 study commissioned by the Romance Writers of America, what percentage of romance book buyers were men?",
+    "correctAnswers": [
+      "18%"
+    ],
+    "wrongAnswers": [
+      "5%",
+      "10%",
+      "25%",
+      "33%",
+      "40%",
+      "50%",
+      "2%"
+    ],
+    "funFact": "A 2017 study found that men accounted for 18% of romance book buyers — a surprisingly significant share for a genre often stereotyped as exclusively for women.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_046",
+    "question": "The romance novel genre can be traced back to which ancient civilization?",
+    "correctAnswers": [
+      "Ancient Greece"
+    ],
+    "wrongAnswers": [
+      "Ancient Rome",
+      "Ancient Egypt",
+      "Ancient China",
+      "Ancient Mesopotamia",
+      "Ancient India"
+    ],
+    "funFact": "Works of romance fiction have existed since ancient Greece — texts like 'Daphnis and Chloe' and 'An Ethiopian Story' are among the earliest known examples of the genre.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_047",
+    "question": "Romance novels are divided into which two broad sub-sets?",
+    "correctAnswers": [
+      "Category romances and single title romances"
+    ],
+    "wrongAnswers": [
+      "Short romance and long romance",
+      "Series romance and standalone novel",
+      "Mainstream romance and niche romance",
+      "Genre romance and literary romance",
+      "Mass market and trade paperback romance"
+    ],
+    "funFact": "The romance publishing world is split into category romances (shorter books published in series batches, like Harlequin lines) and single title romances (standalone novels of any length).",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_048",
+    "question": "Which philosopher argued that romance novels remain relevant because love affects the entire species?",
+    "correctAnswers": [
+      "Arthur Schopenhauer"
+    ],
+    "wrongAnswers": [
+      "Friedrich Nietzsche",
+      "Immanuel Kant",
+      "Georg Wilhelm Friedrich Hegel",
+      "Søren Kierkegaard",
+      "John Stuart Mill",
+      "Jean-Paul Sartre"
+    ],
+    "funFact": "Arthur Schopenhauer argued that love — and by extension romantic literature — remains eternally relevant because it serves the continuation of the species, not just individual fulfillment.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_049",
+    "question": "What is a common criticism of romance novels regarding their narrative tension?",
+    "correctAnswers": [
+      "It seems obvious the couple will eventually resolve their issues, reducing suspense"
+    ],
+    "wrongAnswers": [
+      "They are too long and repetitive",
+      "The characters are always too perfect",
+      "The settings are completely unrealistic",
+      "The dialogue is too formal and stilted",
+      "They rely excessively on coincidence"
+    ],
+    "funFact": "Critics of romance novels often point to a perceived lack of suspense — the genre convention that the couple will end up together means readers know the broad outcome, though skilled authors find ways to create genuine emotional uncertainty.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_050",
+    "question": "Which of these authors is recognized as a significant contributor to the development of the romance novel genre?",
+    "correctAnswers": [
+      "Jane Austen",
+      "The Brontë sisters",
+      "Frances Burney",
+      "Maria Edgeworth"
+    ],
+    "wrongAnswers": [
+      "Virginia Woolf",
+      "Mary Shelley",
+      "George Eliot",
+      "Elizabeth Gaskell",
+      "Louisa May Alcott"
+    ],
+    "funFact": "Samuel Richardson, Frances Burney, Maria Edgeworth, Jane Austen, and the Brontë sisters are all recognized as major contributors to the development of the romance novel as a genre.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_051",
+    "question": "In a romance novel, what should both the conflict and the climax be directly related to, per the Romance Writers of America?",
+    "correctAnswers": [
+      "The core theme of developing a romantic relationship"
+    ],
+    "wrongAnswers": [
+      "An external threat to the protagonists",
+      "A mystery that must be solved",
+      "A family or social conflict",
+      "A financial or class obstacle",
+      "A personal growth journey unrelated to love"
+    ],
+    "funFact": "According to the Romance Writers of America, both the conflict and climax of a romance novel should be rooted in the central romantic relationship — everything serves the love story.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_052",
+    "question": "What is a general moral pattern observed in romance novels?",
+    "correctAnswers": [
+      "Good characters are rewarded and evil characters are penalized"
+    ],
+    "wrongAnswers": [
+      "Characters are morally ambiguous without clear resolution",
+      "The protagonist always sacrifices for others",
+      "Love redeems even the most villainous character",
+      "Social norms are subverted by the romance",
+      "Class barriers are always overcome through love"
+    ],
+    "funFact": "Romance novels generally follow a moral framework where virtuous characters are rewarded and villainous ones face consequences — reinforcing the genre's fundamentally optimistic worldview.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_053",
+    "question": "Some romance readers have historically felt embarrassed about what?",
+    "correctAnswers": [
+      "Admitting they buy or read romance novels"
+    ],
+    "wrongAnswers": [
+      "Reading romance in public places",
+      "Owning large romance novel collections",
+      "Preferring romance over literary fiction",
+      "Writing romance fan fiction",
+      "Recommending romance to friends"
+    ],
+    "funFact": "Despite romance being the best-selling fiction genre, a persistent stigma has caused some dedicated readers to feel embarrassed about admitting they buy or read romance novels.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_054",
+    "question": "The 'bodice ripper' is a recognized subgenre of which literary genre?",
+    "correctAnswers": [
+      "Romance novels"
+    ],
+    "wrongAnswers": [
+      "Historical fiction",
+      "Erotic literature",
+      "Gothic fiction",
+      "Adventure novels",
+      "Pulp fiction"
+    ],
+    "funFact": "The 'bodice ripper' — characterized by forceful, often historically set romantic scenarios — became a popular and sometimes controversial subgenre of romance novels, especially in the 1970s and 1980s.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_055",
+    "question": "What does the romance novel trope 'forced proximity' involve?",
+    "correctAnswers": [
+      "Characters being brought into close physical or situational contact"
+    ],
+    "wrongAnswers": [
+      "Characters being forced to marry by their families",
+      "Characters competing for the same job or position",
+      "Characters trapped in a love triangle",
+      "Characters falling in love despite being sworn enemies",
+      "Characters reconnecting after years apart"
+    ],
+    "funFact": "Forced proximity is beloved by romance readers because it removes the option of avoiding the love interest — characters stranded in a snowstorm, sharing an office, or stuck in a safehouse must confront their feelings.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_056",
+    "question": "Which authors have achieved success in both category romance and single title romance formats?",
+    "correctAnswers": [
+      "Jennifer Crusie and Jayne Ann Krentz"
+    ],
+    "wrongAnswers": [
+      "Danielle Steel and Nora Roberts",
+      "Jude Deveraux and Lisa Kleypas",
+      "Julia Quinn and Courtney Milan",
+      "Sabrina Jeffries and Eloisa James",
+      "Mary Balogh and Julia London"
+    ],
+    "funFact": "Jennifer Crusie and Jayne Ann Krentz are notable for successfully navigating both category romance and single title romance — a transition many authors find commercially and creatively challenging.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_057",
+    "question": "What is self-publishing, in its simplest definition?",
+    "correctAnswers": [
+      "An author-driven publication of any media without the involvement of a third-party publisher"
+    ],
+    "wrongAnswers": [
+      "Publishing through a small independent press",
+      "Publishing through a university press",
+      "Publishing digitally without a physical edition",
+      "Publishing without an ISBN number",
+      "Publishing under a pen name without disclosing identity"
+    ],
+    "funFact": "Self-publishing means the author handles every aspect of getting their work to readers — from editing and design to distribution and marketing — without a traditional publisher acting as intermediary.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_058",
+    "question": "What key technology, alongside the internet, has made modern self-publishing commercially viable?",
+    "correctAnswers": [
+      "Print-on-demand technology"
+    ],
+    "wrongAnswers": [
+      "Desktop publishing software",
+      "Digital audio technology",
+      "E-reader hardware",
+      "Social media algorithms",
+      "Automated cover design tools"
+    ],
+    "funFact": "Print-on-demand technology allows books to be printed one at a time as they are ordered, eliminating the need for expensive print runs and warehousing — a game-changer for self-published authors.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_059",
+    "question": "How much larger are self-published authors' royalties per sale compared to traditional publishing, and what is the maximum rate they can reach?",
+    "correctAnswers": [
+      "Four to five times larger, sometimes as high as 70%"
+    ],
+    "wrongAnswers": [
+      "Twice as large, up to 30%",
+      "Three times as large, up to 50%",
+      "Ten times as large, up to 90%",
+      "The same as traditional publishing at about 15%"
+    ],
+    "funFact": "Self-published authors can earn royalties of up to 70% on each sale — compared to the typical 10–15% offered by traditional publishers — making self-publishing financially attractive for high-volume sellers.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_060",
+    "question": "What financial benefit do traditionally published authors receive that self-published authors do not?",
+    "correctAnswers": [
+      "An advance payment"
+    ],
+    "wrongAnswers": [
+      "Higher per-sale royalties",
+      "Rights to foreign editions",
+      "Control over cover design",
+      "Faster publication timelines",
+      "Access to print-on-demand technology"
+    ],
+    "funFact": "Traditional publishers provide authors with an advance — an upfront payment against future royalties. Self-published authors receive no advance, but keep a much higher percentage of each sale.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_061",
+    "question": "What is a key advantage of self-publishing regarding the publication timeline?",
+    "correctAnswers": [
+      "Authors can release their work within a few weeks of finishing"
+    ],
+    "wrongAnswers": [
+      "Authors can release work within 24 hours of writing it",
+      "Authors receive guaranteed bookstore placement within days",
+      "Authors can release simultaneous international editions instantly",
+      "Authors can update their books in real time for free"
+    ],
+    "funFact": "Self-publishing offers a dramatically compressed timeline — where traditional publishing can take 1–2 years from manuscript to shelf, self-published authors can have their book available to readers within weeks.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_062",
+    "question": "What is a significant distribution challenge faced by self-published authors?",
+    "correctAnswers": [
+      "Achieving wide distribution in physical bookstores and libraries"
+    ],
+    "wrongAnswers": [
+      "Getting their books onto e-reader platforms",
+      "Distributing internationally via digital retailers",
+      "Making digital editions available to readers",
+      "Setting up an author website",
+      "Accessing print-on-demand services"
+    ],
+    "funFact": "Physical bookstores and libraries rely on established distribution networks that are difficult for self-publishers to access — making online retail channels far more important for self-published authors.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_063",
+    "question": "In the vanity publishing model, what does the author typically surrender under the contract?",
+    "correctAnswers": [
+      "Significant rights, under a restrictive contract"
+    ],
+    "wrongAnswers": [
+      "All royalties permanently",
+      "Their pen name",
+      "Creative control over the content",
+      "The ability to republish elsewhere forever",
+      "Their marketing budget to the publisher"
+    ],
+    "funFact": "Vanity publishing lets authors see their work in print by paying for all services, but often comes with highly restrictive contracts — a trap for unwary authors who may lose significant rights to their own work.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_064",
+    "question": "What distinguishes hybrid publishing from both traditional and self-publishing models?",
+    "correctAnswers": [
+      "Publisher and author collaborate and share costs and risks"
+    ],
+    "wrongAnswers": [
+      "The author retains all rights but pays no costs",
+      "A co-author shares the byline credit",
+      "Two publishers jointly produce the book",
+      "The author publishes a print and digital edition simultaneously for free"
+    ],
+    "funFact": "Hybrid publishing sits between self-publishing and traditional publishing — costs and risks are shared, but so is control, with the author potentially giving up some rights in exchange for professional support.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_065",
+    "question": "What pricing control does self-publishing give authors?",
+    "correctAnswers": [
+      "They can determine their own pricing and change it at any time"
+    ],
+    "wrongAnswers": [
+      "They must price within a range set by the retail platform",
+      "They negotiate pricing once per edition with the distributor",
+      "Pricing is determined entirely by production costs",
+      "They must price competitively with traditionally published books in their genre"
+    ],
+    "funFact": "One significant advantage of self-publishing is complete pricing control — authors can set prices, run sales, or adjust based on market conditions at any point, without needing a publisher's approval.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_066",
+    "question": "Which of these is a type of media that can be self-published?",
+    "correctAnswers": [
+      "Zines",
+      "Video games",
+      "Music albums"
+    ],
+    "wrongAnswers": [
+      "Feature films for theatrical release",
+      "Television series",
+      "Commercial radio broadcasts",
+      "University academic textbooks"
+    ],
+    "funFact": "Self-publishing spans far beyond books — from zines and music albums to video games and web fiction, any creator can bypass traditional gatekeepers and publish directly to their audience.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_067",
+    "question": "Which production responsibilities does a self-published author take on that a traditional publisher would normally handle?",
+    "correctAnswers": [
+      "Editing, cover design, formatting, and marketing"
+    ],
+    "wrongAnswers": [
+      "Printing and binding only",
+      "Library cataloguing and distribution only",
+      "International rights negotiations",
+      "Audiobook production and recording",
+      "ISBN registration and barcoding"
+    ],
+    "funFact": "Self-published authors must wear many hats — handling editing, cover design, formatting, and marketing themselves or hiring freelancers, tasks that traditional publishers manage as part of their service.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_068",
+    "question": "What factor most strongly influences the financial success of a self-published author's work?",
+    "correctAnswers": [
+      "The author's marketing efforts"
+    ],
+    "wrongAnswers": [
+      "The length of the book",
+      "The cover art quality alone",
+      "The genre chosen",
+      "The author's existing fame before self-publishing",
+      "The price point chosen"
+    ],
+    "funFact": "Unlike traditional publishing where publishers fund marketing campaigns, self-published authors must invest substantially in their own marketing — making promotional skills just as important as writing talent.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_069",
+    "question": "What advantage do eBooks and digital platforms provide for self-published authors?",
+    "correctAnswers": [
+      "Global distribution without the need for physical inventory"
+    ],
+    "wrongAnswers": [
+      "Guaranteed higher search rankings in retail algorithms",
+      "Automatic marketing to targeted readers",
+      "Removal of the need for editing or proofreading",
+      "Automatic bestseller status on major platforms"
+    ],
+    "funFact": "eBooks have been transformative for self-publishing — an author can distribute their work globally without printing a single copy, dramatically lowering the barriers to reaching international audiences.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_070",
+    "question": "What is a 'Self-publishing Service Provider' also sometimes called?",
+    "correctAnswers": [
+      "Assisted Self-publishing Provider"
+    ],
+    "wrongAnswers": [
+      "Vanity press",
+      "Hybrid publisher",
+      "Independent press",
+      "Author services company",
+      "Publishing collective"
+    ],
+    "funFact": "Some companies offer all-in-one self-publishing packages covering editing, design, and distribution — called 'Assisted Self-publishing Providers' or 'Self-publishing Service Providers,' distinct from both vanity presses and hybrid publishers.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_071",
+    "question": "Why do traditional publishers have better bookstore and library access than self-publishers?",
+    "correctAnswers": [
+      "They have established distribution networks that are difficult for self-publishers to replicate"
+    ],
+    "wrongAnswers": [
+      "They pay higher placement fees to bookstores",
+      "They have government connections that facilitate access",
+      "They publish in larger print runs",
+      "They provide bookstores with guaranteed return policies only they can offer"
+    ],
+    "funFact": "Traditional publishers have spent decades building distribution relationships with bookstores and libraries — networks that self-published authors simply cannot replicate, making online retail their primary marketplace.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_072",
+    "question": "Beyond royalty rate, what determines the total earnings of a self-published author?",
+    "correctAnswers": [
+      "Sales volume, which can be influenced by discoverability on retail platforms"
+    ],
+    "wrongAnswers": [
+      "The number of reviews received on the book",
+      "The book's price point alone",
+      "Whether they have a literary agent",
+      "Their social media follower count",
+      "The number of countries their book is listed in"
+    ],
+    "funFact": "Even with high royalty rates, self-published authors' total earnings depend on how many copies they sell — and discoverability on platforms like Amazon or Kobo is crucial to generating those sales.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_073",
+    "question": "In traditional publishing, which aspects of a book are subject to negotiation between author and publisher?",
+    "correctAnswers": [
+      "Pricing, content changes, and production"
+    ],
+    "wrongAnswers": [
+      "Font choice and page margins only",
+      "Cover colour and title only",
+      "Marketing strategy and social media presence only",
+      "Audiobook rights and foreign rights only",
+      "Dedication and acknowledgements only"
+    ],
+    "funFact": "In traditional publishing, many aspects of bringing a book to market — from pricing to cover design to editorial changes — are negotiated between the author and publisher, meaning the author gives up some control.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_074",
+    "question": "What key editorial freedom does self-publishing offer that traditional publishing does not?",
+    "correctAnswers": [
+      "Authors are not required to make changes based on publisher feedback or market trends"
+    ],
+    "wrongAnswers": [
+      "Authors can publish without any editing at all",
+      "Authors can change their books after publication freely at any time",
+      "Authors can release sequels without any approval process",
+      "Authors can publish multiple books simultaneously without any limit"
+    ],
+    "funFact": "Self-publishing gives authors complete creative autonomy — they can publish exactly what they wrote without being pressured by publishers to change content to fit market demands or editorial preferences.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_075",
+    "question": "What is the realistic financial outlook for most self-published books?",
+    "correctAnswers": [
+      "Most self-published books do not make much money"
+    ],
+    "wrongAnswers": [
+      "Most self-published books earn more than traditionally published ones",
+      "Most self-published books break even quickly",
+      "Most self-published books earn the author a sustainable living wage",
+      "Most self-published books earn substantial royalties within the first year"
+    ],
+    "funFact": "While a handful of self-published authors achieve remarkable commercial success, the reality is that most self-published books earn very little — success requires significant marketing investment and often good timing.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_076",
+    "question": "Which of these is NOT a recognized subgenre of the romance novel?",
+    "correctAnswers": [
+      "Hard-boiled detective romance"
+    ],
+    "wrongAnswers": [
+      "Historical romance",
+      "Paranormal romance",
+      "Sapphic romance",
+      "Contemporary romance",
+      "Science fiction romance"
+    ],
+    "funFact": "Romance novel subgenres span an enormous range — from bodice rippers to sci-fi — but hard-boiled detective fiction, with its typically unsentimental tone, is not a recognized romance subgenre.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_077",
+    "question": "What is 'sapphic romance' as a subgenre of the romance novel?",
+    "correctAnswers": [
+      "Romance featuring romantic love between women"
+    ],
+    "wrongAnswers": [
+      "Romance set in ancient Greece inspired by Sappho's poetry",
+      "Romance written entirely in verse form",
+      "Romance featuring mythological characters",
+      "Romance written exclusively by women authors",
+      "Romance focused on feminist social commentary"
+    ],
+    "funFact": "Sapphic romance — named for the ancient poet Sappho — is a recognized subgenre of romance novels featuring love between women, and has grown significantly in mainstream publishing.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_078",
+    "question": "According to publisher Leslie Gelbman of Berkley Books, what must be the core of a romance novel?",
+    "correctAnswers": [
+      "The romantic relationship between the hero and heroine"
+    ],
+    "wrongAnswers": [
+      "An obstacle that keeps the lovers apart until the end",
+      "The internal growth of the protagonist",
+      "A satisfying resolution to a moral conflict",
+      "The social context in which the romance develops",
+      "A physical or emotional journey of discovery"
+    ],
+    "funFact": "Leslie Gelbman, a president of Berkley Books, put it plainly: the romantic relationship must be the core of the book — everything else, from plot to setting, serves that central love story.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "lily_mayne_079",
+    "question": "Which country's LGBTQ literary tradition is called 'Danmei'?",
+    "correctAnswers": [
+      "China"
+    ],
+    "wrongAnswers": [
+      "Japan",
+      "Taiwan",
+      "South Korea",
+      "Vietnam",
+      "Thailand",
+      "Singapore"
+    ],
+    "funFact": "Danmei is China's LGBTQ literary tradition, focusing on romantic relationships between men and originating in online fiction communities — novels like 'The Grandmaster of Demonic Cultivation' became global phenomena.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_080",
+    "question": "Which of these is a recognized subgenre under the paranormal romance umbrella?",
+    "correctAnswers": [
+      "Time travel romance",
+      "Futuristic romance",
+      "Extraterrestrial romance"
+    ],
+    "wrongAnswers": [
+      "Historical fiction",
+      "Alternate history drama",
+      "Military romance",
+      "Sports romance",
+      "Small-town contemporary romance"
+    ],
+    "funFact": "The paranormal romance umbrella is surprisingly broad — it includes time travel, futuristic, and extraterrestrial romances, not just the supernatural monster-and-human pairings most commonly associated with the genre.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_081",
+    "question": "Which of these authors is specifically noted for specializing in the paranormal romance genre?",
+    "correctAnswers": [
+      "Stephenie Meyer"
+    ],
+    "wrongAnswers": [
+      "Nora Roberts",
+      "Danielle Steel",
+      "Sandra Brown",
+      "Janet Evanovich",
+      "Lisa Kleypas"
+    ],
+    "funFact": "Stephenie Meyer's 'Twilight' series helped bring paranormal romance to a massive mainstream audience, making her one of the most recognizable names associated with the genre.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_082",
+    "question": "What two broader genres does paranormal romance sit within as a subgenre?",
+    "correctAnswers": [
+      "Romantic fiction and speculative fiction"
+    ],
+    "wrongAnswers": [
+      "Horror fiction and science fiction",
+      "Fantasy and literary fiction",
+      "Urban fantasy and erotica",
+      "Gothic fiction and fairy tale",
+      "Thriller and mystery"
+    ],
+    "funFact": "Paranormal romance bridges two worlds — it belongs to both romantic fiction (with its emotional focus and satisfying endings) and speculative fiction (with its supernatural world-building).",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_083",
+    "question": "What creative autonomy does self-publishing provide over the content of a book?",
+    "correctAnswers": [
+      "Authors have full autonomy without being required to make changes based on publisher feedback or market changes"
+    ],
+    "wrongAnswers": [
+      "Authors can publish anonymously without legal accountability",
+      "Authors can bypass copyright law for their source material",
+      "Authors can publish sequels immediately with no review process",
+      "Authors can use any trademarked name or image freely"
+    ],
+    "funFact": "Self-publishing puts the author entirely in charge — no editorial gatekeepers, no market-driven content changes. This autonomy is both its greatest appeal and greatest challenge.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_084",
+    "question": "Which of these is a confirmed type of media that can be self-published?",
+    "correctAnswers": [
+      "Web fiction"
+    ],
+    "wrongAnswers": [
+      "Feature films for theatrical release",
+      "Major television series",
+      "Commercial radio broadcasts",
+      "Government white papers"
+    ],
+    "funFact": "Self-publishing spans far beyond books — web fiction (stories published serially online) is among the recognized types of self-published media, alongside zines, music albums, video games, and more.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_085",
+    "question": "Which Japanese LGBTQ literary subgenre specifically features romantic relationships between women?",
+    "correctAnswers": [
+      "Yuri"
+    ],
+    "wrongAnswers": [
+      "Boys Love",
+      "Danmei",
+      "Yaoi",
+      "Shojo",
+      "Josei",
+      "Seinen"
+    ],
+    "funFact": "Yuri is a Japanese LGBTQ literary and manga subgenre featuring romantic or intimate relationships between women — parallel to the Boys Love (BL) genre that focuses on male relationships.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_086",
+    "question": "How does self-publishing emerge in the literary landscape relative to traditional publishing?",
+    "correctAnswers": [
+      "As an alternative with implications for production, cost, revenue, distribution, and public perception"
+    ],
+    "wrongAnswers": [
+      "As a competing format focused solely on lower price",
+      "As an inferior version of traditional publishing",
+      "As a purely digital supplement with no print component",
+      "As a regulated industry alternative approved by publishing bodies"
+    ],
+    "funFact": "Self-publishing isn't just a cheaper option — it represents a fundamentally different model affecting every dimension of authorship, from how books are produced to how they are perceived by readers and critics.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_087",
+    "question": "Which romance subgenre is set in an alternate version of our world and typically involves vampires, demons, or werewolves?",
+    "correctAnswers": [
+      "Paranormal romance"
+    ],
+    "wrongAnswers": [
+      "Urban fantasy",
+      "Dark romance",
+      "Gothic romance",
+      "Supernatural thriller",
+      "Fantasy romance"
+    ],
+    "funFact": "Paranormal romance often blends the real with the fantastic by setting stories in an alternate version of our world where vampires, demons, and werewolves exist alongside ordinary humans.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_088",
+    "question": "How did the internet help fuel the most recent revival of paranormal romance?",
+    "correctAnswers": [
+      "By enabling electronic publishing and new online reader communities"
+    ],
+    "wrongAnswers": [
+      "By providing free story archives for readers from major publishers",
+      "By connecting authors to traditional publishers faster than ever",
+      "By automating book marketing globally for all authors",
+      "By enabling live author-reader video interaction only"
+    ],
+    "funFact": "The internet enabled both electronic publishing (removing printing barriers) and the growth of online reading communities — fan forums and genre sites where paranormal romance readers could find, share, and celebrate their favourite books.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_089",
+    "question": "Which is a recognized LGBTQ literary award that may honor lesbian fiction?",
+    "correctAnswers": [
+      "Lambda Literary Award"
+    ],
+    "wrongAnswers": [
+      "Man Booker Prize",
+      "Pulitzer Prize for Fiction",
+      "National Book Award",
+      "Hugo Award",
+      "Edgar Award",
+      "Orange Prize"
+    ],
+    "funFact": "The Lambda Literary Awards (the Lammys) are the premier literary awards recognizing LGBTQ books, authors, and themes — with categories spanning fiction, poetry, memoir, and more.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_090",
+    "question": "In traditional publishing, what happens to the advance payment as an author's book sells?",
+    "correctAnswers": [
+      "The author's earnings from royalties must cover the advance before additional payments begin"
+    ],
+    "wrongAnswers": [
+      "The advance is a bonus on top of all royalties earned",
+      "The advance is returned to the publisher if sales are poor",
+      "The advance is a one-time gift with no conditions attached",
+      "The advance is deducted from the author's next book deal only"
+    ],
+    "funFact": "A traditional publishing advance is essentially a loan against future royalties — the book must earn enough in royalties to 'earn out' the advance before the author receives any additional payments.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_091",
+    "question": "Per the Romance Writers of America, what must the main plot of a mass-market romance novel revolve around?",
+    "correctAnswers": [
+      "Two people developing romantic love for each other"
+    ],
+    "wrongAnswers": [
+      "An obstacle that separates the protagonists until the end",
+      "A secondary plot involving family or friends",
+      "A significant personal transformation of the protagonist",
+      "A marriage proposal and its aftermath"
+    ],
+    "funFact": "The Romance Writers of America is clear: in a mass-market romance novel, the main plot must be the romantic relationship — anything else, however compelling, is secondary.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_092",
+    "question": "What is 'Boys Love' (BL) as a Japanese literary subgenre?",
+    "correctAnswers": [
+      "A LGBTQ literary subgenre featuring romantic relationships between male characters"
+    ],
+    "wrongAnswers": [
+      "A genre of adventure fiction for young males",
+      "A South Korean romance subgenre featuring heterosexual couples",
+      "A Western literary tradition of male friendship stories",
+      "A subgenre of sports fiction featuring male athletes"
+    ],
+    "funFact": "Boys Love (BL) originated in Japan and features romantic, often idealized relationships between male characters — with distinct aesthetic conventions and a predominantly female readership.",
+    "sourceId": "src_gay_literature",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_093",
+    "question": "Which 1740 novel by Samuel Richardson is considered a key precursor to the modern romance novel?",
+    "correctAnswers": [
+      "Pamela, or Virtue Rewarded"
+    ],
+    "wrongAnswers": [
+      "Clarissa",
+      "Sir Charles Grandison",
+      "Tom Jones",
+      "Joseph Andrews",
+      "Tristram Shandy"
+    ],
+    "funFact": "Samuel Richardson's 'Pamela, or Virtue Rewarded' (1740) — with its focus on a woman's emotional life, virtue, and romantic fate — established templates that the romance novel genre still uses today.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_094",
+    "question": "What does print-on-demand technology allow that makes it ideal for self-publishing?",
+    "correctAnswers": [
+      "Books can be printed as they are ordered rather than in bulk"
+    ],
+    "wrongAnswers": [
+      "Books can be printed faster than traditional offset printing presses",
+      "Books can be printed with individually customized covers per order",
+      "Books can be printed in any language simultaneously at low cost",
+      "Books can be printed with embedded digital content"
+    ],
+    "funFact": "Print-on-demand eliminated one of the biggest barriers to self-publishing — the need for expensive large print runs. Now a self-published book can be printed one copy at a time, exactly when a reader orders it.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_095",
+    "question": "What type of endings do romance novels typically feature?",
+    "correctAnswers": [
+      "Emotionally satisfying or optimistic endings"
+    ],
+    "wrongAnswers": [
+      "Tragic or bittersweet endings",
+      "Open-ended or ambiguous conclusions",
+      "Morally complex unresolved endings",
+      "Cliffhangers that lead into sequels"
+    ],
+    "funFact": "The promise of a satisfying ending is a defining feature of the romance genre — readers know they will be rewarded with either a 'happily ever after' (HEA) or 'happy for now' (HFN) conclusion.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_096",
+    "question": "Self-published authors tend to have more success through which channels compared to physical bookstores?",
+    "correctAnswers": [
+      "Online retailers and print-on-demand services"
+    ],
+    "wrongAnswers": [
+      "Television shopping channels",
+      "Direct mail catalogs",
+      "Library systems",
+      "Academic press networks",
+      "Literary agents acting as distributors"
+    ],
+    "funFact": "Online retailers like Amazon, Kobo, and Smashwords have become the primary marketplace for self-published authors, giving them global reach that physical bookstore distribution cannot provide.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_097",
+    "question": "Since the advent of the internet, what two technologies has self-publishing primarily relied upon?",
+    "correctAnswers": [
+      "Digital platforms and print-on-demand technology"
+    ],
+    "wrongAnswers": [
+      "Social media and audiobook platforms",
+      "Streaming services and ebook stores",
+      "Website hosting and digital advertising",
+      "Online reading communities and crowdfunding platforms"
+    ],
+    "funFact": "The combination of digital publishing platforms and print-on-demand technology transformed self-publishing from a vanity exercise into a viable alternative to traditional publishing in the 21st century.",
+    "sourceId": "src_selfpublishing",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "lily_mayne_098",
+    "question": "What does the 'second chance' trope in romance novels involve?",
+    "correctAnswers": [
+      "Characters who previously had a romantic connection get another opportunity at love"
+    ],
+    "wrongAnswers": [
+      "Characters who failed at their careers find love instead",
+      "A hero redeems himself after a past moral mistake",
+      "A villain is given a chance to become the hero of the story",
+      "Characters who never met before are given a chance at romance"
+    ],
+    "funFact": "The 'second chance' romance trope — where former lovers reunite or characters who missed their shot meet again — layers nostalgia, regret, and renewed hope into the love story.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_099",
+    "question": "What does the 'enemies to lovers' trope in romance novels involve?",
+    "correctAnswers": [
+      "Characters who start out as antagonists develop romantic feelings for each other"
+    ],
+    "wrongAnswers": [
+      "Characters who are friends become rivals and then reconcile",
+      "Characters who are rivals compete for a third person's affection",
+      "Characters who hate each other remain enemies throughout the story",
+      "Characters who are strangers become enemies and then part ways"
+    ],
+    "funFact": "Enemies to lovers is one of the most popular romance tropes — the tension and conflict between antagonists creates powerful chemistry when it transforms into romantic attraction.",
+    "sourceId": "src_romance_novel",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "lily_mayne_100",
+    "question": "Approximately how many paranormal romance titles were published annually in the United States by 2004?",
+    "correctAnswers": [
+      "170 per year"
+    ],
+    "wrongAnswers": [
+      "50 per year",
+      "85 per year",
+      "250 per year",
+      "500 per year",
+      "340 per year",
+      "1,000 per year"
+    ],
+    "funFact": "By 2004, paranormal romance publication in the United States had doubled from just two years prior to approximately 170 titles per year — a pace that reflected the genre's explosive mainstream appeal.",
+    "sourceId": "src_paranormal_romance",
+    "topicId": "lily_mayne",
+    "topicCategoryId": "authors",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
   }
 ]

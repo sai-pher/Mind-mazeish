@@ -29,7 +29,10 @@ SOURCE_FIELD_ORDER = [
 
 
 def slugify(title: str) -> str:
-    return re.sub(r'[^a-z0-9]+', '_', title.lower()).strip('_')
+    # Normalise accented characters before stripping (é → e, ü → u, etc.)
+    import unicodedata
+    normalised = unicodedata.normalize('NFKD', title).encode('ascii', 'ignore').decode('ascii')
+    return re.sub(r'[^a-z0-9]+', '_', normalised.lower()).strip('_')
 
 
 def reorder(d: dict) -> dict:

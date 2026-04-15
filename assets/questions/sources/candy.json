@@ -1,5 +1,32 @@
 [
   {
+    "id": "src_candy",
+    "title": "Candy",
+    "url": "https://en.m.wikipedia.org/wiki/Candy",
+    "summary": "Candy, also commonly called sweets, is a confection that features sugar as a principal ingredient. The category, also called sugar confectionery, encompasses any sweet confection, including chocolate, chewing gum, and sugar candy. Vegetables, fruit, or nuts which have been glazed and coated with [...]",
+    "categories": [
+      "Category:All Wikipedia articles in need of updating",
+      "Category:All Wikipedia articles written in American English",
+      "Category:Articles with short description",
+      "Category:CS1 Swedish-language sources (sv)",
+      "Category:CS1 errors: ISBN date"
+    ],
+    "topicIds": [
+      "candy"
+    ],
+    "articleText": "== Summary ==\nCandy, also commonly called sweets, is a confection that features sugar as a principal ingredient. The category, also called sugar confectionery, encompasses any sweet confection, including chocolate, chewing gum, and sugar candy. Vegetables, fruit, or nuts which have been glazed and coated with sugar are said to be candied.\nPhysically, candy is characterized by the use of a significant amount of sugar or sugar substitutes. Unlike a cake or loaf of bread that would be shared among many people, candies are usually made in smaller pieces. However, the definition of candy also depends upon how people treat the food. Unlike sweet pastries served for a dessert course at the end of a meal, candies are normally eaten casually, often with the fingers, as a snack between meals. Each culture has its own ideas of what constitutes candy rather than dessert. The same food may be a candy in one culture and a dessert in another.\n\n== History ==\nThe word candy entered the English language from the Old French çucre candi (\"sugar candy\"). The French term probably has earlier roots in the Arabic qandi, Persian qand and Sanskrit khanda, all words for sugar.\nSugarcane is indigenous to tropical South and Southeast Asia. Pieces of sugar were produced by boiling sugarcane juice in ancient India and consumed as khanda. Between the 6th and 4th centuries BCE, the Persians, followed by the Greeks, discovered the people in India and their \"reeds that produce honey without bees\". They adopted and then spread sugar and sugarcane agriculture.\nBefore sugar was readily available, candy was based on honey. Honey was used in Ancient China, the Middle East, Egypt, Greece and the Roman Empire to coat fruits and flowers to preserve them or to create forms of candy. Candy is still served in this form today, though now it is more typically seen as a type of garnish.\nBefore the Industrial Revolution, candy was often considered a form of medicine, either used to calm the digestive system or cool a sore throat. In the Middle Ages candy appeared on the tables of only the most wealthy at first. At that time, it began as a combination of spices and [...]\n\n== Classification ==\nSugar candies include hard candies, soft candies, caramels, marshmallows, taffy, and other candies whose principal ingredient is sugar. Commercially, sugar candies are often divided into groups according to the amount of sugar they contain and their chemical structure.\nHard-boiled candies made by the vacuum cooking process include stick candy, lemon drops and horehound drops. Open-fire candy, like molasses taffy and cream taffy, is cooked in open kettles and then pulled. Pan work candies include nuts and other candies like jelly beans and sugar-coated almonds, made by coating with sugar in revolving copper kettles. Gum work candy is cooked in large kettles fashioned for melting and molded, dried and sugared like gum drops. They are soaked for a time in sugar syrup to allow crystals to form.\nSugar candies can be classified into noncrystalline and crystalline types.  This is based on microscopic crystal structure, and not on the visible appearance of the candy, so a piece of candy that looks like a crystal may well be a noncrystalline type. Noncrystalline candies are homogeneous and may be chewy or hard; they include hard candies, caramels, toffees, and nougats. Crystalline candies [...]\n\n== Production ==\nSugar candy is made by dissolving sugar in water or milk to form a syrup, which is boiled until it reaches the desired concentration or starts to caramelize. Candy comes in a wide variety of textures, from soft and chewy to hard and brittle. The texture of candy depends on the ingredients and the temperatures that the candy is processed at.\nThe final texture of sugar candy depends primarily on the concentration of sugar. As the syrup is heated, it boils, water evaporates, the sugar concentration increases and the boiling point rises. A given temperature corresponds to a particular sugar [...]",
+    "facts": [],
+    "questionIds": [
+      "candy_004",
+      "candy_005",
+      "candy_006",
+      "candy_007",
+      "candy_008",
+      "candy_009",
+      "candy_010"
+    ]
+  },
+  {
     "id": "src_chocolate",
     "title": "Chocolate",
     "url": "https://en.wikipedia.org/wiki/Chocolate",
@@ -61,6 +88,29 @@
     ],
     "questionIds": [
       "candy_001"
+    ]
+  },
+  {
+    "id": "src_confectionery",
+    "title": "Confectionery",
+    "url": "https://en.m.wikipedia.org/wiki/Confectionery",
+    "summary": "Confectionery is the art of making confections, or sweet foods.  Confections are items that are rich in sugar and carbohydrates, although exact definitions are difficult. In general, however, confections are divided into two broad and somewhat overlapping categories: baker's confections and sugar [...]",
+    "categories": [
+      "Category:All Wikipedia articles written in American English",
+      "Category:All articles with unsourced statements",
+      "Category:Articles containing Latin-language text",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from January 2024"
+    ],
+    "topicIds": [
+      "candy"
+    ],
+    "articleText": "== Summary ==\nConfectionery is the art of making confections, or sweet foods.  Confections are items that are rich in sugar and carbohydrates, although exact definitions are difficult. In general, however, confections are divided into two broad and somewhat overlapping categories: baker's confections and sugar confections.\nBaker's confectionery, also called flour confections, includes principally sweet pastries, cakes, and similar baked goods. Baker's confectionery excludes everyday breads, and thus is a subset of products produced by a baker.\nSugar confectionery (known as candy making in the US) includes candies (also called sweets, short for sweetmeats, in many English-speaking countries), candied nuts, chocolates, chewing gum, bubble gum, pastillage, and other confections that are made primarily of sugar. In some cases, chocolate confections (confections made of chocolate) are treated as a separate category, as are sugar-free versions of sugar confections. The words candy (Canada and US), sweets (UK, Ireland, and others), and lollies (Australia and New Zealand) are common words for some of the most popular varieties of sugar confectionery.\nThe occupation of confectioner encompasses the [...]\n\n== Etymology ==\nThe oldest recorded use of the word confectionery discovered so far by the Oxford English Dictionary is by Richard Jonas in 1540, who spelled or misspelled it as \"confection nere\" in a passage \"Ambre, muske, frankencense, gallia muscata and confection nere\", thus in the sense of \"things made or sold by a confectioner\". \nAlso according to the OED, the sense of \"the art and business of a confectioner\" is first recorded in 1743, and the earliest use in the sense of a \"confectioner's shop\" dates to 1803.\n\n== History ==\nBefore sugar was readily available in the ancient western world, confectionery was based on honey. Honey was used in Ancient China, Ancient India, Ancient Egypt, Ancient Greece and Ancient Rome to coat fruits and flowers to preserve them or to create sweetmeats. Between the 6th and 4th centuries BCE, the Persians, followed by the Greeks, made contact with the Indian subcontinent and its \"reeds that produce honey without bees\". They adopted and then spread sugar and sugarcane agriculture. Sugarcane is indigenous to tropical Indian subcontinent and Southeast Asia.\nIn the early history of sugar usage in Europe, it was initially the apothecary who had the most important role in the production of sugar-based preparations. Medieval European physicians learned the medicinal uses of the material from the Arabs and Byzantine Greeks. One Middle Eastern remedy for rheums and fevers were little, twisted sticks of pulled sugar called in Arabic al fänäd or al pänäd. These became known in England as alphenics, or more commonly as penidia, penids, pennet or pan sugar. They were the precursors of barley sugar and modern cough drops. In 1390, the Earl of Derby paid \"two shillings for two pounds of [...]\n\n== Sweetening agents ==\nConfections are defined by the presence of sweeteners. These are usually sugars, but it is possible to buy sugar-free candies, such as sugar-free peppermints. The most common sweetener for home cooking is table sugar, which is chemically a disaccharide containing both glucose and fructose. Hydrolysis of sucrose gives a mixture called invert sugar, which is sweeter and is also a common commercial ingredient. Finally, confections, especially commercial ones, are sweetened by a variety of syrups obtained by hydrolysis of starch. These sweeteners include all types of corn syrup.\n\n== Baker's confectionery ==\nBaker's confectionery includes sweet baked goods, especially those that are served for the dessert course. Baker's confections are sweet foods that feature flour as a main ingredient and are baked. Major categories include cakes, sweet pastries, doughnuts, scones, and cookies. In the Middle East and Asia, flour-based confections predominate.\nThe definition of which foods are \"confectionery\" vs \"bread\" [...]",
+    "facts": [],
+    "questionIds": [
+      "candy_011",
+      "candy_012",
+      "candy_013"
     ]
   },
   {
