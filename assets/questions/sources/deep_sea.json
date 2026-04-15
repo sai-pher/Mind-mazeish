@@ -1,5 +1,164 @@
 [
   {
+    "id": "src_abyssal_grenadier",
+    "title": "Abyssal grenadier",
+    "url": "https://en.m.wikipedia.org/wiki/Abyssal_grenadier",
+    "summary": "The abyssal grenadier, Coryphaenoides armatus, is an abyssal fish of the genus Coryphaenoides, found in all the world's oceans, at depths between 800 and 5,493 metres (2,625 and 18,022 ft). Its adult length is 20 to 40 centimetres (8 to 16 in), although Fishbase gives lengths up to 1 metre (3 ft 3 [...]",
+    "categories": [
+      "Category:Articles containing video clips",
+      "Category:Articles with 'species' microformats",
+      "Category:Articles with short description",
+      "Category:Commons category link from Wikidata",
+      "Category:Cosmopolitan fish",
+      "Category:Deep sea fish",
+      "Category:Fish described in 1875",
+      "Category:IUCN Red List least concern species",
+      "Category:Macrouridae",
+      "Category:Necrophages",
+      "Category:Short description matches Wikidata"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_abyssal_plain",
+    "title": "Abyssal plain",
+    "url": "https://en.m.wikipedia.org/wiki/Abyssal_plain",
+    "summary": "An abyssal plain is an underwater plain on the deep ocean floor, usually found at depths between 3,000 and 6,000 metres (9,800 and 19,700 ft). Lying generally between the foot of a continental rise and a mid-ocean ridge, abyssal plains cover more than 50% of the Earth's surface. They are among the [...]",
+    "categories": [
+      "Category:Abyssal plains",
+      "Category:Aquatic ecology",
+      "Category:Articles with Geo",
+      "Category:Articles with short description",
+      "Category:CS1 errors: periodical ignored",
+      "Category:CS1 maint: deprecated archival service",
+      "Category:Coastal and oceanic landforms",
+      "Category:Geographic coordinate lists",
+      "Category:Good articles",
+      "Category:Lists of coordinates",
+      "Category:Oceanic plateaus",
+      "Category:Oceanographical terminology",
+      "Category:Pages using gadget WikiMiniAtlas",
+      "Category:Physical oceanography",
+      "Category:Short description is different from Wikidata",
+      "Category:Submarine topography",
+      "Category:Use dmy dates from June 2019",
+      "Category:Webarchive template wayback links",
+      "Category:Wikipedia articles needing page number citations from December 2013"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nAn abyssal plain is an underwater plain on the deep ocean floor, usually found at depths between 3,000 and 6,000 metres (9,800 and 19,700 ft). Lying generally between the foot of a continental rise and a mid-ocean ridge, abyssal plains cover more than 50% of the Earth's surface. They are among the flattest, smoothest, and least explored regions on Earth. Abyssal plains are key geologic elements of oceanic basins, the other elements being an elevated mid-ocean ridge and flanking abyssal hills.\nThe creation of the abyssal plain is the result of the spreading of the seafloor (plate tectonics) and the melting of the lower oceanic crust. Magma rises from above the asthenosphere (a layer of the upper mantle), and as this basaltic material reaches the surface at mid-ocean ridges, it forms new oceanic crust, which is constantly pulled sideways by spreading of the seafloor. Abyssal plains result from the blanketing of an originally uneven surface of oceanic crust by fine-grained sediments, mainly clay and silt. Much of this sediment is deposited by turbidity currents that have been channelled from the continental margins along submarine canyons into deeper water. The rest is composed [...]\n\n== Oceanic zones ==\nThe ocean can be conceptualized as zones, depending on depth, and presence or absence of sunlight. Nearly all life forms in the ocean depend on the photosynthetic activities of phytoplankton and other marine plants to convert carbon dioxide into organic carbon, which is the basic building block of organic matter. Photosynthesis in turn requires energy from sunlight to drive the chemical reactions that produce organic carbon.\nThe stratum of the water column nearest the surface of the ocean (sea level) is referred to as the photic zone. The photic zone can be subdivided into two different vertical regions. The uppermost portion of the photic zone, where there is adequate light to support photosynthesis by phytoplankton and plants, is referred to as the euphotic zone (also referred to as the epipelagic zone, or surface zone). The lower portion of the photic zone, where the light intensity is insufficient for photosynthesis, is called the dysphotic zone (dysphotic means \"poorly lit\" in Greek). The dysphotic zone is also referred to as the mesopelagic zone, or the twilight zone. Its lowermost boundary is at a thermocline of 12 °C (54 °F), which, in the tropics generally lies between [...]\n\n== Formation ==\nOceanic crust, which forms the bedrock of abyssal plains, is continuously being created at mid-ocean ridges (a type of divergent boundary) by a process known as decompression melting. Plume-related decompression melting of solid mantle is responsible for creating ocean islands like the Hawaiian islands, as well as the ocean crust at mid-ocean ridges. This phenomenon is also the most common explanation for flood basalts and oceanic plateaus (two types of large igneous provinces). Decompression melting occurs when the upper mantle is partially melted into magma as it moves upwards under mid-ocean ridges. This upwelling magma then cools and solidifies by conduction and convection of heat to form new oceanic crust. Accretion occurs as mantle is added to the growing edges of a tectonic plate, usually associated with seafloor spreading. The age of oceanic crust is therefore a function of distance from the mid-ocean ridge. The youngest oceanic crust is at the mid-ocean ridges, and it becomes progressively older, cooler and denser as it migrates outwards from the mid-ocean ridges as part of the process called mantle convection.\nThe lithosphere, which rides atop the asthenosphere, is [...]\n\n== Discovery ==\nThe landmark scientific expedition (December 1872 – May 1876) of the British Royal Navy survey ship HMS Challenger yielded a tremendous amount of bathymetric data, much of which has been confirmed by subsequent researchers. Bathymetric data obtained during the course of the Challenger expedition enabled scientists to draw [...]",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_042",
+      "deep_sea_043",
+      "deep_sea_044",
+      "deep_sea_045",
+      "deep_sea_046",
+      "deep_sea_047"
+    ]
+  },
+  {
+    "id": "src_abyssal_zone",
+    "title": "Abyssal zone",
+    "url": "https://en.m.wikipedia.org/wiki/Abyssal_zone",
+    "summary": "The abyssal zone or abyssopelagic zone is a layer of the pelagic zone of the ocean. The word abyss comes from the Greek word ἄβυσσος (ábussos), meaning \"bottomless\". At depths of 4,000–6,000 m (13,000–20,000 ft), this zone remains in perpetual darkness. It covers 83% of the total area of the ocean [...]",
+    "categories": [
+      "Category:Aquatic ecology",
+      "Category:Articles with short description",
+      "Category:Marine biology",
+      "Category:Oceanographical terminology",
+      "Category:Short description is different from Wikidata",
+      "Category:Wikipedia articles needing clarification from October 2024"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nThe abyssal zone or abyssopelagic zone is a layer of the pelagic zone of the ocean. The word abyss comes from the Greek word ἄβυσσος (ábussos), meaning \"bottomless\". At depths of 4,000–6,000 m (13,000–20,000 ft), this zone remains in perpetual darkness. It covers 83% of the total area of the ocean and 60% of Earth's surface. The abyssal zone has temperatures around 2–3 °C (36–37 °F) through the large majority of its mass. The water pressure can reach up to 76 MPa (750 atm; 11,000 psi).\nAs there is no light, photosynthesis cannot occur, and there are no plants producing molecular oxygen (O2), which instead primarily comes from ice that had melted long ago from the polar regions. The water along the seafloor of this zone is largely devoid of molecular oxygen, resulting in a death trap for organisms unable to quickly return to the oxygen-enriched water above or to survive in the low-oxygen environment. This region also contains a much higher concentration of nutrient salts, like nitrogen, phosphorus, and silica, due to the large amount of dead organic material that drifts down from the ocean zones above and decomposes.\nThe region below the abyssal zone is the sparsely inhabited hadal [...]\n\n== Trenches ==\nThe deep trenches or fissures that plunge down thousands of meters below the ocean floor (for example, the mid-oceanic trenches such as the Mariana Trench in the Pacific) are almost unexplored. Previously, only the bathyscaphe Trieste, the remote control submarine Kaikō and the Nereus have been able to descend to these depths. However, as of March 25, 2012 one vehicle, the Deepsea Challenger, had penetrated to a depth of 10,898 meters (35,756 ft).\n\n== Ecosystem ==\nThe relative sparsity of primary producers means that the majority of organisms living in the abyssal zone depend on the marine snow that falls from oceanic layers above. The biomass of the abyssal zone actually increases near the seafloor as most of the decomposing material and decomposers rest on the seabed.\nThe composition of the abyssal plain depends on the depth of the sea floor. Above 4000 meters the seafloor usually consists of calcareous shells of foraminifera, zooplankton, and phytoplankton. At depths greater than 4000 meters shells dissolve, leaving behind a seafloor of brown clay and silica from dead zooplankton and phytoplankton. Chemosynthetic bacteria support large and diverse communities near hydrothermal vents, filling a similar role in these ecosystems as plants do in the sunlit regions above.\nManganese nodules, which are found in some areas of the deep sea, have been proposed to produce oxygen by a team of researchers from the Scottish Society of Marine Sciences. They observed rising oxygen concentrations in some experiments with manganese nodules present. However, there are significant problems with the research, including that manganese nodules were not present [...]\n\n== Biological adaptations ==\nOrganisms that live at this depth have had to evolve to overcome challenges provided by the abyssal zone. Fish and invertebrates had to evolve to withstand the sheer cold and intense pressure found at this level. Not only did they have to find ways to hunt and survive in constant darkness, but they also had to thrive in an ecosystem that has less oxygen and biomass, energy sources and prey, than the upper zones. To survive in these conditions, many fish and other organisms developed a much slower metabolism, and require much less oxygen than those in upper zones. Many animals also move very slowly to conserve energy. Their reproduction rates are also very slow, to decrease competition and conserve energy. Animals here typically have flexible stomachs and mouths, so that when scarce prey are found they can consume as many as possible.\n\nOther challenges faced by life in the abyssal zone are the pressure and darkness caused by the zone's depth. Many organisms living in this zone have evolved to minimize internal air spaces, such as swim [...]",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_036",
+      "deep_sea_037",
+      "deep_sea_038",
+      "deep_sea_039",
+      "deep_sea_040",
+      "deep_sea_041"
+    ]
+  },
+  {
+    "id": "src_aphotic_zone",
+    "title": "Aphotic zone",
+    "url": "https://en.m.wikipedia.org/wiki/Aphotic_zone",
+    "summary": "The aphotic zone (aphotic from Greek prefix ἀ- + φῶς \"without light\") is the portion of a lake or ocean where there is little or no sunlight. It is formally defined as the depths beyond which less than 1 percent of sunlight penetrates. Above the aphotic zone is the photic zone, which consists of [...]",
+    "categories": [
+      "Category:All articles with unsourced statements",
+      "Category:Aquatic ecology",
+      "Category:Articles containing Ancient Greek (to 1453)-language text",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from March 2009",
+      "Category:Oceanography",
+      "Category:Short description matches Wikidata"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nThe aphotic zone (aphotic from Greek prefix ἀ- + φῶς \"without light\") is the portion of a lake or ocean where there is little or no sunlight. It is formally defined as the depths beyond which less than 1 percent of sunlight penetrates. Above the aphotic zone is the photic zone, which consists of the euphotic zone and the disphotic zone. The euphotic zone is the layer of water in which there is enough light for net photosynthesis to occur. The disphotic zone, also known as the twilight zone, is the layer of water with enough light for predators to see but not enough for the rate of photosynthesis to be greater than the rate of respiration.\nThe depth at which less than one percent of sunlight reaches begins the aphotic zone. While most of the ocean's biomass lives in the photic zone, the majority of the ocean's water lies in the aphotic zone. Bioluminescence is more abundant than sunlight in this zone. Most food in this zone comes from dead organisms sinking to the bottom of the lake or ocean from overlying waters.\nThe depth of the aphotic zone can be greatly affected by such things as turbidity and the season of the year. The aphotic zone underlies the photic zone, which is that [...]\n\n== The Dark Ocean ==\nIn the ocean, the aphotic zone is sometimes referred to as the dark ocean. Depending on how it is defined, the aphotic zone of the ocean begins between depths of about 200 m (660 ft) to 800 m (2,600 ft) and extends to the ocean floor. The majority of the ocean is aphotic, with the average depth of the sea being 4,267 m (13,999 ft) deep; the deepest part of the sea, the Challenger Deep in the Mariana Trench, is about 11,000 m (36,000 ft) deep. The depth at which the aphotic zone begins in the ocean depends on many factors. In clear, tropical water sunlight can penetrate deeper and so the aphotic zone starts at greater depths. Around the poles, the angle of the sunlight means it does not penetrate as deeply so the aphotic zone is shallower. If the water is turbid, suspended material can block light from penetrating, resulting in a shallower aphotic zone. Temperatures can range from roughly 0 °C (32 °F) to 6 °C (43 °F).\nThe aphotic zone is further divided into the mesopelagic, bathyal, abyssal, and hadal zones. The mesopelagic zone extends from 200 metres (656 ft) to 2,000 metres (6,562 ft). The bathyal zone extends from 2,000 metres (6,562 ft) to 4,000 metres (13,123 ft). The [...]\n\n== Life in the aphotic zone ==\nThough photosynthesis cannot occur in the aphotic zone, it is not unusual to find an abundance of phytoplankton there. Convective mixing due to cooling surface water sinking can increase the concentration of phytoplankton in the aphotic zone and lead to under-estimations of primary production in the euphotic zone during convective mixing events.\nUnusual and unique creatures dwell in this expanse of pitch black water, such as the gulper eel, giant squid, anglerfish, and vampire squid. Some life in the aphotic zone does not rely on sunlight at all. Benthic communities around methane seeps rely on methane-oxidizing microorganisms to supply energy to other microorganisms.\nIn some rare cases, bacteria use chemical energy sources such as sulfides and methane. Many of the animals in the aphotic zone are bioluminescent, meaning they can produce their light. Bioluminescence can be used both for navigation and luring small animals into their jaws. An excellent example of this is the angler fish, as it has a light lure protruding in front of its mouth from a unique appendage on its head which provides navigation and as bait for smaller animals.\nSome animals can cross between the photic and [...]\n\n== Aphotic zone migration ==\nAfter sunset, millions of organisms swarm up from the depths to feed on the microorganisms floating in the warm epipelagic zone. Many copepods and invertebrate larvae come up to shallower waters to eat the phytoplankton, which attracts many predators like squid, hatchetfish, and lantern fish. [...]",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_060",
+      "deep_sea_061",
+      "deep_sea_062",
+      "deep_sea_063",
+      "deep_sea_064",
+      "deep_sea_065"
+    ]
+  },
+  {
+    "id": "src_benthic_zone",
+    "title": "Benthic zone",
+    "url": "https://en.m.wikipedia.org/wiki/Benthic_zone",
+    "summary": "The benthic zone, from Ancient Greek  βένθος (bénthos) 'the depths of the ocean', is the ecological region at the lowest level of a body of water, such as a stream, river, lake, or ocean, including the sediment surface and some sub-surface layers.\nOrganisms living in this zone are called benthos, [...]",
+    "categories": [
+      "Category:All articles with unsourced statements",
+      "Category:Aquatic biomes",
+      "Category:Aquatic ecology",
+      "Category:Articles containing Ancient Greek (to 1453)-language text",
+      "Category:Articles containing German-language text",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from December 2025",
+      "Category:CS1 errors: missing periodical",
+      "Category:CS1 maint: work parameter with ISBN",
+      "Category:Commons category link is on Wikidata",
+      "Category:Ecology terminology",
+      "Category:Fisheries science",
+      "Category:Marine organisms",
+      "Category:Oceanographical terminology",
+      "Category:Short description is different from Wikidata",
+      "Category:Webarchive template wayback links",
+      "Category:Wikipedia articles needing clarification from December 2025"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nThe benthic zone, from Ancient Greek  βένθος (bénthos) 'the depths of the ocean', is the ecological region at the lowest level of a body of water, such as a stream, river, lake, or ocean, including the sediment surface and some sub-surface layers.\nOrganisms living in this zone are called benthos, or more informally bottom dwellers. They include microorganisms such as bacteria and fungi, as well as larger invertebrates such as crustaceans and polychaetes. Benthos generally live in close relationship with the substrate and many are permanently attached to the bottom. The benthic boundary layer, which includes the bottom layer of water and the uppermost layer of sediment directly influenced by the overlying water, is an integral part of the benthic zone, as it greatly influences the biological activity that takes place there. Examples of contact soil layers include sand bottoms, rocky outcrops, coral, and bay mud.\n\n== Physical description ==\n\n\n== Benthos ==\nBenthos is the community of organisms that live in the benthic zone, that is, on, in, or near the bottom of a stream, river, lake, or ocean. This community lives in or near marine or freshwater sedimentary environments, from tidal pools along the foreshore, out to the continental shelf, and then down to the abyssal depths. \nThe term benthos, coined by Haeckel in 1891, comes from the Greek noun βένθος 'depth of the ocean'. Additionally to oceans, benthos is also used in freshwater biology to refer to organisms at the bottom of freshwater bodies of water, such as streams, rivers, and lakes. There is also a redundant, occasionally used synonym, benthon. Benthos is also referred to more loosely and informally as bottom dwellers or bottom feeders. \nLight is an important energy source for shallow benthic systems. However, because light is absorbed before it can reach deep ocean water, the energy source for deep benthic ecosystems is often organic matter from higher up in the water column that drifts down to the depths. This dead and decaying matter sustains the benthic food chain; most organisms in the benthic zone are scavengers or detritivores.\nMany organisms adapted to deep-water [...]\n\n== Ecological roles ==\n\n\n== Threats and mitigation ==\nBenthos are negatively impacted by fishing, pollution and litter, deep-sea mining, oil and gas activities, tourism, shipping, invasive species, climate change (and its impacts such as ocean acidification, ocean warming and changes to ocean circulation) and construction such as coastal development, undersea cables, and wind farm construction.\n\nBottom trawling accounts for roughly 25% of global capture fisheries. It has increasingly been recognized as a non-sustainable fishing practice. It impacts benthic ecosystems in two ways. First, fishing gear disrupts epibenthic sediments, resulting in the loss of habitat complexity and resuspension of sediments into the water column, reducing the sedimentary organic-matter content, and increasing turbidity and biochemical oxygen demand in the water column. Second, trawling disrupts benthic community structure, selectively removing large-bodied target and non-target species, which are usually K-selected, resulting in a community dominated by relatively small r-selected species. Given the significance of these impacts, a number of countries have implemented total or partial bans on bottom trawling within their territorial waters  or in the [...]\n\n== See also ==\n\n\n== References ==\n\n\n== External links ==\n\nData Archive for Seabed Species and Habitats from the UK Marine Data Archive Centre\n\"Benthos\"\n\"Benthos\". (2008) Encyclopædia Britannica. (Retrieved May 15, 2008, from Encyclopædia Britannica Online.)\nRyan, Paddy (2007) \"Benthic communities\" Archived 2008-12-16 at the Wayback Machine Te Ara - the Encyclopædia of New Zealand, updated 21 September 2007.\nYip, Maricela and Madl, Pierre (1999) \"Benthos\" Archived 2019-07-20 at the Wayback Machine University of Salzburg.",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_066",
+      "deep_sea_067",
+      "deep_sea_068",
+      "deep_sea_069",
+      "deep_sea_070",
+      "deep_sea_071",
+      "deep_sea_072"
+    ]
+  },
+  {
     "id": "src_bioluminescence",
     "title": "Bioluminescence",
     "url": "https://en.m.wikipedia.org/wiki/Bioluminescence",
@@ -12,6 +171,524 @@
     "facts": [],
     "questionIds": [
       "dsea_002"
+    ]
+  },
+  {
+    "id": "src_clarionclipperton_zone",
+    "title": "Clarion–Clipperton zone",
+    "url": "https://en.m.wikipedia.org/wiki/Clarion%E2%80%93Clipperton_zone",
+    "summary": "The Clarion–Clipperton zone (CCZ) or Clarion–Clipperton fracture zone is an environmental management area of the eastern and central Pacific Ocean, lying between Hawaii and Mexico. It is one of the world's largest known fields of polymetallic nodules and is administered by the International Seabed [...]",
+    "categories": [
+      "Category:All articles with dead external links",
+      "Category:Articles using infobox body of water without image",
+      "Category:Articles using infobox body of water without image bathymetry",
+      "Category:Articles using infobox body of water without pushpin map",
+      "Category:Articles with dead external links from December 2023",
+      "Category:Articles with permanently dead external links",
+      "Category:Articles with short description",
+      "Category:Coordinates on Wikidata",
+      "Category:Environmental conservation",
+      "Category:Fracture zones",
+      "Category:Mining",
+      "Category:Pacific Ocean",
+      "Category:Pages using gadget WikiMiniAtlas",
+      "Category:Pages using the Kartographer extension",
+      "Category:Short description is different from Wikidata",
+      "Category:Use dmy dates from March 2017"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_deep_sea",
+    "title": "Deep sea",
+    "url": "https://en.m.wikipedia.org/wiki/Deep_sea",
+    "summary": "The deep sea is broadly defined as the ocean depth where light begins to fade, at an approximate depth of 200 m (660 ft) or the point of transition from continental shelves to continental slopes. Conditions within the deep sea are a combination of low temperatures, darkness, and high pressure. The [...]",
+    "categories": [
+      "Category:All articles with unsourced statements",
+      "Category:Articles containing video clips",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from December 2022",
+      "Category:Articles with unsourced statements from December 2023",
+      "Category:Articles with unsourced statements from May 2021",
+      "Category:Oceanographical terminology",
+      "Category:Short description is different from Wikidata",
+      "Category:Webarchive template wayback links"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nThe deep sea is broadly defined as the ocean depth where light begins to fade, at an approximate depth of 200 m (660 ft) or the point of transition from continental shelves to continental slopes. Conditions within the deep sea are a combination of low temperatures, darkness, and high pressure. The deep sea is considered the least explored Earth biome as the extreme conditions make the environment difficult to access and explore.\nOrganisms living within the deep sea have a variety of adaptations to survive in these conditions. Organisms can survive in the deep sea through a number of feeding methods including scavenging, predation and filtration, with a number of organisms surviving by feeding on marine snow. Marine snow is organic material that has fallen from upper waters into the deep sea.\nIn 1960, the bathyscaphe Trieste descended to the bottom of the Mariana Trench near Guam, at 10,911 m (35,797 ft; 6.780 mi), the deepest known spot in any ocean. If Mount Everest (8,848 m or 29,029 ft or 5.498 mi) were submerged there, its peak would be more than 2 km (1.2 mi) beneath the surface. After the Trieste was retired, the Japanese remote-operated vehicle (ROV) Kaikō was the only [...]\n\n== Environmental characteristics ==\n\n\n== Biology ==\nRegions below the epipelagic are divided into further zones, beginning with the bathyal zone (also considered the continental slope) which spans from 200 to 3,000 meters (660 to 9,840 ft) below sea level and is essentially transitional, containing elements from both the shelf above and the abyss below. Below this zone, the deep sea consists of the abyssal zone (ocean depth between 3–6 km; 1.9–3.7 mi) and the hadal zone (6–11 km; 3.7–6.8 mi). Food consists of falling organic matter known as 'marine snow' and carcasses derived from the productive zone above, and is scarce both in terms of spatial and temporal distribution.\nInstead of relying on gas for their buoyancy, many deep-sea species have jelly-like flesh consisting mostly of glycosaminoglycans, which provides them with very low density. It is also common among deep water squid to combine the gelatinous tissue with a flotation chamber filled with a coelomic fluid made up of the metabolic waste product ammonium chloride, which is lighter than the surrounding water.\nThe midwater fish have special adaptations to cope with these conditions—they are small, usually being under 25 centimetres (10 in); they have slow metabolisms and [...]\n\n== Exploration ==\nIt has been suggested that more is known about the Moon than the deepest parts of the ocean. This is a common misconception based on a 1953 statement by George E.R. Deacon published in the Journal of Navigation, and largely refers to the scarce amount of seafloor bathymetry available at the time. The similar idea that more people have stood on the moon than have been to the deepest part of the ocean is likewise problematic and dangerous.\nStill, the deep-sea remains one of the least explored regions on planet Earth. Pressures even in the mesopelagic become too great for traditional exploration methods, demanding alternative approaches for deep-sea research. Baited camera stations, small crewed submersibles, and ROVs (remotely operated vehicles) are three methods utilized to explore the ocean's depths. Because of the difficulty and cost of exploring this zone, current knowledge is limited. Pressure increases at approximately one atmosphere for every 10 meters meaning that some areas of the deep sea can reach pressures of above 1,000 atmospheres. This not only makes great depths very difficult to reach without mechanical aids, but also provides a significant difficulty when [...]\n\n== See also ==\nDeep ocean water – Cold, salty water deep below the surface of Earth's oceans\nSubmarine landslide – Landslides that transport sediment across the continental shelf and into the deep ocean\nThe Blue Planet – 2001 British nature documentary television series\nBlue Planet II – 2017 British nature [...]",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_001",
+      "deep_sea_002",
+      "deep_sea_003",
+      "deep_sea_004",
+      "deep_sea_005",
+      "deep_sea_006",
+      "deep_sea_007"
+    ]
+  },
+  {
+    "id": "src_deep_sea_film",
+    "title": "Deep Sea (film)",
+    "url": "https://en.m.wikipedia.org/wiki/Deep_Sea_(film)",
+    "summary": "Deep Sea (Chinese: 深海; pinyin: Shēnhǎi) is a 2023 Chinese 3D animated fantasy film, written and directed by Tian Xiaopeng who previously directed Monkey King: Hero Is Back, co-produced by his company October Media and Coloroom Pictures.",
+    "categories": [
+      "Category:2023 3D films",
+      "Category:2023 Chinese films",
+      "Category:2023 Mandarin-language films",
+      "Category:2023 computer-animated films",
+      "Category:2023 fantasy films",
+      "Category:2023 films",
+      "Category:Animated films set underwater",
+      "Category:Articles containing Chinese-language text",
+      "Category:Articles containing simplified Chinese-language text",
+      "Category:Articles containing traditional Chinese-language text",
+      "Category:Articles with Chinese-language sources (zh)",
+      "Category:Articles with short description",
+      "Category:Beijing Enlight Pictures films",
+      "Category:Chinese 3D films",
+      "Category:Chinese IMAX films",
+      "Category:Chinese fantasy adventure films",
+      "Category:Interlanguage link template existing link",
+      "Category:Short description is different from Wikidata",
+      "Category:Template film date with 1 release date"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_deep_sea_diver",
+    "title": "Deep Sea Diver",
+    "url": "https://en.m.wikipedia.org/wiki/Deep_Sea_Diver",
+    "summary": "Deep Sea Diver is an indie rock band based in Seattle. The band consists of Jessica Dobson (vocals, guitar, keys), Peter Mansen (drums), Elliot Jackson (guitar, synthesizer) and Garrett Gue (bass).",
+    "categories": [
+      "Category:2007 establishments in Washington (state)",
+      "Category:ATO Records artists",
+      "Category:All stub articles",
+      "Category:American pop music groups",
+      "Category:American rock musical group stubs",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Musical groups from Seattle",
+      "Category:Official website different in Wikidata and Wikipedia",
+      "Category:Rock music groups from Washington (state)",
+      "Category:Short description matches Wikidata",
+      "Category:Sub Pop artists",
+      "Category:Use mdy dates from April 2025",
+      "Category:Washington (state) stubs"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_deep_sea_drilling_project",
+    "title": "Deep Sea Drilling Project",
+    "url": "https://en.m.wikipedia.org/wiki/Deep_Sea_Drilling_Project",
+    "summary": "The Deep Sea Drilling Project (DSDP) was an ocean drilling project operated from 1968 to 1983. The program was a success, as evidenced by the data and publications that have resulted from it. The data are now hosted by Texas A&M University, although the program was coordinated by the Scripps [...]",
+    "categories": [
+      "Category:1968 in science",
+      "Category:1983 in science",
+      "Category:All articles with incomplete citations",
+      "Category:All articles with self-published sources",
+      "Category:Articles with incomplete citations from January 2022",
+      "Category:Articles with self-published sources from January 2022",
+      "Category:Articles with short description",
+      "Category:CS1: long volume value",
+      "Category:Marine geology",
+      "Category:Projects disestablished in 1983",
+      "Category:Projects established in 1968",
+      "Category:Short description is different from Wikidata",
+      "Category:Use mdy dates from September 2022"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "URL: https://en.wikipedia.org/wiki/Deep_Sea_Drilling_Project\n== Summary ==\nThe Deep Sea Drilling Project (DSDP) was an ocean drilling project operated from 1968 to 1983. The program was a success, as evidenced by the data and publications that have resulted from it. The data are now hosted by Texas A&M University, although the program was coordinated by the Scripps Institution of Oceanography at the University of California, San Diego. DSDP provided crucial data to support the seafloor spreading hypothesis and helped to prove the theory of plate tectonics. DSDP was the first of three international scientific ocean drilling programs that have operated over more than 40 years. It was followed by the Ocean Drilling Program (ODP) in 1985, the Integrated Ocean Drilling Program in 2004 and the present International Ocean Discovery Program in 2013.\n\n== History ==\nThe initial contract between the National Science Foundation (NSF) and the Regents of the University of California was signed on June 24, 1966. This contract initiated the first phase of the DSDP, which was based in Scripps Institution of Oceanography at the University of California, San Diego. Global Marine, Inc. conducted the drilling operations. The Levingston Shipbuilding Company laid the keel of the Glomar Challenger on October 18, 1967, in Orange, Texas. It sailed down the Sabine River to the Gulf of Mexico, and after a period of testing, DSDP accepted the ship on August 11, 1968.\nThrough contracts with Joint Oceanographic Institutions (JOI), NSF supported the scientific advisory structure for the project and funded pre-drilling geophysical site surveys. Scientific planning was conducted under the auspices of the Joint Oceanographic Institutions for Deep Earth Sampling (JOIDES). The JOIDES advisory group consisted of 250 distinguished scientists from academic institutions, government agencies, and private industry from all over the world. Over the next 30 months, the second phase consisted of drilling and coring in the Atlantic, Pacific, and Indian Ocean as well as the [...]\n\n== Coring operations ==\nAlthough itself a remarkable engineering accomplishment, the Glomar Challenger saw many advances in deep-ocean drilling. One problem solved involved the replacement of worn drill bits. A length of pipe suspended from the ship down to the bottom of the sea might have been as long as 6,243 m (20,483 feet). The maximum depth penetrated through the ocean bottom could have been as great as 1,299 m (4,262 feet). To replace the bit, the drill string must be raised, a new bit attached, and the string remade down to the bottom. However, the crew had to thread this string back into the same drill hole. The technique for this formidable task was accomplished on June 14, 1970, in the Atlantic Ocean in 3,000 m (10,000 feet) of water off the coast of New York. This re-entry was accomplished with the use of sonar scanning equipment and a re-entry cone that had a diameter of 5 m (16 feet) and height of 4.5 m (14 feet).\nOne major technological advance was the extended use of the holes after drilling. Geophysical and geochemical measurements were made during and after drilling, and occasionally long-term seismic monitoring devices were installed in the holes. This extended understanding of the [...]\n\n== Core samples, publications, and data ==\nThe ship retrieved core samples in 9-meter-long (30 ft) cores with a diameter of 6.5 cm (2.5 inches). These cores are currently stored at three repositories in the US, Germany, and Japan. One half of each core is called the archive half and is preserved for future use. The working half of each core is used to provide samples for ongoing scientific research.\nThe scientific results were published as the \"Initial Reports of the Deep Sea Drilling Project\", which contains the results of studies of the recovered core material and the associated geophysical information from the expeditions from 1968 to 1983. These reports describe the core materials and scientific data obtained at sea and in shore-based laboratories [...]",
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_deep_sea_mining",
+    "title": "Deep sea mining",
+    "url": "https://en.m.wikipedia.org/wiki/Deep_sea_mining",
+    "summary": "Deep sea mining is the extraction of minerals from the seabed of the deep sea. The main ores of commercial interest are polymetallic nodules, which are found at depths of 4–6 km (2.5–3.7 mi) primarily on the abyssal plain. The Clarion–Clipperton zone (CCZ) alone contains over 21 billion metric tons [...]",
+    "categories": [
+      "Category:All articles containing potentially dated statements",
+      "Category:All articles lacking reliable references",
+      "Category:All pages needing cleanup",
+      "Category:Articles containing potentially dated statements from July 2024",
+      "Category:Articles containing suspected AI-generated texts from April 2025",
+      "Category:Articles lacking reliable references from January 2024",
+      "Category:Articles needing cleanup from April 2025",
+      "Category:Articles with excerpts",
+      "Category:Articles with multiple maintenance issues",
+      "Category:Articles with short description",
+      "Category:CS1 Norwegian Bokmål-language sources (nb)",
+      "Category:CS1 maint: multiple names: authors list",
+      "Category:CS1 maint: numeric names: authors list",
+      "Category:CS1 maint: work parameter with ISBN",
+      "Category:Cleanup tagged articles with a reason field from April 2025",
+      "Category:Mining",
+      "Category:Oceans",
+      "Category:Short description matches Wikidata",
+      "Category:Underwater mining",
+      "Category:Use dmy dates from February 2023"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nDeep sea mining is the extraction of minerals from the seabed of the deep sea. The main ores of commercial interest are polymetallic nodules, which are found at depths of 4–6 km (2.5–3.7 mi) primarily on the abyssal plain. The Clarion–Clipperton zone (CCZ) alone contains over 21 billion metric tons of these nodules, with minerals such as copper, nickel, cobalt and manganese making up roughly 30% of their weight. It is estimated that the global ocean floor holds more than 120 million tons of cobalt, five times the amount found in terrestrial reserves.\nStudies have shown that midwater mining techniques causing plumes can trigger bottom-up ecosystems impacts with severe consequences to marine life, extending beyond the initial mining area. \nAs of July 2024, only exploratory licenses have been issued, with no commercial-scale deep sea mining operations yet. The International Seabed Authority (ISA) regulates all mineral-related activities in international waters and has granted 31 exploration licenses so far: 19 for polymetallic nodules, mostly in the CCZ; 7 for polymetallic sulphides in mid-ocean ridges; and 5 for cobalt-rich crusts in the Western Pacific Ocean. There is a push for [...]\n\n== Deposit types ==\nDeep sea ore deposits are classified into three main types: polymetallic nodules, polymetallic sulfide deposits, and cobalt-rich crusts.\n\n== Deposit sites ==\nDeep sea mining sites hold polymetallic nodules or surround active or extinct hydrothermal vents at about 3,000–6,500 meters (10,000–21,000 ft) depth. The vents create sulfide deposits, which collect metals such as silver, gold, copper, manganese, cobalt, and zinc. The deposits are mined using hydraulic pumps or bucket systems.\nThe largest deposits occur in the Clarion–Clipperton zone in the Pacific Ocean. It stretches over 4.5 million square kilometers of the Northern Pacific Ocean between Hawaii and Mexico. Scattered across the abyssal plain are trillions of polymetallic nodules, potato-sized rocklike deposits containing minerals such as manganese, nickel, copper, zinc, and cobalt.\nThe Cook Islands contains the world's fourth largest deposit in the South Penrhyn basin close to the Manihiki Plateau.\nThough the nodule fields of greatest commercial interest are located in the eastern Pacific, polymetallic nodules are also found within the Mid-Atlantic Ridge system, around Papua New Guinea, Solomon Islands, Vanuatu, and Tonga, and the Peru Basin.\nCobalt-rich crusts are found on seamounts in the Atlantic and Indian Ocean, as well as countries such as the Pacific Federated States of [...]\n\n== Deep sea mining projects ==\n\n\n== Extraction methods ==\nRobotics and AI technologies used to selectively harvest nodules while minimizing disturbances to the deep sea environment are under development.\nRemotely operated vehicles (ROVs) are used to collect mineral samples from prospective sites, using drills and other cutting tools. A mining ship or station collects the deposits for processing.\nThe continuous-line bucket system (CLB) is an older approach. It operates like a conveyor-belt, running from the bottom to the surface where a ship or mining platform extracts the minerals, and returns the tailings to the ocean.\nHydraulic suction mining instead lowers a pipe to the seafloor and pumps nodules up to the ship. Another pipe returns the tailings to the mining site.\nBorehole Mining is used for mining of natural resources from below the seafloor.\n\n== Process ==\nThe three stages of deep-sea mining are prospecting, exploration and exploitation. Prospecting entails searching for minerals and estimating their size, shape and value. Exploration analyses the resources, testing potential recovery and potential economic/environmental extraction impacts. Exploitation is the recovery of these resources.\nResource assessment and pilot mining are part of exploration. If successful, \"resources\" attain a \"reserves\" classification. Bottom scanning and sampling use technologies such as [...]",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_080",
+      "deep_sea_081",
+      "deep_sea_082",
+      "deep_sea_083",
+      "deep_sea_084",
+      "deep_sea_085",
+      "deep_sea_086"
+    ]
+  },
+  {
+    "id": "src_deep_sea_research",
+    "title": "Deep Sea Research",
+    "url": "https://en.m.wikipedia.org/wiki/Deep_Sea_Research",
+    "summary": "Deep Sea Research is a peer-reviewed academic journal of deep sea research.  It was established in 1953 by Pergamon Press. In 1962, it renamed itself Deep Sea Research and Oceanographic Abstracts, and returned to the Deep Sea Research title in 1977. In 1978, it split into two journals Deep Sea [...]",
+    "categories": [
+      "Category:Academic journals established in 1953",
+      "Category:Articles with outdated impact factors from 2020",
+      "Category:Articles with short description",
+      "Category:Elsevier academic journals",
+      "Category:English-language journals",
+      "Category:Monthly journals",
+      "Category:Monthly journals (infobox)",
+      "Category:Oceanography journals",
+      "Category:Official website not in Wikidata",
+      "Category:Pages calling infobox journal with no website parameter",
+      "Category:Short description matches Wikidata"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_deep_sea_skiving",
+    "title": "Deep Sea Skiving",
+    "url": "https://en.m.wikipedia.org/wiki/Deep_Sea_Skiving",
+    "summary": "Deep Sea Skiving is the debut studio album by the English pop group Bananarama, released on 9 March 1983 by London Records.\nThe album peaked at number seven on the UK Albums Chart and was certified silver by the British Phonographic Industry (BPI).",
+    "categories": [
+      "Category:1983 debut albums",
+      "Category:Album articles lacking alt text for covers",
+      "Category:Album chart called without album",
+      "Category:Album chart called without artist",
+      "Category:Album chart usages for Billboard200",
+      "Category:Album chart usages for Canada",
+      "Category:Albums produced by Jolley & Swain",
+      "Category:Articles with hAudio microformats",
+      "Category:Articles with short description",
+      "Category:Bananarama albums",
+      "Category:CS1 maint: others in cite AV media (notes)",
+      "Category:Certification Table Entry usages for United Kingdom",
+      "Category:London Records albums",
+      "Category:Pages using certification Table Entry with shipments figures",
+      "Category:Pages using certification Table Entry with shipments footnote",
+      "Category:Short description is different from Wikidata",
+      "Category:Use dmy dates from April 2022"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_deep_seabed_hard_mineral_resources_act",
+    "title": "Deep Seabed Hard Mineral Resources Act",
+    "url": "https://en.m.wikipedia.org/wiki/Deep_Seabed_Hard_Mineral_Resources_Act",
+    "summary": "The Deep Seabed Hard Mineral Resources Act (DSHMRA) is the primary federal law regulating deep sea mineral activities in areas beyond national jurisdiction (ABNJ) until the United States ratifies an international agreement. The National Oceanic and Atmospheric Administration (NOAA) administers the [...]",
+    "categories": [
+      "Category:1980 in American law",
+      "Category:96th United States Congress",
+      "Category:Articles with short description",
+      "Category:Law of the sea",
+      "Category:Mineral exploration",
+      "Category:Short description matches Wikidata",
+      "Category:United States federal environmental legislation",
+      "Category:United States federal legislation",
+      "Category:Wikipedia Student Program"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_deep_sea_community",
+    "title": "Deep-sea community",
+    "url": "https://en.m.wikipedia.org/wiki/Deep-sea_community",
+    "summary": "A deep-sea community is any community of organisms associated with a shared habitat in the deep sea. Deep sea communities remain largely unexplored, due to the technological and logistical challenges and expense involved in visiting this remote biome. Because of the unique challenges (particularly [...]",
+    "categories": [
+      "Category:All articles needing additional references",
+      "Category:Articles needing additional references from January 2021",
+      "Category:Articles with short description",
+      "Category:CS1 Spanish-language sources (es)",
+      "Category:CS1 maint: bot: original URL status unknown",
+      "Category:Oceanography",
+      "Category:Short description is different from Wikidata",
+      "Category:Webarchive template wayback links"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nA deep-sea community is any community of organisms associated with a shared habitat in the deep sea. Deep sea communities remain largely unexplored, due to the technological and logistical challenges and expense involved in visiting this remote biome. Because of the unique challenges (particularly the high barometric pressure, extremes of temperature, and absence of light), it was long believed that little life existed in this hostile environment. Since the 19th century however, research has demonstrated that significant biodiversity exists in the deep sea.\nThe three main sources of energy and nutrients for deep sea communities are marine snow, whale falls, and chemosynthesis at hydrothermal vents and cold seeps.\n\n== History ==\nPrior to the 19th century scientists assumed life was sparse in the deep ocean. In the 1870s Sir Charles Wyville Thomson and colleagues aboard the Challenger expedition discovered many deep-sea creatures of widely varying types.\n\nThe first discovery of any deep-sea chemosynthetic community including higher animals was unexpectedly made at hydrothermal vents in the eastern Pacific Ocean during geological explorations (Corliss et al., 1979). Two scientists, J. Corliss and J. van Andel, first witnessed dense chemosynthetic clam beds from the submersible DSV Alvin on February 17, 1977, after their unanticipated discovery using a remote camera sled two days before.\nThe Challenger Deep is the deepest surveyed point of all of Earth's oceans; it is located at the southern end of the Mariana Trench near the Mariana Islands group. The depression is named after HMS Challenger, whose researchers made the first recordings of its depth on 23 March 1875 at station 225. The reported depth was 4,475 fathoms (8184 meters) based on two separate soundings. In 1960, Don Walsh and Jacques Piccard descended to the bottom of the Challenger Deep in the Trieste bathyscaphe. At this great depth a small [...]\n\n== Environment ==\n\n\n== Zones ==\n\n\n== Energy sources ==\n\n\n== Ecology ==\nDeep sea food webs are complex, and aspects of the system are poorly understood. Typically, predator-prey interactions within the deep are compiled by direct observation (likely from remotely operated underwater vehicles), analysis of stomach contents, and biochemical analysis. Stomach content analysis is the most common method used, but it is not reliable for some species.\nIn deep sea pelagic ecosystems off of California, the trophic web is dominated by deep sea fishes, cephalopods, gelatinous zooplankton, and crustaceans. Between 1991 and 2016, 242 unique feeding relationships between 166 species of predators and prey demonstrated that gelatinous zooplankton have an ecological impact similar to that of large fishes and squid. Narcomedusae, siphonophores (of the family Physonectae), ctenophores, and cephalopods consumed the greatest diversity of prey, in decreasing order. Cannibalism has been documented in squid of the genus Gonatus.\nDeep sea mining has severe consequences for ocean ecosystems. The destruction of habitats, disturbance of sediment layers, and noise pollution threaten marine species. Essential biodiversity can be lost, with unpredictable effects on the food chain. [...]\n\n== Deep sea research ==\nHumans have explored less than 4% of the ocean floor, and dozens of new species of deep sea creatures are discovered with every dive. The submarine DSV Alvin—owned by the US Navy and operated by the Woods Hole Oceanographic Institution (WHOI) in Woods Hole, Massachusetts—exemplifies the type of craft used to explore deep water. This 16 ton submarine can withstand extreme pressure and is easily manoeuvrable despite its weight and size.\nThe extreme difference in pressure between the sea floor and the surface makes creatures' survival on the surface near impossible; this makes in-depth research difficult because most useful information can only be found while the creatures are alive. Recent developments have allowed scientists to look at [...]",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_015",
+      "deep_sea_016",
+      "deep_sea_017",
+      "deep_sea_018",
+      "deep_sea_019",
+      "deep_sea_020",
+      "deep_sea_021"
+    ]
+  },
+  {
+    "id": "src_deep_sea_exploration",
+    "title": "Deep-sea exploration",
+    "url": "https://en.m.wikipedia.org/wiki/Deep-sea_exploration",
+    "summary": "Deep-sea exploration is the investigation of physical, chemical, and biological conditions on the ocean waters and sea bed beyond the continental shelf, for scientific or commercial purposes. Deep-sea exploration is an aspect of underwater exploration and is considered a relatively recent human [...]",
+    "categories": [
+      "Category:All articles proposed for splitting",
+      "Category:All articles with unsourced statements",
+      "Category:Articles containing video clips",
+      "Category:Articles proposed for splitting from January 2023",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from August 2022",
+      "Category:Articles with unsourced statements from December 2022",
+      "Category:Exploration",
+      "Category:Oceanography",
+      "Category:Short description is different from Wikidata",
+      "Category:Underwater explorers",
+      "Category:Webarchive template wayback links",
+      "Category:Wikipedia articles needing clarification from January 2023"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nDeep-sea exploration is the investigation of physical, chemical, and biological conditions on the ocean waters and sea bed beyond the continental shelf, for scientific or commercial purposes. Deep-sea exploration is an aspect of underwater exploration and is considered a relatively recent human activity compared to the other areas of geophysical research, as the deeper depths of the sea have been investigated only during comparatively recent years. The ocean depths still remain a largely unexplored part of the Earth, and form a relatively undiscovered domain.\nScientific deep-sea exploration can be said to have begun when French scientist Pierre-Simon Laplace investigated the average depth of the Atlantic Ocean by observing tidal motions registered on Brazilian and African coasts circa the late 18th or early 19th century. However, the exact date of his investigation is unknown.  He calculated the depth to be 3,962 metres (12,999 ft), a value later proven quite accurate by echo-sounding measurement techniques. Later on, due to increasing demand for the installment of submarine cables, accurate measurements of the sea floor depth were required and the first investigations of the sea [...]\n\n== Milestones ==\nThe extreme conditions in the deep sea require elaborate methods and technologies to endure, which has been the main reason why its exploration has had a comparatively short history.\nSome important milestones of deep sea exploration are listed below:\n\n1521: Ferdinand Magellan tried to measure the depth of the Pacific Ocean with a weighted line, but did not find the bottom.\n1810–1827: Antoine Risso, an apothecary from Nice (then part of the Duchy of Savoy) published a series of papers that remained long ignored, describing and naming dozens of fish and crustaceans species collected by fishermen at depths between 600 and 1,000 m (1,969 and 3,281 ft) in the Gulf of Genoa.\n1818: The British researcher Sir John Ross independently discovered that the deep sea is inhabited by life when catching jellyfish and worms in about 2,000 m (6,562 ft) depth with a special device.\n1843: Edward Forbes claimed that diversity of life in the deep sea is little and decreases with increasing depth. He stated that there could be no life in waters deeper than 550 m (1,804 ft), the so-called Abyssus theory.\n1850: Near Lofoten, Michael Sars found a rich variety of deep sea fauna in a depth of 800 m (2,625 [...]\n\n== Oceanographic instrumentation ==\nThe sounding weight, one of the first instruments used for the sea bottom investigation, was designed as a tube on the base which forced the seabed in when it hit the bottom of the ocean. British explorer Sir James Clark Ross fully employed this instrument to reach a depth of 3,700 m (12,139 ft) in 1840.\nSounding weights used on HMS Challenger were the slightly more advanced \"Baillie sounding machine\". The British researchers used wire-line soundings to investigate sea depths and collected hundreds of biological samples from all oceans except the Arctic. Also used on HMS Challenger were dredges and scoops, suspended on ropes, with which samples of the sediment and biological specimens of the seabed could be obtained.\nA more advanced version of the sounding weight is the gravity corer. The gravity corer allows researchers to sample and study sediment layers at the bottom of oceans. The corer consists of an open-ended tube with a lead weight and a trigger mechanism that releases the corer from its suspension cable when the corer is lowered over the seabed and a small weight touches the ground. The corer falls into the seabed and penetrates it to a depth of up to 10 m (33 ft). By [...]\n\n== Oceanographic submersibles ==\nBecause of the high pressure, the depth to which a diver can descend without special equipment is limited. The deepest recorded descent made by a freediver is 253 m (830 ft) as of 2012.  The scuba record is 318 m (1,043 ft) as of June 2005, and 534 metres (1,752 ft) on surface supply [...]",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_022",
+      "deep_sea_023",
+      "deep_sea_024",
+      "deep_sea_025",
+      "deep_sea_026",
+      "deep_sea_027",
+      "deep_sea_028"
+    ]
+  },
+  {
+    "id": "src_deep_sea_fish",
+    "title": "Deep-sea fish",
+    "url": "https://en.m.wikipedia.org/wiki/Deep-sea_fish",
+    "summary": "Deep-sea fish are fish that live in the darkness below the sunlit surface waters, that is below the epipelagic or photic zone of the sea. The lanternfish is, by far, the most common deep-sea fish. Other deep-sea fishes include the flashlight fish, cookiecutter shark, bristlemouths, anglerfish, [...]",
+    "categories": [
+      "Category:All Wikipedia articles written in British English",
+      "Category:All articles with dead external links",
+      "Category:Articles containing video clips",
+      "Category:Articles with dead external links from January 2026",
+      "Category:Articles with short description",
+      "Category:CS1 Danish-language sources (da)",
+      "Category:CS1 maint: deprecated archival service",
+      "Category:Commons category link is on Wikidata",
+      "Category:Deep sea fish",
+      "Category:Ichthyology",
+      "Category:Oceanographical terminology",
+      "Category:Short description is different from Wikidata",
+      "Category:Use British English from August 2021",
+      "Category:Use dmy dates from August 2021",
+      "Category:Webarchive template wayback links"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nDeep-sea fish are fish that live in the darkness below the sunlit surface waters, that is below the epipelagic or photic zone of the sea. The lanternfish is, by far, the most common deep-sea fish. Other deep-sea fishes include the flashlight fish, cookiecutter shark, bristlemouths, anglerfish, viperfish, and some species of eelpout.\nOnly about 2% of known marine species inhabit the pelagic environment. This means that they live in the water column as opposed to the benthic organisms that live in or on the sea floor. Deep-sea organisms generally inhabit bathypelagic (1–4 km; 0.62–2.49 mi deep) and abyssopelagic (4–6 km; 2.5–3.7 mi deep) zones. However, characteristics of deep-sea organisms, such as bioluminescence can be seen in the mesopelagic (200–1,000 m; 660–3,280 ft deep) zone as well. The mesopelagic zone is the disphotic zone, meaning light there is minimal but still measurable. The oxygen minimum layer exists somewhere between a depth of 700 and 1,000 metres (2,300 and 3,300 ft) depending on the place in the ocean. This area is also where nutrients are most abundant. The bathypelagic and abyssopelagic zones are aphotic, meaning that no light penetrates this area of the [...]\n\n== Evolution ==\nIt has been speculated that deep-sea ecosystems may have been inhospitable to vertebrate life prior to an increased influx of nutrients into the ocean during the Late Jurassic and Early Cretaceous following the rise of angiosperms on land, which led to an increase in abyssal invertebrate life, allowing fish to in turn colonize these ecosystems. However, some modern deep-sea fish, such as holocephalians, are descendants of much older lineages, indicating that much earlier colonizations of the deep-sea by vertebrates may have occurred, although no fossil evidence of this is known.\nThe earliest known records of deep-sea fish are trace fossils of feeding and swimming behavior attributed to unidentified neoteleosts (referable to the ichnogenera Piscichnus and Undichna), from the Early Cretaceous (130 million-year-old) Palombini Shale of Italy, which is thought to have been deposited in the abyssal plain of the former Piemont-Liguria Ocean. Prior to the discovery of these fossils, there was no evidence for deep-sea bony fish older than 50 million years in the Paleogene. The Cretaceous origin for most modern deep-sea fish has been further affirmed with phylogenetic studies such as those [...]\n\n== Environment ==\nIn the deep ocean, the waters extend far below the epipelagic zone, and support very different types of pelagic fishes adapted to living in these deeper zones. In deep water, marine snow is a continuous shower of mostly organic detritus falling from the upper layers of the water column. Its origin lies in activities within the productive photic zone. Marine snow includes dead or dying plankton, protists (diatoms), fecal matter, sand, soot and other inorganic dust. The \"snowflakes\" grow over time and may reach several centimetres in diameter, travelling for weeks before reaching the ocean floor. However, most organic components of marine snow are consumed by microbes, zooplankton and other filter-feeding animals within the first 1,000 metres (3,300 ft) of their journey, that is, within the epipelagic zone. In this way, marine snow may be considered the foundation of deep-sea mesopelagic and benthic ecosystems: as sunlight cannot reach them, deep-sea organisms rely heavily on marine snow as an energy source. Since there is no light in the deep sea (aphotic), there is a lack of primary producers. Therefore, most organisms in the bathypelagic rely on the marine snow from regions [...]\n\n== Characteristics ==\nThe fish of the deep-sea have evolved various adaptations to survive in this region. Since many of these fish live in regions where there is no natural illumination, they cannot rely solely on their eyesight for locating prey and mates and avoiding predators; deep-sea fish have evolved appropriately to the extreme [...]",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_008",
+      "deep_sea_009",
+      "deep_sea_010",
+      "deep_sea_011",
+      "deep_sea_012",
+      "deep_sea_013",
+      "deep_sea_014"
+    ]
+  },
+  {
+    "id": "src_deep_sea_gigantism",
+    "title": "Deep-sea gigantism",
+    "url": "https://en.m.wikipedia.org/wiki/Deep-sea_gigantism",
+    "summary": "In zoology, deep-sea gigantism or abyssal gigantism is the tendency for species of deep-sea dwelling animals to be larger than their shallower-water relatives across a large taxonomic range. Proposed explanations for this type of gigantism include necessary adaptation to colder temperature, food [...]",
+    "categories": [
+      "Category:All Wikipedia articles written in British English",
+      "Category:Animal size",
+      "Category:Articles with short description",
+      "Category:Ecogeographic rules",
+      "Category:Evolutionary biology concepts",
+      "Category:Marine organisms",
+      "Category:Short description is different from Wikidata",
+      "Category:Use British English from December 2022",
+      "Category:Use dmy dates from December 2022"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nIn zoology, deep-sea gigantism or abyssal gigantism is the tendency for species of deep-sea dwelling animals to be larger than their shallower-water relatives across a large taxonomic range. Proposed explanations for this type of gigantism include necessary adaptation to colder temperature, food scarcity, reduced predation pressure and increased dissolved oxygen concentrations in the deep sea. The harsh conditions and inhospitality of the underwater environment in general, as well as the inaccessibility of the abyssal zone for most human-made underwater vehicles, have hindered the study of this topic.\n\n== Taxonomic range ==\nIn marine crustaceans, the trend of increasing size with depth has been observed in mysids, euphausiids, decapods, isopods, ostracods and amphipods. Non-arthropods in which deep-sea gigantism has been observed are cephalopods, cnidarians, and eels from the order Anguilliformes.\n\nOther [animals] attain under them gigantic proportions. It is especially certain crustacea which exhibit this latter peculiarity, but not all crustacea, for the crayfish like forms in the deep sea are of ordinary size. I have already referred to a gigantic Pycnogonid [sea spider] dredged by us. Louis Agassiz dredged a gigantic Isopod 11 inches [28 centimetres] in length. We also dredged a gigantic Ostracod. – Henry Nottidge Moseley, 1880\nNotable organisms that exhibit deep-sea gigantism include the big red jellyfish, the  giant phantom jelly, the giant isopod, giant ostracod, the giant sea spider, the giant amphipod, the Japanese spider crab, the giant oarfish, the deepwater stingray, the seven-arm octopus, and a number of squid species: the colossal squid (up to 14 m in length), the giant squid (up to 12 m), Megalocranchia fisheri, robust clubhook squid, Dana octopus squid, cockatoo squid, giant warty [...]\n\n== Explanations ==\n\n\n== Impact of climate change ==\nWarmer global temperatures may have an effect on the deep sea as much as the shallower surface waters of the ocean, as evidence suggests that deep-sea ecosystems can be sensitive to shifts within the climate. Despite appearing relatively unchanging, the dependence of life in the depths on food supply to drift down in the form of marine snow and water currents traveling throughout all depths of the ocean calls into concern the manner in which global climate change may affect these organisms and the biomes they live in.\nFollowing trends from the Paleocene-Eocene thermal maximum and related timescales, research suggests that current predictions of continuous greenhouse gas emissions and climate change will lead to higher ocean temperatures and a significant reduction in levels of dissolved oxygen in the deep sea. Should global warming lead to a warmer ocean state, thermohaline circulation would no longer be able to maintain an oxygen-rich deep sea, which would eventually lead to deep water becoming higher in both temperature and salinity.\nBased upon current theories regarding the existence of deep-sea gigantism, we would expect to see the phenomenon diminish in response to these [...]\n\n== Gallery ==\n\n\n== See also ==\nCephalopod size\nDwarfing\nIsland gigantism\nInsular dwarfism\nLargest organisms\nMegafauna\nPolar gigantism\n\n== References ==\n\n\n== External links ==\nScience Daily: Midgets and giants in the deep sea",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_029",
+      "deep_sea_030",
+      "deep_sea_031",
+      "deep_sea_032",
+      "deep_sea_033",
+      "deep_sea_034",
+      "deep_sea_035"
+    ]
+  },
+  {
+    "id": "src_deep_sea_mining_regulations_in_nauru",
+    "title": "Deep-sea mining regulations in Nauru",
+    "url": "https://en.m.wikipedia.org/wiki/Deep-sea_mining_regulations_in_Nauru",
+    "summary": "On 25 June 2021, the president of Nauru, Lionel Aingimea, made a formal request to the president of the International Seabed Authority's (ISA) council to complete the adoption of rules, regulations and procedures necessary to facilitate the approval of plans of work for exploitation of deep-sea [...]",
+    "categories": [
+      "Category:Articles with short description",
+      "Category:Mining in Nauru",
+      "Category:Oceans",
+      "Category:Short description with empty Wikidata description",
+      "Category:Underwater mining"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_deep_sea_wood",
+    "title": "Deep-sea wood",
+    "url": "https://en.m.wikipedia.org/wiki/Deep-sea_wood",
+    "summary": "Deep-sea wood is the term for wood which sinks to the ocean floor. These wood-falls develop deep sea ecosystems.  Deep-sea wood supports  unique forms of deep sea community life including chemo-synthetic bacteria. Sources of carbon for these deep sea ecosystems are not limited to sunken wood, but [...]",
+    "categories": [
+      "Category:All articles with style issues",
+      "Category:Aquatic ecology",
+      "Category:Articles with short description",
+      "Category:Oceanographical terminology",
+      "Category:Short description matches Wikidata",
+      "Category:Types of wood",
+      "Category:Wikipedia articles with style issues from February 2017"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
+  },
+  {
+    "id": "src_deepsea_challenger",
+    "title": "Deepsea Challenger",
+    "url": "https://en.m.wikipedia.org/wiki/Deepsea_Challenger",
+    "summary": "Deepsea Challenger (DCV 1) is a 7.3-metre (24 ft) deep-diving submersible designed to reach the bottom of the Challenger Deep, the deepest-known point on Earth. On 26 March 2012, Canadian film director James Cameron piloted the craft to accomplish this goal in the second crewed dive reaching the [...]",
+    "categories": [
+      "Category:2012 in science",
+      "Category:2012 ships",
+      "Category:All Wikipedia articles written in American English",
+      "Category:All articles containing potentially dated statements",
+      "Category:All articles with unsourced statements",
+      "Category:Articles containing Chinese-language text",
+      "Category:Articles containing potentially dated statements from February 2016",
+      "Category:Articles needing more detailed references",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from March 2019",
+      "Category:CS1 maint: deprecated archival service",
+      "Category:Commons category link is on Wikidata",
+      "Category:Deep-submergence vehicles",
+      "Category:James Cameron",
+      "Category:Oceanographic expeditions",
+      "Category:Pages using IMDb title with no id set",
+      "Category:Research submarines",
+      "Category:Short description is different from Wikidata",
+      "Category:Submarines of Australia",
+      "Category:Use American English from July 2023"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nDeepsea Challenger (DCV 1) is a 7.3-metre (24 ft) deep-diving submersible designed to reach the bottom of the Challenger Deep, the deepest-known point on Earth. On 26 March 2012, Canadian film director James Cameron piloted the craft to accomplish this goal in the second crewed dive reaching the Challenger Deep. Built in Sydney, Australia, by the research and design company Acheron Project Pty Ltd, Deepsea Challenger includes scientific sampling equipment and high-definition 3-D cameras; it reached the ocean's deepest point after two hours and 36 minutes of descent from the surface.\n\n== Development ==\nDeepsea Challenger was built in Australia, in partnership with the National Geographic Society and with support from Rolex, in the Deepsea Challenge program. The construction of the submersible was headed by Australian engineer Ron Allum. Many of the submersible developer team members hail from Sydney's cave-diving fraternity including Allum himself with many years of cave-diving experience.\nWorking in a small engineering workshop in Leichhardt, Sydney, Allum created new materials including a specialized structural syntactic foam called Isofloat, capable of withstanding the huge compressive forces at the 11-kilometre (6.8 mi) depth. The new foam is unique in that it is more homogeneous and possesses greater uniform strength than other commercially available syntactic foam yet, with a specific density of about 0.7, will float in water. The foam is composed of very small hollow glass spheres suspended in an epoxy resin and comprises about 70% of the submersible's volume.\nThe foam's strength enabled the Deepsea Challenger designers to incorporate thruster motors as part of the infrastructure mounted within the foam but without the aid of a steel skeleton to mount various mechanisms. [...]\n\n== Specifications ==\nThe submersible features a pilot sphere, large enough for only one occupant. The sphere, with steel walls 64 mm (2.5 in) thick, was tested for its ability to withstand the required 114 megapascals (16,500 pounds per square inch) of pressure in a pressure chamber at Pennsylvania State University. The sphere sits at the base of the 11.8-tonne (13.0-short-ton) vehicle. The vehicle operates in a vertical attitude, and carries 500 kg (1,100 lb) of ballast weight that allows it to both sink to the bottom and, when released, rise to the surface. If the ballast weight release system fails, stranding the craft on the seafloor, a backup galvanic release is designed to corrode in salt water in a set period of time, allowing the sub to automatically surface. Deepsea Challenger is less than one-tenth the weight of its predecessor of fifty years, the bathyscaphe Trieste; the modern vehicle also carries dramatically more scientific equipment than Trieste, and is capable of more rapid ascent and descent.\n\n== Dives ==\n\n\n== Subsequent events ==\nDeepsea Challenger was donated to Woods Hole Oceanographic Institution for the study of its technological solutions in order to incorporate some of those solutions into other vehicles to advance deep-sea research. On 23 July 2015, it was transported from Woods Hole Oceanographic Institution to Baltimore to be shipped to Australia for a temporary loan. While on a flatbed truck on Interstate 95 in Connecticut, the truck caught fire, resulting in damage to the submersible. The likely cause of the fire was from the truck's brake failure which ignited its rear tires. Connecticut fire officials speculated that it was a total loss to the Deepsea Challenger, and later, an $8.3 million insurance claim was filed. The submersible was transported back to Woods Hole Oceanographic Institution after the fire. As of February 2016, it had been moved to California for repairs, and by 2018, repairs were still underway. Woods Hole Oceanographic Institution's insurer pursued a lawsuit against several parties involved in transporting the submersible and servicing the transport vehicles.\nThe Deepsea Challenger [...]",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_073",
+      "deep_sea_074",
+      "deep_sea_075",
+      "deep_sea_076",
+      "deep_sea_077",
+      "deep_sea_078",
+      "deep_sea_079"
+    ]
+  },
+  {
+    "id": "src_hadal_zone",
+    "title": "Hadal zone",
+    "url": "https://en.m.wikipedia.org/wiki/Hadal_zone",
+    "summary": "The hadal zone, also known as the hadopelagic zone, is the deepest region of the ocean, lying within oceanic trenches. The hadal zone ranges from around 6 to 11 km (3.7 to 6.8 mi; 20,000 to 36,000 ft) below sea level, and exists in long, narrow, topographic V-shaped depressions.\nThe total area [...]",
+    "categories": [
+      "Category:1950s neologisms",
+      "Category:All articles with unsourced statements",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from January 2026",
+      "Category:CS1 maint: deprecated archival service",
+      "Category:Extreme points of Earth",
+      "Category:Hydrology",
+      "Category:Oceanographical terminology",
+      "Category:Pages displaying short descriptions of redirect targets via Module:Annotated link",
+      "Category:Short description is different from Wikidata",
+      "Category:Webarchive template wayback links",
+      "Category:Wikipedia articles needing page number citations from August 2025"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nThe hadal zone, also known as the hadopelagic zone, is the deepest region of the ocean, lying within oceanic trenches. The hadal zone ranges from around 6 to 11 km (3.7 to 6.8 mi; 20,000 to 36,000 ft) below sea level, and exists in long, narrow, topographic V-shaped depressions.\nThe total area occupied by the 46 individual hadal habitats worldwide is less than 0.25% of the world's seafloor, yet trenches account for over 40% of the ocean's depth range. Most hadal habitats are found in the Pacific Ocean, the largest and deepest of the conventional oceanic divisions.\n\n== Terminology and definition ==\nHistorically, the hadal zone was not recognized as distinct from the abyssal zone, although the deepest sections were sometimes called \"ultra-abyssal\". During the early 1950s, the Danish Galathea II and Soviet Vityaz expeditions separately discovered a distinct shift in the life at depths of 6,000–7,000 m (20,000–23,000 ft) not recognized by the broad definition of the abyssal zone. The term \"hadal\" was first proposed in 1956 by Anton Frederik Bruun to describe the parts of the ocean deeper than 6,000 m (20,000 ft), leaving abyssal for the parts at 4,000–6,000 m (13,000–20,000 ft). The name refers to Hades, the ancient Greek god of the underworld. About 94% of the hadal zone is found in subduction trenches.\nDepths in excess of 6,000 m (20,000 ft) are generally in oceanic trenches, but there are also trenches at shallower depths. These shallower trenches lack the distinct shift in lifeforms and are therefore not hadal. Although the hadal zone has gained widespread recognition and many continue to use the first proposed limit of 6,000 m (20,000 ft), it has been observed that 6,000–7,000 m (20,000–23,000 ft) represents a gradual transition between the abyssal and hadal zones, leading [...]\n\n== Ecology ==\nThe deepest ocean trenches are considered the least explored and most extreme marine ecosystems. They are characterized by complete lack of sunlight, low temperatures, nutrient scarcity, and extremely high hydrostatic pressures. The major sources of nutrients and carbon are fallout from upper layers, drifts of fine sediment, and landslides. Most organisms are scavengers and detrivores. As of 2020, over 400 species are known from hadal ecosystems, many of which possess physiological adaptations to the extreme environmental conditions. There are high levels of endemism, and noteworthy examples of gigantism in amphipods, mysids, and isopods and dwarfism in  nematodes, copepods, and kinorhynchs.\n\nMarine life decreases with depth, both in abundance and biomass, but there is a wide range of metazoan organisms in the hadal zone, mostly benthos, including fish, sea cucumber, bristle worms, bivalves, isopods, sea anemones, amphipods, copepods, decapod crustaceans and gastropods. Most of these trench communities probably originated in the abyssal plains. Although they have evolved adaptations to high pressure and low temperatures such as lower metabolism, intra-cellular protein-stabilising [...]\n\n== Conditions ==\nThe only known primary producers in the hadal zone are certain bacteria that are able to metabolize hydrogen and methane released by rock and seawater reactions (serpentinization), or hydrogen sulfide released from cold seeps. Some of these bacteria are symbiotic, for example living inside the mantle of certain thyasirid and vesicomyid bivalves. Otherwise the first link in the hadal food web are heterotroph organisms that feed on marine snow, both fine particles and the occasional carcass.\nThe hadal zone can reach far below 6,000 m (20,000 ft) deep; the deepest known extends to 10,911 m (35,797 ft). At such depths, the pressure in the hadal zone exceeds 1,100 standard atmospheres (110 MPa; 16,000 psi). Lack of light and extreme pressure makes this part of the ocean difficult to explore.\n\n== Exploration ==\nThe exploration of the hadal zone requires the use of instruments that are able to withstand pressures of up to a [...]",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_048",
+      "deep_sea_049",
+      "deep_sea_050",
+      "deep_sea_051",
+      "deep_sea_052",
+      "deep_sea_053"
     ]
   },
   {
@@ -28,6 +705,40 @@
     "questionIds": [
       "dsea_003"
     ]
+  },
+  {
+    "id": "src_list_of_submarine_topographical_features",
+    "title": "List of submarine topographical features",
+    "url": "https://en.m.wikipedia.org/wiki/List_of_submarine_topographical_features",
+    "summary": "This is a list of submarine topographical features, oceanic landforms and topographic elements.",
+    "categories": [
+      "Category:Abyssal plains",
+      "Category:All articles with dead external links",
+      "Category:Articles with Geo",
+      "Category:Articles with dead external links from February 2021",
+      "Category:Articles with permanently dead external links",
+      "Category:Articles with short description",
+      "Category:CS1: long volume value",
+      "Category:CS1 errors: periodical ignored",
+      "Category:CS1 maint: multiple names: authors list",
+      "Category:Coastal and oceanic landforms",
+      "Category:Geographic coordinate lists",
+      "Category:Lists of coordinates",
+      "Category:Lists of landforms",
+      "Category:Marine geology",
+      "Category:Oceanic plateaus",
+      "Category:Oceanic ridges",
+      "Category:Oceanic trenches",
+      "Category:Pages using gadget WikiMiniAtlas",
+      "Category:Plate tectonics",
+      "Category:Short description is different from Wikidata"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": []
   },
   {
     "id": "src_mariana_trench",
@@ -223,6 +934,31 @@
     ],
     "questionIds": [
       "dsea_001"
+    ]
+  },
+  {
+    "id": "src_oceanic_zone",
+    "title": "Oceanic zone",
+    "url": "https://en.m.wikipedia.org/wiki/Oceanic_zone",
+    "summary": "The oceanic zone is typically defined as the area of the ocean lying beyond the continental shelf (e.g. the neritic zone), but operationally is often referred to as beginning where the water depths drop to below 200 metres (660 ft), seaward from the coast into the open ocean with its pelagic [...]",
+    "categories": [
+      "Category:Articles with short description",
+      "Category:Oceanographical terminology",
+      "Category:Physical oceanography",
+      "Category:Short description matches Wikidata"
+    ],
+    "topicIds": [
+      "deep_sea"
+    ],
+    "articleText": "== Summary ==\nThe oceanic zone is typically defined as the area of the ocean lying beyond the continental shelf (e.g. the neritic zone), but operationally is often referred to as beginning where the water depths drop to below 200 metres (660 ft), seaward from the coast into the open ocean with its pelagic zone.\nIt is the region of open sea beyond the edge of the continental shelf and includes 65% of the ocean's completely open water. The oceanic zone has a wide array of undersea terrain, including trenches that are often deeper than Mount Everest is tall, as well as deep-sea volcanoes and basins. While it is often difficult for life to sustain itself in this type of environment, many species have adapted and do thrive in the oceanic zone.\nThe open ocean is vertically divided into four zones: the sunlight zone, twilight zone, midnight zone, and abyssal zone.\n\n== Sub zones ==\nThe Mesopelagic (disphotic) zone, which is where only small amounts of light penetrate, lies below the Epipelagic zone. This zone is often referred to as the \"Twilight Zone\" due to its scarce amount of light. Temperatures in the Mesopelagic zone range from 5 to 4 °C (41 to 39 °F). The pressure is higher here, it can be up to 10,100 kilopascals (1,460 psi) and increases with depth.\n54% of the ocean lies in the Bathypelagic (aphotic) zone into which no light penetrates. This is also called the midnight zone and the deep ocean. Due to the complete lack of sunlight, photosynthesis cannot occur and the only light source is bioluminescence. Water pressure is very intense and the temperatures are near freezing (range 0 to 6 °C (32 to 43 °F)).\n\n== Marine life ==\n\nOceanographers have divided the ocean into zones based on how far light reaches. All of the light zones can be found in the oceanic zone. The epipelagic zone is the one closest to the surface and is the best lit. It extends to 100 meters and contains both phytoplankton and zooplankton that can support larger organisms like marine mammals and some types of fish. Past 100 meters, not enough light penetrates the water to support life, and no plant life exists.\nThere are creatures, however, which thrive around hydrothermal vents, or geysers located on the ocean floor that expel superheated water that is rich in minerals. These organisms feed off of chemosynthetic bacteria, which use the superheated water and chemicals from the hydrothermal vents to create energy in place of photosynthesis.  The existence of these bacteria allow creatures like squids, hatchet fish, octopuses, tube worms, giant clams, spider crabs and other organisms to survive.\n\nDue to the total darkness in the zones past the epipelagic zone, many organisms that survive in the deep oceans do not have eyes, and other organisms make their own light with bioluminescence. Often the light is blue-green in color, because [...]",
+    "facts": [],
+    "questionIds": [
+      "deep_sea_054",
+      "deep_sea_055",
+      "deep_sea_056",
+      "deep_sea_057",
+      "deep_sea_058",
+      "deep_sea_059"
     ]
   }
 ]

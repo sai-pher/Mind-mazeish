@@ -17,7 +17,6 @@ import sys
 
 USER_AGENT = "mind-mazeish-trivia/1.0 (https://github.com/sai-pher)"
 SUMMARY_TRUNCATE = 300
-MAX_RESULTS_CAP = 8
 
 
 def _is_disambiguation(title: str, summary: str, categories: list[str]) -> bool:
@@ -31,7 +30,11 @@ def _is_disambiguation(title: str, summary: str, categories: list[str]) -> bool:
 
 
 def _search_via_opensearch(query: str, n: int) -> list[str]:
-    """Fallback: use the Wikipedia OpenSearch API directly via requests."""
+    """Title-prefix search via the Wikipedia OpenSearch API.
+
+    Works well for exact or near-exact article titles.
+    Returns fewer results for descriptive / multi-word queries.
+    """
     import urllib.request
     import urllib.parse
 
@@ -47,6 +50,26 @@ def _search_via_opensearch(query: str, n: int) -> list[str]:
     return data[1] if len(data) > 1 else []
 
 
+def _search_via_fulltext(query: str, n: int) -> list[str]:
+    """Full-text article search via the MediaWiki query API.
+
+    Searches article *content*, not just titles — handles descriptive /
+    compound queries like "granny square crochet" or "candy confectionery".
+    """
+    import urllib.request
+    import urllib.parse
+
+    url = (
+        "https://en.wikipedia.org/w/api.php"
+        f"?action=query&list=search&srsearch={urllib.parse.quote(query)}"
+        f"&srlimit={n}&srnamespace=0&format=json"
+    )
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=10) as resp:
+        data = json.loads(resp.read().decode())
+    return [r["title"] for r in data.get("query", {}).get("search", [])]
+
+
 def search(query: str, n: int) -> list[dict]:
     try:
         import wikipediaapi
@@ -57,11 +80,23 @@ def search(query: str, n: int) -> list[dict]:
     try:
         wiki = wikipediaapi.Wikipedia(user_agent=USER_AGENT, language="en")
 
-        # Try wikipediaapi's search; fall back to OpenSearch if missing
+        # 1. Try title-prefix search (OpenSearch) first — fast, great for exact titles.
         try:
             titles = wiki.search(query, results=n)  # type: ignore[attr-defined]
         except (AttributeError, NotImplementedError):
             titles = _search_via_opensearch(query, n)
+
+        # 2. If too few results, supplement with full-text search.
+        #    This handles descriptive queries ("granny square crochet") that return
+        #    nothing from OpenSearch because no article title matches the phrase.
+        if len(titles) < n:
+            seen = {t.lower() for t in titles}
+            for ft_title in _search_via_fulltext(query, n):
+                if len(titles) >= n:
+                    break
+                if ft_title.lower() not in seen:
+                    titles.append(ft_title)
+                    seen.add(ft_title.lower())
 
     except Exception as e:
         print(f"NETWORK_UNAVAILABLE: {e}", file=sys.stderr)
@@ -76,7 +111,7 @@ def search(query: str, n: int) -> list[dict]:
             if not page.exists():
                 continue
 
-            cats = list(page.categories.keys())[:5]
+            cats = list(page.categories.keys())[:20]
             summary = page.summary[:SUMMARY_TRUNCATE]
             if len(page.summary) > SUMMARY_TRUNCATE:
                 summary = summary.rsplit(" ", 1)[0] + " [...]"
@@ -115,8 +150,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    n = min(args.results, MAX_RESULTS_CAP)
-    results = search(args.query, n)
+    results = search(args.query, args.results)
     print(json.dumps(results, indent=2, ensure_ascii=False))
 
 
