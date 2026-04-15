@@ -47,7 +47,7 @@ def _search_via_opensearch(query: str, n: int) -> list[str]:
     with urllib.request.urlopen(req, timeout=10) as resp:
         data = json.loads(resp.read().decode())
     # OpenSearch returns [query, [titles], [descriptions], [urls]]
-    return data[1] if len(data) > 1 else []
+    return data if len(data) > 1 else []
 
 
 def _search_via_fulltext(query: str, n: int) -> list[str]:

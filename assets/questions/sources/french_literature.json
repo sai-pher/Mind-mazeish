@@ -8,8 +8,105 @@
     "topicIds": [
       "french_literature"
     ],
-    "articleText": null,
-    "facts": [],
+    "articleText": "== Summary ==\nAlbert Camus ( kam-OO, French: [albɛʁ kamy] ; 7 November 1913 – 4 January 1960) was a French philosopher, novelist, author, dramatist, journalist, world federalist, and political activist. He was the recipient of the 1957 Nobel Prize in Literature at the age of 44, the second-youngest recipient in history, and the first laureate in literature born in Africa. His works include The Stranger, The Plague, The Myth of Sisyphus, The Fall and The Rebel.\nCamus was born in French Algeria to pied-noir parents. He spent his childhood in a poor neighbourhood and later studied philosophy at the University of Algiers. He was in Paris when the Germans invaded France during World War II in 1940. Camus tried to flee but finally joined the French Resistance where he served as editor-in-chief at Combat, an outlawed newspaper. After the war, he was a celebrity figure and gave many lectures around the world. He married twice but had many extramarital affairs. Camus was politically active; he was part of the left that opposed Joseph Stalin and the Soviet Union because of their totalitarianism. Camus was a moralist and leaned towards anarcho-syndicalism. He was part of many organisations seeking [...]\n\n== Biography ==\n\n\n== Literary career ==\nCamus's first publication was a play called Révolte dans les Asturies (Revolt in the Asturias), written with three friends in May 1936. The subject was the 1934 revolt by Spanish miners that was brutally suppressed by the Spanish government, resulting in 1,500 to 2,000 deaths. In May 1937 he wrote his first book, L'Envers et l'Endroit (Betwixt and Between, also translated as The Wrong Side and the Right Side). Both were published by Edmond Charlot's small publishing house.\nCamus separated his work into three cycles. Each cycle consisted of a novel, an essay, and a play. The first was the cycle of the absurd consisting of L'Étranger, Le Mythe de Sysiphe, and Caligula. The second was the cycle of the revolt which included La Peste (The Plague), L'Homme révolté (The Rebel), and Les Justes (The Just Assassins). The third, the cycle of the love, consisted of Nemesis. Each cycle was an examination of a theme with the use of a pagan myth and including biblical motifs.\nThe books in the first cycle were published between 1942 and 1944, but the theme was conceived earlier, at least as far back as 1936. With this cycle, Camus aimed to pose a question on the human condition, discuss the world [...]\n\n== Political stance ==\nCamus was a moralist; he claimed morality should guide politics. While he did not deny that morals change over time, he rejected the classical Marxist view that historical material relations define morality.\nCamus was also strongly critical of Marxism–Leninism, which he considered totalitarian, especially in the case of the Soviet Union. Camus rebuked those sympathetic to the Soviet model and their \"decision to call total servitude freedom\". A proponent of libertarian socialism, he stated that the Soviet Union was not socialist and the United States was not liberal. His critique of the Soviet Union caused him to clash with others on the political left, most notably with his on-again/off-again friend Jean-Paul Sartre.\nActive in the French Resistance to the Nazi occupation of France during World War II, Camus wrote for and edited the Resistance journal Combat. Of the French collaboration with the German occupiers, he wrote: \"Now the only moral value is courage, which is useful here for judging the puppets and chatterboxes who pretend to speak in the name of the people.\" After France's liberation, Camus remarked: \"This country does not need a Talleyrand, but a Saint-Just.\" The [...]\n\n== Role in Algeria ==\nBorn in Algeria to French parents, Camus was familiar with the institutional racism of France against Arabs and Berbers, but he was not part of a rich elite. He lived in very poor conditions as a child, but was a citizen of France and as such was entitled to citizens' rights; members of the [...]",
+    "facts": [
+      {
+        "id": "fact_albert_camus_001",
+        "text": "Albert Camus was born on 7 November 1913 and died on 4 January 1960.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_002",
+        "text": "Camus received the 1957 Nobel Prize in Literature at the age of 44, making him the second-youngest recipient in history.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_003",
+        "text": "Camus was the first Nobel laureate in literature born in Africa.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_004",
+        "text": "Camus was born in French Algeria to pied-noir parents.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_005",
+        "text": "Camus studied philosophy at the University of Algiers.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_006",
+        "text": "During World War II, Camus served as editor-in-chief of Combat, an outlawed French Resistance newspaper.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_007",
+        "text": "Camus was a proponent of libertarian socialism and leaned towards anarcho-syndicalism.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_008",
+        "text": "Camus had a well-known philosophical and personal clash with Jean-Paul Sartre.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_009",
+        "text": "Camus separated his work into three cycles: the cycle of the absurd, the cycle of revolt, and the cycle of love.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_010",
+        "text": "The first cycle (absurd) consisted of L'Étranger (The Stranger), Le Mythe de Sisyphe (The Myth of Sisyphus), and the play Caligula.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_011",
+        "text": "The second cycle (revolt) included La Peste (The Plague), L'Homme révolté (The Rebel), and Les Justes (The Just Assassins).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_012",
+        "text": "Camus's first published play was Révolte dans les Asturies (Revolt in the Asturias), written with three friends in May 1936.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_013",
+        "text": "Camus's first book, L'Envers et l'Endroit (Betwixt and Between), was written in May 1937.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_014",
+        "text": "Camus's major works include The Stranger, The Plague, The Myth of Sisyphus, The Fall, and The Rebel.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_015",
+        "text": "Camus was strongly critical of Marxism-Leninism and the Soviet Union, which he considered totalitarian.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_albert_camus_016",
+        "text": "Camus was a French philosopher, novelist, author, dramatist, journalist, world federalist, and political activist.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
     "questionIds": [
       "fl_002"
     ]
@@ -23,8 +120,105 @@
     "topicIds": [
       "french_literature"
     ],
-    "articleText": null,
-    "facts": [],
+    "articleText": "== Summary ==\nCharles-Pierre Baudelaire (UK: ; US: ; French: [ʃaʁl(ə) bodlɛʁ] ; 9 April 1821 – 31 August 1867) was a French poet, essayist, translator and art critic. His poems are described as exhibiting mastery of rhythm and rhyme, containing an exoticism inherited from the Romantics, and are based on observations of real life.\nHis most famous work, a book of lyric poetry titled Les Fleurs du mal (The Flowers of Evil), expresses the changing nature of beauty in the rapidly industrialising Paris caused by Haussmann's renovation of Paris during the mid-19th century. Baudelaire's original style of prose-poetry influenced a generation of poets including Paul Verlaine, Arthur Rimbaud and Stéphane Mallarmé. He coined the term modernity (modernité) to designate the fleeting experience of life in an urban metropolis, and the responsibility of artistic expression to capture that experience. Marshall Berman has credited Baudelaire as being the first Modernist.\n\n== Early life ==\nBaudelaire was born in Paris, France, on 9 April 1821, and baptized two months later at Saint-Sulpice Catholic church. His father, Joseph-François Baudelaire, was a senior civil servant and amateur artist, who at 60, was 34 years older than Baudelaire's 26-year-old mother, Caroline (née Dufaÿs); she was his second wife.\nJoseph-François died during Baudelaire's childhood, at rue Hautefeuille, Paris, on 10 February 1827. The following year, Caroline married Lieutenant Colonel Jacques Aupick, who later became a French ambassador to various noble courts.\nBaudelaire's biographers have often seen this as a crucial moment, considering that finding himself no longer the sole focus of his mother's affection left him with a trauma, which goes some way to explaining the excesses later apparent in his life. He stated in a letter to her that, \"There was in my childhood a period of passionate love for you.\" Baudelaire regularly begged his mother for money throughout his career, often promising that a lucrative publishing contract or journalistic commission was just around the corner.\nBaudelaire was educated in Lyon, where he boarded. At 14, he was described by a classmate as \"much more refined [...]\n\n== Publishing career ==\nHis first published work, under the pseudonym Baudelaire Dufaÿs, was his art review \"Salon of 1845\", which attracted immediate attention for its boldness. Many of his critical opinions were novel in their time, including his championing of Delacroix, and some of his views seem remarkably in tune with the future theories of the Impressionist painters.\nIn 1846, Baudelaire wrote his second Salon review, gaining additional credibility as an advocate and critic of Romanticism. His continued support of Delacroix as the foremost Romantic artist gained widespread notice. The following year Baudelaire's novella La Fanfarlo was published.\n\n== Final years ==\nBaudelaire next worked on a translation and adaptation of Thomas De Quincey's Confessions of an English Opium-Eater. Other works in the years that followed included Petits Poèmes en prose (Small Prose poems); a series of art reviews published in the Pays, Exposition universelle (Country, World Fair); studies on Gustave Flaubert (in L'Artiste, 18 October 1857); on Théophile Gautier (Revue contemporaine, September 1858); various articles contributed to Eugène Crépet's Poètes français; Les Paradis artificiels: opium et haschisch (French poets; Artificial Paradises: opium and hashish) (1860); and Un Dernier Chapitre de l'histoire des oeuvres de Balzac (A Final Chapter of the history of works of Balzac) (1880), originally an article \"Comment on paye ses dettes quand on a du génie\" (\"How one pays one's debts when one has genius\"), in which his criticism turns against his friends Honoré de Balzac, Théophile Gautier, and Gérard de Nerval.\n\nBy 1859, his illnesses, his long-term use of laudanum, his life of stress, and his poverty had taken a toll and Baudelaire had aged noticeably. But at last, his mother relented and [...]",
+    "facts": [
+      {
+        "id": "fact_charles_baudelaire_001",
+        "text": "Charles Baudelaire was born on 9 April 1821 and died on 31 August 1867.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_002",
+        "text": "Baudelaire was a French poet, essayist, translator, and art critic.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_003",
+        "text": "Baudelaire's most famous work is Les Fleurs du mal (The Flowers of Evil), a book of lyric poetry.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_004",
+        "text": "Baudelaire coined the term modernity (modernité) to describe the fleeting experience of life in an urban metropolis.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_005",
+        "text": "Marshall Berman credited Baudelaire as being the first Modernist.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_006",
+        "text": "Baudelaire's original style of prose-poetry influenced Paul Verlaine, Arthur Rimbaud, and Stéphane Mallarmé.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_007",
+        "text": "Baudelaire was born in Paris and baptized at Saint-Sulpice Catholic church.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_008",
+        "text": "Baudelaire's father Joseph-François was 34 years older than his mother Caroline when they married.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_009",
+        "text": "Baudelaire's mother remarried after his father's death; her second husband, Lieutenant Colonel Jacques Aupick, later became a French ambassador.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_010",
+        "text": "Baudelaire's first published work, under the pseudonym Baudelaire Dufaÿs, was his art review Salon of 1845.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_011",
+        "text": "Baudelaire was a prominent champion of the Romantic painter Eugène Delacroix.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_012",
+        "text": "Baudelaire translated and adapted Thomas De Quincey's Confessions of an English Opium-Eater into French.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_013",
+        "text": "Baudelaire wrote Les Paradis artificiels: opium et haschisch (Artificial Paradises: opium and hashish), published in 1860.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_014",
+        "text": "Les Fleurs du mal expresses the changing nature of beauty in the rapidly industrialising Paris caused by Haussmann's renovation of Paris.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_015",
+        "text": "Baudelaire's novella La Fanfarlo was published in 1847.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_charles_baudelaire_016",
+        "text": "By 1859, Baudelaire's health had significantly deteriorated due to illnesses, long-term use of laudanum, stress, and poverty.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
     "questionIds": [
       "fl_012"
     ]
@@ -38,25 +232,95 @@
     "topicIds": [
       "french_literature"
     ],
-    "articleText": null,
-    "facts": [],
+    "articleText": "== Summary ==\nExistentialism is a family of philosophical views and inquiry that explore the human individual's struggle to lead an authentic life despite the apparent absurdity or incomprehensibility of existence. In examining meaning, purpose, and value, existentialist thought often includes concepts such as existential crises, angst, courage, and freedom.\nExistentialism is associated with several 19th- and 20th-century European philosophers who shared an emphasis on the human subject, despite often profound differences in thought. Among the 19th-century figures now associated with existentialism are philosophers Søren Kierkegaard and Friedrich Nietzsche, as well as novelist Fyodor Dostoevsky, all of whom critiqued rationalism and concerned themselves with the problem of meaning. The word existentialism, however, was not coined until the mid 20th century, during which it became most associated with contemporaneous philosophers Jean-Paul Sartre, Martin Heidegger, Simone de Beauvoir, Karl Jaspers, Gabriel Marcel, Paul Tillich, and more controversially Albert Camus. \nMany existentialists considered traditional systematic or academic philosophies, in style and content, to be too abstract and [...]\n\n== Etymology ==\nThe term existentialism (French: L'existentialisme) was coined by the French Catholic philosopher Gabriel Marcel in the mid-1940s. When Marcel first applied the term to Jean-Paul Sartre, at a colloquium in 1945, Sartre rejected it. Sartre subsequently changed his mind and, on October 29, 1945, publicly adopted the existentialist label in a lecture to the Club Maintenant in Paris, published as L'existentialisme est un humanisme (Existentialism Is a Humanism), a short book that helped popularize existentialist thought. Marcel later came to reject the label himself in favour of Neo-Socratic, in honor of Kierkegaard's essay \"On the Concept of Irony\".\nSome scholars argue that the term should be used to refer only to the cultural movement in Europe in the 1940s and 1950s associated with the works of the philosophers Sartre, Simone de Beauvoir, Maurice Merleau-Ponty, and Albert Camus. Others extend the term to Kierkegaard, and yet others extend it as far back as Socrates. However, it is often identified with the philosophical views of Sartre.\n\n== Definitional issues and background ==\nThe labels existentialism and existentialist are often seen as historical conveniences in as much as they were first applied to many philosophers long after they had died. While existentialism is generally considered to have originated with Kierkegaard, the first prominent existentialist philosopher to adopt the term as a self-description was Sartre. Sartre posits the idea that \"what all existentialists have in common is the fundamental doctrine that existence precedes essence\", as the philosopher Frederick Copleston explains. According to philosopher Steven Crowell, defining existentialism has been relatively difficult, and he argues that it is better understood as a general approach used to reject certain systematic philosophies rather than as a systematic philosophy itself. In a lecture delivered in 1945, Sartre described existentialism as \"the attempt to draw all the consequences from a position of consistent atheism\". For others, existentialism need not involve the rejection of God, but rather \"examines mortal man's search for meaning in a meaningless universe\", considering less \"What is the good life?\" (to feel, be, or do, good), instead asking \"What is life good [...]\n\n== Concepts ==\n\n\n== Opposition to positivism and rationalism ==\nExistentialists oppose defining human beings as primarily rational, and, therefore, oppose both positivism and rationalism. Existentialism asserts that people make decisions based on subjective meaning rather than pure rationality. \nThe rejection of reason as the source of meaning is a common theme of existentialist thought, as is the focus on the anxiety and dread that we feel in the face of our own radical [...]",
+    "facts": [
+      {
+        "id": "fact_existentialism_001",
+        "text": "Existentialism is associated with philosophers like Søren Kierkegaard, Friedrich Nietzsche, Jean-Paul Sartre, Martin Heidegger, and Simone de Beauvoir.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_002",
+        "text": "The term existentialism was coined by French Catholic philosopher Gabriel Marcel in the mid-1940s.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_003",
+        "text": "When Gabriel Marcel first applied the term existentialism to Jean-Paul Sartre at a colloquium in 1945, Sartre initially rejected it.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_004",
+        "text": "On October 29, 1945, Sartre publicly adopted the existentialist label in a lecture to the Club Maintenant in Paris.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_005",
+        "text": "Sartre's lecture was published as L'existentialisme est un humanisme (Existentialism Is a Humanism), a short book that helped popularize existentialist thought.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_006",
+        "text": "Sartre posited that the fundamental existentialist doctrine is that existence precedes essence.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_007",
+        "text": "Existentialism is generally considered to have originated with Kierkegaard.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_008",
+        "text": "Sartre described existentialism in a 1945 lecture as the attempt to draw all the consequences from a position of consistent atheism.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_009",
+        "text": "Key figures in French existentialism include Sartre, Simone de Beauvoir, Maurice Merleau-Ponty, and Albert Camus.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_010",
+        "text": "Existentialists oppose defining human beings as primarily rational, opposing both positivism and rationalism.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_011",
+        "text": "19th-century figures associated with existentialism include philosopher Kierkegaard, Nietzsche, and novelist Fyodor Dostoevsky.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_012",
+        "text": "Existentialist thought often includes concepts such as existential crises, angst, courage, and freedom.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_013",
+        "text": "Marcel later rejected the label existentialism himself in favour of Neo-Socratic, in honor of Kierkegaard's essay On the Concept of Irony.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_existentialism_014",
+        "text": "The word existentialism was not coined until the mid-20th century, despite the philosophical tradition tracing back to the 19th century.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
     "questionIds": [
       "fl_005"
-    ]
-  },
-  {
-    "id": "src_french_new_novel",
-    "title": "Nouveau roman",
-    "url": "https://en.m.wikipedia.org/wiki/Nouveau_roman",
-    "summary": "",
-    "categories": [],
-    "topicIds": [
-      "french_literature"
-    ],
-    "articleText": null,
-    "facts": [],
-    "questionIds": [
-      "fl_010"
     ]
   },
   {
@@ -68,8 +332,87 @@
     "topicIds": [
       "french_literature"
     ],
-    "articleText": null,
-    "facts": [],
+    "articleText": "== Summary ==\nGustave Flaubert (UK:  FLOH-bair, US:  floh-BAIR; French: [ɡystav flobɛʁ]; 12 December 1821 – 8 May 1880) was a French novelist. He has been considered the leading exponent of literary realism in his country and abroad. According to the literary theorist Kornelije Kvas, \"in Flaubert, realism strives for formal perfection, so the presentation of reality tends to be neutral, emphasizing the values and importance of style as an objective method of presenting reality\". He is known especially for his debut novel Madame Bovary (1857), his Correspondence, and his scrupulous devotion to his style and aesthetics. The celebrated short story writer Guy de Maupassant was a protégé of Flaubert.\n\n== Life ==\n\n\n== Perfectionist style ==\nFlaubert famously avoided the inexact, the abstract and the vaguely inapt expression, and scrupulously eschewed the cliché. In a letter to George Sand he said that he spent his time \"trying to write harmonious sentences, avoiding assonances\".\nFlaubert believed in and pursued the principle of finding \"le mot juste\" (\"the right word\"), which he considered as the key means to achieve high quality in literary art. He worked in sullen solitude, sometimes occupying a week in the completion of one page, never satisfied with what he had composed. In Flaubert's correspondence he intimates this, explaining correct prose did not flow out of him and that his style was achieved through work and revision. Flaubert said he wished to forge a style \"that would be rhythmic as verse, precise as the language of the sciences, undulant, deep-voiced as a cello, tipped with flame: a style that would pierce your idea like a dagger, and on which your thought would sail easily ahead over a smooth surface, like a skiff before a good tail wind.\" He famously said that \"an author in his book must be like God in the universe, present everywhere and visible nowhere.\"\nThis painstaking style of writing is also [...]\n\n== Legacy ==\nIn the assessment of critic James Wood:\n\nNovelists should thank Flaubert the way poets thank spring; it all begins again with him. There really is a time before Flaubert and a time after him. Flaubert decisively established what most readers and writers think of as modern realist narration, and his influence is almost too familiar to be visible. We hardly remark of good prose that it favors the telling and brilliant detail; that it privileges a high degree of visual noticing; that it maintains an unsentimental composure and knows how to withdraw, like a good valet, from superfluous commentary; that it judges good and bad neutrally; that it seeks out the truth, even at the cost of repelling us; and that the author's fingerprints on all this are paradoxically, traceable but not visible. You can find some of this in Defoe or Austen or Balzac, but not all of it until Flaubert.\nAs a writer, other than a pure stylist, Flaubert was nearly equal parts romantic and realist. Hence, members of various schools, especially realists and formalists, have traced their origins to his work. The exactitude with which he adapts his expressions to his purpose can be seen in all parts of his work, [...]\n\n== Bibliography ==\n\n\n== References ==\n\n\n== External links ==\n\nWorks by Gustave Flaubert in eBook form at Standard Ebooks\nWorks by Gustave Flaubert at Project Gutenberg\nWorks by or about Gustave Flaubert at the Internet Archive\nWorks by Gustave Flaubert at LibriVox (public domain audiobooks) \nAudiobook (MP3): La femme du monde (taken from Flaubert's early works) (in French)\nFlaubert's works: text, concordances and frequency list\nGustave Flaubert, his work in audio version Archived 27 March 2011 at the Wayback Machine (in French)\nPetri Liukkonen. \"Gustave Flaubert\". Books and Writers.\nSite of the Centre Flaubert at Rouen (in French)\nFlaubert entry Archived 31 October 2005 at the Wayback Machine at the Johns Hopkins University Guide to Literary Theory and Criticism\nBibliomania page\nA comprehensive site in French (in [...]",
+    "facts": [
+      {
+        "id": "fact_gustave_flaubert_001",
+        "text": "Gustave Flaubert was born on 12 December 1821 and died on 8 May 1880.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_gustave_flaubert_002",
+        "text": "Flaubert is considered the leading exponent of literary realism in France and abroad.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_gustave_flaubert_003",
+        "text": "Flaubert's debut novel Madame Bovary was published in 1857.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_gustave_flaubert_004",
+        "text": "The celebrated short story writer Guy de Maupassant was a protégé of Flaubert.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_gustave_flaubert_005",
+        "text": "Flaubert pursued the principle of finding le mot juste (the right word) as the key means to achieve high quality in literary art.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_gustave_flaubert_006",
+        "text": "Flaubert sometimes spent a week completing just one page, so meticulous was his approach to writing.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_gustave_flaubert_007",
+        "text": "Flaubert famously said that an author in his book must be like God in the universe, present everywhere and visible nowhere.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_gustave_flaubert_008",
+        "text": "Flaubert told George Sand he spent his time trying to write harmonious sentences, avoiding assonances.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_gustave_flaubert_009",
+        "text": "Literary critic James Wood said of Flaubert: Novelists should thank Flaubert the way poets thank spring; it all begins again with him.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_gustave_flaubert_010",
+        "text": "Flaubert decisively established what most readers and writers think of as modern realist narration.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_gustave_flaubert_011",
+        "text": "Flaubert was nearly equal parts romantic and realist as a writer, leading both schools to trace their origins to his work.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_gustave_flaubert_012",
+        "text": "Flaubert famously avoided the inexact, the abstract, and the vaguely inapt expression, and scrupulously eschewed the cliché.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_gustave_flaubert_013",
+        "text": "Flaubert is also known for his extensive Correspondence, considered a major part of his literary legacy.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
     "questionIds": [
       "fl_003"
     ]
@@ -83,10 +426,195 @@
     "topicIds": [
       "french_literature"
     ],
-    "articleText": null,
-    "facts": [],
+    "articleText": "== Summary ==\n\"J'Accuse...!\" (French pronunciation: [ʒakyz]; \"I Accuse...!\") is an open letter, written by Émile Zola in response to the events of the Dreyfus affair, that was published on 13 January 1898 in the newspaper L'Aurore. Zola addressed the president of France, Félix Faure, and accused his government of antisemitism and the unlawful jailing of Alfred Dreyfus, a French Army General Staff officer who was sentenced to lifelong penal servitude for espionage, and sent to the penal colony on Devil's Island in French Guiana. Zola pointed out judicial errors and lack of serious evidence during Dreyfus' trial. The letter was printed on the front page of the newspaper, and caused a stir in France and abroad. Zola was prosecuted for libel and found guilty on 23 February 1898. To avoid imprisonment, he fled to England, returning home in June 1899.\nOther pamphlets proclaiming Dreyfus's innocence include Bernard Lazare's A Miscarriage of Justice: The Truth about the Dreyfus Affair (November 1896).\nAs a result of the popularity of the letter, even in the English-speaking world, J'accuse! has become a common expression of outrage and accusation against someone powerful, whatever the merits of the [...]\n\n== Background ==\n\n\n== Publication ==\nZola risked his career in January 1898 when he decided to stand up for Alfred Dreyfus. Zola wrote an open letter to the president of France, Félix Faure, accusing the French government of falsely convicting Alfred Dreyfus and of antisemitism. His intention was to draw the accusation so broadly that he would essentially force men in the government to sue him for libel. Once the suit was filed, the Dreyfusards (supporters of Dreyfus) would have the opportunity to acquire and publicize the shaky evidence on which Dreyfus had been convicted. Zola titled his letter J'Accuse...! (French for \"I Accuse\"), which was published on the front page of Georges Clemenceau's liberal Paris daily L'Aurore.\n\n== Trial of Zola and aftermath ==\nZola was brought to trial for libel for publishing his letter to the president; he was convicted two weeks later. He was sentenced to jail and was removed from the Legion of Honour. To avoid jail time, Zola fled to England. He stayed there until the cabinet fell; he continued to defend Dreyfus.\nFour years after the letter was published, Zola died from carbon monoxide poisoning caused by a blocked chimney. On 4 June 1908, Zola's remains were laid to rest in the Panthéon in Paris. In 1953, the newspaper Libération published a death-bed confession by a Parisian roofer that he had murdered Zola by blocking the chimney of his house.\n\n== Subsequent use of the term ==\nIn 1913, the Mexican deputy Luis Manuel Rojas gave a discourse (Yo acuso...) in front of the Chamber of Deputies against the American ambassador Henry Lane Wilson due to his participation in the assassination of president and vice-president Francisco I. Madero and José María Pino Suárez.\nIn 1915, the German pacifist Richard Grelling wrote a book titled J'Accuse! in which he condemned the actions of the German Empire.\nIn 1919, Abel Gance released his film J'accuse as a statement against World War I, shooting Gance to international fame.\nIn 1925, the most popular Palestinian Arab newspaper, Filastin (La Palestine), published a four-page editorial protesting the Balfour Declaration with the title \"J'Accuse!\"\nIn 1938, the Belgian fascist politician Léon Degrelle published a polemic booklet titled J'accuse against minister Paul Stengers, of being a \"cumulard, a bankster, a plunderer of savings and a coward\". It provoked a retaliatory pamphlet titled J'accuse Léon Degrelle.\nJ'Accuse was the title of an underground newspaper in occupied France edited by Adam Rayski.\nIn 1950, on Easter Sunday, members of the Lettrist movement proclaimed the death of God before the congregation of the [...]\n\n== References ==\n\n\n== Further reading ==\nWilkes Jr., Donald E. (11 February 1998). \"'J'Accuse...!': Émile Zola, Alfred Dreyfus, and the [...]",
+    "facts": [
+      {
+        "id": "fact_jaccuse_001",
+        "text": "J'accuse...! is an open letter written by Émile Zola, published on 13 January 1898 in the newspaper L'Aurore.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_002",
+        "text": "Zola addressed J'accuse...! to the president of France, Félix Faure, accusing his government of antisemitism.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_003",
+        "text": "The letter accused the French government of unlawfully jailing Alfred Dreyfus, who had been sentenced to lifelong penal servitude for espionage.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_004",
+        "text": "Dreyfus was sent to the penal colony on Devil's Island in French Guiana.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_005",
+        "text": "Zola was prosecuted for libel and found guilty on 23 February 1898.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_006",
+        "text": "To avoid imprisonment, Zola fled to England after his conviction, returning home in June 1899.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_007",
+        "text": "J'accuse...! was published on the front page of Georges Clemenceau's liberal Paris daily L'Aurore.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_008",
+        "text": "Zola's strategy was to frame the accusations so broadly that the government would be forced to sue him for libel, giving Dreyfus supporters access to evidence.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_009",
+        "text": "Four years after publishing J'accuse...!, Zola died from carbon monoxide poisoning caused by a blocked chimney.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_010",
+        "text": "Zola was convicted of libel, sentenced to jail, and removed from the Legion of Honour.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_011",
+        "text": "On 4 June 1908, Zola's remains were laid to rest in the Panthéon in Paris.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_012",
+        "text": "In 1953, a Parisian roofer made a deathbed confession that he had murdered Zola by deliberately blocking his chimney.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_013",
+        "text": "As a result of J'accuse...!, the expression j'accuse has become a common expression of outrage and accusation against powerful figures.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_jaccuse_014",
+        "text": "Bernard Lazare's pamphlet A Miscarriage of Justice: The Truth about the Dreyfus Affair was published in November 1896, also proclaiming Dreyfus's innocence.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
     "questionIds": [
       "fl_009"
+    ]
+  },
+  {
+    "id": "src_french_new_novel",
+    "title": "Nouveau roman",
+    "url": "https://en.m.wikipedia.org/wiki/Nouveau_roman",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "french_literature"
+    ],
+    "articleText": "== Summary ==\nThe Nouveau Roman (French pronunciation: [nuvo ʁɔmɑ̃], \"new novel\") is a type of French novel in the 1950s and 60s that diverged from traditional literary genres. Émile Henriot coined the term in an article in the popular French newspaper Le Monde on May 22, 1957 to describe certain writers who experimented with style in each novel, creating an essentially new style each time.\n\n== Overview ==\nA group of writers dubbed Nouveaux Romanciers, \"new novelists\", emerged in the mid-1950s. Vivian Mercier considered Michel Butor, Alain Robbe-Grillet and Nathalie Sarraute to be the core of the group, becoming known through their theoretical writings about their writing practices in addition to their novels. This group has commonly been expanded by critics to include other innovative writers who had published with Les Éditions de Minuit under Jérôme Lindon, such as Samuel Beckett, Marguerite Duras, Claude Ollier, Robert Pinget and Claude Simon.\nThe style had different approaches but generally rejected the traditional use of chronology, plot, character, and the omniscient narrator in fiction. The Nouveau Roman authors were open to influences from writers such as Dostoevsky, Joyce, Faulkner and Kafka, as well as the cinema.\n\n== Theory ==\nThe earliest theoretical writings about the Nouveau Roman were the four essays by Nathalie Sarraute compiled in 1956, L'Ère du soupçon (The Age of Suspicion). Alain Robbe-Grillet and Michel Butor also published essays on the nature and future of the novel which were collected in Pour un Nouveau Roman (1963) and Essais sur le roman (1969), respectively.\nRejecting many of the established features of the novel to date, Robbe-Grillet regarded many earlier novelists as old-fashioned in their focus on plot, action, narrative, ideas, and character. Instead, he put forward a theory of the novel as focused on objects: the ideal nouveau roman would be an individual version and vision of things, subordinating plot and character to the details of the world rather than enlisting the world in their service.\n\nThe Nouveau Roman literary movement and the novels themselves were further theorized by Jean Ricardou, who in addition to his theoretical works (e.g., Problèmes du Nouveau Roman) also published nouveaux romans himself, such as L'Observatoire de Cannes (1961), La Prise de Constantinople (1965), and Les Lieux-dits (1969). He also organized, directed and published the proceedings of several [...]\n\n== Nouveau Roman and cinema ==\nThe Nouveau Roman style also left its mark on the screen as writers Marguerite Duras and Alain Robbe-Grillet became involved with the Left Bank film movement (often labelled as part of the French New Wave). Their collaboration with director Alain Resnais resulted in critical successes such as Hiroshima mon amour (1958) and Last Year at Marienbad (1961). They would later go on to direct their own films.\nInfluenced by these films, French courses in North America during the 1960s and 1970s often included works by Nouveau Roman authors such as Alain Robbe-Grillet's La Jalousie (1957), Michel Butor's La Modification (1957), Nathalie Sarraute's Le Planetarium (1957) and Marguerite Duras' Moderato Cantabile (1958).\n\n== List of central writers and later figures ==\n\n\n== See also ==\nFrench literature\nFrancophone literature\nList of French-language authors\nAntinovel\n\n== References ==\n\n\n== Bibliography ==\nBaldick, Chris (2015). \"Nouveau roman, le\". The Oxford Dictionary of Literary Terms (Online Version) (4th ed.). Oxford University Press. ISBN 9780191783234.\nLuscans, Bernard (2008). La représentation des objets dans le nouveau nouveau roman, Chapel Hill, Université de Caroline du Nord. [1]\nPivato, Joseph. 'Nouveau Roman Canadien', Canadian Literature 58 (Autumn 1973) 51–60. [canlit.ca/article/nouveau-roman-canadien/]\nPivato, Joseph. 'Nancy Huston Meets le Nouveau Roman, Athabasca University Canadian Writers Site. [canadian-writers.athabascau.ca/english/writers/nhuston/nouveau_roman.php.php]",
+    "facts": [
+      {
+        "id": "fact_french_new_novel_001",
+        "text": "The Nouveau Roman is a type of French novel from the 1950s and 60s that diverged from traditional literary genres.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_002",
+        "text": "Émile Henriot coined the term Nouveau Roman in an article in Le Monde on May 22, 1957.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_003",
+        "text": "The core writers of the Nouveau Roman movement were Michel Butor, Alain Robbe-Grillet, and Nathalie Sarraute.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_004",
+        "text": "The Nouveau Roman movement also included Samuel Beckett, Marguerite Duras, Claude Ollier, Robert Pinget, and Claude Simon, all published by Les Éditions de Minuit.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_005",
+        "text": "The Nouveau Roman generally rejected the traditional use of chronology, plot, character, and the omniscient narrator in fiction.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_006",
+        "text": "The earliest theoretical writings about the Nouveau Roman were four essays by Nathalie Sarraute compiled in 1956 as L'Ère du soupçon (The Age of Suspicion).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_007",
+        "text": "Alain Robbe-Grillet collected his essays on the novel in Pour un Nouveau Roman (1963).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_008",
+        "text": "Robbe-Grillet proposed a theory of the novel focused on objects rather than plot and character.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_009",
+        "text": "Marguerite Duras and Alain Robbe-Grillet collaborated with director Alain Resnais, producing Hiroshima mon amour (1958) and Last Year at Marienbad (1961).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_010",
+        "text": "The Nouveau Roman style left its mark on cinema through its connection to the French New Wave and the Left Bank film movement.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_011",
+        "text": "Notable Nouveau Roman novels include Alain Robbe-Grillet's La Jalousie (1957) and Michel Butor's La Modification (1957).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_012",
+        "text": "Jean Ricardou further theorized the Nouveau Roman movement and published theoretical works such as Problèmes du Nouveau Roman.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_013",
+        "text": "Nouveau Roman authors were influenced by writers such as Dostoevsky, Joyce, Faulkner, and Kafka, as well as cinema.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_french_new_novel_014",
+        "text": "Les Éditions de Minuit, under Jérôme Lindon, was the primary publisher of Nouveau Roman authors.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
+    "questionIds": [
+      "fl_010"
     ]
   },
   {
@@ -98,8 +626,99 @@
     "topicIds": [
       "french_literature"
     ],
-    "articleText": null,
-    "facts": [],
+    "articleText": "== Summary ==\nSimone Lucie Ernestine Marie Bertrand de Beauvoir (UK: , US: ; French: [simɔn də bovwaʁ] ; 9 January 1908 – 14 April 1986) was a French existentialist philosopher, writer, social theorist, and feminist activist. Though she did not consider herself a philosopher, nor was she considered one at the time of her death, she had a significant influence on both feminist existentialism and feminist theory.\nBeauvoir wrote novels, essays, short stories, biographies, autobiographies, and monographs on philosophy, politics, and social issues. She was best known for her \"trailblazing work in feminist philosophy\", The Second Sex (1949), a detailed analysis of women's oppression and a foundational tract of contemporary feminism. She was also known for her novels, the most famous of which were She Came to Stay (1943) and The Mandarins (1954). \nHer most enduring contribution to literature is her memoirs, notably the first volume, Mémoires d'une jeune fille rangée (1958). She received the 1954 Prix Goncourt, the 1975 Jerusalem Prize, and the 1978 Austrian State Prize for European Literature. She was also nominated for the Nobel Prize in Literature in 1961, 1969 and 1973. However, Beauvoir generated [...]\n\n== Personal life ==\n\n\n== The Second Sex ==\nThe Second Sex, first published in 1949 in French as Le Deuxième Sexe, turns the existentialist mantra that existence precedes essence into a feminist one: \"One is not born woman but becomes woman\" (French: \"On ne naît pas femme, on le devient\"). With this famous phrase, Beauvoir first articulated what has come to be known as the sex-gender distinction, that is, the distinction between biological sex and the social and historical construction of gender and its attendant stereotypes. Beauvoir argues that \"the fundamental source of women's oppression is its [femininity's] historical and social construction as the quintessential\" other.\nBeauvoir defines women as the \"second sex\" because women are defined as inferior to men. She pointed out that Aristotle argued women are \"female by virtue of a certain lack of qualities\", while Thomas Aquinas referred to women as \"imperfect men\" and the \"incidental\" being. She quotes \"In itself, homosexuality is as limiting as heterosexuality: the ideal should be to be capable of loving a woman or a man; either, a human being, without feeling fear, restraint, or obligation.\"\nBeauvoir asserted that women are as capable of choice as men, and thus can [...]\n\n== Other notable works ==\n\n\n== Legacy ==\nBeauvoir's The Second Sex is considered a foundational work in the history of feminism. Beauvoir had denied being a feminist multiple times, but ultimately admitted that she was one after The Second Sex became crucial in the world of feminism. The work has had a profound influence, opening the way for second-wave feminism in the United States, Canada, Australia, and around the world. Although Beauvoir has been quoted as saying, \"There is a certain unreasonable demand that I find a little stupid because it would enclose me, immobilize me completely in a sort of feminist concrete block,\" her works on feminism have paved the way for all future feminists. The founders of the second-wave read The Second Sex in translation, including Kate Millett, Shulamith Firestone, Juliet Mitchell, Ann Oakley and Germaine Greer.  All acknowledged their profound debt to Beauvoir, including visiting her in France, consulting with her at crucial moments, and dedicating works to her.  Betty Friedan, whose 1963 book The Feminine Mystique is often regarded as the opening salvo of second-wave feminism in the United States, later said that reading The Second Sex in the early 1950s \"led me to whatever [...]\n\n== Prizes ==\nPrix Goncourt, 1954\nJerusalem Prize, 1975\nAustrian State Prize for European Literature, 1978\n\n== Works ==\n\n\n== See also ==\nFeminism in France\nFemmes solidaires\nList of women's rights activists\n\n== References ==\n\n\n== Further reading ==\nAppignanesi, Lisa, 2005, Simone de Beauvoir, [...]",
+    "facts": [
+      {
+        "id": "fact_simone_de_beauvoir_001",
+        "text": "Simone de Beauvoir was born on 9 January 1908 and died on 14 April 1986.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_002",
+        "text": "Beauvoir was a French existentialist philosopher, writer, social theorist, and feminist activist.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_003",
+        "text": "Beauvoir's most famous work is The Second Sex (1949), a foundational tract of contemporary feminism.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_004",
+        "text": "The Second Sex was first published in French in 1949 as Le Deuxième Sexe.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_005",
+        "text": "Beauvoir coined the famous phrase: One is not born woman but becomes woman (On ne naît pas femme, on le devient).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_006",
+        "text": "Beauvoir's phrase articulated the sex-gender distinction — the difference between biological sex and the social construction of gender.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_007",
+        "text": "Beauvoir received the 1954 Prix Goncourt, the 1975 Jerusalem Prize, and the 1978 Austrian State Prize for European Literature.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_008",
+        "text": "Beauvoir was nominated for the Nobel Prize in Literature in 1961, 1969, and 1973.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_009",
+        "text": "Beauvoir's novel She Came to Stay was published in 1943 and The Mandarins in 1954.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_010",
+        "text": "Beauvoir's memoir Mémoires d'une jeune fille rangée (1958) is considered her most enduring contribution to literature.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_011",
+        "text": "The Second Sex opened the way for second-wave feminism in the United States, Canada, Australia, and around the world.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_012",
+        "text": "Second-wave feminists who acknowledged their debt to Beauvoir include Kate Millett, Shulamith Firestone, and Germaine Greer.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_013",
+        "text": "Betty Friedan said that reading The Second Sex in the early 1950s led her to write The Feminine Mystique (1963).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_014",
+        "text": "Though Beauvoir denied being a feminist multiple times, she ultimately admitted she was one after The Second Sex became crucial to the feminist movement.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_simone_de_beauvoir_015",
+        "text": "Beauvoir argued that women are defined as the second sex because they are defined as inferior to men, as the quintessential Other.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
     "questionIds": [
       "fl_004"
     ]
@@ -113,8 +732,99 @@
     "topicIds": [
       "french_literature"
     ],
-    "articleText": null,
-    "facts": [],
+    "articleText": "== Summary ==\nIn Search of Lost Time (French: À la recherche du temps perdu), first translated into English as Remembrance of Things Past, and sometimes referred to in French as La Recherche (The Search), is a novel in seven volumes by French author Marcel Proust. This early twentieth-century work is his most prominent, known for both its length and its theme of involuntary memory.\nThe novel gained fame in English through translations by C. K. Scott Moncrieff and Terence Kilmartin and was known in the Anglosphere as Remembrance of Things Past. The title In Search of Lost Time, a literal rendering of the French, became ascendant after D. J. Enright adopted it for his revised translation published in 1992.\nIn Search of Lost Time follows the narrator's recollections of childhood and experiences into adulthood in late 19th-century and early 20th-century high-society France. Proust began to shape the novel in 1909; he continued to work on it until his final illness in the autumn of 1922 forced him to break off. Proust established the structure early on, but even after volumes were initially finished, he continued to add new material and edited one volume after another for publication. The last three [...]\n\n== Initial publication ==\nThe novel was initially published in seven volumes:\n\nSwann's Way (Du côté de chez Swann, sometimes translated as The Way by Swann's), published in 1913, was rejected by a number of publishers, including Fasquelle, Ollendorff, and the Nouvelle Revue Française (NRF). André Gide was famously given the manuscript to read to advise the NRF on publication and, leafing through the seemingly endless collection of memories and philosophizing or melancholic episodes, came across a few minor syntactic errors, which made him decide to turn the work down in his audit. Proust eventually arranged with the publisher Grasset to pay the cost of publication himself. When published, the book was advertised as the first of a three-volume novel (Bouillaguet and Rogers, 316–7). Du côté de chez Swann is divided into four parts: \"Combray I\" (sometimes referred to in English as the \"Overture\"), \"Combray II\", \"Un Amour de Swann\" (\"Swann in Love\"), and \"Noms de pays: le nom\" (\"Names of places: the name\"). A third-person novella within Du côté de chez Swann, \"Un Amour de Swann\" is sometimes published as a volume by itself. As it forms the self-contained story of Charles Swann's love affair with Odette de [...]\n\n== Synopsis ==\nThe novel recounts the experiences of the Narrator (who is never definitively named) while he is growing up, learning about art, participating in society, and falling in love.\nAn approximate timeline of the novel was deduced by literary theorist Gérard Genette in his 1980 book, Narrative Discourse: An Essay in Method.\n\nThe narrator's birth: 1878\nVolume I: Swann's Way – 1883–1893 (with \"Swann in Love\" taking place in 1877–1878)\nVolume II: In the Shadow of Young Girls in Flower – 1893–1897\nVolume III: The Guermantes Way – 1897–1899\nVolume IV: Sodom and Gomorrah – 1899–1900\nVolume V: The Prisoner – 1900–1902\nVolume VI: The Fugitive – 1902–1903\nVolume VII: Time Regained – 1903–1925\n\n== Themes ==\nÀ la recherche made a decisive break with the 19th-century realist and plot-driven novel, populated by people of action and people representing social and cultural groups or morals. Although parts of the novel could be read as an exploration of snobbery, deceit, jealousy and suffering, and although it contains a multitude of realistic details, the focus is not on the development of a tight plot or of a coherent evolution but on a multiplicity of perspectives and on the formation of experience. The protagonists of the first volume (the narrator as a boy and Swann) are, by the standards of 19th-century novels, remarkably introspective and passive, nor do they trigger action from other leading characters; to contemporary readers, reared on Honoré de Balzac, Victor Hugo and Leo Tolstoy, they would not function as centers of a [...]",
+    "facts": [
+      {
+        "id": "fact_swanns_way_001",
+        "text": "Swann's Way (Du côté de chez Swann) was published in 1913 and is the first volume of In Search of Lost Time by Marcel Proust.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_002",
+        "text": "In Search of Lost Time (À la recherche du temps perdu) is a novel in seven volumes by Marcel Proust.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_003",
+        "text": "In Search of Lost Time was first translated into English as Remembrance of Things Past.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_004",
+        "text": "The title In Search of Lost Time became ascendant after D. J. Enright adopted it for his revised translation published in 1992.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_005",
+        "text": "Proust began shaping the novel in 1909 and continued working on it until his final illness in autumn 1922.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_006",
+        "text": "The last three volumes of In Search of Lost Time were published posthumously.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_007",
+        "text": "Swann's Way was rejected by publishers including Fasquelle, Ollendorff, and the Nouvelle Revue Française before Proust paid for its publication through Grasset.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_008",
+        "text": "André Gide famously rejected the manuscript for the NRF after leafing through it and finding minor syntactic errors.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_009",
+        "text": "Du côté de chez Swann is divided into four parts: Combray I, Combray II, Un Amour de Swann, and Noms de pays: le nom.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_010",
+        "text": "Un Amour de Swann, a third-person novella within Swann's Way, is sometimes published as a separate volume.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_011",
+        "text": "In Search of Lost Time is known for both its extraordinary length and its theme of involuntary memory.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_012",
+        "text": "The English translation of In Search of Lost Time by C. K. Scott Moncrieff and Terence Kilmartin gained the novel fame in English.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_013",
+        "text": "In Search of Lost Time made a decisive break with the 19th-century realist and plot-driven novel, focusing instead on multiplicity of perspectives and formation of experience.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_014",
+        "text": "An approximate timeline of the novel was deduced by literary theorist Gérard Genette in his 1980 book Narrative Discourse: An Essay in Method.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_swanns_way_015",
+        "text": "When first published, Swann's Way was advertised as the first of a three-volume novel, though it eventually expanded to seven volumes.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
     "questionIds": [
       "fl_008"
     ]
@@ -128,8 +838,99 @@
     "topicIds": [
       "french_literature"
     ],
-    "articleText": null,
-    "facts": [],
+    "articleText": "== Summary ==\nThe Hunchback of Notre-Dame (French: Notre-Dame de Paris, lit. 'Our Lady of Paris', originally titled Notre-Dame de Paris. 1482) is a French Gothic novel by Victor Hugo, published in 1831. The title refers to the Notre-Dame Cathedral, which features prominently throughout the novel. It focuses on the unfortunate story of Quasimodo, the Romani street dancer Esmeralda, and Quasimodo's guardian the Archdeacon Claude Frollo in 15th-century Paris. All its elements—the Renaissance setting, impossible love affairs and marginalised characters—make the work a model of the literary themes of Romanticism.\nThe novel is considered a classic of French literature and has been adapted repeatedly for film, stage and television. Some prominent examples include a 1923 silent film with Lon Chaney, a 1939 sound film with Charles Laughton, a 1956 film with Anthony Quinn, and a 1996 animated film with Tom Hulce.\nWritten during a time of cultural upheaval, the novel champions historical preservation. Hugo solidified Notre-Dame de Paris as a national icon, arguing for the preservation of Gothic architecture as an element of France's cultural heritage.\n\n== Title ==\nThe novel's French title, Notre-Dame de Paris, refers to Notre-Dame Cathedral. Frederic Shoberl's 1833 English translation was published as The Hunchback of Notre-Dame. This became the generally used title in English, referring to Quasimodo, Notre-Dame's bell-ringer. Victor Hugo was allegedly upset that this translation placed focus on only one character, seeing his novel as a broader plea for the preservation of France's gothic architecture.\n\n== Background ==\nVictor Hugo initially agreed to write Notre-Dame de Paris in 1828. Due to Hugo's other literary projects, the novel fell by the wayside until 1830. A primary theme of the novel is that of the value of Gothic architecture, which was neglected and often destroyed to be replaced by new buildings or defaced by replacement of parts of buildings in a newer style. For instance, the medieval stained glass panels of Notre-Dame de Paris had been replaced by white glass to let more light into the church. A few years earlier, Hugo had already published a paper entitled Guerre aux Démolisseurs (War [declared] on the Demolishers) specifically aimed at saving Paris's medieval architecture. The agreement with his original publisher, Gosselin, was that the book would be finished that same year, but Hugo was constantly delayed due to the demands of other projects. In the summer of 1830, Gosselin demanded that Hugo complete the book by February 1831. Beginning in September 1830, Hugo worked nonstop on the project thereafter.\nLegend has it that Hugo locked himself in his room, getting rid of his clothes to write the novel on time, the idea being he could not go outside without clothes.\n\n== Plot ==\nIn 1482 Paris, during the 21st year of the reign of Louis XI, 10 years before Christopher Columbus landed in the Americas, sixteen-year-old Roma dancer Esmeralda is the romantic and sexual interest of many men, including Captain Phoebus de Chateaupers; poet Pierre Gringoire; the deformed cathedral bell-ringer Quasimodo, and his guardian Archdeacon Claude Frollo. Frollo is torn between his obsessive lust for Esmeralda and the rules of Notre-Dame Cathedral. He orders Quasimodo to kidnap her, but Quasimodo is captured by Phoebus and his guards. After he saves her, Esmeralda becomes infatuated with Phoebus. Gringoire, who attempted to help Esmeralda but was knocked out by Quasimodo, unwittingly wanders into the \"Court of Miracles\", populated by the Roma and the truands (beggars). They are about to hang him for being an outsider, but Esmeralda saves him by agreeing to marry him. She only does it to save his life, however, and much to Gringoire's annoyance, refuses to allow him to touch her.\nThe following day, Quasimodo is sentenced to be flogged and turned on the pillory for two hours, followed by another hour's public exposure. He calls for water. [...]",
+    "facts": [
+      {
+        "id": "fact_the_hunchback_of_notredame_001",
+        "text": "The Hunchback of Notre-Dame (Notre-Dame de Paris) is a French Gothic novel by Victor Hugo, published in 1831.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_002",
+        "text": "The novel's original French title was Notre-Dame de Paris. 1482, referring to the setting in 15th-century Paris.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_003",
+        "text": "The English title The Hunchback of Notre-Dame comes from Frederic Shoberl's 1833 translation.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_004",
+        "text": "Victor Hugo was allegedly upset that the English translation focused on Quasimodo, as he saw the novel as a broader plea for Gothic architecture preservation.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_005",
+        "text": "The main characters are Quasimodo the bell-ringer, Roma dancer Esmeralda, and Archdeacon Claude Frollo.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_006",
+        "text": "Hugo initially agreed to write Notre-Dame de Paris in 1828, but the novel fell by the wayside until 1830.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_007",
+        "text": "A primary theme of the novel is the value and preservation of Gothic architecture against neglect and destruction.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_008",
+        "text": "Hugo had previously published a paper called Guerre aux Démolisseurs (War on the Demolishers) to save Paris's medieval architecture.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_009",
+        "text": "Legend says Hugo locked himself in his room and got rid of his clothes to ensure he couldn't go outside while writing the novel on deadline.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_010",
+        "text": "Hugo's publisher Gosselin demanded in summer 1830 that Hugo complete the book by February 1831.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_011",
+        "text": "Notable film adaptations include a 1923 silent film with Lon Chaney and a 1996 animated film with Tom Hulce.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_012",
+        "text": "A 1939 sound film adaptation starred Charles Laughton and a 1956 film starred Anthony Quinn as Quasimodo.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_013",
+        "text": "The novel's Romanticism is reflected in its Renaissance setting, impossible love affairs, and marginalised characters.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_014",
+        "text": "Hugo solidified Notre-Dame Cathedral as a national icon by arguing for preservation of Gothic architecture as cultural heritage.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_hunchback_of_notredame_015",
+        "text": "The novel is set in 1482 Paris, during the 21st year of the reign of Louis XI.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
     "questionIds": [
       "fl_007"
     ]
@@ -143,7 +944,7 @@
     "topicIds": [
       "french_literature"
     ],
-    "articleText": null,
+    "articleText": "== Summary ==\nThe Miser (French: L'Avare; pronounced [lavaʁ]) is a five-act comedy in prose by the French playwright Molière. It was first performed on September 9, 1668, in the theatre of the Palais-Royal in Paris.\nThis is a character comedy whose main character, Harpagon, is characterised by his caricatured avarice. Harpagon is an elderly widower who wishes to have an arranged marriage to the impoverished young woman Mariane, while securing another arranged marriage for his unwilling daughter Élise. He is initially unaware that Mariane is the girlfriend of his own son, or that Élise has a boyfriend. Meanwhile, Harpagon is stubbornly protecting a cassette full of gold. When his gold is stolen, Harpagon considers the entire urban and suburban population to be suspects for the crime. The five acts comprise five, five, nine, seven and six scenes respectively. \nThe characters break the fourth wall by speaking to the audience, though the other characters demand to know who is being spoken to.\n\n== The play ==\nThe play was first produced when Molière's company was under the protection of Louis XIV. It was loosely based on the Latin comedy Aulularia by Plautus, from which many incidents and scraps of dialogue are borrowed, as well as from contemporary Italian farces.\nThe miser of the title is called Harpagon, a name adapted from the term Greek: ἁρπάγη pronounced harpágay, meaning a hook or grappling iron (ἁρπάγη < ἁρπάζω = grab). He is obsessed with the wealth he has amassed and always ready to save expenses. Now a widower, he has a son, Cléante, and a daughter, Élise. Although he is over sixty, he is attempting to arrange a marriage between himself and an attractive young woman, Mariane. She and Cléante are already devoted to each other, however, and the son attempts to procure a loan to help her and her sick mother, who are impoverished.\nÉlise, Harpagon's daughter, is the beloved of Valère, but her father hopes to marry her to a wealthy man of his choosing, Seigneur Anselme. Meanwhile, Valère has taken a job as a steward in Harpagon's household in order to be close to Élise. The complications are only resolved at the end by the rather conventional discovery that some of the principal [...]\n\n== Roles and original actors ==\nHarpagon\nMolière\nThe tyrannical father of Cléante and Élise Harpagon is a sexagenarian bourgeois miser whose love for his cash box exceeds that for his children.  He builds his wealth by lending at usurious rate while pinching every penny at home, refusing to replace the worn-out clothes of the servants he abuses.  The sexagenarian is suitor of the young Mariane, whom Cléante also wishes to marry.\nCléante\nDu Croisy\nHarpagon's profligate son, Cléante is also in love with Mariane.  Intending to run away with her, he attempts to procure an illegal loan to provide Mariane and her ill mother with money, only to discover the lender is his own father.  There is mutual resentment between the two over not only money but over love when Harpagon tricks his son into revealing his love for Mariane.\nÉlise\nMlle de Brie\nThe daughter of Harpagon, Élise owes her life to Valère, who saved her from drowning just before the beginning of the play.  She opposes her father's plans to wed her to the elderly Anselme, who has agreed to take her without a dowry.\nValère\nLa Grange\nValère has saved Élise from drowning and has come into the employ of Harpagon with intentions to win her.  Harpagon mistrusts him [...]\n\n== Synopsis ==\nAct I\nLa Flèche is waiting for his master in Harpagon's house. Valère explains to the audience how he has assumed the role of a servant to be closer to Élise. They met when he rescued her from drowning and they fell in love. Harpagon enters, angry with La Flèche for hanging around. He suspects him of stealing something from him. La Flèche is angry at being suspected and points out that Harpagon is so careful with his money that it would be impossible to steal it. Harpagon confides in the audience expressing anxiety [...]",
     "facts": [],
     "questionIds": [
       "fl_006"
