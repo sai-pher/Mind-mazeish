@@ -224,10 +224,169 @@
     "topicIds": [
       "therapy"
     ],
-    "articleText": null,
-    "facts": [],
+    "articleText": "== Summary ==\nDialectical behavior therapy (DBT) is an evidence-based psychotherapy that began with efforts to treat personality disorders and interpersonal conflicts. Evidence suggests that DBT can be useful in treating mood disorders and suicidal ideation as well as for changing behavioral patterns such as self-harm and substance use. DBT evolved into a process in which the therapist and client work with acceptance and change-oriented strategies and ultimately balance and synthesize them as comparable to the philosophical dialectical process of thesis and antithesis, followed by synthesis.\nThis approach was developed by Marsha M. Linehan, a psychology researcher at the University of Washington. She defines it as \"a synthesis or integration of opposites\". DBT was designed to help people increase their emotional and cognitive regulation by learning about the triggers that lead to reactive states and by helping to assess which coping skills to apply in the sequence of events, thoughts, feelings, and behaviors to help avoid undesired reactions. The treatment was first described in detail in her 1993 book Cognitive-Behavioral Treatment of Borderline Personality Disorder. Linehan later disclosed to [...]\n\n== Overview ==\nDBT is sometimes considered a part of the \"third wave\" of cognitive-behavioral therapy, as DBT adapts CBT to assist patients in dealing with stress. DBT focuses on treating disorders that are characterised by impulsivity and emotional dysregulation.\nDBT strives to have the patient view the therapist as an accepting ally rather than an adversary in the treatment of psychological issues: many treatments at this time left patients feeling \"criticized, misunderstood, and invalidated\" due to the way these methods \"focused on changing cognitions and behaviors.\" Accordingly, the therapist aims to accept and validate the client's feelings at any given time, while, nonetheless, informing the client that some feelings and behaviors are maladaptive, and showing them better alternatives. In particular, DBT targets self-harm and suicide attempts by identifying the function of that behavior and obtaining that function safely through DBT coping skills. DBT focuses on the client acquiring new skills and changing their behaviors, with the ultimate goal of achieving a \"life worth living\".\nIn DBT's biosocial theory of BPD, clients have a biological predisposition for emotional dysregulation, and [...]\n\n== Four modules ==\n\n\n== Tools ==\n\n\n== Efficacy ==\n\n\n== See also ==\nAcceptance and commitment therapy – Form of cognitive behavioral psychotherapy\nBehaviour therapy – Branch of psychotherapy\nCognitive emotional behavioral therapy – Mental health conditions\nMentalization-based treatment – Form of psychotherapy\nNonviolent Communication – Communication process intended to increase empathy\nRational emotive behavior therapy – PsychotherapyPages displaying short descriptions with no spaces\nSocial skills – Competence facilitating interaction and communication with others\n\n== References ==\n\n\n== Further reading ==\n\n\n== External links ==\n\nWorld Dialectical Behavior Therapy Association (WDBTA)\nLinehan Board of Certification (DBT-LBC)",
+    "facts": [
+      {
+        "id": "fact_dialectical_behavior_therapy_001",
+        "text": "Dialectical behavior therapy (DBT) was developed by psychologist Marsha M. Linehan at the University of Washington.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_002",
+        "text": "DBT was originally developed to treat borderline personality disorder (BPD).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_003",
+        "text": "DBT is classified as an evidence-based psychotherapy.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_004",
+        "text": "The treatment was first described in detail in Linehan's 1993 book Cognitive-Behavioral Treatment of Borderline Personality Disorder.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_005",
+        "text": "DBT is considered part of the 'third wave' of cognitive-behavioral therapy.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_006",
+        "text": "The word 'dialectical' in DBT refers to the synthesis of opposites, comparable to the philosophical process of thesis, antithesis, and synthesis.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_007",
+        "text": "DBT balances acceptance and change-oriented strategies in therapy.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_008",
+        "text": "DBT was designed to help people increase their emotional and cognitive regulation by learning about triggers that lead to reactive states.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_009",
+        "text": "DBT strives to have the patient view the therapist as an accepting ally rather than an adversary.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_010",
+        "text": "DBT targets self-harm and suicide attempts by identifying the function of the behavior and finding safer alternatives.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_011",
+        "text": "The ultimate goal of DBT is for clients to achieve a 'life worth living'.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_012",
+        "text": "DBT's biosocial theory of BPD holds that clients have a biological predisposition for emotional dysregulation combined with an invalidating environment.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_013",
+        "text": "DBT focuses on treating disorders characterized by impulsivity and emotional dysregulation.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_014",
+        "text": "DBT has four core skill-training modules: mindfulness, distress tolerance, emotional regulation, and interpersonal effectiveness.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_015",
+        "text": "The mindfulness module in DBT is drawn from Zen Buddhist practices and emphasizes non-judgmental awareness of the present moment.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_016",
+        "text": "The distress tolerance module teaches skills to tolerate painful events and emotions without making them worse.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_017",
+        "text": "The emotional regulation module in DBT helps clients identify, understand, and change unwanted emotional states.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_018",
+        "text": "The interpersonal effectiveness module teaches skills for navigating relationships while maintaining self-respect and achieving goals.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_019",
+        "text": "Standard DBT includes individual therapy, group skills training, telephone coaching, and a therapist consultation team.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_020",
+        "text": "Evidence suggests DBT can be useful in treating mood disorders and suicidal ideation.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_021",
+        "text": "DBT has been shown effective for changing behavioral patterns such as self-harm and substance use.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_022",
+        "text": "DBT-A is an adaptation of DBT specifically designed for adolescents.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_023",
+        "text": "DBT has been adapted for use in substance use disorders, eating disorders, and PTSD.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_024",
+        "text": "Marsha Linehan later disclosed that she herself had been diagnosed with borderline personality disorder, which partly motivated her to develop DBT.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_dialectical_behavior_therapy_025",
+        "text": "A key tool in DBT is the diary card, which clients use daily to track emotions, urges, and use of coping skills.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
     "questionIds": [
-      "ther_002"
+      "ther_002",
+      "therapy_021",
+      "therapy_022",
+      "therapy_023",
+      "therapy_024",
+      "therapy_025",
+      "therapy_026",
+      "therapy_027",
+      "therapy_028"
     ]
   },
   {
@@ -239,10 +398,167 @@
     "topicIds": [
       "therapy"
     ],
-    "articleText": null,
-    "facts": [],
+    "articleText": "== Summary ==\nEye movement desensitization and reprocessing (EMDR) is a form of psychotherapy designed to treat post-traumatic stress disorder (PTSD). It was devised by Francine Shapiro in 1987.\nEMDR involves talking about traumatic memories while engaging in side-to-side eye movements or other forms of bilateral stimulation. It is also used for some other psychological conditions.\nEMDR is recommended for the treatment of PTSD by various government and medical bodies citing varying levels of evidence, including the World Health Organization, the UK National Institute for Health and Care Excellence, the Australian National Health and Medical Research Council, and the US Departments of Veterans Affairs and Defense. The American Psychological Association does not endorse EMDR as a first-line treatment, but indicates that it is probably effective for treating adult PTSD. \nSystematic analyses published since 2013 generally indicate that EMDR treatment efficacy for adults with PTSD is equivalent to trauma-focused cognitive and behavioral therapies (TF-CBT), such as prolonged exposure therapy (PE) and cognitive processing therapy (CPT). However, bilateral stimulation does not substantially contribute [...]\n\n== History ==\nEMDR was invented by Francine Shapiro in 1987. In a workshop, Shapiro related how the idea of the therapy came to her while she was taking a walk in the woods, and discerned she had been able to cope better with disturbing thoughts when also experiencing saccadic eye movements. Psychologist Gerald Rosen has expressed doubt about this description, saying that people are normally not aware of this type of eye movement.\n\n== Technique ==\nEMDR is typically undertaken in a series of sessions with a trained therapist. The number of sessions can vary depending on the progress made. A typical EMDR therapy session lasts from 60 to 90 minutes.\nThe person being treated is asked to recall an image, phrase, and emotion that represent a level of distress related to a trigger while generating one of several types of bilateral sensory input, such as side-to-side eye movements or hand tapping. The 2013 World Health Organization practice guideline says that \"Like cognitive behavioral therapy (CBT) with a trauma focus, EMDR aims to reduce subjective distress and strengthen adaptive beliefs related to the traumatic event. Unlike CBT with a trauma focus, EMDR does not involve (a) detailed descriptions of the event, (b) direct challenging of beliefs, (c) extended exposure or (d) homework.\"\n\n== Possible mechanisms ==\n\n\n== Research ==\n\n\n== Professional practice guidelines ==\nThe Institute of Medicine's 2008 report on the treatment of PTSD found insufficient evidence to recommend EMDR, and criticized many of the available studies for methodological flaws including allegiance bias and insufficient controls.\nThe Dutch National Steering Committee on Mental Health Care has released multidisciplinary guidelines which describe \"insufficient scientific evidence\" to support EMDR in the acute period following a stressful event (2008), but recommend EMDR's use in chronic PTSD (2003).\nThe World Health Organization's 2013 report on stress-related conditions found insufficient evidence to support EMDR for acute symptoms of traumatic stress. Its 2023 guideline for mental, neurological and substance use disorders recommended EMDR with moderate evidence for adults and children in treating PTSD.\nThe Australian 2013 National Health and Medical Research Council guidelines recommend EMDR for the treatment of PTSD in adults with its highest grade of evidence, noting that \"EMDR now includes most of the core elements of standard trauma-focussed CBT (TF-CBT)\" and \"the two variants of trauma-focussed therapy are not statistically different.\"\nAs of 2017, the American [...]\n\n== Criticism ==\nEMDR is controversial among scholars in the psychological community. It is used by some practitioners during trauma therapy and in the treatment of complex post-traumatic stress [...]",
+    "facts": [
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_001",
+        "text": "Eye movement desensitization and reprocessing (EMDR) is a form of psychotherapy designed to treat post-traumatic stress disorder (PTSD).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_002",
+        "text": "EMDR was devised by Francine Shapiro in 1987.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_003",
+        "text": "The idea for EMDR came to Shapiro while she was walking in the woods and noticed she could cope better with disturbing thoughts when experiencing saccadic eye movements.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_004",
+        "text": "EMDR involves talking about traumatic memories while engaging in side-to-side eye movements or other forms of bilateral stimulation.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_005",
+        "text": "A typical EMDR therapy session lasts from 60 to 90 minutes.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_006",
+        "text": "During EMDR, the client is asked to recall an image, phrase, and emotion representing distress while generating bilateral sensory input such as side-to-side eye movements or hand tapping.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_007",
+        "text": "EMDR is structured into eight phases: history-taking, preparation, assessment, desensitization, installation, body scan, closure, and re-evaluation.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_008",
+        "text": "Unlike trauma-focused CBT, EMDR does not involve detailed descriptions of traumatic events, direct challenging of beliefs, extended exposure, or homework.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_009",
+        "text": "The World Health Organization recommends EMDR for the treatment of PTSD.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_010",
+        "text": "The UK National Institute for Health and Care Excellence (NICE) recommends EMDR for PTSD treatment.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_011",
+        "text": "The Australian National Health and Medical Research Council recommends EMDR for the treatment of PTSD in adults with its highest grade of evidence.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_012",
+        "text": "The US Departments of Veterans Affairs and Defense recommend EMDR for treating PTSD.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_013",
+        "text": "The American Psychological Association does not endorse EMDR as a first-line treatment but indicates it is probably effective for treating adult PTSD.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_014",
+        "text": "Systematic analyses published since 2013 generally indicate that EMDR's efficacy for adult PTSD is equivalent to trauma-focused cognitive and behavioral therapies (TF-CBT).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_015",
+        "text": "Research indicates that bilateral stimulation does not substantially contribute to EMDR's therapeutic efficacy beyond what is achieved by exposure alone.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_016",
+        "text": "The Institute of Medicine's 2008 report found insufficient evidence to recommend EMDR and criticized available studies for methodological flaws including allegiance bias.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_017",
+        "text": "The WHO's 2023 guideline recommended EMDR with moderate evidence for adults and children in treating PTSD.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_018",
+        "text": "EMDR is controversial among scholars, with debate focusing on whether the eye movement component is a necessary therapeutic ingredient.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_019",
+        "text": "EMDR is used in the treatment of complex PTSD, phobias, anxiety disorders, and depression in addition to standard PTSD.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_020",
+        "text": "Prolonged exposure therapy (PE) and cognitive processing therapy (CPT) are the main comparison therapies in EMDR efficacy research.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_021",
+        "text": "EMDR aims to reduce subjective distress and strengthen adaptive beliefs related to the traumatic event.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_022",
+        "text": "Francine Shapiro founded the EMDR Institute to train therapists in the technique.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_023",
+        "text": "One proposed mechanism for EMDR is the 'working memory' hypothesis: dual attention tasks during recall strain working memory, reducing the vividness and emotionality of traumatic memories.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_024",
+        "text": "The Dutch National Steering Committee on Mental Health Care recommends EMDR's use for chronic PTSD but found insufficient evidence for its use in the acute post-trauma period.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_eye_movement_desensitization_and_reprocessing_025",
+        "text": "EMDR has been adapted for use with children and adolescents experiencing trauma.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
     "questionIds": [
-      "ther_004"
+      "ther_004",
+      "therapy_029",
+      "therapy_030",
+      "therapy_031",
+      "therapy_032",
+      "therapy_033",
+      "therapy_034"
     ]
   },
   {
@@ -254,10 +570,167 @@
     "topicIds": [
       "therapy"
     ],
-    "articleText": null,
-    "facts": [],
+    "articleText": "== Summary ==\nPsychoanalysis is a set of theories and techniques to discover unconscious processes and their influence on conscious thought, emotion and behavior. Based on dream interpretation, psychoanalysis is also a talk therapy method for treating mental disorders. Established in the early 1890s by Sigmund Freud, it takes into account Darwin's theory of evolution, neurology findings, ethnology reports, and, in some respects, the clinical research of his mentor Josef Breuer. Freud developed and refined the theory and practice of psychoanalysis until his death in 1939. In an encyclopedic article, he identified four foundational beliefs: \"the assumption that there are unconscious mental processes, the recognition of the theory of repression and resistance, the appreciation of the importance of sexuality and of the Oedipus complex.\"\nTwo of Freud's early colleagues, Alfred Adler and Carl Jung, soon developed their own methods, individual and analytical psychology, respectively, which he said were not forms of psychoanalysis. After the author's death, neo-Freudian thinkers like Erich Fromm, Karen Horney and Harry Stack Sullivan created some subfields. Jacques Lacan, whose work is often referred [...]\n\n== Overview ==\nOne of Freud's central claims is that the contents of the unconscious largely determine cognition and behavior, describing this as the third insult to mankind. The first was the cosmic discovery by Copernicus that the Earth revolved around the Sun, the second was the biological discovery by Darwin that humans evolved from apes, and the third psychological affront was the discovery by Freud that the narcissistically affected ego was not even master of its own home.\nFreud found that many of the drives are repressed into the unconscious, which the structural model locates in the 'id', as a result of traumatic experiences during childhood. Attempts to integrate them into the conscious perception of the ego triggers resistance. The individual 'wants' to maintain the repression through defense mechanisms—including censorship, internalized fear of punishment or mother-love withdrawal—while the affected instincts resist. An inner war rages between the id and the ego's conscious values, which manifests as more or less conspicuous mental disorders. Importantly, Freud did not equate the most common behavior as 'healthy'. \"Health can only be described in metapsychological terms\" (assessment [...]\n\n== History ==\n\n\n== Theories ==\nThe predominant psychoanalytic theories can be organized into several theoretical schools. Although these perspectives differ, most of them emphasize the influence of unconscious elements on the conscious. There has also been considerable work done on consolidating elements of conflicting theories.\nThere are some persistent conflicts among psychoanalysts regarding specific causes of certain syndromes, and some disputes regarding the ideal treatment techniques. In the 21st century, psychoanalytic ideas have found influence in fields such as childcare, education, literary criticism, cultural studies, mental health, and particularly psychotherapy. Though most mainstream psychoanalysts subscribe to modern strains of psychoanalytical thought, there are groups that follow the precepts of a single psychoanalyst and their school of thought. Psychoanalytic ideas also play roles in some types of literary analysis, such as archetypal literary criticism.\n\n== Psychopathology (mental disturbances) ==\n\n\n== Treatment ==\nUsing the various analytic and psychological techniques to assess mental problems, some believe that there are particular constellations of problems that are especially suited for analytic treatment whereas other problems might respond better to medicines and other interpersonal interventions. To be treated with psychoanalysis, whatever the presenting problem, the person requesting help must demonstrate a desire to start an analysis. The person wishing to start an analysis must have some capacity for [...]",
+    "facts": [
+      {
+        "id": "fact_psychoanalysis_001",
+        "text": "Psychoanalysis was established in the early 1890s by Sigmund Freud.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_002",
+        "text": "Freud developed and refined the theory and practice of psychoanalysis until his death in 1939.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_003",
+        "text": "Psychoanalysis is both a set of theories about the unconscious and a talk therapy method for treating mental disorders.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_004",
+        "text": "Freud identified four foundational beliefs of psychoanalysis: unconscious mental processes, repression and resistance, the importance of sexuality, and the Oedipus complex.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_005",
+        "text": "Psychoanalysis is based on dream interpretation as a central clinical technique.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_006",
+        "text": "Freud developed psychoanalysis drawing on Darwin's theory of evolution, neurology findings, ethnology reports, and the clinical research of his mentor Josef Breuer.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_007",
+        "text": "Freud described his psychological discovery of the unconscious as the 'third insult to mankind', after Copernicus (cosmic) and Darwin (biological).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_008",
+        "text": "Alfred Adler and Carl Jung were early colleagues of Freud who developed their own methods — individual psychology and analytical psychology, respectively.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_009",
+        "text": "Freud stated that Adler's and Jung's methods were not forms of psychoanalysis.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_010",
+        "text": "Neo-Freudian thinkers after Freud's death included Erich Fromm, Karen Horney, and Harry Stack Sullivan.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_011",
+        "text": "Jacques Lacan was an influential post-Freudian psychoanalytic theorist whose work is often considered a return to Freud.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_012",
+        "text": "Freud's structural model of the psyche divides the mind into the id, ego, and superego.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_013",
+        "text": "In Freud's theory, repressed drives and traumatic childhood experiences are stored in the id, part of the unconscious.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_014",
+        "text": "Defense mechanisms such as censorship and internalized fear of punishment are used by the ego to maintain repression of unconscious drives.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_015",
+        "text": "Free association — encouraging patients to say whatever comes to mind without censorship — is a core psychoanalytic technique.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_016",
+        "text": "Transference, in which patients unconsciously redirect feelings about past figures onto the therapist, is a key concept in psychoanalytic treatment.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_017",
+        "text": "In the 21st century, psychoanalytic ideas have found influence in childcare, education, literary criticism, cultural studies, and psychotherapy.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_018",
+        "text": "Archetypal literary criticism is one form of literary analysis that draws on psychoanalytic ideas.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_019",
+        "text": "To begin psychoanalytic treatment, a person must demonstrate a desire to start an analysis and have some capacity for self-reflection.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_020",
+        "text": "Psychoanalysis has been criticized by figures such as Karl Popper for being unfalsifiable and therefore unscientific.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_021",
+        "text": "The Oedipus complex, in Freud's theory, refers to a child's unconscious feelings of desire for the opposite-sex parent and rivalry with the same-sex parent.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_022",
+        "text": "Freud's topographical model divided the psyche into conscious, preconscious, and unconscious systems.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_023",
+        "text": "The 'talking cure' is a phrase originally used by one of Freud's early patients, Anna O., to describe psychoanalytic treatment.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_024",
+        "text": "Object relations theory is a major psychoanalytic school that focuses on the influence of early relationships with caregivers on adult psychology.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_psychoanalysis_025",
+        "text": "Countertransference — the analyst's emotional reactions to the patient — is recognized as an important element in psychoanalytic technique.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
     "questionIds": [
-      "ther_003"
+      "ther_003",
+      "therapy_035",
+      "therapy_036",
+      "therapy_037",
+      "therapy_038",
+      "therapy_039",
+      "therapy_040"
     ]
   }
 ]
