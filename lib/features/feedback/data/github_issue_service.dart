@@ -86,6 +86,7 @@ class GithubIssueService {
     required String body,
     String? appVersion,
     String? userId,
+    String? attribution,
   }) async {
     final issueBody = '''
 ${body.trim()}
@@ -93,7 +94,7 @@ ${body.trim()}
 ---
 **Category:** ${category.emoji} ${category.label}
 **App version:** ${appVersion ?? 'unknown'}
-${userId != null ? '**User ID:** `$userId`\n' : ''}**Source:** In-app feedback
+${attribution != null ? '**Submitted by:** $attribution\n' : userId != null ? '**User ID:** `$userId`\n' : ''}**Source:** In-app feedback
 ''';
 
     return _createIssue(
@@ -145,6 +146,7 @@ ${supportingDetails != null && supportingDetails.trim().isNotEmpty ? '**Supporti
     String? topicId,
     String? appVersion,
     String? userId,
+    String? attribution,
   }) async {
     final issueBody = '''
 ${body.trim()}
@@ -152,7 +154,7 @@ ${body.trim()}
 ---
 **Request type:** ${type.label}
 ${topicId != null ? '**Topic ID:** `$topicId`\n' : ''}**App version:** ${appVersion ?? 'unknown'}
-${userId != null ? '**User ID:** `$userId`\n' : ''}**Source:** In-app content request
+${attribution != null ? '**Submitted by:** $attribution\n' : userId != null ? '**User ID:** `$userId`\n' : ''}**Source:** In-app content request
 ''';
 
     return _createIssue(
