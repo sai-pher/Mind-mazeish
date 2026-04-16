@@ -7,6 +7,7 @@
 
 ### Fixes
 - Issue descriptions and comments now display when tapping an issue — body and comment thread were missing due to unparsed API fields and no detail view (#77)
+- "Bug Report" chip removed from the General feedback tab — it was a duplicate of the dedicated Bug Report tab (#75)
 
 ### Content
 - (none)

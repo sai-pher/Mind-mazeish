@@ -230,7 +230,7 @@ class _GeneralFeedbackTabState extends State<_GeneralFeedbackTab> {
           Wrap(
             spacing: 8,
             runSpacing: 8,
-            children: FeedbackCategory.values.map((c) {
+            children: FeedbackCategory.values.where((c) => c != FeedbackCategory.bug).map((c) {
               final selected = _category == c;
               return ChoiceChip(
                 label: Text('${c.emoji} ${c.label}'),
