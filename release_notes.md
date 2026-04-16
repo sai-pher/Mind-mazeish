@@ -3,6 +3,20 @@
 ## Unreleased
 
 ### Features
+- (none)
+
+### Fixes
+- (none)
+
+### Content
+- (none)
+
+### Other
+- (none)
+---
+
+## v1.0.38
+### Features
 - Auto-check for app updates on launch — update dialog appears automatically when a new version is available
 - In-app update dialog now renders release notes as formatted markdown with full scrollable content
 - Download button now triggers a direct APK download instead of opening the browser release page
@@ -28,8 +42,6 @@
 - CI action `check-release-notes` added — PRs to `main` must update this file
 - Pre-push git hook added (`.githooks/pre-push`) — runs `flutter analyze` and `flutter test` locally before push
 - `/release-notes` Claude skill added for drafting and syncing release notes from branch context
-
----
 
 ## v1.0.26 — 2026-03-01
 ### Fixes
