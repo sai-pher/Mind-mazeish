@@ -3,6 +3,20 @@
 ## Unreleased
 
 ### Features
+- (none)
+
+### Fixes
+- (none)
+
+### Content
+- (none)
+
+### Other
+- (none)
+---
+
+## v1.0.40
+### Features
 - Issues tab in Feedback — open alpha-feedback issues are now shown in a dedicated "Issues" tab on the Feedback screen instead of the Settings page (#77)
 
 ### Fixes
@@ -14,7 +28,6 @@
 
 ### Other
 - (none)
----
 
 ## v1.0.39
 ### Features
