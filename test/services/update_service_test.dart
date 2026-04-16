@@ -38,6 +38,18 @@ void main() {
       expect(info.downloadUrl, equals(info.releaseUrl));
     });
 
+    test('isDirectApkUrl returns true for browser_download_url APK assets', () {
+      const apkUrl =
+          'https://github.com/sai-pher/mind-mazeish/releases/download/v1.0.42/app-release.apk';
+      expect(UpdateService.isDirectApkUrl(apkUrl), isTrue);
+    });
+
+    test('isDirectApkUrl returns false for HTML release page fallback', () {
+      const releasePageUrl =
+          'https://github.com/sai-pher/mind-mazeish/releases/tag/v1.0.42';
+      expect(UpdateService.isDirectApkUrl(releasePageUrl), isFalse);
+    });
+
     test('releaseNotes carries full markdown without truncation', () {
       final longNotes = '### Features\n${'- Item\n' * 50}';
       final info = UpdateInfo(

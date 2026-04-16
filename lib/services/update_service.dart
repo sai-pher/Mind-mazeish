@@ -61,4 +61,9 @@ class UpdateService {
       return null;
     }
   }
+
+  /// Returns true when [url] points directly to an APK file.
+  /// Returns false when it is the GitHub release HTML page (the fallback
+  /// used when no APK asset is attached to the release).
+  static bool isDirectApkUrl(String url) => url.endsWith('.apk');
 }

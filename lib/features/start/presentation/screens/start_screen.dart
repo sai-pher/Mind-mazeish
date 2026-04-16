@@ -1,9 +1,14 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:http/http.dart' as http;
+import 'package:open_filex/open_filex.dart';
 import 'package:package_info_plus/package_info_plus.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../core/theme/app_theme.dart';
@@ -253,10 +258,12 @@ class _VersionBadgeState extends ConsumerState<_VersionBadge> {
           ElevatedButton(
             onPressed: () {
               Navigator.of(context).pop();
-              launchUrl(
-                Uri.parse(info.downloadUrl),
-                mode: LaunchMode.externalApplication,
-              );
+              if (UpdateService.isDirectApkUrl(info.downloadUrl)) {
+                _downloadAndInstall(info);
+              } else {
+                launchUrl(Uri.parse(info.downloadUrl),
+                    mode: LaunchMode.externalApplication);
+              }
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: AppColors.torchGold,
@@ -267,6 +274,100 @@ class _VersionBadgeState extends ConsumerState<_VersionBadge> {
         ],
       ),
     );
+  }
+
+  Future<void> _downloadAndInstall(UpdateInfo info) async {
+    if (!mounted) return;
+
+    final progressNotifier = ValueNotifier<double?>(null);
+    var cancelled = false;
+
+    showDialog<void>(
+      context: context,
+      barrierDismissible: false,
+      builder: (ctx) => PopScope(
+        canPop: false,
+        child: AlertDialog(
+          backgroundColor: AppColors.stoneDark,
+          title: const Text('Downloading update…',
+              style: TextStyle(color: AppColors.textLight)),
+          content: ValueListenableBuilder<double?>(
+            valueListenable: progressNotifier,
+            builder: (_, v, __) => Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                LinearProgressIndicator(
+                  value: v,
+                  backgroundColor: AppColors.stone,
+                  valueColor:
+                      const AlwaysStoppedAnimation(AppColors.torchGold),
+                ),
+                if (v != null)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 8),
+                    child: Text(
+                      '${(v * 100).round()}%',
+                      style: const TextStyle(
+                          color: AppColors.textLight, fontSize: 12),
+                    ),
+                  ),
+              ],
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                cancelled = true;
+                Navigator.of(ctx).pop();
+              },
+              child: const Text('Cancel',
+                  style: TextStyle(color: AppColors.torchAmber)),
+            ),
+          ],
+        ),
+      ),
+    ).whenComplete(progressNotifier.dispose);
+
+    try {
+      final tempDir = await getTemporaryDirectory();
+      final savePath = '${tempDir.path}/mind_mazeish_update.apk';
+
+      final client = http.Client();
+      try {
+        final request = http.Request('GET', Uri.parse(info.downloadUrl));
+        final response = await client.send(request);
+        final total = response.contentLength ?? 0;
+        var received = 0;
+
+        final file = File(savePath);
+        final sink = file.openWrite();
+        await for (final chunk in response.stream) {
+          if (cancelled) {
+            await sink.close();
+            return;
+          }
+          sink.add(chunk);
+          received += chunk.length;
+          if (total > 0) progressNotifier.value = received / total;
+        }
+        await sink.flush();
+        await sink.close();
+      } finally {
+        client.close();
+      }
+
+      if (cancelled || !mounted) return;
+      final nav = Navigator.of(context);
+      if (nav.canPop()) nav.pop();
+
+      await OpenFilex.open(savePath);
+    } catch (_) {
+      if (mounted) {
+        final nav = Navigator.of(context);
+        if (nav.canPop()) nav.pop();
+        _showSnack('Download failed. Please try again.');
+      }
+    }
   }
 
   void _showSnack(String msg) {

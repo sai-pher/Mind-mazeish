@@ -11,7 +11,7 @@
 - Visual difficulty badge on each question card: 🕯️ Easy · 🔥 Medium · ⚔️ Hard (#44)
 
 ### Fixes
-- (none)
+- Update download no longer hangs — replaced browser-delegated download with an in-app HTTP download that shows a progress indicator, then opens the package installer directly (#60)
 
 ### Content
 - Added 86 questions for Deep Sea (Physical World) with 10 new Wikipedia sources
