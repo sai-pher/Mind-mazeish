@@ -12,6 +12,7 @@
 
 ### Fixes
 - Update download no longer hangs — replaced browser-delegated download with an in-app HTTP download that shows a progress indicator, then opens the package installer directly (#60)
+- Feedback details field no longer triggers spurious text selection when repositioning the cursor — multi-line text fields now expand with content instead of creating an internal scroll viewport (#47)
 
 ### Content
 - Added 86 questions for Deep Sea (Physical World) with 10 new Wikipedia sources

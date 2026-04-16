@@ -153,7 +153,8 @@ class _GeneralFeedbackTabState extends State<_GeneralFeedbackTab> {
             controller: _bodyCtrl,
             label: 'Details',
             hint: 'Describe the issue or idea in as much detail as you like…',
-            maxLines: 6,
+            minLines: 6,
+            maxLines: null,
           ),
           const SizedBox(height: 24),
           SizedBox(
@@ -293,7 +294,8 @@ class _ContentRequestTabState extends State<_ContentRequestTab> {
               controller: _bodyCtrl,
               label: 'Why this topic? (optional)',
               hint: 'Tell us why you\'d love to see this topic in the game…',
-              maxLines: 4,
+              minLines: 4,
+              maxLines: null,
             ),
           ] else ...[
             Text('Which topic?', style: tt.labelLarge?.copyWith(color: AppColors.textLight)),
@@ -333,7 +335,8 @@ class _ContentRequestTabState extends State<_ContentRequestTab> {
               controller: _bodyCtrl,
               label: 'Additional notes (optional)',
               hint: 'Any specific questions or areas to cover?',
-              maxLines: 4,
+              minLines: 4,
+              maxLines: null,
             ),
           ],
 
@@ -369,13 +372,16 @@ class _Field extends StatelessWidget {
   final TextEditingController controller;
   final String label;
   final String hint;
-  final int maxLines;
+  final int minLines;
+  // null = unbounded (expands with content, avoids internal scroll conflicts)
+  final int? maxLines;
 
   const _Field({
     required this.controller,
     required this.label,
     required this.hint,
-    required this.maxLines,
+    this.minLines = 1,
+    this.maxLines = 1,
   });
 
   @override
@@ -391,6 +397,7 @@ class _Field extends StatelessWidget {
         const SizedBox(height: 6),
         TextField(
           controller: controller,
+          minLines: minLines,
           maxLines: maxLines,
           style: const TextStyle(color: AppColors.textLight),
           decoration: InputDecoration(
