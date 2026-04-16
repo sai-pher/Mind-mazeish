@@ -26,7 +26,7 @@ void main() {
 
     group('attribution', () {
       test('falls back to userId when no display name', () {
-        final p = UserProfile(userId: userId);
+        const p = UserProfile(userId: userId);
         expect(p.attribution, '`$userId`');
       });
 
