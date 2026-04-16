@@ -3,7 +3,11 @@
 ## Unreleased
 
 ### Features
-- (none)
+- Structured bug report form — new "Bug Report" tab in Feedback with Given / When / Then Expected / But Actually fields for clearer, actionable reports (#48)
+- Save feedback as a draft before sending — new "Pending" tab in Feedback lists saved drafts; tap to reload into the form, swipe or tap the delete icon to discard (#49)
+- Settings page — new screen accessible from the start screen with user profile, feedback, open issues, and app info (#45)
+- Anonymous tester ID — generated locally on first launch and attached to all feedback submissions for grouping without accounts (#45)
+- Comment on open issues — view active alpha-feedback issues in Settings and add follow-up comments directly from the app (#45)
 
 ### Fixes
 - (none)
