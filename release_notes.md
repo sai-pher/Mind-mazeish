@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Features
+- Save feedback as a draft before sending — new "Pending" tab in Feedback lists saved drafts; tap to reload into the form, swipe or tap the delete icon to discard (#49)
 - Auto-check for app updates on launch — update dialog appears automatically when a new version is available
 - In-app update dialog now renders release notes as formatted markdown with full scrollable content
 - Download button now triggers a direct APK download instead of opening the browser release page
