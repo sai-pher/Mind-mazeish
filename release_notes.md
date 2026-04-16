@@ -4,6 +4,7 @@
 
 ### Features
 - Structured bug report form — new "Bug Report" tab in Feedback with Given / When / Then Expected / But Actually fields for clearer, actionable reports (#48)
+- Save feedback as a draft before sending — new "Pending" tab in Feedback lists saved drafts; tap to reload into the form, swipe or tap the delete icon to discard (#49)
 
 ### Fixes
 - (none)
