@@ -17,6 +17,16 @@ class QuizConfig {
 
   static const List<int> validCounts = [5, 10, 20];
 
+  /// Consecutive correct answers required to trigger a streak reward in endless mode.
+  /// Scales with difficulty: easier → shorter streak required.
+  int get streakLimit => switch (difficultyBias) {
+        1 => 5,
+        2 => 7,
+        4 => 13,
+        5 => 15,
+        _ => 10,
+      };
+
   QuizConfig copyWith({
     Set<String>? selectedTopicIds,
     int? questionCount,

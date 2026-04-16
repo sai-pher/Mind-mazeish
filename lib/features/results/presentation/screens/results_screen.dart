@@ -5,8 +5,10 @@ import 'package:go_router/go_router.dart';
 
 import '../../../../core/theme/app_theme.dart';
 import '../../../gameplay/domain/models/game_state.dart';
+import '../../../gameplay/domain/models/quiz_config.dart';
 import '../../../gameplay/presentation/providers/game_state_provider.dart';
 import '../../../settings/data/game_stats_repository.dart';
+import '../../../settings/domain/models/game_stats.dart';
 
 class ResultsScreen extends ConsumerStatefulWidget {
   const ResultsScreen({super.key});
@@ -17,6 +19,7 @@ class ResultsScreen extends ConsumerStatefulWidget {
 
 class _ResultsScreenState extends ConsumerState<ResultsScreen> {
   bool _statsRecorded = false;
+  GameStats? _savedStats;
 
   @override
   void initState() {
@@ -32,13 +35,16 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen> {
         gs.status == GameStatus.gameOver || gs.status == GameStatus.complete;
     if (!finished) return;
     _statsRecorded = true;
-    await GameStatsRepository.recordGame(
+    final isEndless = gs.config.gameMode == GameMode.endless;
+    final saved = await GameStatsRepository.recordGame(
       score: gs.score,
       correct: gs.correctCount,
       answered: gs.questionsAnswered,
       articlesFound: gs.newArticleUrls.length,
       won: gs.status == GameStatus.complete,
+      endlessScore: isEndless ? gs.score : null,
     );
+    if (mounted) setState(() => _savedStats = saved);
   }
 
   int _starCount(int score, int answered, int total) {
@@ -65,10 +71,13 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen> {
     }
 
     final isGameOver = gs.status == GameStatus.gameOver;
+    final isEndless = gs.config.gameMode == GameMode.endless;
     final answered = gs.questionsAnswered;
     final correct = gs.correctCount;
     final stars = _starCount(gs.score, answered, gs.questions.length);
     final newArticles = gs.newArticleUrls.length;
+    final endlessHighScore = _savedStats?.endlessHighScore ?? 0;
+    final isNewRecord = isEndless && gs.score > 0 && gs.score >= endlessHighScore;
 
     return Scaffold(
       body: Stack(
@@ -174,6 +183,15 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen> {
                           value: '$newArticles',
                           delay: 950,
                           valueColor: AppColors.torchGold),
+                    if (isEndless && _savedStats != null)
+                      _StatRow(
+                          icon: Icons.emoji_events,
+                          label: isNewRecord ? 'New Record! 🏆' : 'Endless Best',
+                          value: '$endlessHighScore',
+                          delay: 1050,
+                          valueColor: isNewRecord
+                              ? AppColors.torchGold
+                              : AppColors.torchAmber),
                   ].expand((w) => [w, const SizedBox(height: 10)]).toList()
                     ..removeLast(),
 

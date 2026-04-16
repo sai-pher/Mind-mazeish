@@ -10,6 +10,7 @@ import '../../../gameplay/domain/models/quiz_config.dart';
 import '../../../gameplay/domain/models/topic.dart';
 import '../../../gameplay/presentation/providers/game_state_provider.dart';
 import '../../../gameplay/presentation/providers/quiz_config_provider.dart';
+import '../../../settings/data/game_stats_repository.dart';
 
 class TopicPickerScreen extends ConsumerStatefulWidget {
   const TopicPickerScreen({super.key});
@@ -23,6 +24,7 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
   int _questionCount = 10;
   GameMode _gameMode = GameMode.standard;
   int _difficultyBias = 3;
+  int _endlessHighScore = 0;
 
   @override
   void initState() {
@@ -32,6 +34,12 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
     _questionCount = config.questionCount;
     _gameMode = config.gameMode;
     _difficultyBias = config.difficultyBias;
+    _loadEndlessHighScore();
+  }
+
+  Future<void> _loadEndlessHighScore() async {
+    final stats = await GameStatsRepository.load();
+    if (mounted) setState(() => _endlessHighScore = stats.endlessHighScore);
   }
 
   bool get _canStart =>
@@ -165,6 +173,7 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
             gameMode: _gameMode,
             difficultyBias: _difficultyBias,
             canStart: _canStart,
+            endlessHighScore: _endlessHighScore,
             onCountChanged: (c) => setState(() => _questionCount = c),
             onModeChanged: (m) => setState(() => _gameMode = m),
             onDifficultyChanged: (b) => setState(() => _difficultyBias = b),
@@ -385,6 +394,7 @@ class _BottomBar extends StatelessWidget {
   final GameMode gameMode;
   final int difficultyBias;
   final bool canStart;
+  final int endlessHighScore;
   final void Function(int) onCountChanged;
   final void Function(GameMode) onModeChanged;
   final void Function(int) onDifficultyChanged;
@@ -396,6 +406,7 @@ class _BottomBar extends StatelessWidget {
     required this.gameMode,
     required this.difficultyBias,
     required this.canStart,
+    required this.endlessHighScore,
     required this.onCountChanged,
     required this.onModeChanged,
     required this.onDifficultyChanged,
@@ -443,6 +454,17 @@ class _BottomBar extends StatelessWidget {
               ),
             ],
           ),
+          const SizedBox(height: 6),
+
+          // Endless best score
+          if (isEndless && endlessHighScore > 0)
+            Text(
+              'Best: $endlessHighScore pts',
+              style: textTheme.labelMedium?.copyWith(
+                color: AppColors.torchGold,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
           const SizedBox(height: 10),
 
           // Question count (hidden in endless mode)

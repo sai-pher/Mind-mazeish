@@ -7,6 +7,7 @@ import 'package:go_router/go_router.dart';
 import '../../../../core/theme/app_theme.dart';
 import '../../data/topic_registry.dart';
 import '../../domain/models/game_state.dart';
+import '../../domain/models/quiz_config.dart';
 import '../../domain/models/question.dart';
 import '../providers/game_state_provider.dart';
 import '../widgets/answer_button.dart';
@@ -50,9 +51,13 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
 
     final correct = question.isCorrect(index);
     HapticFeedback.mediumImpact();
+    final reward =
+        ref.read(gameStateProvider)?.pendingStreakReward(correct: correct);
     ref.read(gameStateProvider.notifier).answerQuestion(correct: correct);
+    final streakLimit =
+        ref.read(gameStateProvider)?.config.streakLimit ?? 10;
 
-    if (mounted) await _showFunFact(question.funFact, correct);
+    if (mounted) await _showFunFact(question.funFact, correct, reward: reward, streakLimit: streakLimit);
 
     final gs = ref.read(gameStateProvider);
     if (gs == null) return;
@@ -72,7 +77,12 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
     WidgetsBinding.instance.addPostFrameCallback((_) => _markPlaying());
   }
 
-  Future<void> _showFunFact(String funFact, bool correct) async {
+  Future<void> _showFunFact(
+    String funFact,
+    bool correct, {
+    StreakReward? reward,
+    int streakLimit = 10,
+  }) async {
     if (!mounted) return;
     await showModalBottomSheet<void>(
       context: context,
@@ -81,7 +91,12 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
         borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
         side: BorderSide(color: AppColors.stoneMid),
       ),
-      builder: (ctx) => _FunFactSheet(funFact: funFact, correct: correct),
+      builder: (ctx) => _FunFactSheet(
+        funFact: funFact,
+        correct: correct,
+        reward: reward,
+        streakLimit: streakLimit,
+      ),
     );
   }
 
@@ -136,6 +151,8 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
           roomName: topicName(question.topicId),
           score: gs.score,
           lives: gs.lives,
+          streak: gs.streak,
+          isEndless: gs.config.gameMode == GameMode.endless,
         ),
         body: Column(
           children: [
@@ -312,8 +329,15 @@ class _ProgressBar extends StatelessWidget {
 class _FunFactSheet extends StatelessWidget {
   final String funFact;
   final bool correct;
+  final StreakReward? reward;
+  final int streakLimit;
 
-  const _FunFactSheet({required this.funFact, required this.correct});
+  const _FunFactSheet({
+    required this.funFact,
+    required this.correct,
+    this.reward,
+    this.streakLimit = 10,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -337,6 +361,50 @@ class _FunFactSheet extends StatelessWidget {
                               : AppColors.textLight,
                           fontSize: 18))),
             ]),
+            if (reward != null) ...[
+              const SizedBox(height: 10),
+              Container(
+                width: double.infinity,
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                decoration: BoxDecoration(
+                  color: reward == StreakReward.lifeRestored
+                      ? AppColors.dangerRed.withValues(alpha: 0.15)
+                      : AppColors.torchGold.withValues(alpha: 0.15),
+                  borderRadius: BorderRadius.circular(8),
+                  border: Border.all(
+                    color: reward == StreakReward.lifeRestored
+                        ? AppColors.dangerRed
+                        : AppColors.torchGold,
+                  ),
+                ),
+                child: Row(
+                  children: [
+                    Icon(
+                      reward == StreakReward.lifeRestored
+                          ? Icons.favorite
+                          : Icons.bolt,
+                      size: 16,
+                      color: reward == StreakReward.lifeRestored
+                          ? AppColors.dangerRed
+                          : AppColors.torchGold,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      reward == StreakReward.lifeRestored
+                          ? 'Streak! Life restored ❤️'
+                          : 'Streak! +${streakLimit * 10} bonus points ⚡',
+                      style: textTheme.labelMedium?.copyWith(
+                        color: reward == StreakReward.lifeRestored
+                            ? AppColors.dangerRed
+                            : AppColors.torchGold,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
             const SizedBox(height: 14),
             Container(
               width: double.infinity,

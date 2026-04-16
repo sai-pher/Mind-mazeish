@@ -6,6 +6,7 @@ class GameStats {
   final int totalCorrect;
   final int totalAnswered;
   final int totalArticlesFound;
+  final int endlessHighScore;
 
   const GameStats({
     this.gamesPlayed = 0,
@@ -15,6 +16,7 @@ class GameStats {
     this.totalCorrect = 0,
     this.totalAnswered = 0,
     this.totalArticlesFound = 0,
+    this.endlessHighScore = 0,
   });
 
   double get accuracy =>
@@ -29,6 +31,7 @@ class GameStats {
     required int answered,
     required int articlesFound,
     required bool won,
+    int? endlessScore,
   }) {
     return GameStats(
       gamesPlayed: gamesPlayed + 1,
@@ -38,6 +41,9 @@ class GameStats {
       totalCorrect: totalCorrect + correct,
       totalAnswered: totalAnswered + answered,
       totalArticlesFound: totalArticlesFound + articlesFound,
+      endlessHighScore: endlessScore != null && endlessScore > endlessHighScore
+          ? endlessScore
+          : endlessHighScore,
     );
   }
 
@@ -49,6 +55,7 @@ class GameStats {
         'totalCorrect': totalCorrect,
         'totalAnswered': totalAnswered,
         'totalArticlesFound': totalArticlesFound,
+        'endlessHighScore': endlessHighScore,
       };
 
   factory GameStats.fromJson(Map<String, dynamic> json) => GameStats(
@@ -59,5 +66,6 @@ class GameStats {
         totalCorrect: (json['totalCorrect'] as int?) ?? 0,
         totalAnswered: (json['totalAnswered'] as int?) ?? 0,
         totalArticlesFound: (json['totalArticlesFound'] as int?) ?? 0,
+        endlessHighScore: (json['endlessHighScore'] as int?) ?? 0,
       );
 }
