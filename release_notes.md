@@ -15,6 +15,19 @@
 - (none)
 ---
 
+## v1.0.42
+### Features
+- (none)
+
+### Fixes
+- (none)
+
+### Content
+- (none)
+
+### Other
+- (none)
+
 ## v1.0.41
 ### Features
 - User profile page — set a display name, pick an emoji avatar, and optionally link a GitHub profile; display name and emoji now sign all feedback submissions (#78)
