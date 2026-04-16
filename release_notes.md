@@ -3,6 +3,20 @@
 ## Unreleased
 
 ### Features
+- (none)
+
+### Fixes
+- (none)
+
+### Content
+- (none)
+
+### Other
+- (none)
+---
+
+## v1.0.41
+### Features
 - User profile page — set a display name, pick an emoji avatar, and optionally link a GitHub profile; display name and emoji now sign all feedback submissions (#78)
 - Game stats in Settings — cumulative stats (games played, best score, win rate, accuracy, total articles found) are recorded after each game and shown on the Settings screen (#78)
 
@@ -14,7 +28,6 @@
 
 ### Other
 - (none)
----
 
 ## v1.0.40
 ### Features
