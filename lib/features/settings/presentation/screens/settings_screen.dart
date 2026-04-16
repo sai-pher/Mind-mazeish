@@ -82,6 +82,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
       _dirty   = false;
       _saving  = false;
     });
+    if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('Profile saved')),
     );
