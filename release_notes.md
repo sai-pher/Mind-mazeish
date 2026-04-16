@@ -21,6 +21,7 @@
 - Added 100 questions for Lily Mayne (literature & arts)
 
 ### Other
+- CD pipeline now archives `## Unreleased` as a versioned section and resets it to empty stubs after each release (#61)
 - Added `flutter_markdown` package for in-app markdown rendering
 - `release_notes.md` introduced as single source of truth for release notes (replaces ad hoc git log in CD workflow)
 - CI action `check-release-notes` added — PRs to `main` must update this file
