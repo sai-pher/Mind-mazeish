@@ -3,6 +3,8 @@ import 'quiz_config.dart';
 
 enum GameStatus { idle, loading, playing, answerRevealed, gameOver, complete }
 
+enum StreakReward { lifeRestored, bonusPoints }
+
 class GameState {
   final List<QuizQuestion> questions;
   final int currentQuestionIndex;
@@ -13,6 +15,7 @@ class GameState {
   final Set<String> seenArticleUrls;
   final Set<String> newArticleUrls;
   final List<bool?> answeredCorrectly;
+  final int streak;
 
   const GameState({
     required this.questions,
@@ -24,6 +27,7 @@ class GameState {
     required this.seenArticleUrls,
     required this.newArticleUrls,
     required this.answeredCorrectly,
+    this.streak = 0,
   });
 
   factory GameState.initial({
@@ -40,6 +44,7 @@ class GameState {
       seenArticleUrls: const {},
       newArticleUrls: const {},
       answeredCorrectly: List.filled(questions.length, null),
+      streak: 0,
     );
   }
 
@@ -60,6 +65,7 @@ class GameState {
     Set<String>? seenArticleUrls,
     Set<String>? newArticleUrls,
     List<bool?>? answeredCorrectly,
+    int? streak,
   }) {
     return GameState(
       questions: questions ?? this.questions,
@@ -71,14 +77,38 @@ class GameState {
       seenArticleUrls: seenArticleUrls ?? this.seenArticleUrls,
       newArticleUrls: newArticleUrls ?? this.newArticleUrls,
       answeredCorrectly: answeredCorrectly ?? this.answeredCorrectly,
+      streak: streak ?? this.streak,
     );
+  }
+
+  /// Returns the streak reward that fired this answer, or null if none.
+  /// Callers can use this to show feedback before reading updated state.
+  StreakReward? pendingStreakReward({required bool correct}) {
+    if (config.gameMode != GameMode.endless || !correct) return null;
+    final nextStreak = streak + 1;
+    if (nextStreak < config.streakLimit) return null;
+    return lives < 3 ? StreakReward.lifeRestored : StreakReward.bonusPoints;
   }
 
   GameState answerQuestion({required bool correct}) {
     final updated = List<bool?>.from(answeredCorrectly);
     updated[currentQuestionIndex] = correct;
-    final newScore = correct ? score + 10 : score;
-    final newLives = correct ? lives : lives - 1;
+
+    int newStreak = correct ? streak + 1 : 0;
+    int newScore = correct ? score + 10 : score;
+    int newLives = correct ? lives : lives - 1;
+
+    if (config.gameMode == GameMode.endless &&
+        correct &&
+        newStreak >= config.streakLimit) {
+      newStreak = 0;
+      if (newLives < 3) {
+        newLives += 1;
+      } else {
+        newScore += config.streakLimit * 10;
+      }
+    }
+
     final isNowGameOver = newLives <= 0;
     final isNowComplete =
         !isNowGameOver && currentQuestionIndex >= questions.length - 1;
@@ -86,6 +116,7 @@ class GameState {
       answeredCorrectly: updated,
       score: newScore,
       lives: newLives,
+      streak: newStreak,
       status: isNowGameOver
           ? GameStatus.gameOver
           : isNowComplete

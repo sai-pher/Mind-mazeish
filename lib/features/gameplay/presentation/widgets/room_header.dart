@@ -5,12 +5,16 @@ class RoomHeader extends StatelessWidget implements PreferredSizeWidget {
   final String roomName;
   final int score;
   final int lives;
+  final int streak;
+  final bool isEndless;
 
   const RoomHeader({
     super.key,
     required this.roomName,
     required this.score,
     required this.lives,
+    this.streak = 0,
+    this.isEndless = false,
   });
 
   @override
@@ -23,6 +27,33 @@ class RoomHeader extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       title: Text(roomName),
       actions: [
+        // Streak chip (endless mode only)
+        if (isEndless && streak > 0) ...[
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+            decoration: BoxDecoration(
+              color: AppColors.stoneDark,
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: AppColors.torchGold, width: 1),
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Icon(Icons.local_fire_department,
+                    size: 14, color: AppColors.torchGold),
+                const SizedBox(width: 3),
+                Text(
+                  '$streak',
+                  style: textTheme.labelLarge?.copyWith(
+                    color: AppColors.torchGold,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(width: 8),
+        ],
         // Lives
         Row(
           children: List.generate(

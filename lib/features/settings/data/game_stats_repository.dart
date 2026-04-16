@@ -27,6 +27,7 @@ class GameStatsRepository {
     required int answered,
     required int articlesFound,
     required bool won,
+    int? endlessScore,
   }) async {
     final current = await load();
     final updated = current.recordGame(
@@ -35,6 +36,7 @@ class GameStatsRepository {
       answered: answered,
       articlesFound: articlesFound,
       won: won,
+      endlessScore: endlessScore,
     );
     await save(updated);
     return updated;
