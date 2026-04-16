@@ -5,6 +5,9 @@
 ### Features
 - User profile page — set a display name, pick an emoji avatar, and optionally link a GitHub profile; display name and emoji now sign all feedback submissions (#78)
 - Game stats in Settings — cumulative stats (games played, best score, win rate, accuracy, total articles found) are recorded after each game and shown on the Settings screen (#78)
+- Endless mode streak counter — a 🔥 streak chip appears in the header while you maintain a correct-answer streak; streak limit scales with difficulty (easy 5 → hard 15) (#74)
+- Endless mode life recovery — reaching the streak limit restores one life if you have fewer than three; if lives are full, the milestone awards streak-limit × 10 bonus points instead (#74)
+- Endless mode high score — your best score is saved and shown on the results screen ("Endless Best" / "New Record!") and on the topic picker when endless mode is selected (#57)
 
 ### Fixes
 - App icon no longer shows as a small image inside a white circle on Android 8.0+ devices — added adaptive icon configuration (`mipmap-anydpi-v26`) with the castle dark background (#66)
