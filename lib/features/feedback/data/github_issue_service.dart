@@ -32,12 +32,14 @@ enum ContentRequestType {
 class IssueItem {
   final int number;
   final String title;
+  final String body;
   final List<String> labelNames;
   final DateTime createdAt;
 
   const IssueItem({
     required this.number,
     required this.title,
+    required this.body,
     required this.labelNames,
     required this.createdAt,
   });
@@ -45,9 +47,32 @@ class IssueItem {
   factory IssueItem.fromJson(Map<String, dynamic> json) => IssueItem(
         number: json['number'] as int,
         title: json['title'] as String,
+        body: (json['body'] as String?) ?? '',
         labelNames: (json['labels'] as List)
             .map((l) => l['name'] as String)
             .toList(),
+        createdAt: DateTime.parse(json['created_at'] as String),
+      );
+}
+
+/// A single comment on a GitHub issue.
+class IssueComment {
+  final int id;
+  final String body;
+  final String authorLogin;
+  final DateTime createdAt;
+
+  const IssueComment({
+    required this.id,
+    required this.body,
+    required this.authorLogin,
+    required this.createdAt,
+  });
+
+  factory IssueComment.fromJson(Map<String, dynamic> json) => IssueComment(
+        id: json['id'] as int,
+        body: (json['body'] as String?) ?? '',
+        authorLogin: (json['user'] as Map<String, dynamic>)['login'] as String,
         createdAt: DateTime.parse(json['created_at'] as String),
       );
 }
@@ -152,6 +177,27 @@ ${userId != null ? '**User ID:** `$userId`\n' : ''}**Source:** In-app content re
       final list = jsonDecode(response.body) as List;
       return list
           .map((j) => IssueItem.fromJson(j as Map<String, dynamic>))
+          .toList();
+    } catch (_) {
+      return [];
+    }
+  }
+
+  /// Fetches comments for a single issue (most recent last).
+  static Future<List<IssueComment>> fetchIssueComments(int issueNumber) async {
+    if (_kGithubToken.isEmpty) return [];
+    try {
+      final uri = Uri.parse(
+        'https://api.github.com/repos/$_kRepoOwner/$_kRepoName/issues/$issueNumber/comments'
+        '?per_page=50&sort=created&direction=asc',
+      );
+      final response = await _client
+          .get(uri, headers: _headers)
+          .timeout(const Duration(seconds: 15));
+      if (response.statusCode != 200) return [];
+      final list = jsonDecode(response.body) as List;
+      return list
+          .map((j) => IssueComment.fromJson(j as Map<String, dynamic>))
           .toList();
     } catch (_) {
       return [];

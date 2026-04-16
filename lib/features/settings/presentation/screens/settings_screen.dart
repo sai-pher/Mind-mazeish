@@ -4,7 +4,6 @@ import 'package:go_router/go_router.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
 import '../../../../core/theme/app_theme.dart';
-import '../../../feedback/data/github_issue_service.dart';
 import '../../data/user_profile_service.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -17,12 +16,10 @@ class SettingsScreen extends StatefulWidget {
 class _SettingsScreenState extends State<SettingsScreen> {
   String? _userId;
   String? _appVersion;
-  late Future<List<IssueItem>> _issuesFuture;
 
   @override
   void initState() {
     super.initState();
-    _issuesFuture = GithubIssueService.fetchOpenIssues();
     _load();
   }
 
@@ -43,20 +40,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
     Clipboard.setData(ClipboardData(text: _userId!));
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('User ID copied to clipboard')),
-    );
-  }
-
-  void _showAddComment(IssueItem issue) {
-    showModalBottomSheet<void>(
-      context: context,
-      backgroundColor: AppColors.stoneDark,
-      isScrollControlled: true,
-      shape: const RoundedRectangleBorder(
-          borderRadius: BorderRadius.vertical(top: Radius.circular(16))),
-      builder: (ctx) => _AddCommentSheet(
-        issue: issue,
-        userId: _userId,
-      ),
     );
   }
 
@@ -132,80 +115,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
             title: const Text('Give Feedback',
                 style: TextStyle(color: AppColors.textLight)),
             subtitle: Text(
-              'Report a bug, request a feature, or suggest content',
+              'Report a bug, request a feature, suggest content, or view open issues',
               style: tt.bodySmall?.copyWith(
                   color: AppColors.textLight.withValues(alpha: 0.5)),
             ),
             trailing: const Icon(Icons.chevron_right,
                 color: AppColors.stoneMid),
             onTap: () => context.push('/feedback'),
-          ),
-
-          // ── Open Issues ──────────────────────────────────────────────────
-          const _SectionHeader('Open Issues'),
-          FutureBuilder<List<IssueItem>>(
-            future: _issuesFuture,
-            builder: (context, snap) {
-              if (snap.connectionState != ConnectionState.done) {
-                return const Padding(
-                  padding: EdgeInsets.all(24),
-                  child: Center(child: CircularProgressIndicator()),
-                );
-              }
-              final issues = snap.data ?? [];
-              if (issues.isEmpty) {
-                return Padding(
-                  padding: const EdgeInsets.symmetric(
-                      horizontal: 16, vertical: 12),
-                  child: Text(
-                    'No open issues — or unable to reach GitHub.',
-                    style: tt.bodySmall?.copyWith(
-                        color: AppColors.textLight.withValues(alpha: 0.4)),
-                  ),
-                );
-              }
-              return Column(
-                children: issues.map((issue) {
-                  return ListTile(
-                    leading: CircleAvatar(
-                      backgroundColor: AppColors.stone,
-                      radius: 16,
-                      child: Text(
-                        '#${issue.number}',
-                        style: const TextStyle(
-                            color: AppColors.torchAmber,
-                            fontSize: 10,
-                            fontWeight: FontWeight.bold),
-                      ),
-                    ),
-                    title: Text(
-                      issue.title,
-                      style: const TextStyle(
-                          color: AppColors.textLight, fontSize: 13),
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                    subtitle: issue.labelNames.isNotEmpty
-                        ? Text(
-                            issue.labelNames.join(' · '),
-                            style: TextStyle(
-                                color: AppColors.textLight.withValues(alpha: 0.45),
-                                fontSize: 11),
-                          )
-                        : null,
-                    trailing: TextButton(
-                      onPressed: () => _showAddComment(issue),
-                      style: TextButton.styleFrom(
-                          foregroundColor: AppColors.torchAmber),
-                      child: const Text('Comment',
-                          style: TextStyle(fontSize: 12)),
-                    ),
-                    contentPadding:
-                        const EdgeInsets.symmetric(horizontal: 16, vertical: 2),
-                  );
-                }).toList(),
-              );
-            },
           ),
 
           // ── App ──────────────────────────────────────────────────────────
@@ -246,137 +162,6 @@ class _SectionHeader extends StatelessWidget {
               color: AppColors.torchAmber.withValues(alpha: 0.7),
               letterSpacing: 1.2,
             ),
-      ),
-    );
-  }
-}
-
-// ---------------------------------------------------------------------------
-// Add comment bottom sheet
-// ---------------------------------------------------------------------------
-
-class _AddCommentSheet extends StatefulWidget {
-  final IssueItem issue;
-  final String? userId;
-
-  const _AddCommentSheet({required this.issue, this.userId});
-
-  @override
-  State<_AddCommentSheet> createState() => _AddCommentSheetState();
-}
-
-class _AddCommentSheetState extends State<_AddCommentSheet> {
-  final _ctrl = TextEditingController();
-  bool _submitting = false;
-
-  @override
-  void dispose() {
-    _ctrl.dispose();
-    super.dispose();
-  }
-
-  Future<void> _submit() async {
-    if (_ctrl.text.trim().isEmpty) return;
-    setState(() => _submitting = true);
-    final ok = await GithubIssueService.addComment(
-      issueNumber: widget.issue.number,
-      body: _ctrl.text.trim(),
-      userId: widget.userId,
-    );
-    if (!mounted) return;
-    setState(() => _submitting = false);
-    if (ok) {
-      Navigator.of(context).pop();
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Comment added — thank you!')),
-      );
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-            content:
-                Text('Could not submit — check your connection and try again.')),
-      );
-    }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final tt = Theme.of(context).textTheme;
-    return Padding(
-      padding: EdgeInsets.only(
-        bottom: MediaQuery.of(context).viewInsets.bottom,
-        left: 20,
-        right: 20,
-        top: 20,
-      ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            'Add comment to #${widget.issue.number}',
-            style: tt.titleSmall?.copyWith(color: AppColors.parchment),
-          ),
-          const SizedBox(height: 4),
-          Text(
-            widget.issue.title,
-            style: tt.bodySmall?.copyWith(
-                color: AppColors.textLight.withValues(alpha: 0.55)),
-            maxLines: 2,
-            overflow: TextOverflow.ellipsis,
-          ),
-          const SizedBox(height: 16),
-          TextField(
-            controller: _ctrl,
-            minLines: 3,
-            maxLines: null,
-            autofocus: true,
-            style: const TextStyle(color: AppColors.textLight),
-            decoration: InputDecoration(
-              hintText: 'Add any additional context, updates, or follow-up…',
-              hintStyle: TextStyle(
-                  color: AppColors.textLight.withValues(alpha: 0.4),
-                  fontSize: 13),
-              filled: true,
-              fillColor: AppColors.stone,
-              border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(6),
-                  borderSide: const BorderSide(color: AppColors.stoneMid)),
-              enabledBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(6),
-                  borderSide: BorderSide(
-                      color: AppColors.stoneMid.withValues(alpha: 0.6))),
-              focusedBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(6),
-                  borderSide: const BorderSide(
-                      color: AppColors.torchAmber, width: 1.5)),
-              contentPadding: const EdgeInsets.symmetric(
-                  horizontal: 12, vertical: 10),
-            ),
-          ),
-          const SizedBox(height: 16),
-          SizedBox(
-            width: double.infinity,
-            child: ElevatedButton.icon(
-              onPressed: _submitting ? null : _submit,
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppColors.torchAmber,
-                foregroundColor: AppColors.textDark,
-                padding: const EdgeInsets.symmetric(vertical: 14),
-              ),
-              icon: _submitting
-                  ? const SizedBox(
-                      width: 18,
-                      height: 18,
-                      child: CircularProgressIndicator(
-                          strokeWidth: 2, color: AppColors.textDark))
-                  : const Icon(Icons.comment_outlined),
-              label: Text(_submitting ? 'Submitting…' : 'Submit Comment',
-                  style: const TextStyle(fontWeight: FontWeight.bold)),
-            ),
-          ),
-          const SizedBox(height: 20),
-        ],
       ),
     );
   }

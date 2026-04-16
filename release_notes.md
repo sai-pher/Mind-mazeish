@@ -3,10 +3,10 @@
 ## Unreleased
 
 ### Features
-- (none)
+- Issues tab in Feedback — open alpha-feedback issues are now shown in a dedicated "Issues" tab on the Feedback screen instead of the Settings page (#77)
 
 ### Fixes
-- (none)
+- Issue descriptions and comments now display when tapping an issue — body and comment thread were missing due to unparsed API fields and no detail view (#77)
 
 ### Content
 - (none)
