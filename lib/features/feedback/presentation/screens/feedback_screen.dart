@@ -11,7 +11,7 @@ import '../../data/github_issue_service.dart';
 // Tab indices
 const _kTabGeneral  = 0;
 const _kTabContent  = 2;
-const _kTabIssues   = 4;
+
 
 class FeedbackScreen extends StatefulWidget {
   const FeedbackScreen({super.key});

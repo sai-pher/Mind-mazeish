@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:mind_mazeish/features/feedback/data/github_issue_service.dart';
+import 'package:mind_maze/features/feedback/data/github_issue_service.dart';
 
 // Regression test for sai-pher/Mind-mazeish#77
 //
