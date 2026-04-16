@@ -12,6 +12,7 @@ import '../../data/github_issue_service.dart';
 const _kTabGeneral  = 0;
 const _kTabContent  = 2;
 
+
 class FeedbackScreen extends StatefulWidget {
   const FeedbackScreen({super.key});
 
@@ -35,7 +36,7 @@ class _FeedbackScreenState extends State<FeedbackScreen>
   @override
   void initState() {
     super.initState();
-    _tabs = TabController(length: 4, vsync: this);
+    _tabs = TabController(length: 5, vsync: this);
     PackageInfo.fromPlatform().then((i) {
       if (mounted) setState(() => _appVersion = '${i.version}+${i.buildNumber}');
     });
@@ -78,6 +79,7 @@ class _FeedbackScreenState extends State<FeedbackScreen>
             Tab(icon: Icon(Icons.bug_report_outlined), text: 'Bug Report'),
             Tab(icon: Icon(Icons.library_add_outlined), text: 'Content'),
             Tab(icon: Icon(Icons.pending_actions_outlined), text: 'Pending'),
+            Tab(icon: Icon(Icons.list_alt_outlined), text: 'Issues'),
           ],
         ),
       ),
@@ -104,6 +106,7 @@ class _FeedbackScreenState extends State<FeedbackScreen>
             onLoadDraft: _loadDraft,
             onDraftDeleted: _onDraftSaved,
           ),
+          _IssuesTab(userId: _userId),
         ],
       ),
     );
@@ -227,7 +230,7 @@ class _GeneralFeedbackTabState extends State<_GeneralFeedbackTab> {
           Wrap(
             spacing: 8,
             runSpacing: 8,
-            children: FeedbackCategory.values.map((c) {
+            children: FeedbackCategory.values.where((c) => c != FeedbackCategory.bug).map((c) {
               final selected = _category == c;
               return ChoiceChip(
                 label: Text('${c.emoji} ${c.label}'),
@@ -859,6 +862,460 @@ class _PendingFeedbackTabState extends State<_PendingFeedbackTab> {
     if (diff.inMinutes < 60) return '${diff.inMinutes}m ago';
     if (diff.inHours < 24) return '${diff.inHours}h ago';
     return '${diff.inDays}d ago';
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Issues Tab
+// ---------------------------------------------------------------------------
+
+class _IssuesTab extends StatefulWidget {
+  final String? userId;
+  const _IssuesTab({this.userId});
+
+  @override
+  State<_IssuesTab> createState() => _IssuesTabState();
+}
+
+class _IssuesTabState extends State<_IssuesTab>
+    with AutomaticKeepAliveClientMixin {
+  late Future<List<IssueItem>> _issuesFuture;
+
+  @override
+  bool get wantKeepAlive => true;
+
+  @override
+  void initState() {
+    super.initState();
+    _issuesFuture = GithubIssueService.fetchOpenIssues();
+  }
+
+  void _openDetail(IssueItem issue) {
+    showModalBottomSheet<void>(
+      context: context,
+      backgroundColor: AppColors.stoneDark,
+      isScrollControlled: true,
+      useSafeArea: true,
+      shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(top: Radius.circular(16))),
+      builder: (ctx) => _IssueDetailSheet(issue: issue, userId: widget.userId),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    super.build(context);
+    final tt = Theme.of(context).textTheme;
+    return FutureBuilder<List<IssueItem>>(
+      future: _issuesFuture,
+      builder: (context, snap) {
+        if (snap.connectionState != ConnectionState.done) {
+          return const Center(child: CircularProgressIndicator());
+        }
+        final issues = snap.data ?? [];
+        if (issues.isEmpty) {
+          return Center(
+            child: Padding(
+              padding: const EdgeInsets.all(32),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.list_alt_outlined,
+                      size: 48,
+                      color: AppColors.textLight.withValues(alpha: 0.3)),
+                  const SizedBox(height: 16),
+                  Text(
+                    'No open issues',
+                    style: tt.titleMedium?.copyWith(
+                        color: AppColors.textLight.withValues(alpha: 0.5)),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    'No open alpha-feedback issues found, or unable to reach GitHub.',
+                    textAlign: TextAlign.center,
+                    style: tt.bodySmall?.copyWith(
+                        color: AppColors.textLight.withValues(alpha: 0.35)),
+                  ),
+                ],
+              ),
+            ),
+          );
+        }
+        return ListView.separated(
+          padding: const EdgeInsets.all(16),
+          itemCount: issues.length,
+          separatorBuilder: (_, __) => const Divider(
+              color: AppColors.stoneMid, height: 1, indent: 56),
+          itemBuilder: (context, i) {
+            final issue = issues[i];
+            return ListTile(
+              leading: CircleAvatar(
+                backgroundColor: AppColors.stone,
+                radius: 16,
+                child: Text(
+                  '#${issue.number}',
+                  style: const TextStyle(
+                      color: AppColors.torchAmber,
+                      fontSize: 10,
+                      fontWeight: FontWeight.bold),
+                ),
+              ),
+              title: Text(
+                issue.title,
+                style: const TextStyle(
+                    color: AppColors.textLight, fontSize: 13),
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+              ),
+              subtitle: issue.labelNames.isNotEmpty
+                  ? Text(
+                      issue.labelNames.join(' · '),
+                      style: TextStyle(
+                          color: AppColors.textLight.withValues(alpha: 0.45),
+                          fontSize: 11),
+                    )
+                  : null,
+              trailing: const Icon(Icons.chevron_right,
+                  color: AppColors.stoneMid, size: 18),
+              contentPadding:
+                  const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+              onTap: () => _openDetail(issue),
+            );
+          },
+        );
+      },
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Issue detail bottom sheet
+// ---------------------------------------------------------------------------
+
+class _IssueDetailSheet extends StatefulWidget {
+  final IssueItem issue;
+  final String? userId;
+
+  const _IssueDetailSheet({required this.issue, this.userId});
+
+  @override
+  State<_IssueDetailSheet> createState() => _IssueDetailSheetState();
+}
+
+class _IssueDetailSheetState extends State<_IssueDetailSheet> {
+  late Future<List<IssueComment>> _commentsFuture;
+  bool _showCommentBox = false;
+  final _commentCtrl = TextEditingController();
+  bool _submitting = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _commentsFuture =
+        GithubIssueService.fetchIssueComments(widget.issue.number);
+  }
+
+  @override
+  void dispose() {
+    _commentCtrl.dispose();
+    super.dispose();
+  }
+
+  Future<void> _submitComment() async {
+    if (_commentCtrl.text.trim().isEmpty) return;
+    setState(() => _submitting = true);
+    final ok = await GithubIssueService.addComment(
+      issueNumber: widget.issue.number,
+      body: _commentCtrl.text.trim(),
+      userId: widget.userId,
+    );
+    if (!mounted) return;
+    setState(() => _submitting = false);
+    if (ok) {
+      _commentCtrl.clear();
+      setState(() {
+        _showCommentBox = false;
+        _commentsFuture =
+            GithubIssueService.fetchIssueComments(widget.issue.number);
+      });
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Comment added — thank you!')),
+      );
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+            content:
+                Text('Could not submit — check your connection and try again.')),
+      );
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final tt = Theme.of(context).textTheme;
+    return DraggableScrollableSheet(
+      expand: false,
+      initialChildSize: 0.85,
+      minChildSize: 0.4,
+      maxChildSize: 0.95,
+      builder: (ctx, scrollCtrl) => Column(
+        children: [
+          // Handle
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 10),
+            child: Container(
+              width: 40,
+              height: 4,
+              decoration: BoxDecoration(
+                color: AppColors.stoneMid,
+                borderRadius: BorderRadius.circular(2),
+              ),
+            ),
+          ),
+          // Header
+          Padding(
+            padding: const EdgeInsets.fromLTRB(20, 0, 20, 12),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                CircleAvatar(
+                  backgroundColor: AppColors.stone,
+                  radius: 14,
+                  child: Text(
+                    '#${widget.issue.number}',
+                    style: const TextStyle(
+                        color: AppColors.torchAmber,
+                        fontSize: 9,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Text(
+                    widget.issue.title,
+                    style: tt.titleSmall?.copyWith(color: AppColors.parchment),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          if (widget.issue.labelNames.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(20, 0, 20, 12),
+              child: Wrap(
+                spacing: 6,
+                children: widget.issue.labelNames
+                    .map((l) => Chip(
+                          label: Text(l,
+                              style: const TextStyle(
+                                  fontSize: 10, color: AppColors.textLight)),
+                          backgroundColor: AppColors.stone,
+                          padding: EdgeInsets.zero,
+                          materialTapTargetSize:
+                              MaterialTapTargetSize.shrinkWrap,
+                          visualDensity: VisualDensity.compact,
+                        ))
+                    .toList(),
+              ),
+            ),
+          const Divider(color: AppColors.stoneMid, height: 1),
+          // Scrollable body
+          Expanded(
+            child: ListView(
+              controller: scrollCtrl,
+              padding: const EdgeInsets.all(20),
+              children: [
+                if (widget.issue.body.isNotEmpty) ...[
+                  Text(
+                    widget.issue.body,
+                    style: tt.bodyMedium?.copyWith(
+                        color: AppColors.textLight.withValues(alpha: 0.85),
+                        height: 1.5),
+                  ),
+                  const SizedBox(height: 20),
+                  const Divider(color: AppColors.stoneMid),
+                  const SizedBox(height: 12),
+                ],
+                Text(
+                  'Comments',
+                  style: tt.labelMedium?.copyWith(color: AppColors.parchment),
+                ),
+                const SizedBox(height: 12),
+                FutureBuilder<List<IssueComment>>(
+                  future: _commentsFuture,
+                  builder: (context, snap) {
+                    if (snap.connectionState != ConnectionState.done) {
+                      return const Padding(
+                        padding: EdgeInsets.all(16),
+                        child: Center(child: CircularProgressIndicator()),
+                      );
+                    }
+                    final comments = snap.data ?? [];
+                    if (comments.isEmpty) {
+                      return Text(
+                        'No comments yet.',
+                        style: tt.bodySmall?.copyWith(
+                            color:
+                                AppColors.textLight.withValues(alpha: 0.4)),
+                      );
+                    }
+                    return Column(
+                      children: comments
+                          .map((c) => _CommentCard(comment: c))
+                          .toList(),
+                    );
+                  },
+                ),
+                const SizedBox(height: 16),
+                if (_showCommentBox) ...[
+                  TextField(
+                    controller: _commentCtrl,
+                    minLines: 3,
+                    maxLines: null,
+                    autofocus: true,
+                    style: const TextStyle(color: AppColors.textLight),
+                    decoration: InputDecoration(
+                      hintText:
+                          'Add any additional context, updates, or follow-up…',
+                      hintStyle: TextStyle(
+                          color: AppColors.textLight.withValues(alpha: 0.4),
+                          fontSize: 13),
+                      filled: true,
+                      fillColor: AppColors.stone,
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(6),
+                          borderSide:
+                              const BorderSide(color: AppColors.stoneMid)),
+                      enabledBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(6),
+                          borderSide: BorderSide(
+                              color: AppColors.stoneMid.withValues(alpha: 0.6))),
+                      focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(6),
+                          borderSide: const BorderSide(
+                              color: AppColors.torchAmber, width: 1.5)),
+                      contentPadding: const EdgeInsets.symmetric(
+                          horizontal: 12, vertical: 10),
+                    ),
+                  ),
+                  const SizedBox(height: 12),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: OutlinedButton(
+                          onPressed: () =>
+                              setState(() => _showCommentBox = false),
+                          style: OutlinedButton.styleFrom(
+                            foregroundColor: AppColors.textLight,
+                            side: const BorderSide(color: AppColors.stoneMid),
+                          ),
+                          child: const Text('Cancel'),
+                        ),
+                      ),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: ElevatedButton.icon(
+                          onPressed: _submitting ? null : _submitComment,
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: AppColors.torchAmber,
+                            foregroundColor: AppColors.textDark,
+                          ),
+                          icon: _submitting
+                              ? const SizedBox(
+                                  width: 16,
+                                  height: 16,
+                                  child: CircularProgressIndicator(
+                                      strokeWidth: 2,
+                                      color: AppColors.textDark))
+                              : const Icon(Icons.comment_outlined, size: 16),
+                          label: Text(_submitting ? 'Submitting…' : 'Submit',
+                              style: const TextStyle(
+                                  fontWeight: FontWeight.bold)),
+                        ),
+                      ),
+                    ],
+                  ),
+                ] else
+                  SizedBox(
+                    width: double.infinity,
+                    child: OutlinedButton.icon(
+                      onPressed: () => setState(() => _showCommentBox = true),
+                      style: OutlinedButton.styleFrom(
+                        foregroundColor: AppColors.torchAmber,
+                        side: const BorderSide(color: AppColors.torchAmber),
+                        padding: const EdgeInsets.symmetric(vertical: 12),
+                      ),
+                      icon: const Icon(Icons.add_comment_outlined, size: 16),
+                      label: const Text('Add Comment'),
+                    ),
+                  ),
+                const SizedBox(height: 24),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Comment card
+// ---------------------------------------------------------------------------
+
+class _CommentCard extends StatelessWidget {
+  final IssueComment comment;
+  const _CommentCard({required this.comment});
+
+  @override
+  Widget build(BuildContext context) {
+    final tt = Theme.of(context).textTheme;
+    return Container(
+      margin: const EdgeInsets.only(bottom: 12),
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: AppColors.stone,
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: AppColors.stoneMid.withValues(alpha: 0.4)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Text(
+                comment.authorLogin,
+                style: tt.labelSmall?.copyWith(
+                    color: AppColors.torchAmber,
+                    fontWeight: FontWeight.bold),
+              ),
+              const Spacer(),
+              Text(
+                _formatDate(comment.createdAt),
+                style: tt.labelSmall?.copyWith(
+                    color: AppColors.textLight.withValues(alpha: 0.4)),
+              ),
+            ],
+          ),
+          const SizedBox(height: 6),
+          Text(
+            comment.body,
+            style: tt.bodySmall?.copyWith(
+                color: AppColors.textLight.withValues(alpha: 0.8),
+                height: 1.4),
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _formatDate(DateTime dt) {
+    final diff = DateTime.now().difference(dt);
+    if (diff.inMinutes < 1) return 'just now';
+    if (diff.inMinutes < 60) return '${diff.inMinutes}m ago';
+    if (diff.inHours < 24) return '${diff.inHours}h ago';
+    if (diff.inDays < 30) return '${diff.inDays}d ago';
+    return '${dt.year}-${dt.month.toString().padLeft(2, '0')}-${dt.day.toString().padLeft(2, '0')}';
   }
 }
 
