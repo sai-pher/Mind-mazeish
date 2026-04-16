@@ -47,20 +47,20 @@ class _SettingsScreenState extends State<SettingsScreen> {
   }
 
   Future<void> _load() async {
-    final results = await Future.wait([
-      UserProfileService.getProfile(),
-      GameStatsRepository.load(),
-      PackageInfo.fromPlatform().then((i) => '${i.version}+${i.buildNumber}'),
-    ]);
+    final profileFuture = UserProfileService.getProfile();
+    final statsFuture   = GameStatsRepository.load();
+    final versionFuture = PackageInfo.fromPlatform();
+    final profile  = await profileFuture;
+    final stats    = await statsFuture;
+    final pkgInfo  = await versionFuture;
     if (!mounted) return;
-    final profile = results[0] as UserProfile;
     setState(() {
-      _profile       = profile;
-      _stats         = results[1] as GameStats;
-      _appVersion    = results[2] as String;
+      _profile    = profile;
+      _stats      = stats;
+      _appVersion = '${pkgInfo.version}+${pkgInfo.buildNumber}';
       _displayNameCtrl.text = profile.displayName;
       _githubUrlCtrl.text   = profile.githubUrl;
-      _selectedEmoji = profile.emoji;
+      _selectedEmoji        = profile.emoji;
     });
   }
 

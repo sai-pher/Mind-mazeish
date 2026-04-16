@@ -18,10 +18,10 @@ class GameStats {
   });
 
   double get accuracy =>
-      totalAnswered == 0 ? 0 : totalCorrect / totalAnswered;
+      totalAnswered == 0 ? 0.0 : totalCorrect / totalAnswered;
 
   double get winRate =>
-      gamesPlayed == 0 ? 0 : totalWins / gamesPlayed;
+      gamesPlayed == 0 ? 0.0 : totalWins / gamesPlayed;
 
   GameStats recordGame({
     required int score,
