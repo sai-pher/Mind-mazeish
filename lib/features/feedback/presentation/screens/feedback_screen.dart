@@ -5,6 +5,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 import '../../../../core/theme/app_theme.dart';
 import '../../../gameplay/data/topic_registry.dart';
 import '../../data/feedback_draft_repository.dart';
+import '../../../settings/data/user_profile_service.dart';
 import '../../data/github_issue_service.dart';
 
 // Tab indices
@@ -22,6 +23,7 @@ class _FeedbackScreenState extends State<FeedbackScreen>
     with SingleTickerProviderStateMixin {
   late final TabController _tabs;
   String? _appVersion;
+  String? _userId;
 
   /// Incremented whenever a draft is saved or deleted, triggering the
   /// Pending tab to reload.
@@ -36,6 +38,9 @@ class _FeedbackScreenState extends State<FeedbackScreen>
     _tabs = TabController(length: 4, vsync: this);
     PackageInfo.fromPlatform().then((i) {
       if (mounted) setState(() => _appVersion = '${i.version}+${i.buildNumber}');
+    });
+    UserProfileService.getUserId().then((id) {
+      if (mounted) setState(() => _userId = id);
     });
   }
 
@@ -81,6 +86,7 @@ class _FeedbackScreenState extends State<FeedbackScreen>
         children: [
           _GeneralFeedbackTab(
             appVersion: _appVersion,
+            userId: _userId,
             loadedDraft: _loadedDraft?.type == 'general' ? _loadedDraft : null,
             onDraftLoaded: _onDraftLoaded,
             onDraftSaved: _onDraftSaved,
@@ -88,6 +94,7 @@ class _FeedbackScreenState extends State<FeedbackScreen>
           _BugReportTab(appVersion: _appVersion),
           _ContentRequestTab(
             appVersion: _appVersion,
+            userId: _userId,
             loadedDraft: _loadedDraft?.type == 'content' ? _loadedDraft : null,
             onDraftLoaded: _onDraftLoaded,
             onDraftSaved: _onDraftSaved,
@@ -109,12 +116,14 @@ class _FeedbackScreenState extends State<FeedbackScreen>
 
 class _GeneralFeedbackTab extends StatefulWidget {
   final String? appVersion;
+  final String? userId;
   final FeedbackDraft? loadedDraft;
   final VoidCallback onDraftLoaded;
   final VoidCallback onDraftSaved;
 
   const _GeneralFeedbackTab({
     this.appVersion,
+    this.userId,
     this.loadedDraft,
     required this.onDraftLoaded,
     required this.onDraftSaved,
@@ -167,6 +176,7 @@ class _GeneralFeedbackTabState extends State<_GeneralFeedbackTab> {
       title: _titleCtrl.text.trim(),
       body: _bodyCtrl.text.trim(),
       appVersion: widget.appVersion,
+      userId: widget.userId,
     );
     if (!mounted) return;
     setState(() => _submitting = false);
@@ -459,12 +469,14 @@ class _BugReportTabState extends State<_BugReportTab> {
 
 class _ContentRequestTab extends StatefulWidget {
   final String? appVersion;
+  final String? userId;
   final FeedbackDraft? loadedDraft;
   final VoidCallback onDraftLoaded;
   final VoidCallback onDraftSaved;
 
   const _ContentRequestTab({
     this.appVersion,
+    this.userId,
     this.loadedDraft,
     required this.onDraftLoaded,
     required this.onDraftSaved,
@@ -526,6 +538,7 @@ class _ContentRequestTabState extends State<_ContentRequestTab> {
           : _bodyCtrl.text.trim(),
       topicId: _selectedTopicId,
       appVersion: widget.appVersion,
+      userId: widget.userId,
     );
     if (!mounted) return;
     setState(() => _submitting = false);

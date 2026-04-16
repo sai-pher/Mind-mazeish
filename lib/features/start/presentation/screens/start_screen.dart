@@ -125,13 +125,13 @@ class StartScreen extends ConsumerWidget {
 
                     const SizedBox(height: 4),
 
-                    // Feedback button
+                    // Settings button (feedback + issues accessible from there)
                     TextButton.icon(
-                      onPressed: () => context.push('/feedback'),
-                      icon: Icon(Icons.feedback_outlined,
+                      onPressed: () => context.push('/settings'),
+                      icon: Icon(Icons.settings_outlined,
                           size: 18,
                           color: AppColors.textLight.withValues(alpha: 0.55)),
-                      label: Text('Feedback',
+                      label: Text('Settings',
                           style: textTheme.labelMedium?.copyWith(
                               color: AppColors.textLight
                                   .withValues(alpha: 0.55))),
