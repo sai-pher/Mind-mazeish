@@ -3,7 +3,7 @@
 ## Unreleased
 
 ### Features
-- (none)
+- Structured bug report form — new "Bug Report" tab in Feedback with Given / When / Then Expected / But Actually fields for clearer, actionable reports (#48)
 
 ### Fixes
 - (none)
