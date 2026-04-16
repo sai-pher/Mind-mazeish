@@ -6,12 +6,50 @@ import 'package:go_router/go_router.dart';
 import '../../../../core/theme/app_theme.dart';
 import '../../../gameplay/domain/models/game_state.dart';
 import '../../../gameplay/presentation/providers/game_state_provider.dart';
+import '../../../settings/data/game_stats_repository.dart';
 
-class ResultsScreen extends ConsumerWidget {
+class ResultsScreen extends ConsumerStatefulWidget {
   const ResultsScreen({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<ResultsScreen> createState() => _ResultsScreenState();
+}
+
+class _ResultsScreenState extends ConsumerState<ResultsScreen> {
+  bool _statsRecorded = false;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _recordStats());
+  }
+
+  Future<void> _recordStats() async {
+    if (_statsRecorded) return;
+    final gs = ref.read(gameStateProvider);
+    if (gs == null) return;
+    final finished =
+        gs.status == GameStatus.gameOver || gs.status == GameStatus.complete;
+    if (!finished) return;
+    _statsRecorded = true;
+    await GameStatsRepository.recordGame(
+      score: gs.score,
+      correct: gs.correctCount,
+      answered: gs.questionsAnswered,
+      articlesFound: gs.newArticleUrls.length,
+      won: gs.status == GameStatus.complete,
+    );
+  }
+
+  int _starCount(int score, int answered, int total) {
+    if (answered == total && score >= total * 8) return 3;
+    if (answered >= total * 0.6 && score >= total * 4) return 2;
+    if (score >= 10) return 1;
+    return 0;
+  }
+
+  @override
+  Widget build(BuildContext context) {
     final gs = ref.watch(gameStateProvider);
     final textTheme = Theme.of(context).textTheme;
 
@@ -172,13 +210,6 @@ class ResultsScreen extends ConsumerWidget {
         ],
       ),
     );
-  }
-
-  int _starCount(int score, int answered, int total) {
-    if (answered == total && score >= total * 8) return 3;
-    if (answered >= total * 0.6 && score >= total * 4) return 2;
-    if (score >= 10) return 1;
-    return 0;
   }
 }
 

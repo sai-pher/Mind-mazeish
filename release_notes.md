@@ -3,10 +3,11 @@
 ## Unreleased
 
 ### Features
-- (none)
+- User profile page — set a display name, pick an emoji avatar, and optionally link a GitHub profile; display name and emoji now sign all feedback submissions (#78)
+- Game stats in Settings — cumulative stats (games played, best score, win rate, accuracy, total articles found) are recorded after each game and shown on the Settings screen (#78)
 
 ### Fixes
-- (none)
+- App icon no longer shows as a small image inside a white circle on Android 8.0+ devices — added adaptive icon configuration (`mipmap-anydpi-v26`) with the castle dark background (#66)
 
 ### Content
 - (none)
