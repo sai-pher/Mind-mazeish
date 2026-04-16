@@ -21,7 +21,7 @@ class _FeedbackScreenState extends State<FeedbackScreen>
   @override
   void initState() {
     super.initState();
-    _tabs = TabController(length: 2, vsync: this);
+    _tabs = TabController(length: 3, vsync: this);
     PackageInfo.fromPlatform().then((i) {
       if (mounted) setState(() => _appVersion = '${i.version}+${i.buildNumber}');
     });
@@ -47,7 +47,8 @@ class _FeedbackScreenState extends State<FeedbackScreen>
           unselectedLabelColor: AppColors.textLight,
           tabs: const [
             Tab(icon: Icon(Icons.chat_bubble_outline), text: 'General'),
-            Tab(icon: Icon(Icons.library_add_outlined), text: 'Content Request'),
+            Tab(icon: Icon(Icons.bug_report_outlined), text: 'Bug Report'),
+            Tab(icon: Icon(Icons.library_add_outlined), text: 'Content'),
           ],
         ),
       ),
@@ -55,6 +56,7 @@ class _FeedbackScreenState extends State<FeedbackScreen>
         controller: _tabs,
         children: [
           _GeneralFeedbackTab(appVersion: _appVersion),
+          _BugReportTab(appVersion: _appVersion),
           _ContentRequestTab(appVersion: _appVersion),
         ],
       ),
@@ -170,6 +172,166 @@ class _GeneralFeedbackTabState extends State<_GeneralFeedbackTab> {
                       child: CircularProgressIndicator(strokeWidth: 2, color: AppColors.textDark))
                   : const Icon(Icons.send),
               label: Text(_submitting ? 'Submitting…' : 'Submit Feedback',
+                  style: const TextStyle(fontWeight: FontWeight.bold)),
+            ),
+          ),
+          if (widget.appVersion != null) ...[
+            const SizedBox(height: 12),
+            Text('v${widget.appVersion}',
+                style: tt.labelSmall?.copyWith(
+                    color: AppColors.textLight.withValues(alpha: 0.35))),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Bug Report Tab
+// ---------------------------------------------------------------------------
+
+class _BugReportTab extends StatefulWidget {
+  final String? appVersion;
+  const _BugReportTab({this.appVersion});
+
+  @override
+  State<_BugReportTab> createState() => _BugReportTabState();
+}
+
+class _BugReportTabState extends State<_BugReportTab> {
+  final _titleCtrl          = TextEditingController();
+  final _givenCtrl          = TextEditingController();
+  final _whenCtrl           = TextEditingController();
+  final _thenExpectedCtrl   = TextEditingController();
+  final _butActuallyCtrl    = TextEditingController();
+  final _supportingCtrl     = TextEditingController();
+  bool _submitting = false;
+
+  @override
+  void dispose() {
+    _titleCtrl.dispose();
+    _givenCtrl.dispose();
+    _whenCtrl.dispose();
+    _thenExpectedCtrl.dispose();
+    _butActuallyCtrl.dispose();
+    _supportingCtrl.dispose();
+    super.dispose();
+  }
+
+  Future<void> _submit() async {
+    if (_titleCtrl.text.trim().isEmpty ||
+        _givenCtrl.text.trim().isEmpty ||
+        _whenCtrl.text.trim().isEmpty ||
+        _thenExpectedCtrl.text.trim().isEmpty ||
+        _butActuallyCtrl.text.trim().isEmpty) {
+      _showSnack('Please fill in all required fields.');
+      return;
+    }
+    setState(() => _submitting = true);
+    final ok = await GithubIssueService.submitBugReport(
+      title: _titleCtrl.text.trim(),
+      given: _givenCtrl.text.trim(),
+      when: _whenCtrl.text.trim(),
+      thenExpected: _thenExpectedCtrl.text.trim(),
+      butActually: _butActuallyCtrl.text.trim(),
+      supportingDetails: _supportingCtrl.text.trim().isEmpty
+          ? null
+          : _supportingCtrl.text.trim(),
+      appVersion: widget.appVersion,
+    );
+    if (!mounted) return;
+    setState(() => _submitting = false);
+    if (ok) {
+      _titleCtrl.clear();
+      _givenCtrl.clear();
+      _whenCtrl.clear();
+      _thenExpectedCtrl.clear();
+      _butActuallyCtrl.clear();
+      _supportingCtrl.clear();
+    }
+    _showSnack(ok
+        ? 'Bug report submitted — thank you!'
+        : 'Could not submit — check your connection and try again.');
+  }
+
+  void _showSnack(String msg) => ScaffoldMessenger.of(context)
+      .showSnackBar(SnackBar(content: Text(msg)));
+
+  @override
+  Widget build(BuildContext context) {
+    final tt = Theme.of(context).textTheme;
+    return SingleChildScrollView(
+      padding: const EdgeInsets.all(20),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            'Describe the bug using the structured fields below. '
+            'Required fields are marked *.',
+            style: tt.bodySmall?.copyWith(
+                color: AppColors.textLight.withValues(alpha: 0.7)),
+          ),
+          const SizedBox(height: 16),
+          _Field(
+            controller: _titleCtrl,
+            label: 'Title *',
+            hint: 'One-line summary (e.g. "App crashes on results screen")',
+            maxLines: 1,
+          ),
+          const SizedBox(height: 14),
+          _Field(
+            controller: _givenCtrl,
+            label: 'Given * — scenario and conditions',
+            hint: 'Describe the situation and any conditions needed to reproduce…',
+            maxLines: 4,
+          ),
+          const SizedBox(height: 14),
+          _Field(
+            controller: _whenCtrl,
+            label: 'When * — the action you took',
+            hint: 'Describe the specific action or feature you attempted…',
+            maxLines: 3,
+          ),
+          const SizedBox(height: 14),
+          _Field(
+            controller: _thenExpectedCtrl,
+            label: 'Then Expected * — what should have happened',
+            hint: 'Describe the behaviour you expected to see…',
+            maxLines: 3,
+          ),
+          const SizedBox(height: 14),
+          _Field(
+            controller: _butActuallyCtrl,
+            label: 'But Actually * — what actually happened',
+            hint: 'Describe what you observed instead…',
+            maxLines: 3,
+          ),
+          const SizedBox(height: 14),
+          _Field(
+            controller: _supportingCtrl,
+            label: 'Supporting details (optional)',
+            hint: 'Any extra context, error messages, or steps to reproduce consistently…',
+            maxLines: 4,
+          ),
+          const SizedBox(height: 24),
+          SizedBox(
+            width: double.infinity,
+            child: ElevatedButton.icon(
+              onPressed: _submitting ? null : _submit,
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppColors.dangerRed,
+                foregroundColor: AppColors.textLight,
+                padding: const EdgeInsets.symmetric(vertical: 14),
+              ),
+              icon: _submitting
+                  ? const SizedBox(
+                      width: 18,
+                      height: 18,
+                      child: CircularProgressIndicator(
+                          strokeWidth: 2, color: AppColors.textLight))
+                  : const Icon(Icons.bug_report),
+              label: Text(_submitting ? 'Submitting…' : 'Submit Bug Report',
                   style: const TextStyle(fontWeight: FontWeight.bold)),
             ),
           ),

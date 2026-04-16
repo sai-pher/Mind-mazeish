@@ -53,6 +53,41 @@ ${body.trim()}
     );
   }
 
+  static Future<bool> submitBugReport({
+    required String title,
+    required String given,
+    required String when,
+    required String thenExpected,
+    required String butActually,
+    String? supportingDetails,
+    String? appVersion,
+  }) async {
+    final issueBody = '''
+**Given**
+${given.trim()}
+
+**When**
+${when.trim()}
+
+**Then Expected**
+${thenExpected.trim()}
+
+**But Actually**
+${butActually.trim()}
+
+${supportingDetails != null && supportingDetails.trim().isNotEmpty ? '**Supporting details**\n${supportingDetails.trim()}\n\n' : ''}---
+**Category:** 🐛 Bug Report
+**App version:** ${appVersion ?? 'unknown'}
+**Source:** In-app feedback
+''';
+
+    return _createIssue(
+      title: '[Bug Report] $title',
+      body: issueBody,
+      labels: ['bug', 'alpha-feedback'],
+    );
+  }
+
   static Future<bool> submitContentRequest({
     required ContentRequestType type,
     required String title,

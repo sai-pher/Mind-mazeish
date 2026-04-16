@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Features
+- Structured bug report form — new "Bug Report" tab in Feedback with Given / When / Then Expected / But Actually fields for clearer, actionable reports (#48)
 - Auto-check for app updates on launch — update dialog appears automatically when a new version is available
 - In-app update dialog now renders release notes as formatted markdown with full scrollable content
 - Download button now triggers a direct APK download instead of opening the browser release page
