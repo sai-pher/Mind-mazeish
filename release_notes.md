@@ -3,6 +3,9 @@
 ## Unreleased
 
 ### Features
+- Settings page — new screen accessible from the start screen with user profile, feedback, open issues, and app info (#45)
+- Anonymous tester ID — generated locally on first launch and attached to all feedback submissions for grouping without accounts (#45)
+- Comment on open issues — view active alpha-feedback issues in Settings and add follow-up comments directly from the app (#45)
 - Auto-check for app updates on launch — update dialog appears automatically when a new version is available
 - In-app update dialog now renders release notes as formatted markdown with full scrollable content
 - Download button now triggers a direct APK download instead of opening the browser release page

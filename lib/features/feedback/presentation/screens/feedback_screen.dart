@@ -4,6 +4,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 
 import '../../../../core/theme/app_theme.dart';
 import '../../../gameplay/data/topic_registry.dart';
+import '../../../settings/data/user_profile_service.dart';
 import '../../data/github_issue_service.dart';
 
 class FeedbackScreen extends StatefulWidget {
@@ -17,6 +18,7 @@ class _FeedbackScreenState extends State<FeedbackScreen>
     with SingleTickerProviderStateMixin {
   late final TabController _tabs;
   String? _appVersion;
+  String? _userId;
 
   @override
   void initState() {
@@ -24,6 +26,9 @@ class _FeedbackScreenState extends State<FeedbackScreen>
     _tabs = TabController(length: 2, vsync: this);
     PackageInfo.fromPlatform().then((i) {
       if (mounted) setState(() => _appVersion = '${i.version}+${i.buildNumber}');
+    });
+    UserProfileService.getUserId().then((id) {
+      if (mounted) setState(() => _userId = id);
     });
   }
 
@@ -54,8 +59,8 @@ class _FeedbackScreenState extends State<FeedbackScreen>
       body: TabBarView(
         controller: _tabs,
         children: [
-          _GeneralFeedbackTab(appVersion: _appVersion),
-          _ContentRequestTab(appVersion: _appVersion),
+          _GeneralFeedbackTab(appVersion: _appVersion, userId: _userId),
+          _ContentRequestTab(appVersion: _appVersion, userId: _userId),
         ],
       ),
     );
@@ -68,7 +73,8 @@ class _FeedbackScreenState extends State<FeedbackScreen>
 
 class _GeneralFeedbackTab extends StatefulWidget {
   final String? appVersion;
-  const _GeneralFeedbackTab({this.appVersion});
+  final String? userId;
+  const _GeneralFeedbackTab({this.appVersion, this.userId});
 
   @override
   State<_GeneralFeedbackTab> createState() => _GeneralFeedbackTabState();
@@ -98,6 +104,7 @@ class _GeneralFeedbackTabState extends State<_GeneralFeedbackTab> {
       title: _titleCtrl.text.trim(),
       body: _bodyCtrl.text.trim(),
       appVersion: widget.appVersion,
+      userId: widget.userId,
     );
     if (!mounted) return;
     setState(() => _submitting = false);
@@ -153,7 +160,8 @@ class _GeneralFeedbackTabState extends State<_GeneralFeedbackTab> {
             controller: _bodyCtrl,
             label: 'Details',
             hint: 'Describe the issue or idea in as much detail as you like…',
-            maxLines: 6,
+            minLines: 6,
+            maxLines: null,
           ),
           const SizedBox(height: 24),
           SizedBox(
@@ -191,7 +199,8 @@ class _GeneralFeedbackTabState extends State<_GeneralFeedbackTab> {
 
 class _ContentRequestTab extends StatefulWidget {
   final String? appVersion;
-  const _ContentRequestTab({this.appVersion});
+  final String? userId;
+  const _ContentRequestTab({this.appVersion, this.userId});
 
   @override
   State<_ContentRequestTab> createState() => _ContentRequestTabState();
@@ -229,6 +238,7 @@ class _ContentRequestTabState extends State<_ContentRequestTab> {
           : _bodyCtrl.text.trim(),
       topicId: _selectedTopicId,
       appVersion: widget.appVersion,
+      userId: widget.userId,
     );
     if (!mounted) return;
     setState(() => _submitting = false);
@@ -293,7 +303,8 @@ class _ContentRequestTabState extends State<_ContentRequestTab> {
               controller: _bodyCtrl,
               label: 'Why this topic? (optional)',
               hint: 'Tell us why you\'d love to see this topic in the game…',
-              maxLines: 4,
+              minLines: 4,
+              maxLines: null,
             ),
           ] else ...[
             Text('Which topic?', style: tt.labelLarge?.copyWith(color: AppColors.textLight)),
@@ -333,7 +344,8 @@ class _ContentRequestTabState extends State<_ContentRequestTab> {
               controller: _bodyCtrl,
               label: 'Additional notes (optional)',
               hint: 'Any specific questions or areas to cover?',
-              maxLines: 4,
+              minLines: 4,
+              maxLines: null,
             ),
           ],
 
@@ -369,13 +381,16 @@ class _Field extends StatelessWidget {
   final TextEditingController controller;
   final String label;
   final String hint;
-  final int maxLines;
+  final int minLines;
+  // null = unbounded (expands with content, avoids internal scroll conflicts)
+  final int? maxLines;
 
   const _Field({
     required this.controller,
     required this.label,
     required this.hint,
-    required this.maxLines,
+    this.minLines = 1,
+    this.maxLines = 1,
   });
 
   @override
@@ -391,6 +406,7 @@ class _Field extends StatelessWidget {
         const SizedBox(height: 6),
         TextField(
           controller: controller,
+          minLines: minLines,
           maxLines: maxLines,
           style: const TextStyle(color: AppColors.textLight),
           decoration: InputDecoration(
