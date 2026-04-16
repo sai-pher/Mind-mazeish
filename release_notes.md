@@ -3,6 +3,20 @@
 ## Unreleased
 
 ### Features
+- (none)
+
+### Fixes
+- (none)
+
+### Content
+- (none)
+
+### Other
+- (none)
+---
+
+## v1.0.39
+### Features
 - Structured bug report form — new "Bug Report" tab in Feedback with Given / When / Then Expected / But Actually fields for clearer, actionable reports (#48)
 - Save feedback as a draft before sending — new "Pending" tab in Feedback lists saved drafts; tap to reload into the form, swipe or tap the delete icon to discard (#49)
 - Settings page — new screen accessible from the start screen with user profile, feedback, open issues, and app info (#45)
@@ -17,7 +31,6 @@
 
 ### Other
 - (none)
----
 
 ## v1.0.38
 ### Features
