@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../../core/theme/app_theme.dart';
+import '../../../../core/widgets/first_visit_tip.dart';
 import '../../data/topic_registry.dart';
 import '../../domain/models/game_state.dart';
 import '../../domain/models/quiz_config.dart';
@@ -186,49 +187,64 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
           streak: gs.streak,
           isEndless: gs.config.gameMode == GameMode.endless,
         ),
-        body: Center(
-          child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 520),
-            child: Column(
-              children: [
-                _TopicIllustration(topicId: question.topicId),
-                Expanded(
-                  child: SingleChildScrollView(
-                    padding: const EdgeInsets.fromLTRB(16, 12, 16, 16),
-                    child: Column(
-                      children: [
-                        if (gs.status == GameStatus.loading)
-                          const QuestionCardSkeleton()
-                        else ...[
-                          QuestionCard(
-                            question: question,
-                            onArticleTap: question.articleUrl.isEmpty
-                                ? null
-                                : () => context.push('/article', extra: {
-                                      'url': question.articleUrl,
-                                      'title': question.articleTitle,
-                                      'topicId': question.topicId,
-                                    }),
-                          ),
-                          const SizedBox(height: 14),
-                          _AnswerGrid(
-                            question: question,
-                            selectedIndex: _selectedIndex,
-                            onAnswer: (i) => _handleAnswer(i, question),
-                          ),
-                        ],
-                        const SizedBox(height: 16),
-                        _ProgressBar(
-                          current: gs.currentQuestionIndex + 1,
-                          total: gs.questions.length,
+        body: Stack(
+          children: [
+            Center(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 520),
+                child: Column(
+                  children: [
+                    _TopicIllustration(topicId: question.topicId),
+                    Expanded(
+                      child: SingleChildScrollView(
+                        padding: const EdgeInsets.fromLTRB(16, 12, 16, 16),
+                        child: Column(
+                          children: [
+                            if (gs.status == GameStatus.loading)
+                              const QuestionCardSkeleton()
+                            else ...[
+                              QuestionCard(
+                                question: question,
+                                onArticleTap: question.articleUrl.isEmpty
+                                    ? null
+                                    : () => context.push('/article', extra: {
+                                          'url': question.articleUrl,
+                                          'title': question.articleTitle,
+                                          'topicId': question.topicId,
+                                        }),
+                              ),
+                              const SizedBox(height: 14),
+                              _AnswerGrid(
+                                question: question,
+                                selectedIndex: _selectedIndex,
+                                onAnswer: (i) => _handleAnswer(i, question),
+                              ),
+                            ],
+                            const SizedBox(height: 16),
+                            _ProgressBar(
+                              current: gs.currentQuestionIndex + 1,
+                              total: gs.questions.length,
+                            ),
+                          ],
                         ),
-                      ],
+                      ),
                     ),
-                  ),
+                  ],
                 ),
-              ],
+              ),
             ),
-          ),
+            const Align(
+              alignment: Alignment.bottomCenter,
+              child: FirstVisitTip(
+                screenId: 'gameplay',
+                icon: Icons.menu_book,
+                title: 'Navigate the dungeon',
+                message: 'Tap 📖 on any question card to read its Wikipedia article. '
+                    'You have 3 ❤️ lives — a wrong answer costs one. '
+                    'After answering, tap "Read Article" in the pop-up to go deeper.',
+              ),
+            ),
+          ],
         ),
       ),
     );
