@@ -57,7 +57,17 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
     final streakLimit =
         ref.read(gameStateProvider)?.config.streakLimit ?? 10;
 
-    if (mounted) await _showFunFact(question.funFact, correct, reward: reward, streakLimit: streakLimit);
+    if (mounted) {
+      await _showFunFact(
+        question.funFact,
+        correct,
+        articleUrl: question.articleUrl,
+        articleTitle: question.articleTitle,
+        topicId: question.topicId,
+        reward: reward,
+        streakLimit: streakLimit,
+      );
+    }
 
     final gs = ref.read(gameStateProvider);
     if (gs == null) return;
@@ -80,10 +90,16 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
   Future<void> _showFunFact(
     String funFact,
     bool correct, {
+    String articleUrl = '',
+    String articleTitle = '',
+    String topicId = '',
     StreakReward? reward,
     int streakLimit = 10,
   }) async {
     if (!mounted) return;
+
+    bool openArticle = false;
+
     await showModalBottomSheet<void>(
       context: context,
       backgroundColor: AppColors.stoneDark,
@@ -96,8 +112,24 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
         correct: correct,
         reward: reward,
         streakLimit: streakLimit,
+        articleUrl: articleUrl,
+        articleTitle: articleTitle,
+        onArticleTap: articleUrl.isNotEmpty
+            ? () {
+                openArticle = true;
+                Navigator.of(ctx).pop();
+              }
+            : null,
       ),
     );
+
+    if (openArticle && mounted) {
+      await context.push<void>('/article', extra: {
+        'url': articleUrl,
+        'title': articleTitle,
+        'topicId': topicId,
+      });
+    }
   }
 
   @override
@@ -154,44 +186,49 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
           streak: gs.streak,
           isEndless: gs.config.gameMode == GameMode.endless,
         ),
-        body: Column(
-          children: [
-            _TopicIllustration(topicId: question.topicId),
-            Expanded(
-              child: SingleChildScrollView(
-                padding: const EdgeInsets.fromLTRB(16, 12, 16, 16),
-                child: Column(
-                  children: [
-                    if (gs.status == GameStatus.loading)
-                      const QuestionCardSkeleton()
-                    else ...[
-                      QuestionCard(
-                        question: question,
-                        onArticleTap: question.articleUrl.isEmpty
-                            ? null
-                            : () => context.push('/article', extra: {
-                                  'url': question.articleUrl,
-                                  'title': question.articleTitle,
-                                  'topicId': question.topicId,
-                                }),
-                      ),
-                      const SizedBox(height: 14),
-                      _AnswerGrid(
-                        question: question,
-                        selectedIndex: _selectedIndex,
-                        onAnswer: (i) => _handleAnswer(i, question),
-                      ),
-                    ],
-                    const SizedBox(height: 16),
-                    _ProgressBar(
-                      current: gs.currentQuestionIndex + 1,
-                      total: gs.questions.length,
+        body: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 520),
+            child: Column(
+              children: [
+                _TopicIllustration(topicId: question.topicId),
+                Expanded(
+                  child: SingleChildScrollView(
+                    padding: const EdgeInsets.fromLTRB(16, 12, 16, 16),
+                    child: Column(
+                      children: [
+                        if (gs.status == GameStatus.loading)
+                          const QuestionCardSkeleton()
+                        else ...[
+                          QuestionCard(
+                            question: question,
+                            onArticleTap: question.articleUrl.isEmpty
+                                ? null
+                                : () => context.push('/article', extra: {
+                                      'url': question.articleUrl,
+                                      'title': question.articleTitle,
+                                      'topicId': question.topicId,
+                                    }),
+                          ),
+                          const SizedBox(height: 14),
+                          _AnswerGrid(
+                            question: question,
+                            selectedIndex: _selectedIndex,
+                            onAnswer: (i) => _handleAnswer(i, question),
+                          ),
+                        ],
+                        const SizedBox(height: 16),
+                        _ProgressBar(
+                          current: gs.currentQuestionIndex + 1,
+                          total: gs.questions.length,
+                        ),
+                      ],
                     ),
-                  ],
+                  ),
                 ),
-              ),
+              ],
             ),
-          ],
+          ),
         ),
       ),
     );
@@ -209,8 +246,10 @@ class _TopicIllustration extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenHeight = MediaQuery.of(context).size.height;
+    final illustrationHeight = (screenHeight * 0.20).clamp(100.0, 160.0);
     return Container(
-      height: MediaQuery.of(context).size.height * 0.22,
+      height: illustrationHeight,
       width: double.infinity,
       color: AppColors.stoneDark,
       child: Stack(
@@ -342,12 +381,18 @@ class _FunFactSheet extends StatelessWidget {
   final bool correct;
   final StreakReward? reward;
   final int streakLimit;
+  final String articleUrl;
+  final String articleTitle;
+  final VoidCallback? onArticleTap;
 
   const _FunFactSheet({
     required this.funFact,
     required this.correct,
     this.reward,
     this.streakLimit = 10,
+    this.articleUrl = '',
+    this.articleTitle = '',
+    this.onArticleTap,
   });
 
   @override
@@ -428,7 +473,30 @@ class _FunFactSheet extends StatelessWidget {
                   style: textTheme.labelMedium
                       ?.copyWith(color: AppColors.textLight, height: 1.5)),
             ),
-            const SizedBox(height: 18),
+            const SizedBox(height: 14),
+            if (onArticleTap != null) ...[
+              SizedBox(
+                width: double.infinity,
+                child: OutlinedButton.icon(
+                  onPressed: onArticleTap,
+                  icon: const Icon(Icons.menu_book,
+                      size: 16, color: AppColors.torchAmber),
+                  label: Text(
+                    articleTitle.isNotEmpty ? articleTitle : 'Read Article',
+                    style: textTheme.labelMedium?.copyWith(
+                        color: AppColors.torchAmber),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: AppColors.torchAmber,
+                    side: const BorderSide(
+                        color: AppColors.torchAmber, width: 1),
+                    padding: const EdgeInsets.symmetric(vertical: 12),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 8),
+            ],
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(

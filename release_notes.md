@@ -3,10 +3,12 @@
 ## Unreleased
 
 ### Features
-- (none)
+- After answering a question, the fun-fact sheet now shows a **"Read Article"** button that opens the Wikipedia article in the in-app viewer before proceeding (#55)
+- Question bank rows are now tappable — tap any topic to open a **content-request form** and submit a request for more sources or questions (#56)
+- UI scales responsively across screen sizes: content is capped at 520 dp wide on tablets, the gameplay illustration height is clamped for small phones, and the start screen title adapts to screen width (#62)
 
 ### Fixes
-- (none)
+- Question bank URL column now shows `W/T` (questions-with-URL / total) instead of the confusing `−N` notation, and the count is calculated per-question rather than per-unique-sourceId so shared sources are counted correctly (#56)
 
 ### Content
 - (none)

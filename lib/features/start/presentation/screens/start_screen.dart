@@ -25,6 +25,11 @@ class StartScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final textTheme = Theme.of(context).textTheme;
     final size = MediaQuery.of(context).size;
+    // Scale title sizes relative to 393 dp (Pixel 9 reference width), clamped
+    // so small phones still look good and tablets don't get enormous text.
+    final scale = (size.width / 393).clamp(0.8, 1.3);
+    final titleSize = (52 * scale).roundToDouble();
+    final subtitleSize = (42 * scale).roundToDouble();
 
     return Scaffold(
       body: Stack(
@@ -32,13 +37,15 @@ class StartScreen extends ConsumerWidget {
           Positioned.fill(child: CustomPaint(painter: _StartBackgroundPainter())),
           SafeArea(
             child: Center(
-              child: Padding(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 520),
+                child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 32),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const Icon(Icons.local_fire_department,
-                            size: 72, color: AppColors.torchAmber)
+                    Icon(Icons.local_fire_department,
+                            size: (72 * scale).clamp(56, 90), color: AppColors.torchAmber)
                         .animate(onPlay: (c) => c.repeat(reverse: true))
                         .custom(
                           duration: 1800.ms,
@@ -47,14 +54,14 @@ class StartScreen extends ConsumerWidget {
                         ),
                     const SizedBox(height: 24),
                     Text('MIND',
-                            style: textTheme.displayLarge?.copyWith(fontSize: 52),
+                            style: textTheme.displayLarge?.copyWith(fontSize: titleSize),
                             textAlign: TextAlign.center)
                         .animate()
                         .fadeIn(duration: 700.ms)
                         .slideY(begin: -0.2, end: 0, duration: 700.ms),
                     Text('MAZEISH',
                             style: textTheme.displayLarge?.copyWith(
-                                fontSize: 42,
+                                fontSize: subtitleSize,
                                 color: AppColors.torchGold,
                                 letterSpacing: 6),
                             textAlign: TextAlign.center)
@@ -146,6 +153,7 @@ class StartScreen extends ConsumerWidget {
               ),
             ),
           ),
+        ),
         ],
       ),
     );
