@@ -20,6 +20,7 @@
 - Added a **"How to Play"** screen explaining lives, scoring, streaks, modes, wiki links, and the notebook; accessible from the start screen and from Settings (#59)
 - First-visit **tip cards** slide up on the Start and Gameplay screens to orient new players; tips auto-dismiss when tapped "Got it" and never reappear (#59)
 - New **Preferences** section in Settings with a "Show tips" toggle to enable or disable hint cards globally; setting is persisted across sessions (#59)
+- New **Mode Selection** screen replaces the direct "Choose Topics" entry — two illustrated cards (Standard: stone arch door, Endless: receding corridor) each with a gear settings button for difficulty, question count, and topic selection; Endless card shows your best score badge (#58)
 
 ### Fixes
 - (none)
