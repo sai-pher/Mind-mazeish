@@ -3,7 +3,7 @@
 ## Unreleased
 
 ### Features
-- Issues tab — Markdown rendering for issue body and comments, pull-to-refresh, label filter chips, sort by issue number or latest activity, comment count badge, and PR-linked indicator per issue row; added comment now signs with display name when set (#82)
+- (none)
 
 ### Fixes
 - (none)
@@ -14,6 +14,19 @@
 ### Other
 - (none)
 ---
+
+## v1.0.43
+### Features
+- Issues tab — Markdown rendering for issue body and comments, pull-to-refresh, label filter chips, sort by issue number or latest activity, comment count badge, and PR-linked indicator per issue row; added comment now signs with display name when set (#82)
+
+### Fixes
+- (none)
+
+### Content
+- (none)
+
+### Other
+- (none)
 
 ## v1.0.42
 ### Features
