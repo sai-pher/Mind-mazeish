@@ -3,7 +3,7 @@
 ## Unreleased
 
 ### Features
-- (none)
+- Issues tab — Markdown rendering for issue body and comments, pull-to-refresh, label filter chips, sort by issue number or latest activity, comment count badge, and PR-linked indicator per issue row; added comment now signs with display name when set (#82)
 
 ### Fixes
 - (none)
