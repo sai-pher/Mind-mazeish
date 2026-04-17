@@ -28,6 +28,13 @@ enum ContentRequestType {
   final String label;
 }
 
+enum IssueSort {
+  /// Sort by issue number (created date descending) — default.
+  byNumber,
+  /// Sort by latest activity (updated date descending).
+  byActivity,
+}
+
 /// A minimal view of a GitHub issue returned by [GithubIssueService.fetchOpenIssues].
 class IssueItem {
   final int number;
@@ -35,6 +42,9 @@ class IssueItem {
   final String body;
   final List<String> labelNames;
   final DateTime createdAt;
+  final DateTime updatedAt;
+  final int commentCount;
+  final String? linkedPrUrl;
 
   const IssueItem({
     required this.number,
@@ -42,7 +52,13 @@ class IssueItem {
     required this.body,
     required this.labelNames,
     required this.createdAt,
+    required this.updatedAt,
+    required this.commentCount,
+    this.linkedPrUrl,
   });
+
+  /// Whether this entry is a pull request (GitHub returns PRs via the issues endpoint).
+  bool get isPullRequest => linkedPrUrl != null;
 
   factory IssueItem.fromJson(Map<String, dynamic> json) => IssueItem(
         number: json['number'] as int,
@@ -52,6 +68,10 @@ class IssueItem {
             .map((l) => l['name'] as String)
             .toList(),
         createdAt: DateTime.parse(json['created_at'] as String),
+        updatedAt: DateTime.parse(json['updated_at'] as String),
+        commentCount: (json['comments'] as int?) ?? 0,
+        // 'pull_request' key is present when the item itself is a PR.
+        linkedPrUrl: (json['pull_request'] as Map<String, dynamic>?)?['html_url'] as String?,
       );
 }
 
@@ -164,21 +184,29 @@ ${attribution != null ? '**Submitted by:** $attribution\n' : userId != null ? '*
     );
   }
 
-  /// Fetches open issues tagged with [alpha-feedback] (most recent first).
-  static Future<List<IssueItem>> fetchOpenIssues({int perPage = 30}) async {
+  /// Fetches open issues tagged with [alpha-feedback].
+  ///
+  /// [sort] controls ordering: by issue number (default) or latest activity.
+  static Future<List<IssueItem>> fetchOpenIssues({
+    int perPage = 50,
+    IssueSort sort = IssueSort.byNumber,
+  }) async {
     if (_kGithubToken.isEmpty) return [];
     try {
+      final sortParam = sort == IssueSort.byActivity ? 'updated' : 'created';
       final uri = Uri.parse(
         'https://api.github.com/repos/$_kRepoOwner/$_kRepoName/issues'
-        '?state=open&labels=alpha-feedback&per_page=$perPage&sort=created&direction=desc',
+        '?state=open&labels=alpha-feedback&per_page=$perPage&sort=$sortParam&direction=desc',
       );
       final response = await _client
           .get(uri, headers: _headers)
           .timeout(const Duration(seconds: 15));
       if (response.statusCode != 200) return [];
       final list = jsonDecode(response.body) as List;
+      // GitHub API may return pull requests in the issues endpoint — exclude them.
       return list
           .map((j) => IssueItem.fromJson(j as Map<String, dynamic>))
+          .where((item) => item.linkedPrUrl == null)
           .toList();
     } catch (_) {
       return [];
@@ -206,16 +234,59 @@ ${attribution != null ? '**Submitted by:** $attribution\n' : userId != null ? '*
     }
   }
 
+  /// Returns the set of issue numbers that have at least one open PR referencing them.
+  ///
+  /// Parses `Closes #N`, `Fixes #N`, `Resolves #N`, and bare `#N` patterns
+  /// from open PR titles and bodies.
+  static Future<Set<int>> fetchIssueNumbersWithOpenPr() async {
+    if (_kGithubToken.isEmpty) return {};
+    try {
+      final uri = Uri.parse(
+        'https://api.github.com/repos/$_kRepoOwner/$_kRepoName/pulls'
+        '?state=open&per_page=50',
+      );
+      final response = await _client
+          .get(uri, headers: _headers)
+          .timeout(const Duration(seconds: 15));
+      if (response.statusCode != 200) return {};
+      final prs = jsonDecode(response.body) as List;
+      final referenced = <int>{};
+      final pattern = RegExp(r'(?:closes?|fixes?|resolves?|#)\s*#?(\d+)', caseSensitive: false);
+      for (final pr in prs) {
+        final title = (pr['title'] as String?) ?? '';
+        final body = (pr['body'] as String?) ?? '';
+        for (final text in [title, body]) {
+          for (final match in pattern.allMatches(text)) {
+            final n = int.tryParse(match.group(1)!);
+            if (n != null) referenced.add(n);
+          }
+        }
+      }
+      return referenced;
+    } catch (_) {
+      return {};
+    }
+  }
+
   /// Adds a comment to an existing issue. Returns true on success.
+  ///
+  /// [attribution] — formatted display name (e.g. "🧙 Ada"); used when set.
+  /// [userId] — fallback anonymous ID when [attribution] is null.
   static Future<bool> addComment({
     required int issueNumber,
     required String body,
+    String? attribution,
     String? userId,
   }) async {
     if (_kGithubToken.isEmpty) return false;
-    final commentBody = userId != null
-        ? '$body\n\n---\n**User ID:** `$userId`'
-        : body;
+    final String commentBody;
+    if (attribution != null) {
+      commentBody = '$body\n\n---\n**Submitted by:** $attribution';
+    } else if (userId != null) {
+      commentBody = '$body\n\n---\n**User ID:** `$userId`';
+    } else {
+      commentBody = body;
+    }
     try {
       final response = await _client
           .post(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 
 import 'package:package_info_plus/package_info_plus.dart';
 
@@ -107,7 +108,7 @@ class _FeedbackScreenState extends State<FeedbackScreen>
             onLoadDraft: _loadDraft,
             onDraftDeleted: _onDraftSaved,
           ),
-          _IssuesTab(userId: _profile?.userId),
+          _IssuesTab(profile: _profile),
         ],
       ),
     );
@@ -873,8 +874,8 @@ class _PendingFeedbackTabState extends State<_PendingFeedbackTab> {
 // ---------------------------------------------------------------------------
 
 class _IssuesTab extends StatefulWidget {
-  final String? userId;
-  const _IssuesTab({this.userId});
+  final UserProfile? profile;
+  const _IssuesTab({this.profile});
 
   @override
   State<_IssuesTab> createState() => _IssuesTabState();
@@ -882,7 +883,12 @@ class _IssuesTab extends StatefulWidget {
 
 class _IssuesTabState extends State<_IssuesTab>
     with AutomaticKeepAliveClientMixin {
-  late Future<List<IssueItem>> _issuesFuture;
+  List<IssueItem> _issues = [];
+  Set<int> _issuesWithPr = {};
+  bool _loading = true;
+
+  IssueSort _sort = IssueSort.byNumber;
+  String? _activeLabel;
 
   @override
   bool get wantKeepAlive => true;
@@ -890,7 +896,25 @@ class _IssuesTabState extends State<_IssuesTab>
   @override
   void initState() {
     super.initState();
-    _issuesFuture = GithubIssueService.fetchOpenIssues();
+    _load();
+  }
+
+  Future<void> _load() async {
+    setState(() => _loading = true);
+    final results = await Future.wait([
+      GithubIssueService.fetchOpenIssues(sort: _sort),
+      GithubIssueService.fetchIssueNumbersWithOpenPr(),
+    ]);
+    if (!mounted) return;
+    setState(() {
+      _issues = results[0] as List<IssueItem>;
+      _issuesWithPr = results[1] as Set<int>;
+      _loading = false;
+    });
+  }
+
+  Future<void> _refresh() async {
+    await _load();
   }
 
   void _openDetail(IssueItem issue) {
@@ -901,92 +925,403 @@ class _IssuesTabState extends State<_IssuesTab>
       useSafeArea: true,
       shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(top: Radius.circular(16))),
-      builder: (ctx) => _IssueDetailSheet(issue: issue, userId: widget.userId),
+      builder: (ctx) => _IssueDetailSheet(issue: issue, profile: widget.profile),
     );
+  }
+
+  List<String> get _allLabels {
+    final labels = <String>{};
+    for (final issue in _issues) {
+      labels.addAll(issue.labelNames);
+    }
+    return labels.toList()..sort();
+  }
+
+  List<IssueItem> get _filtered {
+    if (_activeLabel == null) return _issues;
+    return _issues.where((i) => i.labelNames.contains(_activeLabel)).toList();
   }
 
   @override
   Widget build(BuildContext context) {
     super.build(context);
     final tt = Theme.of(context).textTheme;
-    return FutureBuilder<List<IssueItem>>(
-      future: _issuesFuture,
-      builder: (context, snap) {
-        if (snap.connectionState != ConnectionState.done) {
-          return const Center(child: CircularProgressIndicator());
-        }
-        final issues = snap.data ?? [];
-        if (issues.isEmpty) {
-          return Center(
-            child: Padding(
-              padding: const EdgeInsets.all(32),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Icon(Icons.list_alt_outlined,
-                      size: 48,
-                      color: AppColors.textLight.withValues(alpha: 0.3)),
-                  const SizedBox(height: 16),
-                  Text(
-                    'No open issues',
-                    style: tt.titleMedium?.copyWith(
-                        color: AppColors.textLight.withValues(alpha: 0.5)),
+
+    if (_loading) {
+      return const Center(child: CircularProgressIndicator());
+    }
+
+    final filtered = _filtered;
+
+    return Column(
+      children: [
+        // Sort + filter toolbar
+        _IssuesToolbar(
+          sort: _sort,
+          allLabels: _allLabels,
+          activeLabel: _activeLabel,
+          onSortChanged: (s) {
+            setState(() {
+              _sort = s;
+              _activeLabel = null;
+            });
+            _load();
+          },
+          onLabelChanged: (l) => setState(() => _activeLabel = l),
+        ),
+        // Issue list with pull-to-refresh
+        Expanded(
+          child: RefreshIndicator(
+            color: AppColors.torchAmber,
+            backgroundColor: AppColors.stone,
+            onRefresh: _refresh,
+            child: filtered.isEmpty
+                ? ListView(
+                    physics: const AlwaysScrollableScrollPhysics(),
+                    children: [
+                      SizedBox(
+                        height: 300,
+                        child: Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(32),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Icon(Icons.list_alt_outlined,
+                                    size: 48,
+                                    color: AppColors.textLight.withValues(alpha: 0.3)),
+                                const SizedBox(height: 16),
+                                Text(
+                                  _activeLabel != null
+                                      ? 'No issues with label "$_activeLabel"'
+                                      : 'No open issues',
+                                  style: tt.titleMedium?.copyWith(
+                                      color: AppColors.textLight.withValues(alpha: 0.5)),
+                                ),
+                                if (_activeLabel == null) ...[
+                                  const SizedBox(height: 8),
+                                  Text(
+                                    'No open alpha-feedback issues found, or unable to reach GitHub.',
+                                    textAlign: TextAlign.center,
+                                    style: tt.bodySmall?.copyWith(
+                                        color: AppColors.textLight.withValues(alpha: 0.35)),
+                                  ),
+                                ],
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  )
+                : ListView.separated(
+                    physics: const AlwaysScrollableScrollPhysics(),
+                    padding: const EdgeInsets.only(bottom: 16),
+                    itemCount: filtered.length,
+                    separatorBuilder: (_, __) => const Divider(
+                        color: AppColors.stoneMid, height: 1, indent: 56),
+                    itemBuilder: (context, i) {
+                      final issue = filtered[i];
+                      final hasPr = _issuesWithPr.contains(issue.number);
+                      return _IssueListTile(
+                        issue: issue,
+                        hasPr: hasPr,
+                        onTap: () => _openDetail(issue),
+                      );
+                    },
                   ),
-                  const SizedBox(height: 8),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Issues toolbar (sort + label filter)
+// ---------------------------------------------------------------------------
+
+class _IssuesToolbar extends StatelessWidget {
+  final IssueSort sort;
+  final List<String> allLabels;
+  final String? activeLabel;
+  final ValueChanged<IssueSort> onSortChanged;
+  final ValueChanged<String?> onLabelChanged;
+
+  const _IssuesToolbar({
+    required this.sort,
+    required this.allLabels,
+    required this.activeLabel,
+    required this.onSortChanged,
+    required this.onLabelChanged,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: AppColors.stoneDark,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // Sort row
+          Padding(
+            padding: const EdgeInsets.fromLTRB(12, 8, 12, 4),
+            child: Row(
+              children: [
+                Text(
+                  'Sort:',
+                  style: TextStyle(
+                      color: AppColors.textLight.withValues(alpha: 0.6),
+                      fontSize: 12),
+                ),
+                const SizedBox(width: 8),
+                _SortChip(
+                  label: '# Number',
+                  selected: sort == IssueSort.byNumber,
+                  onTap: () => onSortChanged(IssueSort.byNumber),
+                ),
+                const SizedBox(width: 6),
+                _SortChip(
+                  label: '🕐 Activity',
+                  selected: sort == IssueSort.byActivity,
+                  onTap: () => onSortChanged(IssueSort.byActivity),
+                ),
+              ],
+            ),
+          ),
+          // Label filter row (only if labels exist)
+          if (allLabels.isNotEmpty)
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              padding: const EdgeInsets.fromLTRB(12, 0, 12, 8),
+              child: Row(
+                children: [
+                  _FilterChip(
+                    label: 'All',
+                    selected: activeLabel == null,
+                    onTap: () => onLabelChanged(null),
+                  ),
+                  ...allLabels.map((l) => Padding(
+                        padding: const EdgeInsets.only(left: 6),
+                        child: _FilterChip(
+                          label: l,
+                          selected: activeLabel == l,
+                          onTap: () => onLabelChanged(activeLabel == l ? null : l),
+                        ),
+                      )),
+                ],
+              ),
+            ),
+          const Divider(color: AppColors.stoneMid, height: 1),
+        ],
+      ),
+    );
+  }
+}
+
+class _SortChip extends StatelessWidget {
+  final String label;
+  final bool selected;
+  final VoidCallback onTap;
+
+  const _SortChip({
+    required this.label,
+    required this.selected,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 150),
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+        decoration: BoxDecoration(
+          color: selected ? AppColors.torchAmber : AppColors.stone,
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(
+            color: selected ? AppColors.torchAmber : AppColors.stoneMid,
+          ),
+        ),
+        child: Text(
+          label,
+          style: TextStyle(
+            color: selected ? AppColors.textDark : AppColors.textLight,
+            fontSize: 11,
+            fontWeight: selected ? FontWeight.bold : FontWeight.normal,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _FilterChip extends StatelessWidget {
+  final String label;
+  final bool selected;
+  final VoidCallback onTap;
+
+  const _FilterChip({
+    required this.label,
+    required this.selected,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 150),
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
+        decoration: BoxDecoration(
+          color: selected ? AppColors.stoneMid : Colors.transparent,
+          borderRadius: BorderRadius.circular(10),
+          border: Border.all(
+            color: selected ? AppColors.torchAmber : AppColors.stoneMid,
+          ),
+        ),
+        child: Text(
+          label,
+          style: TextStyle(
+            color: selected ? AppColors.torchAmber : AppColors.textLight.withValues(alpha: 0.6),
+            fontSize: 11,
+            fontWeight: selected ? FontWeight.bold : FontWeight.normal,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Issue list tile
+// ---------------------------------------------------------------------------
+
+class _IssueListTile extends StatelessWidget {
+  final IssueItem issue;
+  final bool hasPr;
+  final VoidCallback onTap;
+
+  const _IssueListTile({
+    required this.issue,
+    required this.hasPr,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: onTap,
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // Issue number badge
+            CircleAvatar(
+              backgroundColor: AppColors.stone,
+              radius: 16,
+              child: Text(
+                '#${issue.number}',
+                style: const TextStyle(
+                    color: AppColors.torchAmber,
+                    fontSize: 10,
+                    fontWeight: FontWeight.bold),
+              ),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
                   Text(
-                    'No open alpha-feedback issues found, or unable to reach GitHub.',
-                    textAlign: TextAlign.center,
-                    style: tt.bodySmall?.copyWith(
-                        color: AppColors.textLight.withValues(alpha: 0.35)),
+                    issue.title,
+                    style: const TextStyle(
+                        color: AppColors.textLight, fontSize: 13),
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  const SizedBox(height: 4),
+                  Wrap(
+                    spacing: 6,
+                    runSpacing: 4,
+                    crossAxisAlignment: WrapCrossAlignment.center,
+                    children: [
+                      // Label chips
+                      ...issue.labelNames.map((l) => _LabelBadge(label: l)),
+                      // PR indicator
+                      if (hasPr)
+                        const _LabelBadge(
+                          label: '🔗 PR open',
+                          color: AppColors.torchGold,
+                          textColor: AppColors.textDark,
+                        ),
+                    ],
                   ),
                 ],
               ),
             ),
-          );
-        }
-        return ListView.separated(
-          padding: const EdgeInsets.all(16),
-          itemCount: issues.length,
-          separatorBuilder: (_, __) => const Divider(
-              color: AppColors.stoneMid, height: 1, indent: 56),
-          itemBuilder: (context, i) {
-            final issue = issues[i];
-            return ListTile(
-              leading: CircleAvatar(
-                backgroundColor: AppColors.stone,
-                radius: 16,
-                child: Text(
-                  '#${issue.number}',
-                  style: const TextStyle(
-                      color: AppColors.torchAmber,
-                      fontSize: 10,
-                      fontWeight: FontWeight.bold),
-                ),
-              ),
-              title: Text(
-                issue.title,
-                style: const TextStyle(
-                    color: AppColors.textLight, fontSize: 13),
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-              ),
-              subtitle: issue.labelNames.isNotEmpty
-                  ? Text(
-                      issue.labelNames.join(' · '),
-                      style: TextStyle(
-                          color: AppColors.textLight.withValues(alpha: 0.45),
-                          fontSize: 11),
-                    )
-                  : null,
-              trailing: const Icon(Icons.chevron_right,
-                  color: AppColors.stoneMid, size: 18),
-              contentPadding:
-                  const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-              onTap: () => _openDetail(issue),
-            );
-          },
-        );
-      },
+            const SizedBox(width: 8),
+            // Comment count + chevron
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                if (issue.commentCount > 0)
+                  Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.comment_outlined,
+                          size: 12,
+                          color: AppColors.textLight.withValues(alpha: 0.45)),
+                      const SizedBox(width: 3),
+                      Text(
+                        '${issue.commentCount}',
+                        style: TextStyle(
+                            color: AppColors.textLight.withValues(alpha: 0.45),
+                            fontSize: 11),
+                      ),
+                    ],
+                  ),
+                const SizedBox(height: 4),
+                const Icon(Icons.chevron_right,
+                    color: AppColors.stoneMid, size: 18),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _LabelBadge extends StatelessWidget {
+  final String label;
+  final Color color;
+  final Color textColor;
+
+  const _LabelBadge({
+    required this.label,
+    this.color = AppColors.stone,
+    this.textColor = AppColors.textLight,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+      decoration: BoxDecoration(
+        color: color,
+        borderRadius: BorderRadius.circular(4),
+        border: Border.all(color: AppColors.stoneMid.withValues(alpha: 0.5)),
+      ),
+      child: Text(
+        label,
+        style: TextStyle(color: textColor, fontSize: 10),
+      ),
     );
   }
 }
@@ -997,9 +1332,9 @@ class _IssuesTabState extends State<_IssuesTab>
 
 class _IssueDetailSheet extends StatefulWidget {
   final IssueItem issue;
-  final String? userId;
+  final UserProfile? profile;
 
-  const _IssueDetailSheet({required this.issue, this.userId});
+  const _IssueDetailSheet({required this.issue, this.profile});
 
   @override
   State<_IssueDetailSheet> createState() => _IssueDetailSheetState();
@@ -1027,10 +1362,12 @@ class _IssueDetailSheetState extends State<_IssueDetailSheet> {
   Future<void> _submitComment() async {
     if (_commentCtrl.text.trim().isEmpty) return;
     setState(() => _submitting = true);
+    final profile = widget.profile;
     final ok = await GithubIssueService.addComment(
       issueNumber: widget.issue.number,
       body: _commentCtrl.text.trim(),
-      userId: widget.userId,
+      attribution: profile?.hasDisplayName == true ? profile!.attribution : null,
+      userId: profile?.userId,
     );
     if (!mounted) return;
     setState(() => _submitting = false);
@@ -1052,6 +1389,49 @@ class _IssueDetailSheetState extends State<_IssueDetailSheet> {
       );
     }
   }
+
+  MarkdownStyleSheet get _mdStyle => MarkdownStyleSheet(
+        p: TextStyle(
+            color: AppColors.textLight.withValues(alpha: 0.85),
+            fontSize: 13,
+            height: 1.5),
+        h1: const TextStyle(
+            color: AppColors.parchment,
+            fontSize: 16,
+            fontWeight: FontWeight.bold),
+        h2: const TextStyle(
+            color: AppColors.parchment,
+            fontSize: 14,
+            fontWeight: FontWeight.bold),
+        h3: TextStyle(
+            color: AppColors.parchment.withValues(alpha: 0.9),
+            fontSize: 13,
+            fontWeight: FontWeight.bold),
+        strong: const TextStyle(
+            color: AppColors.parchment, fontWeight: FontWeight.bold),
+        em: TextStyle(
+            color: AppColors.textLight.withValues(alpha: 0.85),
+            fontStyle: FontStyle.italic),
+        code: const TextStyle(
+            color: AppColors.torchAmber,
+            backgroundColor: AppColors.stoneDark,
+            fontSize: 12),
+        codeblockDecoration: BoxDecoration(
+            color: AppColors.stoneDark,
+            borderRadius: BorderRadius.circular(4)),
+        blockquoteDecoration: const BoxDecoration(
+            border: Border(
+                left: BorderSide(
+                    color: AppColors.stoneMid, width: 3))),
+        blockquotePadding:
+            const EdgeInsets.only(left: 12, top: 4, bottom: 4),
+        listBullet: TextStyle(
+            color: AppColors.textLight.withValues(alpha: 0.7)),
+        horizontalRuleDecoration: BoxDecoration(
+            border: Border(
+                top: BorderSide(
+                    color: AppColors.stoneMid.withValues(alpha: 0.5)))),
+      );
 
   @override
   Widget build(BuildContext context) {
@@ -1129,11 +1509,10 @@ class _IssueDetailSheetState extends State<_IssueDetailSheet> {
               padding: const EdgeInsets.all(20),
               children: [
                 if (widget.issue.body.isNotEmpty) ...[
-                  Text(
-                    widget.issue.body,
-                    style: tt.bodyMedium?.copyWith(
-                        color: AppColors.textLight.withValues(alpha: 0.85),
-                        height: 1.5),
+                  MarkdownBody(
+                    data: widget.issue.body,
+                    styleSheet: _mdStyle,
+                    shrinkWrap: true,
                   ),
                   const SizedBox(height: 20),
                   const Divider(color: AppColors.stoneMid),
@@ -1158,13 +1537,12 @@ class _IssueDetailSheetState extends State<_IssueDetailSheet> {
                       return Text(
                         'No comments yet.',
                         style: tt.bodySmall?.copyWith(
-                            color:
-                                AppColors.textLight.withValues(alpha: 0.4)),
+                            color: AppColors.textLight.withValues(alpha: 0.4)),
                       );
                     }
                     return Column(
                       children: comments
-                          .map((c) => _CommentCard(comment: c))
+                          .map((c) => _CommentCard(comment: c, mdStyle: _mdStyle))
                           .toList(),
                     );
                   },
@@ -1268,7 +1646,8 @@ class _IssueDetailSheetState extends State<_IssueDetailSheet> {
 
 class _CommentCard extends StatelessWidget {
   final IssueComment comment;
-  const _CommentCard({required this.comment});
+  final MarkdownStyleSheet mdStyle;
+  const _CommentCard({required this.comment, required this.mdStyle});
 
   @override
   Widget build(BuildContext context) {
@@ -1301,11 +1680,10 @@ class _CommentCard extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 6),
-          Text(
-            comment.body,
-            style: tt.bodySmall?.copyWith(
-                color: AppColors.textLight.withValues(alpha: 0.8),
-                height: 1.4),
+          MarkdownBody(
+            data: comment.body,
+            styleSheet: mdStyle,
+            shrinkWrap: true,
           ),
         ],
       ),
