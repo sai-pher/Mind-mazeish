@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Required for WebView (article viewer), HTTP update downloads, and GitHub API calls. -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Required to launch the package installer after downloading an APK update via open_filex. -->
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <!-- Required for HapticFeedback.mediumImpact() used on answer selection in gameplay. -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
     <application
         android:label="Mind Mazeish"
         android:name="${applicationName}"
