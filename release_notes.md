@@ -6,7 +6,7 @@
 - (none)
 
 ### Fixes
-- (none)
+- Added missing VIBRATE permission to AndroidManifest for haptic feedback on answer selection; documented purpose of all declared permissions (#63)
 
 ### Content
 - (none)
