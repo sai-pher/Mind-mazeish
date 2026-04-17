@@ -6,7 +6,7 @@
 - (none)
 
 ### Fixes
-- (none)
+- Answer option text now wraps correctly instead of being clipped on long options (#54)
 
 ### Content
 - (none)

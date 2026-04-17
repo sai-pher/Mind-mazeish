@@ -251,31 +251,42 @@ class _AnswerGrid extends StatelessWidget {
 
   static const _labels = ['A', 'B', 'C', 'D'];
 
+  AnswerState _stateFor(int i) {
+    if (selectedIndex == null) return AnswerState.idle;
+    if (i == question.correctIndex) return AnswerState.correct;
+    if (i == selectedIndex) return AnswerState.wrong;
+    return AnswerState.idle;
+  }
+
   @override
   Widget build(BuildContext context) {
-    return GridView.count(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      crossAxisCount: 2,
-      mainAxisSpacing: 10,
-      crossAxisSpacing: 10,
-      childAspectRatio: 2.2,
-      children: List.generate(question.options.length, (i) {
-        AnswerState state = AnswerState.idle;
-        if (selectedIndex != null) {
-          if (i == question.correctIndex) {
-            state = AnswerState.correct;
-          } else if (i == selectedIndex && i != question.correctIndex) {
-            state = AnswerState.wrong;
-          }
-        }
-        return AnswerButton(
+    final buttons = List.generate(question.options.length, (i) {
+      return Expanded(
+        child: AnswerButton(
           label: _labels[i],
           text: question.options[i],
-          state: state,
+          state: _stateFor(i),
           onTap: () => onAnswer(i),
-        );
-      }),
+        ),
+      );
+    });
+
+    return Column(
+      children: [
+        IntrinsicHeight(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [buttons[0], const SizedBox(width: 10), buttons[1]],
+          ),
+        ),
+        const SizedBox(height: 10),
+        IntrinsicHeight(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [buttons[2], const SizedBox(width: 10), buttons[3]],
+          ),
+        ),
+      ],
     ).animate().fadeIn(duration: 300.ms, delay: 150.ms);
   }
 }
