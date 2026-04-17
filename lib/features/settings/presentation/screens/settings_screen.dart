@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
@@ -8,6 +9,7 @@ import '../../data/game_stats_repository.dart';
 import '../../data/user_profile_service.dart';
 import '../../domain/models/game_stats.dart';
 import '../../domain/models/user_profile.dart';
+import '../providers/app_preferences_provider.dart';
 
 // Common emoji options for the avatar picker.
 const _kEmojiOptions = [
@@ -15,14 +17,14 @@ const _kEmojiOptions = [
   '🐉', '🦁', '🦊', '🐺', '🦅', '🌙', '⭐', '🔮',
 ];
 
-class SettingsScreen extends StatefulWidget {
+class SettingsScreen extends ConsumerStatefulWidget {
   const SettingsScreen({super.key});
 
   @override
-  State<SettingsScreen> createState() => _SettingsScreenState();
+  ConsumerState<SettingsScreen> createState() => _SettingsScreenState();
 }
 
-class _SettingsScreenState extends State<SettingsScreen> {
+class _SettingsScreenState extends ConsumerState<SettingsScreen> {
   UserProfile? _profile;
   GameStats? _stats;
   String? _appVersion;
@@ -292,6 +294,25 @@ class _SettingsScreenState extends State<SettingsScreen> {
             ),
           ),
 
+          // ── Preferences ──────────────────────────────────────────────────
+          const _SectionHeader('Preferences'),
+          _TipsTile(ref: ref),
+
+          // ── Learn ─────────────────────────────────────────────────────────
+          const _SectionHeader('Learn'),
+          ListTile(
+            leading: const Icon(Icons.help_outline, color: AppColors.torchAmber),
+            title: const Text('How to Play',
+                style: TextStyle(color: AppColors.textLight)),
+            subtitle: Text(
+              'Lives, scoring, streaks, modes, and more',
+              style: tt.bodySmall?.copyWith(
+                  color: AppColors.textLight.withValues(alpha: 0.5)),
+            ),
+            trailing: const Icon(Icons.chevron_right, color: AppColors.stoneMid),
+            onTap: () => context.push('/how-to-play'),
+          ),
+
           // ── Feedback ─────────────────────────────────────────────────────
           const _SectionHeader('Feedback'),
           ListTile(
@@ -434,6 +455,35 @@ class _StatCell extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Tips toggle tile
+// ---------------------------------------------------------------------------
+
+class _TipsTile extends StatelessWidget {
+  final WidgetRef ref;
+  const _TipsTile({required this.ref});
+
+  @override
+  Widget build(BuildContext context) {
+    final prefsAsync = ref.watch(appPreferencesProvider);
+    final enabled = prefsAsync.asData?.value.tipsEnabled ?? true;
+    return SwitchListTile(
+      secondary: const Icon(Icons.lightbulb_outline, color: AppColors.torchAmber),
+      title: const Text('Show tips',
+          style: TextStyle(color: AppColors.textLight)),
+      subtitle: Text(
+        'Hint cards shown on first visit to each screen',
+        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+            color: AppColors.textLight.withValues(alpha: 0.5)),
+      ),
+      value: enabled,
+      activeThumbColor: AppColors.torchAmber,
+      onChanged: (v) =>
+          ref.read(appPreferencesProvider.notifier).setTipsEnabled(v),
     );
   }
 }

@@ -12,6 +12,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../core/theme/app_theme.dart';
+import '../../../../core/widgets/first_visit_tip.dart';
 import '../../../../services/update_service.dart';
 import '../../../gameplay/domain/models/quiz_config.dart';
 import '../../../gameplay/presentation/providers/game_state_provider.dart';
@@ -35,6 +36,20 @@ class StartScreen extends ConsumerWidget {
       body: Stack(
         children: [
           Positioned.fill(child: CustomPaint(painter: _StartBackgroundPainter())),
+          const SafeArea(
+            top: false,
+            child: Align(
+              alignment: Alignment.bottomCenter,
+              child: FirstVisitTip(
+                screenId: 'start',
+                icon: Icons.bolt,
+                title: 'Welcome, adventurer!',
+                message: 'Tap Quick Play for a random 10-question game, '
+                    'or Choose Topics to pick which rooms to explore. '
+                    'Find How to Play in the menu below.',
+              ),
+            ),
+          ),
           SafeArea(
             child: Center(
               child: ConstrainedBox(
@@ -120,6 +135,18 @@ class StartScreen extends ConsumerWidget {
 
                     const SizedBox(height: 24),
 
+                    // How to Play button
+                    TextButton.icon(
+                      onPressed: () => context.push('/how-to-play'),
+                      icon: const Icon(Icons.help_outline,
+                          size: 18, color: AppColors.torchAmber),
+                      label: Text('How to Play',
+                          style: textTheme.labelMedium?.copyWith(
+                              color: AppColors.torchAmber)),
+                    ).animate().fadeIn(duration: 400.ms, delay: 800.ms),
+
+                    const SizedBox(height: 4),
+
                     // Notebook button
                     TextButton.icon(
                       onPressed: () => context.push('/notebook'),
@@ -128,7 +155,7 @@ class StartScreen extends ConsumerWidget {
                       label: Text('Notebook',
                           style: textTheme.labelMedium?.copyWith(
                               color: AppColors.torchAmber)),
-                    ).animate().fadeIn(duration: 400.ms, delay: 800.ms),
+                    ).animate().fadeIn(duration: 400.ms, delay: 860.ms),
 
                     const SizedBox(height: 4),
 
@@ -142,7 +169,7 @@ class StartScreen extends ConsumerWidget {
                           style: textTheme.labelMedium?.copyWith(
                               color: AppColors.textLight
                                   .withValues(alpha: 0.55))),
-                    ).animate().fadeIn(duration: 400.ms, delay: 900.ms),
+                    ).animate().fadeIn(duration: 400.ms, delay: 920.ms),
 
                     const SizedBox(height: 8),
                     _VersionBadge()
