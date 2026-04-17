@@ -68,7 +68,9 @@ class IssueItem {
             .map((l) => l['name'] as String)
             .toList(),
         createdAt: DateTime.parse(json['created_at'] as String),
-        updatedAt: DateTime.parse(json['updated_at'] as String),
+        updatedAt: json['updated_at'] != null
+            ? DateTime.parse(json['updated_at'] as String)
+            : DateTime.parse(json['created_at'] as String),
         commentCount: (json['comments'] as int?) ?? 0,
         // 'pull_request' key is present when the item itself is a PR.
         linkedPrUrl: (json['pull_request'] as Map<String, dynamic>?)?['html_url'] as String?,
