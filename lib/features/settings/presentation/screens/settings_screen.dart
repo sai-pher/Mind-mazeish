@@ -395,7 +395,7 @@ class _StatsGrid extends StatelessWidget {
         const SizedBox(height: 12),
         Row(
           children: [
-            _StatCell(label: 'Win Rate',  value: '$winPct%'),
+            _StatCell(label: 'Win Rate (Std)',  value: '$winPct%'),
             _StatCell(label: 'Accuracy',  value: '$accuracyPct%'),
           ],
         ),

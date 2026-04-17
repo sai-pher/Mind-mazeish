@@ -27,6 +27,7 @@ class GameStatsRepository {
     required int answered,
     required int articlesFound,
     required bool won,
+    required bool isEndless,
     int? endlessScore,
   }) async {
     final current = await load();
@@ -36,6 +37,7 @@ class GameStatsRepository {
       answered: answered,
       articlesFound: articlesFound,
       won: won,
+      isEndless: isEndless,
       endlessScore: endlessScore,
     );
     await save(updated);
