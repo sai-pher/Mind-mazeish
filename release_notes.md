@@ -3,6 +3,20 @@
 ## Unreleased
 
 ### Features
+- (none)
+
+### Fixes
+- (none)
+
+### Content
+- (none)
+
+### Other
+- (none)
+---
+
+## v1.0.46
+### Features
 - After answering a question, the fun-fact sheet now shows a **"Read Article"** button that opens the Wikipedia article in the in-app viewer before proceeding (#55)
 - Question bank rows are now tappable — tap any topic to open a **content-request form** and submit a request for more sources or questions (#56)
 - UI scales responsively across screen sizes: content is capped at 520 dp wide on tablets, the gameplay illustration height is clamped for small phones, and the start screen title adapts to screen width (#62)
@@ -15,7 +29,6 @@
 
 ### Other
 - (none)
----
 
 ## v1.0.45
 ### Features
