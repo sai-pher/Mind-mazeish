@@ -1,5 +1,6 @@
 class GameStats {
   final int gamesPlayed;
+  final int standardGamesPlayed;
   final int totalWins;
   final int bestScore;
   final int totalScore;
@@ -10,6 +11,7 @@ class GameStats {
 
   const GameStats({
     this.gamesPlayed = 0,
+    this.standardGamesPlayed = 0,
     this.totalWins = 0,
     this.bestScore = 0,
     this.totalScore = 0,
@@ -22,8 +24,11 @@ class GameStats {
   double get accuracy =>
       totalAnswered == 0 ? 0.0 : totalCorrect / totalAnswered;
 
+  /// Win rate is scoped to Standard mode games only.
+  /// Endless games are excluded because they end via lives-out (gameOver),
+  /// not via completing the question set, so they never produce a "win".
   double get winRate =>
-      gamesPlayed == 0 ? 0.0 : totalWins / gamesPlayed;
+      standardGamesPlayed == 0 ? 0.0 : totalWins / standardGamesPlayed;
 
   GameStats recordGame({
     required int score,
@@ -31,10 +36,13 @@ class GameStats {
     required int answered,
     required int articlesFound,
     required bool won,
+    required bool isEndless,
     int? endlessScore,
   }) {
     return GameStats(
       gamesPlayed: gamesPlayed + 1,
+      standardGamesPlayed:
+          isEndless ? standardGamesPlayed : standardGamesPlayed + 1,
       totalWins: won ? totalWins + 1 : totalWins,
       bestScore: score > bestScore ? score : bestScore,
       totalScore: totalScore + score,
@@ -49,6 +57,7 @@ class GameStats {
 
   Map<String, dynamic> toJson() => {
         'gamesPlayed': gamesPlayed,
+        'standardGamesPlayed': standardGamesPlayed,
         'totalWins': totalWins,
         'bestScore': bestScore,
         'totalScore': totalScore,
@@ -60,6 +69,11 @@ class GameStats {
 
   factory GameStats.fromJson(Map<String, dynamic> json) => GameStats(
         gamesPlayed: (json['gamesPlayed'] as int?) ?? 0,
+        // Existing saved data won't have this field — default to gamesPlayed
+        // so returning users keep their historical win rate rather than seeing 0%.
+        standardGamesPlayed: (json['standardGamesPlayed'] as int?) ??
+            (json['gamesPlayed'] as int?) ??
+            0,
         totalWins: (json['totalWins'] as int?) ?? 0,
         bestScore: (json['bestScore'] as int?) ?? 0,
         totalScore: (json['totalScore'] as int?) ?? 0,

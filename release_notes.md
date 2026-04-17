@@ -6,7 +6,9 @@
 - (none)
 
 ### Fixes
-- (none)
+- Answer option text now wraps correctly instead of being clipped on long options (#54)
+- Articles opened now counts all unique articles visited during the session, not just notebook-new ones (#83)
+- Win rate on the stats screen is now scoped to Standard mode games only and labelled "Win Rate (Std)" — Endless games no longer dilute it (#83)
 
 ### Content
 - (none)

@@ -40,8 +40,9 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen> {
       score: gs.score,
       correct: gs.correctCount,
       answered: gs.questionsAnswered,
-      articlesFound: gs.newArticleUrls.length,
+      articlesFound: gs.seenArticleUrls.length,
       won: gs.status == GameStatus.complete,
+      isEndless: isEndless,
       endlessScore: isEndless ? gs.score : null,
     );
     if (mounted) setState(() => _savedStats = saved);
