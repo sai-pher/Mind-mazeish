@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../core/theme/app_theme.dart';
+import '../../../feedback/data/github_issue_service.dart';
 import '../../../gameplay/data/topic_registry.dart';
 
 // ---------------------------------------------------------------------------
@@ -42,7 +43,7 @@ final _statsProvider = FutureProvider<List<_TopicStats>>((ref) async {
     // --- questions ---
     int questionCount = 0;
     int questionsWithInlineUrl = 0;
-    final questionSourceIds = <String>{};
+    final questionSourceIdList = <String>[];
 
     try {
       final raw =
@@ -53,7 +54,7 @@ final _statsProvider = FutureProvider<List<_TopicStats>>((ref) async {
         final url = e['articleUrl'] as String? ?? '';
         if (url.isNotEmpty) questionsWithInlineUrl++;
         final sourceId = e['sourceId'] as String? ?? '';
-        if (sourceId.isNotEmpty) questionSourceIds.add(sourceId);
+        questionSourceIdList.add(sourceId);
       }
     } catch (_) {
       // No topic file yet — counts stay 0.
@@ -79,10 +80,15 @@ final _statsProvider = FutureProvider<List<_TopicStats>>((ref) async {
       // No sources file — count stays 0.
     }
 
-    // Questions with URL = inline URL OR sourceId pointing to a source with URL
-    final questionsWithSourceUrl = questionSourceIds
-        .where((id) => sourceUrlsBySourceId[id] == true)
-        .length;
+    // Questions with URL = inline URL OR sourceId pointing to a source with URL.
+    // Count per-question (not per unique sourceId) to avoid undercounting when
+    // multiple questions share the same sourceId.
+    int questionsWithSourceUrl = 0;
+    for (final sid in questionSourceIdList) {
+      if (sid.isNotEmpty && sourceUrlsBySourceId[sid] == true) {
+        questionsWithSourceUrl++;
+      }
+    }
     final questionsWithUrl = questionsWithInlineUrl + questionsWithSourceUrl;
 
     stats.add(_TopicStats(
@@ -320,62 +326,258 @@ class _TopicRow extends StatelessWidget {
       qColor = AppColors.torchGold;
     }
 
-    final missingUrls = stats.questionsWithoutUrl;
-    final urlColor = missingUrls == 0
+    final withUrl = stats.questionsWithUrl;
+    final urlLabel = withUrl == qCount ? '✓' : '$withUrl/$qCount';
+    final urlColor = withUrl == qCount
         ? AppColors.torchGold
-        : missingUrls < qCount
+        : withUrl > 0
             ? AppColors.torchAmber
             : AppColors.dangerRed;
 
-    return Container(
-      margin: const EdgeInsets.only(bottom: 4),
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
-      decoration: BoxDecoration(
-        color: AppColors.stone.withValues(alpha: 0.3),
-        borderRadius: BorderRadius.circular(6),
-        border: Border.all(color: AppColors.stoneMid.withValues(alpha: 0.5)),
+    return InkWell(
+      onTap: () => _showContentRequestDialog(context),
+      borderRadius: BorderRadius.circular(6),
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 4),
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+        decoration: BoxDecoration(
+          color: AppColors.stone.withValues(alpha: 0.3),
+          borderRadius: BorderRadius.circular(6),
+          border: Border.all(color: AppColors.stoneMid.withValues(alpha: 0.5)),
+        ),
+        child: Row(
+          children: [
+            Text(stats.topicEmoji, style: const TextStyle(fontSize: 16)),
+            const SizedBox(width: 8),
+            Expanded(
+              child: Text(
+                stats.topicName,
+                style: textTheme.bodySmall
+                    ?.copyWith(color: AppColors.textLight),
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            SizedBox(
+              width: 52,
+              child: Text(
+                '$qCount',
+                textAlign: TextAlign.center,
+                style: textTheme.bodySmall?.copyWith(
+                    color: qColor, fontWeight: FontWeight.bold),
+              ),
+            ),
+            SizedBox(
+              width: 52,
+              child: Text(
+                '${stats.sourceCount}',
+                textAlign: TextAlign.center,
+                style: textTheme.bodySmall
+                    ?.copyWith(color: AppColors.textLight.withValues(alpha: 0.7)),
+              ),
+            ),
+            SizedBox(
+              width: 52,
+              child: Text(
+                urlLabel,
+                textAlign: TextAlign.center,
+                style: textTheme.bodySmall
+                    ?.copyWith(color: urlColor, fontWeight: FontWeight.bold),
+              ),
+            ),
+          ],
+        ),
       ),
-      child: Row(
-        children: [
-          Text(stats.topicEmoji, style: const TextStyle(fontSize: 16)),
-          const SizedBox(width: 8),
-          Expanded(
-            child: Text(
-              stats.topicName,
-              style: textTheme.bodySmall
-                  ?.copyWith(color: AppColors.textLight),
-              overflow: TextOverflow.ellipsis,
-            ),
-          ),
-          SizedBox(
-            width: 52,
-            child: Text(
-              '$qCount',
-              textAlign: TextAlign.center,
-              style: textTheme.bodySmall?.copyWith(
-                  color: qColor, fontWeight: FontWeight.bold),
-            ),
-          ),
-          SizedBox(
-            width: 52,
-            child: Text(
-              '${stats.sourceCount}',
-              textAlign: TextAlign.center,
-              style: textTheme.bodySmall
-                  ?.copyWith(color: AppColors.textLight.withValues(alpha: 0.7)),
-            ),
-          ),
-          SizedBox(
-            width: 52,
-            child: Text(
-              missingUrls == 0 ? '✓' : '−$missingUrls',
-              textAlign: TextAlign.center,
-              style: textTheme.bodySmall
-                  ?.copyWith(color: urlColor, fontWeight: FontWeight.bold),
-            ),
-          ),
-        ],
+    );
+  }
+
+  void _showContentRequestDialog(BuildContext context) {
+    showDialog<void>(
+      context: context,
+      builder: (ctx) => _ContentRequestDialog(stats: stats),
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Content request dialog
+// ---------------------------------------------------------------------------
+
+class _ContentRequestDialog extends StatefulWidget {
+  final _TopicStats stats;
+
+  const _ContentRequestDialog({required this.stats});
+
+  @override
+  State<_ContentRequestDialog> createState() => _ContentRequestDialogState();
+}
+
+class _ContentRequestDialogState extends State<_ContentRequestDialog> {
+  int _sourcesRequested = 1;
+  int _questionsRequested = 10;
+  bool _submitting = false;
+  bool _submitted = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+
+    return AlertDialog(
+      backgroundColor: AppColors.stoneDark,
+      title: Text(
+        'Request Content',
+        style: textTheme.displaySmall?.copyWith(
+            color: AppColors.torchAmber, fontSize: 18),
       ),
+      content: _submitted
+          ? Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Icon(Icons.check_circle,
+                    color: AppColors.torchGold, size: 40),
+                const SizedBox(height: 12),
+                Text(
+                  'Request submitted for ${widget.stats.topicName}!',
+                  style: textTheme.labelMedium
+                      ?.copyWith(color: AppColors.textLight),
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            )
+          : Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  '${widget.stats.topicEmoji} ${widget.stats.topicName}',
+                  style: textTheme.labelLarge
+                      ?.copyWith(color: AppColors.textLight),
+                ),
+                const SizedBox(height: 16),
+                _CounterRow(
+                  label: 'New sources',
+                  value: _sourcesRequested,
+                  min: 1,
+                  max: 20,
+                  onChanged: (v) => setState(() => _sourcesRequested = v),
+                ),
+                const SizedBox(height: 12),
+                _CounterRow(
+                  label: 'New questions',
+                  value: _questionsRequested,
+                  min: 5,
+                  max: 100,
+                  step: 5,
+                  onChanged: (v) => setState(() => _questionsRequested = v),
+                ),
+              ],
+            ),
+      actions: _submitted
+          ? [
+              TextButton(
+                onPressed: () => Navigator.of(context).pop(),
+                child: const Text('Close',
+                    style: TextStyle(color: AppColors.torchAmber)),
+              ),
+            ]
+          : [
+              TextButton(
+                onPressed:
+                    _submitting ? null : () => Navigator.of(context).pop(),
+                child: const Text('Cancel',
+                    style: TextStyle(color: AppColors.torchAmber)),
+              ),
+              ElevatedButton(
+                onPressed: _submitting ? null : _submit,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: AppColors.torchAmber,
+                  foregroundColor: AppColors.textDark,
+                ),
+                child: _submitting
+                    ? const SizedBox(
+                        width: 16,
+                        height: 16,
+                        child: CircularProgressIndicator(
+                            strokeWidth: 2,
+                            color: AppColors.textDark),
+                      )
+                    : const Text('Submit'),
+              ),
+            ],
+    );
+  }
+
+  Future<void> _submit() async {
+    setState(() => _submitting = true);
+    await GithubIssueService.submitContentRequest(
+      type: ContentRequestType.moreQuestions,
+      title: 'More content for ${widget.stats.topicName}',
+      body: 'Please add more content for the **${widget.stats.topicName}** topic.\n\n'
+          '- Requested new sources: **$_sourcesRequested**\n'
+          '- Requested new questions: **$_questionsRequested**\n\n'
+          'Current stats: ${widget.stats.questionCount} questions, '
+          '${widget.stats.sourceCount} sources, '
+          '${widget.stats.questionsWithUrl}/${widget.stats.questionCount} with article URLs.',
+      topicId: widget.stats.topicId,
+    );
+    if (mounted) setState(() => _submitted = true);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Counter row widget
+// ---------------------------------------------------------------------------
+
+class _CounterRow extends StatelessWidget {
+  final String label;
+  final int value;
+  final int min;
+  final int max;
+  final int step;
+  final ValueChanged<int> onChanged;
+
+  const _CounterRow({
+    required this.label,
+    required this.value,
+    required this.min,
+    required this.max,
+    this.step = 1,
+    required this.onChanged,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+    return Row(
+      children: [
+        Expanded(
+          child: Text(label,
+              style: textTheme.labelMedium
+                  ?.copyWith(color: AppColors.textLight)),
+        ),
+        IconButton(
+          onPressed: value > min ? () => onChanged(value - step) : null,
+          icon: const Icon(Icons.remove_circle_outline,
+              color: AppColors.torchAmber, size: 20),
+          padding: EdgeInsets.zero,
+          constraints: const BoxConstraints(),
+        ),
+        SizedBox(
+          width: 36,
+          child: Text(
+            '$value',
+            textAlign: TextAlign.center,
+            style: textTheme.labelLarge?.copyWith(
+                color: AppColors.torchGold, fontWeight: FontWeight.bold),
+          ),
+        ),
+        IconButton(
+          onPressed: value < max ? () => onChanged(value + step) : null,
+          icon: const Icon(Icons.add_circle_outline,
+              color: AppColors.torchAmber, size: 20),
+          padding: EdgeInsets.zero,
+          constraints: const BoxConstraints(),
+        ),
+      ],
     );
   }
 }

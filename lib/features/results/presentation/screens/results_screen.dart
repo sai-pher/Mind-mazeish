@@ -89,7 +89,10 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen> {
             ),
           ),
           SafeArea(
-            child: SingleChildScrollView(
+            child: Center(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 520),
+                child: SingleChildScrollView(
               padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 24),
               child: Column(
                 children: [
@@ -223,6 +226,8 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen> {
                       .slideY(begin: 0.2, end: 0, duration: 400.ms),
                   const SizedBox(height: 16),
                 ],
+              ),
+            ),
               ),
             ),
           ),
