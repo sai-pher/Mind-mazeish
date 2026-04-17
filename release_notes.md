@@ -3,7 +3,7 @@
 ## Unreleased
 
 ### Features
-- (none)
+- New **Mode Selection** screen replaces the direct "Choose Topics" entry — two illustrated cards (Standard: stone arch door, Endless: receding corridor) each with a gear settings button for difficulty, question count, and topic selection; Endless card shows your best score badge (#58)
 
 ### Fixes
 - (none)

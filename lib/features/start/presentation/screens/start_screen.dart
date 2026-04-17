@@ -113,11 +113,11 @@ class StartScreen extends ConsumerWidget {
 
                     const SizedBox(height: 12),
 
-                    // Choose Topics button
+                    // Select Mode button
                     SizedBox(
                       width: double.infinity,
                       child: OutlinedButton.icon(
-                        onPressed: () => context.push('/topics'),
+                        onPressed: () => context.push('/mode'),
                         style: OutlinedButton.styleFrom(
                           foregroundColor: AppColors.torchAmber,
                           side: const BorderSide(
@@ -127,7 +127,7 @@ class StartScreen extends ConsumerWidget {
                               borderRadius: BorderRadius.circular(6)),
                         ),
                         icon: const Icon(Icons.tune, size: 18),
-                        label: Text('Choose Topics',
+                        label: Text('Select Mode',
                             style: textTheme.labelLarge?.copyWith(
                                 color: AppColors.torchAmber, fontSize: 16)),
                       ),
