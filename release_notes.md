@@ -3,6 +3,20 @@
 ## Unreleased
 
 ### Features
+- (none)
+
+### Fixes
+- (none)
+
+### Content
+- (none)
+
+### Other
+- (none)
+---
+
+## v1.0.47
+### Features
 - Added a **"How to Play"** screen explaining lives, scoring, streaks, modes, wiki links, and the notebook; accessible from the start screen and from Settings (#59)
 - First-visit **tip cards** slide up on the Start and Gameplay screens to orient new players; tips auto-dismiss when tapped "Got it" and never reappear (#59)
 - New **Preferences** section in Settings with a "Show tips" toggle to enable or disable hint cards globally; setting is persisted across sessions (#59)
@@ -15,7 +29,6 @@
 
 ### Other
 - (none)
----
 
 ## v1.0.46
 ### Features
