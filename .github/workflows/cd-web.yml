@@ -40,7 +40,9 @@ jobs:
         run: flutter test --reporter expanded
 
       - name: Build web
-        run: flutter build web --release --base-href /Mind-mazeish/
+        env:
+          FEEDBACK_PAT: ${{ secrets.FEEDBACK_GITHUB_PAT }}
+        run: flutter build web --release --base-href /Mind-mazeish/ --dart-define=FEEDBACK_GITHUB_PAT=$FEEDBACK_PAT
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
