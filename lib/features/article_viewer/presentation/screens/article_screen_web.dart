@@ -37,17 +37,29 @@ class _ArticleScreenState extends ConsumerState<ArticleScreen> {
       return;
     }
 
-    await launchUrl(uri, mode: LaunchMode.externalApplication);
+    final opened = await launchUrl(uri, mode: LaunchMode.externalApplication);
 
     if (!mounted) return;
 
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('Opening article in browser…')),
-    );
-
-    await _saveToNotebook();
-
-    if (mounted) context.pop();
+    if (opened) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Opening article in browser…')),
+      );
+      await _saveToNotebook();
+      if (mounted) context.pop();
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: const Text(
+              'Pop-ups are blocked — allow pop-ups for this site in your browser settings.'),
+          duration: const Duration(seconds: 6),
+          action: SnackBarAction(
+            label: 'Retry',
+            onPressed: _openAndRecord,
+          ),
+        ),
+      );
+    }
   }
 
   Future<void> _saveToNotebook() async {

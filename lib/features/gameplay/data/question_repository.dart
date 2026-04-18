@@ -33,30 +33,37 @@ Future<Map<String, _Source>> _loadSources(String topicId) async {
 /// Loads questions for the given [topicIds] from per-topic JSON asset files.
 /// Resolves articleTitle/articleUrl from the corresponding sources file when
 /// the question carries a sourceId but no inline articleTitle.
+///
+/// All topics are loaded concurrently; within each topic the questions file and
+/// sources file are also fetched concurrently.
 Future<List<Question>> loadQuestionsForTopics(Set<String> topicIds) async {
-  final results = <Question>[];
-  for (final id in topicIds) {
-    final path = '$_topicsDir/$id.json';
-    try {
-      final sources = await _loadSources(id);
-      final raw = await rootBundle.loadString(path);
-      final list = jsonDecode(raw) as List<dynamic>;
-      for (final e in list.cast<Map<String, dynamic>>()) {
-        final q = Question.fromJson(e);
-        if (q.articleTitle.isEmpty && q.sourceId.isNotEmpty) {
-          final src = sources[q.sourceId];
-          if (src != null) {
-            results.add(q.withSource(title: src.title, url: src.url));
-            continue;
-          }
+  final perTopic = await Future.wait(topicIds.map(_loadTopicQuestions));
+  return perTopic.expand((qs) => qs).toList();
+}
+
+Future<List<Question>> _loadTopicQuestions(String id) async {
+  final path = '$_topicsDir/$id.json';
+  try {
+    final (sources, raw) =
+        await (_loadSources(id), rootBundle.loadString(path)).wait;
+    final list = jsonDecode(raw) as List<dynamic>;
+    final questions = <Question>[];
+    for (final e in list.cast<Map<String, dynamic>>()) {
+      final q = Question.fromJson(e);
+      if (q.articleTitle.isEmpty && q.sourceId.isNotEmpty) {
+        final src = sources[q.sourceId];
+        if (src != null) {
+          questions.add(q.withSource(title: src.title, url: src.url));
+          continue;
         }
-        results.add(q);
       }
-    } catch (_) {
-      // Topic file not found — skip silently (topic may have no questions yet).
+      questions.add(q);
     }
+    return questions;
+  } catch (_) {
+    // Topic file not found — skip silently (topic may have no questions yet).
+    return [];
   }
-  return results;
 }
 
 /// Loads every topic file and returns the full question pool.

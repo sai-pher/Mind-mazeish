@@ -2,14 +2,34 @@
 
 [![CI — Analyze & Test](https://github.com/sai-pher/mind-mazeish/actions/workflows/ci.yml/badge.svg)](https://github.com/sai-pher/mind-mazeish/actions/workflows/ci.yml)
 [![CD — Build & Publish APK](https://github.com/sai-pher/mind-mazeish/actions/workflows/cd.yml/badge.svg)](https://github.com/sai-pher/mind-mazeish/actions/workflows/cd.yml)
+[![CD — Deploy Web](https://github.com/sai-pher/mind-mazeish/actions/workflows/cd-web.yml/badge.svg)](https://github.com/sai-pher/mind-mazeish/actions/workflows/cd-web.yml)
 
-A medieval castle trivia game for Android. Answer questions across 35 topic areas — from Ancient History to Coffee Brewing — all sourced from Wikipedia. Read the source articles in-app after each answer.
+A medieval castle trivia game for Android and the web. Answer questions across 35 topic areas — from Ancient History to Coffee Brewing — all sourced from Wikipedia. Read the source articles in-app after each answer.
 
 > **Alpha release** — you are one of our first testers. Expect rough edges, and please use the in-app feedback button to let us know what you find.
 
 ---
 
-## Download & Install
+## Play in your browser
+
+**[https://sai-pher.github.io/Mind-mazeish/](https://sai-pher.github.io/Mind-mazeish/)**
+
+No install required — open the link in any modern browser and play immediately.
+
+### Add to Home Screen on iOS (PWA)
+
+You can install Mind Mazeish as a full-screen app on your iPhone or iPad:
+
+1. Open the link above in **Safari** (must be Safari — Chrome and Firefox on iOS cannot install PWAs).
+2. Tap the **Share** button (the box with an arrow pointing up) in the bottom toolbar.
+3. Scroll down and tap **Add to Home Screen**.
+4. Give it a name and tap **Add**.
+
+The app icon will appear on your Home Screen and launch full-screen, just like a native app.
+
+---
+
+## Download & Install (Android)
 
 1. Go to the [**Releases page**](https://github.com/sai-pher/Mind-mazeish/releases/latest) and download `app-release.apk`.
 2. On your Android device, open **Settings → Apps** (or **Special app access**) and enable **Install unknown apps** for your file manager or browser.
@@ -60,8 +80,13 @@ Your feedback is submitted directly as an issue on this GitHub repository so it 
 
 - Questions are bundled in the app — no internet needed to play (except to open Wikipedia articles)
 - Some topics have fewer than 10 questions — more are being added
-- The app is Android-only at this stage
+- The Android app requires sideloading (no Play Store listing yet)
 - No account or progress sync between devices
+
+### Web-specific limitations
+
+- **Wikipedia articles open in a new tab** — your browser must allow pop-ups for this site. If tapping "Open Wikipedia article" does nothing, go to your browser's address bar, click the pop-up blocked icon, and choose **Always allow pop-ups from this site**.
+- **Add to Home Screen requires Safari on iOS** — Chrome and Firefox on iOS cannot install PWAs.
 
 ---
 
@@ -153,3 +178,4 @@ lib/
 |----------|---------|--------------|
 | **CI** | Push / PR | `flutter analyze --fatal-infos` + `flutter test` |
 | **CD** | Push to `main` | Analyze → Test → Build APK → Publish to GitHub Releases |
+| **CD Web** | Push to `main` | Analyze → Test → Build Flutter Web → Deploy to GitHub Pages |
