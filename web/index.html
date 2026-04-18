@@ -40,47 +40,6 @@
   </style>
 </head>
 <body>
-  <script>
-    var serviceWorkerVersion = null;
-    var scriptLoaded = false;
-    function loadMainDartJs() {
-      if (scriptLoaded) {
-        return;
-      }
-      scriptLoaded = true;
-      var scriptTag = document.createElement('script');
-      scriptTag.src = 'main.dart.js';
-      scriptTag.type = 'application/javascript';
-      document.body.append(scriptTag);
-    }
-
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=' + serviceWorkerVersion)
-          .then(function (reg) {
-            function waitForActivation(serviceWorker) {
-              serviceWorker.addEventListener('statechange', function () {
-                if (serviceWorker.state == 'activated') {
-                  console.log('Installed new service worker.');
-                  loadMainDartJs();
-                }
-              });
-            }
-            var serviceWorker;
-            if (reg.installing) {
-              serviceWorker = reg.installing;
-              waitForActivation(serviceWorker);
-            } else if (!reg.active) {
-              serviceWorker = reg.waiting;
-              waitForActivation(serviceWorker);
-            } else {
-              loadMainDartJs();
-            }
-          });
-      });
-    } else {
-      loadMainDartJs();
-    }
-  </script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
