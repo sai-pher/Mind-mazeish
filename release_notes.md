@@ -6,6 +6,20 @@
 - (none)
 
 ### Fixes
+- (none)
+
+### Content
+- (none)
+
+### Other
+- (none)
+---
+
+## v1.0.52
+### Features
+- (none)
+
+### Fixes
 - Game start no longer freezes the UI for 3–5 s on web — question loading is now fully parallel across topics and within each topic (sources + questions file fetched concurrently)
 - Start button and Play cards show a spinner while questions load, preventing double-taps and giving immediate feedback
 - Wikipedia article screen on web now shows a "Pop-ups are blocked" snackbar with a Retry action instead of silently closing when the browser blocks the automatic open
@@ -16,7 +30,6 @@
 ### Other
 - Switch GitHub Pages deployment from peaceiris/actions-gh-pages@v3 (Node.js 20, deprecated) to actions/upload-pages-artifact + actions/deploy-pages
 - Update README: web app link, iOS PWA install instructions, CD Web badge, CI/CD table row, web-specific limitations
----
 
 ## v1.0.51
 ### Features
