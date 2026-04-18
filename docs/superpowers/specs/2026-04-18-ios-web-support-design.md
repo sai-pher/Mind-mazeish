@@ -110,7 +110,17 @@ Generated automatically by `flutter build web` — no manual setup required.
 **Build flag:** `--base-href /Mind-mazeish/`  
 **Branch:** `gh-pages` (auto-created on first deploy)
 
-**One-time manual step:** In the GitHub repo Settings → Pages → Source: `gh-pages` branch, `/ (root)` folder.
+### One-time manual setup — GitHub Pages
+
+These steps must be completed by a repo admin **after the first CD-web workflow run** (which creates the `gh-pages` branch):
+
+1. Go to `https://github.com/sai-pher/Mind-mazeish/settings/pages`
+2. Under **Build and deployment**, set **Source** to `Deploy from a branch`
+3. Set **Branch** to `gh-pages` and folder to `/ (root)`
+4. Click **Save**
+5. Wait ~60 seconds, then verify the site is live at `https://sai-pher.github.io/Mind-mazeish/`
+
+> **Order matters:** run the CD-web workflow first (push the PR to main), then configure Pages. If you configure Pages before the `gh-pages` branch exists, GitHub will show an error — just wait for the workflow to create the branch, then save the Pages setting again.
 
 ### New workflow: `.github/workflows/cd-web.yml`
 
