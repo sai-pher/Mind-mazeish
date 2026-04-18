@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
@@ -228,6 +229,7 @@ class _VersionBadgeState extends ConsumerState<_VersionBadge> {
 
   /// Silently checks for updates on app open — shows dialog only if available.
   Future<void> _autoCheckUpdate() async {
+    if (kIsWeb) return;
     final info = await UpdateService.check(_buildNumber);
     if (!mounted || info == null || !info.updateAvailable) return;
     _showUpdateDialog(info);
@@ -235,6 +237,7 @@ class _VersionBadgeState extends ConsumerState<_VersionBadge> {
 
   /// Manual tap path — also shows snackbar when up to date or on error.
   Future<void> _checkUpdates() async {
+    if (kIsWeb) return;
     final info = await UpdateService.check(_buildNumber);
     if (!mounted) return;
     if (info == null) {
@@ -312,6 +315,7 @@ class _VersionBadgeState extends ConsumerState<_VersionBadge> {
   }
 
   Future<void> _downloadAndInstall(UpdateInfo info) async {
+    if (kIsWeb) return;
     if (!mounted) return;
 
     final progressNotifier = ValueNotifier<double?>(null);
