@@ -3,6 +3,20 @@
 ## Unreleased
 
 ### Features
+- (none)
+
+### Fixes
+- (none)
+
+### Content
+- (none)
+
+### Other
+- (none)
+---
+
+## v1.0.49
+### Features
 - iOS / web support — play Mind Mazeish in any browser and install it as a PWA from Safari on iOS via "Add to Home Screen"; deployed to GitHub Pages at https://sai-pher.github.io/Mind-mazeish/ (#5)
 
 ### Fixes
@@ -13,7 +27,6 @@
 
 ### Other
 - Add CD web workflow deploying Flutter web build to GitHub Pages on every `main` push
----
 
 ## v1.0.48
 ### Features
