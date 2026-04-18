@@ -13,6 +13,7 @@
 
 ### Other
 - Switch GitHub Pages deployment from peaceiris/actions-gh-pages@v3 (Node.js 20, deprecated) to actions/upload-pages-artifact + actions/deploy-pages
+- Update README: web app link, iOS PWA install instructions, CD Web badge, CI/CD table row
 ---
 
 ## v1.0.51
