@@ -6,7 +6,7 @@
 - (none)
 
 ### Fixes
-- Fix feedback submission on web — inject FEEDBACK_GITHUB_PAT into the web build so users can submit feedback from the GitHub Pages app
+- (none)
 
 ### Content
 - (none)
@@ -14,6 +14,19 @@
 ### Other
 - (none)
 ---
+
+## v1.0.51
+### Features
+- (none)
+
+### Fixes
+- Fix feedback submission on web — inject FEEDBACK_GITHUB_PAT into the web build so users can submit feedback from the GitHub Pages app
+
+### Content
+- (none)
+
+### Other
+- (none)
 
 ## v1.0.50
 ### Features
