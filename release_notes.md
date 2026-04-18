@@ -6,13 +6,15 @@
 - (none)
 
 ### Fixes
-- (none)
+- Game start no longer freezes the UI for 3–5 s on web — question loading is now fully parallel across topics and within each topic (sources + questions file fetched concurrently)
+- Start button and Play cards show a spinner while questions load, preventing double-taps and giving immediate feedback
+- Wikipedia article screen on web now shows an "Open Wikipedia article" button with a pop-up note instead of silently failing when the browser blocks the automatic open
 
 ### Content
 - (none)
 
 ### Other
-- (none)
+- Document web-specific limitations in README (pop-ups required for Wikipedia links, iOS PWA requires Safari)
 ---
 
 ## v1.0.51
