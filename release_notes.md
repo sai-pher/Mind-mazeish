@@ -12,7 +12,7 @@
 - (none)
 
 ### Other
-- (none)
+- Add iOS/web support design spec (#5)
 ---
 
 ## v1.0.48
