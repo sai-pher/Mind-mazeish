@@ -21,6 +21,7 @@ class _ModePickerScreenState extends ConsumerState<ModePickerScreen> {
   int _difficultyBias = 3;
   int _questionCount = 10;
   int _endlessHighScore = 0;
+  bool _starting = false;
 
   @override
   void initState() {
@@ -37,6 +38,8 @@ class _ModePickerScreenState extends ConsumerState<ModePickerScreen> {
   }
 
   Future<void> _startGame(GameMode mode) async {
+    if (_starting) return;
+    setState(() => _starting = true);
     final currentConfig = ref.read(quizConfigProvider);
     final topicIds = currentConfig.selectedTopicIds.isEmpty
         ? Set<String>.from(allTopicIds)
@@ -112,6 +115,7 @@ class _ModePickerScreenState extends ConsumerState<ModePickerScreen> {
                       painter: const _DoorPainter(),
                       highlightColor: AppColors.torchAmber,
                       extraBadge: null,
+                      loading: _starting,
                       onPlay: () => _startGame(GameMode.standard),
                       onSettings: () => _openSettings(GameMode.standard),
                     )
@@ -129,6 +133,7 @@ class _ModePickerScreenState extends ConsumerState<ModePickerScreen> {
                       extraBadge: _endlessHighScore > 0
                           ? 'Best: $_endlessHighScore pts'
                           : null,
+                      loading: _starting,
                       onPlay: () => _startGame(GameMode.endless),
                       onSettings: () => _openSettings(GameMode.endless),
                     )
@@ -156,6 +161,7 @@ class _ModeCard extends StatelessWidget {
   final CustomPainter painter;
   final Color highlightColor;
   final String? extraBadge;
+  final bool loading;
   final VoidCallback onPlay;
   final VoidCallback onSettings;
 
@@ -165,6 +171,7 @@ class _ModeCard extends StatelessWidget {
     required this.painter,
     required this.highlightColor,
     required this.extraBadge,
+    required this.loading,
     required this.onPlay,
     required this.onSettings,
   });
@@ -263,7 +270,7 @@ class _ModeCard extends StatelessWidget {
                     SizedBox(
                       width: double.infinity,
                       child: ElevatedButton(
-                        onPressed: onPlay,
+                        onPressed: loading ? null : onPlay,
                         style: ElevatedButton.styleFrom(
                           backgroundColor: highlightColor,
                           foregroundColor: AppColors.textDark,
@@ -271,13 +278,22 @@ class _ModeCard extends StatelessWidget {
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(6)),
                         ),
-                        child: Text(
-                          'Play',
-                          style: tt.labelLarge?.copyWith(
-                            color: AppColors.textDark,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
+                        child: loading
+                            ? const SizedBox(
+                                height: 20,
+                                width: 20,
+                                child: CircularProgressIndicator(
+                                  strokeWidth: 2.5,
+                                  color: AppColors.textDark,
+                                ),
+                              )
+                            : Text(
+                                'Play',
+                                style: tt.labelLarge?.copyWith(
+                                  color: AppColors.textDark,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
                       ),
                     ),
                   ],

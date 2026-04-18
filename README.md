@@ -83,6 +83,11 @@ Your feedback is submitted directly as an issue on this GitHub repository so it 
 - The Android app requires sideloading (no Play Store listing yet)
 - No account or progress sync between devices
 
+### Web-specific limitations
+
+- **Wikipedia articles open in a new tab** — your browser must allow pop-ups for this site. If tapping "Open Wikipedia article" does nothing, go to your browser's address bar, click the pop-up blocked icon, and choose **Always allow pop-ups from this site**.
+- **Add to Home Screen requires Safari on iOS** — Chrome and Firefox on iOS cannot install PWAs.
+
 ---
 
 ## Developer Setup

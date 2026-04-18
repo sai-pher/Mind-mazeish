@@ -25,6 +25,7 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
   GameMode _gameMode = GameMode.standard;
   int _difficultyBias = 3;
   int _endlessHighScore = 0;
+  bool _starting = false;
 
   @override
   void initState() {
@@ -91,6 +92,7 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
   void _clearAll() => setState(() => _selected.clear());
 
   Future<void> _startGame() async {
+    setState(() => _starting = true);
     final config = QuizConfig(
       selectedTopicIds: Set.from(_selected),
       questionCount: _questionCount,
@@ -173,6 +175,7 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
             gameMode: _gameMode,
             difficultyBias: _difficultyBias,
             canStart: _canStart,
+            starting: _starting,
             endlessHighScore: _endlessHighScore,
             onCountChanged: (c) => setState(() => _questionCount = c),
             onModeChanged: (m) => setState(() => _gameMode = m),
@@ -394,6 +397,7 @@ class _BottomBar extends StatelessWidget {
   final GameMode gameMode;
   final int difficultyBias;
   final bool canStart;
+  final bool starting;
   final int endlessHighScore;
   final void Function(int) onCountChanged;
   final void Function(GameMode) onModeChanged;
@@ -406,6 +410,7 @@ class _BottomBar extends StatelessWidget {
     required this.gameMode,
     required this.difficultyBias,
     required this.canStart,
+    required this.starting,
     required this.endlessHighScore,
     required this.onCountChanged,
     required this.onModeChanged,
@@ -565,7 +570,7 @@ class _BottomBar extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: canStart && !tooFew ? onStart : null,
+              onPressed: canStart && !tooFew && !starting ? onStart : null,
               style: ElevatedButton.styleFrom(
                 backgroundColor: AppColors.torchAmber,
                 foregroundColor: AppColors.textDark,
@@ -573,11 +578,20 @@ class _BottomBar extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(6)),
               ),
-              child: Text(
-                buttonLabel,
-                style: textTheme.labelLarge
-                    ?.copyWith(color: AppColors.textDark),
-              ),
+              child: starting
+                  ? const SizedBox(
+                      height: 20,
+                      width: 20,
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2.5,
+                        color: AppColors.textDark,
+                      ),
+                    )
+                  : Text(
+                      buttonLabel,
+                      style: textTheme.labelLarge
+                          ?.copyWith(color: AppColors.textDark),
+                    ),
             ),
           ),
         ],
