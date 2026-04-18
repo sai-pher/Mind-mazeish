@@ -12,7 +12,7 @@
 - (none)
 
 ### Other
-- (none)
+- Switch GitHub Pages deployment from peaceiris/actions-gh-pages@v3 (Node.js 20, deprecated) to actions/upload-pages-artifact + actions/deploy-pages
 ---
 
 ## v1.0.51
