@@ -1,0 +1,77 @@
+[
+  {
+    "id": "src_dharma",
+    "title": "Dharma",
+    "url": "https://en.m.wikipedia.org/wiki/Dharma",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "theology"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "theo_005"
+    ]
+  },
+  {
+    "id": "src_eschatology",
+    "title": "Eschatology",
+    "url": "https://en.m.wikipedia.org/wiki/Eschatology",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "theology"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "theo_001"
+    ]
+  },
+  {
+    "id": "src_first_council_of_nicaea",
+    "title": "First Council Of Nicaea",
+    "url": "https://en.m.wikipedia.org/wiki/First_Council_of_Nicaea",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "theology"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "theo_004"
+    ]
+  },
+  {
+    "id": "src_five_pillars_of_islam",
+    "title": "Five Pillars of Islam",
+    "url": "https://en.m.wikipedia.org/wiki/Five_Pillars_of_Islam",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "theology"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "theo_002"
+    ]
+  },
+  {
+    "id": "src_nirvana",
+    "title": "Nirvana",
+    "url": "https://en.m.wikipedia.org/wiki/Nirvana",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "theology"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "theo_003"
+    ]
+  }
+]

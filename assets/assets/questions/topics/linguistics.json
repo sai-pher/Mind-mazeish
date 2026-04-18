@@ -1,0 +1,323 @@
+[
+  {
+    "id": "ling_001",
+    "question": "What branch of linguistics studies the sound systems of languages?",
+    "correctAnswers": [
+      "Phonology"
+    ],
+    "wrongAnswers": [
+      "Syntax",
+      "Morphology",
+      "Semantics",
+      "Pragmatics",
+      "Sociolinguistics",
+      "Lexicology"
+    ],
+    "funFact": "Human languages collectively use about 800 distinct phonemes, but any individual language uses only 11–100 of them.",
+    "sourceId": "src_phonology",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ling_002",
+    "question": "The field of linguistics that studies the rules governing sentence structure is called what?",
+    "correctAnswers": [
+      "Syntax"
+    ],
+    "wrongAnswers": [
+      "Phonology",
+      "Semantics",
+      "Morphology",
+      "Pragmatics",
+      "Etymology",
+      "Lexicology"
+    ],
+    "funFact": "Noam Chomsky's theory of Universal Grammar proposes that all human languages share an innate structural framework in the brain.",
+    "sourceId": "src_syntax",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ling_003",
+    "question": "The \"critical period hypothesis\" in linguistics suggests language is best acquired when?",
+    "correctAnswers": [
+      "In early childhood, before puberty"
+    ],
+    "wrongAnswers": [
+      "In adolescence",
+      "Between ages 10 and 15",
+      "Throughout life equally",
+      "In adulthood through formal study",
+      "Only in infancy (before age 2)"
+    ],
+    "funFact": "Studies of isolated children (like Genie, discovered in 1970) support the critical period hypothesis — she never fully acquired grammar despite later intervention.",
+    "sourceId": "src_language_acquisition",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ling_004",
+    "question": "How many living languages are estimated to exist in the world today?",
+    "correctAnswers": [
+      "Around 7,000"
+    ],
+    "wrongAnswers": [
+      "Around 1,000",
+      "Around 3,000",
+      "Around 15,000",
+      "Around 500",
+      "Around 10,000",
+      "Around 20,000"
+    ],
+    "funFact": "About 40% of the world's languages are endangered, with many having fewer than 1,000 speakers.",
+    "sourceId": "src_linguistics",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ling_005",
+    "question": "The Sapir-Whorf hypothesis proposes that language structure affects what?",
+    "correctAnswers": [
+      "Thought and perception"
+    ],
+    "wrongAnswers": [
+      "Physical brain size",
+      "Mathematical ability",
+      "Social hierarchy",
+      "Genetic inheritance",
+      "Writing systems"
+    ],
+    "funFact": "The Hopi language reportedly has no tenses, which was once cited as evidence that Hopi speakers perceive time differently — though this claim has since been disputed.",
+    "sourceId": "src_linguistic_relativity",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ling_006",
+    "question": "Which of the following is one of the six main areas of analysis in linguistics?",
+    "correctAnswers": [
+      "Pragmatics",
+      "Morphology",
+      "Phonetics"
+    ],
+    "wrongAnswers": [
+      "Etymology",
+      "Rhetoric",
+      "Orthography",
+      "Dialectology",
+      "Lexicology",
+      "Paleography",
+      "Epigraphy"
+    ],
+    "funFact": "The six core branches of linguistics are syntax, semantics, morphology, phonetics, phonology, and pragmatics — together they cover everything from sounds to meaning in context.",
+    "sourceId": "src_linguistics",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ling_007",
+    "question": "What does pragmatics study in linguistics?",
+    "correctAnswers": [
+      "How context contributes to meaning"
+    ],
+    "wrongAnswers": [
+      "The physical production of speech sounds",
+      "The grammatical structure of sentences",
+      "The internal structure of words",
+      "The abstract sound system of a language",
+      "The biological origins of language",
+      "The historical evolution of vocabulary"
+    ],
+    "funFact": "Pragmatics explains why 'Can you pass the salt?' is understood as a request, not a question about your physical ability — context shapes meaning beyond the literal words.",
+    "sourceId": "src_linguistics",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ling_008",
+    "question": "Who is credited with writing the earliest known formal description of a language?",
+    "correctAnswers": [
+      "Pāṇini"
+    ],
+    "wrongAnswers": [
+      "Aristotle",
+      "Confucius",
+      "Plato",
+      "Socrates",
+      "Herodotus",
+      "Euclid",
+      "Cicero",
+      "Virgil"
+    ],
+    "funFact": "Pāṇini was a 6th-century BC Indian grammarian who described Sanskrit in a text called the Aṣṭādhyāyī — a work so precise that modern grammar theories still draw on its principles 2,500 years later.",
+    "sourceId": "src_linguistics",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ling_009",
+    "question": "What was the name of Pāṇini's formal grammar of the Sanskrit language?",
+    "correctAnswers": [
+      "Aṣṭādhyāyī"
+    ],
+    "wrongAnswers": [
+      "Rigveda",
+      "Mahabharata",
+      "Arthashastra",
+      "Natya Shastra",
+      "Upanishads",
+      "Dharmashastra",
+      "Brahmasutra"
+    ],
+    "funFact": "The Aṣṭādhyāyī contains nearly 4,000 grammatical rules for Sanskrit, described with such economy and precision that it is still studied in modern formal linguistics and computer science.",
+    "sourceId": "src_linguistics",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ling_010",
+    "question": "Modern linguistics is primarily described as what kind of approach — descriptive or prescriptive?",
+    "correctAnswers": [
+      "Descriptive"
+    ],
+    "wrongAnswers": [
+      "Prescriptive",
+      "Normative",
+      "Proscriptive",
+      "Evaluative",
+      "Regulatory",
+      "Corrective"
+    ],
+    "funFact": "Descriptive linguists study language as it is actually used, not as they think it should be — meaning 'ain't' and 'gonna' are valid data, not errors.",
+    "sourceId": "src_linguistics",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ling_011",
+    "question": "What does biolinguistics study?",
+    "correctAnswers": [
+      "The biological variables and evolution of language"
+    ],
+    "wrongAnswers": [
+      "The psychology of language learning",
+      "The genetics of hearing ability",
+      "Sign languages used by animals",
+      "The neuroscience of reading",
+      "How language is applied in medicine",
+      "Mathematical models of language"
+    ],
+    "funFact": "Biolinguistics investigates questions like whether language is uniquely human and how the capacity for language could have evolved — bridging linguistics, biology, and cognitive science.",
+    "sourceId": "src_linguistics",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ling_012",
+    "question": "What does prescriptivism in linguistics promote?",
+    "correctAnswers": [
+      "Particular linguistic usages over others"
+    ],
+    "wrongAnswers": [
+      "Objective description of all language varieties equally",
+      "The extinction of minority dialects",
+      "Exclusively spoken forms of language over written ones",
+      "Rapid adoption of loanwords into a language",
+      "Mathematical formalisation of grammar rules",
+      "Equal status for all sign languages"
+    ],
+    "funFact": "Style guides, grammar textbooks, and language academies like the Académie française are real-world examples of prescriptivism — they set rules for how language 'should' be used.",
+    "sourceId": "src_linguistics",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ling_013",
+    "question": "In linguistics, the study of how psychological factors relate to human language is called what?",
+    "correctAnswers": [
+      "Psycholinguistics"
+    ],
+    "wrongAnswers": [
+      "Sociolinguistics",
+      "Biolinguistics",
+      "Neurolinguistics",
+      "Applied linguistics",
+      "Cognitive semantics",
+      "Ethnolinguistics",
+      "Pragmatics"
+    ],
+    "funFact": "Psycholinguistics investigates how people produce, understand, and acquire language — including phenomena like speech errors (Freudian slips) and the 'tip of the tongue' feeling.",
+    "sourceId": "src_linguistics",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ling_014",
+    "question": "Applied linguistics uses findings from language science for what purpose?",
+    "correctAnswers": [
+      "Improving language education and literacy"
+    ],
+    "wrongAnswers": [
+      "Constructing formal mathematical proofs about language",
+      "Studying the biological origins of speech",
+      "Comparing the grammatical structure of ancient languages",
+      "Modelling sound change over centuries",
+      "Classifying endangered languages",
+      "Analysing metaphors in poetry"
+    ],
+    "funFact": "Applied linguistics covers a wide range of practical work — from designing language curricula and developing dictionaries to creating natural language processing software and training translators.",
+    "sourceId": "src_linguistics",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ling_015",
+    "question": "Sign languages have their own equivalent of phonetics — instead of speech sounds, what are the units studied?",
+    "correctAnswers": [
+      "Hand and face movements"
+    ],
+    "wrongAnswers": [
+      "Written symbols",
+      "Lip patterns",
+      "Eye movements",
+      "Body posture alone",
+      "Fingerspelling only",
+      "Breathing rhythms",
+      "Foot gestures"
+    ],
+    "funFact": "Sign language phonology studies the discrete, rule-governed units of handshape, location, movement, and facial expression — showing that 'phonetics' applies to any language modality, not just speech.",
+    "sourceId": "src_linguistics",
+    "topicId": "linguistics",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "hard"
+  }
+]

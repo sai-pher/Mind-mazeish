@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_bakelite",
+    "title": "Bakelite",
+    "url": "https://en.m.wikipedia.org/wiki/Bakelite",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "plastics"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "plast_001"
+    ]
+  },
+  {
+    "id": "src_plastic_pollution",
+    "title": "Plastic pollution",
+    "url": "https://en.m.wikipedia.org/wiki/Plastic_pollution",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "plastics"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "plast_003"
+    ]
+  },
+  {
+    "id": "src_polyethylene",
+    "title": "Polyethylene",
+    "url": "https://en.m.wikipedia.org/wiki/Polyethylene",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "plastics"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "plast_002"
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "theo_001",
+    "question": "What is the term for the branch of Christian theology that deals with the end of time?",
+    "correctAnswers": [
+      "Eschatology"
+    ],
+    "wrongAnswers": [
+      "Soteriology",
+      "Ecclesiology",
+      "Christology",
+      "Pneumatology",
+      "Theodicy",
+      "Hagiography"
+    ],
+    "funFact": "The word \"eschatology\" comes from the Greek \"eschatos\" meaning \"last\" — it covers beliefs about death, judgement, heaven, and hell.",
+    "sourceId": "src_eschatology",
+    "topicId": "theology",
+    "topicCategoryId": "belief",
+    "superCategoryId": "language_culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": "theo_002",
+    "question": "The Five Pillars of Islam include prayer, fasting, charity, pilgrimage, and what fifth element?",
+    "correctAnswers": [
+      "Shahada (declaration of faith)"
+    ],
+    "wrongAnswers": [
+      "Jihad",
+      "Zakat",
+      "Hajj",
+      "Reading the Quran",
+      "Friday prayers",
+      "Ablution (wudu)"
+    ],
+    "funFact": "The Shahada — \"There is no god but God, and Muhammad is the messenger of God\" — is the foundation of Muslim faith and is whispered into a newborn's ear at birth.",
+    "sourceId": "src_five_pillars_of_islam",
+    "topicId": "theology",
+    "topicCategoryId": "belief",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "theo_003",
+    "question": "In Buddhism, what term describes the state of liberation from suffering and the cycle of rebirth?",
+    "correctAnswers": [
+      "Nirvana"
+    ],
+    "wrongAnswers": [
+      "Dharma",
+      "Karma",
+      "Samsara",
+      "Moksha",
+      "Bodhi",
+      "Mandala"
+    ],
+    "funFact": "The Buddha taught that nirvana is not a place but a state of mind characterised by the extinguishing of craving, aversion, and ignorance.",
+    "sourceId": "src_nirvana",
+    "topicId": "theology",
+    "topicCategoryId": "belief",
+    "superCategoryId": "language_culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": "theo_004",
+    "question": "The Council of Nicaea in 325 AD produced which foundational Christian statement of belief?",
+    "correctAnswers": [
+      "The Nicene Creed"
+    ],
+    "wrongAnswers": [
+      "The Apostles' Creed",
+      "The Athanasian Creed",
+      "The Thirty-Nine Articles",
+      "The Westminster Confession",
+      "The Augsburg Confession"
+    ],
+    "funFact": "The Council of Nicaea was convened by Emperor Constantine I — the first Roman Emperor to convert to Christianity.",
+    "sourceId": "src_first_council_of_nicaea",
+    "topicId": "theology",
+    "topicCategoryId": "belief",
+    "superCategoryId": "language_culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": "theo_005",
+    "question": "In Hinduism, what is the term for one's duty or moral law, which varies according to one's role in life?",
+    "correctAnswers": [
+      "Dharma"
+    ],
+    "wrongAnswers": [
+      "Karma",
+      "Moksha",
+      "Artha",
+      "Samsara",
+      "Ahimsa",
+      "Atman"
+    ],
+    "funFact": "The Bhagavad Gita, one of Hinduism's most important texts, is structured around a discussion of dharma between Prince Arjuna and the god Krishna.",
+    "sourceId": "src_dharma",
+    "topicId": "theology",
+    "topicCategoryId": "belief",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "coffee_001",
+    "question": "Coffee is believed to have been first discovered in which country?",
+    "correctAnswers": [
+      "Ethiopia"
+    ],
+    "wrongAnswers": [
+      "Yemen",
+      "Brazil",
+      "Colombia",
+      "Turkey",
+      "Indonesia",
+      "India"
+    ],
+    "funFact": "Legend has it that a 9th-century Ethiopian goat herder named Kaldi noticed his goats became energetic after eating coffee berries.",
+    "sourceId": "src_history_of_coffee",
+    "topicId": "coffee",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
+    "difficulty": "easy"
+  },
+  {
+    "id": "coffee_002",
+    "question": "Which country is currently the world's largest producer of coffee?",
+    "correctAnswers": [
+      "Brazil"
+    ],
+    "wrongAnswers": [
+      "Vietnam",
+      "Colombia",
+      "Indonesia",
+      "Ethiopia",
+      "Honduras",
+      "India"
+    ],
+    "funFact": "Brazil has been the world's largest coffee producer for over 150 years, accounting for about one-third of global output.",
+    "sourceId": "src_coffee_production",
+    "topicId": "coffee",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
+    "difficulty": "easy"
+  },
+  {
+    "id": "coffee_003",
+    "question": "Arabica and Robusta are the two main species of coffee. Which is higher in caffeine?",
+    "correctAnswers": [
+      "Robusta"
+    ],
+    "wrongAnswers": [
+      "Arabica",
+      "They are equal",
+      "Liberica",
+      "Excelsa",
+      "Maragogipe"
+    ],
+    "funFact": "Robusta contains almost twice the caffeine of Arabica — caffeine is a natural pesticide, so Robusta's higher caffeine makes it more resistant to insects.",
+    "sourceId": "src_coffea",
+    "topicId": "coffee",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  },
+  {
+    "id": "coffee_004",
+    "question": "Coffee contains which primary psychoactive compound responsible for its stimulating effect?",
+    "correctAnswers": [
+      "Caffeine"
+    ],
+    "wrongAnswers": [
+      "Theobromine",
+      "Theophylline",
+      "Tannin",
+      "Chlorogenic acid",
+      "Trigonelline",
+      "Adenosine"
+    ],
+    "funFact": "A typical 240ml cup of brewed coffee contains 70–140 mg of caffeine. The LD50 (lethal dose for 50% of people) would require roughly 70–100 cups consumed rapidly.",
+    "sourceId": "src_caffeine",
+    "topicId": "coffee",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
+    "difficulty": "easy"
+  },
+  {
+    "id": "coffee_005",
+    "question": "The \"Bean Belt\" refers to the geographic zone between which two latitudes where most coffee is grown?",
+    "correctAnswers": [
+      "Between the Tropics of Cancer and Capricorn"
+    ],
+    "wrongAnswers": [
+      "Between 40°N and 40°S",
+      "Between 60°N and 60°S",
+      "Only along the equator",
+      "Between 10°N and 10°S"
+    ],
+    "funFact": "Coffee plants require very specific conditions — altitude, temperature, rainfall, and soil type — making the Bean Belt the only viable growing zone on Earth.",
+    "sourceId": "src_coffee_production_in_ethiopia",
+    "topicId": "coffee",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  }
+]

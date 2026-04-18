@@ -1,0 +1,170 @@
+[
+  {
+    "id": "src_bernoullis_principle",
+    "title": "Bernoullis Principle",
+    "url": "https://en.wikipedia.org/wiki/Bernoulli%27s_principle",
+    "summary": "Bernoulli's principle states that in fluid dynamics, an increase in fluid speed occurs with a decrease in pressure. Published by Daniel Bernoulli in 1738, it is derived from conservation of energy.",
+    "categories": [],
+    "topicIds": [
+      "mechanical_engineering"
+    ],
+    "articleText": null,
+    "facts": [
+      {
+        "id": "fact_bernoullis_principle_001",
+        "text": "Bernoulli's principle states that for a fluid flowing horizontally, an increase in speed occurs simultaneously with a decrease in pressure.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_bernoullis_principle_002",
+        "text": "The principle is named after Swiss mathematician and physicist Daniel Bernoulli, who published it in his book Hydrodynamica in 1738.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_bernoullis_principle_003",
+        "text": "Leonhard Euler derived Bernoulli's equation in its usual form in 1752.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_bernoullis_principle_004",
+        "text": "Bernoulli's principle can be derived from the principle of conservation of energy.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_bernoullis_principle_005",
+        "text": "Bernoulli's equation in its original form is valid only for incompressible flow; Bernoulli performed his experiments on liquids.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_bernoullis_principle_006",
+        "text": "In a steady flow, the sum of kinetic energy, potential energy and internal energy remains constant at all points free of viscous forces.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
+    "questionIds": [
+      "mech_003"
+    ]
+  },
+  {
+    "id": "src_boyles_law",
+    "title": "Boyles Law",
+    "url": "https://en.wikipedia.org/wiki/Boyle%27s_law",
+    "summary": "Boyle's law states that the absolute pressure of a confined ideal gas is inversely proportional to its volume at constant temperature. Published by Robert Boyle in 1662.",
+    "categories": [],
+    "topicIds": [
+      "mechanical_engineering"
+    ],
+    "articleText": null,
+    "facts": [
+      {
+        "id": "fact_boyles_law_001",
+        "text": "Boyle's law states that the absolute pressure of a confined ideal gas is inversely proportional to its volume when temperature and amount of gas remain unchanged.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_boyles_law_002",
+        "text": "Robert Boyle published his law in 1662; the relationship had first been noted by Richard Towneley and Henry Power.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_boyles_law_003",
+        "text": "Robert Hooke, Boyle's assistant, built the experimental apparatus for Boyle's gas experiments.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_boyles_law_004",
+        "text": "French physicist Edme Mariotte independently discovered the same law in 1679; it is sometimes called the Boyle–Mariotte law.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_boyles_law_005",
+        "text": "Boyle used a closed J-shaped tube with mercury to demonstrate that pressure and volume are inversely proportional.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_boyles_law_006",
+        "text": "When volume is halved, pressure is doubled; when volume is doubled, pressure is halved (at constant temperature).",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_boyles_law_007",
+        "text": "Boyle's law is used to explain human breathing: increasing lung volume lowers air pressure inside, causing inhalation.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
+    "questionIds": [
+      "mech_001"
+    ]
+  },
+  {
+    "id": "src_simple_machine",
+    "title": "Simple Machine",
+    "url": "https://en.wikipedia.org/wiki/Simple_machine",
+    "summary": "A simple machine is a mechanical device that changes the direction or magnitude of a force using mechanical advantage. The six classical simple machines are lever, wheel and axle, pulley, inclined plane, wedge, and screw.",
+    "categories": [],
+    "topicIds": [
+      "mechanical_engineering"
+    ],
+    "articleText": null,
+    "facts": [
+      {
+        "id": "fact_simple_machine_001",
+        "text": "The six classical simple machines are: lever, wheel and axle, pulley, inclined plane, wedge, and screw.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_simple_machine_002",
+        "text": "The idea of a simple machine originated with the Greek philosopher Archimedes around the 3rd century BC, who studied the lever, pulley, and screw.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_simple_machine_003",
+        "text": "Heron of Alexandria (c. 10–75 AD) listed five mechanisms that can 'set a load in motion': lever, windlass, pulley, wedge, and screw.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_simple_machine_004",
+        "text": "The ratio of the output force to the applied force is called the mechanical advantage.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_simple_machine_005",
+        "text": "The mechanical advantage of a compound machine is the product of the mechanical advantages of its component simple machines.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_simple_machine_006",
+        "text": "Archimedes said: 'Give me a place to stand on, and I will move the Earth' — expressing that force amplification via mechanical advantage has no theoretical limit.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_simple_machine_007",
+        "text": "A simple machine that dissipates no energy through friction or wear is called an ideal simple machine; in that case power in equals power out.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
+    "questionIds": [
+      "mech_002"
+    ]
+  }
+]

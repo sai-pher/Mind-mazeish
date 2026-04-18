@@ -1,0 +1,63 @@
+[
+  {
+    "id": "plast_001",
+    "question": "What was the first fully synthetic plastic, invented by Leo Baekeland in 1907?",
+    "correctAnswers": [
+      "Bakelite"
+    ],
+    "wrongAnswers": [
+      "Nylon",
+      "PVC",
+      "Polythene",
+      "Perspex (acrylic)",
+      "Polystyrene",
+      "Celluloid"
+    ],
+    "funFact": "Bakelite was marketed as \"the material of a thousand uses.\" Unlike earlier plastics, it did not soften when heated — making it ideal for electrical insulators.",
+    "sourceId": "src_bakelite",
+    "topicId": "plastics",
+    "topicCategoryId": "materials",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "plast_002",
+    "question": "Polyethylene (PE) is the world's most widely produced plastic. What common product is it used to make?",
+    "correctAnswers": [
+      "Plastic bags and bottles"
+    ],
+    "wrongAnswers": [
+      "Car bumpers",
+      "Nylon ropes",
+      "Rubber gloves",
+      "Styrofoam cups",
+      "Perspex windows"
+    ],
+    "funFact": "Polyethylene was accidentally discovered twice: first in 1898 by German chemist Hans von Pechmann, and again in 1933 by ICI researchers working under high pressure.",
+    "sourceId": "src_polyethylene",
+    "topicId": "plastics",
+    "topicCategoryId": "materials",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "easy"
+  },
+  {
+    "id": "plast_003",
+    "question": "Plastic pollution in the ocean primarily breaks down into what small particles?",
+    "correctAnswers": [
+      "Microplastics"
+    ],
+    "wrongAnswers": [
+      "Nanofibres",
+      "Macroplastics",
+      "Polymer dust",
+      "Chemical leachate",
+      "Cellulose fibres"
+    ],
+    "funFact": "Microplastics have been found in the deepest ocean trenches, on the summit of Everest, in human blood, and in the placentas of unborn babies.",
+    "sourceId": "src_plastic_pollution",
+    "topicId": "plastics",
+    "topicCategoryId": "materials",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "easy"
+  }
+]

@@ -1,0 +1,961 @@
+[
+  {
+    "id": "ther_001",
+    "question": "CBT stands for which type of psychotherapy?",
+    "correctAnswers": [
+      "Cognitive Behavioural Therapy"
+    ],
+    "wrongAnswers": [
+      "Cognitive Bias Treatment",
+      "Central Brain Therapy",
+      "Complete Behaviour Therapy",
+      "Controlled Breathing Technique"
+    ],
+    "funFact": "CBT was developed by Aaron Beck in the 1960s, who noticed that his depressed patients had spontaneous negative thoughts he called \"automatic thoughts.\"",
+    "sourceId": "src_cognitive_behavioral_therapy",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ther_002",
+    "question": "DBT (Dialectical Behaviour Therapy) was originally developed by Marsha Linehan to treat which condition?",
+    "correctAnswers": [
+      "Borderline personality disorder"
+    ],
+    "wrongAnswers": [
+      "Schizophrenia",
+      "Major depressive disorder",
+      "PTSD",
+      "Bipolar disorder",
+      "Generalised anxiety disorder"
+    ],
+    "funFact": "Marsha Linehan later disclosed that she herself had been diagnosed with BPD — a revelation that significantly reduced stigma around the condition.",
+    "sourceId": "src_dialectical_behavior_therapy",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ther_003",
+    "question": "Sigmund Freud's psychoanalytic theory centred on what concept involving hidden mental processes?",
+    "correctAnswers": [
+      "The unconscious mind"
+    ],
+    "wrongAnswers": [
+      "Cognitive distortions",
+      "Neural plasticity",
+      "Conditioned reflexes",
+      "Schemata",
+      "Attachment theory"
+    ],
+    "funFact": "Freud believed the unconscious mind was like an iceberg — the conscious mind (the visible tip) is vastly smaller than the hidden unconscious below.",
+    "sourceId": "src_psychoanalysis",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ther_004",
+    "question": "EMDR therapy uses bilateral stimulation (often eye movements) to treat which condition?",
+    "correctAnswers": [
+      "PTSD (Post-Traumatic Stress Disorder)"
+    ],
+    "wrongAnswers": [
+      "Obsessive-Compulsive Disorder",
+      "Bipolar disorder",
+      "Schizophrenia",
+      "Attention deficit disorder",
+      "Eating disorders"
+    ],
+    "funFact": "The World Health Organization recommends EMDR as an evidence-based treatment for PTSD in adults.",
+    "sourceId": "src_eye_movement_desensitization_and_reprocessing",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "therapy_001",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "What does the abbreviation CBT stand for in psychology?",
+    "correctAnswers": [
+      "Cognitive Behavioral Therapy"
+    ],
+    "wrongAnswers": [
+      "Clinical Behavior Training",
+      "Cognitive Brain Therapy",
+      "Controlled Behavioral Treatment",
+      "Cognitive Biofeedback Technique",
+      "Central Behavior Therapy",
+      "Comprehensive Behavioral Treatment",
+      "Cognitive Balance Therapy",
+      "Corrective Brain Training"
+    ],
+    "funFact": "CBT is one of the most widely researched and practiced forms of psychotherapy in the world, with applications ranging from depression and anxiety to chronic pain management.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_002",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "Which psychologist developed cognitive therapy in the 1950s?",
+    "correctAnswers": [
+      "Aaron Beck"
+    ],
+    "wrongAnswers": [
+      "Albert Ellis",
+      "Carl Rogers",
+      "B.F. Skinner",
+      "Ivan Pavlov",
+      "Abraham Maslow",
+      "Erik Erikson",
+      "Viktor Frankl",
+      "Hans Eysenck"
+    ],
+    "funFact": "Aaron Beck originally trained as a psychoanalyst but developed cognitive therapy after noticing that his patients' negative automatic thoughts — not hidden unconscious drives — were central to their depression.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_003",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "CBT combines principles from which two fields of psychology?",
+    "correctAnswers": [
+      "Cognitive psychology and behaviorism"
+    ],
+    "wrongAnswers": [
+      "Psychoanalysis and humanism",
+      "Evolutionary psychology and neuroscience",
+      "Gestalt therapy and existentialism",
+      "Developmental psychology and biofeedback",
+      "Positive psychology and attachment theory",
+      "Narrative therapy and somatic therapy",
+      "Transpersonal psychology and mindfulness"
+    ],
+    "funFact": "By merging cognitive and behavioral traditions, CBT addresses both the thoughts that drive distress and the behaviors that maintain it — making it one of the most practical and structured therapeutic approaches.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_004",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "CBT is described as both 'problem-focused' and what else?",
+    "correctAnswers": [
+      "Action-oriented"
+    ],
+    "wrongAnswers": [
+      "Emotion-centered",
+      "Past-focused",
+      "Insight-driven",
+      "Relationship-based",
+      "Unconscious-directed",
+      "Dream-focused",
+      "Spiritual-oriented",
+      "Client-led"
+    ],
+    "funFact": "CBT's action-oriented nature means therapists and clients work together on specific goals and use structured exercises between sessions — often called 'homework' — to practice new thinking and behavioral patterns.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_005",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "In which settings can CBT be delivered?",
+    "correctAnswers": [
+      "Individual therapy",
+      "Group therapy"
+    ],
+    "wrongAnswers": [
+      "Inpatient hospital stays only",
+      "Emergency room settings only",
+      "Pharmacies",
+      "Residential schools only",
+      "Surgical centers",
+      "Crisis hotlines only",
+      "Hypnosis clinics"
+    ],
+    "funFact": "Group CBT is often cost-effective and offers the added benefit of peer support — participants can share experiences, challenge each other's thinking patterns, and learn from how others cope.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_006",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "What ancient philosophical tradition is considered a precursor to CBT?",
+    "correctAnswers": [
+      "Stoicism"
+    ],
+    "wrongAnswers": [
+      "Epicureanism",
+      "Platonism",
+      "Taoism",
+      "Confucianism",
+      "Aristotelianism",
+      "Skepticism",
+      "Cynicism",
+      "Sophism"
+    ],
+    "funFact": "Stoic philosophers like Epictetus taught that it is not events themselves that disturb us, but our judgements about them — a core idea that Aaron Beck and Albert Ellis both drew upon when developing cognitive therapies.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_007",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "CBT is effective for treating which childhood anxiety-related condition involving repetitive behaviors?",
+    "correctAnswers": [
+      "Obsessive-compulsive disorder (OCD)"
+    ],
+    "wrongAnswers": [
+      "Selective mutism",
+      "Separation anxiety disorder",
+      "Social phobia",
+      "Tourette syndrome",
+      "Reactive attachment disorder",
+      "Night terrors",
+      "Pica",
+      "School refusal"
+    ],
+    "funFact": "CBT for childhood OCD often involves a technique called Exposure and Response Prevention (ERP), where the child is gradually exposed to feared situations while resisting the urge to perform compulsive rituals.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_008",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "How many distinct 'waves' did CBT develop through in the 20th century?",
+    "correctAnswers": [
+      "Three"
+    ],
+    "wrongAnswers": [
+      "Two",
+      "Four",
+      "Five",
+      "Six",
+      "One",
+      "Seven",
+      "Eight"
+    ],
+    "funFact": "The three waves of CBT moved from pure behaviorism (1920s), to cognitive approaches (1950s–70s), and finally to mindfulness and acceptance-based methods (1980s–90s) — each wave building on rather than replacing its predecessor.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_009",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "The third wave of CBT drew significantly from which spiritual tradition, particularly its mindfulness and acceptance practices?",
+    "correctAnswers": [
+      "Buddhism"
+    ],
+    "wrongAnswers": [
+      "Hinduism",
+      "Taoism",
+      "Zen Shinto",
+      "Sufism",
+      "Stoic philosophy",
+      "Quakerism",
+      "Existentialism",
+      "Jainism"
+    ],
+    "funFact": "Therapies like Mindfulness-Based Cognitive Therapy (MBCT) and Acceptance and Commitment Therapy (ACT) are classic third-wave CBT approaches, both of which incorporate Buddhist-inspired mindfulness to help patients observe thoughts non-judgmentally.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_010",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "What was the approximate era of the first wave of CBT development?",
+    "correctAnswers": [
+      "1920s to 1960s"
+    ],
+    "wrongAnswers": [
+      "1890s to 1910s",
+      "1940s to 1970s",
+      "1960s to 1980s",
+      "1970s to 1990s",
+      "1880s to 1920s",
+      "1930s to 1950s",
+      "1900s to 1930s"
+    ],
+    "funFact": "The first wave was rooted in classical and operant conditioning — researchers like Pavlov, Watson, and Skinner showed that behavior could be shaped by environmental stimuli, laying the groundwork for behavioral therapies.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_011",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "According to research, how does CBT alone compare to psychoactive medications for treating less severe depression?",
+    "correctAnswers": [
+      "It is equally effective"
+    ],
+    "wrongAnswers": [
+      "It is significantly less effective",
+      "It is significantly more effective",
+      "It has no proven benefit",
+      "It works faster but with more side effects",
+      "It only works in combination with medication",
+      "It is effective only in adolescents",
+      "It is effective only in the elderly"
+    ],
+    "funFact": "This equivalence is one reason CBT has become a first-line treatment for mild to moderate depression — it avoids medication side effects and may offer more durable benefits since patients learn skills they can apply after therapy ends.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_012",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "What UK government program announced in 2008 aimed to expand public access to CBT?",
+    "correctAnswers": [
+      "Improving Access to Psychological Therapies (IAPT)"
+    ],
+    "wrongAnswers": [
+      "National Psychological Treatment Initiative (NPTI)",
+      "Mental Health Access Programme (MHAP)",
+      "Therapy for All Scheme (TAS)",
+      "NHS Talking Therapies Expansion Fund",
+      "Minds Matter National Plan",
+      "Psychological Wellbeing Initiative (PWI)",
+      "Open Doors Mental Health Programme",
+      "Wellbeing and Recovery Fund (WRF)"
+    ],
+    "funFact": "The IAPT programme trained thousands of new therapists in CBT across England, making it one of the largest government investments in psychological therapy in history and significantly reducing waiting times for mental health treatment.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_013",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "What does the mainstream CBT model assume is the key driver of changes in behavior and affect?",
+    "correctAnswers": [
+      "Changing maladaptive thinking"
+    ],
+    "wrongAnswers": [
+      "Resolving unconscious conflicts",
+      "Strengthening the therapeutic alliance",
+      "Altering brain chemistry",
+      "Reprogramming childhood memories",
+      "Modifying social relationships",
+      "Changing physical habits",
+      "Restructuring personal narratives"
+    ],
+    "funFact": "This core CBT idea — that thoughts drive feelings and behaviors — is called the 'cognitive model.' Beck illustrated it with the 'cognitive triad': negative views of the self, the world, and the future that perpetuate depression.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_014",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "CBT has been shown effective as part of treatment for which neurological disorder in adults?",
+    "correctAnswers": [
+      "Psychosis",
+      "Schizophrenia"
+    ],
+    "wrongAnswers": [
+      "Alzheimer's disease",
+      "Parkinson's disease",
+      "Multiple sclerosis",
+      "Epilepsy",
+      "Huntington's disease",
+      "Amyotrophic lateral sclerosis (ALS)",
+      "Brain tumors"
+    ],
+    "funFact": "CBT for psychosis (CBTp) helps patients evaluate the evidence for their unusual beliefs, reduce distress caused by hallucinations, and improve social functioning — it is now recommended alongside antipsychotic medication in many clinical guidelines.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_015",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "In 2012 the UK Council for Psychotherapy criticized IAPT policies for delivering what kind of CBT?",
+    "correctAnswers": [
+      "A watered-down version delivered by lightly trained staff"
+    ],
+    "wrongAnswers": [
+      "An overly complex version unsuitable for general use",
+      "An exclusively online version with no in-person option",
+      "A version focused only on medication management",
+      "A version restricted to inpatient settings",
+      "A version targeting only severe disorders",
+      "A version excluding children and adolescents",
+      "A version only available in private clinics"
+    ],
+    "funFact": "The criticism highlighted a tension in mental health policy: expanding access quickly often means training lower-qualified staff, which may reduce therapeutic quality — a debate that continues in many countries scaling up psychological services.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_016",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard",
+    "question": "What is a 'manualized' CBT treatment?",
+    "correctAnswers": [
+      "A therapy that follows a specific written protocol for an individual disorder"
+    ],
+    "wrongAnswers": [
+      "A therapy delivered using only written worksheets and no verbal interaction",
+      "A therapy administered by a trained assistant rather than a licensed clinician",
+      "A therapy that requires patients to keep a daily journal",
+      "A therapy with no flexibility in session length",
+      "A therapy using virtual reality simulations",
+      "A therapy designed exclusively for telephone delivery",
+      "A therapy approved exclusively for inpatient care"
+    ],
+    "funFact": "Manualized CBT protocols were developed partly to enable rigorous clinical trials — if every therapist follows the same manual, researchers can be confident the therapy itself, not therapist differences, is producing the measured outcomes.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_017",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard",
+    "question": "How does third-wave CBT differ from mainstream CBT in its approach to maladaptive thinking?",
+    "correctAnswers": [
+      "It focuses on changing one's relationship to maladaptive thoughts rather than changing the thoughts themselves"
+    ],
+    "wrongAnswers": [
+      "It eliminates cognitive techniques entirely, relying solely on behavioral exposure",
+      "It requires patients to confront traumatic memories directly in every session",
+      "It uses pharmaceutical interventions alongside talk therapy",
+      "It focuses exclusively on childhood experiences to restructure adult cognitions",
+      "It replaces individual therapy with mandatory group formats",
+      "It uses hypnosis to access and reframe automatic thoughts",
+      "It relies on biofeedback devices to detect and alter distorted cognitions"
+    ],
+    "funFact": "This shift in third-wave CBT — toward acceptance rather than dispute of thoughts — was influenced by Buddhist concepts of non-attachment. Therapies like ACT teach that trying to suppress unwanted thoughts often strengthens them.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_018",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard",
+    "question": "CBT has been shown effective for managing depression and anxiety associated with which chronic pain condition?",
+    "correctAnswers": [
+      "Fibromyalgia"
+    ],
+    "wrongAnswers": [
+      "Rheumatoid arthritis",
+      "Lupus",
+      "Complex regional pain syndrome",
+      "Ankylosing spondylitis",
+      "Trigeminal neuralgia",
+      "Gout",
+      "Costochondritis",
+      "Polymyalgia rheumatica"
+    ],
+    "funFact": "Fibromyalgia involves widespread musculoskeletal pain and is often accompanied by fatigue, sleep problems, and mood disturbances — CBT helps patients reframe catastrophic thoughts about pain and develop better coping strategies.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_019",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard",
+    "question": "Which CBT technique that helps manage distressing thoughts and feelings combines both cognitive and behavioral approaches under a single intervention?",
+    "correctAnswers": [
+      "Imaginal exposure therapy"
+    ],
+    "wrongAnswers": [
+      "Behavioral activation",
+      "Thought records",
+      "Motivational interviewing",
+      "Functional analytic psychotherapy",
+      "Systematic desensitization",
+      "Cognitive restructuring",
+      "Schema therapy",
+      "Narrative exposure therapy"
+    ],
+    "funFact": "In imaginal exposure, patients mentally revisit feared situations or memories in detail while in a safe therapeutic environment — engaging cognitions (the memory content) and behavior (approach rather than avoidance) simultaneously.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_020",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard",
+    "question": "Psychotherapist Andrew Samuels described CBT's dominance in NHS mental health funding as which two things?",
+    "correctAnswers": [
+      "A coup",
+      "A power play"
+    ],
+    "wrongAnswers": [
+      "A revolution",
+      "An evidence-based triumph",
+      "A corporate takeover",
+      "A medical conspiracy",
+      "A political compromise",
+      "A therapeutic monoculture",
+      "A scientific breakthrough",
+      "A systematic exclusion"
+    ],
+    "funFact": "Samuels' criticism reflected concern that CBT's manageability and measurability made it favoured in cost-conscious health systems, potentially sidelining longer-term therapies — such as psychodynamic or humanistic approaches — that may better suit certain patients.",
+    "sourceId": "src_cognitive_behavioral_therapy"
+  },
+  {
+    "id": "therapy_021",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "Who developed Dialectical Behavior Therapy (DBT)?",
+    "correctAnswers": [
+      "Marsha Linehan",
+      "Marsha M. Linehan"
+    ],
+    "wrongAnswers": [
+      "Aaron Beck",
+      "Albert Ellis",
+      "Carl Rogers",
+      "B.F. Skinner",
+      "John Watson",
+      "Joseph Wolpe"
+    ],
+    "funFact": "Marsha Linehan developed DBT at the University of Washington and later disclosed that she herself had been diagnosed with borderline personality disorder, which partly motivated her work.",
+    "sourceId": "src_dialectical_behavior_therapy"
+  },
+  {
+    "id": "therapy_022",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "What mental health condition was DBT originally developed to treat?",
+    "correctAnswers": [
+      "Borderline personality disorder",
+      "BPD"
+    ],
+    "wrongAnswers": [
+      "Schizophrenia",
+      "Major depressive disorder",
+      "Bipolar disorder",
+      "Obsessive-compulsive disorder",
+      "Generalized anxiety disorder",
+      "Panic disorder"
+    ],
+    "funFact": "DBT was specifically designed for borderline personality disorder, a condition characterized by emotional instability and impulsive behavior, and remains one of the most evidence-based treatments for BPD.",
+    "sourceId": "src_dialectical_behavior_therapy"
+  },
+  {
+    "id": "therapy_023",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "Which of these is one of DBT's four core skill-training modules?",
+    "correctAnswers": [
+      "Distress tolerance",
+      "Mindfulness",
+      "Emotional regulation",
+      "Interpersonal effectiveness"
+    ],
+    "wrongAnswers": [
+      "Cognitive restructuring",
+      "Exposure therapy",
+      "Dream analysis",
+      "Free association",
+      "Systematic desensitization"
+    ],
+    "funFact": "DBT's four modules — mindfulness, distress tolerance, emotional regulation, and interpersonal effectiveness — work together to help clients manage intense emotions and navigate relationships more skillfully.",
+    "sourceId": "src_dialectical_behavior_therapy"
+  },
+  {
+    "id": "therapy_024",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "What philosophical concept does the word 'dialectical' in DBT refer to?",
+    "correctAnswers": [
+      "The synthesis of opposites",
+      "Thesis, antithesis, and synthesis"
+    ],
+    "wrongAnswers": [
+      "Logical reasoning",
+      "Socratic questioning",
+      "The nature of language",
+      "Buddhist non-attachment",
+      "Cause and effect reasoning",
+      "Rational discourse"
+    ],
+    "funFact": "The term 'dialectical' in DBT reflects the core tension the therapy holds between two opposites: accepting clients as they are while also pushing for meaningful change.",
+    "sourceId": "src_dialectical_behavior_therapy"
+  },
+  {
+    "id": "therapy_025",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "What spiritual tradition inspired the mindfulness module in DBT?",
+    "correctAnswers": [
+      "Zen Buddhism"
+    ],
+    "wrongAnswers": [
+      "Stoicism",
+      "Taoism",
+      "Tibetan Buddhism",
+      "Hinduism",
+      "Sufism",
+      "Vipassana meditation",
+      "Transcendental meditation"
+    ],
+    "funFact": "Marsha Linehan drew directly from Zen Buddhist practices when developing DBT's mindfulness module, emphasizing non-judgmental awareness of the present moment as a foundational skill.",
+    "sourceId": "src_dialectical_behavior_therapy"
+  },
+  {
+    "id": "therapy_026",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "Standard DBT treatment includes which of these components?",
+    "correctAnswers": [
+      "Individual therapy",
+      "Group skills training",
+      "Telephone coaching"
+    ],
+    "wrongAnswers": [
+      "Medication management",
+      "Hypnotherapy sessions",
+      "Art therapy workshops",
+      "Inpatient hospitalization",
+      "Dream journaling",
+      "Biofeedback training"
+    ],
+    "funFact": "Standard DBT is unusual among psychotherapies in requiring a therapist consultation team — a weekly meeting where DBT therapists support each other to prevent burnout and maintain treatment fidelity.",
+    "sourceId": "src_dialectical_behavior_therapy"
+  },
+  {
+    "id": "therapy_027",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard",
+    "question": "According to DBT's biosocial theory of BPD, what two factors combine to produce emotional dysregulation?",
+    "correctAnswers": [
+      "A biological predisposition and an invalidating environment"
+    ],
+    "wrongAnswers": [
+      "Trauma and insecure attachment",
+      "Genetic factors and substance abuse",
+      "Cognitive distortions and life stress",
+      "Neurological damage and poor coping skills",
+      "Childhood neglect and impulsivity",
+      "Early loss and social isolation"
+    ],
+    "funFact": "DBT's biosocial theory suggests that people with BPD are born with a biologically sensitive emotional system, and when raised in an environment that repeatedly dismisses or punishes their feelings, this combination leads to chronic emotional dysregulation.",
+    "sourceId": "src_dialectical_behavior_therapy"
+  },
+  {
+    "id": "therapy_028",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard",
+    "question": "What daily tracking tool do DBT clients use to monitor emotions, urges, and coping skill use?",
+    "correctAnswers": [
+      "Diary card"
+    ],
+    "wrongAnswers": [
+      "Thought record",
+      "Mood log",
+      "Behavior chain",
+      "Safety plan",
+      "Chain analysis form",
+      "ABC worksheet",
+      "Exposure hierarchy"
+    ],
+    "funFact": "The DBT diary card is typically reviewed at the start of each individual therapy session, allowing the therapist and client to prioritize which behaviors or emotions to address that week.",
+    "sourceId": "src_dialectical_behavior_therapy"
+  },
+  {
+    "id": "therapy_029",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "What does EMDR stand for?",
+    "correctAnswers": [
+      "Eye Movement Desensitization and Reprocessing"
+    ],
+    "wrongAnswers": [
+      "Emotional Memory Desensitization and Recovery",
+      "Eye Movement Distress Reduction",
+      "Exposure Memory Desensitization and Reprocessing",
+      "Eye Movement Directed Relaxation",
+      "Emotional Movement Desensitization and Reprocessing"
+    ],
+    "funFact": "EMDR was devised by Francine Shapiro in 1987 and has since become one of the most widely researched and recommended therapies for post-traumatic stress disorder.",
+    "sourceId": "src_eye_movement_desensitization_and_reprocessing"
+  },
+  {
+    "id": "therapy_030",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "What condition is EMDR primarily designed to treat?",
+    "correctAnswers": [
+      "Post-traumatic stress disorder",
+      "PTSD"
+    ],
+    "wrongAnswers": [
+      "Depression",
+      "Borderline personality disorder",
+      "Schizophrenia",
+      "Bipolar disorder",
+      "Autism spectrum disorder",
+      "Attention deficit disorder"
+    ],
+    "funFact": "EMDR is now recommended by major health bodies worldwide including the World Health Organization, UK NICE, and the US Departments of Veterans Affairs and Defense.",
+    "sourceId": "src_eye_movement_desensitization_and_reprocessing"
+  },
+  {
+    "id": "therapy_031",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "How did Francine Shapiro get the inspiration for EMDR?",
+    "correctAnswers": [
+      "She noticed disturbing thoughts became easier to cope with when her eyes made rapid side-to-side movements while walking in the woods"
+    ],
+    "wrongAnswers": [
+      "She observed soldiers calming down after watching flickering campfires",
+      "A patient reported improvement after tracking a moving light during hypnosis",
+      "She read a study on saccadic eye movements and memory consolidation",
+      "She discovered the effect during a guided meditation retreat",
+      "A colleague demonstrated the technique on her during supervision"
+    ],
+    "funFact": "Shapiro's accidental discovery in 1987 sparked decades of research into how bilateral stimulation might interact with memory processing — though the exact mechanism remains scientifically debated.",
+    "sourceId": "src_eye_movement_desensitization_and_reprocessing"
+  },
+  {
+    "id": "therapy_032",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "How many phases does a structured EMDR treatment protocol consist of?",
+    "correctAnswers": [
+      "Eight",
+      "8"
+    ],
+    "wrongAnswers": [
+      "Three",
+      "Five",
+      "Six",
+      "Ten",
+      "Twelve",
+      "Four"
+    ],
+    "funFact": "EMDR's eight phases move from history-taking and preparation through assessment, desensitization, installation of positive beliefs, body scan, closure, and finally re-evaluation at the next session.",
+    "sourceId": "src_eye_movement_desensitization_and_reprocessing"
+  },
+  {
+    "id": "therapy_033",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "What is the 'working memory' hypothesis proposed to explain how EMDR works?",
+    "correctAnswers": [
+      "Performing a dual attention task during trauma recall strains working memory, reducing the vividness and emotionality of the memory"
+    ],
+    "wrongAnswers": [
+      "Eye movements trigger REM sleep patterns that consolidate traumatic memories into long-term storage",
+      "Bilateral stimulation activates the corpus callosum, enabling better communication between brain hemispheres",
+      "Saccadic eye movements inhibit the amygdala's fear response during memory retrieval",
+      "The rhythmic stimulation induces a mild hypnotic state that makes memories more malleable",
+      "Tracking eye movements distracts the prefrontal cortex, allowing repressed memories to surface"
+    ],
+    "funFact": "The working memory hypothesis is one of the leading scientific explanations for EMDR, suggesting that any demanding dual-attention task — not just eye movements — may reduce trauma memory distress.",
+    "sourceId": "src_eye_movement_desensitization_and_reprocessing"
+  },
+  {
+    "id": "therapy_034",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard",
+    "question": "What did the US Institute of Medicine's 2008 report conclude about EMDR?",
+    "correctAnswers": [
+      "It found insufficient evidence to recommend EMDR and criticized available studies for methodological flaws including allegiance bias"
+    ],
+    "wrongAnswers": [
+      "It endorsed EMDR as the gold standard for PTSD treatment",
+      "It found EMDR superior to trauma-focused CBT",
+      "It recommended EMDR only for children, not adults",
+      "It concluded EMDR had no therapeutic benefit beyond placebo",
+      "It recommended EMDR for acute trauma but not chronic PTSD",
+      "It called for EMDR to be covered by all federal insurance programs"
+    ],
+    "funFact": "Despite skepticism from the Institute of Medicine, subsequent systematic reviews published after 2013 have generally found EMDR's efficacy for adult PTSD equivalent to trauma-focused cognitive and behavioral therapies.",
+    "sourceId": "src_eye_movement_desensitization_and_reprocessing"
+  },
+  {
+    "id": "therapy_035",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "Who founded psychoanalysis?",
+    "correctAnswers": [
+      "Sigmund Freud"
+    ],
+    "wrongAnswers": [
+      "Carl Jung",
+      "Alfred Adler",
+      "Wilhelm Wundt",
+      "William James",
+      "Ivan Pavlov",
+      "John Watson"
+    ],
+    "funFact": "Freud established psychoanalysis in the early 1890s and continued developing and refining both its theory and practice until his death in 1939.",
+    "sourceId": "src_psychoanalysis"
+  },
+  {
+    "id": "therapy_036",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy",
+    "question": "What is the term for the psychoanalytic technique of encouraging patients to say whatever comes to mind without censorship?",
+    "correctAnswers": [
+      "Free association"
+    ],
+    "wrongAnswers": [
+      "Dream analysis",
+      "Transference",
+      "Countertransference",
+      "Cognitive restructuring",
+      "Systematic desensitization",
+      "Projective identification"
+    ],
+    "funFact": "Free association replaced Freud's earlier use of hypnosis and became the cornerstone of psychoanalytic technique, offering a way to access unconscious material that conscious reflection might censor.",
+    "sourceId": "src_psychoanalysis"
+  },
+  {
+    "id": "therapy_037",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "Freud described his discovery of the unconscious as the 'third insult to mankind'. What were the first two?",
+    "correctAnswers": [
+      "Copernicus's discovery that Earth is not the center of the universe and Darwin's theory of evolution"
+    ],
+    "wrongAnswers": [
+      "Newton's laws of physics and the germ theory of disease",
+      "Galileo's heliocentrism and Marx's critique of capitalism",
+      "Darwin's evolution and Einstein's relativity",
+      "The discovery that humans share DNA with apes and the Big Bang theory",
+      "The atomic theory and quantum mechanics"
+    ],
+    "funFact": "Freud positioned psychoanalysis as a humbling blow to human self-importance: after Copernicus removed Earth from the cosmic center and Darwin removed humans from the top of creation, Freud argued humans were not even masters of their own minds.",
+    "sourceId": "src_psychoanalysis"
+  },
+  {
+    "id": "therapy_038",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium",
+    "question": "What is transference in psychoanalytic therapy?",
+    "correctAnswers": [
+      "When a patient unconsciously redirects feelings about past figures onto the therapist"
+    ],
+    "wrongAnswers": [
+      "When the therapist projects their own emotions onto the patient",
+      "The technique of shifting a patient's focus from symptoms to underlying causes",
+      "A method of transferring successful coping strategies between patients",
+      "The process of moving repressed memories into conscious awareness",
+      "When a patient transfers trauma from one relationship to another outside therapy"
+    ],
+    "funFact": "Freud initially saw transference as an obstacle to therapy, but later came to view it as one of the most powerful tools — by analyzing how patients repeated past relationship patterns with the analyst, deeper change became possible.",
+    "sourceId": "src_psychoanalysis"
+  },
+  {
+    "id": "therapy_039",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard",
+    "question": "Which of Freud's early colleagues broke away to develop their own distinct schools of psychology?",
+    "correctAnswers": [
+      "Alfred Adler",
+      "Carl Jung"
+    ],
+    "wrongAnswers": [
+      "Josef Breuer",
+      "Ernest Jones",
+      "Melanie Klein",
+      "Anna Freud",
+      "Otto Rank",
+      "Sandor Ferenczi"
+    ],
+    "funFact": "Adler founded 'individual psychology' and Jung founded 'analytical psychology' — both departures significant enough that Freud explicitly stated neither was a form of psychoanalysis.",
+    "sourceId": "src_psychoanalysis"
+  },
+  {
+    "id": "therapy_040",
+    "topicId": "therapy",
+    "topicCategoryId": "mental_health",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard",
+    "question": "What phrase did Freud's early patient Anna O. coin to describe psychoanalytic treatment?",
+    "correctAnswers": [
+      "The talking cure"
+    ],
+    "wrongAnswers": [
+      "The royal road",
+      "The cathartic method",
+      "The couch method",
+      "The silent therapy",
+      "The dream work",
+      "The analytic cure"
+    ],
+    "funFact": "Anna O. was actually the patient of Freud's colleague Josef Breuer, and her case became foundational to psychoanalytic thinking. The phrase 'talking cure' has since become synonymous with psychotherapy as a whole.",
+    "sourceId": "src_psychoanalysis"
+  }
+]

@@ -1,0 +1,841 @@
+[
+  {
+    "id": "pgeo_001",
+    "question": "Plate tectonics theory explains that the Earth's crust is divided into how many major tectonic plates?",
+    "correctAnswers": [
+      "7 major plates"
+    ],
+    "wrongAnswers": [
+      "3 major plates",
+      "12 major plates",
+      "2 major plates",
+      "20 major plates",
+      "5 major plates",
+      "9 major plates",
+      "15 major plates",
+      "4 major plates"
+    ],
+    "funFact": "The Pacific Plate is the largest tectonic plate, covering about 103 million km² — almost the size of the entire Atlantic Ocean.",
+    "sourceId": "src_plate_tectonics",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_002",
+    "question": "A biome is defined as what?",
+    "correctAnswers": [
+      "A major ecological community defined by climate and vegetation"
+    ],
+    "wrongAnswers": [
+      "A type of animal kingdom",
+      "A layer of the atmosphere",
+      "A geographic administrative region",
+      "A watershed or drainage basin",
+      "A political boundary defined by treaties",
+      "A type of soil classification system",
+      "A marine ecosystem unit",
+      "A forest management zone"
+    ],
+    "funFact": "The tropical rainforest biome covers only about 6% of Earth's land surface but contains over 50% of the world's plant and animal species.",
+    "sourceId": "src_biome",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_003",
+    "question": "Physical geography is also known by what alternative name?",
+    "correctAnswers": [
+      "Physiography"
+    ],
+    "wrongAnswers": [
+      "Topography",
+      "Cartography",
+      "Chorography",
+      "Hydrography",
+      "Geomorphography",
+      "Cosmography",
+      "Lithography",
+      "Ethnography"
+    ],
+    "funFact": "Physical geography deals with the processes and patterns in the natural environment — including the atmosphere, hydrosphere, biosphere, and geosphere — making it one of the three main branches of geography.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_004",
+    "question": "Which branch of physical geography is primarily concerned with understanding the surface of the Earth and the processes that shape it?",
+    "correctAnswers": [
+      "Geomorphology"
+    ],
+    "wrongAnswers": [
+      "Hydrology",
+      "Climatology",
+      "Biogeography",
+      "Glaciology",
+      "Pedology",
+      "Oceanography",
+      "Meteorology",
+      "Seismology"
+    ],
+    "funFact": "Geomorphology seeks to understand landform history and dynamics and to predict future changes through a combination of field observation, physical experiments, and numerical modelling. Early studies in geomorphology also formed the foundation of pedology, one of the main branches of soil science.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_005",
+    "question": "Which nineteenth-century geological debate — between supporters of James Hutton and Georges Cuvier — strongly influenced the early development of physical geography?",
+    "correctAnswers": [
+      "Uniformitarianism vs. catastrophism"
+    ],
+    "wrongAnswers": [
+      "Neptunism vs. plutonism",
+      "Fixism vs. mobilism",
+      "Actualism vs. diluvialism",
+      "Evolution vs. creationism",
+      "Gradualism vs. punctuated equilibrium",
+      "Continentalism vs. ocean-floor spreading",
+      "Geocentrism vs. heliocentrism"
+    ],
+    "funFact": "James Hutton championed uniformitarianism — the idea that slow, steady processes shape the Earth over vast time — while Georges Cuvier argued that sudden catastrophes explained the geological record. The debate shaped how geographers interpreted landscape formation.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_006",
+    "question": "Hydrology is predominantly concerned with which aspect of the natural environment?",
+    "correctAnswers": [
+      "The amounts and quality of water moving and accumulating on the land surface"
+    ],
+    "wrongAnswers": [
+      "The study of ocean floor topography",
+      "The chemical composition of the atmosphere",
+      "The distribution of plant species across continents",
+      "The movement of tectonic plates",
+      "The measurement of gravitational fields",
+      "The formation of clouds and precipitation",
+      "The mapping of underground cave systems"
+    ],
+    "funFact": "Hydrology is typified by the hydrological cycle and encompasses water in rivers, lakes, aquifers, and glaciers — tracking how water moves, accumulates, and changes state across the planet's surface.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_007",
+    "question": "Which ancient Greek scholar's work, titled simply 'Geography', is counted among the earliest foundational texts in the long history of physical geography as a natural science?",
+    "correctAnswers": [
+      "Strabo"
+    ],
+    "wrongAnswers": [
+      "Eratosthenes",
+      "Ptolemy",
+      "Aristotle",
+      "Herodotus",
+      "Thucydides",
+      "Dionysius Periegetes",
+      "Hipparchus",
+      "Anaximander"
+    ],
+    "funFact": "Strabo, Eratosthenes (Geographika), and Dionysius Periegetes (Periegesis Oiceumene) were among the most cited geographers of the Ancient Age, setting the foundation for geography as a descriptive natural science centuries before the discipline split into physical and human branches.",
+    "sourceId": "src_physical_geography",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_008",
+    "question": "What is an ocean current?",
+    "correctAnswers": [
+      "A continuous, directed movement of seawater driven by wind, the Coriolis effect, and density differences"
+    ],
+    "wrongAnswers": [
+      "A tidal surge caused solely by the Moon's gravitational pull",
+      "A standing wave generated by underwater earthquakes",
+      "A seasonal reversal of wind patterns over the ocean",
+      "A layer of warm water sitting on top of cold water",
+      "A chemical gradient caused by salt concentration alone",
+      "A deep-sea upwelling triggered by volcanic activity",
+      "A surface flow produced only by storm surges"
+    ],
+    "funFact": "Ocean currents are driven by multiple forces at once — wind, the Coriolis effect, breaking waves, cabbeling (mixing of water masses), and differences in temperature and salinity — making them far more complex than simple wind-blown streams.",
+    "sourceId": "src_ocean_current",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_009",
+    "question": "In what unit are ocean currents measured?",
+    "correctAnswers": [
+      "Sverdrup (Sv)"
+    ],
+    "wrongAnswers": [
+      "Knot",
+      "Beaufort",
+      "Pascal",
+      "Millibar",
+      "Fathom",
+      "Decibel",
+      "Sievert",
+      "Hertz"
+    ],
+    "funFact": "One sverdrup equals a volume flow rate of one million cubic metres per second — a unit so enormous that even small ocean currents represent staggering volumes of moving water.",
+    "sourceId": "src_ocean_current",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_010",
+    "question": "What are the two main types of ocean currents classified by their driving mechanism?",
+    "correctAnswers": [
+      "Surface currents and deep-water currents"
+    ],
+    "wrongAnswers": [
+      "Warm currents and cold currents",
+      "Tidal currents and wave currents",
+      "Equatorial currents and polar currents",
+      "Gyres and upwellings",
+      "Drift currents and storm surges",
+      "Longshore currents and rip currents",
+      "Thermohaline currents and freshwater currents"
+    ],
+    "funFact": "Surface currents are generally driven by wind systems, while deep-water currents are driven by differences in water density caused by variations in temperature and salinity — a process known as thermohaline circulation.",
+    "sourceId": "src_ocean_current",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_011",
+    "question": "Which process do cold, nutrient-rich ocean currents support that forms the base of marine food webs?",
+    "correctAnswers": [
+      "Plankton growth"
+    ],
+    "wrongAnswers": [
+      "Coral bleaching",
+      "Bioluminescence",
+      "Chemosynthesis",
+      "Mangrove propagation",
+      "Deep-sea venting",
+      "Seagrass formation",
+      "Kelp harvesting",
+      "Eutrophication"
+    ],
+    "funFact": "Upwellings and cold currents from polar and sub-polar regions bring nutrients to the sunlit surface zone, fuelling phytoplankton blooms that sustain entire marine ecosystems — from tiny zooplankton to the great whales.",
+    "sourceId": "src_ocean_current",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_012",
+    "question": "Over the last century, western boundary ocean currents have been heating at what rate compared to the global average?",
+    "correctAnswers": [
+      "Double the rate of the global average"
+    ],
+    "wrongAnswers": [
+      "The same rate as the global average",
+      "Half the rate of the global average",
+      "Triple the rate of the global average",
+      "Ten times the rate of the global average",
+      "One-quarter the rate of the global average",
+      "Five times the rate of the global average",
+      "There has been no measurable change"
+    ],
+    "funFact": "Western boundary currents — such as the Gulf Stream and the Kuroshio Current — are intensifying due to anthropogenic surface warming, which increases vertical stratification in the upper ocean and strengthens these powerful flows.",
+    "sourceId": "src_ocean_current",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_013",
+    "question": "How many main climate groups does the Köppen climate classification divide Earth's climates into?",
+    "correctAnswers": [
+      "Five"
+    ],
+    "wrongAnswers": [
+      "Three",
+      "Four",
+      "Six",
+      "Seven",
+      "Eight",
+      "Ten",
+      "Two"
+    ],
+    "funFact": "The five groups are A (tropical), B (arid), C (temperate), D (continental), and E (polar). Each group uses a system of letters so that a two- or three-letter code can compactly describe a location's entire climate regime.",
+    "sourceId": "src_koppen_climate_classification",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_014",
+    "question": "Who first published the Köppen climate classification, and in what year?",
+    "correctAnswers": [
+      "Wladimir Köppen, in 1884"
+    ],
+    "wrongAnswers": [
+      "Alexander von Humboldt, in 1827",
+      "Charles Darwin, in 1859",
+      "Alfred Wegener, in 1912",
+      "Carl Troll, in 1948",
+      "Vladimir Koppen, in 1900",
+      "Heinrich Walter, in 1955",
+      "George Hadley, in 1735",
+      "Wladimir Köppen, in 1901"
+    ],
+    "funFact": "Wladimir Köppen (1846–1940) was a German-Russian climatologist who spent decades refining his system, which remains the most widely used climate classification scheme in the world more than 140 years after its first publication.",
+    "sourceId": "src_koppen_climate_classification",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_015",
+    "question": "In the Köppen system, what does the code 'Af' represent?",
+    "correctAnswers": [
+      "Tropical rainforest climate"
+    ],
+    "wrongAnswers": [
+      "Arid desert climate",
+      "Oceanic temperate climate",
+      "Continental subarctic climate",
+      "Polar tundra climate",
+      "Tropical monsoon climate",
+      "Semi-arid steppe climate",
+      "Humid subtropical climate",
+      "Alpine tundra climate"
+    ],
+    "funFact": "'A' denotes a tropical climate with all months averaging above 18 °C, while 'f' (from German 'feucht', meaning moist) indicates significant rainfall year-round with no dry season — the hallmark of equatorial rainforests.",
+    "sourceId": "src_koppen_climate_classification",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_016",
+    "question": "In the Köppen classification, a 'BW' climate code indicates which type of environment?",
+    "correctAnswers": [
+      "Arid desert climate"
+    ],
+    "wrongAnswers": [
+      "Semi-arid steppe climate",
+      "Tropical wet climate",
+      "Continental tundra climate",
+      "Temperate oceanic climate",
+      "Polar ice cap climate",
+      "Boreal forest climate",
+      "Mediterranean climate",
+      "Monsoon climate"
+    ],
+    "funFact": "Under the Köppen system, 'B' marks arid climates where evapotranspiration exceeds precipitation. 'BW' (W from German 'Wüste', desert) is applied when annual precipitation is less than 50% of the threshold value — the truly hyper-arid deserts like the Sahara.",
+    "sourceId": "src_koppen_climate_classification",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_017",
+    "question": "What minimum average temperature must a month reach in all 12 months for a climate to qualify as Köppen Group A (tropical)?",
+    "correctAnswers": [
+      "18 °C (64.4 °F)"
+    ],
+    "wrongAnswers": [
+      "10 °C (50 °F)",
+      "20 °C (68 °F)",
+      "25 °C (77 °F)",
+      "15 °C (59 °F)",
+      "0 °C (32 °F)",
+      "30 °C (86 °F)",
+      "22 °C (71.6 °F)",
+      "12 °C (53.6 °F)"
+    ],
+    "funFact": "The 18 °C threshold for every month eliminates any significant cool season, ensuring year-round warmth. This constant high temperature drives the intense convective rainfall that characterises tropical climates.",
+    "sourceId": "src_koppen_climate_classification",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_018",
+    "question": "In the Köppen system, what does the third letter 'b' signify in a code such as 'Cfb'?",
+    "correctAnswers": [
+      "Warm summers"
+    ],
+    "wrongAnswers": [
+      "Cold winters",
+      "Dry summers",
+      "High altitude",
+      "Monsoon rainfall",
+      "Permanent frost",
+      "Hot summers",
+      "Wet winters",
+      "Marine influence"
+    ],
+    "funFact": "'Cfb' describes an oceanic climate: C = temperate (coldest month above 0 °C but below 18 °C), f = precipitation year-round, b = warmest month below 22 °C but at least 4 months above 10 °C. Much of north-western Europe, including the UK and western France, falls into this category.",
+    "sourceId": "src_koppen_climate_classification",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_019",
+    "question": "What is a glacier?",
+    "correctAnswers": [
+      "A persistent body of natural ice that moves constantly under its own weight"
+    ],
+    "wrongAnswers": [
+      "A frozen lake that forms in winter and melts in summer",
+      "A type of permafrost layer beneath Arctic soil",
+      "A floating sheet of sea ice attached to a coastline",
+      "A snowfield that never melts but does not flow",
+      "A river of meltwater flowing beneath an ice sheet",
+      "A deposit of compacted snow less than one year old",
+      "An ice formation caused by repeated freeze-thaw cycles"
+    ],
+    "funFact": "Glaciers form where the accumulation of snow exceeds its ablation over many years — often centuries. The slow flow under gravity creates spectacular features such as crevasses, seracs, moraines, cirques, and fjords.",
+    "sourceId": "src_glacier",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_020",
+    "question": "What percentage of Earth's glacial ice is contained within the polar ice sheets?",
+    "correctAnswers": [
+      "99%"
+    ],
+    "wrongAnswers": [
+      "60%",
+      "75%",
+      "85%",
+      "90%",
+      "50%",
+      "95%",
+      "70%",
+      "40%"
+    ],
+    "funFact": "Although mountain glaciers exist on every continent except mainland Australia, 99% of all glacial ice on Earth is locked within the vast polar ice sheets of Antarctica and Greenland.",
+    "sourceId": "src_glacier",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_021",
+    "question": "What is the name for the granular, intermediate-stage snow that forms inside a glacier before it fully compresses into glacial ice?",
+    "correctAnswers": [
+      "Névé",
+      "Firn"
+    ],
+    "wrongAnswers": [
+      "Slush",
+      "Verglas",
+      "Rime",
+      "Hoarfrost",
+      "Graupel",
+      "Pack ice",
+      "Frazil",
+      "Brash ice"
+    ],
+    "funFact": "Snow first accumulates and remelts repeatedly, forming granular névé. Under the weight of successive layers, névé compresses into firn, which eventually becomes dense, bubble-free glacial ice — a process that can take decades to centuries.",
+    "sourceId": "src_glacier",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_022",
+    "question": "What is the minimum thickness of snow-ice on a steep slope at which a glacier can begin to move?",
+    "correctAnswers": [
+      "15 m (49 ft)"
+    ],
+    "wrongAnswers": [
+      "1 m (3 ft)",
+      "5 m (16 ft)",
+      "50 m (164 ft)",
+      "100 m (328 ft)",
+      "30 m (98 ft)",
+      "200 m (656 ft)",
+      "10 m (33 ft)",
+      "25 m (82 ft)"
+    ],
+    "funFact": "On steeper slopes, as little as 15 m of accumulated snow-ice is enough for a glacier to begin moving under its own weight — driven by a combination of surface slope, gravity, and internal pressure.",
+    "sourceId": "src_glacier",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_023",
+    "question": "Why does glacial ice appear blue?",
+    "correctAnswers": [
+      "It absorbs red light due to an overtone of the infrared OH stretching mode of the water molecule"
+    ],
+    "wrongAnswers": [
+      "It reflects the blue sky above it",
+      "Rayleigh scattering of bubbles trapped in the ice",
+      "It contains dissolved mineral salts that absorb other wavelengths",
+      "The extreme pressure changes the optical properties of ice crystals",
+      "UV light from the polar sun bleaches out other colours",
+      "Microorganisms living in the ice produce blue pigment",
+      "The cold temperature shifts the absorption spectrum of ice"
+    ],
+    "funFact": "The blue colour of glacial ice is the same reason liquid water appears blue — the OH bond in water molecules absorbs red wavelengths. The common belief that Rayleigh scattering of air bubbles causes the colour is actually a misconception.",
+    "sourceId": "src_glacier",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_024",
+    "question": "What is the zone of a glacier called where there is a net loss of glacial mass?",
+    "correctAnswers": [
+      "The ablation zone"
+    ],
+    "wrongAnswers": [
+      "The accumulation zone",
+      "The equilibrium zone",
+      "The terminus zone",
+      "The calving zone",
+      "The firn zone",
+      "The snout zone",
+      "The compaction zone",
+      "The crevasse zone"
+    ],
+    "funFact": "Glaciers are divided into the accumulation zone (upper area where snowfall exceeds melt) and the ablation zone (lower area where melt exceeds snowfall). The equilibrium line separating them is where gains exactly balance losses, and it typically shifts upward as climate warms.",
+    "sourceId": "src_glacier",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_025",
+    "question": "What word, ultimately derived from Latin 'glacies' (ice), entered English via French to give glaciers their name?",
+    "correctAnswers": [
+      "Glacier (from French, via Vulgar Latin 'glaciārium')"
+    ],
+    "wrongAnswers": [
+      "Glaze (from Old Norse 'glás')",
+      "Glacis (from Old French 'glacier', meaning to slip)",
+      "Graben (from German 'to dig')",
+      "Gelid (from Latin 'gelidus', cold)",
+      "Gletcher (from Middle High German)",
+      "Glacon (from Provençal French)",
+      "Glacial (coined directly by geologists in the 1700s)"
+    ],
+    "funFact": "The word 'glacier' passed from Vulgar Latin 'glaciārium' into Franco-Provençal, then into French, before English speakers adopted it. The related study of glaciers is called glaciology, and the epoch dominated by ice sheets is called the glaciation.",
+    "sourceId": "src_glacier",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_026",
+    "question": "What is the key distinction between erosion and weathering?",
+    "correctAnswers": [
+      "Erosion involves the transport of material; weathering does not"
+    ],
+    "wrongAnswers": [
+      "Weathering is caused by water; erosion is caused by wind only",
+      "Erosion affects only rocks; weathering affects only soil",
+      "Weathering is faster than erosion",
+      "Erosion occurs underground; weathering occurs at the surface",
+      "Weathering involves deposition; erosion does not",
+      "Erosion is a chemical process; weathering is always mechanical",
+      "Erosion only happens in deserts; weathering occurs everywhere"
+    ],
+    "funFact": "Erosion removes material from one location and deposits it somewhere else — sometimes thousands of kilometres away. Weathering breaks material down in place without moving it, so the two processes work together but are distinct.",
+    "sourceId": "src_erosion",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_027",
+    "question": "Which of the following is NOT listed as an agent of erosion?",
+    "correctAnswers": [
+      "Volcanic lava flows"
+    ],
+    "wrongAnswers": [
+      "Rainfall",
+      "Wind abrasion",
+      "Glacial plucking",
+      "Coastal wave action",
+      "Groundwater processes",
+      "Mass movement (landslides)",
+      "Bedrock wear in rivers",
+      "Areal flooding"
+    ],
+    "funFact": "The recognised agents of erosion include rainfall, river bedrock wear, coastal waves, glacial plucking and abrasion, flooding, wind, groundwater, and mass movement processes such as landslides — but volcanic lava flows are primarily a depositional process, not an erosional one.",
+    "sourceId": "src_erosion",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_028",
+    "question": "What distinguishes physical (mechanical) erosion from chemical erosion?",
+    "correctAnswers": [
+      "Physical erosion removes material as clastic sediment; chemical erosion removes it by dissolution"
+    ],
+    "wrongAnswers": [
+      "Physical erosion is caused by living organisms; chemical erosion is caused by water alone",
+      "Chemical erosion is faster; physical erosion is slower",
+      "Physical erosion only affects coastlines; chemical erosion only affects mountains",
+      "Chemical erosion deposits material; physical erosion dissolves it",
+      "Physical erosion requires ice; chemical erosion requires heat",
+      "Chemical erosion creates sediment; physical erosion creates solutes",
+      "Physical erosion occurs at depth; chemical erosion occurs at the surface"
+    ],
+    "funFact": "In physical erosion, intact fragments (clastic sediment) are broken off and carried away mechanically — for example, by rivers abrading their beds. In chemical erosion, minerals dissolve into solution and are carried away as solutes, as in the dissolution of limestone by slightly acidic rainwater.",
+    "sourceId": "src_erosion",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_029",
+    "question": "On what type of surface topography does physical erosion typically proceed fastest?",
+    "correctAnswers": [
+      "Steeply sloping surfaces"
+    ],
+    "wrongAnswers": [
+      "Flat floodplain surfaces",
+      "Gentle rolling hills",
+      "Deep ocean floors",
+      "Exposed high plateaux",
+      "Wide river deltas",
+      "Coastal dunes",
+      "Submerged continental shelves",
+      "Polar ice caps"
+    ],
+    "funFact": "Steep slopes increase the velocity of water and debris movement, giving erosive agents more kinetic energy to detach and carry material. This is why mountainous regions show dramatically more erosion than low-lying plains, even under identical rainfall.",
+    "sourceId": "src_erosion",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_030",
+    "question": "Which climate-related factors can influence how sensitive an area is to erosion rates?",
+    "correctAnswers": [
+      "Amount of rainfall, wind speed, wave fetch, and storminess"
+    ],
+    "wrongAnswers": [
+      "Hours of sunshine and average daytime temperature only",
+      "Humidity and cloud cover alone",
+      "Atmospheric pressure and air density",
+      "Seasonal temperature range and frost frequency only",
+      "Latitude and longitude of the location",
+      "Barometric pressure and dew point",
+      "UV index and solar radiation levels"
+    ],
+    "funFact": "Erosion rates are not just about steepness — climate plays a powerful role. Wetter, stormier environments with high wind speeds and large wave fetch (the distance wind travels over open water) experience far more rapid surface removal than calmer, drier settings.",
+    "sourceId": "src_erosion",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_031",
+    "question": "Which of these is a specific erosion process associated with glaciers?",
+    "correctAnswers": [
+      "Glacial plucking",
+      "Glacial abrasion",
+      "Glacial scour"
+    ],
+    "wrongAnswers": [
+      "Deflation",
+      "Saltation",
+      "Corrasion by river water",
+      "Hydraulic action of waves",
+      "Rill erosion",
+      "Sheet wash",
+      "Piping"
+    ],
+    "funFact": "Glaciers erode through plucking (quarrying bedrock by freezing meltwater into cracks and ripping out blocks), abrasion (grinding the bedrock with embedded debris like sandpaper), and scour (large-scale removal of rock). Together these processes carve U-shaped valleys, cirques, and fjords.",
+    "sourceId": "src_erosion",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_032",
+    "question": "How far can eroded sediment or dissolved material travel from its source?",
+    "correctAnswers": [
+      "From a few millimetres up to thousands of kilometres"
+    ],
+    "wrongAnswers": [
+      "No more than a few hundred metres",
+      "A maximum of 10 kilometres",
+      "Always less than 50 kilometres",
+      "Only as far as the nearest river mouth",
+      "No further than the continental shelf",
+      "Up to 100 kilometres at most",
+      "Less than 1 kilometre in most cases"
+    ],
+    "funFact": "Fine sediment carried by major rivers like the Amazon or the Nile can travel thousands of kilometres before being deposited, while dust eroded by wind from the Sahara regularly crosses the Atlantic Ocean to fertilise the Amazon rainforest.",
+    "sourceId": "src_erosion",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "pgeo_033",
+    "question": "According to biome science, between what percentage range of global land area may shift to correspond with a different biome due to anthropogenic climate change?",
+    "correctAnswers": [
+      "22% to 54%"
+    ],
+    "wrongAnswers": [
+      "5% to 10%",
+      "10% to 20%",
+      "60% to 80%",
+      "1% to 5%",
+      "30% to 40%",
+      "15% to 25%",
+      "70% to 90%",
+      "50% to 65%"
+    ],
+    "funFact": "Climate models project that between 22% and 54% of global land area could experience climates corresponding to a different biome by the end of this century — a staggering potential transformation of Earth's ecological zones.",
+    "sourceId": "src_biome",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_034",
+    "question": "Which biomes are warming at more than twice the global average rate, making them the most vulnerable to climate change?",
+    "correctAnswers": [
+      "Arctic and mountainous biomes"
+    ],
+    "wrongAnswers": [
+      "Tropical rainforest and savanna biomes",
+      "Temperate forest and grassland biomes",
+      "Desert and semi-arid biomes",
+      "Coastal mangrove and wetland biomes",
+      "Mediterranean shrubland and chaparral biomes",
+      "Boreal forest (taiga) and temperate rainforest biomes",
+      "Coral reef and oceanic biomes"
+    ],
+    "funFact": "Arctic and mountainous biomes are warming at more than twice the global average rate — a phenomenon called 'Arctic amplification'. The rapid loss of sea ice and permafrost in these regions has cascading effects on weather patterns across the entire Northern Hemisphere.",
+    "sourceId": "src_biome",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_035",
+    "question": "What percentage of global land area is projected to experience completely new or unusual climates not currently found anywhere on Earth?",
+    "correctAnswers": [
+      "3.6%"
+    ],
+    "wrongAnswers": [
+      "10%",
+      "0.5%",
+      "25%",
+      "1%",
+      "15%",
+      "50%",
+      "7%",
+      "20%"
+    ],
+    "funFact": "Climate projections suggest that 3.6% of Earth's land surface will develop climate conditions that have no analogue anywhere on the planet today — so-called 'novel climates' — posing unique challenges for wildlife and ecosystems that have never encountered such conditions.",
+    "sourceId": "src_biome",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "pgeo_036",
+    "question": "What type of ecological shift does woody plant encroachment in grass savanna cause?",
+    "correctAnswers": [
+      "A biome shift from grass savanna to shrub savanna"
+    ],
+    "wrongAnswers": [
+      "A biome shift from shrub savanna to tropical forest",
+      "Conversion from savanna to desert",
+      "A transition from grassland to wetland",
+      "Transformation into a boreal forest",
+      "Conversion to arctic tundra",
+      "A shift from savanna to temperate steppe",
+      "Transition from open savanna to Mediterranean scrubland",
+      "Conversion from dry savanna to mangrove swamp"
+    ],
+    "funFact": "Woody plant encroachment — often driven by reduced fire frequency, overgrazing, or rising CO₂ (which favours woody plants over grasses) — is one of the clearest real-world examples of a biome shift happening right now, and is altering carbon storage and biodiversity across large parts of Africa, Australia, and the Americas.",
+    "sourceId": "src_biome",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "pgeo_037",
+    "question": "Which ocean current system, flowing northward along the north Atlantic, is credited with keeping north-west European coastlines ice-free in winter?",
+    "correctAnswers": [
+      "The North Atlantic Drift (also accepted: Gulf Stream system)"
+    ],
+    "wrongAnswers": [
+      "The Labrador Current",
+      "The Canary Current",
+      "The North Equatorial Current",
+      "The Benguela Current",
+      "The Norwegian Coastal Current",
+      "The East Greenland Current",
+      "The Humboldt (Peru) Current",
+      "The Oyashio Current"
+    ],
+    "funFact": "The warm ocean current flowing up the north Atlantic prevents ice from forming along the seashores of north-west Europe, keeping ports and inland waterways navigable year-round despite the region's relatively high latitude — a dramatic demonstration of how ocean currents shape regional climate.",
+    "sourceId": "src_ocean_current",
+    "topicId": "physical_geography",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  }
+]

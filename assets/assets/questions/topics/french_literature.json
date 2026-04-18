@@ -1,0 +1,695 @@
+[
+  {
+    "id": "fl_001",
+    "question": "Which French author wrote \"Les Misérables\"?",
+    "correctAnswers": [
+      "Victor Hugo"
+    ],
+    "wrongAnswers": [
+      "Gustave Flaubert",
+      "Albert Camus",
+      "Émile Zola",
+      "Alexandre Dumas",
+      "Honoré de Balzac",
+      "Stendhal"
+    ],
+    "funFact": "Victor Hugo's Les Misérables contains one of the longest sentences in the French language — a single sentence of 823 words.",
+    "sourceId": "src_victor_hugo",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fl_002",
+    "question": "Albert Camus won the Nobel Prize in Literature in which year?",
+    "correctAnswers": [
+      "1957"
+    ],
+    "wrongAnswers": [
+      "1945",
+      "1952",
+      "1963",
+      "1969",
+      "1948",
+      "1960",
+      "1955"
+    ],
+    "funFact": "Camus, at 43, was the second-youngest laureate ever when he received the Nobel Prize in Literature.",
+    "sourceId": "src_albert_camus",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fl_003",
+    "question": "Gustave Flaubert's 1857 novel \"Madame Bovary\" was initially prosecuted for what offence?",
+    "correctAnswers": [
+      "Immorality and offence against public morals"
+    ],
+    "wrongAnswers": [
+      "Blasphemy",
+      "Sedition against the state",
+      "Plagiarism",
+      "Libel against a living person",
+      "Copyright infringement"
+    ],
+    "funFact": "Flaubert was acquitted, and the trial's publicity made Madame Bovary a bestseller.",
+    "sourceId": "src_gustave_flaubert",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fl_004",
+    "question": "Simone de Beauvoir's 1949 work \"The Second Sex\" is foundational to which movement?",
+    "correctAnswers": [
+      "Feminist philosophy",
+      "Existentialist feminism"
+    ],
+    "wrongAnswers": [
+      "Structuralism",
+      "Surrealism",
+      "Absurdism",
+      "Marxist theory",
+      "Post-colonialism",
+      "Deconstruction"
+    ],
+    "funFact": "The Second Sex was put on the Catholic Church's Index of Forbidden Books upon publication.",
+    "sourceId": "src_simone_de_beauvoir",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fl_005",
+    "question": "Which philosophical and literary movement, prominent in post-war France, was associated with Sartre and Camus?",
+    "correctAnswers": [
+      "Existentialism"
+    ],
+    "wrongAnswers": [
+      "Surrealism",
+      "Symbolism",
+      "Naturalism",
+      "Romanticism",
+      "Structuralism",
+      "Dadaism"
+    ],
+    "funFact": "Jean-Paul Sartre famously declined the Nobel Prize in Literature in 1964, the only person to voluntarily decline it.",
+    "sourceId": "src_existentialism",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fl_006",
+    "question": "Which Molière comedy centres on a miser so obsessed with his money that he drives away his own children?",
+    "correctAnswers": [
+      "The Miser (L'Avare)"
+    ],
+    "wrongAnswers": [
+      "Tartuffe",
+      "The Misanthrope",
+      "The Bourgeois Gentleman",
+      "The Imaginary Invalid",
+      "The Learned Ladies",
+      "Don Juan"
+    ],
+    "funFact": "Molière based The Miser on the ancient Roman comedy Aulularia by Plautus, yet set it in 17th-century Paris, making the greed feel timeless.",
+    "sourceId": "src_the_miser_molire",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fl_007",
+    "question": "Victor Hugo's 1831 novel set in medieval Paris and centred on the Cathedral of Notre-Dame is commonly known in English as what?",
+    "correctAnswers": [
+      "The Hunchback of Notre-Dame"
+    ],
+    "wrongAnswers": [
+      "Notre-Dame de Paris",
+      "The Bells of Paris",
+      "Quasimodo",
+      "The Cathedral",
+      "The Gargoyle of Paris",
+      "The Poet and the Cathedral"
+    ],
+    "funFact": "Hugo wrote the novel partly to draw public attention to the neglected state of Gothic architecture in France; the book's popularity directly inspired restoration work on the real Notre-Dame cathedral.",
+    "sourceId": "src_the_hunchback_of_notredame",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fl_008",
+    "question": "Marcel Proust's seven-volume novel cycle \"In Search of Lost Time\" begins with which volume?",
+    "correctAnswers": [
+      "Swann's Way"
+    ],
+    "wrongAnswers": [
+      "Within a Budding Grove",
+      "The Guermantes Way",
+      "Time Regained",
+      "Sodom and Gomorrah",
+      "The Captive",
+      "The Fugitive"
+    ],
+    "funFact": "Swann's Way was initially rejected by several publishers, including Gallimard, so Proust paid for its publication himself in 1913 — Gallimard later signed him and published the rest of the cycle.",
+    "sourceId": "src_swanns_way",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fl_009",
+    "question": "Émile Zola's 1898 open letter defending Alfred Dreyfus, published on the front page of a newspaper, is famous under what title?",
+    "correctAnswers": [
+      "J'Accuse…!"
+    ],
+    "wrongAnswers": [
+      "La Vérité",
+      "Le Manifeste",
+      "L'Humanité",
+      "Je Défends",
+      "La Justice",
+      "L'Affaire"
+    ],
+    "funFact": "Zola's letter was addressed directly to the French President and accused the army of anti-semitism and obstruction of justice; it resulted in Zola being convicted of libel and fleeing to England for nearly a year.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fl_010",
+    "question": "The French literary movement known as the Nouveau Roman (New Novel) rejected traditional narrative conventions. Which author is most closely identified as its founder?",
+    "correctAnswers": [
+      "Alain Robbe-Grillet"
+    ],
+    "wrongAnswers": [
+      "Michel Butor",
+      "Nathalie Sarraute",
+      "Claude Simon",
+      "Marguerite Duras",
+      "Raymond Queneau",
+      "Georges Perec"
+    ],
+    "funFact": "Robbe-Grillet's 1957 manifesto \"For a New Novel\" argued that fiction should abandon psychology and plot in favour of precise, objective description of surfaces — an idea he called chosisme (thing-ism).",
+    "sourceId": "src_french_new_novel",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fl_011",
+    "question": "Stendhal's 1830 novel \"The Red and the Black\" takes its title from colours thought to represent what two career paths available to an ambitious young man in Restoration France?",
+    "correctAnswers": [
+      "The military and the Church"
+    ],
+    "wrongAnswers": [
+      "Politics and the law",
+      "Trade and academia",
+      "Nobility and the bourgeoisie",
+      "The Church and commerce",
+      "The army and the press",
+      "Revolution and monarchy"
+    ],
+    "funFact": "Stendhal based his protagonist Julien Sorel on a real criminal case he read about in a newspaper; he wrote the entire novel in just 52 days.",
+    "sourceId": "src_the_red_and_the_black",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fl_012",
+    "question": "Which French Romantic poet, known for collections such as \"Les Fleurs du mal,\" was himself prosecuted for obscenity upon the work's 1857 publication?",
+    "correctAnswers": [
+      "Charles Baudelaire"
+    ],
+    "wrongAnswers": [
+      "Paul Verlaine",
+      "Arthur Rimbaud",
+      "Stéphane Mallarmé",
+      "Gérard de Nerval",
+      "Alfred de Musset",
+      "Alphonse de Lamartine"
+    ],
+    "funFact": "Six poems were ordered removed from Les Fleurs du mal after the trial; they were not legally published in France until 1949 — nearly a century after Baudelaire wrote them.",
+    "sourceId": "src_charles_baudelaire",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "french_literature_001",
+    "question": "In which newspaper was Zola's J'Accuse...! published?",
+    "correctAnswers": [
+      "L'Aurore"
+    ],
+    "wrongAnswers": [
+      "Le Figaro",
+      "Le Monde",
+      "Le Temps",
+      "La Croix",
+      "Le Journal",
+      "Le Petit Parisien",
+      "La Liberté"
+    ],
+    "funFact": "L'Aurore was a liberal Paris daily. Zola's letter appeared on its front page on 13 January 1898.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "french_literature_002",
+    "question": "To whom was Zola's open letter J'Accuse...! directly addressed?",
+    "correctAnswers": [
+      "Félix Faure"
+    ],
+    "wrongAnswers": [
+      "Napoléon III",
+      "Georges Clemenceau",
+      "Alfred Dreyfus",
+      "Adolphe Thiers",
+      "Raymond Poincaré",
+      "Jules Grévy",
+      "Charles de Gaulle"
+    ],
+    "funFact": "Félix Faure was President of France at the time. Zola addressed the letter to him personally, accusing his government of antisemitism.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "french_literature_003",
+    "question": "Alfred Dreyfus was convicted of what crime before Zola took up his cause?",
+    "correctAnswers": [
+      "Espionage"
+    ],
+    "wrongAnswers": [
+      "Treason by desertion",
+      "Insubordination",
+      "Murder",
+      "Sedition",
+      "Fraud",
+      "Sabotage",
+      "Bribery"
+    ],
+    "funFact": "Dreyfus was an officer on the French Army General Staff when he was convicted of passing military secrets. He was sentenced to lifelong penal servitude.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "french_literature_004",
+    "question": "To which penal colony was Alfred Dreyfus exiled after his conviction?",
+    "correctAnswers": [
+      "Devil's Island"
+    ],
+    "wrongAnswers": [
+      "Île de Ré",
+      "New Caledonia",
+      "Saint Martin de Ré",
+      "Cayenne prison",
+      "Corsica",
+      "Île Royale",
+      "Guadeloupe"
+    ],
+    "funFact": "Devil's Island is a small island off the coast of French Guiana. It was notorious as a harsh penal colony from which escape was nearly impossible.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "french_literature_005",
+    "question": "What legal charge was Zola found guilty of following the publication of J'Accuse...!?",
+    "correctAnswers": [
+      "Libel"
+    ],
+    "wrongAnswers": [
+      "Sedition",
+      "Treason",
+      "Defamation of the military",
+      "Incitement to riot",
+      "Contempt of court",
+      "Espionage",
+      "Blasphemy"
+    ],
+    "funFact": "Zola was actually counting on the government suing him for libel — it was a strategic move to force weak evidence against Dreyfus into the open in court.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "french_literature_006",
+    "question": "Which country did Zola flee to in order to avoid imprisonment after his libel conviction?",
+    "correctAnswers": [
+      "England"
+    ],
+    "wrongAnswers": [
+      "Belgium",
+      "Switzerland",
+      "Italy",
+      "Spain",
+      "Germany",
+      "The Netherlands",
+      "Algeria"
+    ],
+    "funFact": "Zola lived in exile in England before returning to France in June 1899. He did not return until after the political climate surrounding the Dreyfus Affair had shifted.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "french_literature_007",
+    "question": "On what date was J'Accuse...! published?",
+    "correctAnswers": [
+      "13 January 1898"
+    ],
+    "wrongAnswers": [
+      "4 June 1898",
+      "23 February 1897",
+      "1 November 1896",
+      "14 July 1898",
+      "13 January 1899",
+      "23 January 1898",
+      "5 October 1897"
+    ],
+    "funFact": "The letter appeared on the front page of L'Aurore on 13 January 1898. Zola was found guilty of libel just six weeks later, on 23 February 1898.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "french_literature_008",
+    "question": "Who owned L'Aurore, the newspaper that published J'Accuse...!?",
+    "correctAnswers": [
+      "Georges Clemenceau"
+    ],
+    "wrongAnswers": [
+      "Émile Zola",
+      "Bernard Lazare",
+      "Alfred Dreyfus",
+      "Léon Gambetta",
+      "Jean Jaurès",
+      "Victor Hugo",
+      "Jules Vallès"
+    ],
+    "funFact": "Georges Clemenceau was a prominent liberal politician who would later serve as Prime Minister of France. His newspaper L'Aurore was a natural home for Zola's provocative letter.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "french_literature_009",
+    "question": "Beyond a jail sentence, what honour was stripped from Zola as part of his punishment for libel?",
+    "correctAnswers": [
+      "His membership in the Legion of Honour"
+    ],
+    "wrongAnswers": [
+      "His seat in the Académie française",
+      "His French citizenship",
+      "His publishing rights",
+      "His army commission",
+      "His Croix de Guerre",
+      "His municipal voting rights",
+      "His press credentials"
+    ],
+    "funFact": "Zola was removed from the Legion of Honour, France's highest order of merit. His remains were later reinterred in the Panthéon in 1908, a posthumous restoration of his national standing.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "french_literature_010",
+    "question": "How did Émile Zola die, four years after publishing J'Accuse...!?",
+    "correctAnswers": [
+      "Carbon monoxide poisoning from a blocked chimney"
+    ],
+    "wrongAnswers": [
+      "A stroke",
+      "Tuberculosis",
+      "A duel",
+      "Assassination by gunshot",
+      "Drowning",
+      "Typhoid fever",
+      "Heart failure"
+    ],
+    "funFact": "Zola died at home from carbon monoxide poisoning. In 1953, a Parisian roofer confessed on his deathbed that he had deliberately blocked Zola's chimney to murder him.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "french_literature_011",
+    "question": "When were Zola's remains transferred to the Panthéon in Paris?",
+    "correctAnswers": [
+      "4 June 1908"
+    ],
+    "wrongAnswers": [
+      "13 January 1908",
+      "23 February 1910",
+      "14 July 1902",
+      "4 June 1902",
+      "11 November 1918",
+      "1 January 1900",
+      "4 June 1900"
+    ],
+    "funFact": "Zola's remains were interred in the Panthéon six years after his death. The Panthéon is France's national mausoleum, reserved for citizens of the highest distinction.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "french_literature_012",
+    "question": "In what year did a Parisian roofer confess to deliberately blocking Zola's chimney to murder him?",
+    "correctAnswers": [
+      "1953"
+    ],
+    "wrongAnswers": [
+      "1902",
+      "1908",
+      "1920",
+      "1945",
+      "1938",
+      "1960",
+      "1930"
+    ],
+    "funFact": "The confession came half a century after Zola's death in 1902. The roofer claimed he blocked the chimney intentionally, though the claim has never been officially verified.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "french_literature_013",
+    "question": "What was the title of Bernard Lazare's 1896 pamphlet that also proclaimed Dreyfus's innocence?",
+    "correctAnswers": [
+      "A Miscarriage of Justice: The Truth about the Dreyfus Affair"
+    ],
+    "wrongAnswers": [
+      "J'Accuse...! The Dreyfus Conspiracy",
+      "The Innocent Officer: A Defence of Dreyfus",
+      "Dreyfus and the Republic",
+      "The Devil's Island Injustice",
+      "Truth on Trial",
+      "The Condemned Man",
+      "An Appeal to the Nation"
+    ],
+    "funFact": "Bernard Lazare's pamphlet predated Zola's famous letter by more than a year, published in November 1896. It was one of the earliest public defences of Dreyfus.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "french_literature_014",
+    "question": "Zola's strategy in writing J'Accuse...! was deliberately provocative. What was his legal aim?",
+    "correctAnswers": [
+      "To force the government to sue him for libel so weak evidence against Dreyfus would be exposed in court"
+    ],
+    "wrongAnswers": [
+      "To trigger a parliamentary inquiry into antisemitism",
+      "To compel Dreyfus's retrial through public pressure alone",
+      "To obtain an emergency presidential pardon for Dreyfus",
+      "To embarrass the army into admitting fault voluntarily",
+      "To bring the case before an international tribunal",
+      "To secure Dreyfus's release through a prisoner exchange",
+      "To provoke a constitutional crisis and new elections"
+    ],
+    "funFact": "Zola framed his accusations so broadly that prosecution became inevitable. A libel trial would require the government to produce the flimsy evidence used against Dreyfus, potentially unravelling the case.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "french_literature_015",
+    "question": "In 1919, which French filmmaker released a film titled J'accuse as a statement against World War I?",
+    "correctAnswers": [
+      "Abel Gance"
+    ],
+    "wrongAnswers": [
+      "Louis Feuillade",
+      "Georges Méliès",
+      "Jean Renoir",
+      "Marcel Carné",
+      "Louis Delluc",
+      "René Clair",
+      "Henri-Georges Clouzot"
+    ],
+    "funFact": "Abel Gance's 1919 film J'accuse launched him to international fame. He later became renowned for his ambitious silent epic Napoléon (1927).",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "french_literature_016",
+    "question": "Which Palestinian Arab newspaper published a four-page editorial titled J'Accuse! protesting the Balfour Declaration?",
+    "correctAnswers": [
+      "Filastin"
+    ],
+    "wrongAnswers": [
+      "Al-Quds",
+      "Al-Karmel",
+      "Mir'at al-Sharq",
+      "Al-Hayat",
+      "Al-Ittihad",
+      "Al-Ahrar",
+      "Al-Jamiah al-Arabiyah"
+    ],
+    "funFact": "Filastin, founded in 1911, was the most widely read Palestinian Arab newspaper in 1925. Its J'Accuse! editorial invoked Zola's letter to protest British support for Jewish settlement in Palestine.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "french_literature_017",
+    "question": "Which German pacifist wrote a 1915 book titled J'Accuse! condemning the actions of the German Empire during World War I?",
+    "correctAnswers": [
+      "Richard Grelling"
+    ],
+    "wrongAnswers": [
+      "Rosa Luxemburg",
+      "Karl Liebknecht",
+      "Ernst Toller",
+      "Kurt Eisner",
+      "Erich Maria Remarque",
+      "Heinrich Mann",
+      "Georg Büchner"
+    ],
+    "funFact": "Richard Grelling's book was a remarkable act of dissent, criticising his own country's conduct in the war. It borrowed the moral force of Zola's letter to indict German militarism.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "french_literature_018",
+    "question": "What role did Alfred Dreyfus hold in the French military when he was convicted of espionage?",
+    "correctAnswers": [
+      "Officer on the French Army General Staff"
+    ],
+    "wrongAnswers": [
+      "Cavalry lieutenant in the colonial army",
+      "Naval intelligence attaché",
+      "Military attaché to the German embassy",
+      "Frontier border guard commander",
+      "Artillery regiment captain in Alsace",
+      "War ministry courier",
+      "Infantry officer in the Foreign Legion"
+    ],
+    "funFact": "Dreyfus's position on the General Staff made his alleged espionage especially scandalous — he would have had access to sensitive strategic information.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "french_literature_019",
+    "question": "An underground newspaper in Nazi-occupied France shared the name J'Accuse. Who edited it?",
+    "correctAnswers": [
+      "Adam Rayski"
+    ],
+    "wrongAnswers": [
+      "Jean Moulin",
+      "Pierre Villon",
+      "Lucie Aubrac",
+      "Henri Frenay",
+      "Georges Bidault",
+      "Emmanuel d'Astier",
+      "Raymond Aron"
+    ],
+    "funFact": "The name J'Accuse was deliberately chosen to evoke Zola's moral stand. Adam Rayski edited the paper as part of the Jewish resistance movement in occupied France.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "french_literature_020",
+    "question": "When did Zola return to France after fleeing his libel conviction?",
+    "correctAnswers": [
+      "June 1899"
+    ],
+    "wrongAnswers": [
+      "January 1898",
+      "June 1902",
+      "February 1900",
+      "July 1898",
+      "December 1899",
+      "March 1901",
+      "August 1898"
+    ],
+    "funFact": "Zola spent nearly a year in exile in England before returning to France in June 1899. He had left immediately after his conviction to avoid imprisonment.",
+    "sourceId": "src_jaccuse",
+    "topicId": "french_literature",
+    "topicCategoryId": "world_literature",
+    "superCategoryId": "literature_arts",
+    "difficulty": "medium"
+  }
+]

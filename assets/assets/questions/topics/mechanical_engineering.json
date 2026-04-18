@@ -1,0 +1,62 @@
+[
+  {
+    "id": "mech_001",
+    "question": "Which law states that the pressure and volume of a gas are inversely proportional at constant temperature?",
+    "correctAnswers": [
+      "Boyle's Law"
+    ],
+    "wrongAnswers": [
+      "Charles's Law",
+      "Newton's Second Law",
+      "Bernoulli's Principle",
+      "Hooke's Law",
+      "Gay-Lussac's Law"
+    ],
+    "funFact": "Robert Boyle published this law in 1662, but it was also independently discovered by French physicist Edme Mariotte — hence it's called Mariotte's Law in continental Europe.",
+    "sourceId": "src_boyles_law",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mech_002",
+    "question": "The six classical simple machines include lever, wheel, pulley, inclined plane, wedge, and which sixth?",
+    "correctAnswers": [
+      "Screw"
+    ],
+    "wrongAnswers": [
+      "Gear",
+      "Spring",
+      "Ramp",
+      "Axle",
+      "Crank",
+      "Cam"
+    ],
+    "funFact": "The Archimedean screw, invented c. 250 BC, is one of the earliest known applications of the screw simple machine — it's still used today to lift water for irrigation.",
+    "sourceId": "src_simple_machine",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mech_003",
+    "question": "Bernoulli's principle explains why aircraft wings generate lift. What does it state?",
+    "correctAnswers": [
+      "Where fluid velocity is higher, pressure is lower"
+    ],
+    "wrongAnswers": [
+      "Faster fluids exert more pressure",
+      "Pressure is proportional to temperature",
+      "Lift equals weight in level flight",
+      "Drag increases with speed"
+    ],
+    "funFact": "Bernoulli's principle is why a curve ball curves in baseball — the spinning ball creates faster airflow on one side, generating a pressure difference.",
+    "sourceId": "src_bernoullis_principle",
+    "topicId": "mechanical_engineering",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  }
+]

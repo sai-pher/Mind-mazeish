@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_ambergris",
+    "title": "Ambergris",
+    "url": "https://en.m.wikipedia.org/wiki/Ambergris",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "perfumes"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "perf_001"
+    ]
+  },
+  {
+    "id": "src_grasse",
+    "title": "Grasse",
+    "url": "https://en.m.wikipedia.org/wiki/Grasse",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "perfumes"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "perf_003"
+    ]
+  },
+  {
+    "id": "src_fragrance_pyramid",
+    "title": "Perfume",
+    "url": "https://en.m.wikipedia.org/wiki/Perfume",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "perfumes"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "perf_002"
+    ]
+  }
+]

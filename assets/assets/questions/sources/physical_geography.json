@@ -1,0 +1,500 @@
+[
+  {
+    "id": "src_biome",
+    "title": "Biome",
+    "url": "https://en.wikipedia.org/wiki/Biome",
+    "summary": "A biome is a distinct geographical region with specific climate, vegetation, animal life, and an ecosystem, formed in response to its physical environment and regional climate.",
+    "categories": [],
+    "topicIds": [
+      "physical_geography"
+    ],
+    "articleText": null,
+    "facts": [
+      {
+        "id": "fact_biome_001",
+        "text": "A biome is a distinct geographical region with specific climate, vegetation, animal life, and an ecosystem.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_biome_002",
+        "text": "The International Biological Program (1964–74) popularized the concept of biome.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_biome_003",
+        "text": "In 1935, Tansley added climatic and soil aspects to the biome concept, calling the broader unit an ecosystem.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_biome_004",
+        "text": "Due to anthropogenic climate change, between 22% and 54% of global land area may experience climates corresponding to different biomes.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_biome_005",
+        "text": "3.6% of land area will experience completely new or unusual climates under projected climate change.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_biome_006",
+        "text": "Average temperatures have risen more than twice the usual amount in arctic and mountainous biomes, making them the most vulnerable to climate change.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_biome_007",
+        "text": "Woody plant encroachment can change grass savanna into shrub savanna — an example of a biome shift.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
+    "questionIds": [
+      "pgeo_002",
+      "pgeo_033",
+      "pgeo_034",
+      "pgeo_035",
+      "pgeo_036"
+    ]
+  },
+  {
+    "id": "src_erosion",
+    "title": "Erosion",
+    "url": "https://en.m.wikipedia.org/wiki/Erosion",
+    "summary": "Erosion is the action of surface processes (such as water flow or wind) that removes soil, rock, or dissolved material from one location on the Earth's crust and then transports it to another location where it is deposited. Erosion is distinct from weathering which involves no movement. Removal of [...]",
+    "categories": [
+      "Category:Agronomy",
+      "Category:All Wikipedia articles written in British English",
+      "Category:Articles with short description",
+      "Category:CS1: long volume value",
+      "Category:Desertification"
+    ],
+    "topicIds": [
+      "physical_geography"
+    ],
+    "articleText": "== Summary ==\nErosion is the action of surface processes (such as water flow or wind) that removes soil, rock, or dissolved material from one location on the Earth's crust and then transports it to another location where it is deposited. Erosion is distinct from weathering which involves no movement. Removal of rock or soil as clastic sediment is referred to as physical or mechanical erosion; this contrasts with chemical erosion, where soil or rock material is removed from an area by dissolution. Eroded sediment or solutes may be transported just a few millimetres, or for thousands of kilometres.\nAgents of erosion include rainfall; bedrock wear in rivers; coastal erosion by the sea and waves; glacial plucking, abrasion, and scour; areal flooding; wind abrasion; groundwater processes; and mass movement processes in steep landscapes like landslides and debris flows. The rates at which such processes act control how fast a surface is eroded. Typically, physical erosion proceeds the fastest on steeply sloping surfaces, and rates may also be sensitive to some climatically controlled properties including amounts of water supplied (e.g., by rain), storminess, wind speed, wave fetch, or atmospheric [...]\n\n== Physical processes ==\n\n\n== Factors affecting erosion rates ==\n\n\n== Erosion at various scales ==\n\n\n== Consequences of human-made soil erosion ==\n\n\n== See also ==\n\n\n== References ==\n\n\n== Further reading ==\n\n\n== External links ==\n\nThe Soil Erosion Site\nInternational Erosion Control Association\nSoil Erosion Data in the European Soil Portal\nUSDA National Soil Erosion Laboratory\nThe Soil and Water Conservation Society",
+    "facts": [
+      {
+        "id": "fact_erosion_001",
+        "text": "Erosion is the action of surface processes that removes soil, rock, or dissolved material from one location and transports it to another, where it is deposited.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_erosion_002",
+        "text": "Erosion is distinct from weathering: weathering breaks material down in place with no movement, while erosion transports material away.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_erosion_003",
+        "text": "Physical (mechanical) erosion removes rock or soil as clastic sediment; chemical erosion removes material by dissolution into solution.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_erosion_004",
+        "text": "Agents of erosion include rainfall, river bedrock wear, coastal waves, glacial plucking and abrasion, areal flooding, wind abrasion, groundwater processes, and mass movement processes such as landslides.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_erosion_005",
+        "text": "Physical erosion typically proceeds fastest on steeply sloping surfaces.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_erosion_006",
+        "text": "Erosion rates are sensitive to climatically controlled factors including rainfall amounts, storminess, wind speed, and wave fetch.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_erosion_007",
+        "text": "Eroded sediment or solutes may be transported just a few millimetres or for thousands of kilometres before being deposited.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_erosion_008",
+        "text": "Glacial erosion processes include plucking (quarrying bedrock), abrasion (grinding with embedded debris), and scour (large-scale rock removal).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
+    "questionIds": [
+      "pgeo_026",
+      "pgeo_027",
+      "pgeo_028",
+      "pgeo_029",
+      "pgeo_030",
+      "pgeo_031",
+      "pgeo_032"
+    ]
+  },
+  {
+    "id": "src_glacier",
+    "title": "Glacier",
+    "url": "https://en.m.wikipedia.org/wiki/Glacier",
+    "summary": "A glacier (US:  ; UK:   or  ) is a persistent body of natural ice, a form of\nrock, that is constantly moving under its own weight. A glacier forms where the accumulation of snow exceeds its ablation over many years, often centuries. It slowly flows and deforms under stresses induced by gravity, [...]",
+    "categories": [
+      "Category:All Wikipedia articles written in American English",
+      "Category:Articles containing Latin-language text",
+      "Category:Articles containing Welsh-language text",
+      "Category:Articles with short description",
+      "Category:Bodies of ice"
+    ],
+    "topicIds": [
+      "physical_geography"
+    ],
+    "articleText": "== Summary ==\nA glacier (US:  ; UK:   or  ) is a persistent body of natural ice, a form of\nrock, that is constantly moving under its own weight. A glacier forms where the accumulation of snow exceeds its ablation over many years, often centuries. It slowly flows and deforms under stresses induced by gravity, undergoing both ductile and brittle deformation, and acquiring distinguishing surface features, such as crevasses and seracs. As a glacier moves, it abrades underlying rock and debris to create glacial landforms, such as cirques, moraines, and fjords. Although a glacier may flow into a body of water, and can include ice shelves and ice tongues, it originates only on land and is distinct from the much thinner sea ice and lake ice that form on the surface of freezing bodies of water.\nOn Earth, 99% of glacial ice is contained within vast ice sheets (also known as \"continental glaciers\") in the polar regions, but glaciers may be found in mountain ranges on every continent other than the Australian mainland, including Oceania's high-latitude oceanic island countries such as New Zealand. Between latitudes 35°N and 35°S, glaciers occur only in the Himalayas, Andes, and a few high mountains in East [...]\n\n== Etymology and terminology ==\nThe word glacier is a loanword from French and goes back, via Franco-Provençal, to the Vulgar Latin glaciārium, derived from the Late Latin glacia, and ultimately Latin glaciēs, meaning \"ice\". The processes and features caused by or related to glaciers are referred to as glacial. The process of glacier establishment, growth and flow is called glaciation. The corresponding area of study is called glaciology. Glaciers are important components of the global cryosphere.\n\n== Types ==\n\n\n== Formation ==\nGlaciers form where the accumulation of snow and ice exceeds ablation. A glacier usually originates from a cirque landform (alternatively known as a corrie or as a cwm) – a typically armchair-shaped geological feature (such as a depression between mountains enclosed by arêtes) – which collects and compresses through gravity the snow that falls into it. This snow accumulates and refreezes, turning into névé (granular snow). Further crushing of the individual snowflakes and expelling the air from the snow turns it into firn and eventually \"glacial ice\". This glacial ice will fill the cirque until it \"overflows\" through a geological weakness or vacancy from the edge of the cirque called the \"lip\" or threshold. When the mass of snow and ice reaches sufficient thickness, it begins to move by a combination of surface slope, gravity, and pressure. On steeper slopes, this can occur with as little as 15 m (49 ft) of snow-ice.\nIn temperate glaciers, snow repeatedly freezes and thaws, changing into granular ice or névé. Under the pressure of the layers of ice and snow above it, this granular snow fuses into denser firn. Over a period of years, layers of firn undergo further compaction and [...]\n\n== Color ==\nGlacial ice has a distinctive blue tint because it absorbs some red light due to an overtone of the infrared OH stretching mode of the water molecule. Liquid water appears blue for the same reason. The blue of glacier ice is sometimes misattributed to Rayleigh scattering of bubbles in the ice.\n\n== Structure ==\nA glacier originates at a location called its glacier head and terminates at its glacier foot, snout, or terminus.\nGlaciers are broken into zones based on surface snowpack and melt conditions. The ablation zone is the region where there is a net loss in glacier mass. The upper part of a glacier, where accumulation exceeds ablation, is called the accumulation zone. The equilibrium line separates the ablation zone and the accumulation zone; it is the contour where the amount of new snow gained by accumulation is equal to the amount of ice lost through ablation. In general, the accumulation zone accounts for 60–70% of the glacier's surface area, more if the glacier calves icebergs. Ice in the accumulation zone [...]",
+    "facts": [
+      {
+        "id": "fact_glacier_001",
+        "text": "A glacier is a persistent body of natural ice that moves constantly under its own weight, forming where snow accumulation exceeds ablation over many years.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_glacier_002",
+        "text": "99% of Earth's glacial ice is contained within the polar ice sheets; mountain glaciers exist on every continent except mainland Australia.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_glacier_003",
+        "text": "Glaciers form in cirque landforms (also called corries or cwms) — armchair-shaped depressions between mountains that collect and compress snow.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_glacier_004",
+        "text": "Snow in a forming glacier progresses from névé (granular snow) to firn (denser, compacted snow) to glacial ice as layers of pressure build up over years.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_glacier_005",
+        "text": "On steep slopes, as little as 15 m (49 ft) of accumulated snow-ice is sufficient for a glacier to begin moving under gravity.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_glacier_006",
+        "text": "Glacial ice appears blue because it absorbs red light via an overtone of the OH stretching mode of the water molecule — not because of Rayleigh scattering of bubbles.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_glacier_007",
+        "text": "The ablation zone is the lower part of a glacier where mass is lost; the accumulation zone is the upper part where snowfall exceeds melt; the equilibrium line separates them.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_glacier_008",
+        "text": "The word 'glacier' entered English via French from Vulgar Latin 'glaciārium', ultimately from Latin 'glaciēs' meaning ice.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_glacier_009",
+        "text": "The accumulation zone typically accounts for 60–70% of a glacier's surface area.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
+    "questionIds": [
+      "pgeo_019",
+      "pgeo_020",
+      "pgeo_021",
+      "pgeo_022",
+      "pgeo_023",
+      "pgeo_024",
+      "pgeo_025"
+    ]
+  },
+  {
+    "id": "src_koppen_climate_classification",
+    "title": "Köppen climate classification",
+    "url": "https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification",
+    "summary": "The Köppen climate classification divides Earth's climates into five main climate groups: A (tropical), B (arid), C (temperate), D (continental), and E (polar). First published in 1884 by German-Russian climatologist Wladimir Köppen, it is the most widely used climate classification scheme.",
+    "categories": [
+      "Category:Climate classification"
+    ],
+    "topicIds": [
+      "physical_geography"
+    ],
+    "articleText": "== Summary ==\nThe Köppen climate classification divides Earth's climates into five main climate groups, with each group being divided based on patterns of seasonal precipitation and temperature. The five main groups are A (tropical), B (arid), C (temperate), D (continental), and E (polar). Each group and subgroup is represented by a letter. All climates are assigned a main group (the first letter). All climates except for those in the E group are assigned a seasonal precipitation subgroup (the second letter). For example, Af indicates a tropical rainforest climate. The system assigns a temperature subgroup for all groups other than those in the A group, indicated by the third letter for climates in B, C, D, and the second letter for climates in E. Other examples include: Cfb indicating an oceanic climate with warm summers as indicated by the ending b, while Dwb indicates a semi-monsoonal continental climate, also with warm summers. Climates are classified based on specific criteria unique to each climate type.\nThe Köppen climate classification is the most widely used climate classification scheme. It was first published by German-Russian climatologist Wladimir Köppen (1846–1940) in 1884.\n\n== Overview ==\nThe Köppen climate classification scheme divides climates into five main climate groups: A (tropical), B (arid), C (temperate), D (continental), and E (polar). The second letter indicates the seasonal precipitation type, while the third letter indicates the level of heat. Summers are defined as the six-month period that is warmer either from April to September or October to March, while winter is the six-month period that is cooler.\n\n== Group A: Tropical/megathermal climates ==\nTropical climates are characterized by constant high temperatures (at sea level and low elevations); all 12 months of the year have average temperatures of 18 °C (64.4 °F) or higher; and generally high annual precipitation.\n\n== Group B: Arid (desert and semi-arid) climates ==\nThese climates are characterized by the amount of annual precipitation less than a threshold value that approximates the potential evapotranspiration. If the annual precipitation is less than 50% of this threshold, the classification is BW (arid: desert climate); if it is in the range of 50%–100% of the threshold, the classification is BS (semi-arid: steppe climate). A third letter h signifies low-latitude climate (average annual temperature above 18 °C) while k signifies middle-latitude climate (average annual temperature below 18 °C).\n\n== Group C: Temperate/mesothermal climates ==\nIn the Köppen climate system, temperate climates are defined as having an average temperature above 0 °C (32 °F) in their coldest month but below 18 °C (64.4 °F). The second letter indicates the precipitation pattern—w indicates dry winters, s indicates dry summers, f means significant precipitation in all seasons.",
+    "facts": [
+      {
+        "id": "fact_koppen_001",
+        "text": "The Köppen climate classification divides Earth's climates into five main groups: A (tropical), B (arid), C (temperate), D (continental), and E (polar).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_koppen_002",
+        "text": "The Köppen classification was first published in 1884 by German-Russian climatologist Wladimir Köppen (1846–1940) and remains the most widely used climate classification scheme.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_koppen_003",
+        "text": "In the Köppen system, the code 'Af' indicates a tropical rainforest climate: A = all months above 18 °C, f = precipitation year-round.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_koppen_004",
+        "text": "Group A (tropical) climates require all 12 months to average 18 °C (64.4 °F) or above.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_koppen_005",
+        "text": "Group B (arid) climates are classified BW (desert) if annual precipitation is less than 50% of the evapotranspiration threshold, or BS (steppe) if it is 50–100% of the threshold.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_koppen_006",
+        "text": "Group C (temperate) climates have a coldest month averaging above 0 °C but below 18 °C; second letter w = dry winters, s = dry summers, f = year-round rain.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_koppen_007",
+        "text": "In Köppen codes, the third letter 'b' (e.g. Cfb) indicates warm summers, while 'a' indicates hot summers.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_koppen_008",
+        "text": "In Group B arid climates, a third letter 'h' signifies a low-latitude climate (annual mean above 18 °C) while 'k' signifies a middle-latitude climate (annual mean below 18 °C).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
+    "questionIds": [
+      "pgeo_013",
+      "pgeo_014",
+      "pgeo_015",
+      "pgeo_016",
+      "pgeo_017",
+      "pgeo_018"
+    ]
+  },
+  {
+    "id": "src_ocean_current",
+    "title": "Ocean current",
+    "url": "https://en.m.wikipedia.org/wiki/Ocean_current",
+    "summary": "An ocean current is a continuous, directed movement of seawater generated by a number of forces acting upon the water, including wind, the Coriolis effect, breaking waves, cabbeling, and temperature and salinity differences. Depth contours, shoreline configurations, and interactions with other [...]",
+    "categories": [
+      "Category:Articles containing video clips",
+      "Category:Articles with short description",
+      "Category:Commons category link is on Wikidata",
+      "Category:Ocean currents",
+      "Category:Oceanographical terminology"
+    ],
+    "topicIds": [
+      "physical_geography"
+    ],
+    "articleText": "== Summary ==\nAn ocean current is a continuous, directed movement of seawater generated by a number of forces acting upon the water, including wind, the Coriolis effect, breaking waves, cabbeling, and temperature and salinity differences. Depth contours, shoreline configurations, and interactions with other currents influence a current's direction and strength. Ocean currents move both horizontally, on scales that can span entire oceans, as well as vertically, with vertical currents (upwelling and downwelling) playing an important role in the movement of nutrients and gases, such as carbon dioxide, between the surface and the deep ocean. \nOcean currents are classified by temperature as either warm currents or cold currents. They are also classified by their velocity, dimension, and direction as either drifts, currents, or streams. Drifts, such as the North Atlantic Drift Current, involve the forward movement of surface ocean water under the influence of the prevailing wind. Currents, such as the Labrador Current, \ninvolve the movement of oceanic water in a more definite direction at a greater velocity than drifts. Streams, such as the Gulf Stream, involve movement of larger masses of ocean [...]\n\n== Causes ==\nOcean currents are driven by the wind, by the gravitational pull of the Moon in the form of tides, and by the effects of variations in water density. Ocean dynamics define and describe the motion of water within the oceans.\nOcean temperature and motion fields can be separated into three distinct layers: mixed (surface) layer, upper ocean (above the thermocline), and deep ocean. Ocean currents are measured in units of sverdrup (Sv), where 1 Sv is equivalent to a volume flow rate of 1,000,000 m3 (35,000,000 ft3) per second.\nThere are two main types of currents, surface currents and deep-water currents. Generally surface currents are driven by wind systems and deep-water currents are driven by differences in water density due to variations in water temperature and salinity.\n\n== Effects on climate and ecology ==\nOcean currents affect temperatures throughout the world. For example, the ocean current that brings warm water up the north Atlantic to northwest Europe also cumulatively and slowly blocks ice from forming along the seashores, which would also block ships from entering and exiting inland waterways and seaports, hence ocean currents play a decisive role in influencing the climates of regions through which they flow. Ocean currents are important in the study of marine debris.\n\nUpwellings and cold ocean water currents flowing from polar and sub-polar regions bring in nutrients that support plankton growth, which are crucial prey items for several key species in marine ecosystems.\nOcean currents are also important in the dispersal and distribution of many organisms, including those with pelagic egg or larval stages. An example is the life-cycle of the European Eel. Terrestrial species, for example tortoises and lizards, can be carried on floating debris by currents to colonise new terrestrial areas and islands.\n\n== Ocean currents and climate change ==\nThe continued rise of atmospheric temperatures is anticipated to have various effects on the strength of surface ocean currents, wind-driven circulation and dispersal patterns. Ocean currents play a significant role in influencing climate, and shifts in climate in turn impact ocean currents.\n\nOver the last century, reconstructed sea surface temperature data reveal that western boundary currents are heating at double the rate of the global average. These observations indicate that the western boundary currents are likely intensifying due to this change in temperature, and may continue to grow stronger in the near future. There is evidence that surface warming due to anthropogenic climate change has accelerated upper ocean currents in 77% of the global ocean. Specifically, increased vertical stratification due to surface warming intensifies upper ocean currents, while changes [...]",
+    "facts": [
+      {
+        "id": "fact_ocean_current_001",
+        "text": "An ocean current is a continuous, directed movement of seawater generated by wind, the Coriolis effect, breaking waves, cabbeling, and differences in temperature and salinity.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_ocean_current_002",
+        "text": "Ocean currents are measured in sverdrups (Sv); 1 Sv equals a volume flow rate of 1,000,000 m³ per second.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_ocean_current_003",
+        "text": "Surface currents are generally driven by wind, while deep-water currents are driven by differences in water density caused by variations in temperature and salinity (thermohaline circulation).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_ocean_current_004",
+        "text": "Western boundary currents have been heating at double the global average rate over the last century and are likely intensifying.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_ocean_current_005",
+        "text": "Upwellings and cold polar/sub-polar currents bring nutrients to the surface, supporting plankton growth crucial to marine food webs.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_ocean_current_006",
+        "text": "Anthropogenic surface warming has accelerated upper ocean currents in 77% of the global ocean.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_ocean_current_007",
+        "text": "The North Atlantic Drift keeps north-west European coastlines ice-free in winter, allowing ships to access inland waterways and seaports year-round.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_ocean_current_008",
+        "text": "Ocean currents are classified by velocity and scale as drifts (slowest, wind-driven surface flow), currents (faster, more directional), or streams (largest, fastest — e.g. the Gulf Stream).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
+    "questionIds": [
+      "pgeo_008",
+      "pgeo_009",
+      "pgeo_010",
+      "pgeo_011",
+      "pgeo_012",
+      "pgeo_037"
+    ]
+  },
+  {
+    "id": "src_physical_geography",
+    "title": "Physical geography",
+    "url": "https://en.m.wikipedia.org/wiki/Physical_geography",
+    "summary": "Physical geography (also known as physiography) is one of the three main branches of geography. Physical geography is the branch of natural science which deals with the processes and patterns in the natural environment such as the atmosphere, hydrosphere, biosphere, and geosphere. This focus [...]",
+    "categories": [
+      "Category:Articles with short description",
+      "Category:CS1 Polish-language sources (pl)",
+      "Category:Earth sciences",
+      "Category:Pages using sidebar with the child parameter",
+      "Category:Physical geography"
+    ],
+    "topicIds": [
+      "physical_geography"
+    ],
+    "articleText": "== Summary ==\nPhysical geography (also known as physiography) is one of the three main branches of geography. Physical geography is the branch of natural science which deals with the processes and patterns in the natural environment such as the atmosphere, hydrosphere, biosphere, and geosphere. This focus contrasts with the branch of human geography, which focuses on the built environment, and technical geography, which focuses on the use, study, and creation of tools for obtaining, analyzing, interpreting, and understanding spatial information. The three branches have significant overlap, however.\n\n== Sub-branches ==\nPhysical geography can be divided into several branches or related fields, as follows:\n\nGeomorphology is concerned with understanding the surface of the Earth and the processes by which it is shaped, both at the present as well as in the past. Geomorphology, as a field, has several sub-fields that deal with the specific landforms of various environments, e.g., desert geomorphology and fluvial geomorphology; however, these sub-fields are united by the core processes that drive them, mainly tectonic or climatic processes. Geomorphology seeks to understand landform history and dynamics and to predict future changes through a combination of field observation, physical experiments, and numerical modeling (Geomorphometry). Early studies in geomorphology form the foundation of pedology, one of the two main branches of soil science.\n\nHydrology is predominantly concerned with the amounts and quality of water moving and accumulating on the land surface and in the soils and rocks near the surface and is typified by the hydrological cycle. Thus, the field encompasses water in rivers, lakes, aquifers, and to an extent glaciers, in which the field examines the process and dynamics involved in [...]\n\n== Journals and literature ==\nMain category: Geography Journals\nPhysical geography and earth science journals communicate and document the results of research conducted at universities and other research institutions. Most journals cover a specific field and publish research within that field; unlike human geographers, physical geographers tend to publish in interdisciplinary journals rather than predominantly in geography journals. The research is typically presented as a scientific paper. Additionally, textbooks, books, and magazines on geography communicate research to laypeople, although these tend to focus on environmental issues or cultural dilemmas. Examples of journals that publish articles from physical geographers include The Professional Geographer, Journal of Maps, Earth Surface Processes and Landforms, Natural Hazards and Earth System Sciences, and Nature.\n\n== Historical evolution of the discipline ==\nFrom the birth of geography as a science during the Greek classical period and until the late nineteenth century, with the birth of anthropogeography (human geography), geography was almost exclusively a natural science: the study of location and descriptive gazetteer of all places of the known world. Several works among the best known during this long period could be cited as examples, such as Strabo (Geography), Eratosthenes (Geographika), and Dionysius Periegetes (Periegesis Oiceumene) in the Ancient Age. In more modern times, these works include the Alexander von Humboldt (Kosmos) in the nineteenth century, in which geography is regarded as a physical and natural science through the work Summa de Geografía of Martín Fernández de Enciso from the early sixteenth century, which indicated for the first time the New World.\nDuring the eighteenth and nineteenth centuries, a controversy originating in geology, between supporters of James Hutton (uniformitarianism) and Georges Cuvier (catastrophism), strongly influenced the field of geography, because geography at this time was a natural science.\nTwo historical events in the nineteenth century significantly influenced the further [...]\n\n== See also ==\n\n\n== References ==\n\n\n== [...]",
+    "facts": [
+      {
+        "id": "fact_physical_geography_001",
+        "text": "Physical geography (also known as physiography) is one of the three main branches of geography, dealing with processes and patterns in the natural environment.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_physical_geography_002",
+        "text": "The three main branches of geography are physical geography, human geography, and technical geography.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_physical_geography_003",
+        "text": "Geomorphology is the branch of physical geography concerned with understanding the surface of the Earth and the processes that shape it.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_physical_geography_004",
+        "text": "Hydrology is predominantly concerned with the amounts and quality of water moving and accumulating on the land surface and in soils and rocks; it is typified by the hydrological cycle.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_physical_geography_005",
+        "text": "The nineteenth-century geological debate between James Hutton's uniformitarianism and Georges Cuvier's catastrophism strongly influenced the development of physical geography.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_physical_geography_006",
+        "text": "Ancient Greek geographers who established foundational geographic works include Strabo (Geography), Eratosthenes (Geographika), and Dionysius Periegetes (Periegesis Oiceumene).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_physical_geography_007",
+        "text": "Early studies in geomorphology form the foundation of pedology, one of the two main branches of soil science.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_physical_geography_008",
+        "text": "Physical geographers tend to publish in interdisciplinary journals rather than purely geography journals, unlike human geographers.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
+    "questionIds": [
+      "pgeo_003",
+      "pgeo_004",
+      "pgeo_005",
+      "pgeo_006",
+      "pgeo_007"
+    ]
+  },
+  {
+    "id": "src_plate_tectonics",
+    "title": "Plate Tectonics",
+    "url": "https://en.wikipedia.org/wiki/Plate_tectonics",
+    "summary": "Plate tectonics is the scientific theory that Earth's lithosphere comprises large tectonic plates slowly moving since 3–4 billion years ago, causing earthquakes, volcanoes, and mountain-building.",
+    "categories": [],
+    "topicIds": [
+      "physical_geography"
+    ],
+    "articleText": null,
+    "facts": [
+      {
+        "id": "fact_plate_tectonics_001",
+        "text": "Plate tectonics theory holds that Earth's lithosphere comprises 7–8 major plates that have been slowly moving since 3–4 billion years ago.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_plate_tectonics_002",
+        "text": "Plate tectonics was accepted by geoscientists after seafloor spreading was validated in the mid- to late 1960s.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_plate_tectonics_003",
+        "text": "The relative movement of tectonic plates typically ranges from zero to 10 cm annually.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_plate_tectonics_004",
+        "text": "The three types of plate boundaries are convergent, divergent, and transform.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_plate_tectonics_005",
+        "text": "The Mid-Atlantic Ridge spreads at 10–40 mm/year (about as fast as fingernails grow); the Nazca plate moves about 160 mm/year (about as fast as hair grows).",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_plate_tectonics_006",
+        "text": "Dissipation of heat from the mantle via convection is the original source of energy driving plate tectonics.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      },
+      {
+        "id": "fact_plate_tectonics_007",
+        "text": "The lithosphere is cooler and more rigid; the asthenosphere beneath it is hotter and flows more easily.",
+        "verified": true,
+        "verifiedAt": "2026-04-08"
+      }
+    ],
+    "questionIds": [
+      "pgeo_001"
+    ]
+  }
+]

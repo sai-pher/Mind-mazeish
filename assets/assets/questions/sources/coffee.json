@@ -1,0 +1,258 @@
+[
+  {
+    "id": "src_caffeine",
+    "title": "Caffeine",
+    "url": "https://en.m.wikipedia.org/wiki/Caffeine",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "coffee_004"
+    ]
+  },
+  {
+    "id": "src_coffea",
+    "title": "Coffea",
+    "url": "https://en.m.wikipedia.org/wiki/Coffea",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "coffee_003"
+    ]
+  },
+  {
+    "id": "src_coffee_production",
+    "title": "Coffee production",
+    "url": "https://en.m.wikipedia.org/wiki/Coffee_production",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "coffee_002"
+    ]
+  },
+  {
+    "id": "src_coffee_production_in_ethiopia",
+    "title": "Coffee production in Ethiopia",
+    "url": "https://en.m.wikipedia.org/wiki/Coffee_production_in_Ethiopia",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "coffee_005"
+    ]
+  },
+  {
+    "id": "src_history_of_coffee",
+    "title": "History of coffee",
+    "url": "https://en.m.wikipedia.org/wiki/History_of_coffee",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee"
+    ],
+    "articleText": null,
+    "facts": [
+      {
+        "id": "fact_history_of_coffee_001",
+        "text": "Wild coffee plants originated in Ethiopia, but the beverage itself has its roots in Yemen.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_002",
+        "text": "Sufi Muslims in the 15th century used coffee to aid concentration during night prayers.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_003",
+        "text": "Coffee reached Cairo, Damascus, and Istanbul by the early 16th century.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_004",
+        "text": "Coffee was first introduced to Europe in Hungary when the Ottomans invaded at the Battle of Mohács in 1526.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_005",
+        "text": "Within a year of reaching Hungary, coffee had reached Vienna via the Ottomans who fought at the Siege of Vienna in 1529.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_006",
+        "text": "Coffee was introduced to Malta through slavery — Turkish Muslim slaves imprisoned by the Knights of St John in 1565 used it to make their traditional beverage.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_007",
+        "text": "The first mention of coffee in a European text is in Charles de l'Ecluse's work from 1575.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_008",
+        "text": "Gabriel de Clieu brought coffee seedlings to Martinique in the Caribbean in 1720.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_009",
+        "text": "Fifty years after Gabriel de Clieu's introduction, there were 18,680 coffee trees in Martinique.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_010",
+        "text": "By 1788, the French territory of Saint-Domingue (Haiti) supplied half the world's coffee.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_011",
+        "text": "The dreadful conditions slaves endured on Saint-Domingue's coffee plantations were a contributing factor to the Haitian Revolution.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_012",
+        "text": "For nearly two centuries up to the end of the 17th century, Yemen was the world's sole gateway for coffee.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_013",
+        "text": "The English word 'coffee' came from the Ottoman Turkish word 'ḳahve', which was borrowed from the Arabic 'qahwah'.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_014",
+        "text": "Medieval Arab lexicographers linked the etymology of 'qahwah' to the word for 'wine' due to coffee's dark color.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_015",
+        "text": "The Arabic root 'qhh' meaning 'dark color' is the most likely origin of the word for coffee.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_016",
+        "text": "There is no evidence that the word 'qahwah' was named after the Ethiopian province of Kaffa.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_017",
+        "text": "In Ethiopian languages, coffee is called 'buna', 'bun', 'būn', or 'buni' depending on the language.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_018",
+        "text": "A 2020 genetic study confirmed that the vast majority of all Arabica coffee in the world today originates from early cultivated varieties in Yemen.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_019",
+        "text": "Coffea arabica varieties were found to have low genetic diversity.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_020",
+        "text": "The original domesticated coffee plant is said to have been from Harar, Ethiopia.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_021",
+        "text": "Coffee houses were established in Western Europe by the late 17th century, especially in Holland, England, and Germany.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_022",
+        "text": "Coffee entered Europe through Mediterranean trade routes in the mid-16th century, first in Italy.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_023",
+        "text": "Gabriel de Clieu's seedlings from Martinique enabled coffee to spread to Saint-Domingue, Mexico, and other Caribbean islands.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_024",
+        "text": "Coffee cultivation began in the French territory of Saint-Domingue in 1734.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_025",
+        "text": "Coffee reached the Isle of Bourbon (now Réunion) in the Indian Ocean, where it produced smaller beans classified as a different variety called var. Bourbon.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_026",
+        "text": "The Santos coffee of Brazil and the Oaxaca coffee of Mexico are both descended from the Bourbon tree of Réunion.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_027",
+        "text": "Circa 1727, the King of Portugal sent Francisco de Melo Palheta to French Guiana to obtain coffee seeds.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_028",
+        "text": "During early cultivation periods, brewed coffee was reserved exclusively for the priesthood and the medical profession.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_029",
+        "text": "The German traveler Gustav Sommerfeldt in 1663 wrote about Turkish prisoners earning money by preparing coffee.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_history_of_coffee_030",
+        "text": "Domenico Magri referred to Turks as 'most skillful makers' of the coffee concoction in his work Virtu del Kafé.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
+    "questionIds": [
+      "coffee_001"
+    ]
+  }
+]

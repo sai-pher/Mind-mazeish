@@ -1,0 +1,299 @@
+[
+  {
+    "id": "candy_001",
+    "question": "Which country produces the most chocolate in the world?",
+    "correctAnswers": [
+      "Ivory Coast (Côte d'Ivoire)"
+    ],
+    "wrongAnswers": [
+      "Switzerland",
+      "Belgium",
+      "Germany",
+      "Ghana",
+      "Ecuador",
+      "Brazil"
+    ],
+    "funFact": "Ivory Coast produces about 40% of the world's cocoa supply, despite consuming very little of the chocolate made from it.",
+    "sourceId": "src_chocolate",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_002",
+    "question": "The gummy bear was invented in which country?",
+    "correctAnswers": [
+      "Germany"
+    ],
+    "wrongAnswers": [
+      "USA",
+      "Sweden",
+      "UK",
+      "Denmark",
+      "Austria",
+      "Switzerland"
+    ],
+    "funFact": "Hans Riegel of Haribo created the gummy bear in Bonn in 1922. The name HARIBO comes from Hans Riegel + Bonn.",
+    "sourceId": "src_gummy_bear",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_003",
+    "question": "What is the primary ingredient that makes hard candy hard?",
+    "correctAnswers": [
+      "Crystalline or amorphous sugar (sucrose)"
+    ],
+    "wrongAnswers": [
+      "Gelatin",
+      "Pectin",
+      "Corn syrup only",
+      "Starch",
+      "Glycerine",
+      "Wax"
+    ],
+    "funFact": "Hard candy is made by heating sugar solution above 150°C and then rapidly cooling it to prevent crystallisation, creating an amorphous glass-like solid.",
+    "sourceId": "src_hard_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_004",
+    "question": "What principal ingredient defines candy as a category of food?",
+    "correctAnswers": [
+      "Sugar"
+    ],
+    "wrongAnswers": [
+      "Honey",
+      "Flour",
+      "Butter",
+      "Milk",
+      "Chocolate",
+      "Corn syrup",
+      "Gelatin",
+      "Starch",
+      "Salt"
+    ],
+    "funFact": "Sugar is so central to candy that the whole category is also called 'sugar confectionery'. Even chocolate and chewing gum fall under the candy umbrella because sugar is their principal ingredient.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "easy"
+  },
+  {
+    "id": "candy_005",
+    "question": "Before sugar was widely available, what ingredient was the basis of early candy and confections?",
+    "correctAnswers": [
+      "Honey"
+    ],
+    "wrongAnswers": [
+      "Maple syrup",
+      "Molasses",
+      "Date paste",
+      "Fig syrup",
+      "Grape juice",
+      "Barley malt",
+      "Agave",
+      "Rice syrup",
+      "Cane juice"
+    ],
+    "funFact": "Honey was used in Ancient China, Egypt, Greece, and the Roman Empire to coat fruits and flowers, both to preserve them and to create early sweets. This honey-coated tradition still survives today, mostly as a garnish.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "easy"
+  },
+  {
+    "id": "candy_006",
+    "question": "Where is sugarcane originally indigenous to?",
+    "correctAnswers": [
+      "Tropical South and Southeast Asia"
+    ],
+    "wrongAnswers": [
+      "Central America",
+      "Sub-Saharan Africa",
+      "The Caribbean",
+      "Ancient Egypt",
+      "The Mediterranean",
+      "Southern China",
+      "South America",
+      "The Middle East"
+    ],
+    "funFact": "Sugarcane's origins in tropical South and Southeast Asia explain why ancient Indians were the first to boil sugarcane juice into solid pieces of sugar, known as 'khanda' — the word that eventually gave us the English word 'candy'.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_007",
+    "question": "What was the English word 'candy' most likely derived from, tracing back through Old French and Arabic?",
+    "correctAnswers": [
+      "Sanskrit 'khanda'"
+    ],
+    "wrongAnswers": [
+      "Latin 'candidus'",
+      "Greek 'glykys'",
+      "Persian 'shakar'",
+      "Arabic 'sukkar'",
+      "Old English 'cwene'",
+      "Hebrew 'devash'",
+      "Hindi 'mishri'",
+      "French 'doux'"
+    ],
+    "funFact": "The word 'candy' traveled a long route: Sanskrit 'khanda' (sugar) → Arabic 'qandi' → Persian 'qand' → Old French 'çucre candi' → English 'candy'. The Sanskrit root also gives us the word 'sugar cane'.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "hard"
+  },
+  {
+    "id": "candy_008",
+    "question": "Before the Industrial Revolution, candy was frequently sold or used as what?",
+    "correctAnswers": [
+      "Medicine"
+    ],
+    "wrongAnswers": [
+      "Currency",
+      "Religious offering",
+      "Cosmetic",
+      "Perfume ingredient",
+      "Preservative",
+      "Animal feed",
+      "Dye",
+      "Soap ingredient"
+    ],
+    "funFact": "Pre-industrial candy was considered medicinal — used to calm the digestive system or soothe a sore throat. This is why early candy shops often operated alongside apothecaries, and why candy corn and cough drops share ancestral roots.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "easy"
+  },
+  {
+    "id": "candy_009",
+    "question": "Sugar candy is broadly classified into two structural types based on microscopic crystal structure. One is crystalline — what is the other?",
+    "correctAnswers": [
+      "Noncrystalline"
+    ],
+    "wrongAnswers": [
+      "Amorphous",
+      "Gelatinous",
+      "Colloidal",
+      "Foam-based",
+      "Fibrous",
+      "Emulsified",
+      "Hydrated",
+      "Granular",
+      "Layered"
+    ],
+    "funFact": "The crystalline vs. noncrystalline distinction is invisible to the naked eye — a candy that looks like a crystal can actually be noncrystalline. Noncrystalline candies (like hard candies, caramels, and nougats) are homogeneous, while crystalline ones (like fudge and fondant) have a fine crystalline structure.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "hard"
+  },
+  {
+    "id": "candy_010",
+    "question": "What process is used to make hard-boiled candies like stick candy and lemon drops?",
+    "correctAnswers": [
+      "Vacuum cooking"
+    ],
+    "wrongAnswers": [
+      "Open-fire boiling",
+      "Pan coating",
+      "Gum work molding",
+      "Freeze drying",
+      "Extrusion",
+      "Steam injection",
+      "Pressure canning",
+      "Cold pulling"
+    ],
+    "funFact": "Vacuum cooking removes moisture more efficiently than open-air boiling, allowing candy makers to reach very high sugar concentrations needed for brittle, glassy hard candies. The vacuum also helps prevent sugar from browning too quickly.",
+    "sourceId": "src_candy",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "hard"
+  },
+  {
+    "id": "candy_011",
+    "question": "What are the two broad categories that confections are divided into?",
+    "correctAnswers": [
+      "Baker's confections and sugar confections"
+    ],
+    "wrongAnswers": [
+      "Hard and soft confections",
+      "Chocolate and non-chocolate confections",
+      "Baked and fried confections",
+      "Natural and artificial confections",
+      "Wet and dry confections",
+      "Cooked and raw confections",
+      "Solid and liquid confections",
+      "Western and Eastern confections"
+    ],
+    "funFact": "Baker's confections (like cakes and pastries) rely on flour as the main ingredient, while sugar confections rely on sugar. The boundary can blur — a doughnut might be considered either — but the division has been recognized since at least the 18th century.",
+    "sourceId": "src_confectionery",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "easy"
+  },
+  {
+    "id": "candy_012",
+    "question": "In Australia and New Zealand, what word is commonly used instead of 'candy' or 'sweets' for sugar confectionery?",
+    "correctAnswers": [
+      "Lollies"
+    ],
+    "wrongAnswers": [
+      "Bonbons",
+      "Sweeties",
+      "Treats",
+      "Drops",
+      "Goodies",
+      "Sugarplums",
+      "Toffees",
+      "Boiled sweets",
+      "Confects"
+    ],
+    "funFact": "Regional names for candy reveal cultural history: 'candy' in Canada and the US, 'sweets' in the UK and Ireland, and 'lollies' in Australia and New Zealand. The UK term 'sweets' is short for 'sweetmeats', a much older word for any sweet food.",
+    "sourceId": "src_confectionery",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  },
+  {
+    "id": "candy_013",
+    "question": "What is the chemical composition of table sugar (sucrose), the most common confectionery sweetener?",
+    "correctAnswers": [
+      "A disaccharide containing glucose and fructose"
+    ],
+    "wrongAnswers": [
+      "A monosaccharide of pure glucose",
+      "A polysaccharide derived from starch",
+      "A mixture of maltose and lactose",
+      "A simple form of fructose only",
+      "A disaccharide of glucose and galactose",
+      "An oligosaccharide from corn",
+      "A blend of glucose and ribose",
+      "A trisaccharide of glucose units"
+    ],
+    "funFact": "When sucrose is hydrolyzed (split by water), it produces 'invert sugar' — a sweeter mixture of glucose and fructose. Invert sugar is widely used commercially because it's sweeter than sucrose and resists crystallization, making it ideal for soft candies and fudge.",
+    "sourceId": "src_confectionery",
+    "topicId": "candy",
+    "topicCategoryId": "confectionery",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  }
+]

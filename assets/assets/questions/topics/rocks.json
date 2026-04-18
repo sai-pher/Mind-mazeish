@@ -1,0 +1,670 @@
+[
+  {
+    "id": "rock_001",
+    "question": "Which type of rock forms from cooled magma or lava?",
+    "correctAnswers": [
+      "Igneous rock"
+    ],
+    "wrongAnswers": [
+      "Sedimentary rock",
+      "Metamorphic rock",
+      "Silicate rock",
+      "Composite rock",
+      "Biogenic rock"
+    ],
+    "funFact": "The word \"igneous\" comes from the Latin \"ignis\" meaning fire. Granite and basalt are both igneous rocks — granite forms deep underground, basalt at the surface.",
+    "sourceId": "src_igneous_rock",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_002",
+    "question": "The Mohs scale measures which property of minerals?",
+    "correctAnswers": [
+      "Hardness (scratch resistance)"
+    ],
+    "wrongAnswers": [
+      "Density",
+      "Colour",
+      "Transparency",
+      "Crystal structure",
+      "Lustre",
+      "Cleavage"
+    ],
+    "funFact": "Diamond is a 10 on the Mohs scale — the hardest known natural material. Talc is a 1 and can be scratched with a fingernail.",
+    "sourceId": "src_mohs_scale",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_003",
+    "question": "Marble is a metamorphic rock formed from which original rock type?",
+    "correctAnswers": [
+      "Limestone"
+    ],
+    "wrongAnswers": [
+      "Granite",
+      "Sandstone",
+      "Basalt",
+      "Shale",
+      "Obsidian",
+      "Quartzite"
+    ],
+    "funFact": "Michelangelo's David was carved from a single block of Carrara marble from Tuscany, Italy — the same quarries used by ancient Romans.",
+    "sourceId": "src_marble",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "rock_004",
+    "question": "What is the most abundant mineral in Earth's continental crust?",
+    "correctAnswers": [
+      "Feldspar"
+    ],
+    "wrongAnswers": [
+      "Quartz",
+      "Mica",
+      "Calcite",
+      "Olivine",
+      "Pyroxene"
+    ],
+    "funFact": "Feldspars make up about 60% of Earth's continental crust. The name comes from German, meaning \"field\" and \"spar\" — farmers in Sweden kept finding these crystals when ploughing fields.",
+    "sourceId": "src_feldspar",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "rock_005",
+    "question": "Which volcanic rock is so light it can float on water?",
+    "correctAnswers": [
+      "Pumice"
+    ],
+    "wrongAnswers": [
+      "Obsidian",
+      "Basalt",
+      "Rhyolite",
+      "Scoria",
+      "Tuff"
+    ],
+    "funFact": "Pumice forms when frothy, gas-rich lava cools so rapidly that bubbles are frozen in place. After the 1883 Krakatoa eruption, huge pumice rafts floated across the Indian Ocean for months.",
+    "sourceId": "src_pumice",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_006",
+    "question": "What process transforms existing rocks into metamorphic rocks?",
+    "correctAnswers": [
+      "Heat and pressure",
+      "High heat and pressure"
+    ],
+    "wrongAnswers": [
+      "Erosion and compaction",
+      "Cooling of magma",
+      "Chemical dissolution",
+      "Volcanic eruption",
+      "Wind and water deposition"
+    ],
+    "funFact": "Metamorphic rocks can form deep within mountain belts where pressures reach thousands of times atmospheric pressure. The word \"metamorphic\" comes from the Greek for \"change of form\".",
+    "sourceId": "src_metamorphic_rock",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_007",
+    "question": "The Giant's Causeway in Northern Ireland is made up of columns of which rock?",
+    "correctAnswers": [
+      "Basalt"
+    ],
+    "wrongAnswers": [
+      "Granite",
+      "Limestone",
+      "Sandstone",
+      "Obsidian",
+      "Rhyolite"
+    ],
+    "funFact": "The roughly 40,000 interlocking basalt columns formed around 50–60 million years ago as lava cooled and contracted. The hexagonal shapes arise naturally from the same cracking pattern seen in dried mud.",
+    "sourceId": "src_giants_causeway",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "rock_008",
+    "question": "Which sedimentary rock is the primary source of the fossil fuel coal?",
+    "correctAnswers": [
+      "Coal is itself a sedimentary rock",
+      "Coal"
+    ],
+    "wrongAnswers": [
+      "Shale",
+      "Limestone",
+      "Sandstone",
+      "Mudstone",
+      "Chert"
+    ],
+    "funFact": "Coal forms from the compressed remains of plants that died in swampy forests hundreds of millions of years ago. Most coal deposits date to the Carboniferous Period, aptly named for its carbon-rich rocks.",
+    "sourceId": "src_coal",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "rock_009",
+    "question": "What name is given to the continuous movement of rock material through igneous, sedimentary, and metamorphic stages?",
+    "correctAnswers": [
+      "The rock cycle"
+    ],
+    "wrongAnswers": [
+      "The mineral cycle",
+      "The tectonic cycle",
+      "The lithospheric cycle",
+      "The geologic cycle",
+      "The crustal cycle"
+    ],
+    "funFact": "Scottish geologist James Hutton first described the rock cycle in the late 18th century. He famously concluded that Earth's history showed \"no vestige of a beginning, no prospect of an end.\"",
+    "sourceId": "src_rock_cycle",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_010",
+    "question": "Which mineral, found in granite, gives the rock its characteristic pink or white colouring?",
+    "correctAnswers": [
+      "Feldspar"
+    ],
+    "wrongAnswers": [
+      "Quartz",
+      "Mica",
+      "Hornblende",
+      "Calcite",
+      "Olivine"
+    ],
+    "funFact": "Granite's characteristic speckled appearance comes from three minerals: feldspar (pink or white), quartz (glassy grey), and mica (shiny flakes). Its hardness and durability have made it a favourite building stone for millennia.",
+    "sourceId": "src_granite",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "rock_011",
+    "question": "What type of lava forms a smooth, ropy surface as it cools?",
+    "correctAnswers": [
+      "Pahoehoe"
+    ],
+    "wrongAnswers": [
+      "A'a",
+      "Pillow lava",
+      "Block lava",
+      "Rhyolitic lava",
+      "Andesitic lava"
+    ],
+    "funFact": "Pahoehoe (pronounced pah-HOY-hoy) and a'a are Hawaiian words used worldwide by geologists. Pahoehoe's smooth skin forms because the outer crust cools and solidifies while molten lava continues to flow beneath.",
+    "sourceId": "src_pahoehoe",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "rock_012",
+    "question": "What is the name of the supercontinent that existed around 300 million years ago?",
+    "correctAnswers": [
+      "Pangaea"
+    ],
+    "wrongAnswers": [
+      "Gondwana",
+      "Laurasia",
+      "Rodinia",
+      "Kenorland",
+      "Columbia"
+    ],
+    "funFact": "Alfred Wegener proposed the existence of Pangaea in 1912, though his theory of continental drift was widely ridiculed at the time. The evidence he cited — matching coastlines, identical fossils on separated continents — is now textbook geology.",
+    "sourceId": "src_pangaea",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_013",
+    "question": "Which mineral is the main component of the gemstone sapphire?",
+    "correctAnswers": [
+      "Corundum"
+    ],
+    "wrongAnswers": [
+      "Beryl",
+      "Spinel",
+      "Topaz",
+      "Tourmaline",
+      "Zircon"
+    ],
+    "funFact": "Both sapphires and rubies are varieties of corundum (aluminium oxide) — the colour difference is purely chemical. Sapphires get their blue from titanium and iron impurities, while rubies get their red from chromium.",
+    "sourceId": "src_corundum",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "rock_014",
+    "question": "Obsidian is a natural glass produced by which geological process?",
+    "correctAnswers": [
+      "Rapid cooling of silica-rich lava"
+    ],
+    "wrongAnswers": [
+      "Extreme pressure on quartz",
+      "Slow crystallisation of magma",
+      "Metamorphism of sandstone",
+      "Chemical precipitation from seawater",
+      "Lightning striking sand"
+    ],
+    "funFact": "Because obsidian fractures along extremely sharp conchoidal edges, prehistoric peoples used it to make cutting tools and blades. Modern surgeons have experimented with obsidian scalpels — they can be sharper than surgical steel.",
+    "sourceId": "src_obsidian",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "rock_015",
+    "question": "At what tectonic plate boundary does one plate sink beneath another in a process called subduction?",
+    "correctAnswers": [
+      "Convergent boundary"
+    ],
+    "wrongAnswers": [
+      "Divergent boundary",
+      "Transform boundary",
+      "Passive margin",
+      "Rift zone",
+      "Hot spot"
+    ],
+    "funFact": "Subduction zones are responsible for Earth's most powerful earthquakes and explosive volcanoes. The subducting oceanic plate carries water into the mantle, which lowers the melting point of rock and generates magma.",
+    "sourceId": "src_subduction",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "rock_016",
+    "question": "Which gemstone is a variety of the mineral beryl coloured green by chromium?",
+    "correctAnswers": [
+      "Emerald"
+    ],
+    "wrongAnswers": [
+      "Aquamarine",
+      "Peridot",
+      "Jade",
+      "Malachite",
+      "Tourmaline"
+    ],
+    "funFact": "Emeralds are among the rarest gemstones on Earth. The Muzo mine in Colombia has produced some of the world's finest emeralds for over 500 years, and fine Colombian emeralds can be worth more per carat than diamonds.",
+    "sourceId": "src_emerald",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "rock_017",
+    "question": "What is the geological term for rock layers or strata that are deposited horizontally and remain in that original order?",
+    "correctAnswers": [
+      "Superposition",
+      "Principle of superposition"
+    ],
+    "wrongAnswers": [
+      "Cross-cutting relationships",
+      "Unconformity",
+      "Lateral continuity",
+      "Faunal succession",
+      "Intrusion"
+    ],
+    "funFact": "The Principle of Superposition, established by Nicolaus Steno in 1669, states that in undisturbed rock sequences the oldest layers are at the bottom. It forms the foundation of stratigraphy — the reading of Earth history from rock layers.",
+    "sourceId": "src_law_of_superposition",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "rock_018",
+    "question": "Which rock, formed from compressed clay or mud, is the most common sedimentary rock on Earth?",
+    "correctAnswers": [
+      "Shale"
+    ],
+    "wrongAnswers": [
+      "Sandstone",
+      "Limestone",
+      "Mudstone",
+      "Chert",
+      "Conglomerate"
+    ],
+    "funFact": "Shale makes up about 70% of all sedimentary rocks. It is also the source rock for most of the world's oil and natural gas — hydrocarbons generated in shale can migrate into porous reservoir rocks above.",
+    "sourceId": "src_shale",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "rock_019",
+    "question": "The Grand Canyon exposes rock layers spanning nearly how many years of Earth's history?",
+    "correctAnswers": [
+      "2 billion years",
+      "Around 2 billion years"
+    ],
+    "wrongAnswers": [
+      "500 million years",
+      "65 million years",
+      "4.5 billion years",
+      "750 million years",
+      "1 billion years"
+    ],
+    "funFact": "The oldest exposed rocks in the Grand Canyon — the Vishnu Basement Rocks — are approximately 1.8 billion years old. The canyon itself was carved by the Colorado River over the last 5–6 million years.",
+    "sourceId": "src_grand_canyon",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "rock_020",
+    "question": "Pyrite is a mineral sometimes called \"fool's gold.\" What is its chemical composition?",
+    "correctAnswers": [
+      "Iron sulphide",
+      "Iron disulphide"
+    ],
+    "wrongAnswers": [
+      "Iron oxide",
+      "Copper sulphide",
+      "Copper carbonate",
+      "Iron carbonate",
+      "Zinc sulphide"
+    ],
+    "funFact": "Pyrite (FeS₂) fooled many prospectors during gold rushes because of its golden metallic lustre. Unlike gold, pyrite is brittle, tarnishes, and produces sparks when struck — it was used in early firearms to ignite gunpowder.",
+    "sourceId": "src_pyrite",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "rock_021",
+    "question": "Quartzite is a metamorphic rock that forms from which original sedimentary rock?",
+    "correctAnswers": [
+      "Sandstone"
+    ],
+    "wrongAnswers": [
+      "Limestone",
+      "Shale",
+      "Conglomerate",
+      "Chert",
+      "Mudstone"
+    ],
+    "funFact": "When sandstone is buried and heated, the quartz grains recrystallise and fuse so tightly that the rock becomes harder than the original sand grains. Quartzite is one of the most resistant rocks and often forms ridge lines in mountainous terrain.",
+    "sourceId": "src_quartzite",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "rock_022",
+    "question": "Which mineral group, including muscovite and biotite, is known for splitting into thin, flat, shiny sheets?",
+    "correctAnswers": [
+      "Mica"
+    ],
+    "wrongAnswers": [
+      "Feldspar",
+      "Pyroxene",
+      "Amphibole",
+      "Calcite",
+      "Chlorite"
+    ],
+    "funFact": "Mica's perfect basal cleavage allows it to be split into transparent sheets as thin as a few micrometres. Before glass became widely available, muscovite mica was used as window panes — the Muscovy glass trade gave muscovite its name.",
+    "sourceId": "src_mica",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_023",
+    "question": "Limestone is a sedimentary rock composed chiefly of which mineral?",
+    "correctAnswers": [
+      "Calcite"
+    ],
+    "wrongAnswers": [
+      "Quartz",
+      "Dolomite",
+      "Feldspar",
+      "Aragonite",
+      "Gypsum"
+    ],
+    "funFact": "Much of the world's limestone formed from the accumulated shells and skeletons of marine organisms. The White Cliffs of Dover are made of a soft limestone called chalk, composed almost entirely of microscopic marine algae called coccolithophores.",
+    "sourceId": "src_limestone",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_024",
+    "question": "What name is given to a metamorphic rock that displays distinctive banding of light and dark minerals?",
+    "correctAnswers": [
+      "Gneiss"
+    ],
+    "wrongAnswers": [
+      "Schist",
+      "Slate",
+      "Phyllite",
+      "Amphibolite",
+      "Hornfels"
+    ],
+    "funFact": "Gneiss (pronounced \"nice\") forms at high temperatures and pressures deep in mountain roots. The Acasta Gneiss in Canada is among Earth's oldest known surface rocks, dated to about 4.03 billion years old.",
+    "sourceId": "src_gneiss",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "rock_025",
+    "question": "What is the name of the process by which wind, water, or ice breaks down and carries away rock material?",
+    "correctAnswers": [
+      "Erosion"
+    ],
+    "wrongAnswers": [
+      "Weathering",
+      "Deposition",
+      "Compaction",
+      "Diagenesis",
+      "Lithification"
+    ],
+    "funFact": "Erosion and weathering are related but distinct: weathering breaks rock down in place, while erosion involves the transport of that material. Together they have carved landmarks from the Grand Canyon to the Himalayas over millions of years.",
+    "sourceId": "src_erosion",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_026",
+    "question": "What is the term for a naturally occurring, inorganic solid with a definite chemical composition and crystalline structure?",
+    "correctAnswers": [
+      "Mineral"
+    ],
+    "wrongAnswers": [
+      "Rock",
+      "Ore",
+      "Crystal",
+      "Gemstone",
+      "Element"
+    ],
+    "funFact": "There are over 5,900 recognised mineral species, but only about 200 are common. Rocks themselves are aggregates of one or more minerals — granite, for example, is a mixture of quartz, feldspar, and mica.",
+    "sourceId": "src_mineral",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_027",
+    "question": "Which type of volcanic eruption is characterised by highly fluid lava and relatively low explosivity, typical of Hawaiian volcanoes?",
+    "correctAnswers": [
+      "Effusive eruption"
+    ],
+    "wrongAnswers": [
+      "Plinian eruption",
+      "Vulcanian eruption",
+      "Strombolian eruption",
+      "Pelean eruption",
+      "Surtseyan eruption"
+    ],
+    "funFact": "Hawaiian-style effusive eruptions produce low-viscosity basaltic lava that can travel kilometres from a vent. The Big Island of Hawaii is entirely constructed from such eruptions and is still growing today.",
+    "sourceId": "src_effusive_eruption",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "rock_028",
+    "question": "Which mineral is the hardest naturally occurring substance on Earth?",
+    "correctAnswers": [
+      "Diamond"
+    ],
+    "wrongAnswers": [
+      "Corundum",
+      "Topaz",
+      "Quartz",
+      "Moissanite",
+      "Garnet"
+    ],
+    "funFact": "Diamond rates 10 on the Mohs scale, but hardness measures scratch resistance, not toughness. A diamond can actually be shattered by a sharp blow. It forms under extreme pressure more than 150 km deep in Earth's mantle.",
+    "sourceId": "src_diamond",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_029",
+    "question": "What is the name for the molten rock found beneath Earth's surface?",
+    "correctAnswers": [
+      "Magma"
+    ],
+    "wrongAnswers": [
+      "Lava",
+      "Mantle",
+      "Pyroclast",
+      "Ignimbrite",
+      "Tephra"
+    ],
+    "funFact": "Magma becomes lava only after it reaches the surface — the same material has two different names depending on whether it is underground or above ground. The distinction matters because different cooling rates produce very different rock textures.",
+    "sourceId": "src_magma",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_030",
+    "question": "Schist is a metamorphic rock best known for which textural feature?",
+    "correctAnswers": [
+      "Foliation (parallel alignment of platy minerals)",
+      "Schistosity"
+    ],
+    "wrongAnswers": [
+      "Banding of light and dark layers",
+      "Glassy lustre",
+      "Coarse interlocking crystals without layering",
+      "Fine-grained homogeneous texture",
+      "Vesicular (bubble-filled) texture"
+    ],
+    "funFact": "Schist's foliated texture is produced when platy minerals such as mica align perpendicular to the direction of compressive stress during metamorphism. Large mica crystals give schist its characteristic glittery appearance.",
+    "sourceId": "src_schist",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "rock_031",
+    "question": "Radiometric dating uses the decay of radioactive isotopes to determine the age of rocks. Which isotope pair is commonly used to date very old rocks billions of years old?",
+    "correctAnswers": [
+      "Uranium-lead"
+    ],
+    "wrongAnswers": [
+      "Carbon-14 / Nitrogen-14",
+      "Potassium-40 / Argon-40",
+      "Rubidium-87 / Strontium-87",
+      "Samarium-147 / Neodymium-143",
+      "Thorium-232 / Lead-208"
+    ],
+    "funFact": "Uranium-lead dating can reliably date rocks up to 4.5 billion years old — nearly as old as Earth itself. Zircon crystals are especially prized for this method because they incorporate uranium when they form but reject lead, providing a precise radiometric clock.",
+    "sourceId": "src_uraniumlead_dating",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  },
+  {
+    "id": "rock_032",
+    "question": "What type of rock forms when fragments of other rocks, minerals, or organic material are compacted and cemented together?",
+    "correctAnswers": [
+      "Sedimentary rock"
+    ],
+    "wrongAnswers": [
+      "Igneous rock",
+      "Metamorphic rock",
+      "Plutonic rock",
+      "Volcanic rock",
+      "Intrusive rock"
+    ],
+    "funFact": "Sedimentary rocks cover about 75% of Earth's land surface, even though they make up only about 8% of the crust by volume. They are the primary record of Earth's past environments and are the only rock type that contains fossils.",
+    "sourceId": "src_sedimentary_rock",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock_033",
+    "question": "What is the name of the green mineral that is the main component of the upper mantle and is commonly found in volcanic rocks like basalt?",
+    "correctAnswers": [
+      "Olivine"
+    ],
+    "wrongAnswers": [
+      "Pyroxene",
+      "Amphibole",
+      "Chlorite",
+      "Epidote",
+      "Serpentine"
+    ],
+    "funFact": "Olivine is one of the most abundant minerals in Earth's interior, forming much of the upper mantle. The gemstone variety of olivine — called peridot — has been mined for over 3,500 years and was once called the \"gem of the sun\" by ancient Egyptians.",
+    "sourceId": "src_olivine",
+    "topicId": "rocks",
+    "topicCategoryId": "geology",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard"
+  }
+]

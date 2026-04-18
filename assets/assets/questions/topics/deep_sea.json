@@ -1,0 +1,2026 @@
+[
+  {
+    "id": "dsea_001",
+    "question": "The Mariana Trench is the deepest point on Earth. How deep is the deepest point (Challenger Deep)?",
+    "correctAnswers": [
+      "About 11,000 metres (36,000 feet)"
+    ],
+    "wrongAnswers": [
+      "About 5,000 metres",
+      "About 8,000 metres",
+      "About 15,000 metres",
+      "About 3,000 metres",
+      "About 20,000 metres"
+    ],
+    "funFact": "If Mount Everest were placed at the bottom of the Mariana Trench, its peak would still be over a mile below the ocean surface.",
+    "sourceId": "src_mariana_trench",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dsea_002",
+    "question": "What is bioluminescence, commonly seen in deep-sea creatures?",
+    "correctAnswers": [
+      "The production of light by living organisms through chemical reactions"
+    ],
+    "wrongAnswers": [
+      "Reflection of sunlight by scales",
+      "Fluorescence under UV light",
+      "Electrical discharge from cells",
+      "Heat radiation from metabolism"
+    ],
+    "funFact": "Over 75% of deep-sea animals are bioluminescent. In the deep ocean (below 200m), it is the only natural light source.",
+    "sourceId": "src_bioluminescence",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dsea_003",
+    "question": "Hydrothermal vents on the ocean floor support life despite the absence of what?",
+    "correctAnswers": [
+      "Sunlight (photosynthesis)"
+    ],
+    "wrongAnswers": [
+      "Water",
+      "Oxygen (completely)",
+      "Heat",
+      "Chemical nutrients",
+      "Pressure"
+    ],
+    "funFact": "Hydrothermal vent ecosystems run on chemosynthesis, not photosynthesis — bacteria convert hydrogen sulphide into energy. This discovery in 1977 transformed our understanding of where life can exist.",
+    "sourceId": "src_hydrothermal_vent",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "deep_sea_001",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea",
+    "difficulty": "easy",
+    "question": "At approximately what depth does the deep sea begin, where light starts to fade?",
+    "correctAnswers": [
+      "200 m (660 ft)"
+    ],
+    "wrongAnswers": [
+      "100 m (330 ft)",
+      "500 m (1,640 ft)",
+      "1,000 m (3,280 ft)",
+      "50 m (164 ft)",
+      "350 m (1,148 ft)",
+      "750 m (2,460 ft)",
+      "1,500 m (4,920 ft)",
+      "2,000 m (6,560 ft)"
+    ],
+    "funFact": "The ocean is divided into five vertical zones based on light penetration — the sunlight zone (0–200 m) is where nearly all photosynthesis occurs, while everything below is in permanent twilight or total darkness. Despite covering over 70% of Earth's surface, the deep sea below 200 m is the largest habitat on the planet."
+  },
+  {
+    "id": "deep_sea_002",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea",
+    "difficulty": "easy",
+    "question": "What is the name of the organic material that falls from upper ocean waters into the deep sea, forming a primary food source for deep-sea organisms?",
+    "correctAnswers": [
+      "Marine snow"
+    ],
+    "wrongAnswers": [
+      "Ocean drift",
+      "Sea dust",
+      "Pelagic rain",
+      "Abyss fall",
+      "Bio-sediment",
+      "Deep drift",
+      "Plankton fall",
+      "Organic flux",
+      "Benthic rain"
+    ],
+    "funFact": "Marine snow falls so slowly — typically less than 100 meters per day — that a single particle can take weeks to reach the deep ocean floor. Along the way it is colonised by bacteria and consumed and repackaged by zooplankton multiple times before it finally settles."
+  },
+  {
+    "id": "deep_sea_003",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea",
+    "difficulty": "medium",
+    "question": "In 1960, which vessel descended to the bottom of the Mariana Trench, reaching a depth of 10,911 m?",
+    "correctAnswers": [
+      "Bathyscaphe Trieste"
+    ],
+    "wrongAnswers": [
+      "ROV Kaikō",
+      "Alvin submersible",
+      "DSV Limiting Factor",
+      "Nautile",
+      "Shinkai 6500",
+      "HROV Nereus",
+      "Deep Discoverer",
+      "Pisces V",
+      "MIR submersible"
+    ],
+    "funFact": "The Trieste's dive to 10,911 m was so deep that the pressure outside the hull exceeded 1,000 times the pressure at sea level. Remarkably, pilot Don Walsh and Swiss engineer Jacques Piccard reported seeing a flatfish swimming on the bottom — proof that life exists even in the deepest known point on Earth."
+  },
+  {
+    "id": "deep_sea_004",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea",
+    "difficulty": "medium",
+    "question": "Which zone of the deep sea spans from 200 to 3,000 meters below sea level and is considered the continental slope?",
+    "correctAnswers": [
+      "Bathyal zone"
+    ],
+    "wrongAnswers": [
+      "Abyssal zone",
+      "Hadal zone",
+      "Mesopelagic zone",
+      "Epipelagic zone",
+      "Pelagic zone",
+      "Photic zone",
+      "Benthic zone",
+      "Aphotic zone",
+      "Littoral zone"
+    ],
+    "funFact": "The bathyal zone covers roughly 16% of the total ocean floor and corresponds to the continental slope, where the seafloor drops steeply from the shallow continental shelf to the deep ocean basin. Many economically important fisheries — such as those for orange roughy and grenadier — are concentrated in this zone."
+  },
+  {
+    "id": "deep_sea_005",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea",
+    "difficulty": "medium",
+    "question": "What depth range defines the hadal zone in the ocean?",
+    "correctAnswers": [
+      "6–11 km (3.7–6.8 mi)"
+    ],
+    "wrongAnswers": [
+      "3–6 km (1.9–3.7 mi)",
+      "0.2–3 km (0.1–1.9 mi)",
+      "8–12 km (5–7.5 mi)",
+      "5–9 km (3.1–5.6 mi)",
+      "4–8 km (2.5–5 mi)",
+      "1–5 km (0.6–3.1 mi)",
+      "7–10 km (4.3–6.2 mi)",
+      "10–15 km (6.2–9.3 mi)"
+    ],
+    "funFact": "The hadal zone is almost entirely confined to oceanic trenches, which form where one tectonic plate subducts beneath another. There are about 37 hadal trenches worldwide, yet together they cover less than 0.25% of the ocean floor."
+  },
+  {
+    "id": "deep_sea_006",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea",
+    "difficulty": "hard",
+    "question": "Many deep-sea species achieve buoyancy through jelly-like flesh made mostly of which substance rather than using gas-filled chambers?",
+    "correctAnswers": [
+      "Glycosaminoglycans"
+    ],
+    "wrongAnswers": [
+      "Collagen",
+      "Keratin",
+      "Chitin",
+      "Lipids",
+      "Mucopolysaccharides",
+      "Gelatin",
+      "Hyaluronic acid",
+      "Proteoglycans",
+      "Elastin"
+    ],
+    "funFact": "Glycosaminoglycans are the same class of molecules that make up human cartilage and synovial joint fluid. In deep-sea animals, a gel-like body composed mostly of these molecules provides buoyancy without the crush-risk of an air or gas-filled swim bladder under extreme pressure."
+  },
+  {
+    "id": "deep_sea_007",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea",
+    "difficulty": "hard",
+    "question": "Some deep-water squid achieve buoyancy by filling a flotation chamber with a coelomic fluid made of which metabolic waste product?",
+    "correctAnswers": [
+      "Ammonium chloride"
+    ],
+    "wrongAnswers": [
+      "Sodium chloride",
+      "Urea",
+      "Ammonia",
+      "Trimethylamine oxide",
+      "Potassium chloride",
+      "Calcium carbonate",
+      "Magnesium sulfate",
+      "Carbon dioxide",
+      "Dimethyl sulfoxide"
+    ],
+    "funFact": "Ammonium chloride is less dense than seawater, so replacing heavier ions with ammonium in body fluids gives deep-water squid a cost-free buoyancy lift. This is why many deep-sea squid taste unpleasantly salty and bitter — their flesh is permeated with the same compound found in smelling salts."
+  },
+  {
+    "id": "deep_sea_008",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_fish",
+    "difficulty": "easy",
+    "question": "Which fish is by far the most common deep-sea fish?",
+    "correctAnswers": [
+      "Lanternfish"
+    ],
+    "wrongAnswers": [
+      "Anglerfish",
+      "Viperfish",
+      "Cookiecutter shark",
+      "Bristlemouth",
+      "Flashlight fish",
+      "Eelpout",
+      "Gulper eel",
+      "Fangtooth fish",
+      "Dragonfish"
+    ],
+    "funFact": "Lanternfish are so abundant that they form the base of many deep-sea food webs, and their collective biomass may exceed that of all other ocean fish combined. Every night they migrate hundreds of meters toward the surface to feed, creating the largest daily animal migration on Earth."
+  },
+  {
+    "id": "deep_sea_009",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_fish",
+    "difficulty": "easy",
+    "question": "What characteristic of deep-sea fish is visible even in the mesopelagic zone (200–1,000 m)?",
+    "correctAnswers": [
+      "Bioluminescence"
+    ],
+    "wrongAnswers": [
+      "Gigantism",
+      "Transparent skin",
+      "Extreme flattening",
+      "Chemoreception",
+      "Echolocation",
+      "Electroreception",
+      "Photoreception",
+      "Thermoreception",
+      "Magnetoreception"
+    ],
+    "funFact": "About 80% of all deep-sea animals are capable of producing their own light through bioluminescence, making it by far the most common form of communication and predation signalling in the ocean. Unlike a light bulb, bioluminescence produces almost no heat — it converts chemical energy directly into light with nearly 100% efficiency."
+  },
+  {
+    "id": "deep_sea_010",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_fish",
+    "difficulty": "medium",
+    "question": "What approximate percentage of known marine species inhabit the pelagic (open water column) environment?",
+    "correctAnswers": [
+      "2%"
+    ],
+    "wrongAnswers": [
+      "10%",
+      "25%",
+      "5%",
+      "50%",
+      "15%",
+      "1%",
+      "35%",
+      "40%",
+      "20%"
+    ],
+    "funFact": "The vast majority of ocean species — around 98% — live in association with the seafloor rather than in the open water column. This is because surfaces provide attachment points, shelter, and accumulated organic matter that free-floating water simply cannot offer."
+  },
+  {
+    "id": "deep_sea_011",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_fish",
+    "difficulty": "medium",
+    "question": "At what depth range does the oxygen minimum layer typically exist in the ocean?",
+    "correctAnswers": [
+      "700 to 1,000 metres (2,300 to 3,300 ft)"
+    ],
+    "wrongAnswers": [
+      "200 to 500 metres (660 to 1,640 ft)",
+      "1,000 to 2,000 metres (3,300 to 6,600 ft)",
+      "100 to 300 metres (330 to 980 ft)",
+      "2,000 to 3,000 metres (6,600 to 9,800 ft)",
+      "50 to 150 metres (160 to 490 ft)",
+      "3,000 to 4,000 metres (9,800 to 13,100 ft)",
+      "400 to 700 metres (1,300 to 2,300 ft)",
+      "500 to 800 metres (1,640 to 2,620 ft)"
+    ],
+    "funFact": "The oxygen minimum zone forms because organic particles sinking from above are decomposed by bacteria that consume oxygen faster than deep currents can replenish it. Some organisms have evolved specially adapted hemoglobins that can extract oxygen at concentrations as low as 0.1 mL per liter — less than 5% of surface levels."
+  },
+  {
+    "id": "deep_sea_012",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_fish",
+    "difficulty": "medium",
+    "question": "Which geological period is associated with the earliest known trace fossils of deep-sea fish behavior, found in the Palombini Shale of Italy?",
+    "correctAnswers": [
+      "Early Cretaceous"
+    ],
+    "wrongAnswers": [
+      "Late Jurassic",
+      "Paleogene",
+      "Late Cretaceous",
+      "Triassic",
+      "Early Jurassic",
+      "Eocene",
+      "Permian",
+      "Devonian",
+      "Cambrian"
+    ],
+    "funFact": "Trace fossils from the Early Cretaceous (about 100–145 million years ago) show that fish were already foraging on the deep seafloor long before the mass extinction that wiped out the dinosaurs. These fossil feeding traces predate the diversification of most modern deep-sea fish lineages by tens of millions of years."
+  },
+  {
+    "id": "deep_sea_013",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_fish",
+    "difficulty": "hard",
+    "question": "The marine snow 'snowflakes' that sink through the ocean can grow to reach several centimetres in diameter. What is the primary composition of marine snow according to the article?",
+    "correctAnswers": [
+      "Mostly organic detritus including dead plankton, fecal matter, sand, soot and inorganic dust"
+    ],
+    "wrongAnswers": [
+      "Primarily inorganic minerals and rock particles",
+      "Mostly living microorganisms and bacteria",
+      "Primarily volcanic ash and seafloor sediment",
+      "Mostly zooplankton and krill",
+      "Primarily dissolved salts precipitating out of water",
+      "Mostly diatom shells and silica",
+      "Primarily fish scales and bones"
+    ],
+    "funFact": "A single teaspoon of marine snow can contain tens of thousands of bacteria and hundreds of tiny zooplankton. Because it is so nutritious and slow-sinking, marine snow supports entire ecosystems of filter feeders — from sea cucumbers and brittle stars to sponges and tube worms — on the abyssal plain."
+  },
+  {
+    "id": "deep_sea_014",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_fish",
+    "difficulty": "hard",
+    "question": "The earliest known trace fossils of deep-sea fish are attributed to which ichnogenera (trace fossil genera)?",
+    "correctAnswers": [
+      "Piscichnus and Undichna"
+    ],
+    "wrongAnswers": [
+      "Planolites and Skolithos",
+      "Ophiomorpha and Thalassinoides",
+      "Chondrites and Zoophycos",
+      "Helminthopsis and Nereites",
+      "Palaeophycus and Arenicolites",
+      "Rosselia and Conichnus",
+      "Diplocraterion and Rhizocorallium"
+    ],
+    "funFact": "Piscichnus trace fossils look like shallow pits or scrapes left by fish snouts rooting through soft sediment, while Undichna are sinuous grooves made by fins brushing the seafloor. Palaeontologists use these trace fossils to reconstruct ancient fish behaviour even when no body fossils are preserved nearby."
+  },
+  {
+    "id": "deep_sea_015",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_community",
+    "difficulty": "easy",
+    "question": "What are the three main sources of energy and nutrients for deep-sea communities?",
+    "correctAnswers": [
+      "Marine snow, whale falls, and chemosynthesis at hydrothermal vents and cold seeps"
+    ],
+    "wrongAnswers": [
+      "Sunlight, tidal currents, and volcanic activity",
+      "Photosynthesis, marine snow, and cold seeps",
+      "Whale falls, tidal energy, and marine snow",
+      "Hydrothermal vents, sunlight, and phytoplankton",
+      "Chemosynthesis, photosynthesis, and marine snow",
+      "Tectonic activity, marine snow, and bioluminescence",
+      "Cold seeps, coral reefs, and ocean currents"
+    ],
+    "funFact": "A single whale carcass — a 'whale fall' — can sustain a unique deep-sea community for decades, passing through distinct ecological stages as different specialist organisms strip, sulfide-oxidize, and finally mineralise the bones. Some species, such as the bone-eating worm Osedax, are found nowhere else in the ocean."
+  },
+  {
+    "id": "deep_sea_016",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_community",
+    "difficulty": "easy",
+    "question": "In the 1870s, which expedition first discovered many deep-sea creatures of widely varying types?",
+    "correctAnswers": [
+      "The Challenger expedition"
+    ],
+    "wrongAnswers": [
+      "The Beagle expedition",
+      "The Discovery expedition",
+      "The Fram expedition",
+      "The Vityaz expedition",
+      "The Galathea expedition",
+      "The Terra Nova expedition",
+      "The Endeavour expedition",
+      "The Atlantis expedition",
+      "The Nautilus expedition"
+    ],
+    "funFact": "The HMS Challenger sailed nearly 70,000 nautical miles over three and a half years, collecting specimens from depths down to 8,180 m. The data it gathered filled 50 volumes and took 19 years to publish — founding modern oceanography and giving the world's deepest point its name."
+  },
+  {
+    "id": "deep_sea_017",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_community",
+    "difficulty": "medium",
+    "question": "Who first witnessed dense chemosynthetic clam beds at hydrothermal vents on February 17, 1977, from the submersible DSV Alvin?",
+    "correctAnswers": [
+      "J. Corliss and J. van Andel"
+    ],
+    "wrongAnswers": [
+      "Don Walsh and Jacques Piccard",
+      "Robert Ballard and Fred Spiess",
+      "Charles Wyville Thomson and John Murray",
+      "William Beebe and Otis Barton",
+      "Jacques Cousteau and Albert Falco",
+      "Sylvia Earle and Graham Hawkes",
+      "Emory Kristof and Al Giddings",
+      "Bob Vrijenhoek and Cindy Van Dover"
+    ],
+    "funFact": "The discovery of the first hydrothermal vent community in 1977 completely upended biology — until then, it was assumed all food chains ultimately depended on sunlight. The Galapagos Rift vents showed that entire ecosystems could run entirely on chemical energy, raising the possibility of life on icy ocean moons like Europa."
+  },
+  {
+    "id": "deep_sea_018",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_community",
+    "difficulty": "medium",
+    "question": "What percentage of the ocean floor have humans explored, according to deep-sea research statistics?",
+    "correctAnswers": [
+      "Less than 4%"
+    ],
+    "wrongAnswers": [
+      "Less than 10%",
+      "About 20%",
+      "Less than 1%",
+      "About 15%",
+      "Less than 25%",
+      "About 50%",
+      "Less than 30%",
+      "About 5%"
+    ],
+    "funFact": "The ocean floor covers more than 360 million square kilometres — an area larger than all of Earth's land combined. Even with remotely operated vehicles and autonomous underwater vehicles, mapping and sampling the deep sea progresses slowly because each dive covers only a tiny area."
+  },
+  {
+    "id": "deep_sea_019",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_community",
+    "difficulty": "medium",
+    "question": "In deep-sea pelagic ecosystems off California, a study between 1991 and 2016 found how many unique feeding relationships among 166 species?",
+    "correctAnswers": [
+      "242"
+    ],
+    "wrongAnswers": [
+      "142",
+      "312",
+      "198",
+      "275",
+      "189",
+      "350",
+      "420",
+      "165",
+      "300"
+    ],
+    "funFact": "The 242 feeding links found among 166 species in the California deep-sea food web rival the complexity of well-studied terrestrial ecosystems like rainforests. This complexity provides resilience — if one prey species declines, predators can shift to other food sources, stabilising the whole community."
+  },
+  {
+    "id": "deep_sea_020",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_community",
+    "difficulty": "hard",
+    "question": "In the Californian deep-sea pelagic food web, which groups of organisms consumed the greatest diversity of prey (in decreasing order)?",
+    "correctAnswers": [
+      "Narcomedusae, siphonophores (family Physonectae), ctenophores, and cephalopods"
+    ],
+    "wrongAnswers": [
+      "Anglerfish, viperfish, dragonfish, and gulper eels",
+      "Crustaceans, cephalopods, gelatinous zooplankton, and deep-sea fish",
+      "Siphonophores, ctenophores, polychaetes, and amphipods",
+      "Cephalopods, deep-sea fish, crustaceans, and cnidarians",
+      "Lanternfish, myctophids, bristlemouths, and hatchetfish"
+    ],
+    "funFact": "Narcomedusae are a group of jellyfish that have no medusa juvenile stage — they hatch as fully formed adults — and are fierce predators that consume other gelatinous animals including other jellyfish. Siphonophores can grow to be the longest animals on Earth, with some colonies exceeding 40 metres in length."
+  },
+  {
+    "id": "deep_sea_021",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_community",
+    "difficulty": "hard",
+    "question": "The first recordings of the depth of Challenger Deep were made on which date in 1875, and what was the reported depth?",
+    "correctAnswers": [
+      "23 March 1875; 4,475 fathoms (8,184 meters)"
+    ],
+    "wrongAnswers": [
+      "17 February 1977; 4,800 fathoms (8,780 meters)",
+      "15 January 1875; 4,000 fathoms (7,315 meters)",
+      "3 March 1875; 5,000 fathoms (9,144 meters)",
+      "12 April 1875; 4,200 fathoms (7,681 meters)",
+      "28 October 1874; 4,600 fathoms (8,412 meters)",
+      "1 June 1875; 3,900 fathoms (7,132 meters)",
+      "10 December 1875; 5,100 fathoms (9,327 meters)"
+    ],
+    "funFact": "The HMS Challenger's 1875 sounding of Challenger Deep used a weighted hemp rope and took hours to reach the bottom — a stark contrast to modern multibeam sonar that can map thousands of square kilometres per day. The reported depth of 4,475 fathoms was remarkably close to modern laser-accurate measurements of around 10,935 m."
+  },
+  {
+    "id": "deep_sea_022",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_exploration",
+    "difficulty": "easy",
+    "question": "Who is credited with beginning scientific deep-sea exploration by calculating the average depth of the Atlantic Ocean from tidal observations in the late 18th or early 19th century?",
+    "correctAnswers": [
+      "Pierre-Simon Laplace"
+    ],
+    "wrongAnswers": [
+      "Ferdinand Magellan",
+      "Charles Wyville Thomson",
+      "Edward Forbes",
+      "James Clark Ross",
+      "John Murray",
+      "Antoine Risso",
+      "Michael Sars",
+      "Jacques Piccard",
+      "William Beebe"
+    ],
+    "funFact": "Pierre-Simon Laplace calculated the ocean's average depth purely from mathematical analysis of tidal observations — without ever visiting the ocean floor. His estimate of roughly 3,962 m matched later echo-sounding measurements so closely that it stands as one of the most remarkable theoretical predictions in the history of Earth science."
+  },
+  {
+    "id": "deep_sea_023",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_exploration",
+    "difficulty": "easy",
+    "question": "What year did Ferdinand Magellan attempt to measure the depth of the Pacific Ocean with a weighted line?",
+    "correctAnswers": [
+      "1521"
+    ],
+    "wrongAnswers": [
+      "1492",
+      "1600",
+      "1543",
+      "1580",
+      "1510",
+      "1650",
+      "1400",
+      "1700",
+      "1450"
+    ],
+    "funFact": "Magellan's attempt to measure Pacific depth in 1521 used a weighted line that was only about 800 feet long — not nearly long enough to reach the bottom, which averages over 4,000 m. He concluded the ocean was 'unfathomable', a word that entered everyday language from this very tradition of failed depth measurements."
+  },
+  {
+    "id": "deep_sea_024",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_exploration",
+    "difficulty": "medium",
+    "question": "Edward Forbes claimed in 1843 that no life could exist below what depth, a concept known as the 'Abyssus theory'?",
+    "correctAnswers": [
+      "550 m (1,804 ft)"
+    ],
+    "wrongAnswers": [
+      "200 m (656 ft)",
+      "1,000 m (3,280 ft)",
+      "300 m (984 ft)",
+      "800 m (2,625 ft)",
+      "400 m (1,312 ft)",
+      "750 m (2,460 ft)",
+      "1,500 m (4,920 ft)",
+      "100 m (328 ft)",
+      "600 m (1,968 ft)"
+    ],
+    "funFact": "Forbes' 'Azoic theory' was disproven just a few years after he proposed it when telegraph cable hauled up from 1,800 m off Sardinia was found covered in corals and worms. The irony is that Forbes himself had found animals deeper than 550 m — he simply dismissed those samples as contaminated."
+  },
+  {
+    "id": "deep_sea_025",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_exploration",
+    "difficulty": "medium",
+    "question": "What depth did Pierre-Simon Laplace calculate for the average depth of the Atlantic Ocean, a value later proven accurate by echo-sounding?",
+    "correctAnswers": [
+      "3,962 metres (12,999 ft)"
+    ],
+    "wrongAnswers": [
+      "2,500 metres (8,202 ft)",
+      "4,500 metres (14,764 ft)",
+      "3,000 metres (9,843 ft)",
+      "5,000 metres (16,404 ft)",
+      "3,500 metres (11,483 ft)",
+      "4,000 metres (13,123 ft)",
+      "2,000 metres (6,562 ft)",
+      "4,200 metres (13,780 ft)"
+    ],
+    "funFact": "Laplace derived his ocean depth estimate from the speed and timing of tidal waves crossing ocean basins — a method that relies on the relationship between water depth and wave velocity. The fact that this indirect calculation matched later physical measurements within a few percent is a tribute to the power of mathematical modelling."
+  },
+  {
+    "id": "deep_sea_026",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_exploration",
+    "difficulty": "medium",
+    "question": "In 1818, Sir John Ross discovered deep-sea life by catching jellyfish and worms at approximately what depth?",
+    "correctAnswers": [
+      "About 2,000 m (6,562 ft)"
+    ],
+    "wrongAnswers": [
+      "About 500 m (1,640 ft)",
+      "About 4,000 m (13,123 ft)",
+      "About 1,000 m (3,280 ft)",
+      "About 800 m (2,625 ft)",
+      "About 3,000 m (9,843 ft)",
+      "About 1,500 m (4,921 ft)",
+      "About 300 m (984 ft)",
+      "About 2,500 m (8,202 ft)"
+    ],
+    "funFact": "John Ross used a custom 'deep-sea clam' sampling device to retrieve creatures from nearly 2 km down — decades before the Challenger expedition. His samples showed that sea stars, worms, and jellyfish could survive conditions then thought fatal to all life, quietly foreshadowing the revolution that would follow."
+  },
+  {
+    "id": "deep_sea_027",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_exploration",
+    "difficulty": "hard",
+    "question": "The gravity corer can penetrate the seabed to what maximum depth when deployed?",
+    "correctAnswers": [
+      "Up to 10 m (33 ft)"
+    ],
+    "wrongAnswers": [
+      "Up to 1 m (3.3 ft)",
+      "Up to 50 m (164 ft)",
+      "Up to 5 m (16 ft)",
+      "Up to 20 m (66 ft)",
+      "Up to 2 m (6.6 ft)",
+      "Up to 100 m (328 ft)",
+      "Up to 30 m (98 ft)",
+      "Up to 3 m (10 ft)"
+    ],
+    "funFact": "A gravity corer is dropped freely from a ship and driven into the seafloor by its own weight, recovering a cylindrical plug of sediment that can preserve hundreds of thousands of years of layered history. Scientists read these cores like tree rings — each layer revealing past climate, ocean chemistry, and biological activity."
+  },
+  {
+    "id": "deep_sea_028",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_exploration",
+    "difficulty": "hard",
+    "question": "Antoine Risso described and named dozens of fish and crustacean species collected at depths of 600 to 1,000 m in the Gulf of Genoa. In which city was Risso an apothecary?",
+    "correctAnswers": [
+      "Nice (then part of the Duchy of Savoy)"
+    ],
+    "wrongAnswers": [
+      "Genoa",
+      "Marseille",
+      "Monaco",
+      "Turin",
+      "Lyon",
+      "Florence",
+      "Toulon",
+      "Livorno",
+      "Naples"
+    ],
+    "funFact": "Antoine Risso described more than 70 species new to science from his fishermen's catches in the Gulf of Genoa, working as an apothecary rather than a professional naturalist. Many of the species he described — including the bluntnose sixgill shark — are still valid today and bear his name in their scientific epithets."
+  },
+  {
+    "id": "deep_sea_029",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_gigantism",
+    "difficulty": "easy",
+    "question": "What is the term for the tendency of deep-sea animals to be larger than their shallower-water relatives?",
+    "correctAnswers": [
+      "Deep-sea gigantism (or abyssal gigantism)"
+    ],
+    "wrongAnswers": [
+      "Island gigantism",
+      "Polar gigantism",
+      "Benthic gigantism",
+      "Hadal gigantism",
+      "Oceanic gigantism",
+      "Mesopelagic gigantism",
+      "Abyssal dwarfism",
+      "Marine gigantism",
+      "Pelagic gigantism"
+    ],
+    "funFact": "Deep-sea gigantism is not universal — some groups show the opposite trend of dwarfism at depth — and scientists still debate which combination of cold temperature, scarce food, high pressure, and low predation is most responsible. The phenomenon mirrors Bergmann's Rule in terrestrial animals, where colder environments tend to favour larger body sizes."
+  },
+  {
+    "id": "deep_sea_030",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_gigantism",
+    "difficulty": "easy",
+    "question": "Which squid species can reach up to 14 m in length and is the largest known squid, representing a famous example of deep-sea gigantism?",
+    "correctAnswers": [
+      "Colossal squid"
+    ],
+    "wrongAnswers": [
+      "Giant squid",
+      "Humboldt squid",
+      "Dana octopus squid",
+      "Robust clubhook squid",
+      "Cockatoo squid",
+      "Megalocranchia fisheri",
+      "Pacific flying squid",
+      "Firefly squid",
+      "Bigfin reef squid"
+    ],
+    "funFact": "The colossal squid (Mesonychoteuthis hamiltoni) has the largest eyes of any animal ever recorded — up to 27 cm in diameter, roughly the size of a dinner plate. These enormous eyes help it detect the faint bioluminescent flashes produced by sperm whales and other predators approaching in the darkness."
+  },
+  {
+    "id": "deep_sea_031",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_gigantism",
+    "difficulty": "medium",
+    "question": "Which four proposed explanations account for deep-sea gigantism in zoology?",
+    "correctAnswers": [
+      "Adaptation to colder temperature, food scarcity, reduced predation pressure, and increased dissolved oxygen"
+    ],
+    "wrongAnswers": [
+      "High pressure, darkness, slow metabolism, and reduced competition",
+      "Low salinity, high pressure, darkness, and bioluminescence",
+      "Reduced predation, low light, high pressure, and low temperature only",
+      "Food abundance, slow metabolism, reduced competition, and bioluminescence",
+      "Isolation, low gravity, darkness, and high mineral content"
+    ],
+    "funFact": "Reduced predation pressure in the deep sea means animals can afford to grow slowly over long lifespans instead of reproducing quickly at a small size. The giant isopod Bathynomus giganteus, which can reach 50 cm, can survive for years without food — going into a state of torpor between rare meals."
+  },
+  {
+    "id": "deep_sea_032",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_gigantism",
+    "difficulty": "medium",
+    "question": "In which taxonomic groups of marine crustaceans has the trend of increasing size with depth been observed?",
+    "correctAnswers": [
+      "Mysids, euphausiids, decapods, isopods, ostracods, and amphipods"
+    ],
+    "wrongAnswers": [
+      "Barnacles, crabs, shrimp, lobsters, and copepods",
+      "Copepods, barnacles, krill, and mantis shrimp",
+      "Isopods, amphipods, barnacles, and copepods",
+      "Decapods, crabs, lobsters, and shrimp only",
+      "Euphausiids, amphipods, crabs, and mantis shrimp"
+    ],
+    "funFact": "Among amphipods, the deep-sea genus Alicella has species that are over 30 times larger than closely related shallow-water relatives. A single specimen of Alicella gigantea caught in the Pacific measured 34 cm — large enough to comfortably hold in two cupped hands."
+  },
+  {
+    "id": "deep_sea_033",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_gigantism",
+    "difficulty": "medium",
+    "question": "According to climate change predictions, what would happen to thermohaline circulation if global warming creates a warmer ocean state, affecting deep-sea gigantism?",
+    "correctAnswers": [
+      "It would no longer maintain an oxygen-rich deep sea, leading to deep water becoming higher in temperature and salinity"
+    ],
+    "wrongAnswers": [
+      "It would accelerate, bringing more oxygen to deep-sea environments",
+      "It would create stronger currents and bring more nutrients to the deep sea",
+      "It would reverse direction and cool the deep sea further",
+      "It would stop entirely, freezing the deep ocean",
+      "It would increase dissolved oxygen levels through greater mixing"
+    ],
+    "funFact": "Thermohaline circulation drives cold, oxygen-rich water from the poles down into the deep ocean, ventilating the abyss and allowing gigantic aerobic animals to survive. Climate models suggest that sustained surface warming could weaken or halt this 'ocean conveyor belt', potentially transforming the deep sea into an oxygen-depleted dead zone."
+  },
+  {
+    "id": "deep_sea_034",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_gigantism",
+    "difficulty": "hard",
+    "question": "Henry Nottidge Moseley wrote in 1880 about dredging a gigantic isopod. What was the reported length of the giant isopod dredged by Louis Agassiz that he mentioned?",
+    "correctAnswers": [
+      "11 inches (28 centimetres)"
+    ],
+    "wrongAnswers": [
+      "6 inches (15 centimetres)",
+      "18 inches (46 centimetres)",
+      "24 inches (61 centimetres)",
+      "8 inches (20 centimetres)",
+      "14 inches (36 centimetres)",
+      "3 inches (8 centimetres)",
+      "20 inches (51 centimetres)",
+      "30 inches (76 centimetres)"
+    ],
+    "funFact": "Giant isopods are sometimes called 'the roly-polies of the sea' because they are related to the common pill bug found in gardens. When threatened, they can roll into a tight ball — their heavily armoured exoskeleton providing protection even at crushing abyssal pressures."
+  },
+  {
+    "id": "deep_sea_035",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_deep_sea_gigantism",
+    "difficulty": "hard",
+    "question": "Which non-arthropod groups have been observed to exhibit deep-sea gigantism?",
+    "correctAnswers": [
+      "Cephalopods, cnidarians, and eels from the order Anguilliformes"
+    ],
+    "wrongAnswers": [
+      "Fish, polychaetes, and echinoderms",
+      "Molluscs, sponges, and tunicates",
+      "Cephalopods, sea cucumbers, and starfish",
+      "Jellyfish, polychaetes, and fish",
+      "Cnidarians, echinoderms, and cephalopods",
+      "Bivalves, gastropods, and cephalopods",
+      "Eels, sharks, and rays"
+    ],
+    "funFact": "The giant squid (Architeuthis dux) was considered a sea-monster myth until the 19th century when specimens began washing ashore. It was not photographed alive in its natural deep-sea habitat until 2004, and not filmed in the wild until 2012 — making it one of the last large animals to be documented alive."
+  },
+  {
+    "id": "deep_sea_036",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_abyssal_zone",
+    "difficulty": "easy",
+    "question": "What depth range defines the abyssal zone?",
+    "correctAnswers": [
+      "4,000–6,000 m"
+    ],
+    "wrongAnswers": [
+      "1,000–3,000 m",
+      "2,000–4,000 m",
+      "6,000–8,000 m",
+      "200–1,000 m",
+      "3,000–5,000 m",
+      "7,000–10,000 m",
+      "500–2,000 m",
+      "8,000–11,000 m"
+    ],
+    "funFact": "The abyssal zone receives less than 1% of the organic material produced at the ocean's sunlit surface — the rest is consumed or decomposed during the long descent. Despite this extreme food scarcity, the abyssal plain supports a surprisingly diverse community of sea cucumbers, polychaete worms, and foraminifera."
+  },
+  {
+    "id": "deep_sea_037",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_abyssal_zone",
+    "difficulty": "easy",
+    "question": "What percentage of the total ocean area does the abyssal zone cover?",
+    "correctAnswers": [
+      "83%"
+    ],
+    "wrongAnswers": [
+      "60%",
+      "70%",
+      "50%",
+      "75%",
+      "90%",
+      "45%",
+      "65%",
+      "55%"
+    ],
+    "funFact": "The abyssal zone is Earth's largest continuous ecosystem, yet it remains one of the least explored habitats on the planet. Scientists estimate that millions of species live there that have never been seen or named by humans."
+  },
+  {
+    "id": "deep_sea_038",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_abyssal_zone",
+    "difficulty": "medium",
+    "question": "What is the approximate temperature range throughout most of the abyssal zone?",
+    "correctAnswers": [
+      "2–3 °C"
+    ],
+    "wrongAnswers": [
+      "0–1 °C",
+      "4–6 °C",
+      "5–10 °C",
+      "−2–0 °C",
+      "7–9 °C",
+      "1–4 °C",
+      "10–15 °C",
+      "−5–−2 °C"
+    ],
+    "funFact": "The near-freezing temperatures of the abyssal zone slow metabolic rates so dramatically that some deep-sea animals live for centuries. Ocean quahog clams have been found in the deep sea with growth rings indicating ages of over 500 years."
+  },
+  {
+    "id": "deep_sea_039",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_abyssal_zone",
+    "difficulty": "medium",
+    "question": "What is the primary food source for most organisms living in the abyssal zone?",
+    "correctAnswers": [
+      "Marine snow (organic particles falling from upper ocean layers)"
+    ],
+    "wrongAnswers": [
+      "Hydrothermal vent minerals",
+      "Chemosynthetic algae",
+      "Bioluminescent prey",
+      "Phytoplankton grown in situ",
+      "Dissolved organic carbon filtered from seawater",
+      "Manganese nodules",
+      "Silt and sediment particles",
+      "Bacterial mats on the seafloor"
+    ],
+    "funFact": "Marine snow is so important to the abyssal food web that scientists have found distinct 'hotspots' of biodiversity directly beneath productive surface waters, where the rain of organic particles is richest. Areas beneath equatorial upwelling zones can support ten times more seafloor life per square metre than the surrounding abyss."
+  },
+  {
+    "id": "deep_sea_040",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_abyssal_zone",
+    "difficulty": "hard",
+    "question": "At depths greater than 4,000 m in the abyssal zone, what materials primarily make up the seafloor after shells dissolve?",
+    "correctAnswers": [
+      "Brown clay and silica"
+    ],
+    "wrongAnswers": [
+      "Calcareous ooze and chalk",
+      "Manganese nodules and iron oxide",
+      "Sandstone and limestone",
+      "Foraminifera shells and calcium carbonate",
+      "Basalt and obsidian",
+      "White clay and quartz",
+      "Gypsum and anhydrite",
+      "Organic carbon and sulfur compounds"
+    ],
+    "funFact": "Calcium carbonate shells dissolve below the carbonate compensation depth (CCD), which lies at roughly 4,000–5,000 m in the ocean. Below this depth the seafloor is made of brown abyssal clay and silica from radiolarian or diatom skeletons — the only biomineral that survives the extreme pressure and cold."
+  },
+  {
+    "id": "deep_sea_041",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_abyssal_zone",
+    "difficulty": "hard",
+    "question": "The Greek word 'ábussos', from which 'abyssal' is derived, means what?",
+    "correctAnswers": [
+      "Bottomless"
+    ],
+    "wrongAnswers": [
+      "Darkness",
+      "Depth",
+      "Pressure",
+      "Without light",
+      "Cold abyss",
+      "Deep water",
+      "Unknown",
+      "Void"
+    ],
+    "funFact": "In ancient Greek cosmology, the abyss was a primordial void that existed before creation — a concept adopted by early Christian writers and later by ocean scientists to describe the seemingly bottomless deep. The word lives on in everyday English in 'abysmal', which originally meant 'of immeasurable depth' before acquiring its modern sense of 'extremely bad'."
+  },
+  {
+    "id": "deep_sea_042",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_abyssal_plain",
+    "difficulty": "easy",
+    "question": "What percentage of Earth's surface is covered by abyssal plains?",
+    "correctAnswers": [
+      "More than 50%"
+    ],
+    "wrongAnswers": [
+      "About 30%",
+      "About 40%",
+      "About 20%",
+      "About 70%",
+      "About 15%",
+      "About 80%",
+      "About 25%",
+      "About 60%"
+    ],
+    "funFact": "Abyssal plains are the flattest surfaces on Earth — flatter than the Great Plains of North America or the Siberian steppe — because millennia of fine sediment deposition have smothered the rugged volcanic topography underneath. In some regions, sediment layers are several kilometres thick."
+  },
+  {
+    "id": "deep_sea_043",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_abyssal_plain",
+    "difficulty": "easy",
+    "question": "Abyssal plains are generally found between which two oceanic features?",
+    "correctAnswers": [
+      "The foot of a continental rise and a mid-ocean ridge"
+    ],
+    "wrongAnswers": [
+      "A submarine canyon and a seamount",
+      "A continental shelf and a trench",
+      "A mid-ocean ridge and a volcanic island arc",
+      "An abyssal hill range and a continental shelf",
+      "A trench and a mid-ocean ridge",
+      "A coral reef and a continental slope",
+      "An ocean island and a continental margin",
+      "A seamount chain and a continental rise"
+    ],
+    "funFact": "Abyssal plains act as giant sediment traps, collecting fine particles that drift or cascade down from continental margins over millions of years. Because they are so geologically stable and remote, they are sometimes proposed as repositories for carbon sequestration or long-term waste storage — though these ideas remain highly controversial."
+  },
+  {
+    "id": "deep_sea_044",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_abyssal_plain",
+    "difficulty": "medium",
+    "question": "What process creates the flat surface of abyssal plains by covering uneven oceanic crust?",
+    "correctAnswers": [
+      "Deposition of fine-grained sediments (mainly clay and silt)"
+    ],
+    "wrongAnswers": [
+      "Lava flows from mid-ocean ridge eruptions",
+      "Gradual erosion by deep-water currents",
+      "Compaction of hydrothermal vent deposits",
+      "Accumulation of marine snow over millions of years",
+      "Plate tectonic compression of the seafloor",
+      "Chemical precipitation of calcium carbonate",
+      "Deposition of manganese nodule fields",
+      "Erosion by turbidity currents"
+    ],
+    "funFact": "The fine clay and silt that blankets abyssal plains accumulates at a rate of only a few millimetres per thousand years — so slowly that a layer just one centimetre thick can represent 10,000 years of Earth history. These sediments serve as an archive of past ocean chemistry and climate."
+  },
+  {
+    "id": "deep_sea_045",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_abyssal_plain",
+    "difficulty": "medium",
+    "question": "Which historic scientific expedition (1872–1876) gathered landmark bathymetric data that helped define the abyssal plain?",
+    "correctAnswers": [
+      "HMS Challenger expedition"
+    ],
+    "wrongAnswers": [
+      "HMS Beagle voyage",
+      "Discovery expedition",
+      "USS Albatross survey",
+      "RV Atlantis cruise",
+      "HMS Endeavour voyage",
+      "RRS Discovery expedition",
+      "SS Great Eastern survey",
+      "HMS Resolution voyage"
+    ],
+    "funFact": "The HMS Challenger expedition is considered the birth of modern oceanography. Its scientists were the first to systematically measure depth, temperature, currents, and biological life across all the world's major ocean basins — establishing that the deep sea is not a featureless, lifeless void."
+  },
+  {
+    "id": "deep_sea_046",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_abyssal_plain",
+    "difficulty": "hard",
+    "question": "What geologic process is primarily responsible for the creation of oceanic crust at mid-ocean ridges, which underlies abyssal plains?",
+    "correctAnswers": [
+      "Decompression melting"
+    ],
+    "wrongAnswers": [
+      "Subduction melting",
+      "Frictional heating",
+      "Hydrothermal alteration",
+      "Conductive cooling of the mantle",
+      "Plate collision and metamorphism",
+      "Serpentinization of peridotite",
+      "Magmatic intrusion from the core",
+      "Radioactive decay heating"
+    ],
+    "funFact": "Decompression melting occurs when the mantle rises at mid-ocean ridges and the decrease in pressure allows it to melt without any increase in temperature. This process generates the basaltic oceanic crust that underlies the entire deep ocean — and is the same mechanism responsible for Iceland's volcanic activity above sea level."
+  },
+  {
+    "id": "deep_sea_047",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_abyssal_plain",
+    "difficulty": "hard",
+    "question": "Much of the sediment that blankets abyssal plains is transported there by what mechanism?",
+    "correctAnswers": [
+      "Turbidity currents channelled through submarine canyons"
+    ],
+    "wrongAnswers": [
+      "Surface ocean gyres depositing material offshore",
+      "Hydrothermal plume fallout from vent fields",
+      "Wind-blown dust settling directly from the atmosphere",
+      "Ice-rafted debris from glacial calving",
+      "Submarine landslides along continental margins",
+      "River outflows reaching deep water via surface transport",
+      "Biological pumping by deep-diving marine mammals",
+      "Erosion of mid-ocean ridge flanks"
+    ],
+    "funFact": "Turbidity currents are underwater avalanches of sediment-laden water that can travel at speeds exceeding 70 km/h and carry enough material to bury hundreds of kilometres of seafloor in hours. The 1929 Grand Banks earthquake triggered a turbidity current that snapped telegraph cables across the North Atlantic in sequence, giving scientists their first measurement of how fast these flows move."
+  },
+  {
+    "id": "deep_sea_048",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_hadal_zone",
+    "difficulty": "easy",
+    "question": "What is the depth range of the hadal zone?",
+    "correctAnswers": [
+      "6 to 11 km below sea level"
+    ],
+    "wrongAnswers": [
+      "3 to 6 km below sea level",
+      "4 to 8 km below sea level",
+      "8 to 12 km below sea level",
+      "2 to 5 km below sea level",
+      "5 to 9 km below sea level",
+      "1 to 4 km below sea level",
+      "7 to 13 km below sea level",
+      "0.5 to 3 km below sea level"
+    ],
+    "funFact": "The pressure at 11 km depth in the hadal zone is more than 1,100 times atmospheric pressure at sea level — equivalent to having 50 jumbo jets stacked on top of every square metre of your body. Despite this, specially adapted amphipods, sea cucumbers, and bacteria thrive at the very bottom of oceanic trenches."
+  },
+  {
+    "id": "deep_sea_049",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_hadal_zone",
+    "difficulty": "easy",
+    "question": "The name 'hadal zone' is derived from which ancient Greek figure?",
+    "correctAnswers": [
+      "Hades, the god of the underworld"
+    ],
+    "wrongAnswers": [
+      "Poseidon, the god of the sea",
+      "Chronos, the god of time",
+      "Tartarus, the god of the abyss",
+      "Oceanus, the god of the ocean",
+      "Zeus, the king of the gods",
+      "Atlas, the titan who held up the sky",
+      "Proteus, the old man of the sea",
+      "Triton, the messenger of the sea"
+    ],
+    "funFact": "In Greek mythology, Hades was not only the god of the underworld but also its ruler and name — making it fitting that the deepest, most inaccessible part of the ocean bears his name. The hadal zone is sometimes called the 'full ocean depth' environment in engineering contexts, because reaching it requires the most demanding underwater technology ever built."
+  },
+  {
+    "id": "deep_sea_050",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_hadal_zone",
+    "difficulty": "medium",
+    "question": "Who first proposed the term 'hadal' in 1956 to describe ocean depths below 6,000 m?",
+    "correctAnswers": [
+      "Anton Frederik Bruun"
+    ],
+    "wrongAnswers": [
+      "Jacques Cousteau",
+      "Sylvia Earle",
+      "Charles Wyville Thomson",
+      "Robert Ballard",
+      "Don Walsh",
+      "Hans Hass",
+      "William Beebe",
+      "Otis Barton"
+    ],
+    "funFact": "Anton Frederik Bruun was the chief scientist on the Galathea Deep Sea Expedition (1950–1952), which dredged life from the Philippine Trench at more than 10,000 m — shattering the last vestiges of Forbes' azoic theory. His proposal of 'hadal' gave oceanographers a formal name for the deepest 5% of ocean depth range."
+  },
+  {
+    "id": "deep_sea_051",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_hadal_zone",
+    "difficulty": "medium",
+    "question": "Although the hadal zone occupies less than 0.25% of the world's seafloor area, it accounts for what fraction of the ocean's total depth range?",
+    "correctAnswers": [
+      "Over 40%"
+    ],
+    "wrongAnswers": [
+      "About 10%",
+      "About 20%",
+      "About 30%",
+      "About 50%",
+      "About 60%",
+      "About 5%",
+      "About 15%",
+      "About 25%"
+    ],
+    "funFact": "Although hadal trenches are tiny in area, they compress an enormous range of pressures and environmental gradients into a very small space — making them natural laboratories for studying evolution under extreme conditions. Species found only in trenches often have unique biochemical adaptations, such as high concentrations of piezolytes that stabilise proteins under crushing pressure."
+  },
+  {
+    "id": "deep_sea_052",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_hadal_zone",
+    "difficulty": "hard",
+    "question": "What are the only known primary producers in the hadal zone, and what energy process do they use?",
+    "correctAnswers": [
+      "Certain bacteria that metabolize hydrogen, methane, or hydrogen sulfide via chemosynthesis (serpentinization reactions)"
+    ],
+    "wrongAnswers": [
+      "Bioluminescent algae that harvest chemical energy from thermal vents",
+      "Deep-sea phytoplankton using UV light that penetrates to these depths",
+      "Archaea that use radioactive decay products as energy",
+      "Symbiotic dinoflagellates living inside deep-sea corals",
+      "Manganese-oxidizing bacteria using nodule surfaces",
+      "Iron-reducing microbes that feed on oceanic crust minerals",
+      "Anaerobic cyanobacteria using chemiluminescence",
+      "Sulfate-reducing archaea using sediment organic matter"
+    ],
+    "funFact": "Chemosynthetic bacteria in the hadal zone can oxidise hydrogen produced by the reaction of seawater with olivine-rich rocks — a process called serpentinization that has operated for billions of years. Because serpentinization requires no sunlight, it has made hadal trenches a favourite analogue for the kind of life that might exist in the subsurface oceans of icy moons."
+  },
+  {
+    "id": "deep_sea_053",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_hadal_zone",
+    "difficulty": "hard",
+    "question": "Gigantism is a noted phenomenon in the hadal zone — which animals are examples of this, and which show the opposite phenomenon of dwarfism?",
+    "correctAnswers": [
+      "Gigantism in amphipods, mysids, and isopods; dwarfism in nematodes, copepods, and kinorhynchs"
+    ],
+    "wrongAnswers": [
+      "Gigantism in squid and eels; dwarfism in sea cucumbers and starfish",
+      "Gigantism in bivalves and polychaetes; dwarfism in crustaceans and gastropods",
+      "Gigantism in fish and cephalopods; dwarfism in amphipods and copepods",
+      "Gigantism in sea cucumbers and anemones; dwarfism in bivalves and worms",
+      "Gigantism in nematodes and copepods; dwarfism in mysids and isopods",
+      "Gigantism in gastropods and decapods; dwarfism in foraminifera and radiolarians",
+      "Gigantism in bacteria and archaea; dwarfism in metazoans",
+      "Gigantism in sea spiders and brittle stars; dwarfism in amphipods and mysids"
+    ],
+    "funFact": "Hadal amphipods of the genus Hirondellea have been collected at depths exceeding 10,000 m and are among the most pressure-tolerant animals known. Their cells contain high concentrations of trimethylamine oxide (TMAO), a piezolyte that counteracts the protein-distorting effects of extreme pressure — the same compound that gives some fish their characteristic 'fishy' smell."
+  },
+  {
+    "id": "deep_sea_054",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_oceanic_zone",
+    "difficulty": "easy",
+    "question": "At what water depth is the oceanic zone operationally considered to begin?",
+    "correctAnswers": [
+      "200 metres"
+    ],
+    "wrongAnswers": [
+      "100 metres",
+      "500 metres",
+      "1,000 metres",
+      "50 metres",
+      "300 metres",
+      "400 metres",
+      "750 metres",
+      "150 metres"
+    ],
+    "funFact": "The 200-metre mark where the oceanic zone begins corresponds roughly to the edge of the continental shelf — where the seabed drops away steeply and sunlight can no longer penetrate to the bottom. This boundary is one of the sharpest ecological transitions on Earth, with communities above and below it having very little species overlap."
+  },
+  {
+    "id": "deep_sea_055",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_oceanic_zone",
+    "difficulty": "easy",
+    "question": "The open ocean is vertically divided into four zones. Which of the following is NOT one of them?",
+    "correctAnswers": [
+      "Hadal zone"
+    ],
+    "wrongAnswers": [
+      "Sunlight zone",
+      "Twilight zone",
+      "Midnight zone",
+      "Abyssal zone"
+    ],
+    "funFact": "The four recognised vertical zones of the open ocean — epipelagic, mesopelagic, bathypelagic, and abyssopelagic — are defined primarily by light availability, temperature, and pressure. The hadal zone, while sometimes included informally in discussions of deep-sea zonation, is technically a distinct benthic environment associated specifically with ocean trenches rather than the open water column."
+  },
+  {
+    "id": "deep_sea_056",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_oceanic_zone",
+    "difficulty": "medium",
+    "question": "What percentage of the ocean lies in the Bathypelagic (aphotic) zone?",
+    "correctAnswers": [
+      "54%"
+    ],
+    "wrongAnswers": [
+      "30%",
+      "40%",
+      "20%",
+      "70%",
+      "60%",
+      "45%",
+      "65%",
+      "35%"
+    ],
+    "funFact": "The bathypelagic zone stretches from about 1,000 to 4,000 m and is in perpetual darkness, yet it teems with midwater fish, squid, and jellies. The vast volume of this zone means it contains the largest dark, cold, high-pressure habitat on the planet — and scientists believe many species living there are still undiscovered."
+  },
+  {
+    "id": "deep_sea_057",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_oceanic_zone",
+    "difficulty": "medium",
+    "question": "What colour is the bioluminescence most commonly produced by deep-ocean organisms?",
+    "correctAnswers": [
+      "Blue-green"
+    ],
+    "wrongAnswers": [
+      "Red",
+      "Yellow",
+      "White",
+      "Purple",
+      "Orange",
+      "Ultraviolet",
+      "Infrared",
+      "Cyan"
+    ],
+    "funFact": "Blue-green light travels farther through seawater than any other wavelength, so it makes evolutionary sense for deep-sea organisms to produce bioluminescence in that colour — it maximises the distance over which the signal can be detected. Some deep-sea dragonfish, however, produce red bioluminescence that most other species cannot see, giving them a private, 'night-vision' hunting channel."
+  },
+  {
+    "id": "deep_sea_058",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_oceanic_zone",
+    "difficulty": "hard",
+    "question": "What is the approximate pressure range in the Mesopelagic (disphotic) zone of the oceanic zone?",
+    "correctAnswers": [
+      "Up to 10,100 kilopascals (1,460 psi)"
+    ],
+    "wrongAnswers": [
+      "Up to 1,000 kilopascals (145 psi)",
+      "Up to 5,000 kilopascals (725 psi)",
+      "Up to 50,000 kilopascals (7,250 psi)",
+      "Up to 20,000 kilopascals (2,900 psi)",
+      "Up to 76,000 kilopascals (11,000 psi)",
+      "Up to 2,500 kilopascals (360 psi)",
+      "Up to 110,000 kilopascals (16,000 psi)",
+      "Up to 3,000 kilopascals (435 psi)"
+    ],
+    "funFact": "The pressure in the mesopelagic zone, while already extreme by human standards, is modest compared to the abyssal and hadal zones — yet it is enough to implode most unprotected air spaces. Fish living here have either lost their gas-filled swim bladders or replaced them with oil or fat-filled organs that compress without catastrophic failure."
+  },
+  {
+    "id": "deep_sea_059",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_oceanic_zone",
+    "difficulty": "hard",
+    "question": "Which organisms allow creatures like squids, tube worms, giant clams, and spider crabs to survive near hydrothermal vents in the oceanic zone?",
+    "correctAnswers": [
+      "Chemosynthetic bacteria"
+    ],
+    "wrongAnswers": [
+      "Bioluminescent dinoflagellates",
+      "Deep-sea phytoplankton",
+      "Photosynthetic archaea",
+      "Sulfur-oxidising cyanobacteria",
+      "Iron-oxidising proteobacteria feeding on ridge minerals",
+      "Nitrogen-fixing blue-green algae",
+      "Decomposing zooplankton releasing nutrients",
+      "Anaerobic methanogens from cold seeps"
+    ],
+    "funFact": "Chemosynthetic bacteria do not need sunlight — they extract energy by oxidising hydrogen sulfide, methane, or other chemicals venting from the seafloor. The discovery of this process revolutionised astrobiology: if life can thrive in complete darkness powered only by chemistry, similar ecosystems could exist beneath the icy shells of Europa or Enceladus."
+  },
+  {
+    "id": "deep_sea_060",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_aphotic_zone",
+    "difficulty": "easy",
+    "question": "The aphotic zone is formally defined as depths where less than what percentage of sunlight penetrates?",
+    "correctAnswers": [
+      "1 percent"
+    ],
+    "wrongAnswers": [
+      "5 percent",
+      "10 percent",
+      "0.1 percent",
+      "20 percent",
+      "2 percent",
+      "0.5 percent",
+      "15 percent",
+      "3 percent"
+    ],
+    "funFact": "The aphotic zone begins at only 200 m in clear tropical waters but can start much shallower in murky coastal seas where particles scatter light rapidly. Despite receiving no usable sunlight, the aphotic zone contains roughly 95% of the ocean's total volume — making perpetual darkness the default condition for most of Earth's liquid habitat."
+  },
+  {
+    "id": "deep_sea_061",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_aphotic_zone",
+    "difficulty": "easy",
+    "question": "Which famous deep-sea creature uses a bioluminescent lure protruding from its head to attract prey?",
+    "correctAnswers": [
+      "Anglerfish"
+    ],
+    "wrongAnswers": [
+      "Gulper eel",
+      "Giant squid",
+      "Vampire squid",
+      "Fangtooth fish",
+      "Viperfish",
+      "Hatchetfish",
+      "Lanternfish",
+      "Barreleye fish"
+    ],
+    "funFact": "Only female anglerfish possess the iconic bioluminescent lure — males are tiny parasites that fuse permanently to a female's body after finding her by scent. Once attached, a male's circulatory system merges with the female's, and he degenerates into little more than a sperm-producing appendage — the most extreme sexual dimorphism known in vertebrates."
+  },
+  {
+    "id": "deep_sea_062",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_aphotic_zone",
+    "difficulty": "medium",
+    "question": "What depth range does the mesopelagic zone span within the aphotic zone?",
+    "correctAnswers": [
+      "200 to 2,000 metres"
+    ],
+    "wrongAnswers": [
+      "100 to 1,000 metres",
+      "500 to 3,000 metres",
+      "0 to 200 metres",
+      "1,000 to 4,000 metres",
+      "200 to 1,000 metres",
+      "400 to 2,500 metres",
+      "2,000 to 4,000 metres",
+      "300 to 1,500 metres"
+    ],
+    "funFact": "The mesopelagic zone is sometimes called the 'twilight zone' because faint, diffuse light penetrates its upper reaches but fades to nothing by 1,000 m. This zone is home to some of the world's most abundant fish — including lanternfish and hatchetfish — which perform nightly mass migrations to the surface to feed."
+  },
+  {
+    "id": "deep_sea_063",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_aphotic_zone",
+    "difficulty": "medium",
+    "question": "What daily behaviour do millions of organisms in the aphotic zone perform after sunset?",
+    "correctAnswers": [
+      "They migrate upward to the epipelagic zone to feed on microorganisms"
+    ],
+    "wrongAnswers": [
+      "They descend to the hadal zone to escape predators",
+      "They emit bioluminescence to attract mates in the darkness",
+      "They cluster around hydrothermal vents to absorb warmth",
+      "They become dormant to conserve energy until dawn",
+      "They aggregate on the seafloor to feed on marine snow",
+      "They form shoals to deter predators from above",
+      "They swim horizontally along thermoclines to find warmer water",
+      "They expel ink clouds to confuse deep-sea predators"
+    ],
+    "funFact": "This daily vertical migration is the largest animal movement on Earth by biomass, involving trillions of individual organisms rising hundreds of metres every night and descending at dawn. By defecating in deep water after feeding at the surface, these migrants transport enormous quantities of carbon from the surface to the deep — a process called the 'biological pump' that helps regulate Earth's climate."
+  },
+  {
+    "id": "deep_sea_064",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_aphotic_zone",
+    "difficulty": "hard",
+    "question": "What is the average depth of the world's oceans, making the majority of the ocean part of the aphotic zone?",
+    "correctAnswers": [
+      "4,267 m (13,999 ft)"
+    ],
+    "wrongAnswers": [
+      "3,500 m (11,483 ft)",
+      "5,000 m (16,404 ft)",
+      "2,800 m (9,186 ft)",
+      "6,000 m (19,685 ft)",
+      "3,000 m (9,843 ft)",
+      "4,000 m (13,123 ft)",
+      "4,800 m (15,748 ft)",
+      "2,500 m (8,202 ft)"
+    ],
+    "funFact": "Because the average ocean depth is 4,267 m and significant sunlight penetrates only the top 200 m, more than 95% of the ocean's total volume lies in permanent darkness. This means the aphotic zone is, by volume, the single most abundant type of habitat on Earth — yet it is also the least studied."
+  },
+  {
+    "id": "deep_sea_065",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "sourceId": "src_aphotic_zone",
+    "difficulty": "hard",
+    "question": "What process can unexpectedly increase the concentration of phytoplankton in the aphotic zone, leading to underestimates of primary production in the zone above?",
+    "correctAnswers": [
+      "Convective mixing caused by cooling surface water sinking"
+    ],
+    "wrongAnswers": [
+      "Upwelling of deep nutrient-rich water driven by coastal winds",
+      "Tidal pumping forcing surface water downward",
+      "Storm-driven wave action mixing upper layers",
+      "Thermohaline circulation drawing organisms deeper",
+      "El Niño-driven warming reducing stratification",
+      "Submarine volcanic eruptions disturbing the water column",
+      "Internal wave breaking along density gradients",
+      "Langmuir circulation cells entraining phytoplankton"
+    ],
+    "funFact": "When cold surface water sinks during winter storms, it can carry phytoplankton deep into the aphotic zone — alive but unable to photosynthesise — where they remain preserved in the cold until they are mixed back up. Oceanographers who fail to account for this mixing can underestimate surface productivity by as much as 30%."
+  },
+  {
+    "id": "deep_sea_066",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy",
+    "question": "What is the benthic zone?",
+    "correctAnswers": [
+      "The ecological region at the lowest level of a body of water"
+    ],
+    "wrongAnswers": [
+      "The zone of open water far from shore",
+      "The sunlit surface layer of the ocean",
+      "The mid-water zone between surface and bottom",
+      "The zone where oceanic and continental plates meet",
+      "The tidal zone between high and low water marks",
+      "The pelagic zone above the thermocline",
+      "The zone of maximum salinity in the ocean"
+    ],
+    "sourceId": "src_benthic_zone",
+    "funFact": "The benthic zone is not limited to the deep ocean — it also encompasses the floors of lakes, rivers, and shallow coastal seas. In the deep ocean, however, benthic communities must survive without sunlight, under enormous pressure, and with only a trickle of food raining down from the sunlit surface far above."
+  },
+  {
+    "id": "deep_sea_067",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy",
+    "question": "What word, coined by Haeckel in 1891, describes organisms living in the benthic zone?",
+    "correctAnswers": [
+      "Benthos"
+    ],
+    "wrongAnswers": [
+      "Plankton",
+      "Nekton",
+      "Meroplankton",
+      "Neuston",
+      "Periphyton",
+      "Seston",
+      "Potamon",
+      "Rhithron"
+    ],
+    "sourceId": "src_benthic_zone",
+    "funFact": "Ernst Haeckel, who coined 'benthos' in 1891, also invented the term 'ecology' and produced extraordinarily detailed scientific illustrations of deep-sea organisms that still appear in popular science media today. His drawings of radiolarians, jellyfish, and siphonophores from the Challenger collections influenced Art Nouveau design at the turn of the 20th century."
+  },
+  {
+    "id": "deep_sea_068",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy",
+    "question": "Because light cannot reach deep ocean floors, what is the primary energy source sustaining deep benthic ecosystems?",
+    "correctAnswers": [
+      "Organic matter that drifts down from higher in the water column"
+    ],
+    "wrongAnswers": [
+      "Chemosynthesis from hydrothermal vents exclusively",
+      "Photosynthesis by bioluminescent organisms",
+      "Geothermal heat from the Earth's mantle",
+      "Radioactive decay of seafloor minerals",
+      "Tidal energy converted by benthic organisms",
+      "Solar radiation that penetrates through cracks in the ocean floor",
+      "Wind-driven currents that deliver nutrients"
+    ],
+    "sourceId": "src_benthic_zone",
+    "funFact": "The rain of organic matter reaching the deep ocean floor is so sparse that many benthic animals can go months or even years without a significant meal, surviving on bacterial films and each other. Some sea cucumbers essentially 'eat' the sediment itself, digesting the organic coating on each grain of clay and passing the inorganic residue out the other end."
+  },
+  {
+    "id": "deep_sea_069",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium",
+    "question": "The term 'benthos' is derived from which ancient language, meaning 'depth of the ocean'?",
+    "correctAnswers": [
+      "Ancient Greek"
+    ],
+    "wrongAnswers": [
+      "Latin",
+      "Arabic",
+      "Norse",
+      "Sanskrit",
+      "Ancient Egyptian",
+      "Old English",
+      "Proto-Germanic"
+    ],
+    "sourceId": "src_benthic_zone",
+    "funFact": "The Greek word 'benthos' (βένθος) referred to the depths of the sea in ancient poetry long before it was adopted by science. Homer used it in the Iliad to describe the unfathomable deep, making it one of the few scientific terms whose poetic pedigree predates its scientific use by over two millennia."
+  },
+  {
+    "id": "deep_sea_070",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium",
+    "question": "What fishing practice accounts for roughly 25% of global capture fisheries and is recognized as damaging benthic ecosystems?",
+    "correctAnswers": [
+      "Bottom trawling"
+    ],
+    "wrongAnswers": [
+      "Longline fishing",
+      "Purse seine netting",
+      "Gillnet fishing",
+      "Dynamite fishing",
+      "Dredge fishing",
+      "Trolling",
+      "Pole-and-line fishing",
+      "Midwater trawling"
+    ],
+    "sourceId": "src_benthic_zone",
+    "funFact": "Bottom trawl nets drag across the seafloor at speeds of 3–8 km/h, crushing corals, sponges, and other slow-growing organisms that may take decades or centuries to recover. Studies have found that heavily trawled areas can take 50 years or more to show biological recovery — and may never fully restore the original community structure."
+  },
+  {
+    "id": "deep_sea_071",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium",
+    "question": "Which of the following are examples of contact soil layers that form part of the benthic boundary?",
+    "correctAnswers": [
+      "Sand bottoms",
+      "Rocky outcrops",
+      "Coral",
+      "Bay mud"
+    ],
+    "wrongAnswers": [
+      "Thermocline currents",
+      "Pelagic gyres",
+      "Abyssal water masses",
+      "Surface foam layers",
+      "Haloclines",
+      "Bathypelagic pressure zones"
+    ],
+    "sourceId": "src_benthic_zone",
+    "funFact": "Each type of benthic substrate supports its own distinct community: rocky outcrops host sponges and sea fans anchored to hard surfaces, coral reefs shelter thousands of species in their three-dimensional architecture, and soft bay mud supports burrowing worms and clams that ventilate and enrich the sediment through bioturbation."
+  },
+  {
+    "id": "deep_sea_072",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard",
+    "question": "Bottom trawling disrupts benthic community structure by selectively removing large-bodied species. This results in a community dominated by which ecological strategy type?",
+    "correctAnswers": [
+      "r-selected species"
+    ],
+    "wrongAnswers": [
+      "K-selected species",
+      "Opportunistic colonists only",
+      "Chemosynthetic autotrophs",
+      "Epibenthic suspension feeders",
+      "Interstitial meiofauna",
+      "Deep-sea holothurians",
+      "Filter-feeding bivalves",
+      "Deposit-feeding polychaetes"
+    ],
+    "sourceId": "src_benthic_zone",
+    "funFact": "r-selected species — those that grow fast, reproduce early, and produce many offspring — can rapidly recolonise disturbed seafloor, but they create a far simpler and less productive ecosystem than the K-selected long-lived species they replace. The shift toward r-strategists after trawling is ecologically analogous to replacing an old-growth forest with fast-growing weeds."
+  },
+  {
+    "id": "deep_sea_073",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy",
+    "question": "Who piloted the Deepsea Challenger to the bottom of Challenger Deep in March 2012?",
+    "correctAnswers": [
+      "James Cameron"
+    ],
+    "wrongAnswers": [
+      "Jacques Piccard",
+      "Don Walsh",
+      "Victor Vescovo",
+      "Sylvia Earle",
+      "Robert Ballard",
+      "Hans Hass",
+      "William Beebe",
+      "Otis Barton"
+    ],
+    "sourceId": "src_deepsea_challenger",
+    "funFact": "James Cameron's solo dive to Challenger Deep in 2012 made him only the third person to reach the bottom, 52 years after the Trieste's historic descent. During his 3+ hours on the bottom he collected sediment and biological samples, and his footage revealed a barren, flat landscape of grey silt — no fish, but abundant microbial life."
+  },
+  {
+    "id": "deep_sea_074",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy",
+    "question": "How long did the Deepsea Challenger take to descend to the bottom of Challenger Deep?",
+    "correctAnswers": [
+      "Two hours and 36 minutes"
+    ],
+    "wrongAnswers": [
+      "Four hours and 47 minutes",
+      "One hour and 15 minutes",
+      "Five hours and 20 minutes",
+      "Three hours and 10 minutes",
+      "45 minutes",
+      "Six hours",
+      "Eight hours and 30 minutes",
+      "One hour and 50 minutes"
+    ],
+    "sourceId": "src_deepsea_challenger",
+    "funFact": "The Deepsea Challenger's 2-hour-36-minute descent was far faster than the Trieste's 5-hour journey to the same depth in 1960, thanks to its vertical torpedo-like design that cut drag. The ascent took only about 70 minutes because the submersible dropped its ballast weights and rose freely like a cork."
+  },
+  {
+    "id": "deep_sea_075",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy",
+    "question": "The Deepsea Challenger was built in partnership with the National Geographic Society and with financial support from which watchmaker?",
+    "correctAnswers": [
+      "Rolex"
+    ],
+    "wrongAnswers": [
+      "Omega",
+      "Breitling",
+      "TAG Heuer",
+      "Patek Philippe",
+      "IWC",
+      "Seiko",
+      "Casio",
+      "Blancpain"
+    ],
+    "sourceId": "src_deepsea_challenger",
+    "funFact": "Rolex's involvement continued a long tradition: the company also provided watches to Edmund Hillary for the 1953 Everest summit and to the Trieste crew for the 1960 Challenger Deep dive. The Rolex Deepsea watch worn during Cameron's dive was later shown to have kept perfect time despite the crushing pressure of 11 km of water above it."
+  },
+  {
+    "id": "deep_sea_076",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium",
+    "question": "What specialized syntactic foam did Australian engineer Ron Allum create for the Deepsea Challenger to withstand pressures at 11 km depth?",
+    "correctAnswers": [
+      "Isofloat"
+    ],
+    "wrongAnswers": [
+      "Synthelite",
+      "Bathyfoam",
+      "Deepcore",
+      "Pressurite",
+      "Marisyn",
+      "Abyssofoam",
+      "Triton-gel",
+      "Hydrastatic composite"
+    ],
+    "sourceId": "src_deepsea_challenger",
+    "funFact": "Conventional syntactic foam — used in most deep-sea floats — crushes under the pressure at full ocean depth because it contains millions of tiny glass microspheres that can implode. Ron Allum's Isofloat replaced the standard microspheres with a specially engineered formulation that maintains its buoyancy and structural integrity all the way to 11,000 m."
+  },
+  {
+    "id": "deep_sea_077",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium",
+    "question": "The pilot sphere of the Deepsea Challenger had steel walls of what thickness, and was tested to withstand how much pressure?",
+    "correctAnswers": [
+      "64 mm thick walls, tested to 114 megapascals"
+    ],
+    "wrongAnswers": [
+      "32 mm thick walls, tested to 57 megapascals",
+      "100 mm thick walls, tested to 200 megapascals",
+      "50 mm thick walls, tested to 90 megapascals",
+      "80 mm thick walls, tested to 140 megapascals",
+      "45 mm thick walls, tested to 75 megapascals",
+      "120 mm thick walls, tested to 160 megapascals",
+      "25 mm thick walls, tested to 50 megapascals"
+    ],
+    "sourceId": "src_deepsea_challenger",
+    "funFact": "The 114-megapascal test pressure applied to the Deepsea Challenger's pilot sphere represents about 1,125 times standard atmospheric pressure — well beyond the roughly 1,100 atmospheres at Challenger Deep — providing a safety margin that engineers call a 'proof pressure' test. The sphere's 64 mm steel walls were milled to tolerances of less than a millimetre to ensure uniform strength."
+  },
+  {
+    "id": "deep_sea_078",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium",
+    "question": "After its record dive, the Deepsea Challenger was donated to which institution for study of its technological solutions?",
+    "correctAnswers": [
+      "Woods Hole Oceanographic Institution"
+    ],
+    "wrongAnswers": [
+      "Scripps Institution of Oceanography",
+      "National Oceanic and Atmospheric Administration",
+      "Marine Biological Laboratory",
+      "Monterey Bay Aquarium Research Institute",
+      "Schmidt Ocean Institute",
+      "Harbor Branch Oceanographic Institute",
+      "Naval Undersea Warfare Center"
+    ],
+    "sourceId": "src_deepsea_challenger",
+    "funFact": "Woods Hole Oceanographic Institution also operates the famous submersible Alvin, which discovered the first hydrothermal vent community in 1977. By studying the Deepsea Challenger's engineering solutions, researchers at Woods Hole hoped to incorporate Isofloat foam and other innovations into the next generation of full-ocean-depth vehicles."
+  },
+  {
+    "id": "deep_sea_079",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard",
+    "question": "The Isofloat foam on the Deepsea Challenger has a specific density of approximately 0.7 and comprises what percentage of the submersible's volume?",
+    "correctAnswers": [
+      "About 70%"
+    ],
+    "wrongAnswers": [
+      "About 30%",
+      "About 50%",
+      "About 85%",
+      "About 20%",
+      "About 40%",
+      "About 60%",
+      "About 90%",
+      "About 15%"
+    ],
+    "sourceId": "src_deepsea_challenger",
+    "funFact": "Making 70% of a submersible's volume out of buoyancy foam seems counterintuitive, but at full ocean depth the foam must displace far more water weight than the dense titanium and steel structures it surrounds. Isofloat's density of 0.7 g/cm³ means it is lighter than water but heavy enough to withstand implosive pressure — a balance that took years of material science research to achieve."
+  },
+  {
+    "id": "deep_sea_080",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy",
+    "question": "What are the potato-sized rocklike deposits on the abyssal plain that are of greatest commercial interest in deep sea mining?",
+    "correctAnswers": [
+      "Polymetallic nodules"
+    ],
+    "wrongAnswers": [
+      "Cobalt-rich crusts",
+      "Hydrothermal chimneys",
+      "Manganese concretions",
+      "Sulfide pellets",
+      "Ferromanganese crusts",
+      "Black smoker deposits",
+      "Basalt xenoliths",
+      "Seafloor pumice"
+    ],
+    "sourceId": "src_deep_sea_mining",
+    "funFact": "Polymetallic nodules grow at the astonishing rate of just a few millimetres per million years — among the slowest growth rates of any geological formation on Earth. They form by precipitating metals dissolved in seawater around a tiny nucleus such as a shark tooth or a fragment of whale bone, layer by layer, over tens of millions of years."
+  },
+  {
+    "id": "deep_sea_081",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "easy",
+    "question": "Which international body regulates all mineral-related activities in international waters and has granted exploration licenses for deep sea mining?",
+    "correctAnswers": [
+      "The International Seabed Authority (ISA)"
+    ],
+    "wrongAnswers": [
+      "The United Nations Environment Programme",
+      "The International Maritime Organization",
+      "The World Trade Organization",
+      "The International Energy Agency",
+      "The UN Commission on the Limits of the Continental Shelf",
+      "The Ocean Mining Advisory Council",
+      "The Pacific Regional Environment Programme"
+    ],
+    "sourceId": "src_deep_sea_mining",
+    "funFact": "The International Seabed Authority was established under the United Nations Convention on the Law of the Sea (UNCLOS) in 1994 to govern all mineral resource activities in international waters, often called 'the Area.' The ISA must balance commercial exploitation with its legal obligation to protect the marine environment — a tension that becomes more acute as technology makes deep-sea mining increasingly feasible."
+  },
+  {
+    "id": "deep_sea_082",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium",
+    "question": "The Clarion–Clipperton Zone (CCZ) lies in which ocean, stretching between which two geographic features?",
+    "correctAnswers": [
+      "The Pacific Ocean, between Hawaii and Mexico"
+    ],
+    "wrongAnswers": [
+      "The Atlantic Ocean, between the Azores and the Caribbean",
+      "The Indian Ocean, between Madagascar and Australia",
+      "The Pacific Ocean, between Japan and the Philippines",
+      "The Arctic Ocean, between Greenland and Norway",
+      "The Southern Ocean, between Antarctica and South America",
+      "The Pacific Ocean, between New Zealand and Chile",
+      "The Atlantic Ocean, between Iceland and the Canary Islands"
+    ],
+    "sourceId": "src_deep_sea_mining",
+    "funFact": "The Clarion-Clipperton Zone is roughly the size of the continental United States and contains some of the highest concentrations of polymetallic nodules anywhere on the ocean floor. Its nodules are especially rich in cobalt, nickel, and manganese — metals that are critical components of the lithium-ion batteries used in electric vehicles."
+  },
+  {
+    "id": "deep_sea_083",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium",
+    "question": "Approximately how many metric tons of polymetallic nodules are estimated to exist in the Clarion–Clipperton Zone alone?",
+    "correctAnswers": [
+      "Over 21 billion metric tons"
+    ],
+    "wrongAnswers": [
+      "Over 500 million metric tons",
+      "Over 2 billion metric tons",
+      "Over 50 billion metric tons",
+      "Over 1 trillion metric tons",
+      "Over 100 million metric tons",
+      "Over 5 billion metric tons",
+      "Over 10 million metric tons",
+      "Over 300 billion metric tons"
+    ],
+    "sourceId": "src_deep_sea_mining",
+    "funFact": "The 21+ billion metric tons of nodules in the Clarion-Clipperton Zone alone could theoretically supply global demand for nickel for hundreds of years. However, scientists warn that mining these nodules would destroy one of the most biodiverse deep-sea habitats on Earth, home to thousands of species — many unknown to science — that live exclusively in and around the nodule fields."
+  },
+  {
+    "id": "deep_sea_084",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "medium",
+    "question": "What are the three stages of the deep-sea mining process in correct order?",
+    "correctAnswers": [
+      "Prospecting, exploration, exploitation"
+    ],
+    "wrongAnswers": [
+      "Exploration, extraction, exportation",
+      "Surveying, drilling, refining",
+      "Assessment, licensing, recovery",
+      "Mapping, sampling, processing",
+      "Prospecting, exploitation, exploration",
+      "Reconnaissance, evaluation, production",
+      "Discovery, testing, harvesting"
+    ],
+    "sourceId": "src_deep_sea_mining",
+    "funFact": "The exploitation stage of deep-sea mining — the actual commercial extraction of minerals — has not yet begun anywhere in international waters as of 2024, with all current ISA licenses still at the exploration stage. The technology required to lift billions of tonnes of nodules from 4,000–6,000 m depth, process them, and manage the resulting sediment plumes is still being developed and tested."
+  },
+  {
+    "id": "deep_sea_085",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard",
+    "question": "As of July 2024, how many exploration licenses had the International Seabed Authority granted, and how were they distributed across deposit types?",
+    "correctAnswers": [
+      "31 total: 19 for polymetallic nodules, 7 for polymetallic sulphides, 5 for cobalt-rich crusts"
+    ],
+    "wrongAnswers": [
+      "20 total: 10 for polymetallic nodules, 6 for sulphides, 4 for cobalt crusts",
+      "45 total: 25 for polymetallic nodules, 12 for sulphides, 8 for cobalt crusts",
+      "31 total: 15 for polymetallic nodules, 10 for sulphides, 6 for cobalt crusts",
+      "18 total: 12 for polymetallic nodules, 4 for sulphides, 2 for cobalt crusts",
+      "31 total: 20 for cobalt crusts, 7 for polymetallic nodules, 4 for sulphides",
+      "50 total: 30 for polymetallic nodules, 15 for sulphides, 5 for cobalt crusts",
+      "25 total: 19 for polymetallic nodules, 4 for sulphides, 2 for cobalt crusts"
+    ],
+    "sourceId": "src_deep_sea_mining",
+    "funFact": "The 19 licenses for polymetallic nodule exploration in the Clarion-Clipperton Zone alone represent commitments to survey an area larger than most European countries. Each license holder must submit environmental impact assessments and work plans to the ISA, and must set aside protected 'reference zones' where no mining occurs, to serve as ecological baselines."
+  },
+  {
+    "id": "deep_sea_086",
+    "topicId": "deep_sea",
+    "topicCategoryId": "physical_world",
+    "superCategoryId": "earth_environment",
+    "difficulty": "hard",
+    "question": "It is estimated that the global ocean floor holds how many tons of cobalt, and how does this compare to terrestrial reserves?",
+    "correctAnswers": [
+      "More than 120 million tons — five times the amount found in terrestrial reserves"
+    ],
+    "wrongAnswers": [
+      "More than 50 million tons — twice the amount in terrestrial reserves",
+      "More than 500 million tons — ten times the amount in terrestrial reserves",
+      "More than 120 million tons — equal to terrestrial reserves",
+      "More than 10 million tons — half the amount in terrestrial reserves",
+      "More than 200 million tons — three times the amount in terrestrial reserves",
+      "More than 120 million tons — twenty times the amount in terrestrial reserves",
+      "More than 75 million tons — five times the amount in terrestrial reserves"
+    ],
+    "sourceId": "src_deep_sea_mining",
+    "funFact": "Cobalt is a critical ingredient in lithium-ion battery cathodes, and current terrestrial sources are heavily concentrated in the Democratic Republic of Congo — raising concerns about supply chain security and mining ethics. The prospect of harvesting ocean-floor cobalt is driving significant investment in deep-sea mining technology, even as environmental scientists call for a moratorium until the ecological risks are better understood."
+  }
+]

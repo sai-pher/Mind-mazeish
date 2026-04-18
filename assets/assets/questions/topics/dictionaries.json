@@ -1,0 +1,305 @@
+[
+  {
+    "id": "dict_001",
+    "question": "The Oxford English Dictionary (OED) is considered the most authoritative dictionary of which language?",
+    "correctAnswers": [
+      "English"
+    ],
+    "wrongAnswers": [
+      "Latin",
+      "French",
+      "German",
+      "Spanish",
+      "Italian",
+      "Greek"
+    ],
+    "funFact": "The OED took 70 years to compile its first edition (1857–1928), and the full second edition contains over 600,000 word forms.",
+    "sourceId": "src_oxford_english_dictionary",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dict_002",
+    "question": "Samuel Johnson published his famous dictionary of the English language in which year?",
+    "correctAnswers": [
+      "1755"
+    ],
+    "wrongAnswers": [
+      "1725",
+      "1780",
+      "1700",
+      "1812",
+      "1600",
+      "1850"
+    ],
+    "funFact": "Johnson wrote his entire dictionary largely alone — most dictionaries of comparable scope are compiled by teams of dozens or hundreds of lexicographers.",
+    "sourceId": "src_a_dictionary_of_the_english_language",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dict_003",
+    "question": "What word describes a book that lists words and their synonyms?",
+    "correctAnswers": [
+      "Thesaurus"
+    ],
+    "wrongAnswers": [
+      "Lexicon",
+      "Glossary",
+      "Concordance",
+      "Almanac",
+      "Encyclopaedia",
+      "Index"
+    ],
+    "funFact": "The word \"thesaurus\" comes from Greek meaning \"treasury\" or \"storehouse\" — Peter Mark Roget published the first modern thesaurus in 1852.",
+    "sourceId": "src_thesaurus",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dict_004",
+    "question": "What is the term for the scholarly study of the history and development of words?",
+    "correctAnswers": [
+      "Etymology"
+    ],
+    "wrongAnswers": [
+      "Lexicography",
+      "Phonology",
+      "Philology",
+      "Morphology",
+      "Semantics",
+      "Orthography"
+    ],
+    "funFact": "The English word \"nice\" originally meant \"foolish or stupid\" in the 13th century, then successively meant \"lascivious,\" \"extravagant,\" and \"precise\" before arriving at its modern meaning.",
+    "sourceId": "src_etymology",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dict_005",
+    "question": "Which university press publishes the Oxford English Dictionary?",
+    "correctAnswers": [
+      "Oxford University Press"
+    ],
+    "wrongAnswers": [
+      "Cambridge University Press",
+      "Harvard University Press",
+      "Yale University Press",
+      "Princeton University Press",
+      "Chicago University Press",
+      "Stanford University Press",
+      "Columbia University Press"
+    ],
+    "funFact": "Oxford University Press is one of the oldest and largest university presses in the world, and publishing the OED is among its most prestigious undertakings.",
+    "sourceId": "src_oxford_english_dictionary",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dict_006",
+    "question": "In which year did publication of the Oxford English Dictionary first begin, releasing in instalments?",
+    "correctAnswers": [
+      "1884"
+    ],
+    "wrongAnswers": [
+      "1857",
+      "1900",
+      "1870",
+      "1895",
+      "1912",
+      "1928",
+      "1865"
+    ],
+    "funFact": "Work on the OED was proposed in 1857, but the first instalment (fascicle) didn't appear until 1884 — nearly three decades later.",
+    "sourceId": "src_oxford_english_dictionary",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dict_007",
+    "question": "What was the original title of the dictionary now known as the Oxford English Dictionary?",
+    "correctAnswers": [
+      "A New English Dictionary on Historical Principles"
+    ],
+    "wrongAnswers": [
+      "The English Lexicon of the Philological Society",
+      "A Complete Dictionary of the English Tongue",
+      "The Historical Dictionary of the English Language",
+      "A Comprehensive Glossary of the English Language",
+      "The British Dictionary of Words and Phrases",
+      "A Standard Dictionary of the English Language",
+      "The Philological Society's English Word Treasury"
+    ],
+    "funFact": "The name 'Oxford English Dictionary' was only used unofficially from 1895, and the title was not formally adopted until later — the dictionary was originally rooted in the Philological Society's historical mission.",
+    "sourceId": "src_oxford_english_dictionary",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dict_008",
+    "question": "How many volumes made up the second edition of the Oxford English Dictionary, published in 1989?",
+    "correctAnswers": [
+      "20"
+    ],
+    "wrongAnswers": [
+      "10",
+      "12",
+      "15",
+      "25",
+      "30",
+      "8",
+      "18"
+    ],
+    "funFact": "OED2's 20 volumes contain 21,730 pages and weighed around 62 kg (137 lb) in total — moving the full set required a trolley.",
+    "sourceId": "src_oxford_english_dictionary",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dict_009",
+    "question": "Which verb held the record for the longest entry in the second edition of the Oxford English Dictionary, requiring 60,000 words?",
+    "correctAnswers": [
+      "Set"
+    ],
+    "wrongAnswers": [
+      "Run",
+      "Make",
+      "Put",
+      "Go",
+      "Take",
+      "Get",
+      "Come"
+    ],
+    "funFact": "The verb 'set' required 60,000 words to describe approximately 580 senses in OED2 — but it has since been overtaken by 'run', which gained 645 senses in a 2011 revision.",
+    "sourceId": "src_oxford_english_dictionary",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dict_010",
+    "question": "Which verb held the record for the most senses in the OED as of 2011, with 645 senses?",
+    "correctAnswers": [
+      "Run"
+    ],
+    "wrongAnswers": [
+      "Set",
+      "Put",
+      "Make",
+      "Go",
+      "Take",
+      "Break",
+      "Stand"
+    ],
+    "funFact": "The word 'run' broke the record previously held by 'put' (2007) and 'make' (2000), and before that by 'set' — all extremely common English verbs whose versatility reflects centuries of linguistic evolution.",
+    "sourceId": "src_oxford_english_dictionary",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dict_011",
+    "question": "The first great dictionary devoted to a modern European language covered which language?",
+    "correctAnswers": [
+      "Italian"
+    ],
+    "wrongAnswers": [
+      "French",
+      "Spanish",
+      "English",
+      "German",
+      "Portuguese",
+      "Dutch",
+      "Latin"
+    ],
+    "funFact": "The Vocabolario degli Accademici della Crusca, published in 1612, was the model for major European national dictionaries that followed, including the Dictionnaire de l'Académie française (1694).",
+    "sourceId": "src_oxford_english_dictionary",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dict_012",
+    "question": "The Grimm brothers began their monumental German dictionary, Deutsches Wörterbuch, in 1838. In what year was it finally completed?",
+    "correctAnswers": [
+      "1961"
+    ],
+    "wrongAnswers": [
+      "1900",
+      "1920",
+      "1945",
+      "1980",
+      "1938",
+      "1912",
+      "1971"
+    ],
+    "funFact": "The Grimm brothers — famous for their fairy tales — began the Deutsches Wörterbuch but died long before it was finished; it took over 120 years and generations of scholars to complete the 33-volume work.",
+    "sourceId": "src_oxford_english_dictionary",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dict_013",
+    "question": "The OED presents word senses in a distinctive order. What determines which sense is listed first?",
+    "correctAnswers": [
+      "Historical order — the earliest recorded sense comes first"
+    ],
+    "wrongAnswers": [
+      "Alphabetical order of the sense definitions",
+      "Frequency of modern usage — the most common sense comes first",
+      "The editors' judgment of the most important sense",
+      "Length of the definition — shortest sense comes first",
+      "The sense considered most standard by the Philological Society",
+      "Geographical prevalence — British usage comes first"
+    ],
+    "funFact": "By ordering senses historically, the OED lets readers trace how a word's meaning has shifted over centuries — a single entry can read like a mini-biography of the word.",
+    "sourceId": "src_oxford_english_dictionary",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dict_014",
+    "question": "The OED's preferred house spelling uses '-ize' rather than '-ise'. Which ancient language's suffix does this trace back to?",
+    "correctAnswers": [
+      "Greek"
+    ],
+    "wrongAnswers": [
+      "Latin",
+      "French",
+      "Anglo-Saxon",
+      "Norman",
+      "Old Norse",
+      "Sanskrit",
+      "Hebrew"
+    ],
+    "funFact": "The Greek suffix '-izein' is the etymological root of English verbs like 'organize' and 'recognize', which is why the OED and Oxford style guides favour '-ize' — though '-ise' is perfectly standard in British English elsewhere.",
+    "sourceId": "src_oxford_english_dictionary",
+    "topicId": "dictionaries",
+    "topicCategoryId": "language",
+    "superCategoryId": "language_culture",
+    "difficulty": "easy"
+  }
+]

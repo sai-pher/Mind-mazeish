@@ -1,0 +1,85 @@
+[
+  {
+    "id": "brew_001",
+    "question": "Espresso is made by forcing pressurised hot water through finely ground coffee. What is the standard pressure used?",
+    "correctAnswers": [
+      "9 bar (atmospheres)"
+    ],
+    "wrongAnswers": [
+      "3 bar",
+      "15 bar",
+      "1 bar",
+      "20 bar",
+      "6 bar",
+      "30 bar"
+    ],
+    "funFact": "The 9-bar standard for espresso was set by scientific research in Italy in the 1940s — it produces the optimal balance of flavour compounds and crema.",
+    "sourceId": "src_espresso",
+    "topicId": "coffee_brewing",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
+    "difficulty": "hard"
+  },
+  {
+    "id": "brew_002",
+    "question": "The French press brewing method was patented in which country?",
+    "correctAnswers": [
+      "France"
+    ],
+    "wrongAnswers": [
+      "Italy",
+      "Germany",
+      "Switzerland",
+      "United Kingdom",
+      "Austria",
+      "United States"
+    ],
+    "funFact": "Despite the name, the modern French press as we know it was actually patented by Italian designer Attilio Calimani in 1929.",
+    "sourceId": "src_french_press",
+    "topicId": "coffee_brewing",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  },
+  {
+    "id": "brew_003",
+    "question": "Cold brew coffee is made by steeping coffee grounds in cold water for how long?",
+    "correctAnswers": [
+      "12–24 hours"
+    ],
+    "wrongAnswers": [
+      "1–2 hours",
+      "5 minutes",
+      "48–72 hours",
+      "30 minutes",
+      "3–4 hours",
+      "1 week"
+    ],
+    "funFact": "Cold brew contains up to 70% less acidity than hot-brewed coffee, making it easier on the stomach.",
+    "sourceId": "src_cold_brew_coffee",
+    "topicId": "coffee_brewing",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
+    "difficulty": "medium"
+  },
+  {
+    "id": "brew_004",
+    "question": "The AeroPress was invented in 2004 by which American inventor?",
+    "correctAnswers": [
+      "Alan Adler"
+    ],
+    "wrongAnswers": [
+      "James Dyson",
+      "Elon Musk",
+      "Howard Schultz",
+      "Alfred Peet",
+      "Ernest Illy"
+    ],
+    "funFact": "Alan Adler also invented the Aerobie flying ring, one of the world's longest-flying thrown objects. He invented the AeroPress to brew a single cup quickly.",
+    "sourceId": "src_aeropress",
+    "topicId": "coffee_brewing",
+    "topicCategoryId": "beverages",
+    "superCategoryId": "food_drink",
+    "difficulty": "hard"
+  }
+]

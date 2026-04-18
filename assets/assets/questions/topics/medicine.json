@@ -1,0 +1,216 @@
+[
+  {
+    "id": "med_001",
+    "question": "What is the most widely prescribed class of drugs for treating bacterial infections?",
+    "correctAnswers": [
+      "Antibiotics"
+    ],
+    "wrongAnswers": [
+      "Antivirals",
+      "Antifungals",
+      "Analgesics",
+      "Corticosteroids",
+      "Antihistamines",
+      "Beta-blockers"
+    ],
+    "funFact": "Since Alexander Fleming discovered penicillin in 1928, antibiotics have saved an estimated 200 million lives.",
+    "sourceId": "src_antibiotic",
+    "topicId": "medicine",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "med_002",
+    "question": "Which organ is responsible for filtering about 200 litres of blood per day in the human body?",
+    "correctAnswers": [
+      "The kidneys"
+    ],
+    "wrongAnswers": [
+      "The liver",
+      "The spleen",
+      "The heart",
+      "The lungs",
+      "The pancreas",
+      "The lymph nodes"
+    ],
+    "funFact": "Each kidney contains about one million tiny filtering units called nephrons. You can survive with just one healthy kidney.",
+    "sourceId": "src_kidney",
+    "topicId": "medicine",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_003",
+    "question": "What is the term for a study that tracks a group of people over time to observe health outcomes?",
+    "correctAnswers": [
+      "Cohort study"
+    ],
+    "wrongAnswers": [
+      "Case-control study",
+      "Randomised controlled trial",
+      "Cross-sectional study",
+      "Meta-analysis",
+      "Systematic review"
+    ],
+    "funFact": "The Framingham Heart Study, started in 1948, is one of the longest-running cohort studies and first identified smoking as a major risk factor for heart disease.",
+    "sourceId": "src_cohort_study",
+    "topicId": "medicine",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard"
+  },
+  {
+    "id": "med_004",
+    "question": "Which vaccine, developed in 1796 by Edward Jenner, was the first to be created using a scientific approach?",
+    "correctAnswers": [
+      "Smallpox vaccine"
+    ],
+    "wrongAnswers": [
+      "Polio vaccine",
+      "Rabies vaccine",
+      "Cholera vaccine",
+      "Typhoid vaccine"
+    ],
+    "funFact": "Jenner noticed that milkmaids who caught cowpox seemed immune to smallpox. The word 'vaccine' itself comes from 'vacca', Latin for cow.",
+    "sourceId": "src_smallpox_vaccine",
+    "topicId": "medicine",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "med_005",
+    "question": "What name is given to the surgical procedure in which a blocked coronary artery is bypassed using a graft vessel?",
+    "correctAnswers": [
+      "Coronary artery bypass graft"
+    ],
+    "wrongAnswers": [
+      "Angioplasty",
+      "Endarterectomy",
+      "Valve replacement",
+      "Aortic dissection repair"
+    ],
+    "funFact": "During a bypass, surgeons often harvest the saphenous vein from the patient's own leg to use as the graft, rerouting blood flow around the blockage entirely.",
+    "sourceId": "src_coronary_artery_bypass_surgery",
+    "topicId": "medicine",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "med_006",
+    "question": "What is the medical term for the surgical removal of the appendix?",
+    "correctAnswers": [
+      "Appendectomy"
+    ],
+    "wrongAnswers": [
+      "Cholecystectomy",
+      "Colectomy",
+      "Laparotomy",
+      "Splenectomy"
+    ],
+    "funFact": "Appendectomy is one of the most commonly performed emergency surgeries worldwide; laparoscopic techniques now allow surgeons to remove the appendix through incisions less than a centimetre wide.",
+    "sourceId": "src_appendectomy",
+    "topicId": "medicine",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "med_007",
+    "question": "Which 19th-century physician is credited with introducing antiseptic surgical technique, dramatically reducing post-operative mortality?",
+    "correctAnswers": [
+      "Joseph Lister"
+    ],
+    "wrongAnswers": [
+      "Robert Koch",
+      "Louis Pasteur",
+      "Ignaz Semmelweis",
+      "Florence Nightingale"
+    ],
+    "funFact": "Lister used carbolic acid (phenol) to sterilise surgical instruments and wound dressings; death rates from amputation in his ward fell from roughly 46% to under 15% within a few years.",
+    "sourceId": "src_joseph_lister",
+    "topicId": "medicine",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_008",
+    "question": "What diagnostic tool, first described in 1895, uses electromagnetic radiation to image dense internal structures such as bone?",
+    "correctAnswers": [
+      "X-ray"
+    ],
+    "wrongAnswers": [
+      "MRI scan",
+      "Ultrasound",
+      "CT scan",
+      "PET scan"
+    ],
+    "funFact": "Wilhelm Röntgen discovered X-rays accidentally while experimenting with cathode rays. The very first medical X-ray image was of his wife's hand, clearly showing her bones and wedding ring.",
+    "sourceId": "src_xray",
+    "topicId": "medicine",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "med_009",
+    "question": "Which blood-typing system, discovered in 1901 by Karl Landsteiner, is most critical to match before performing a blood transfusion?",
+    "correctAnswers": [
+      "ABO blood group system"
+    ],
+    "wrongAnswers": [
+      "Rh factor system",
+      "Kell system",
+      "Duffy antigen system",
+      "Lewis antigen system"
+    ],
+    "funFact": "Before Landsteiner's discovery, blood transfusions were often fatal. Understanding ABO compatibility earned him the Nobel Prize in Physiology or Medicine in 1930.",
+    "sourceId": "src_abo_blood_group_system",
+    "topicId": "medicine",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_010",
+    "question": "What term describes a clinical trial where neither the patient nor the clinician knows who is receiving the active treatment or a placebo?",
+    "correctAnswers": [
+      "Double-blind trial"
+    ],
+    "wrongAnswers": [
+      "Open-label study",
+      "Single-blind trial",
+      "Crossover study",
+      "Case-control study"
+    ],
+    "funFact": "Double-blinding is considered the gold standard for drug trials because it eliminates both patient expectation bias and unconscious clinician bias, producing far more reliable efficacy data.",
+    "sourceId": "src_blinded_experiment",
+    "topicId": "medicine",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_011",
+    "question": "Which rare but serious condition, caused by Clostridium botulinum toxin, blocks acetylcholine release at neuromuscular junctions and can cause life-threatening paralysis?",
+    "correctAnswers": [
+      "Botulism"
+    ],
+    "wrongAnswers": [
+      "Tetanus",
+      "Guillain-Barré syndrome",
+      "Myasthenia gravis",
+      "Lambert-Eaton syndrome"
+    ],
+    "funFact": "The same toxin responsible for fatal botulism is commercially refined into Botox, used in tiny doses to temporarily paralyse facial muscles for cosmetic and therapeutic purposes.",
+    "sourceId": "src_botulism",
+    "topicId": "medicine",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard"
+  }
+]

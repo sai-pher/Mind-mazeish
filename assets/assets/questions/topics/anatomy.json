@@ -1,0 +1,220 @@
+[
+  {
+    "id": "anat_001",
+    "question": "How many bones does the adult human body contain?",
+    "correctAnswers": [
+      "206"
+    ],
+    "wrongAnswers": [
+      "180",
+      "230",
+      "300",
+      "150",
+      "250",
+      "196",
+      "212"
+    ],
+    "funFact": "Babies are born with around 270–300 bones. Many of these fuse together during childhood, resulting in the adult count of 206.",
+    "sourceId": "src_human_skeleton",
+    "topicId": "anatomy",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "anat_002",
+    "question": "Which is the largest organ in the human body?",
+    "correctAnswers": [
+      "The skin"
+    ],
+    "wrongAnswers": [
+      "The liver",
+      "The small intestine",
+      "The brain",
+      "The lungs",
+      "The stomach",
+      "The large intestine"
+    ],
+    "funFact": "The skin accounts for about 15% of body weight and, when spread flat, covers roughly 2 square metres in an average adult.",
+    "sourceId": "src_human_skin",
+    "topicId": "anatomy",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "anat_003",
+    "question": "The human heart has how many chambers?",
+    "correctAnswers": [
+      "4"
+    ],
+    "wrongAnswers": [
+      "2",
+      "3",
+      "6",
+      "5",
+      "8",
+      "1"
+    ],
+    "funFact": "The heart beats about 100,000 times per day, pumping roughly 7,500 litres of blood through approximately 96,000 km of blood vessels.",
+    "sourceId": "src_heart",
+    "topicId": "anatomy",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "anat_004",
+    "question": "Which part of the brain is primarily responsible for balance and coordination?",
+    "correctAnswers": [
+      "The cerebellum"
+    ],
+    "wrongAnswers": [
+      "The cerebrum",
+      "The brain stem",
+      "The thalamus",
+      "The hippocampus",
+      "The amygdala",
+      "The prefrontal cortex"
+    ],
+    "funFact": "Although the cerebellum accounts for only 10% of the brain's volume, it contains more than 50% of the total number of neurons.",
+    "sourceId": "src_cerebellum",
+    "topicId": "anatomy",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "anat_005",
+    "question": "Which organ produces insulin to regulate blood sugar levels?",
+    "correctAnswers": [
+      "Pancreas"
+    ],
+    "wrongAnswers": [
+      "Liver",
+      "Kidney",
+      "Spleen",
+      "Adrenal gland"
+    ],
+    "funFact": "The pancreas is both an endocrine gland (releasing hormones like insulin directly into the blood) and an exocrine gland (secreting digestive enzymes into the small intestine). It weighs only about 80 grams yet plays a critical role in metabolism.",
+    "sourceId": "src_pancreas",
+    "topicId": "anatomy",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "anat_006",
+    "question": "What is the longest bone in the human body?",
+    "correctAnswers": [
+      "Femur"
+    ],
+    "wrongAnswers": [
+      "Tibia",
+      "Humerus",
+      "Fibula",
+      "Radius"
+    ],
+    "funFact": "The femur, or thigh bone, is the strongest bone in the body and can withstand forces several times greater than body weight. It makes up roughly a quarter of a person's total height.",
+    "sourceId": "src_femur",
+    "topicId": "anatomy",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "anat_007",
+    "question": "Which type of blood vessel carries oxygenated blood away from the heart?",
+    "correctAnswers": [
+      "Artery"
+    ],
+    "wrongAnswers": [
+      "Vein",
+      "Capillary",
+      "Venule",
+      "Lymphatic vessel"
+    ],
+    "funFact": "The pulmonary artery is the one notable exception — it carries deoxygenated blood from the heart to the lungs. Arteries have thick, muscular walls to withstand the high pressure of blood pumped directly from the heart.",
+    "sourceId": "src_artery",
+    "topicId": "anatomy",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "anat_008",
+    "question": "What is the basic structural and functional unit of the nervous system?",
+    "correctAnswers": [
+      "Neuron"
+    ],
+    "wrongAnswers": [
+      "Nephron",
+      "Sarcomere",
+      "Alveolus",
+      "Glial cell"
+    ],
+    "funFact": "The human brain contains approximately 86 billion neurons, each capable of forming thousands of synaptic connections. A single nerve impulse travels at speeds up to 120 metres per second.",
+    "sourceId": "src_neuron",
+    "topicId": "anatomy",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "anat_009",
+    "question": "Which valve separates the left ventricle from the aorta?",
+    "correctAnswers": [
+      "Aortic valve"
+    ],
+    "wrongAnswers": [
+      "Mitral valve",
+      "Tricuspid valve",
+      "Pulmonary valve",
+      "Bicuspid valve"
+    ],
+    "funFact": "The aortic valve opens approximately 100,000 times per day as the heart beats. Its three leaflets are shaped like half-moons, earning it the alternate name 'semilunar valve'.",
+    "sourceId": "src_aortic_valve",
+    "topicId": "anatomy",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "anat_010",
+    "question": "The functional unit of the kidney responsible for filtering blood is called the:",
+    "correctAnswers": [
+      "Nephron"
+    ],
+    "wrongAnswers": [
+      "Glomerulus",
+      "Loop of Henle",
+      "Renal pelvis",
+      "Bowman's capsule"
+    ],
+    "funFact": "Each human kidney contains roughly one million nephrons. If all the tubules from both kidneys were stretched end to end, they would extend about 80 kilometres.",
+    "sourceId": "src_nephron",
+    "topicId": "anatomy",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard"
+  },
+  {
+    "id": "anat_011",
+    "question": "Which connective tissue protein is the most abundant in the human body, making up about one-third of total protein mass?",
+    "correctAnswers": [
+      "Collagen"
+    ],
+    "wrongAnswers": [
+      "Elastin",
+      "Keratin",
+      "Actin",
+      "Fibronectin"
+    ],
+    "funFact": "There are at least 28 distinct types of collagen in the human body. Gram for gram, type I collagen is stronger than steel wire.",
+    "sourceId": "src_collagen",
+    "topicId": "anatomy",
+    "topicCategoryId": "clinical",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard"
+  }
+]

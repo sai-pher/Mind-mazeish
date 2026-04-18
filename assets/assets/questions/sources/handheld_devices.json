@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src_amazon_kindle",
+    "title": "Amazon Kindle",
+    "url": "https://en.m.wikipedia.org/wiki/Amazon_Kindle",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "handheld_devices"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "handheld_003"
+    ]
+  },
+  {
+    "id": "src_iphone",
+    "title": "Iphone",
+    "url": "https://en.m.wikipedia.org/wiki/IPhone",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "handheld_devices"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "handheld_001"
+    ]
+  },
+  {
+    "id": "src_smartphone",
+    "title": "Smartphone",
+    "url": "https://en.m.wikipedia.org/wiki/Smartphone",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "handheld_devices"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "handheld_002"
+    ]
+  }
+]

@@ -1,0 +1,277 @@
+[
+  {
+    "id": "hgeo_001",
+    "question": "What percentage of the world's population now lives in urban areas?",
+    "correctAnswers": [
+      "More than 55%"
+    ],
+    "wrongAnswers": [
+      "About 30%",
+      "About 80%",
+      "About 45%",
+      "About 20%",
+      "About 90%"
+    ],
+    "funFact": "For the first time in human history, more than half the world's population moved to cities in 2007. By 2050, that figure is projected to reach 68%.",
+    "sourceId": "src_urbanization",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "easy"
+  },
+  {
+    "id": "hgeo_002",
+    "question": "The demographic transition model describes a pattern where birth and death rates change as countries develop. What happens to both rates in the final stage?",
+    "correctAnswers": [
+      "Both become low"
+    ],
+    "wrongAnswers": [
+      "Both become high",
+      "Birth rate rises, death rate falls",
+      "Death rate rises, birth rate falls",
+      "Both fluctuate unpredictably"
+    ],
+    "funFact": "Japan is a textbook example of late-stage demographic transition — very low birth and death rates, an aging population, and population decline without immigration.",
+    "sourceId": "src_demographic_transition",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "medium"
+  },
+  {
+    "id": "hgeo_003",
+    "question": "A \"primate city\" in urban geography is best described as what?",
+    "correctAnswers": [
+      "A city that is disproportionately large compared to the second city in the same country"
+    ],
+    "wrongAnswers": [
+      "The first city ever founded in a country",
+      "A city that dominates global finance",
+      "The most densely populated city",
+      "A capital city with political dominance"
+    ],
+    "funFact": "Bangkok is the world's most extreme primate city — it's roughly 40 times larger than Thailand's second city, Nonthaburi.",
+    "sourceId": "src_primate_city",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "hard"
+  },
+  {
+    "id": "hgeo_004",
+    "question": "By 2050, roughly what proportion of the developed world is predicted to be urbanized?",
+    "correctAnswers": [
+      "86%"
+    ],
+    "wrongAnswers": [
+      "64%",
+      "72%",
+      "78%",
+      "92%",
+      "55%",
+      "68%",
+      "95%"
+    ],
+    "funFact": "While the developed world is projected to hit 86% urbanization by 2050, the developing world is also catching up fast — expected to reach 64%, up from under 50% today.",
+    "sourceId": "src_urbanization",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "easy"
+  },
+  {
+    "id": "hgeo_005",
+    "question": "Which two continents are expected to account for the majority of urban population growth by 2050?",
+    "correctAnswers": [
+      "Africa",
+      "Asia"
+    ],
+    "wrongAnswers": [
+      "Europe",
+      "North America",
+      "South America",
+      "Australia",
+      "Antarctica",
+      "Central America"
+    ],
+    "funFact": "Africa and Asia together will absorb almost all of the projected 3 billion new urbanites by 2050, driven by rapid economic development and high birth rates.",
+    "sourceId": "src_urbanization",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "easy"
+  },
+  {
+    "id": "hgeo_006",
+    "question": "The earliest cities in human history developed in which of the following civilizations?",
+    "correctAnswers": [
+      "Indus Valley Civilization",
+      "Mesopotamia",
+      "Egypt"
+    ],
+    "wrongAnswers": [
+      "Ancient Greece",
+      "Roman Empire",
+      "Han Dynasty China",
+      "Aztec Empire",
+      "Inca Empire",
+      "Mayan civilization"
+    ],
+    "funFact": "The Indus Valley city of Mohenjo-daro featured grid-planned streets and sophisticated drainage systems as early as 2500 BCE — urban planning that wouldn't reappear in Europe for millennia.",
+    "sourceId": "src_urbanization",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "easy"
+  },
+  {
+    "id": "hgeo_007",
+    "question": "What key distinction separates \"urbanization\" from \"urban growth\" in human geography?",
+    "correctAnswers": [
+      "Urbanization is the proportion of national population living in cities; urban growth is the absolute increase in urban population"
+    ],
+    "wrongAnswers": [
+      "Urbanization refers to new city construction; urban growth refers to population increases",
+      "Urbanization applies only to developed nations; urban growth applies to developing ones",
+      "Urban growth is the proportion living in cities; urbanization is the absolute number",
+      "They are interchangeable terms describing the same phenomenon",
+      "Urbanization measures density; urban growth measures city area"
+    ],
+    "funFact": "A country can have high urban growth (millions more people in cities each year) while its urbanization rate stays flat — if the rural population is growing just as fast.",
+    "sourceId": "src_urbanization",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "medium"
+  },
+  {
+    "id": "hgeo_008",
+    "question": "Which two revolutions in 18th-century Britain broke the long-standing equilibrium between rural and urban populations?",
+    "correctAnswers": [
+      "Agricultural Revolution",
+      "Industrial Revolution"
+    ],
+    "wrongAnswers": [
+      "Scientific Revolution",
+      "Glorious Revolution",
+      "Financial Revolution",
+      "Transport Revolution",
+      "Commercial Revolution",
+      "Demographic Revolution"
+    ],
+    "funFact": "Before these twin revolutions, cities had never been able to grow large because food production could not keep pace. The Agricultural Revolution freed up rural labour; the Industrial Revolution gave it urban jobs.",
+    "sourceId": "src_urbanization",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "medium"
+  },
+  {
+    "id": "hgeo_009",
+    "question": "In England and Wales, the proportion of people living in cities of more than 20,000 jumped from 17% in 1801 to what figure by 1891?",
+    "correctAnswers": [
+      "54%"
+    ],
+    "wrongAnswers": [
+      "34%",
+      "44%",
+      "62%",
+      "70%",
+      "48%",
+      "39%",
+      "75%"
+    ],
+    "funFact": "This 37-percentage-point leap in just 90 years was among the fastest urbanization rates ever recorded, driven by factory work pulling millions from the countryside into industrial cities like Manchester and Birmingham.",
+    "sourceId": "src_urbanization",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "medium"
+  },
+  {
+    "id": "hgeo_010",
+    "question": "Greater Seoul is home to approximately what share of South Korea's total national population?",
+    "correctAnswers": [
+      "50%"
+    ],
+    "wrongAnswers": [
+      "25%",
+      "35%",
+      "40%",
+      "60%",
+      "15%",
+      "70%",
+      "20%"
+    ],
+    "funFact": "Greater Seoul's dominance is extraordinary by global standards — half a country squeezed into one metro area. By comparison, Greater London holds only about 13% of the UK's population.",
+    "sourceId": "src_urbanization",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "medium"
+  },
+  {
+    "id": "hgeo_011",
+    "question": "Although Manila is the capital of the Philippines, which city is actually the largest municipality in Greater Manila by population?",
+    "correctAnswers": [
+      "Quezon City"
+    ],
+    "wrongAnswers": [
+      "Makati",
+      "Pasig",
+      "Taguig",
+      "Caloocan",
+      "Marikina",
+      "Pasay",
+      "Muntinlupa"
+    ],
+    "funFact": "Quezon City has 2.7 million residents compared to Manila's 1.6 million — a counterintuitive fact since Manila gives its name to the whole metropolitan area and remains the national capital.",
+    "sourceId": "src_urbanization",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "hard"
+  },
+  {
+    "id": "hgeo_012",
+    "question": "The 'wealthy west end, poor east end' divide seen in many large European cities is most commonly attributed to which environmental factor?",
+    "correctAnswers": [
+      "Prevailing south-west winds carrying coal smoke eastward"
+    ],
+    "wrongAnswers": [
+      "Rivers flowing west to east, dumping waste downstream",
+      "Eastern districts receiving less sunlight due to city orientation",
+      "Nobility preferring western land as a religious tradition",
+      "Eastern soils being less suitable for construction",
+      "Trade routes entering cities from the west, raising land values there"
+    ],
+    "funFact": "In Victorian London, the east end became synonymous with poverty and smog while the west end housed the elite — the same south-westerly wind pattern can be observed shaping city layouts across Paris, Berlin, and many other European capitals.",
+    "sourceId": "src_urbanization",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "hard"
+  },
+  {
+    "id": "hgeo_013",
+    "question": "Historian Eric Hobsbawm described 19th-century urban development as \"a gigantic process of class segregation\" in which 1962 book?",
+    "correctAnswers": [
+      "The Age of Revolution"
+    ],
+    "wrongAnswers": [
+      "The Age of Capital",
+      "The Age of Empire",
+      "The Age of Extremes",
+      "Industry and Empire",
+      "The Making of the English Working Class",
+      "The Communist Manifesto",
+      "Capital in the Twenty-First Century"
+    ],
+    "funFact": "Hobsbawm's observation captures how industrialisation physically sorted the classes: factory owners built mansions upwind while workers crowded into smoky slums nearby — a spatial inequality that shaped cities for generations.",
+    "sourceId": "src_urbanization",
+    "topicId": "human_geography",
+    "topicCategoryId": "geography_society",
+    "superCategoryId": "world_society",
+    "difficulty": "hard"
+  }
+]

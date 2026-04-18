@@ -1,0 +1,990 @@
+[
+  {
+    "id": "src_agatha_christie",
+    "title": "Agatha Christie",
+    "url": "https://en.m.wikipedia.org/wiki/Agatha_Christie",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "agatha_christie"
+    ],
+    "articleText": "== Summary ==\nDame Agatha Mary Clarissa Mallowan, Lady Mallowan (née Miller, 15 September 1890 – 12 January 1976), usually known by her first married name, Agatha Christie, was an English author known for her 66 detective novels and 14 short-story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple. She is widely regarded as one of the greatest writers, particularly in the mystery genre.\nA writer during the \"Golden Age of Detective Fiction\", Christie has been called the \"Queen of Crime\"—a nickname now trademarked by her estate—or the \"Queen of Mystery\". She wrote the world's longest-running play, the murder mystery The Mousetrap, which has been performed in the West End of London since 1952. She also wrote six novels under the pseudonym Mary Westmacott. In 1971, she was made a Dame (DBE) by Queen Elizabeth II for her contributions to literature. She is the best-selling novelist of all time, her books having sold more than two billion copies.\nChristie was born into a wealthy upper-middle-class family in Torquay, Devon, and was largely home-schooled. She was initially an unsuccessful writer with six consecutive rejections, but this changed in 1920, [...]\n\n== Life and career ==\n\n\n== Death and estate ==\n\n\n== Works ==\n\n\n== Critical reception ==\nChristie is regularly referred to as the \"Queen of Crime\"—which is now trademarked by the Christie estate—or \"Queen of Mystery\", and is considered a master of suspense, plotting, and characterisation. In 1955, she became the first recipient of the Mystery Writers of America's Grand Master Award. She was named \"Best Writer of the Century\" and the Hercule Poirot series of books was named \"Best Series of the Century\" at the 2000 Bouchercon World Mystery Convention. In 2013, she was voted \"best crime writer\" in a survey of 600 members of the Crime Writers' Association of professional novelists. However, the writer Raymond Chandler criticised the artificiality of her books, as did writer Julian Symons. The literary critic Edmund Wilson described her prose as banal and her characterisations as superficial.\n\nIn 2011, Christie was named by the digital crime drama TV channel Alibi as the second most financially successful crime writer of all time in the United Kingdom, after James Bond author Ian Fleming, with total earnings around £100 million. In 2012, Christie was among the people selected by the artist Peter Blake to appear in a new version of his most famous work, the Beatles' Sgt. [...]\n\n== Legacy ==\nIn 2016, the Royal Mail marked the centenary of Christie's first detective story by issuing six first-class postage stamps of her works: The Mysterious Affair at Styles, The Murder of Roger Ackroyd, Murder on the Orient Express, And Then There Were None, The Body in the Library, and A Murder is Announced. The Guardian reported that, \"Each design incorporates microtext, UV ink and thermochromic ink. These concealed clues can be revealed using either a magnifying glass, UV light or body heat and provide pointers to the mysteries' solutions.\"\nHer characters and her face appeared on the stamps of many countries like Dominica and the Somali Republic. In 2020, Christie was commemorated on a £2 coin by the Royal Mint for the first time to mark the centenary of her first novel, The Mysterious Affair at Styles.\nIn 2023 a life-size bronze statue of Christie sitting on a park bench holding a book was unveiled in Wallingford, Oxfordshire.\n\n== Interests and influences ==\n\n\n== In popular culture ==\nSome of Christie's fictional portrayals have explored and offered accounts of her disappearance in 1926. The film Agatha (1979), with Vanessa Redgrave, has Christie sneaking away to plan revenge against her husband; Christie's heirs sued unsuccessfully to prevent the film's distribution. The Doctor Who episode \"The Unicorn and the Wasp\" (17 May 2008) stars Fenella Woolgar as Christie, and explains her disappearance as being connected to aliens. The film Agatha and the [...]",
+    "facts": [
+      {
+        "id": "fact_agatha_christie_001",
+        "text": "Agatha Christie was born on 15 September 1890 in Torquay, Devon.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_002",
+        "text": "Agatha Christie died on 12 January 1976.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_003",
+        "text": "Agatha Christie wrote 66 detective novels and 14 short-story collections.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_004",
+        "text": "Christie is the best-selling novelist of all time, with books having sold more than two billion copies.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_005",
+        "text": "Christie was made a Dame (DBE) by Queen Elizabeth II in 1971 for her contributions to literature.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_006",
+        "text": "Christie wrote six novels under the pseudonym Mary Westmacott.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_007",
+        "text": "Christie has been called the \"Queen of Crime\" — a nickname now trademarked by her estate.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_008",
+        "text": "The Mousetrap, written by Christie, has been performed in the West End of London since 1952 and is the world's longest-running play.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_009",
+        "text": "Christie was born into a wealthy upper-middle-class family and was largely home-schooled.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_010",
+        "text": "Christie faced six consecutive rejections before publishing her first novel in 1920.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_011",
+        "text": "In 1955, Christie became the first recipient of the Mystery Writers of America's Grand Master Award.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_012",
+        "text": "At the 2000 Bouchercon World Mystery Convention, Christie was named \"Best Writer of the Century\" and the Hercule Poirot series was named \"Best Series of the Century\".",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_013",
+        "text": "In 2013, Christie was voted \"best crime writer\" in a survey of 600 members of the Crime Writers' Association.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_014",
+        "text": "In 2011, Christie was named the second most financially successful crime writer in the UK (after Ian Fleming), with total earnings around £100 million.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_015",
+        "text": "In 2016, the Royal Mail issued six first-class postage stamps marking the centenary of Christie's first detective story.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_016",
+        "text": "In 2020, Christie was commemorated on a £2 coin by the Royal Mint to mark the centenary of her first novel, The Mysterious Affair at Styles.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_017",
+        "text": "In 2023, a life-size bronze statue of Christie sitting on a park bench holding a book was unveiled in Wallingford, Oxfordshire.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_018",
+        "text": "The Doctor Who episode \"The Unicorn and the Wasp\" (2008) starred Fenella Woolgar as Christie.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_019",
+        "text": "Christie's full birth name was Agatha Mary Clarissa Miller; she later became Lady Mallowan.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_020",
+        "text": "Christie is known particularly for her fictional detectives Hercule Poirot and Miss Marple.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_021",
+        "text": "Christie was a writer during the \"Golden Age of Detective Fiction\".",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_022",
+        "text": "In 2012, Christie was among people selected by artist Peter Blake to appear in a new version of the Beatles' Sgt. Pepper album cover artwork.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_023",
+        "text": "Christie's 1926 film \"Agatha\" starring Vanessa Redgrave portrayed her mysterious 1926 disappearance as a plan for revenge against her husband.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_024",
+        "text": "The literary critic Edmund Wilson described Christie's prose as banal and her characterisations as superficial.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_025",
+        "text": "Christie appeared on stamps of countries including Dominica and the Somali Republic.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_026",
+        "text": "Agatha Christie's play The Mousetrap has been performed continuously in the West End of London since 1952, making it the world's longest-running play.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_027",
+        "text": "Christie wrote six novels under the pseudonym Mary Westmacott, separate from her famous detective fiction.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_028",
+        "text": "Christie was the first recipient of the Mystery Writers of America's Grand Master Award in 1955.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_029",
+        "text": "Christie's books have sold more than two billion copies, making her the best-selling novelist of all time.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_agatha_christie_030",
+        "text": "In 2020, Christie was commemorated on a £2 coin by the Royal Mint to mark the centenary of her first novel, The Mysterious Affair at Styles.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
+    "questionIds": [
+      "ac_001",
+      "ac_003"
+    ]
+  },
+  {
+    "id": "src_and_then_there_were_none",
+    "title": "And Then There Were None",
+    "url": "https://en.m.wikipedia.org/wiki/And_Then_There_Were_None",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "agatha_christie"
+    ],
+    "articleText": "== Summary ==\nAnd Then There Were None is a mystery novel by the English writer Agatha Christie, who described it as the most difficult of her books to write. First published in the United Kingdom by the Collins Crime Club in 1939 as Ten Little Niggers, after an 1869 minstrel song that serves as a major plot element, the US edition followed in 1940 with the title And Then There Were None, taken from the last five words of the song. While UK editions reprinted the original title until 1985, American Pocket Books used the title Ten Little Indians between 1964 and 1986.\nThe book is the world's best-selling mystery and, with over 100 million copies sold by 2007, among the best-selling books to date, listed as the seventh best-selling title (any language, including reference works) of all time.\n\n== Plot ==\nEight people arrive on a small, isolated island off the Devon coast, each having received an unexpected invitation. They are met by the butler and housekeeper, Thomas and Ethel Rogers, who explain that their hosts, Mr and Mrs Owen, have not yet arrived. A framed copy of an old rhyme hangs in every guest's room, and on the dining room table sit ten figurines. Acting on written instructions, Mr Rogers puts on a gramophone record, which accuses all ten people present of having committed murder. The guests realise that none of them know the Owens. Anthony Marston finishes his drink and promptly dies from cyanide poisoning.\nThe next morning, Mrs Rogers is found dead in her bed. Suspecting their unknown host, some of the guests search the island, but find nobody else. After General MacArthur dies from a blow to the head, the guests conclude that one of the seven remaining persons must be responsible. The following day, Mr Rogers is found dead at the woodpile, having been attacked with an axe, and Emily Brent is found dead in the drawing room, having been injected with potassium cyanide. The guests realise that one figurine in the dining room is being removed after each death, and that [...]\n\n== Principal characters ==\nEdward George Armstrong – a Harley Street doctor\nWilliam Henry Blore – a former police inspector, now a private investigator\nEmily Caroline Brent – an elderly, pious spinster\nVera Elizabeth Claythorne – a sports mistress at a girls' school and former governess\nPhilip Lombard – a soldier of fortune\nJohn Gordon MacArthur – a retired World War I general\nAnthony James Marston – a wealthy and irresponsible young man\nEthel Rogers – the cook and housekeeper, and Thomas Rogers's wife\nThomas Rogers – the butler and Ethel Rogers's husband\nLawrence John Wargrave (Mr Justice Wargrave) – a retired criminal judge\n\n== Motivating rhyme ==\nThe plot is structured around the ten lines of the rhyme \"Ten Little Niggers\", a popular 1869 minstrel song written for the Christy's Minstrels by the British songwriter Frank Green. Green had modelled his lyrics on an American comic song \"Ten Little Indians\" [or Injuns] by Septimus Winner that had been published the year before. In later editions of the novel, the characters of the rhyme are replaced by \"Ten Little Indians\" or \"Ten Little Soldier Boys\". \nThis is the rhyme as published in a British 2008 edition:\n\nEach of the ten victims – eight guests plus the island's two caretakers – is killed in a manner that reflects one of the lines of the rhyme. A sleazy agent who helped arrange the affair is also killed, but his killing occurs on the mainland and outside of the main storyline.\n\n== Literary significance and reception ==\nWriting for The Times Literary Supplement of 11 November 1939, Maurice Percy Ashley stated, \"If her latest story has scarcely any detection in it there is no scarcity of murders ... There is a certain feeling of monotony inescapable in the regularity of the deaths which is better suited to a serialized newspaper story than a full-length novel. Yet there is an ingenious problem to solve in naming the murderer\", he continued. \"It will be an extremely astute reader who guesses [...]",
+    "facts": [
+      {
+        "id": "fact_and_then_there_were_none_001",
+        "text": "And Then There Were None was first published in the UK in 1939 under the title Ten Little Niggers.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_002",
+        "text": "The US edition of And Then There Were None was published in 1940.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_003",
+        "text": "And Then There Were None is the world's best-selling mystery novel.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_004",
+        "text": "And Then There Were None had sold over 100 million copies by 2007.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_005",
+        "text": "And Then There Were None is listed as the seventh best-selling book of all time.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_006",
+        "text": "Agatha Christie described And Then There Were None as the most difficult of her books to write.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_007",
+        "text": "The plot of And Then There Were None takes place on a small, isolated island off the Devon coast.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_008",
+        "text": "In And Then There Were None, ten people are accused of murder via a gramophone record.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_009",
+        "text": "Each murder in And Then There Were None mirrors a line from the nursery rhyme \"Ten Little Niggers\".",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_010",
+        "text": "The ten dining room figurines in And Then There Were None are removed one by one after each death.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_011",
+        "text": "The rhyme central to And Then There Were None was a popular 1869 minstrel song written by Frank Green.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_012",
+        "text": "Frank Green modelled his \"Ten Little Niggers\" lyrics on an American comic song \"Ten Little Indians\" by Septimus Winner.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_013",
+        "text": "The character Anthony Marston is the first to die in And Then There Were None — from cyanide poisoning.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_014",
+        "text": "Emily Brent in And Then There Were None is killed by injection with potassium cyanide.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_015",
+        "text": "Among the ten characters in And Then There Were None is a retired criminal judge named Lawrence John Wargrave.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_016",
+        "text": "UK editions of And Then There Were None retained the original title Ten Little Niggers until 1985.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_017",
+        "text": "American Pocket Books used the title Ten Little Indians for And Then There Were None between 1964 and 1986.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_018",
+        "text": "The butler and housekeeper in And Then There Were None are named Thomas and Ethel Rogers.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_019",
+        "text": "The character Vera Claythorne in And Then There Were None is a former governess who works as a sports mistress.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_020",
+        "text": "William Henry Blore in And Then There Were None is a former police inspector turned private investigator.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_021",
+        "text": "General MacArthur in And Then There Were None is a retired World War I general who dies from a blow to the head.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_022",
+        "text": "The Times Literary Supplement review of And Then There Were None in 1939 was written by Maurice Percy Ashley.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_023",
+        "text": "And Then There Were None was first published by the Collins Crime Club in the UK.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_024",
+        "text": "Edward George Armstrong in And Then There Were None is a Harley Street doctor.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_025",
+        "text": "Philip Lombard in And Then There Were None is described as a \"soldier of fortune\".",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_026",
+        "text": "Agatha Christie described 'And Then There Were None' as the most difficult of all her books to write.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_027",
+        "text": "With over 100 million copies sold by 2007, 'And Then There Were None' is the world's best-selling mystery novel and ranks seventh among the best-selling books of all time in any language.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_028",
+        "text": "The novel was originally published in the UK in 1939 under the title 'Ten Little Niggers', based on an 1869 minstrel song written for Christy's Minstrels by British songwriter Frank Green.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_029",
+        "text": "Each of the ten victims in the novel is killed in a manner that directly mirrors a corresponding line of the motivating nursery rhyme.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_and_then_there_were_none_030",
+        "text": "The rhyme central to the plot was itself modelled on an earlier American comic song, 'Ten Little Indians' by Septimus Winner, published in 1868 — one year before Frank Green's British version.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
+    "questionIds": [
+      "ac_005"
+    ]
+  },
+  {
+    "id": "src_hercule_poirot",
+    "title": "Hercule Poirot",
+    "url": "https://en.m.wikipedia.org/wiki/Hercule_Poirot",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "agatha_christie"
+    ],
+    "articleText": "== Summary ==\nHercule Poirot (UK:  , US:  ) is a fictional Belgian detective created by the English writer Agatha Christie. Poirot is Christie's most famous and longest-running character, appearing in 33 novels, two plays (Black Coffee and Alibi) and 51 short stories published between 1920 and 1975.\nPoirot is noted for his distinctive appearance, including his waxed moustache and fastidious dress, as well as for his reliance on logic, psychology, and what he terms his \"little grey cells\" to solve cases.\nThe character's biography is developed gradually across Christie's works. He is introduced as a former Belgian police officer living in England as a refugee following the First World War. Poirot is portrayed as dignified, meticulous, and occasionally vain, traits that sometimes serve as comic devices but also reflect his precise and methodical approach to detection. His final appearance is in Curtain: Poirot's Last Case.\nPoirot has become one of the most recognisable figures in detective fiction and has been widely adapted in other media. He has been portrayed by numerous actors in film, television, stage, and radio, including David Suchet, John Moffat, Peter Ustinov, and Kenneth Branagh. The [...]\n\n== Overview ==\n\n\n== Life ==\n\n\n== Recurring characters ==\n\n\n== Major novels ==\nThe Poirot books take readers through the whole of his life in England, from the first book (The Mysterious Affair at Styles), where he is a refugee staying at Styles, to the last Poirot book (Curtain), where he visits Styles before his death. In between, Poirot solves cases outside England as well, including his most famous case, Murder on the Orient Express (1934).\nHercule Poirot became famous in 1926 with the publication of The Murder of Roger Ackroyd, whose surprising solution proved controversial. The novel is still among the most famous of all detective novels: Edmund Wilson alludes to it in the title of his well-known attack on detective fiction, \"Who Cares Who Killed Roger Ackroyd?\" Other critically acclaimed Poirot novels include Murder on the Orient Express (1934); The ABC Murders (1935); Cards on the Table (1936); and Death on the Nile (1937), a tale of multiple murders upon a Nile steamer. Death on the Nile was judged by the famed detective novelist John Dickson Carr to be among the ten greatest mystery novels of all time. The 1942 novel Five Little Pigs (a.k.a. Murder in Retrospect), in which Poirot investigates a murder committed sixteen years before by analysing [...]\n\n== Portrayals ==\n\n\n== See also ==\nList of actors who have played Hercule Poirot\nPoirot Investigates\n\n== Footnotes ==\n\n\n== References ==\n\n\n== Bibliography ==\n\n\n== External links ==\n\nOfficial Agatha Christie website\nA collection of public domain Poirot works as eBooks at Standard Ebooks\nHercule Poirot on IMDb\n\n The Mysterious Affair at Styles at Project Gutenberg\nListen to Orson Welles in \"The Murder of Roger Ackroyd\"\nListen to the 1945 Hercule Poirot radio program",
+    "facts": [
+      {
+        "id": "fact_hercule_poirot_001",
+        "text": "Hercule Poirot is a fictional Belgian detective created by Agatha Christie.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_002",
+        "text": "Hercule Poirot is Christie's most famous and longest-running character.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_003",
+        "text": "Poirot appears in 33 novels, two plays, and 51 short stories published between 1920 and 1975.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_004",
+        "text": "Poirot is noted for his waxed moustache, fastidious dress, and reliance on his \"little grey cells\".",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_005",
+        "text": "Poirot is introduced as a former Belgian police officer living in England as a refugee following World War I.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_006",
+        "text": "Poirot's final appearance is in the novel Curtain: Poirot's Last Case.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_007",
+        "text": "Poirot's first appearance is in The Mysterious Affair at Styles, where he is a refugee staying at Styles.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_008",
+        "text": "Poirot became particularly famous in 1926 with the publication of The Murder of Roger Ackroyd.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_009",
+        "text": "Poirot's most famous case is considered to be Murder on the Orient Express (1934).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_010",
+        "text": "Death on the Nile (1937) is a Poirot novel set aboard a Nile steamer.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_011",
+        "text": "Death on the Nile was judged by detective novelist John Dickson Carr to be among the ten greatest mystery novels of all time.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_012",
+        "text": "The 1942 Poirot novel Five Little Pigs (also known as Murder in Retrospect) involves Poirot investigating a murder committed sixteen years earlier.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_013",
+        "text": "Poirot is described as dignified, meticulous, and occasionally vain.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_014",
+        "text": "Poirot has been portrayed by actors including David Suchet, John Moffat, Peter Ustinov, and Kenneth Branagh.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_015",
+        "text": "Poirot's two stage plays are Black Coffee and Alibi.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_016",
+        "text": "The ABC Murders (1935) is one of the critically acclaimed Poirot novels.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_017",
+        "text": "Cards on the Table (1936) is one of the critically acclaimed Poirot novels.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_018",
+        "text": "Edmund Wilson's famous attack on detective fiction is titled \"Who Cares Who Killed Roger Ackroyd?\" — alluding to the Christie novel.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_019",
+        "text": "Poirot relies on logic, psychology, and what he terms his \"little grey cells\" to solve cases.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_020",
+        "text": "The Poirot short stories were published between 1920 and 1975, spanning 55 years.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_021",
+        "text": "Poirot is one of the most recognisable figures in detective fiction worldwide.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_022",
+        "text": "The surprising solution to The Murder of Roger Ackroyd proved controversial upon publication.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_023",
+        "text": "Poirot has been adapted in film, television, stage, and radio productions.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_024",
+        "text": "In Curtain (the final Poirot novel), Poirot revisits Styles — the same location where he first appeared.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_025",
+        "text": "Poirot's nationality — Belgian — is a notable distinguishing trait from the typical British detective archetype.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_026",
+        "text": "Hercule Poirot appeared in 33 novels, two plays, and 51 short stories published between 1920 and 1975.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_027",
+        "text": "Poirot is introduced as a former Belgian police officer living in England as a refugee following the First World War.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_028",
+        "text": "Poirot's fame surged in 1926 with The Murder of Roger Ackroyd, whose controversial solution is still debated in detective fiction circles.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_029",
+        "text": "Murder on the Orient Express was published in 1934 and is considered Poirot's most famous case.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_hercule_poirot_030",
+        "text": "Death on the Nile (1937) was judged by detective novelist John Dickson Carr to be among the ten greatest mystery novels of all time.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
+    "questionIds": [
+      "ac_002"
+    ]
+  },
+  {
+    "id": "src_miss_marple",
+    "title": "Miss Marple",
+    "url": "https://en.m.wikipedia.org/wiki/Miss_Marple",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "agatha_christie"
+    ],
+    "articleText": "== Summary ==\nJane Marple, better known as Miss Marple, is a fictional character in Agatha Christie's crime novels and short stories. Miss Marple lives in the fictional English village of St Mary Mead and acts as an amateur consulting detective. Often characterised as an elderly spinster, she is one of Christie's best-known characters and has been portrayed numerous times on screen. Her first appearance was in a short story published in The Royal Magazine in December 1927, \"The Tuesday Night Club\", which later became the first chapter of The Thirteen Problems (1932). Her first appearance in a full-length novel was in The Murder at the Vicarage in 1930 and her last appearance was in Sleeping Murder in 1976.\n\n== Origins ==\nMarple is based on friends of Christie's step grandmother, Margaret Miller (née West). Christie attributed the inspiration for the character to multiple sources, stating that Miss Marple was \"the sort of old lady who would have been rather like some of my step grandmother's Ealing cronies – old ladies whom I have met in so many villages where I have gone to stay as a girl\". Christie also used material from her fictional creation, spinster Caroline Sheppard, who appeared in The Murder of Roger Ackroyd. When Michael Morton adapted the novel for the stage, he replaced the character of Caroline with a young girl. This change saddened Christie and she determined to give old maids a voice; thus, Miss Marple was born.\nIt is popularly believed that Christie may have taken Marple's iconic character's name from Marple railway station, through which she passed, while a letter – ostensibly from Christie to a fan – appeared to prove that the name was inspired by a visit to a sale at Marple Hall in the same town, near her sister Margaret Watts' home at Abney Hall. The letter has been established as a fake as the auction had been held after the date of publication of the first Miss Marple story.\n\n== Character ==\nMarple makes her first full-length appearance in The Murder at the Vicarage. In this early portrayal she is a gleeful gossip, sharp-tongued, and not always sympathetic. The residents of St Mary Mead respect her but often find her nosiness and habit of assuming the worst in others tiresome. In later novels, however, Christie softened her character: Miss Marple becomes a kinder, more thoughtful figure, though still an astute observer of human nature.\nMarple's method of detection rests on shrewd intelligence and long observation of village life, which she believes reveals the full range of human failings. She frequently interprets new crimes by recalling past incidents and she has a talent for recognising the hidden significance of apparently casual remarks. At times she is aided by her friend Sir Henry Clithering, a retired Metropolitan Police commissioner, who supplies her with official information.\nMarple never married and has no close family apart from her nephew, Raymond West, a “well-known author.” He appears in several stories with his wife, the artist Joyce Lemprière and is portrayed as overestimating his own intellect while underestimating his aunt’s. Following the [...]\n\n== Bibliography ==\nAgatha Christie wrote 12 novels and 20 short stories featuring Miss Marple.\n\n== Stage ==\nA stage adaptation of Murder at the Vicarage, by Moie Charles and Barbara Toy, was first seen at Northampton on 17 October 1949; it was directed by Reginald Tate, starred the 35-year-old Barbara Mullen as Miss Marple, and after touring, reached the Playhouse Theatre in London's West End on 14 December. Having run till late March 1950, it then went on tour again.\nIn July 1974, Mullen (by then 60) returned to the role in another national tour of the same play, culminating 12 months later when the show opened at London's Savoy Theatre on 28 July 1975. At the end of March 1976, the Miss Marple role was taken over by Avril Angers, after which the production transferred to the Fortune Theatre on 5 July. The role then passed to Muriel Pavlow [...]",
+    "facts": [
+      {
+        "id": "fact_miss_marple_001",
+        "text": "Miss Marple's full name is Jane Marple.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_002",
+        "text": "Miss Marple lives in the fictional English village of St Mary Mead.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_003",
+        "text": "Miss Marple is often characterised as an elderly spinster who acts as an amateur consulting detective.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_004",
+        "text": "Miss Marple's first appearance was in a short story published in The Royal Magazine in December 1927, titled \"The Tuesday Night Club\".",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_005",
+        "text": "Miss Marple's first full-length novel appearance was in The Murder at the Vicarage in 1930.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_006",
+        "text": "Miss Marple's last appearance was in Sleeping Murder in 1976.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_007",
+        "text": "Christie wrote 12 novels and 20 short stories featuring Miss Marple.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_008",
+        "text": "Miss Marple is based on friends of Christie's step grandmother, Margaret Miller.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_009",
+        "text": "Christie was inspired to create Miss Marple after an adaptor replaced her spinster character Caroline Sheppard from The Murder of Roger Ackroyd with a young girl.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_010",
+        "text": "It is popularly believed that Christie took Miss Marple's name from Marple railway station.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_011",
+        "text": "\"The Tuesday Night Club\" (Miss Marple's first story) later became the first chapter of The Thirteen Problems (1932).",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_012",
+        "text": "Miss Marple never married and has no close family apart from her nephew, Raymond West, a well-known author.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_013",
+        "text": "Miss Marple's method of detection rests on shrewd intelligence and long observation of village life.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_014",
+        "text": "Miss Marple is sometimes aided by her friend Sir Henry Clithering, a retired Metropolitan Police commissioner.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_015",
+        "text": "In early portrayals, Miss Marple is described as a gleeful gossip, sharp-tongued, and not always sympathetic.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_016",
+        "text": "In later novels, Christie softened Miss Marple into a kinder, more thoughtful figure.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_017",
+        "text": "A stage adaptation of Murder at the Vicarage was first seen at Northampton on 17 October 1949.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_018",
+        "text": "The stage adaptation of Murder at the Vicarage starred the 35-year-old Barbara Mullen as Miss Marple.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_019",
+        "text": "The stage adaptation of Murder at the Vicarage reached London's Playhouse Theatre on 14 December 1949.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_020",
+        "text": "Raymond West, Miss Marple's nephew, is portrayed as overestimating his own intellect while underestimating his aunt's.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_021",
+        "text": "Miss Marple frequently interprets new crimes by recalling past incidents from village life.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_022",
+        "text": "The residents of St Mary Mead respect Miss Marple but often find her nosiness and habit of assuming the worst tiresome.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_023",
+        "text": "Raymond West's wife is the artist Joyce Lemprière.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_024",
+        "text": "The stage adaptation of Murder at the Vicarage was written by Moie Charles and Barbara Toy.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_025",
+        "text": "In July 1974, Barbara Mullen returned to the role of Miss Marple in a national tour, with the show opening at London's Savoy Theatre on 28 July 1975.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_026",
+        "text": "Miss Marple's first appearance was in a short story called 'The Tuesday Night Club' published in The Royal Magazine in December 1927, not in a novel.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_027",
+        "text": "Miss Marple was created partly because Agatha Christie was saddened when a stage adapter replaced the elderly spinster Caroline Sheppard with a young girl in the adaptation of The Murder of Roger Ackroyd.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_028",
+        "text": "The popular belief that Miss Marple's name came from Marple railway station is contradicted by a letter claiming it came from a sale at Marple Hall — but that letter was proven to be a fake.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_029",
+        "text": "The first on-screen portrayal of Miss Marple was by British actress and singer Gracie Fields in a 1956 episode of the American TV series Goodyear TV Playhouse.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_miss_marple_030",
+        "text": "Agatha Christie wrote exactly 12 novels and 20 short stories featuring Miss Marple.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
+    "questionIds": [
+      "ac_006",
+      "ac_007",
+      "ac_008",
+      "ac_009",
+      "ac_010",
+      "ac_011",
+      "ac_012",
+      "ac_013"
+    ]
+  },
+  {
+    "id": "src_the_mousetrap",
+    "title": "The Mousetrap",
+    "url": "https://en.m.wikipedia.org/wiki/The_Mousetrap",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "agatha_christie"
+    ],
+    "articleText": "== Summary ==\nThe Mousetrap is a murder mystery play by Agatha Christie. The longest-running West End show, it also has by far the longest run of any play in the world, reaching its 30,000th performance on 19 March 2025. The play opened in London's West End in 1952 and ran continuously until 16 March 2020, when the stage performances had to be temporarily discontinued during the COVID-19 pandemic. It then re-opened on 17 May 2021. As of 2022 the play had been seen by 10 million people in London.\nA whodunit, the play has a twist ending which the audience are traditionally asked not to reveal after leaving the theatre. There are eight members of the cast, and by 2012 more than 400 actors had played the roles. Richard Attenborough was the original Detective Sergeant Trotter, and his wife, Sheila Sim, the first Mollie Ralston – owner of Monkswell Manor guesthouse. Since then few of the cast have been headliners, with Stephen Moss in The Guardian writing that \"the play and its author are the stars\".\n\n== History ==\nThe play began life as a short radio play written by Agatha Christie as a birthday present for Queen Mary, the consort of King George V. It was broadcast on 30 May 1947 under the name Three Blind Mice. The story drew from the real-life case of Dennis O'Neill, who died after he and his brother Terence suffered extreme abuse while in the foster care of a Shropshire farmer and his wife in 1945.\nThe play is based on a short story, itself based on the radio play, but Christie asked that the story not be published as long as it ran as a play in the West End of London. The short story has still not been published within the UK but it has appeared in the US in the 1950 collection Three Blind Mice and Other Stories.\nWhen she wrote the play, Christie gave the rights to her grandson Mathew Prichard as a birthday present. In the United Kingdom, only one production of the play in addition to the West End production can be performed annually, and under the contract terms of the play, no film adaptation can be produced until the West End production has been closed for at least six months. Producer John Woolf bought the film rights to the play in 1956, but Woolf and his heirs have been unable to [...]\n\n== Theatrical performances ==\nAs a stage play, The Mousetrap had its world premiere at the Theatre Royal, Nottingham, on 6 October 1952. It was originally directed by Peter Cotes, elder brother of John and Roy Boulting, the film directors. Its pre-West End tour then took it to the New Theatre Oxford, the Manchester Opera House, the Royal Court Theatre, Liverpool, the Theatre Royal, Newcastle, the Grand Theatre Leeds and the Alexandra Theatre in Birmingham, before it began its run in London on 25 November 1952 at the Ambassadors Theatre. It ran at this theatre until Saturday, 23 March 1974 when it immediately transferred to the larger St Martin's Theatre, next door, where it reopened on Monday, 25 March, thus keeping its \"initial run\" status. The London run has now exceeded 30,000 performances. David Turner was the director of the play from 1987 to 2004.\nChristie herself did not expect The Mousetrap to run for such a long time.  In her autobiography, she reports a conversation that she had with Peter Saunders: \"Fourteen months I am going to give it\", says Saunders.  To which Christie replies, \"It won't run that long.  Eight months perhaps.  Yes, I think eight months.\" When it broke the record for the longest [...]\n\n== Characters ==\nMollie Ralston – Proprietor of Monkswell Manor, and wife of Giles.\nGiles Ralston – Husband of Mollie who runs Monkswell Manor with his wife.\nChristopher Wren – The first guest to arrive at the hotel, Wren is a hyperactive young man who acts in a very peculiar manner.  He admits he is running away from something, but refuses to say what. Wren claims to have been named after the architect of the same name by his parents.\nMrs Boyle – A critical older woman who is pleased by nothing she observes.\nMajor Metcalf – [...]",
+    "facts": [
+      {
+        "id": "fact_the_mousetrap_001",
+        "text": "The Mousetrap is the longest-running West End show and the longest-running play in the world.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_002",
+        "text": "The Mousetrap reached its 30,000th performance on 19 March 2025.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_003",
+        "text": "The Mousetrap opened in London's West End on 25 November 1952 at the Ambassadors Theatre.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_004",
+        "text": "The Mousetrap had its world premiere at the Theatre Royal, Nottingham, on 6 October 1952.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_005",
+        "text": "The Mousetrap ran at the Ambassadors Theatre until 23 March 1974, then transferred to the St Martin's Theatre next door.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_006",
+        "text": "The Mousetrap was temporarily suspended from 16 March 2020 due to the COVID-19 pandemic and re-opened on 17 May 2021.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_007",
+        "text": "As of 2022, The Mousetrap has been seen by 10 million people in London.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_008",
+        "text": "The Mousetrap began as a short radio play written by Christie as a birthday present for Queen Mary, consort of King George V.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_009",
+        "text": "The Mousetrap was originally broadcast on 30 May 1947 under the name Three Blind Mice.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_010",
+        "text": "The Mousetrap's story draws from the real-life case of Dennis O'Neill, who died from abuse by a Shropshire foster family in 1945.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_011",
+        "text": "Christie gave the rights to The Mousetrap to her grandson Mathew Prichard as a birthday present.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_012",
+        "text": "Under contract terms, no film of The Mousetrap can be produced until the West End production has been closed for at least six months.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_013",
+        "text": "Producer John Woolf bought the film rights to The Mousetrap in 1956 but has been unable to use them.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_014",
+        "text": "Richard Attenborough was the original Detective Sergeant Trotter in The Mousetrap.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_015",
+        "text": "Sheila Sim was the original Mollie Ralston in The Mousetrap; she was Richard Attenborough's wife.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_016",
+        "text": "The Mousetrap was originally directed by Peter Cotes, elder brother of film directors John and Roy Boulting.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_017",
+        "text": "Christie did not expect The Mousetrap to run for long; she predicted it would last about eight months.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_018",
+        "text": "Christie gave the rights to The Mousetrap to her grandson Mathew Prichard, who still benefits from its royalties.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_019",
+        "text": "David Turner was the director of The Mousetrap from 1987 to 2004.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_020",
+        "text": "The Mousetrap has a tradition of asking the audience not to reveal the twist ending after leaving the theatre.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_021",
+        "text": "There are eight members of the cast in The Mousetrap.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_022",
+        "text": "By 2012, more than 400 actors had played roles in The Mousetrap.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_023",
+        "text": "In the UK, only one production of The Mousetrap in addition to the West End production can be performed annually.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_024",
+        "text": "The Three Blind Mice short story (on which The Mousetrap is based) was published in the US in 1950 but has never been published within the UK.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_025",
+        "text": "Christie producer Peter Saunders told her The Mousetrap would run fourteen months; Christie thought only eight months.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_026",
+        "text": "The Mousetrap by Agatha Christie reached its 30,000th performance on 19 March 2025, making it the longest-running play in the world.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_027",
+        "text": "The Mousetrap began as a short radio play written by Agatha Christie as a birthday present for Queen Mary, consort of King George V, and was broadcast in 1947 under the name 'Three Blind Mice'.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_028",
+        "text": "Christie gave the rights to The Mousetrap to her grandson Mathew Prichard as a birthday present when she wrote the play.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_029",
+        "text": "Under the contract terms of The Mousetrap, no film adaptation can be produced until the West End production has been closed for at least six months.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      },
+      {
+        "id": "fact_the_mousetrap_030",
+        "text": "Agatha Christie predicted The Mousetrap would run for only eight months; it has now run for over 70 years.",
+        "verified": true,
+        "verifiedAt": "2026-04-15"
+      }
+    ],
+    "questionIds": [
+      "ac_004"
+    ]
+  }
+]

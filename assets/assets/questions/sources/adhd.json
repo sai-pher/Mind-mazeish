@@ -1,0 +1,229 @@
+[
+  {
+    "id": "src_attention_deficit_hyperactivity_disorder",
+    "title": "Attention Deficit Hyperactivity Disorder",
+    "url": "https://en.m.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "adhd"
+    ],
+    "articleText": null,
+    "facts": [
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_001",
+        "text": "ADHD has a heritability rate of 70–80%, making genetics its most significant causal factor.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_002",
+        "text": "The remaining 20–30% of ADHD variance is mediated by de-novo mutations and non-shared environmental factors, not family environment.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_003",
+        "text": "DSM-5 requires at least six symptoms of inattention or hyperactivity/impulsivity for those under 17, but only five for those 17 or older.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_004",
+        "text": "ADHD symptoms must be present in at least two settings (e.g., school, home, work) to meet DSM-5 diagnostic criteria.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_005",
+        "text": "Several ADHD symptoms must have been present before age 12 according to DSM-5 criteria.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_006",
+        "text": "ADHD is classified as a neurodevelopmental disorder, not purely a behavioral or psychiatric one.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_007",
+        "text": "Hyperfocus in ADHD is caused by inhibitory deficits — difficulty stopping an already ongoing response — rather than by heightened concentration ability.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_008",
+        "text": "Hyperfocus is associated with risks such as addiction and certain types of offending.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_009",
+        "text": "ADHD symptoms arise specifically from executive dysfunction, not general cognitive impairment.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_010",
+        "text": "ADHD involves imbalances in both the noradrenergic and dopaminergic neurotransmitter systems.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_011",
+        "text": "The dopamine and norepinephrine pathways implicated in ADHD originate in the ventral tegmental area and locus coeruleus.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_012",
+        "text": "These pathways project to the prefrontal cortex and striatum, governing executive function, motivation, reward perception, and motor function.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_013",
+        "text": "ADHD can very rarely result from chromosomal abnormalities.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_014",
+        "text": "Most ADHD diagnoses in children are initiated after a teacher raises concerns, not parents.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_015",
+        "text": "ADHD diagnosis in children is more common in low-income families and in Caucasian children compared to Black, Hispanic, and Asian children.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_016",
+        "text": "There is no biological test for ADHD; diagnosis is based on behavioral and mental development assessment.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_017",
+        "text": "The International Consensus Statement on ADHD concluded that the lack of a biological test does not invalidate the diagnosis.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_018",
+        "text": "Medications used to treat ADHD include stimulants, atomoxetine, alpha-2 adrenergic receptor agonists, and sometimes antidepressants.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_019",
+        "text": "Atomoxetine is a non-stimulant medication approved for ADHD treatment.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_020",
+        "text": "ADHD medications can reduce some elevated risks such as obesity.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_021",
+        "text": "Large amounts of positive reinforcement improve task performance in individuals with ADHD who struggle to focus on long-term rewards.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_022",
+        "text": "ADHD is associated with reduced size, functional connectivity, and activation in prefrontal executive networks.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_023",
+        "text": "ADHD impairments include poor time management, cognitive inhibition deficits, difficulty with task initiation, and poor sustained attention.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_024",
+        "text": "ADHD is associated with a reduction in life expectancy due to cumulative health risks.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_025",
+        "text": "Symptoms of ADHD must persist for six months or more and be developmentally inappropriate relative to peers for a DSM-5 diagnosis.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_026",
+        "text": "In adults, hyperactivity in ADHD typically manifests as restlessness rather than overt physical overactivity.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_027",
+        "text": "The rearing family and social environment have no significant contribution to ADHD causation according to genetic research.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_028",
+        "text": "ADHD diagnosis may be influenced by racial and socioeconomic biases, contributing to disparities in who receives a diagnosis.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_029",
+        "text": "ADHD involves perseveration — continuing actions despite intending to stop — due to difficulty interrupting ongoing response patterns.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_attention_deficit_hyperactivity_disorder_030",
+        "text": "ADHD management typically involves counseling, medications, or a combination of both.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
+    "questionIds": [
+      "adhd_001",
+      "adhd_004"
+    ]
+  },
+  {
+    "id": "src_executive_functions",
+    "title": "Executive functions",
+    "url": "https://en.m.wikipedia.org/wiki/Executive_functions",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "adhd"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "adhd_003"
+    ]
+  },
+  {
+    "id": "src_methylphenidate",
+    "title": "Methylphenidate",
+    "url": "https://en.m.wikipedia.org/wiki/Methylphenidate",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "adhd"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "adhd_002"
+    ]
+  }
+]

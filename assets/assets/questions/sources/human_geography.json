@@ -1,0 +1,190 @@
+[
+  {
+    "id": "src_demographic_transition",
+    "title": "Demographic Transition",
+    "url": "https://en.m.wikipedia.org/wiki/Demographic_transition",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "human_geography"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "hgeo_002"
+    ]
+  },
+  {
+    "id": "src_primate_city",
+    "title": "Primate City",
+    "url": "https://en.m.wikipedia.org/wiki/Primate_city",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "human_geography"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "hgeo_003"
+    ]
+  },
+  {
+    "id": "src_urbanization",
+    "title": "Urbanization",
+    "url": "https://en.m.wikipedia.org/wiki/Urbanization",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "human_geography"
+    ],
+    "articleText": null,
+    "facts": [
+      {
+        "id": "fact_urbanization_001",
+        "text": "By 2050, about 86% of the developed world is predicted to be urbanized.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_002",
+        "text": "By 2050, about 64% of the developing world is predicted to be urbanized.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_003",
+        "text": "The predicted urban population growth is equivalent to approximately 3 billion new urbanites by 2050.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_004",
+        "text": "Most of the urban population growth expected by 2050 will occur in Africa and Asia.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_005",
+        "text": "In England and Wales, the proportion of the population living in cities with more than 20,000 people jumped from 17% in 1801 to 54% in 1891.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_006",
+        "text": "The earliest cities developed in the Indus Valley Civilization, Mesopotamia, and Egypt.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_007",
+        "text": "Until the 18th century, an equilibrium existed between rural and urban populations due to the relatively stagnant state of agriculture.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_008",
+        "text": "A significant increase in the percentage of the global urban population can be traced to the 1st millennium BCE.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_009",
+        "text": "The British Agricultural Revolution and Industrial Revolution in the late 18th century broke the long-standing rural-urban equilibrium.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_010",
+        "text": "Greater Seoul is home to 50% of South Korea's entire national population.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_011",
+        "text": "Greater Manila has a total population of 20 million, representing over 20% of the Philippines' national population.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_012",
+        "text": "Quezon City, with 2.7 million people, is the largest municipality in Greater Manila — not Manila itself.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_013",
+        "text": "Manila, the capital of the Philippines, has a population of only 1.6 million, smaller than Quezon City.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_014",
+        "text": "Greater Busan-Ulsan accounts for about 15% of South Korea's population with 8 million people.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_015",
+        "text": "Greater Osaka accounts for about 14% of Japan's population with 18 million people.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_016",
+        "text": "Urbanization refers to the proportion of national population living in urban areas, while urban growth refers to the absolute number of people in those areas.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_017",
+        "text": "The 'good west end and poor east end' division of large European cities likely developed because south-west winds carried coal smoke eastward.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_018",
+        "text": "Eric Hobsbawm described urban development in the early 19th century as 'a gigantic process of class segregation' in his 1962 book The Age of Revolution.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_019",
+        "text": "The Overseas Development Institute think tank has proposed policies encouraging labour-intensive industries to absorb less-skilled migrant workers.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_020",
+        "text": "Suburbanization in large developing countries can be seen as an attempt to balance the harmful aspects of urban life while retaining access to shared resources.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_021",
+        "text": "Dominant conurbations do not have to be single cities — Greater Manila is a conurbation rather than a single city.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      },
+      {
+        "id": "fact_urbanization_022",
+        "text": "Population in Greater Busan-Ulsan and Greater Osaka is moving toward the more dominant rivals Seoul and Tokyo respectively.",
+        "verified": true,
+        "verifiedAt": "2026-04-14"
+      }
+    ],
+    "questionIds": [
+      "hgeo_001",
+      "hgeo_004",
+      "hgeo_005",
+      "hgeo_006",
+      "hgeo_007",
+      "hgeo_008",
+      "hgeo_009",
+      "hgeo_010",
+      "hgeo_011",
+      "hgeo_012",
+      "hgeo_013"
+    ]
+  }
+]

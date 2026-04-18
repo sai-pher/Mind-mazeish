@@ -1,0 +1,312 @@
+[
+  {
+    "id": "src_abo_blood_group_system",
+    "title": "ABO blood group system",
+    "url": "https://en.m.wikipedia.org/wiki/ABO_blood_group_system",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_009"
+    ]
+  },
+  {
+    "id": "src_antibiotic",
+    "title": "Antibiotic",
+    "url": "https://en.m.wikipedia.org/wiki/Antibiotic",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [
+      {
+        "id": "fact_antibiotic_001",
+        "text": "Ancient Sudanese societies as early as 350–550 CE were systematically consuming antibiotics as part of their diet.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_002",
+        "text": "Chemical analyses of Nubian skeletons from northern Sudan show consistently high levels of tetracycline.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_003",
+        "text": "Ancient Sudanese peoples are believed to have brewed beverages from grain fermented with Streptomyces, a bacterium that naturally produces tetracycline.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_004",
+        "text": "The word 'antibiotic' literally means 'opposing life', derived from the Greek roots anti ('against') and bios ('life').",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_005",
+        "text": "Antibiotics produced naturally by one microorganism fighting another are distinct from fully synthetic antibacterials such as sulfonamides.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_006",
+        "text": "Ancient civilizations including Egypt, China, Serbia, Greece, and Rome used topical application of moldy bread to treat infections.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_007",
+        "text": "The first person to directly document the use of molds to treat infections was John Parkinson (1567–1650).",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_008",
+        "text": "Synthetic antibiotic chemotherapy as a science began in Germany with Paul Ehrlich in the late 1880s.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_009",
+        "text": "Alexander Fleming discovered modern-day penicillin in 1928.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_010",
+        "text": "The term 'antibiosis' was introduced by French bacteriologist Jean Paul Vuillemin.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_011",
+        "text": "Antibiosis was first described in 1877 when Louis Pasteur and Robert Koch observed that an airborne bacillus could inhibit the growth of Bacillus anthracis.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_012",
+        "text": "The drugs later called antibiotics were renamed as such by Selman Waksman, an American microbiologist, in 1947.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_013",
+        "text": "The term 'antibiotic' was first used in 1942 by Selman Waksman and his collaborators in journal articles.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_014",
+        "text": "Waksman's original 1942 definition of 'antibiotic' excluded substances not produced by microorganisms, such as gastric juices and hydrogen peroxide.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_015",
+        "text": "Antibiotics are not effective against viruses, fungi, or the common cold or influenza.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_016",
+        "text": "A limited number of antibiotics also possess antiprotozoal activity.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_017",
+        "text": "Common side effects of oral antibiotics include diarrhea caused by disruption of the intestinal flora.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_018",
+        "text": "Antibiotic-associated diarrhea can result from overgrowth of pathogenic bacteria such as Clostridioides difficile.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_019",
+        "text": "Taking probiotics during antibiotic treatment can help prevent antibiotic-associated diarrhea.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_020",
+        "text": "Antibiotics can affect vaginal flora and may lead to overgrowth of Candida yeast species.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_021",
+        "text": "Adverse effects of antibiotics range from fever and nausea to anaphylaxis and photodermatitis.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_022",
+        "text": "The bactericidal activity of antibacterials often requires ongoing metabolic activity and division of bacterial cells.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_023",
+        "text": "In vitro characterization of antibacterial activity commonly includes determining the minimum inhibitory concentration and minimum bactericidal concentration.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_antibiotic_024",
+        "text": "The term 'antibiotic' in current usage applies to any medication that kills or inhibits bacteria, regardless of whether it is produced by a microorganism.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
+    "questionIds": [
+      "med_001"
+    ]
+  },
+  {
+    "id": "src_appendectomy",
+    "title": "Appendectomy",
+    "url": "https://en.m.wikipedia.org/wiki/Appendectomy",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_006"
+    ]
+  },
+  {
+    "id": "src_blinded_experiment",
+    "title": "Blinded experiment",
+    "url": "https://en.m.wikipedia.org/wiki/Blinded_experiment",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_010"
+    ]
+  },
+  {
+    "id": "src_botulism",
+    "title": "Botulism",
+    "url": "https://en.m.wikipedia.org/wiki/Botulism",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_011"
+    ]
+  },
+  {
+    "id": "src_cohort_study",
+    "title": "Cohort study",
+    "url": "https://en.m.wikipedia.org/wiki/Cohort_study",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_003"
+    ]
+  },
+  {
+    "id": "src_coronary_artery_bypass_surgery",
+    "title": "Coronary artery bypass surgery",
+    "url": "https://en.m.wikipedia.org/wiki/Coronary_artery_bypass_surgery",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_005"
+    ]
+  },
+  {
+    "id": "src_joseph_lister",
+    "title": "Joseph Lister",
+    "url": "https://en.m.wikipedia.org/wiki/Joseph_Lister",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_007"
+    ]
+  },
+  {
+    "id": "src_kidney",
+    "title": "Kidney",
+    "url": "https://en.m.wikipedia.org/wiki/Kidney",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_002"
+    ]
+  },
+  {
+    "id": "src_smallpox_vaccine",
+    "title": "Smallpox vaccine",
+    "url": "https://en.m.wikipedia.org/wiki/Smallpox_vaccine",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_004"
+    ]
+  },
+  {
+    "id": "src_xray",
+    "title": "Xray",
+    "url": "https://en.m.wikipedia.org/wiki/X-ray",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "medicine"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "med_008"
+    ]
+  }
+]

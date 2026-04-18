@@ -1,0 +1,64 @@
+[
+  {
+    "id": "handheld_001",
+    "question": "In which year was the first iPhone released by Apple?",
+    "correctAnswers": [
+      "2007"
+    ],
+    "wrongAnswers": [
+      "2005",
+      "2009",
+      "2003",
+      "2010",
+      "2001",
+      "2006"
+    ],
+    "funFact": "Steve Jobs introduced the original iPhone as \"a widescreen iPod with touch controls, a revolutionary mobile phone, and a breakthrough internet device\" — three devices in one.",
+    "sourceId": "src_iphone",
+    "topicId": "handheld_devices",
+    "topicCategoryId": "devices",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "easy"
+  },
+  {
+    "id": "handheld_002",
+    "question": "Which company produced the first commercially available smartphone?",
+    "correctAnswers": [
+      "IBM (the Simon Personal Communicator, 1994)"
+    ],
+    "wrongAnswers": [
+      "Nokia",
+      "Motorola",
+      "Apple",
+      "BlackBerry",
+      "Ericsson"
+    ],
+    "funFact": "The IBM Simon had a touchscreen, email, calendar, address book, and apps — in 1994. It cost $899 (about $1,800 in today's money) and weighed 510g.",
+    "sourceId": "src_smartphone",
+    "topicId": "handheld_devices",
+    "topicCategoryId": "devices",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "hard"
+  },
+  {
+    "id": "handheld_003",
+    "question": "The e-reader format gained mass-market success with which Amazon device, launched in 2007?",
+    "correctAnswers": [
+      "Kindle"
+    ],
+    "wrongAnswers": [
+      "Nook",
+      "Kobo",
+      "iPad",
+      "Sony Reader",
+      "iBook",
+      "Paperwhite"
+    ],
+    "funFact": "The first Kindle sold out within 5.5 hours of its launch on 19 November 2007 and remained out of stock for five months.",
+    "sourceId": "src_amazon_kindle",
+    "topicId": "handheld_devices",
+    "topicCategoryId": "devices",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "easy"
+  }
+]

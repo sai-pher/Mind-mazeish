@@ -1,0 +1,108 @@
+[
+  {
+    "id": "puzz_001",
+    "question": "The first jigsaw puzzle was created circa 1760 by whom?",
+    "correctAnswers": [
+      "John Spilsbury"
+    ],
+    "wrongAnswers": [
+      "Samuel Johnson",
+      "James Watt",
+      "Charles Babbage",
+      "John Locke",
+      "Isaac Newton",
+      "Benjamin Franklin"
+    ],
+    "funFact": "The first jigsaw puzzles were made by gluing maps to flat pieces of wood and then cutting along the country borders — they were educational tools for children learning geography.",
+    "sourceId": "src_jigsaw_puzzle",
+    "topicId": "puzzles",
+    "topicCategoryId": "games_puzzles",
+    "superCategoryId": "sports_recreation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "puzz_002",
+    "question": "Sudoku, the number-placement puzzle, originated as a modern game in which country?",
+    "correctAnswers": [
+      "Japan"
+    ],
+    "wrongAnswers": [
+      "China",
+      "United States",
+      "Germany",
+      "France",
+      "South Korea",
+      "India"
+    ],
+    "funFact": "Despite the Japanese name, Sudoku was invented by Howard Garns, an American architect, in 1979 under the name \"Number Place.\"",
+    "sourceId": "src_sudoku",
+    "topicId": "puzzles",
+    "topicCategoryId": "games_puzzles",
+    "superCategoryId": "sports_recreation",
+    "difficulty": "easy"
+  },
+  {
+    "id": "puzz_003",
+    "question": "The first crossword puzzle was published in the New York World newspaper in which year?",
+    "correctAnswers": [
+      "1913"
+    ],
+    "wrongAnswers": [
+      "1900",
+      "1925",
+      "1895",
+      "1930",
+      "1888",
+      "1920"
+    ],
+    "funFact": "The inventor of the crossword, Arthur Wynne, called it a \"word-cross\" — the name was later accidentally transposed by a typesetter.",
+    "sourceId": "src_crossword",
+    "topicId": "puzzles",
+    "topicCategoryId": "games_puzzles",
+    "superCategoryId": "sports_recreation",
+    "difficulty": "medium"
+  },
+  {
+    "id": "puzz_004",
+    "question": "The Rubik's Cube was invented in 1974 by Ernő Rubik, a professor from which country?",
+    "correctAnswers": [
+      "Hungary"
+    ],
+    "wrongAnswers": [
+      "Austria",
+      "Czech Republic",
+      "Poland",
+      "Germany",
+      "Romania",
+      "Slovakia"
+    ],
+    "funFact": "Ernő Rubik originally called his invention the \"Magic Cube.\" It took him over a month to solve it himself after inventing it.",
+    "sourceId": "src_rubiks_cube",
+    "topicId": "puzzles",
+    "topicCategoryId": "games_puzzles",
+    "superCategoryId": "sports_recreation",
+    "difficulty": "medium"
+  },
+  {
+    "id": "puzz_005",
+    "question": "What is the minimum number of moves needed to solve any configuration of the Rubik's Cube (known as \"God's number\")?",
+    "correctAnswers": [
+      "20"
+    ],
+    "wrongAnswers": [
+      "17",
+      "26",
+      "30",
+      "15",
+      "22",
+      "35",
+      "42"
+    ],
+    "funFact": "It took decades of mathematical and computational work to prove \"God's number\" is 20. The proof required the equivalent of 35 CPU-years of computing time.",
+    "sourceId": "src_rubiks_cube",
+    "topicId": "puzzles",
+    "topicCategoryId": "games_puzzles",
+    "superCategoryId": "sports_recreation",
+    "difficulty": "hard"
+  }
+]

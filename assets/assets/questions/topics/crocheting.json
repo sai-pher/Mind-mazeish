@@ -1,0 +1,1308 @@
+[
+  {
+    "id": "croch_001",
+    "question": "Crochet uses which tool to create fabric by interlocking loops of yarn?",
+    "correctAnswers": [
+      "A crochet hook"
+    ],
+    "wrongAnswers": [
+      "Two needles",
+      "A loom",
+      "A shuttle",
+      "A bobbin",
+      "A spindle",
+      "A thimble"
+    ],
+    "funFact": "Unlike knitting (which uses two needles and keeps multiple loops active), crochet typically keeps only one live loop on the hook at a time.",
+    "sourceId": "src_crochet",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "croch_002",
+    "question": "Amigurumi is a Japanese crochet (or knitting) technique for making what kind of items?",
+    "correctAnswers": [
+      "Small stuffed animals or characters"
+    ],
+    "wrongAnswers": [
+      "Blankets",
+      "Scarves",
+      "Doilies",
+      "Hats",
+      "Bags",
+      "Socks"
+    ],
+    "funFact": "The word \"amigurumi\" combines the Japanese words \"ami\" (knitted or crocheted) and \"nuigurumi\" (stuffed doll). The style became a global craft trend in the 2000s.",
+    "sourceId": "src_amigurumi",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "croch_003",
+    "question": "What is the earliest documented evidence of crochet-like work?",
+    "correctAnswers": [
+      "19th century Europe (earliest records from the 1820s–1840s)"
+    ],
+    "wrongAnswers": [
+      "Ancient Egypt",
+      "Medieval China",
+      "17th century Netherlands",
+      "Viking-age Scandinavia",
+      "Ancient Rome"
+    ],
+    "funFact": "Some historians believe what was called \"shepherd's knitting\" in early texts actually referred to crochet — the technique's true origins remain debated.",
+    "sourceId": "src_crochet",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_004",
+    "question": "What is the name of the hooked tool used to create loops in thread or yarn for crochet?",
+    "correctAnswers": [
+      "Crochet hook"
+    ],
+    "wrongAnswers": [
+      "Knitting needle",
+      "Tatting shuttle",
+      "Bobbin",
+      "Embroidery hoop",
+      "Lace pillow",
+      "Sewing awl",
+      "Darning needle",
+      "Weaving shuttle"
+    ],
+    "funFact": "A crochet hook consists of a round shaft with a hooked tip, plus a lateral groove behind it — the groove is what allows the hook to pull a loop back through the material.",
+    "sourceId": "src_crochet_hook",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "crocheting_005",
+    "question": "What is the minimum diameter of crochet hooks, according to the range currently produced?",
+    "correctAnswers": [
+      "0.35 mm"
+    ],
+    "wrongAnswers": [
+      "0.5 mm",
+      "0.75 mm",
+      "1.0 mm",
+      "1.25 mm",
+      "0.25 mm",
+      "0.1 mm",
+      "0.6 mm",
+      "2.0 mm"
+    ],
+    "funFact": "Crochet hooks are produced in diameters ranging from 0.35 mm all the way up to 25 mm. The smallest steel hooks are used for delicate lace work with fine thread.",
+    "sourceId": "src_crochet_hook",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_006",
+    "question": "What material are crochet hooks under 2.0 mm always made from, due to the strength required?",
+    "correctAnswers": [
+      "Steel"
+    ],
+    "wrongAnswers": [
+      "Aluminum",
+      "Bamboo",
+      "Wood",
+      "Plastic",
+      "Bone",
+      "Ivory",
+      "Brass",
+      "Copper"
+    ],
+    "funFact": "Hooks under 2.0 mm are made of steel for its strength and are alternately called steel hooks, lace hooks, or thread hooks. Larger hooks use aluminum, bamboo, or plastic.",
+    "sourceId": "src_crochet_hook",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_007",
+    "question": "Which embroidery technique, thought to have originated in China, influenced the development of crochet hooks through its use of a hooked needle to produce chain stitches?",
+    "correctAnswers": [
+      "Tambour embroidery"
+    ],
+    "wrongAnswers": [
+      "Crewelwork",
+      "Needlepoint",
+      "Cross-stitch",
+      "Blackwork",
+      "Goldwork",
+      "Broderie anglaise",
+      "Smocking",
+      "Hardanger embroidery"
+    ],
+    "funFact": "Tambour embroidery is believed to have originated in China before being brought to Europe through trade. Its hooked needle was a precursor to the modern crochet hook.",
+    "sourceId": "src_crochet_hook",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_008",
+    "question": "What decorative craft technique was used to create ornate crochet hook handles in 19th-century Europe?",
+    "correctAnswers": [
+      "Scrimshaw"
+    ],
+    "wrongAnswers": [
+      "Marquetry",
+      "Decoupage",
+      "Gilding",
+      "Inlay",
+      "Pyrography",
+      "Enamelling",
+      "Filigree",
+      "Repoussé"
+    ],
+    "funFact": "Ornate handles were added to crochet hooks throughout history, with scrimshaw — the art of carving or engraving on bone or ivory — being one method used in 19th-century Europe.",
+    "sourceId": "src_crochet_hook",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_009",
+    "question": "What US industry organisation collated a standardised table of crochet hook and knitting needle sizes that is now widely used internationally?",
+    "correctAnswers": [
+      "Craft Yarn Council of America"
+    ],
+    "wrongAnswers": [
+      "American Needlework Guild",
+      "National Craft Association",
+      "Textile Arts Council",
+      "Fiber Arts Federation",
+      "American Sewing Guild",
+      "US Textile Standards Bureau",
+      "Handcraft Industry Alliance",
+      "Yarn Manufacturers Institute"
+    ],
+    "funFact": "The Craft Yarn Council of America (CYCA) worked with member organisations to standardise hook sizing, making it far easier for crafters to replicate patterns across different brands.",
+    "sourceId": "src_crochet_hook",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_010",
+    "question": "What type of crochet uses an elongated hook — often with a stopper on the handle end — called an Afghan hook?",
+    "correctAnswers": [
+      "Tunisian crochet"
+    ],
+    "wrongAnswers": [
+      "Irish crochet",
+      "Broomstick lace",
+      "Hairpin lace",
+      "Filet crochet",
+      "Tapestry crochet",
+      "Overlay crochet",
+      "Bavarian crochet",
+      "Mosaic crochet"
+    ],
+    "funFact": "Tunisian crochet is sometimes considered a mixture of crocheting and knitting. Its forward and backward pass system means all loops stay on the hook at the end of each forward pass — similar to casting on in knitting.",
+    "sourceId": "src_tunisian_crochet",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "crocheting_011",
+    "question": "In Tunisian crochet, what is the name for the first of the two passes used to complete a row, where loops are picked up across the work?",
+    "correctAnswers": [
+      "Forward pass"
+    ],
+    "wrongAnswers": [
+      "Backward pass",
+      "Return pass",
+      "Cast-on row",
+      "Foundation pass",
+      "Chain pass",
+      "Setup pass",
+      "Right-to-left pass",
+      "Initial pass"
+    ],
+    "funFact": "In Tunisian crochet, the forward pass (working right to left for right-handers) picks up all the loops, while the reverse or backward pass (left to right) works them back off the hook — together these two passes form one complete row.",
+    "sourceId": "src_tunisian_crochet",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_012",
+    "question": "Tunisian crochet has gone by many historical names. Which of the following was one of them?",
+    "correctAnswers": [
+      "Afghan crochet",
+      "Victorian crochet",
+      "Scotch knitting"
+    ],
+    "wrongAnswers": [
+      "Nordic crochet",
+      "Oriental stitch",
+      "Moorish crochet",
+      "Alpine knitting",
+      "Persian weave",
+      "Bohemian stitch",
+      "Baltic crochet",
+      "Slavic lace"
+    ],
+    "funFact": "Tunisian crochet has been known as Afghan crochet, Victorian crochet, tricot stitch, Scotch knitting, Princess Frederick William stitch, idiot's crochet, fool's crochet, and shepherd's knitting — a remarkably varied naming history for a single technique.",
+    "sourceId": "src_tunisian_crochet",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_013",
+    "question": "In which country was the first use of the word 'Tunisian' specifically in relation to this style of crochet found, in 1857?",
+    "correctAnswers": [
+      "Sweden"
+    ],
+    "wrongAnswers": [
+      "France",
+      "Germany",
+      "Tunisia",
+      "England",
+      "Denmark",
+      "Italy",
+      "Netherlands",
+      "Austria"
+    ],
+    "funFact": "The first known use of 'Tunisian' in relation to this crochet style was found in 1857 in Sweden — 'tuniska virkstygn', meaning 'Tunisian simple stitch'. The English term 'Tunisian Crochet' first appeared in an American publication in 1862.",
+    "sourceId": "src_tunisian_crochet",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_014",
+    "question": "Which knitting method is also applicable in Tunisian crochet, allowing colour-work patterns by working different-coloured sections simultaneously?",
+    "correctAnswers": [
+      "Intarsia"
+    ],
+    "wrongAnswers": [
+      "Fair Isle",
+      "Stranded knitting",
+      "Brioche",
+      "Double knitting",
+      "Entrelac",
+      "Mosaic knitting",
+      "Slip-stitch colour work",
+      "Jacquard"
+    ],
+    "funFact": "Tunisian crochet borrows the intarsia method from knitting, allowing crafters to create bold colour-blocked or pictorial designs without carrying yarn across the back of the work.",
+    "sourceId": "src_tunisian_crochet",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_015",
+    "question": "Irish crochet lace was originally developed to imitate which expensive style of lace?",
+    "correctAnswers": [
+      "Venetian point lace"
+    ],
+    "wrongAnswers": [
+      "Brussels lace",
+      "Chantilly lace",
+      "Honiton lace",
+      "Alençon lace",
+      "Bruges lace",
+      "Mechlin lace",
+      "Torchon lace",
+      "Binche lace"
+    ],
+    "funFact": "Irish crochet lace was developed in mid-19th century Ireland as an affordable method of imitating costly Venetian point laces, and was soon being taught in almost every convent across Ireland.",
+    "sourceId": "src_irish_crochet_lace",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_016",
+    "question": "By approximately what year was Irish crochet lace being taught at the Ursuline Convent in Blackrock, County Cork?",
+    "correctAnswers": [
+      "1845"
+    ],
+    "wrongAnswers": [
+      "1820",
+      "1830",
+      "1860",
+      "1870",
+      "1880",
+      "1835",
+      "1855",
+      "1865"
+    ],
+    "funFact": "By 1845, Irish crochet lace was being taught at the Ursuline Convent in Blackrock, County Cork. Within a few years it had spread to almost every convent in the country and was used as part of Famine Relief Schemes.",
+    "sourceId": "src_irish_crochet_lace",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_017",
+    "question": "Approximately how many women were working in Irish crochet lace production by 1851?",
+    "correctAnswers": [
+      "16,000"
+    ],
+    "wrongAnswers": [
+      "5,000",
+      "10,000",
+      "25,000",
+      "50,000",
+      "3,000",
+      "8,000",
+      "30,000",
+      "100,000"
+    ],
+    "funFact": "By 1851, approximately 16,000 women were working in Irish crochet lace — a craft that had been rapidly expanded as part of Famine Relief Schemes, providing income and the means to emigrate.",
+    "sourceId": "src_irish_crochet_lace",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_018",
+    "question": "What technique is used in Irish crochet lace to give motifs volume and shaping, by crocheting around a cord before assembling them?",
+    "correctAnswers": [
+      "Cotton cord padding"
+    ],
+    "wrongAnswers": [
+      "Wire framing",
+      "Stuffing with wool",
+      "Cardboard backing",
+      "Foam padding",
+      "Starch stiffening",
+      "Wax moulding",
+      "Ribbon weaving",
+      "Fibre filling"
+    ],
+    "funFact": "In the more challenging style of Irish crochet lace, each motif is crocheted separately over cotton cord for volume and shaping. The finished motifs are then basted onto a cloth pattern and joined with chains and picots.",
+    "sourceId": "src_irish_crochet_lace",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_019",
+    "question": "Irish crochet lace is considered the original form of which modern crochet style that allows free, unstructured design?",
+    "correctAnswers": [
+      "Freeform crochet"
+    ],
+    "wrongAnswers": [
+      "Tunisian crochet",
+      "Tapestry crochet",
+      "Filet crochet",
+      "Broomstick lace",
+      "Hairpin lace",
+      "Overlay crochet",
+      "Bavarian crochet",
+      "Mosaic crochet"
+    ],
+    "funFact": "Irish crochet lace is considered the original freeform crochet, with each piece being individually designed. The revival of Clones Lace — a variety of Irish crochet — has seen designers from around the world contributing new interpretations.",
+    "sourceId": "src_irish_crochet_lace",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_020",
+    "question": "What is yarn defined as, in its most basic description?",
+    "correctAnswers": [
+      "A long continuous length of interlocked fibres"
+    ],
+    "wrongAnswers": [
+      "A woven strip of fabric",
+      "A twisted bundle of raw wool",
+      "A spun sheet of compressed fibres",
+      "A knitted length of thread",
+      "A braided cord of natural materials",
+      "A felted roll of animal fibre",
+      "A sheet of meshed textile threads",
+      "A bonded layer of synthetic strands"
+    ],
+    "funFact": "Yarn is defined as a long continuous length of interlocked fibres. It is used in sewing, crocheting, knitting, weaving, embroidery, ropemaking, and the production of textiles.",
+    "sourceId": "src_yarn",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "crocheting_021",
+    "question": "The Old English word from which 'yarn' is derived — 'gearn' — originally referred to what?",
+    "correctAnswers": [
+      "Entrails"
+    ],
+    "wrongAnswers": [
+      "Thread",
+      "String",
+      "Rope",
+      "Fibre",
+      "Cord",
+      "Band",
+      "Wool",
+      "Flax"
+    ],
+    "funFact": "The word 'yarn' comes from Old English 'gearn', akin to Old High German 'garn' and Ancient Greek 'chordē' (string). Interestingly, it originally referred to entrails rather than textile fibre.",
+    "sourceId": "src_yarn",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_022",
+    "question": "What is 'ombré' yarn?",
+    "correctAnswers": [
+      "Variegated yarn with light and dark shades of a single hue"
+    ],
+    "wrongAnswers": [
+      "Yarn with flecks of different coloured fibre",
+      "Yarn dyed with two or more distinct hues",
+      "Yarn dyed with colour lengths that create automatic stripes",
+      "Yarn made from strands of different colours twisted together",
+      "Yarn that gradually changes from one colour to another across a skein",
+      "Yarn dyed in sections using a space-dyeing technique",
+      "Yarn with a heathered, speckled appearance"
+    ],
+    "funFact": "Ombré yarn features light and dark shades of a single hue, creating a tonal gradient effect in finished projects. This differs from multicoloured yarn, which uses two or more distinct hues.",
+    "sourceId": "src_yarn",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_023",
+    "question": "What is the thinnest yarn weight in the Craft Yarn Council of America's standardised numbering system?",
+    "correctAnswers": [
+      "Size 0 (Lace)"
+    ],
+    "wrongAnswers": [
+      "Size 1 (Super Fine)",
+      "Size 2 (Fine)",
+      "Size 3 (Light)",
+      "Size 00 (Thread)",
+      "Size 0 (Thread)",
+      "Size 1 (Lace)",
+      "Size 0 (Fingering)"
+    ],
+    "funFact": "The Craft Yarn Council of America uses a yarn weight system numbered from 0 (finest) to 7 (thickest). Size 0 is called 'Lace' — the finest weight suitable for delicate openwork projects like doilies.",
+    "sourceId": "src_yarn",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_024",
+    "question": "What is 'marled' yarn?",
+    "correctAnswers": [
+      "Yarn made from strands of different-coloured yarn twisted together"
+    ],
+    "wrongAnswers": [
+      "Yarn dyed with lengths of colour that create automatic stripes",
+      "Yarn with flecks of different coloured fibre",
+      "Yarn with light and dark shades of a single hue",
+      "Yarn dyed using a space-dyeing technique in multiple hues",
+      "Yarn that is spun with a deliberately uneven twist",
+      "Yarn coated in a reflective metallic finish",
+      "Yarn twisted around a central core thread"
+    ],
+    "funFact": "Marled yarn is made from strands of different-coloured yarn twisted together, often in closely related hues. It creates a subtly variegated, blended appearance in the finished fabric.",
+    "sourceId": "src_yarn",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_025",
+    "question": "How many stitches make up 1 hank in the British standard yarn measure?",
+    "correctAnswers": [
+      "7 skeins (840 yards)"
+    ],
+    "wrongAnswers": [
+      "5 skeins (600 yards)",
+      "10 skeins (1200 yards)",
+      "4 skeins (480 yards)",
+      "8 skeins (960 yards)",
+      "6 skeins (720 yards)",
+      "12 skeins (1440 yards)",
+      "3 skeins (360 yards)",
+      "7 skeins (560 yards)"
+    ],
+    "funFact": "In the British standard yarn measure, 1 hank equals 7 skeins, which equals 840 yards (770 m). Each skein in turn equals 80 threads of 55 inches each — a precise historical system for measuring yarn.",
+    "sourceId": "src_yarn",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_026",
+    "question": "What is the key difference between how crochet and knitting each hold their active stitches?",
+    "correctAnswers": [
+      "Crochet uses a single hook with usually one active stitch at a time; knitting uses two needles with many active stitches at once"
+    ],
+    "wrongAnswers": [
+      "Crochet uses two hooks; knitting uses one needle",
+      "Crochet holds all stitches on a long rod; knitting releases each stitch immediately",
+      "Crochet requires a frame; knitting can be done in the hand",
+      "Both use two needles but crochet has a curved tip",
+      "Crochet uses circular needles; knitting uses straight ones",
+      "Crochet finishes multiple stitches simultaneously; knitting creates them one at a time",
+      "Both use a single tool but differ in the direction of work"
+    ],
+    "funFact": "Crochet typically creates one stitch at a time and finishes it before moving on, while knitting keeps many active stitches on the needle simultaneously. This structural difference means crochet fabric uses more yarn per stitch but allows more flexible construction.",
+    "sourceId": "src_knitting",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_027",
+    "question": "What is the name of the fabric-creation technique predating both knitting and crochet, in which fabric is made through loops and knots using a single needle?",
+    "correctAnswers": [
+      "Nålbinding"
+    ],
+    "wrongAnswers": [
+      "Sprang",
+      "Tablet weaving",
+      "Nalebinding",
+      "Lucet work",
+      "Frame knitting",
+      "Bobbin weaving",
+      "Inkle weaving",
+      "Card weaving"
+    ],
+    "funFact": "Nålbinding — meaning 'binding with a needle' — predates both knitting and crochet. Artifacts of this technique have been found in Egypt, China, Denmark, and Sweden, dating back as far as 4200 BCE.",
+    "sourceId": "src_knitting",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_028",
+    "question": "What year did William Lee of Nottinghamshire invent the first knitting frame (stocking frame)?",
+    "correctAnswers": [
+      "1589"
+    ],
+    "wrongAnswers": [
+      "1550",
+      "1620",
+      "1649",
+      "1700",
+      "1575",
+      "1601",
+      "1450",
+      "1530"
+    ],
+    "funFact": "William Lee invented the stocking frame in 1589, but Queen Elizabeth I denied him a patent, reportedly fearing it would put hand-knitters out of work. Lee later took his invention to France.",
+    "sourceId": "src_knitting",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_029",
+    "question": "Compared to knitting, which characteristic best describes crochet fabric?",
+    "correctAnswers": [
+      "More structured and uses more yarn per stitch"
+    ],
+    "wrongAnswers": [
+      "Thinner and more flexible",
+      "Lighter and uses less yarn",
+      "Easier to unravel and re-work",
+      "Always produces a tighter gauge",
+      "Has simpler, more readable patterns",
+      "Creates a V-shaped stitch structure",
+      "Requires two tools to produce"
+    ],
+    "funFact": "Crochet fabric has a more structured feel than knitting, and each stitch — consisting of several loops entwined — uses more yarn. However, crochet is more flexible in the structures that can be created, since stitches can be placed in any direction.",
+    "sourceId": "src_knitting",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "crocheting_030",
+    "question": "What are the two main categories into which handmade lace is generally divided?",
+    "correctAnswers": [
+      "Needle lace and bobbin lace"
+    ],
+    "wrongAnswers": [
+      "Tatted lace and crocheted lace",
+      "Knitted lace and woven lace",
+      "Chemical lace and cutwork lace",
+      "Machine lace and handmade lace",
+      "French lace and Italian lace",
+      "Knotted lace and looped lace",
+      "Drawn thread lace and filet lace"
+    ],
+    "funFact": "While there are many types of lace including crocheted, knitted, and knotted varieties, handmade lace is traditionally split into two main categories: needle lace (made with a needle and thread) and bobbin lace (made with bobbins on a pillow).",
+    "sourceId": "src_lace",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "crocheting_031",
+    "question": "Crocheted lace includes which of the following specific styles?",
+    "correctAnswers": [
+      "Irish crochet",
+      "Filet crochet",
+      "Pineapple crochet"
+    ],
+    "wrongAnswers": [
+      "Honiton lace",
+      "Torchon lace",
+      "Bruges flower work",
+      "Chantilly lace",
+      "Alençon lace",
+      "Shetland lace",
+      "Cluny lace"
+    ],
+    "funFact": "According to the Lace article, crocheted lace includes Irish crochet, pineapple crochet, and filet crochet — whereas knitted lace includes styles like the Shetland 'wedding ring shawl' so fine it can pass through a wedding ring.",
+    "sourceId": "src_lace",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_032",
+    "question": "In bobbin lace-making, what are the bobbins — which carry the threads — typically turned from?",
+    "correctAnswers": [
+      "Wood, bone, or plastic"
+    ],
+    "wrongAnswers": [
+      "Metal and ivory",
+      "Ceramic and glass",
+      "Bamboo and resin",
+      "Silver and pewter",
+      "Copper and tin",
+      "Horn and antler",
+      "Stone and clay",
+      "Iron and brass"
+    ],
+    "funFact": "Bobbin lace bobbins are turned from wood, bone, or plastic, and carry threads that are woven together and pinned onto a stiff pillow fitted with a pattern template. Bobbin lace pillows themselves can be made of straw, sawdust, or foam materials.",
+    "sourceId": "src_lace",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_033",
+    "question": "What Dutch Golden Age painting, completed around 1669–1670, depicts an anonymous female artisan making lace?",
+    "correctAnswers": [
+      "The Lacemaker by Johannes Vermeer"
+    ],
+    "wrongAnswers": [
+      "The Milkmaid by Johannes Vermeer",
+      "The Letter by Johannes Vermeer",
+      "The Spinner by Diego Velázquez",
+      "The Seamstress by Jan Steen",
+      "Woman Threading a Needle by Nicolaes Maes",
+      "The Embroiderer by Gabriel Metsu",
+      "The Bobbin Lace Maker by Pieter de Hooch"
+    ],
+    "funFact": "Johannes Vermeer (1632–1675) painted The Lacemaker around 1669–1670, depicting a woman at work with bobbin lace. It remains one of the most celebrated images of textile craft in Western art.",
+    "sourceId": "src_lace",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_034",
+    "question": "What Latin word gives 'lace' its etymological origin, and what does that word mean?",
+    "correctAnswers": [
+      "Laqueus, meaning noose"
+    ],
+    "wrongAnswers": [
+      "Lacere, meaning thread",
+      "Lacer, meaning torn",
+      "Lacinia, meaning fringe",
+      "Laxus, meaning loose",
+      "Ligare, meaning to bind",
+      "Linea, meaning line",
+      "Lucere, meaning to shine"
+    ],
+    "funFact": "The word 'lace' traces back through Old French 'las' to the Latin 'laqueus', meaning noose — apt, since lace is essentially an open fabric structure defined by its open spaces outlined with thread, much like the shape of a noose.",
+    "sourceId": "src_lace",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_035",
+    "question": "What type of knot forms the foundation stitch of tatting, worked over a core thread?",
+    "correctAnswers": [
+      "Double stitch (cow hitch or half-hitch knot)"
+    ],
+    "wrongAnswers": [
+      "Square knot",
+      "Reef knot",
+      "Lark's head knot",
+      "Overhand knot",
+      "Slip knot",
+      "Clove hitch",
+      "Granny knot",
+      "Figure-eight knot"
+    ],
+    "funFact": "Tatting lace is formed by a pattern of rings and chains built from cow hitch or half-hitch knots — called double stitches — worked over a core thread. Gaps between stitches form decorative 'picots' used for both construction and ornamentation.",
+    "sourceId": "src_tatting",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_036",
+    "question": "What is the German name for the tatting shuttle, which means 'work of the little boat'?",
+    "correctAnswers": [
+      "Schiffchenarbeit"
+    ],
+    "wrongAnswers": [
+      "Occhi",
+      "Chiacchierino",
+      "Klöppeln",
+      "Nadelarbeit",
+      "Webarbeit",
+      "Knotenarbeit",
+      "Häkelarbeit",
+      "Fadenarbeit"
+    ],
+    "funFact": "In German, tatting is known as 'Schiffchenarbeit' — 'work of the little boat' — a reference to the boat-shaped shuttle. In Italian, it's called 'chiacchierino', meaning 'chatty'. The Italian word 'Occhi' is also used in German.",
+    "sourceId": "src_tatting",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_037",
+    "question": "Who was the influential author whose 19th-century publications helped develop the concepts and terms for picots and chains in tatting?",
+    "correctAnswers": [
+      "Mlle Eléonore Riego de la Branchardière"
+    ],
+    "wrongAnswers": [
+      "Anne Orr",
+      "Cornelia Mee",
+      "Mrs. Beeton",
+      "Therese de Dillmont",
+      "Sophie Riego",
+      "Marie Noel",
+      "Emma Leith",
+      "Frances Lambert"
+    ],
+    "funFact": "Contemporary tatting methods were greatly influenced by Mlle Eléonore Riego de la Branchardière, whose numerous publications in the 19th century helped establish the terminology and concepts — such as picots and chains — still used in tatting today.",
+    "sourceId": "src_tatting",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_038",
+    "question": "What historical craft may have been an ancestor of tatting, based on the similarity of decorative ropework techniques used by sailors?",
+    "correctAnswers": [
+      "Decorative ropework (knotting)"
+    ],
+    "wrongAnswers": [
+      "Sprang",
+      "Tablet weaving",
+      "Macramé",
+      "Netting",
+      "Lucet work",
+      "Finger weaving",
+      "Inkle weaving",
+      "Bobbin lace"
+    ],
+    "funFact": "Tatting may have developed from decorative ropework and netting practised by sailors and fishermen, who created motifs for loved ones at home. Techniques like coxcombing used in nautical ropework show striking structural similarity to tatting.",
+    "sourceId": "src_tatting",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_039",
+    "question": "What is the name of the software mentioned as useful for producing tatting pattern diagrams?",
+    "correctAnswers": [
+      "Inkscape"
+    ],
+    "wrongAnswers": [
+      "Adobe Illustrator",
+      "CorelDRAW",
+      "GIMP",
+      "AutoCAD",
+      "Canva",
+      "Affinity Designer",
+      "Scribus",
+      "LibreOffice Draw"
+    ],
+    "funFact": "Modern tatting patterns can be represented as diagrams, and Inkscape — a free, open-source vector graphics editor — permits useful diagram structures for tatting patterns, making it easier to share and follow designs.",
+    "sourceId": "src_tatting",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_040",
+    "question": "What 17th-century London draper gave his name to the doily, after popularising a woolen fabric described as 'at once cheap and genteel'?",
+    "correctAnswers": [
+      "Doiley"
+    ],
+    "wrongAnswers": [
+      "Doyly",
+      "Damask",
+      "Doyley",
+      "Dover",
+      "Dolton",
+      "Dimity",
+      "Dormer",
+      "Dalton"
+    ],
+    "funFact": "The word 'doily' derives from a 17th-century London draper named Doiley (or Doily), who made popular an inexpensive woolen fabric for summer wear. Over time the word shifted from describing a fabric to referring to a small ornamental napkin used at dessert.",
+    "sourceId": "src_doily",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_041",
+    "question": "What crochet technique — also used for doilies — creates a grid-like fabric resembling a net or mesh, similar to points on a Cartesian coordinate system?",
+    "correctAnswers": [
+      "Filet crochet"
+    ],
+    "wrongAnswers": [
+      "Tunisian crochet",
+      "Tapestry crochet",
+      "Broomstick lace",
+      "Hairpin lace",
+      "Overlay crochet",
+      "Bavarian crochet",
+      "C2C crochet",
+      "Mosaic crochet"
+    ],
+    "funFact": "Filet crochet creates a grid or mesh pattern and was widely used for doilies and household items. The technique works on a rectangular grid, with filled and open squares forming the design — the article likens it to points on a Cartesian coordinate system.",
+    "sourceId": "src_doily",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_042",
+    "question": "Doilies are characterised by what structural feature that allows the surface beneath them to show through?",
+    "correctAnswers": [
+      "Openwork"
+    ],
+    "wrongAnswers": [
+      "Embossed relief",
+      "Woven grid",
+      "Solid weave",
+      "Raised pile",
+      "Dense felting",
+      "Cut pile",
+      "Layered fabric",
+      "Quilted surface"
+    ],
+    "funFact": "Doilies are defined by their openwork — the spaces in the design that let the surface of the underlying object (a table, a plate, a shelf) show through. This open structure is achieved through crocheting, tatting, or knitting.",
+    "sourceId": "src_doily",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "crocheting_043",
+    "question": "In what period did many thread manufacturers publish patterns for crocheting doilies, often without crediting the designers?",
+    "correctAnswers": [
+      "The first part of the 20th century"
+    ],
+    "wrongAnswers": [
+      "The late 19th century",
+      "The 1950s and 60s",
+      "The Victorian era of the mid-1800s",
+      "The 1920s to 1940s only",
+      "The Edwardian era of the early 1900s only",
+      "The post-war 1950s",
+      "The Depression era of the 1930s"
+    ],
+    "funFact": "Many patterns for crocheting or knitting doilies were published by thread manufacturers in the first part of the 20th century, and the designers were often uncredited — a common practice in the craft publishing industry of the era.",
+    "sourceId": "src_doily",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_044",
+    "question": "When did the term 'fiber art' come into use among curators and arts historians?",
+    "correctAnswers": [
+      "Following World War II"
+    ],
+    "wrongAnswers": [
+      "In the 1920s",
+      "During the Arts and Crafts Movement of the late 19th century",
+      "In the 1930s",
+      "During the Renaissance",
+      "In the early 20th century",
+      "During the Bauhaus period of the 1920s and 30s",
+      "In the 1980s"
+    ],
+    "funFact": "The term 'fiber art' came into use by curators and arts historians following World War II, as weavers began binding fibres into nonfunctional, purely aesthetic forms and craft artists gained greater recognition alongside painters and sculptors.",
+    "sourceId": "src_fiber_art",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_045",
+    "question": "Which UK textile group, whose founding coincided with a growth in interest in using textile media in a fine art context, was established in the 1960s?",
+    "correctAnswers": [
+      "The 62 Group of Textile Artists"
+    ],
+    "wrongAnswers": [
+      "The Textile Society of Britain",
+      "The British Fibre Arts Guild",
+      "The Craft Textile Association",
+      "The Royal College of Needlework",
+      "The British Lace Federation",
+      "The Contemporary Textiles Group",
+      "The Weavers' Guild of London"
+    ],
+    "funFact": "The 62 Group of Textile Artists was founded in the UK in the 1960s, coinciding with an international revolution in fiber art. This era saw artists creating structures through knotting, twining, plaiting, coiling, and braiding — far beyond traditional weaving.",
+    "sourceId": "src_fiber_art",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_046",
+    "question": "In which ancient burial vaults was evidence of the earliest known felting found, dating to the 7th or 8th century BC?",
+    "correctAnswers": [
+      "Burial vaults in Siberia"
+    ],
+    "wrongAnswers": [
+      "Tombs in ancient Egypt",
+      "Burial mounds in Scandinavia",
+      "Catacombs in Rome",
+      "Burial sites in China",
+      "Tombs in ancient Greece",
+      "Barrows in Britain",
+      "Burial chambers in Anatolia"
+    ],
+    "funFact": "Evidence of felting was found in burial vaults in Siberia dating to the 7th or 8th century BC. Felting — in which fleece fibres are rolled and agitated until the tiny barbules twist and connect — was one of humanity's earliest textile inventions.",
+    "sourceId": "src_fiber_art",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_047",
+    "question": "What role did the women's movement of the 1960s and 70s play in the rise of fiber art?",
+    "correctAnswers": [
+      "It contributed to the rise of fiber art because of the traditional association of women with textile crafts"
+    ],
+    "wrongAnswers": [
+      "It led to fiber art being banned from fine art galleries",
+      "It promoted weaving as the only legitimate fiber art form",
+      "It had no notable effect on fiber art",
+      "It caused a sharp decline in traditional fiber crafts",
+      "It introduced synthetic fibres into fine art for the first time",
+      "It separated fiber art from its craft origins entirely",
+      "It led to machine production replacing hand-made fiber arts"
+    ],
+    "funFact": "The women's movement of the 1960s and 70s was important in contributing to the rise of fiber art, because of the traditional association of women with textile crafts. This gave new cultural and political weight to fiber-based art forms.",
+    "sourceId": "src_fiber_art",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_048",
+    "question": "What are the two primary knots of macramé?",
+    "correctAnswers": [
+      "The square (reef) knot and various forms of hitching (half hitches)"
+    ],
+    "wrongAnswers": [
+      "The lark's head knot and the overhand knot",
+      "The granny knot and the clove hitch",
+      "The bowline and the sheet bend",
+      "The slip knot and the figure-eight knot",
+      "The Josephine knot and the gathering knot",
+      "The Crown knot and the Wall knot",
+      "The Chinese crown knot and the square knot"
+    ],
+    "funFact": "The primary knots of macramé are the square (or reef) knot and various forms of hitching — combinations of half hitches. From these two basic knot families, an enormous variety of macramé patterns and textures can be created.",
+    "sourceId": "src_macram",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_049",
+    "question": "The word 'macramé' is believed to derive from which language's word for 'striped towel' or 'ornamental fringe'?",
+    "correctAnswers": [
+      "Andalusian Arabic (makramiyya)"
+    ],
+    "wrongAnswers": [
+      "Turkish (makrama)",
+      "Babylonian",
+      "Spanish",
+      "Italian",
+      "French",
+      "Persian",
+      "Hindi"
+    ],
+    "funFact": "The word 'macramé' likely derives from the Andalusian Arabic 'makramiyya', believed to mean 'striped towel', 'ornamental fringe', or 'embroidered veil'. Another theory links it to the Turkish word 'makrama' meaning 'napkin' or 'towel'.",
+    "sourceId": "src_macram",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_050",
+    "question": "At which royal court was macramé introduced to England in the late 17th century?",
+    "correctAnswers": [
+      "The court of Mary II"
+    ],
+    "wrongAnswers": [
+      "The court of Elizabeth I",
+      "The court of Charles II",
+      "The court of James II",
+      "The court of Anne",
+      "The court of William III",
+      "The court of George I",
+      "The court of Catherine of Aragon"
+    ],
+    "funFact": "Macramé was introduced to England at the court of Mary II in the late 17th century — Queen Mary herself taught it to her ladies-in-waiting. It became especially fashionable during the Victorian era, adorning homes in items from tablecloths to bedspreads.",
+    "sourceId": "src_macram",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_051",
+    "question": "What variety of macramé, used to form geometric and free-form patterns, is done mainly in the double half-hitch knot?",
+    "correctAnswers": [
+      "Cavandoli macramé"
+    ],
+    "wrongAnswers": [
+      "Square knot macramé",
+      "Chinese macramé",
+      "Josephine macramé",
+      "Spiral macramé",
+      "Sailor macramé",
+      "Victorian macramé",
+      "Plait macramé"
+    ],
+    "funFact": "Cavandoli macramé is a specific variety that uses mainly the double half-hitch knot to form geometric and free-form woven patterns. Reverse half hitches are sometimes used to maintain balance when working both halves of a symmetrical piece.",
+    "sourceId": "src_macram",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_052",
+    "question": "Which of the following materials is NOT listed among those used in macramé cords?",
+    "correctAnswers": [
+      "Silk"
+    ],
+    "wrongAnswers": [
+      "Cotton twine",
+      "Linen",
+      "Hemp",
+      "Jute",
+      "Leather",
+      "Yarn"
+    ],
+    "funFact": "Macramé materials include cords made of cotton twine, linen, hemp, jute, leather, or yarn. Silk is not traditionally used in macramé — its slippery surface makes it poorly suited to the knotting techniques the craft relies on.",
+    "sourceId": "src_macram",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_053",
+    "question": "What is the maximum diameter of crochet hooks currently produced?",
+    "correctAnswers": [
+      "25 mm"
+    ],
+    "wrongAnswers": [
+      "15 mm",
+      "20 mm",
+      "30 mm",
+      "12 mm",
+      "18 mm",
+      "35 mm",
+      "10 mm",
+      "40 mm"
+    ],
+    "funFact": "Crochet hooks range from 0.35 mm (tiny steel hooks for fine lace thread) all the way up to 25 mm in diameter. Larger hooks — above about 6 mm — are often made from bamboo, wood, or plastic rather than aluminum.",
+    "sourceId": "src_crochet_hook",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_054",
+    "question": "Where did Shepherd's knitting — which used a flat hook to create slip stitches — become popular in Europe?",
+    "correctAnswers": [
+      "Europe in the late 1700s to early 1800s"
+    ],
+    "wrongAnswers": [
+      "Scandinavia in the early 1600s",
+      "Eastern Europe in the mid-1800s",
+      "The British Isles in the 1700s only",
+      "France in the early 1600s",
+      "Germany in the early 1700s",
+      "Spain in the 1500s",
+      "Russia in the 1700s"
+    ],
+    "funFact": "Shepherd's knitting was popular across Europe in the late 1700s to early 1800s. It used a flat hook to create what is now known as slip stitches, and is considered one of the precursor crafts to modern crochet.",
+    "sourceId": "src_crochet_hook",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "crocheting_055",
+    "question": "What part of the crochet hook is defined as the section that determines the hook's nominal diameter and helps maintain consistent loop size?",
+    "correctAnswers": [
+      "The shaft (working area)"
+    ],
+    "wrongAnswers": [
+      "The tip",
+      "The groove",
+      "The handle",
+      "The throat",
+      "The thumb rest",
+      "The point",
+      "The ferrule"
+    ],
+    "funFact": "The shaft — also called the working area — is the section of a crochet hook that determines its nominal diameter and helps the crafter maintain a consistent loop size throughout their work. The size of a hook is measured by the diameter of its shaft.",
+    "sourceId": "src_crochet_hook",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "crocheting_056",
+    "question": "What does a 'self-striping' yarn do automatically when worked into a crocheted or knitted object?",
+    "correctAnswers": [
+      "Creates stripes"
+    ],
+    "wrongAnswers": [
+      "Creates a speckled pattern",
+      "Creates a marled twist effect",
+      "Creates an ombré gradient",
+      "Creates a heathered texture",
+      "Creates a colour-block pattern",
+      "Creates a Fair Isle motif",
+      "Creates a plaid effect"
+    ],
+    "funFact": "Self-striping yarn is dyed with lengths of colour carefully calculated so that the colour changes automatically create stripes in a finished knitted or crocheted object — no intarsia or colour-joining required.",
+    "sourceId": "src_yarn",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "crocheting_057",
+    "question": "Since which year has the annual Clones Lace Summer School been organised in Clones, County Monaghan, to help preserve traditional Irish crochet lace patterns?",
+    "correctAnswers": [
+      "1990"
+    ],
+    "wrongAnswers": [
+      "1975",
+      "1980",
+      "1985",
+      "1995",
+      "2000",
+      "2005",
+      "1970"
+    ],
+    "funFact": "Since 1990, Máire Treanor and her voluntary committee have organised the annual Clones Lace Summer School in Clones, County Monaghan — a gathering place for designers and students wishing to learn, preserve, and share innovative ideas in Irish crochet lace.",
+    "sourceId": "src_irish_crochet_lace",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "crocheting_058",
+    "question": "What property distinguishes tatting from most other handmade laces?",
+    "correctAnswers": [
+      "It is particularly durable"
+    ],
+    "wrongAnswers": [
+      "It is the finest of all laces",
+      "It can only be worked in white or ecru",
+      "It requires no tools, only bare hands",
+      "It must always be worked in a circular form",
+      "It is the only lace made with two threads",
+      "It produces an exclusively flat, non-reversible fabric",
+      "It requires a loom to complete"
+    ],
+    "funFact": "Tatting is described as a technique for handcrafting a 'particularly durable' lace — a quality that results from the interlocking nature of the cow-hitch double stitches, which resist unravelling far better than many other hand lace structures.",
+    "sourceId": "src_tatting",
+    "topicId": "crocheting",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  }
+]

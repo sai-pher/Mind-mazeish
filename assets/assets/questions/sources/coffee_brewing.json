@@ -1,0 +1,243 @@
+[
+  {
+    "id": "src_aeropress",
+    "title": "Aeropress",
+    "url": "https://en.m.wikipedia.org/wiki/AeroPress",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee_brewing"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "brew_004"
+    ]
+  },
+  {
+    "id": "src_cold_brew_coffee",
+    "title": "Cold brew coffee",
+    "url": "https://en.m.wikipedia.org/wiki/Cold_brew_coffee",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee_brewing"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "brew_003"
+    ]
+  },
+  {
+    "id": "src_espresso",
+    "title": "Espresso",
+    "url": "https://en.m.wikipedia.org/wiki/Espresso",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee_brewing"
+    ],
+    "articleText": null,
+    "facts": [
+      {
+        "id": "fact_espresso_001",
+        "text": "Espresso is produced by forcing hot water under high pressure through finely ground coffee beans.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_002",
+        "text": "Espresso originated in Italy.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_003",
+        "text": "A standard espresso serving is typically 25–30 ml.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_004",
+        "text": "The foam on top of espresso is called 'crema'.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_005",
+        "text": "Espresso is extracted in approximately 25–30 seconds.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_006",
+        "text": "Espresso has a viscosity similar to that of warm honey.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_007",
+        "text": "A typical 30 ml serving of espresso contains approximately 65 mg of caffeine.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_008",
+        "text": "A typical 240 ml serving of drip coffee contains approximately 95 mg of caffeine.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_009",
+        "text": "Despite higher caffeine per unit volume, a single espresso serving has less caffeine than a cup of drip coffee.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_010",
+        "text": "Espresso contains three distinct phases: an emulsion of oil droplets, suspended solids, and a layer of gas bubbles.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_011",
+        "text": "The oil droplets in espresso are perceived as creamy in the mouth.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_012",
+        "text": "Modern espresso using hot water under pressure was pioneered by Gaggia in the 1940s.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_013",
+        "text": "Gaggia originally called espresso 'crema caffè', meaning 'cream coffee'.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_014",
+        "text": "The first Bezzera and Pavoni espresso machines in 1906 took 45 seconds to make a single cup.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_015",
+        "text": "The act of making espresso is called 'pulling' a shot, originating from lever espresso machines.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_016",
+        "text": "On lever espresso machines, a barista pulls a handle attached to a spring-loaded piston.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_017",
+        "text": "The spelling 'expresso' has been used by English speakers in America and England since at least the 1940s.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_018",
+        "text": "The word 'espresso' conveys three meanings: pressing out flavor, speed, and doing something expressly for a person.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_019",
+        "text": "Espresso per 100 ml contains around 212 mg of caffeine.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_020",
+        "text": "Espresso contains significant levels of magnesium, niacin, and riboflavin.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_021",
+        "text": "Caffè corretto is espresso 'corrected' with brandy, grappa, or sambuca.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_022",
+        "text": "Caffè crema is a 'long' espresso made with more water and coarser grounds, yielding approximately 120–180 ml.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_023",
+        "text": "A Freddo espresso is mixed with sugar and ice in a drink mixer.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_024",
+        "text": "Viennese coffee consists of 2 shots of espresso topped with whipped cream.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_025",
+        "text": "Espresso serves as the base for cappuccino, caffè latte, and americano.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_026",
+        "text": "There is no universal standard defining the espresso extraction process.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_027",
+        "text": "The Italian Espresso National Institute publishes technical parameters for 'certified Italian espresso'.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_028",
+        "text": "It is a widespread myth that espresso must be made with dark-roast coffee beans.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_029",
+        "text": "Tamping the coffee grounds promotes even water penetration during espresso extraction.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      },
+      {
+        "id": "fact_espresso_030",
+        "text": "Dictionary.com attributes the 'expresso' spelling to 'ex-' being a more common word-starting pattern in English.",
+        "verified": true,
+        "verifiedAt": "2026-04-11"
+      }
+    ],
+    "questionIds": [
+      "brew_001"
+    ]
+  },
+  {
+    "id": "src_french_press",
+    "title": "French Press",
+    "url": "https://en.m.wikipedia.org/wiki/French_press",
+    "summary": "",
+    "categories": [],
+    "topicIds": [
+      "coffee_brewing"
+    ],
+    "articleText": null,
+    "facts": [],
+    "questionIds": [
+      "brew_002"
+    ]
+  }
+]

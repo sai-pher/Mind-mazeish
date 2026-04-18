@@ -1,0 +1,202 @@
+[
+  {
+    "id": "socks_001",
+    "question": "The oldest known socks, discovered in Egypt, date to approximately which century AD?",
+    "correctAnswers": [
+      "3rd–5th century AD"
+    ],
+    "wrongAnswers": [
+      "1st century AD",
+      "10th century BC",
+      "8th century AD",
+      "12th century AD",
+      "1st century BC"
+    ],
+    "funFact": "The Egyptian socks, found at Oxyrhynchus, were knitted using a split-toe design intended to be worn with sandals.",
+    "sourceId": "src_sock",
+    "topicId": "socks",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "socks_002",
+    "question": "The first knitting machine capable of making stockings was invented by William Lee in which century?",
+    "correctAnswers": [
+      "16th century (1589)"
+    ],
+    "wrongAnswers": [
+      "14th century",
+      "17th century",
+      "18th century",
+      "15th century",
+      "19th century"
+    ],
+    "funFact": "Queen Elizabeth I reportedly refused to grant Lee a patent because she feared his machine would put hand knitters out of work.",
+    "sourceId": "src_knitting",
+    "topicId": "socks",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "socks_003",
+    "question": "What type of sock covers only the foot and ankle and sits below the shoe line?",
+    "correctAnswers": [
+      "No-show sock"
+    ],
+    "wrongAnswers": [
+      "Knee-high sock",
+      "Crew sock",
+      "Thigh-high sock",
+      "Ankle sock",
+      "Compression sock"
+    ],
+    "funFact": "No-show socks became popular with the rise of low-cut sneakers and loafers, letting wearers appear to go sockless while still protecting their feet.",
+    "sourceId": "src_sock",
+    "topicId": "socks",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "socks_004",
+    "question": "Which natural fibre, harvested from a Himalayan animal, is considered one of the finest and warmest materials used in premium socks?",
+    "correctAnswers": [
+      "Cashmere"
+    ],
+    "wrongAnswers": [
+      "Alpaca",
+      "Angora",
+      "Mohair",
+      "Merino wool",
+      "Silk"
+    ],
+    "funFact": "Cashmere comes from the soft undercoat of cashmere goats, primarily raised in Mongolia, China, and the Kashmir region; it takes the fleece of about four goats to make a single pair of cashmere socks.",
+    "sourceId": "src_cashmere_wool",
+    "topicId": "socks",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "socks_005",
+    "question": "Compression socks are commonly prescribed to help with which medical condition?",
+    "correctAnswers": [
+      "Deep vein thrombosis (DVT)"
+    ],
+    "wrongAnswers": [
+      "Plantar fasciitis",
+      "Athlete's foot",
+      "Hammer toe",
+      "Bunions",
+      "Gout"
+    ],
+    "funFact": "Graduated compression socks apply the greatest pressure at the ankle and gradually decrease pressure up the leg, helping blood flow back toward the heart and reducing clot risk on long flights.",
+    "sourceId": "src_compression_stockings",
+    "topicId": "socks",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "socks_006",
+    "question": "In sock manufacturing, what does the term 'boarding' refer to?",
+    "correctAnswers": [
+      "Steaming socks on a foot-shaped form to set their shape"
+    ],
+    "wrongAnswers": [
+      "Packaging socks in pairs for retail sale",
+      "Weaving the toe seam closed on a knitting machine",
+      "Dyeing socks in a heated chemical bath",
+      "Adding an anti-odour treatment to the fabric",
+      "Stretching socks over a flat board to dry"
+    ],
+    "funFact": "Boarding gives socks a consistent shape and smooth appearance; the foot-shaped metal forms used are called 'boarding boards' or 'sock forms' and come in standard shoe sizes.",
+    "sourceId": "src_hosiery",
+    "topicId": "socks",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "socks_007",
+    "question": "Which country is the world's largest producer of socks, responsible for an estimated one-third of global output?",
+    "correctAnswers": [
+      "China"
+    ],
+    "wrongAnswers": [
+      "India",
+      "Bangladesh",
+      "Turkey",
+      "United States",
+      "Vietnam"
+    ],
+    "funFact": "The town of Datang in Zhuji, Zhejiang province, is nicknamed the 'Sock Capital of the World' — its factories produce around 8 billion pairs of socks per year, roughly one pair for every person on Earth.",
+    "sourceId": "src_sock",
+    "topicId": "socks",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "socks_008",
+    "question": "What is the name of the traditional Japanese split-toe sock designed to be worn with wooden sandals (geta)?",
+    "correctAnswers": [
+      "Tabi"
+    ],
+    "wrongAnswers": [
+      "Zori",
+      "Waraji",
+      "Geta",
+      "Hakama",
+      "Obi"
+    ],
+    "funFact": "Tabi have a separation between the big toe and the other toes so they can be worn with thonged sandals; white tabi are still worn as part of formal kimono dress and by sumo wrestlers.",
+    "sourceId": "src_tabi",
+    "topicId": "socks",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "medium"
+  },
+  {
+    "id": "socks_009",
+    "question": "Argyle socks feature a diamond-pattern design that originated from the tartan of which Scottish clan?",
+    "correctAnswers": [
+      "Clan Campbell of Argyll"
+    ],
+    "wrongAnswers": [
+      "Clan MacGregor",
+      "Clan MacDonald",
+      "Clan Stewart",
+      "Clan Fraser",
+      "Clan Douglas"
+    ],
+    "funFact": "The argyle pattern became fashionable worldwide in the 1920s after the Duke of Windsor was photographed wearing argyle golf stockings, sparking a craze that has never fully gone out of style.",
+    "sourceId": "src_argyle",
+    "topicId": "socks",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "socks_010",
+    "question": "What percentage of people in surveys report losing single socks in the laundry, making it one of the most common household mysteries?",
+    "correctAnswers": [
+      "Around 85%"
+    ],
+    "wrongAnswers": [
+      "Around 30%",
+      "Around 50%",
+      "Around 65%",
+      "Around 95%",
+      "Around 40%"
+    ],
+    "funFact": "Samsung commissioned a study in 2016 that estimated the average person loses 1.3 socks per month — about 15 per year — adding up to roughly 1,264 socks over a lifetime.",
+    "sourceId": "src_sock",
+    "topicId": "socks",
+    "topicCategoryId": "textiles",
+    "superCategoryId": "fashion_crafts",
+    "difficulty": "easy"
+  }
+]

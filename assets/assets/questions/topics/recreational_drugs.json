@@ -1,0 +1,85 @@
+[
+  {
+    "id": "rec_001",
+    "question": "Cannabis is classified by its primary psychoactive compound. What is that compound?",
+    "correctAnswers": [
+      "THC (tetrahydrocannabinol)"
+    ],
+    "wrongAnswers": [
+      "CBD (cannabidiol)",
+      "DMT",
+      "Psilocybin",
+      "Mescaline",
+      "MDMA",
+      "LSD"
+    ],
+    "funFact": "Cannabis has been used by humans for at least 2,500 years — charred seeds found in a burial site in Romania date to around 500 BC.",
+    "sourceId": "src_cannabis_drug",
+    "topicId": "recreational_drugs",
+    "topicCategoryId": "pharmacology",
+    "superCategoryId": "health_medicine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "rec_002",
+    "question": "MDMA was first synthesised in 1912 for what intended purpose?",
+    "correctAnswers": [
+      "As a potential medication (haemostatic agent)"
+    ],
+    "wrongAnswers": [
+      "As a recreational drug",
+      "As a military truth serum",
+      "As an anaesthetic",
+      "As an antidepressant",
+      "As a diet pill"
+    ],
+    "funFact": "MDMA was not widely known or used until the 1970s–80s. It was legal in the US until 1985 and was used in psychotherapy before being scheduled.",
+    "sourceId": "src_mdma",
+    "topicId": "recreational_drugs",
+    "topicCategoryId": "pharmacology",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard"
+  },
+  {
+    "id": "rec_003",
+    "question": "LSD was first synthesised in 1938 by Albert Hofmann while working at which company?",
+    "correctAnswers": [
+      "Sandoz Laboratories"
+    ],
+    "wrongAnswers": [
+      "Bayer",
+      "Pfizer",
+      "Merck",
+      "Roche",
+      "Novartis",
+      "BASF"
+    ],
+    "funFact": "Hofmann accidentally discovered LSD's psychedelic effects in 1943 when he inadvertently absorbed a small amount through his fingertips.",
+    "sourceId": "src_lysergic_acid_diethylamide",
+    "topicId": "recreational_drugs",
+    "topicCategoryId": "pharmacology",
+    "superCategoryId": "health_medicine",
+    "difficulty": "hard"
+  },
+  {
+    "id": "rec_004",
+    "question": "Caffeine is the world's most widely consumed psychoactive substance. It primarily works by blocking receptors for which neurotransmitter?",
+    "correctAnswers": [
+      "Adenosine"
+    ],
+    "wrongAnswers": [
+      "Dopamine",
+      "Serotonin",
+      "GABA",
+      "Acetylcholine",
+      "Norepinephrine",
+      "Glutamate"
+    ],
+    "funFact": "Caffeine is naturally present in over 60 plant species. It evolved as a natural pesticide, paralyzing and killing insects that eat the plants.",
+    "sourceId": "src_caffeine",
+    "topicId": "recreational_drugs",
+    "topicCategoryId": "pharmacology",
+    "superCategoryId": "health_medicine",
+    "difficulty": "medium"
+  }
+]

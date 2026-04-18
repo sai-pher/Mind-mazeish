@@ -1,0 +1,61 @@
+[
+  {
+    "id": "bridge_001",
+    "question": "The Golden Gate Bridge connects San Francisco to which county?",
+    "correctAnswers": [
+      "Marin County"
+    ],
+    "wrongAnswers": [
+      "San Mateo County",
+      "Sonoma County",
+      "Alameda County",
+      "Contra Costa County",
+      "Napa County"
+    ],
+    "funFact": "The Golden Gate Bridge's iconic \"International Orange\" colour was chosen for visibility in fog — it was originally proposed to be painted black with yellow stripes.",
+    "sourceId": "src_golden_gate_bridge",
+    "topicId": "bridges",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bridge_002",
+    "question": "A suspension bridge carries its load primarily through what structural elements?",
+    "correctAnswers": [
+      "Cables hung between towers"
+    ],
+    "wrongAnswers": [
+      "Arches beneath the deck",
+      "Trusses above the deck",
+      "Concrete piers",
+      "Steel box girders",
+      "Cantilever arms"
+    ],
+    "funFact": "The Akashi Kaikyō Bridge in Japan has the world's longest central suspension span at 1,991 metres — it withstood a magnitude 7.2 earthquake in 1995 during construction.",
+    "sourceId": "src_suspension_bridge",
+    "topicId": "bridges",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "easy"
+  },
+  {
+    "id": "bridge_003",
+    "question": "An arch bridge transfers its load primarily in what direction?",
+    "correctAnswers": [
+      "Horizontally into the abutments at each end"
+    ],
+    "wrongAnswers": [
+      "Vertically through central piers",
+      "Through tension cables",
+      "Through the deck alone",
+      "Through suspension hangers"
+    ],
+    "funFact": "The Romans mastered the semicircular arch around 100 BC and used it to build bridges that are still standing 2,000 years later.",
+    "sourceId": "src_arch_bridge",
+    "topicId": "bridges",
+    "topicCategoryId": "engineering",
+    "superCategoryId": "engineering_tech",
+    "difficulty": "medium"
+  }
+]
