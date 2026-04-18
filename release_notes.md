@@ -6,7 +6,7 @@
 - (none)
 
 ### Fixes
-- (none)
+- Fix feedback submission on web — inject FEEDBACK_GITHUB_PAT into the web build so users can submit feedback from the GitHub Pages app
 
 ### Content
 - (none)
