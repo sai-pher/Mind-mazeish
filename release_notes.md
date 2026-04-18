@@ -8,7 +8,7 @@
 ### Fixes
 - Game start no longer freezes the UI for 3–5 s on web — question loading is now fully parallel across topics and within each topic (sources + questions file fetched concurrently)
 - Start button and Play cards show a spinner while questions load, preventing double-taps and giving immediate feedback
-- Wikipedia article screen on web now shows an "Open Wikipedia article" button with a pop-up note instead of silently failing when the browser blocks the automatic open
+- Wikipedia article screen on web now shows a "Pop-ups are blocked" snackbar with a Retry action instead of silently closing when the browser blocks the automatic open
 
 ### Content
 - (none)

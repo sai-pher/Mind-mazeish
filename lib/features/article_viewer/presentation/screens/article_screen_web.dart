@@ -25,35 +25,48 @@ class ArticleScreen extends ConsumerStatefulWidget {
 }
 
 class _ArticleScreenState extends ConsumerState<ArticleScreen> {
-  bool _notebookSaved = false;
-
   @override
   void initState() {
     super.initState();
-    _tryOpen();
+    _openAndRecord();
   }
 
-  Future<void> _tryOpen() async {
+  Future<void> _openAndRecord() async {
     final uri = Uri.tryParse(widget.url);
-    if (uri == null || (uri.scheme != 'https' && uri.scheme != 'http')) return;
-    await launchUrl(uri, mode: LaunchMode.externalApplication);
-    if (!mounted) return;
-    await _saveToNotebook();
-  }
+    if (uri == null || (uri.scheme != 'https' && uri.scheme != 'http')) {
+      return;
+    }
 
-  Future<void> _manualOpen() async {
-    final uri = Uri.tryParse(widget.url);
-    if (uri == null) return;
-    await launchUrl(uri, mode: LaunchMode.externalApplication);
+    final opened = await launchUrl(uri, mode: LaunchMode.externalApplication);
+
     if (!mounted) return;
-    await _saveToNotebook();
+
+    if (opened) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Opening article in browser…')),
+      );
+      await _saveToNotebook();
+      if (mounted) context.pop();
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: const Text(
+              'Pop-ups are blocked — allow pop-ups for this site in your browser settings.'),
+          duration: const Duration(seconds: 6),
+          action: SnackBarAction(
+            label: 'Retry',
+            onPressed: _openAndRecord,
+          ),
+        ),
+      );
+    }
   }
 
   Future<void> _saveToNotebook() async {
-    if (_notebookSaved) return;
     final topicId = widget.topicId ??
         ref.read(gameStateProvider)?.currentQuestion.topicId ??
         'unknown';
+
     final isNew = await ref.read(notebookProvider.notifier).addEntry(
           NotebookEntry(
             articleTitle: widget.title,
@@ -62,17 +75,15 @@ class _ArticleScreenState extends ConsumerState<ArticleScreen> {
             visitedAt: DateTime.now(),
           ),
         );
-    if (!mounted) return;
+
     ref.read(gameStateProvider.notifier).recordArticleVisit(
           widget.url,
           isNew: isNew,
         );
-    setState(() => _notebookSaved = true);
   }
 
   @override
   Widget build(BuildContext context) {
-    final tt = Theme.of(context).textTheme;
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title, overflow: TextOverflow.ellipsis),
@@ -81,55 +92,17 @@ class _ArticleScreenState extends ConsumerState<ArticleScreen> {
           onPressed: () => context.pop(),
         ),
       ),
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 32),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              const Icon(
-                Icons.menu_book_outlined,
-                color: AppColors.torchAmber,
-                size: 52,
-              ),
-              const SizedBox(height: 20),
-              Text(
-                widget.title,
-                style: tt.titleMedium?.copyWith(color: AppColors.textLight),
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 28),
-              ElevatedButton.icon(
-                icon: const Icon(Icons.open_in_new, size: 18),
-                label: const Text('Open Wikipedia article'),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: AppColors.torchAmber,
-                  foregroundColor: AppColors.textDark,
-                  padding: const EdgeInsets.symmetric(
-                      horizontal: 24, vertical: 12),
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(6)),
-                ),
-                onPressed: _manualOpen,
-              ),
-              const SizedBox(height: 16),
-              Text(
-                'Opens in a new tab.\nIf nothing opens, allow pop-ups for this site in your browser settings.',
-                style: tt.bodySmall?.copyWith(
-                  color: AppColors.textLight.withValues(alpha: 0.55),
-                ),
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 28),
-              TextButton(
-                onPressed: () => context.pop(),
-                child: Text(
-                  'Go back to game',
-                  style: TextStyle(color: AppColors.stoneMid),
-                ),
-              ),
-            ],
-          ),
+      body: const Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            CircularProgressIndicator(color: AppColors.torchAmber),
+            SizedBox(height: 16),
+            Text(
+              'Opening article in browser…',
+              style: TextStyle(color: AppColors.textLight, fontSize: 16),
+            ),
+          ],
         ),
       ),
     );
