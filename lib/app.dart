@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import 'core/theme/app_theme.dart';
+import 'features/gameplay/domain/models/quiz_config.dart';
 import 'features/start/presentation/screens/start_screen.dart';
 import 'features/start/presentation/screens/topic_picker_screen.dart';
 import 'features/gameplay/presentation/screens/gameplay_screen.dart';
@@ -13,13 +14,30 @@ import 'features/feedback/presentation/screens/feedback_screen.dart';
 import 'features/start/presentation/screens/question_stats_screen.dart';
 import 'features/start/presentation/screens/how_to_play_screen.dart';
 import 'features/start/presentation/screens/mode_picker_screen.dart';
+import 'features/start/presentation/screens/game_settings_screen.dart';
 import 'features/settings/presentation/screens/settings_screen.dart';
 
 final _router = GoRouter(
   initialLocation: '/',
   routes: [
     GoRoute(path: '/', builder: (_, __) => const StartScreen()),
-    GoRoute(path: '/topics', builder: (_, __) => const TopicPickerScreen()),
+    GoRoute(
+      path: '/topics',
+      builder: (_, state) {
+        final extra = state.extra as Map<String, dynamic>?;
+        return TopicPickerScreen(
+          fromSettings: extra?['fromSettings'] == true,
+        );
+      },
+    ),
+    GoRoute(
+      path: '/game-settings',
+      builder: (_, state) {
+        final extra = state.extra as Map<String, dynamic>?;
+        final mode = extra?['mode'] as GameMode? ?? GameMode.standard;
+        return GameSettingsScreen(mode: mode);
+      },
+    ),
     GoRoute(path: '/game', builder: (_, __) => const GameplayScreen()),
     GoRoute(
       path: '/article',

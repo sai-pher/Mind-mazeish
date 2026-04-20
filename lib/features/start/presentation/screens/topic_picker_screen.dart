@@ -13,7 +13,12 @@ import '../../../gameplay/presentation/providers/quiz_config_provider.dart';
 import '../../../settings/data/game_stats_repository.dart';
 
 class TopicPickerScreen extends ConsumerStatefulWidget {
-  const TopicPickerScreen({super.key});
+  /// When true the screen is navigated to from GameSettingsScreen.
+  /// The full start-game bottom bar is replaced with "Set All" / "Set Chosen"
+  /// buttons that commit the selection back to [quizConfigProvider] and pop.
+  final bool fromSettings;
+
+  const TopicPickerScreen({super.key, this.fromSettings = false});
 
   @override
   ConsumerState<TopicPickerScreen> createState() => _TopicPickerScreenState();
@@ -90,6 +95,24 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
 
   void _selectAll() => setState(() => _selected = Set.from(allTopicIds));
   void _clearAll() => setState(() => _selected.clear());
+
+  void _onSetAll() {
+    final all = Set<String>.from(allTopicIds);
+    setState(() => _selected = all);
+    final config = ref.read(quizConfigProvider);
+    ref.read(quizConfigProvider.notifier).setConfig(
+          config.copyWith(selectedTopicIds: all),
+        );
+    context.pop();
+  }
+
+  void _onSetChosen() {
+    final config = ref.read(quizConfigProvider);
+    ref.read(quizConfigProvider.notifier).setConfig(
+          config.copyWith(selectedTopicIds: Set.from(_selected)),
+        );
+    context.pop();
+  }
 
   Future<void> _startGame() async {
     setState(() => _starting = true);
@@ -168,20 +191,28 @@ class _TopicPickerScreenState extends ConsumerState<TopicPickerScreen> {
             ),
           ),
 
-          // Bottom bar
-          _BottomBar(
-            questionCount: _questionCount,
-            availableQuestions: _availableQuestions,
-            gameMode: _gameMode,
-            difficultyBias: _difficultyBias,
-            canStart: _canStart,
-            starting: _starting,
-            endlessHighScore: _endlessHighScore,
-            onCountChanged: (c) => setState(() => _questionCount = c),
-            onModeChanged: (m) => setState(() => _gameMode = m),
-            onDifficultyChanged: (b) => setState(() => _difficultyBias = b),
-            onStart: _startGame,
-          ),
+          // Bottom bar — set-topics mode when launched from GameSettingsScreen
+          if (widget.fromSettings)
+            _SetTopicsBar(
+              selectedCount: _selected.length,
+              totalCount: allTopicIds.length,
+              onSetAll: _onSetAll,
+              onSetChosen: _onSetChosen,
+            )
+          else
+            _BottomBar(
+              questionCount: _questionCount,
+              availableQuestions: _availableQuestions,
+              gameMode: _gameMode,
+              difficultyBias: _difficultyBias,
+              canStart: _canStart,
+              starting: _starting,
+              endlessHighScore: _endlessHighScore,
+              onCountChanged: (c) => setState(() => _questionCount = c),
+              onModeChanged: (m) => setState(() => _gameMode = m),
+              onDifficultyChanged: (b) => setState(() => _difficultyBias = b),
+              onStart: _startGame,
+            ),
         ],
       ),
     );
@@ -387,6 +418,82 @@ class _CategoryTile extends StatelessWidget {
           }).toList(),
         ),
       ],
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Set Topics Bar (used when fromSettings == true)
+// ---------------------------------------------------------------------------
+
+class _SetTopicsBar extends StatelessWidget {
+  final int selectedCount;
+  final int totalCount;
+  final VoidCallback onSetAll;
+  final VoidCallback onSetChosen;
+
+  const _SetTopicsBar({
+    required this.selectedCount,
+    required this.totalCount,
+    required this.onSetAll,
+    required this.onSetChosen,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final tt = Theme.of(context).textTheme;
+    final allSelected = selectedCount == totalCount;
+
+    return Container(
+      padding: const EdgeInsets.fromLTRB(16, 12, 16, 24),
+      decoration: const BoxDecoration(
+        color: AppColors.stoneDark,
+        border: Border(top: BorderSide(color: AppColors.stoneMid)),
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(
+            allSelected
+                ? 'All $totalCount topics selected'
+                : '$selectedCount of $totalCount topics selected',
+            style: tt.labelSmall?.copyWith(
+                color: AppColors.textLight.withValues(alpha: 0.55)),
+          ),
+          const SizedBox(height: 10),
+          Row(
+            children: [
+              Expanded(
+                child: OutlinedButton(
+                  onPressed: onSetAll,
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: AppColors.textLight,
+                    side: const BorderSide(color: AppColors.stoneMid),
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                  ),
+                  child: const Text('Set All'),
+                ),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                flex: 2,
+                child: ElevatedButton(
+                  onPressed: selectedCount > 0 ? onSetChosen : null,
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: AppColors.torchAmber,
+                    foregroundColor: AppColors.textDark,
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                  ),
+                  child: const Text(
+                    'Set Chosen',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }

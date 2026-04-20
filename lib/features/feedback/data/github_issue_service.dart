@@ -253,7 +253,7 @@ ${attribution != null ? '**Submitted by:** $attribution\n' : userId != null ? '*
       if (response.statusCode != 200) return {};
       final prs = jsonDecode(response.body) as List;
       final referenced = <int>{};
-      final pattern = RegExp(r'(?:closes?|fixes?|resolves?|#)\s*#?(\d+)', caseSensitive: false);
+      final pattern = RegExp(r'(?:closes?|fixes?|resolves?)\s+#(\d+)', caseSensitive: false);
       for (final pr in prs) {
         final title = (pr['title'] as String?) ?? '';
         final body = (pr['body'] as String?) ?? '';

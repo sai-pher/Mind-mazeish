@@ -11,8 +11,9 @@ import '../../../settings/domain/models/user_profile.dart';
 import '../../data/github_issue_service.dart';
 
 // Tab indices
-const _kTabGeneral  = 0;
-const _kTabContent  = 2;
+const _kTabGeneral    = 0;
+const _kTabBugReport  = 1;
+const _kTabContent    = 2;
 
 
 class FeedbackScreen extends StatefulWidget {
@@ -59,9 +60,12 @@ class _FeedbackScreenState extends State<FeedbackScreen>
 
   void _loadDraft(FeedbackDraft draft) {
     setState(() => _loadedDraft = draft);
-    _tabs.animateTo(
-      draft.type == 'general' ? _kTabGeneral : _kTabContent,
-    );
+    final tabIndex = switch (draft.type) {
+      'bug'     => _kTabBugReport,
+      'content' => _kTabContent,
+      _         => _kTabGeneral,
+    };
+    _tabs.animateTo(tabIndex);
   }
 
   @override
@@ -95,7 +99,12 @@ class _FeedbackScreenState extends State<FeedbackScreen>
             onDraftLoaded: _onDraftLoaded,
             onDraftSaved: _onDraftSaved,
           ),
-          _BugReportTab(appVersion: _appVersion),
+          _BugReportTab(
+            appVersion: _appVersion,
+            loadedDraft: _loadedDraft?.type == 'bug' ? _loadedDraft : null,
+            onDraftLoaded: _onDraftLoaded,
+            onDraftSaved: _onDraftSaved,
+          ),
           _ContentRequestTab(
             appVersion: _appVersion,
             profile: _profile,
@@ -315,7 +324,16 @@ class _GeneralFeedbackTabState extends State<_GeneralFeedbackTab> {
 
 class _BugReportTab extends StatefulWidget {
   final String? appVersion;
-  const _BugReportTab({this.appVersion});
+  final FeedbackDraft? loadedDraft;
+  final VoidCallback onDraftLoaded;
+  final VoidCallback onDraftSaved;
+
+  const _BugReportTab({
+    this.appVersion,
+    this.loadedDraft,
+    required this.onDraftLoaded,
+    required this.onDraftSaved,
+  });
 
   @override
   State<_BugReportTab> createState() => _BugReportTabState();
@@ -329,6 +347,22 @@ class _BugReportTabState extends State<_BugReportTab> {
   final _butActuallyCtrl    = TextEditingController();
   final _supportingCtrl     = TextEditingController();
   bool _submitting = false;
+  final _repo = FeedbackDraftRepository();
+
+  @override
+  void didUpdateWidget(_BugReportTab old) {
+    super.didUpdateWidget(old);
+    final draft = widget.loadedDraft;
+    if (draft != null && draft != old.loadedDraft) {
+      _titleCtrl.text        = draft.fields[FeedbackDraft.fieldTitle] ?? '';
+      _givenCtrl.text        = draft.fields[FeedbackDraft.fieldGiven] ?? '';
+      _whenCtrl.text         = draft.fields[FeedbackDraft.fieldWhen] ?? '';
+      _thenExpectedCtrl.text = draft.fields[FeedbackDraft.fieldThenExpected] ?? '';
+      _butActuallyCtrl.text  = draft.fields[FeedbackDraft.fieldButActually] ?? '';
+      _supportingCtrl.text   = draft.fields[FeedbackDraft.fieldSupportingDetails] ?? '';
+      widget.onDraftLoaded();
+    }
+  }
 
   @override
   void dispose() {
@@ -339,6 +373,33 @@ class _BugReportTabState extends State<_BugReportTab> {
     _butActuallyCtrl.dispose();
     _supportingCtrl.dispose();
     super.dispose();
+  }
+
+  Future<void> _saveDraft() async {
+    if (_titleCtrl.text.trim().isEmpty &&
+        _givenCtrl.text.trim().isEmpty &&
+        _whenCtrl.text.trim().isEmpty) {
+      _showSnack('Nothing to save — fill in at least a title or description.');
+      return;
+    }
+    final draft = FeedbackDraft(
+      id: DateTime.now().millisecondsSinceEpoch.toString(),
+      type: 'bug',
+      fields: {
+        FeedbackDraft.fieldTitle:           _titleCtrl.text,
+        FeedbackDraft.fieldGiven:           _givenCtrl.text,
+        FeedbackDraft.fieldWhen:            _whenCtrl.text,
+        FeedbackDraft.fieldThenExpected:    _thenExpectedCtrl.text,
+        FeedbackDraft.fieldButActually:     _butActuallyCtrl.text,
+        FeedbackDraft.fieldSupportingDetails: _supportingCtrl.text,
+      },
+      createdAt: DateTime.now(),
+      updatedAt: DateTime.now(),
+    );
+    await _repo.save(draft);
+    if (!mounted) return;
+    widget.onDraftSaved();
+    _showSnack('Draft saved — find it in the Pending tab.');
   }
 
   Future<void> _submit() async {
@@ -437,25 +498,41 @@ class _BugReportTabState extends State<_BugReportTab> {
             maxLines: 4,
           ),
           const SizedBox(height: 24),
-          SizedBox(
-            width: double.infinity,
-            child: ElevatedButton.icon(
-              onPressed: _submitting ? null : _submit,
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppColors.dangerRed,
-                foregroundColor: AppColors.textLight,
-                padding: const EdgeInsets.symmetric(vertical: 14),
+          Row(
+            children: [
+              Expanded(
+                child: OutlinedButton.icon(
+                  onPressed: _saveDraft,
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: AppColors.textLight,
+                    side: const BorderSide(color: AppColors.stoneMid),
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                  ),
+                  icon: const Icon(Icons.save_outlined, size: 18),
+                  label: const Text('Save Draft'),
+                ),
               ),
-              icon: _submitting
-                  ? const SizedBox(
-                      width: 18,
-                      height: 18,
-                      child: CircularProgressIndicator(
-                          strokeWidth: 2, color: AppColors.textLight))
-                  : const Icon(Icons.bug_report),
-              label: Text(_submitting ? 'Submitting…' : 'Submit Bug Report',
-                  style: const TextStyle(fontWeight: FontWeight.bold)),
-            ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: ElevatedButton.icon(
+                  onPressed: _submitting ? null : _submit,
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: AppColors.dangerRed,
+                    foregroundColor: AppColors.textLight,
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                  ),
+                  icon: _submitting
+                      ? const SizedBox(
+                          width: 18,
+                          height: 18,
+                          child: CircularProgressIndicator(
+                              strokeWidth: 2, color: AppColors.textLight))
+                      : const Icon(Icons.bug_report),
+                  label: Text(_submitting ? 'Submitting…' : 'Submit Bug Report',
+                      style: const TextStyle(fontWeight: FontWeight.bold)),
+                ),
+              ),
+            ],
           ),
           if (widget.appVersion != null) ...[
             const SizedBox(height: 12),
@@ -805,8 +882,11 @@ class _PendingFeedbackTabState extends State<_PendingFeedbackTab> {
           separatorBuilder: (_, __) => const SizedBox(height: 8),
           itemBuilder: (context, i) {
             final draft = drafts[i];
-            final typeLabel =
-                draft.type == 'general' ? '💬 General' : '📚 Content';
+            final typeLabel = switch (draft.type) {
+              'bug'     => '🐛 Bug Report',
+              'content' => '📚 Content',
+              _         => '💬 General',
+            };
             final updated = _formatRelative(draft.updatedAt);
             return Card(
               color: AppColors.stone,
