@@ -3,6 +3,20 @@
 ## Unreleased
 
 ### Features
+- (none)
+
+### Fixes
+- (none)
+
+### Content
+- (none)
+
+### Other
+- (none)
+---
+
+## v1.0.53
+### Features
 - Dedicated **Game Settings** screen between mode selection and game start — shows a difficulty slider (Very Easy → Very Hard) with a contextual description (Endless mode shows the streak-reward threshold), question-count buttons for Standard mode, and a Topics tile; mode cards now show a **Select** button instead of launching immediately (#112)
 - Topic picker launched from Game Settings shows **Set All** / **Set Chosen** confirmation buttons instead of the full start bar, making it clear the selection returns to the settings page (#112)
 - **Question Bank** nav tile added to the Learn section of Settings (#112)
@@ -16,7 +30,6 @@
 
 ### Other
 - (none)
----
 
 ## v1.0.52
 ### Features
