@@ -14,6 +14,13 @@ String connectionKey(MazePosition a, MazePosition b) {
   return '${first.y},${first.x}-${second.y},${second.x}';
 }
 
+const _kDirections = [
+  MazePosition(0, -1),
+  MazePosition(0, 1),
+  MazePosition(-1, 0),
+  MazePosition(1, 0),
+];
+
 class MazeState {
   /// Row-major: grid[y][x]
   final List<List<MazeRoom>> grid;
@@ -127,14 +134,8 @@ class MazeState {
 
   /// Reveal hidden cells adjacent to [pos].
   MazeState _revealNeighbours(MazePosition pos) {
-    const offsets = [
-      MazePosition(0, -1),
-      MazePosition(0, 1),
-      MazePosition(-1, 0),
-      MazePosition(1, 0),
-    ];
     var s = this;
-    for (final d in offsets) {
+    for (final d in _kDirections) {
       final nx = pos.x + d.x;
       final ny = pos.y + d.y;
       if (nx < 0 || ny < 0 || nx >= 10 || ny >= 10) continue;
