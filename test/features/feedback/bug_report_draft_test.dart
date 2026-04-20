@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:mind_mazeish/features/feedback/data/feedback_draft_repository.dart';
+import 'package:mind_maze/features/feedback/data/feedback_draft_repository.dart';
 
 // Regression test for sai-pher/Mind-mazeish#110
 //

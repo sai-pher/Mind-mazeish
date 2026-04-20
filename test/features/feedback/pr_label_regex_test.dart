@@ -11,7 +11,7 @@ import 'package:flutter_test/flutter_test.dart';
 // keyword: RegExp(r'(?:closes?|fixes?|resolves?)\s+#(\d+)')
 
 final _pattern =
-    RegExp(r'(?:closes?|fixes?|resolves?)\s+#(\d+)', caseSensitive: false);
+    RegExp(r'(?:closes?|fix(?:es)?|resolves?)\s+#(\d+)', caseSensitive: false);
 
 Set<int> _extract(String text) => _pattern
     .allMatches(text)

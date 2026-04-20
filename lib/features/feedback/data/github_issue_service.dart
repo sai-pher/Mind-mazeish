@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-/// Injected at build time via --dart-define=FEEDBACK_GITHUB_PAT=<token>
+/// Injected at build time via --dart-define=FEEDBACK_GITHUB_PAT=[token]
 /// Never hard-code the token here. See README → "Wiring up the feedback PAT".
 const _kGithubToken = String.fromEnvironment('FEEDBACK_GITHUB_PAT');
 const _kRepoOwner   = 'sai-pher';
@@ -253,7 +253,7 @@ ${attribution != null ? '**Submitted by:** $attribution\n' : userId != null ? '*
       if (response.statusCode != 200) return {};
       final prs = jsonDecode(response.body) as List;
       final referenced = <int>{};
-      final pattern = RegExp(r'(?:closes?|fixes?|resolves?)\s+#(\d+)', caseSensitive: false);
+      final pattern = RegExp(r'(?:closes?|fix(?:es)?|resolves?)\s+#(\d+)', caseSensitive: false);
       for (final pr in prs) {
         final title = (pr['title'] as String?) ?? '';
         final body = (pr['body'] as String?) ?? '';
