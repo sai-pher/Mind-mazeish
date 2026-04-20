@@ -16,6 +16,8 @@ import 'features/start/presentation/screens/how_to_play_screen.dart';
 import 'features/start/presentation/screens/mode_picker_screen.dart';
 import 'features/start/presentation/screens/game_settings_screen.dart';
 import 'features/settings/presentation/screens/settings_screen.dart';
+import 'features/maze/presentation/screens/maze_settings_screen.dart';
+import 'features/maze/presentation/screens/maze_screen.dart';
 
 final _router = GoRouter(
   initialLocation: '/',
@@ -57,6 +59,10 @@ final _router = GoRouter(
     GoRoute(path: '/how-to-play', builder: (_, __) => const HowToPlayScreen()),
     GoRoute(path: '/mode', builder: (_, __) => const ModePickerScreen()),
     GoRoute(path: '/settings', builder: (_, __) => const SettingsScreen()),
+    GoRoute(
+        path: '/maze-settings',
+        builder: (_, __) => const MazeSettingsScreen()),
+    GoRoute(path: '/maze', builder: (_, __) => const MazeScreen()),
   ],
 );
 
