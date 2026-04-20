@@ -1,5 +1,15 @@
 {
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ \"$(uname)\" = Linux ] && bash scripts/setup_flutter.sh || true"
+          }
+        ]
+      }
+    ],
     "PostToolUse": [
       {
         "matcher": "Bash(git push:*)",

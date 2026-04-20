@@ -50,10 +50,36 @@ lib/
         └── examples.md              # workflow examples + new-topic guide
 ```
 
+## Flutter setup (Linux)
+
+On Linux, Flutter is not pre-installed. A `SessionStart` hook in
+`.claude/settings.json` runs `scripts/setup_flutter.sh` automatically at the
+start of every session. The script:
+
+1. Checks whether `/opt/flutter/bin/flutter` is already at the required version (3.41.6).
+2. If not, downloads the tarball from the Flutter storage CDN and extracts it to `/opt/flutter`.
+3. Adds `/opt/flutter` to `git config --global safe.directory` (required when running as root).
+4. Runs `flutter pub get`.
+
+To run it manually:
+```bash
+bash scripts/setup_flutter.sh
+```
+
+To install Flutter by hand (the same steps the script performs):
+```bash
+FLUTTER_VERSION="3.41.6"
+curl -fSL "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_VERSION}-stable.tar.xz" \
+  -o /tmp/flutter.tar.xz
+rm -rf /opt/flutter
+tar xf /tmp/flutter.tar.xz -C /opt/
+rm /tmp/flutter.tar.xz
+git config --global --add safe.directory /opt/flutter
+```
+
 ## Running checks
 ```bash
 export PATH="$PATH:/opt/flutter/bin"
-git config --global --add safe.directory /opt/flutter  # needed when running as root
 flutter pub get
 flutter analyze --fatal-infos
 flutter test --reporter expanded
