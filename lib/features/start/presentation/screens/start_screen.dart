@@ -114,6 +114,28 @@ class StartScreen extends ConsumerWidget {
 
                     const SizedBox(height: 12),
 
+                    // Maze Mode button
+                    SizedBox(
+                      width: double.infinity,
+                      child: OutlinedButton.icon(
+                        onPressed: () => context.push('/maze-settings'),
+                        style: OutlinedButton.styleFrom(
+                          foregroundColor: AppColors.torchGold,
+                          side: const BorderSide(
+                              color: AppColors.torchGold, width: 1.5),
+                          padding: const EdgeInsets.symmetric(vertical: 14),
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(6)),
+                        ),
+                        icon: const Icon(Icons.explore, size: 18),
+                        label: Text('Maze Mode',
+                            style: textTheme.labelLarge?.copyWith(
+                                color: AppColors.torchGold, fontSize: 16)),
+                      ),
+                    ).animate().fadeIn(duration: 500.ms, delay: 650.ms),
+
+                    const SizedBox(height: 12),
+
                     // Select Mode button
                     SizedBox(
                       width: double.infinity,

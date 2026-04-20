@@ -3,7 +3,7 @@
 ## Unreleased
 
 ### Features
-- (none)
+- **Maze Mode** — a new 10×10 grid game mode inspired by the original Mind Maze; navigate a procedurally generated perfect maze with fog-of-war reveal, answer-locked doors, free backtracking, and a hidden Throne Room win condition; accessible via a new "Maze Mode" tile on the Start screen (#40)
 
 ### Fixes
 - (none)
