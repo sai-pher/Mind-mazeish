@@ -9,6 +9,7 @@
 
 ### Fixes
 - Bug report drafts can now be saved, listed in the Pending tab, and reloaded into the Bug Report form — the tab was missing a Save Draft button and draft restore logic entirely (#110)
+- Issues tab no longer shows the "🔗 PR open" badge on issues that are only casually mentioned in a PR body — the detection regex now requires an explicit closing keyword (Closes/Fixes/Resolves) (#114)
 
 ### Content
 - (none)
