@@ -26,7 +26,7 @@ String _difficultyDescription(int bias, GameMode mode) {
   };
   if (mode == GameMode.endless) {
     final streakLimit = QuizConfig(
-      selectedTopicIds: const {},
+      selectedTopicIds: const <String>{},
       questionCount: 10,
       gameMode: GameMode.endless,
       difficultyBias: bias,
