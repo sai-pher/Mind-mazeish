@@ -15,11 +15,16 @@ class FeedbackDraft {
   final DateTime updatedAt;
 
   // Field name constants for each type.
-  static const fieldTitle       = 'title';
-  static const fieldBody        = 'body';
-  static const fieldCategory    = 'category';   // general
-  static const fieldRequestType = 'requestType'; // content
-  static const fieldTopicId     = 'topicId';     // content
+  static const fieldTitle          = 'title';
+  static const fieldBody           = 'body';
+  static const fieldCategory       = 'category';        // general
+  static const fieldRequestType    = 'requestType';     // content
+  static const fieldTopicId        = 'topicId';         // content
+  static const fieldGiven          = 'given';           // bug
+  static const fieldWhen           = 'when';            // bug
+  static const fieldThenExpected   = 'thenExpected';    // bug
+  static const fieldButActually    = 'butActually';     // bug
+  static const fieldSupportingDetails = 'supportingDetails'; // bug
 
   const FeedbackDraft({
     required this.id,
