@@ -3,10 +3,13 @@
 ## Unreleased
 
 ### Features
-- (none)
+- Dedicated **Game Settings** screen between mode selection and game start — shows a difficulty slider (Very Easy → Very Hard) with a contextual description (Endless mode shows the streak-reward threshold), question-count buttons for Standard mode, and a Topics tile; mode cards now show a **Select** button instead of launching immediately (#112)
+- Topic picker launched from Game Settings shows **Set All** / **Set Chosen** confirmation buttons instead of the full start bar, making it clear the selection returns to the settings page (#112)
+- **Question Bank** nav tile added to the Learn section of Settings (#112)
 
 ### Fixes
-- (none)
+- Bug report drafts can now be saved, listed in the Pending tab, and reloaded into the Bug Report form — the tab was missing a Save Draft button and draft restore logic entirely (#110)
+- Issues tab no longer shows the "🔗 PR open" badge on issues that are only casually mentioned in a PR body — the detection regex now requires an explicit closing keyword (Closes/Fixes/Resolves) (#114)
 
 ### Content
 - (none)
