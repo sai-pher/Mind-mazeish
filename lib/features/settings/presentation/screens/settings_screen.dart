@@ -312,6 +312,19 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             trailing: const Icon(Icons.chevron_right, color: AppColors.stoneMid),
             onTap: () => context.push('/how-to-play'),
           ),
+          ListTile(
+            leading:
+                const Icon(Icons.library_books_outlined, color: AppColors.torchAmber),
+            title: const Text('Question Bank',
+                style: TextStyle(color: AppColors.textLight)),
+            subtitle: Text(
+              'Browse questions by topic and difficulty',
+              style: tt.bodySmall?.copyWith(
+                  color: AppColors.textLight.withValues(alpha: 0.5)),
+            ),
+            trailing: const Icon(Icons.chevron_right, color: AppColors.stoneMid),
+            onTap: () => context.push('/stats'),
+          ),
 
           // ── Feedback ─────────────────────────────────────────────────────
           const _SectionHeader('Feedback'),
