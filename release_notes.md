@@ -12,7 +12,7 @@
 - (none)
 
 ### Other
-- (none)
+- Add AI task plan for Maze Mode core game (#40)
 ---
 
 ## v1.0.53
